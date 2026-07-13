@@ -1,9 +1,25 @@
 from fastapi import APIRouter
-from app.services.dashboard_service import get_dashboard
+from pydantic import BaseModel
 
-router = APIRouter(prefix="/dashboard",tags=["Dashboard"])
+from app.services.dashboard.dashboard_service import DashboardService
+from app.services.data_service import data_service
 
-@router.get("")
-def dashboard():
+router = APIRouter()
 
-    return get_dashboard()
+service = DashboardService()
+
+
+class DashboardRequest(BaseModel):
+    filename: str
+
+
+@router.post("/dashboard")
+def generate_dashboard(request: DashboardRequest):
+
+    # Đọc DataFrame thông qua DataService
+    df = data_service.load_dataframe(request.filename)
+
+    # Tạo dashboard
+    dashboard = service.generate(df)
+
+    return dashboard
