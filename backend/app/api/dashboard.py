@@ -1,3 +1,4 @@
+from backend.app.services import dashboard
 from fastapi import APIRouter
 from pydantic import BaseModel
 
@@ -21,5 +22,7 @@ def generate_dashboard(request: DashboardRequest):
 
     # Tạo dashboard
     dashboard = service.generate(df)
+
+    print("Generated dashboard:", dashboard)
 
     return dashboard
