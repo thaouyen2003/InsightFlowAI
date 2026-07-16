@@ -1,9 +1,9 @@
-from backend.app.services import dashboard
-from fastapi import APIRouter
+from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
 
 from app.services.dashboard.dashboard_service import DashboardService
 from app.services.data_service import data_service
+
 
 router = APIRouter()
 
@@ -16,13 +16,47 @@ class DashboardRequest(BaseModel):
 
 @router.post("/dashboard")
 def generate_dashboard(request: DashboardRequest):
+    try:
+        # Đọc DataFrame thông qua DataService
+        df = data_service.load_dataframe(request.filename)
 
-    # Đọc DataFrame thông qua DataService
-    df = data_service.load_dataframe(request.filename)
+        # Tạo dashboard
+        dashboard_result = service.generate(df)
 
-    # Tạo dashboard
-    dashboard = service.generate(df)
+        print(
+            "Generated dashboard:",
+            {
+                "status": dashboard_result.get("status"),
+                "kpi_count": len(
+                    dashboard_result.get("kpis", [])
+                ),
+                "chart_count": len(
+                    dashboard_result.get("charts", [])
+                ),
+                "warning_count": len(
+                    dashboard_result.get("warnings", [])
+                ),
+            },
+        )
 
-    print("Generated dashboard:", dashboard)
+        return dashboard_result
 
-    return dashboard
+    except FileNotFoundError:
+        raise HTTPException(
+            status_code=404,
+            detail=f"Không tìm thấy file: {request.filename}",
+        )
+
+    except ValueError as error:
+        raise HTTPException(
+            status_code=400,
+            detail=str(error),
+        )
+
+    except Exception as error:
+        print("Dashboard API error:", str(error))
+
+        raise HTTPException(
+            status_code=500,
+            detail=f"Không thể tạo dashboard: {str(error)}",
+        )
