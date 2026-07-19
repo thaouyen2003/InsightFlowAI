@@ -9,6 +9,7 @@ from pandas.api.types import (
 )
 
 
+
 class ColumnAnalyzer:
     """
     Phân tích kiểu dữ liệu, ý nghĩa và vai trò của từng cột.
@@ -19,6 +20,20 @@ class ColumnAnalyzer:
     - Tạo KPI
     - Đề xuất biểu đồ
     """
+
+    CATEGORY_KEYWORDS = {
+    "category",
+    "channel",
+    "status",
+    "method",
+    "type",
+    "segment",
+    "department",
+    "region",
+    "rep",
+    "representative",
+    "name",
+}
 
     ID_KEYWORDS = {
         "id",

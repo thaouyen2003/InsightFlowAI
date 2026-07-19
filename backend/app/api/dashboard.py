@@ -23,21 +23,36 @@ def generate_dashboard(request: DashboardRequest):
         # Tạo dashboard
         dashboard_result = service.generate(df)
 
-        print(
-            "Generated dashboard:",
-            {
-                "status": dashboard_result.get("status"),
-                "kpi_count": len(
-                    dashboard_result.get("kpis", [])
-                ),
-                "chart_count": len(
-                    dashboard_result.get("charts", [])
-                ),
-                "warning_count": len(
-                    dashboard_result.get("warnings", [])
-                ),
-            },
-        )
+        print("\n========== DASHBOARD RESULT ==========")
+
+        print("Status:", dashboard_result["status"])
+
+        print("KPI:", len(dashboard_result["kpis"]))
+
+        print("Charts:", len(dashboard_result["charts"]))
+
+        print("\nWarnings:")
+
+        for warning in dashboard_result["warnings"]:
+            print("-", warning)
+
+        print("=====================================\n")
+
+        # print(
+        #     "Generated dashboard:",
+        #     {
+        #         "status": dashboard_result.get("status"),
+        #         "kpi_count": len(
+        #             dashboard_result.get("kpis", [])
+        #         ),
+        #         "chart_count": len(
+        #             dashboard_result.get("charts", [])
+        #         ),
+        #         "warning_count": len(
+        #             dashboard_result.get("warnings", [])
+        #         ),
+        #     },
+        # )
 
         return dashboard_result
 
