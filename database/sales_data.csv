@@ -1,0 +1,101 @@
+﻿order_id,order_date,product_category,product_name,unit_price,quantity,discount_pct,discount_amount,revenue_gross,revenue_net,region,sales_channel,payment_method,customer_type,sales_rep,order_status
+DH1014,2025-01-01,Điện tử,Sạc dự phòng,249000,3,5,37350,747000,709650,Nha Trang,Online - Tiki,COD,Khách mới,Hoàng Thị Hoa,Hoàn tất
+DH1094,2025-01-01,Điện tử,Webcam HD,249000,14,10,348600,3486000,3137400,Nha Trang,Facebook/Zalo,Ví điện tử (Momo/ZaloPay),Khách thân thiết,Nguyễn Văn An,Hoàn tất
+DH1085,2025-01-01,Thời trang,Áo sơ mi nữ,399000,2,0,0,798000,798000,Cần Thơ,Cửa hàng trực tiếp,COD,Khách thân thiết,Lê Minh Châu,Hoàn tất
+DH1049,2025-01-01,Sách & VPP,Sách kỹ năng sống,159000,7,10,111300,1113000,1001700,Đà Nẵng,Online - Tiki,Chuyển khoản,Khách thân thiết,Hoàng Thị Hoa,Đã hủy
+DH1080,2025-01-04,Thời trang,Mũ lưỡi trai,999000,8,0,0,7992000,7992000,Hải Phòng,Online - Tiki,Ví điện tử (Momo/ZaloPay),Khách thân thiết,Phạm Quốc Đạt,Hoàn tất
+DH1096,2025-01-08,Gia dụng,Đèn bàn LED,799000,8,0,0,6392000,6392000,Nha Trang,Facebook/Zalo,Chuyển khoản,Khách VIP,Trần Thị Bích,Hoàn tất
+DH1072,2025-01-08,Sách & VPP,Sách kỹ năng sống,599000,7,0,0,4193000,4193000,Cần Thơ,Online - Tiki,Chuyển khoản,Khách thân thiết,Trần Thị Bích,Hoàn tất
+DH1030,2025-01-11,Điện tử,Bàn phím cơ,129000,10,10,129000,1290000,1161000,Hải Phòng,Online - Shopee,Ví điện tử (Momo/ZaloPay),Khách VIP,Hoàng Thị Hoa,Đã hủy
+DH1023,2025-01-14,Thực phẩm,Snack khoai tây,299000,14,15,627900,4186000,3558100,Nha Trang,Online - Shopee,Thẻ tín dụng,Khách thân thiết,Vũ Đức Huy,Hoàn tất
+DH1064,2025-01-14,Điện tử,Chuột không dây,49000,12,10,58800,588000,529200,Đà Nẵng,Online - Lazada,Thẻ tín dụng,Khách VIP,Nguyễn Văn An,Hoàn tất
+DH1043,2025-01-18,Thời trang,Giày sneaker,199000,5,20,199000,995000,796000,Đà Nẵng,Online - Tiki,COD,Khách thân thiết,Vũ Đức Huy,Đã hủy
+DH1099,2025-01-18,Thời trang,Túi xách,399000,12,0,0,4788000,4788000,Đà Nẵng,Cửa hàng trực tiếp,Tiền mặt,Khách VIP,Lê Minh Châu,Hoàn tất
+DH1052,2025-01-19,Điện tử,Loa mini,299000,10,20,598000,2990000,2392000,Cần Thơ,Cửa hàng trực tiếp,COD,Khách mới,Vũ Đức Huy,Đang xử lý
+DH1032,2025-01-19,Gia dụng,Đèn bàn LED,199000,15,20,597000,2985000,2388000,Hồ Chí Minh,Cửa hàng trực tiếp,COD,Khách VIP,Nguyễn Văn An,Hoàn tất
+DH1005,2025-01-21,Thực phẩm,Mì gói cao cấp,79000,15,5,59250,1185000,1125750,Hải Phòng,Online - Tiki,COD,Khách thân thiết,Hoàng Thị Hoa,Hoàn tất
+DH1084,2025-01-26,Sách & VPP,Sách kỹ năng sống,49000,10,15,73500,490000,416500,Hà Nội,Online - Lazada,Tiền mặt,Khách VIP,Nguyễn Văn An,Hoàn tất
+DH1081,2025-01-30,Thời trang,Áo thun nam,159000,14,5,111300,2226000,2114700,Hồ Chí Minh,Cửa hàng trực tiếp,Ví điện tử (Momo/ZaloPay),Khách mới,Hoàng Thị Hoa,Đang xử lý
+DH1054,2025-02-01,Sách & VPP,Bút lông màu,49000,9,0,0,441000,441000,Cần Thơ,Online - Lazada,Ví điện tử (Momo/ZaloPay),Khách VIP,Hoàng Thị Hoa,Đã hủy
+DH1047,2025-02-01,Gia dụng,Quạt để bàn,199000,11,20,437800,2189000,1751200,Nha Trang,Online - Tiki,COD,Khách thân thiết,Vũ Đức Huy,Hoàn tất
+DH1017,2025-02-02,Thực phẩm,Cà phê rang xay,999000,9,20,1798200,8991000,7192800,Hà Nội,Cửa hàng trực tiếp,COD,Khách mới,Lê Minh Châu,Đã hủy
+DH1079,2025-02-02,Thời trang,Quần jean,49000,12,10,58800,588000,529200,Đà Nẵng,Online - Shopee,Thẻ tín dụng,Khách VIP,Lê Minh Châu,Đang xử lý
+DH1048,2025-02-02,Gia dụng,Đèn bàn LED,799000,5,10,399500,3995000,3595500,Hà Nội,Cửa hàng trực tiếp,Ví điện tử (Momo/ZaloPay),Khách VIP,Vũ Đức Huy,Hoàn tất
+DH1037,2025-02-03,Gia dụng,Nồi cơm điện,49000,6,20,58800,294000,235200,Nha Trang,Online - Tiki,Chuyển khoản,Khách VIP,Phạm Quốc Đạt,Đã hủy
+DH1015,2025-02-09,Gia dụng,Máy lọc nước mini,399000,10,0,0,3990000,3990000,Đà Nẵng,Online - Lazada,COD,Khách VIP,Nguyễn Văn An,Đã hủy
+DH1012,2025-02-09,Điện tử,Webcam HD,49000,14,0,0,686000,686000,Nha Trang,Online - Lazada,Ví điện tử (Momo/ZaloPay),Khách VIP,Nguyễn Văn An,Hoàn tất
+DH1035,2025-02-09,Gia dụng,Nồi cơm điện,79000,12,10,94800,948000,853200,Đà Nẵng,Online - Tiki,COD,Khách mới,Vũ Đức Huy,Hoàn tất
+DH1044,2025-02-15,Gia dụng,Nồi cơm điện,79000,15,0,0,1185000,1185000,Hải Phòng,Online - Tiki,Thẻ tín dụng,Khách mới,Hoàng Thị Hoa,Hoàn tất
+DH1029,2025-02-17,Thời trang,Áo thun nam,399000,2,20,159600,798000,638400,Hồ Chí Minh,Facebook/Zalo,Thẻ tín dụng,Khách VIP,Trần Thị Bích,Hoàn tất
+DH1050,2025-02-24,Gia dụng,Đèn bàn LED,299000,8,15,358800,2392000,2033200,Hải Phòng,Cửa hàng trực tiếp,Chuyển khoản,Khách VIP,Nguyễn Văn An,Hoàn tất
+DH1058,2025-02-24,Thời trang,Giày sneaker,799000,3,15,359550,2397000,2037450,Hồ Chí Minh,Cửa hàng trực tiếp,Ví điện tử (Momo/ZaloPay),Khách thân thiết,Hoàng Thị Hoa,Hoàn tất
+DH1097,2025-02-27,Sách & VPP,Sổ tay bìa da,399000,7,0,0,2793000,2793000,Hồ Chí Minh,Cửa hàng trực tiếp,Thẻ tín dụng,Khách VIP,Trần Thị Bích,Hoàn tất
+DH1001,2025-02-27,Điện tử,Tai nghe Bluetooth,799000,5,0,0,3995000,3995000,Hà Nội,Online - Shopee,COD,Khách mới,Hoàng Thị Hoa,Hoàn tất
+DH1051,2025-03-02,Sách & VPP,Sách kỹ năng sống,199000,2,20,79600,398000,318400,Nha Trang,Online - Tiki,Chuyển khoản,Khách mới,Trần Thị Bích,Hoàn tất
+DH1065,2025-03-03,Thời trang,Áo sơ mi nữ,49000,10,0,0,490000,490000,Hà Nội,Cửa hàng trực tiếp,Thẻ tín dụng,Khách VIP,Trần Thị Bích,Hoàn tất
+DH1074,2025-03-03,Thời trang,Mũ lưỡi trai,249000,8,10,199200,1992000,1792800,Nha Trang,Cửa hàng trực tiếp,Ví điện tử (Momo/ZaloPay),Khách thân thiết,Nguyễn Văn An,Hoàn tất
+DH1019,2025-03-05,Gia dụng,Đèn bàn LED,399000,8,0,0,3192000,3192000,Hà Nội,Online - Shopee,Tiền mặt,Khách mới,Hoàng Thị Hoa,Đã hủy
+DH1057,2025-03-11,Thực phẩm,Cà phê rang xay,799000,5,0,0,3995000,3995000,Đà Nẵng,Online - Tiki,COD,Khách mới,Trần Thị Bích,Hoàn tất
+DH1003,2025-03-13,Sách & VPP,Bút lông màu,129000,8,10,103200,1032000,928800,Hồ Chí Minh,Online - Lazada,Ví điện tử (Momo/ZaloPay),Khách thân thiết,Lê Minh Châu,Hoàn tất
+DH1088,2025-03-15,Gia dụng,Quạt để bàn,799000,14,10,1118600,11186000,10067400,Cần Thơ,Online - Shopee,Ví điện tử (Momo/ZaloPay),Khách VIP,Lê Minh Châu,Đang xử lý
+DH1006,2025-03-16,Điện tử,Tai nghe Bluetooth,599000,4,20,479200,2396000,1916800,Hồ Chí Minh,Online - Lazada,Thẻ tín dụng,Khách thân thiết,Lê Minh Châu,Hoàn tất
+DH1082,2025-03-19,Điện tử,Loa mini,99000,13,10,128700,1287000,1158300,Hồ Chí Minh,Online - Lazada,Thẻ tín dụng,Khách VIP,Phạm Quốc Đạt,Đã hủy
+DH1075,2025-03-20,Gia dụng,Máy xay sinh tố,249000,12,0,0,2988000,2988000,Nha Trang,Facebook/Zalo,Tiền mặt,Khách thân thiết,Hoàng Thị Hoa,Đã hủy
+DH1016,2025-03-20,Gia dụng,Đèn bàn LED,49000,2,0,0,98000,98000,Hà Nội,Online - Shopee,Chuyển khoản,Khách VIP,Nguyễn Văn An,Hoàn tất
+DH1028,2025-03-22,Điện tử,Bàn phím cơ,799000,9,0,0,7191000,7191000,Hồ Chí Minh,Online - Shopee,COD,Khách thân thiết,Hoàng Thị Hoa,Đã hủy
+DH1071,2025-03-24,Thực phẩm,Snack khoai tây,799000,10,0,0,7990000,7990000,Hà Nội,Online - Shopee,Tiền mặt,Khách thân thiết,Trần Thị Bích,Hoàn tất
+DH1092,2025-03-27,Thực phẩm,Cà phê rang xay,299000,6,5,89700,1794000,1704300,Đà Nẵng,Online - Shopee,Chuyển khoản,Khách thân thiết,Phạm Quốc Đạt,Đang xử lý
+DH1061,2025-03-28,Gia dụng,Đèn bàn LED,299000,1,5,14950,299000,284050,Nha Trang,Cửa hàng trực tiếp,Chuyển khoản,Khách thân thiết,Trần Thị Bích,Đã hủy
+DH1033,2025-03-31,Sách & VPP,Bút bi cao cấp,399000,5,0,0,1995000,1995000,Hồ Chí Minh,Online - Lazada,Tiền mặt,Khách thân thiết,Trần Thị Bích,Hoàn tất
+DH1076,2025-04-01,Gia dụng,Đèn bàn LED,799000,9,0,0,7191000,7191000,Nha Trang,Cửa hàng trực tiếp,Tiền mặt,Khách thân thiết,Lê Minh Châu,Hoàn tất
+DH1039,2025-04-04,Thời trang,Giày sneaker,99000,1,0,0,99000,99000,Hồ Chí Minh,Online - Tiki,Chuyển khoản,Khách VIP,Trần Thị Bích,Đang xử lý
+DH1083,2025-04-08,Sách & VPP,Sách kỹ năng sống,129000,13,10,167700,1677000,1509300,Cần Thơ,Cửa hàng trực tiếp,Tiền mặt,Khách VIP,Phạm Quốc Đạt,Hoàn tất
+DH1004,2025-04-08,Thời trang,Thắt lưng da,199000,2,0,0,398000,398000,Hồ Chí Minh,Online - Tiki,Tiền mặt,Khách VIP,Lê Minh Châu,Hoàn tất
+DH1059,2025-04-10,Thực phẩm,Cà phê rang xay,129000,14,5,90300,1806000,1715700,Hải Phòng,Online - Shopee,COD,Khách thân thiết,Phạm Quốc Đạt,Hoàn tất
+DH1067,2025-04-12,Gia dụng,Quạt để bàn,599000,15,5,449250,8985000,8535750,Nha Trang,Online - Lazada,Thẻ tín dụng,Khách VIP,Vũ Đức Huy,Đang xử lý
+DH1026,2025-04-13,Thời trang,Giày sneaker,299000,8,0,0,2392000,2392000,Hồ Chí Minh,Online - Lazada,Ví điện tử (Momo/ZaloPay),Khách mới,Phạm Quốc Đạt,Hoàn tất
+DH1009,2025-04-13,Thời trang,Thắt lưng da,49000,13,0,0,637000,637000,Đà Nẵng,Online - Shopee,Chuyển khoản,Khách VIP,Vũ Đức Huy,Hoàn tất
+DH1040,2025-04-15,Điện tử,Sạc dự phòng,999000,9,20,1798200,8991000,7192800,Hải Phòng,Online - Lazada,Chuyển khoản,Khách mới,Trần Thị Bích,Hoàn tất
+DH1022,2025-04-15,Thực phẩm,Trà túi lọc,999000,8,20,1598400,7992000,6393600,Hà Nội,Online - Shopee,Thẻ tín dụng,Khách VIP,Phạm Quốc Đạt,Hoàn tất
+DH1041,2025-04-16,Điện tử,Loa mini,799000,15,0,0,11985000,11985000,Nha Trang,Online - Lazada,Tiền mặt,Khách mới,Vũ Đức Huy,Hoàn tất
+DH1060,2025-04-18,Gia dụng,Bình giữ nhiệt,999000,7,20,1398600,6993000,5594400,Hải Phòng,Facebook/Zalo,COD,Khách mới,Phạm Quốc Đạt,Hoàn tất
+DH1070,2025-04-22,Gia dụng,Máy lọc nước mini,299000,12,0,0,3588000,3588000,Hà Nội,Facebook/Zalo,Tiền mặt,Khách VIP,Hoàng Thị Hoa,Hoàn tất
+DH1089,2025-04-23,Thực phẩm,Bánh quy,399000,9,5,179550,3591000,3411450,Hồ Chí Minh,Facebook/Zalo,Thẻ tín dụng,Khách thân thiết,Vũ Đức Huy,Hoàn tất
+DH1024,2025-04-25,Điện tử,Loa mini,129000,4,10,51600,516000,464400,Hà Nội,Cửa hàng trực tiếp,Chuyển khoản,Khách thân thiết,Phạm Quốc Đạt,Hoàn tất
+DH1063,2025-04-27,Điện tử,Sạc dự phòng,249000,6,0,0,1494000,1494000,Đà Nẵng,Online - Tiki,Ví điện tử (Momo/ZaloPay),Khách thân thiết,Phạm Quốc Đạt,Hoàn tất
+DH1086,2025-04-27,Thời trang,Quần jean,799000,5,15,599250,3995000,3395750,Hồ Chí Minh,Online - Lazada,Tiền mặt,Khách VIP,Hoàng Thị Hoa,Đang xử lý
+DH1010,2025-04-28,Thời trang,Mũ lưỡi trai,299000,7,15,313950,2093000,1779050,Hà Nội,Online - Tiki,Chuyển khoản,Khách mới,Vũ Đức Huy,Đã hủy
+DH1042,2025-04-28,Thực phẩm,Cà phê rang xay,299000,4,0,0,1196000,1196000,Đà Nẵng,Online - Tiki,Chuyển khoản,Khách mới,Nguyễn Văn An,Đang xử lý
+DH1098,2025-05-04,Gia dụng,Quạt để bàn,799000,5,5,199750,3995000,3795250,Cần Thơ,Online - Lazada,Ví điện tử (Momo/ZaloPay),Khách VIP,Trần Thị Bích,Hoàn tất
+DH1021,2025-05-05,Điện tử,Bàn phím cơ,129000,5,15,96750,645000,548250,Hà Nội,Facebook/Zalo,Chuyển khoản,Khách VIP,Hoàng Thị Hoa,Đã hủy
+DH1002,2025-05-10,Điện tử,Tai nghe Bluetooth,79000,4,0,0,316000,316000,Hải Phòng,Online - Shopee,COD,Khách mới,Vũ Đức Huy,Đang xử lý
+DH1036,2025-05-10,Thời trang,Mũ lưỡi trai,599000,14,0,0,8386000,8386000,Cần Thơ,Online - Tiki,Thẻ tín dụng,Khách mới,Vũ Đức Huy,Hoàn tất
+DH1091,2025-05-13,Điện tử,Webcam HD,999000,3,5,149850,2997000,2847150,Nha Trang,Cửa hàng trực tiếp,Tiền mặt,Khách mới,Hoàng Thị Hoa,Hoàn tất
+DH1034,2025-05-16,Sách & VPP,Balo laptop,499000,13,15,973050,6487000,5513950,Hồ Chí Minh,Facebook/Zalo,Tiền mặt,Khách VIP,Nguyễn Văn An,Hoàn tất
+DH1046,2025-05-18,Điện tử,Ổ cứng di động,249000,1,10,24900,249000,224100,Nha Trang,Online - Lazada,Tiền mặt,Khách thân thiết,Nguyễn Văn An,Đang xử lý
+DH1077,2025-05-18,Điện tử,Ổ cứng di động,129000,6,0,0,774000,774000,Nha Trang,Online - Lazada,Chuyển khoản,Khách mới,Vũ Đức Huy,Hoàn tất
+DH1093,2025-05-21,Thực phẩm,Bánh quy,599000,7,20,838600,4193000,3354400,Hồ Chí Minh,Cửa hàng trực tiếp,Thẻ tín dụng,Khách thân thiết,Lê Minh Châu,Hoàn tất
+DH1025,2025-05-21,Điện tử,Chuột không dây,999000,14,20,2797200,13986000,11188800,Hồ Chí Minh,Online - Shopee,COD,Khách mới,Nguyễn Văn An,Hoàn tất
+DH1013,2025-05-22,Thực phẩm,Mì gói cao cấp,299000,9,0,0,2691000,2691000,Hồ Chí Minh,Online - Shopee,COD,Khách thân thiết,Vũ Đức Huy,Hoàn tất
+DH1027,2025-05-23,Thực phẩm,Bánh quy,249000,12,15,448200,2988000,2539800,Nha Trang,Cửa hàng trực tiếp,Chuyển khoản,Khách mới,Lê Minh Châu,Hoàn tất
+DH1100,2025-05-29,Gia dụng,Máy lọc nước mini,159000,14,10,222600,2226000,2003400,Nha Trang,Cửa hàng trực tiếp,Chuyển khoản,Khách thân thiết,Hoàng Thị Hoa,Hoàn tất
+DH1011,2025-05-30,Sách & VPP,Balo laptop,799000,10,5,399500,7990000,7590500,Cần Thơ,Online - Tiki,Chuyển khoản,Khách mới,Hoàng Thị Hoa,Hoàn tất
+DH1078,2025-06-02,Gia dụng,Máy lọc nước mini,499000,13,10,648700,6487000,5838300,Đà Nẵng,Online - Shopee,Chuyển khoản,Khách thân thiết,Trần Thị Bích,Hoàn tất
+DH1045,2025-06-05,Gia dụng,Máy lọc nước mini,999000,6,5,299700,5994000,5694300,Hải Phòng,Online - Shopee,Ví điện tử (Momo/ZaloPay),Khách VIP,Trần Thị Bích,Hoàn tất
+DH1055,2025-06-06,Sách & VPP,Balo laptop,999000,15,5,749250,14985000,14235750,Nha Trang,Facebook/Zalo,Ví điện tử (Momo/ZaloPay),Khách VIP,Phạm Quốc Đạt,Hoàn tất
+DH1095,2025-06-10,Sách & VPP,Balo laptop,499000,13,5,324350,6487000,6162650,Cần Thơ,Online - Shopee,Chuyển khoản,Khách thân thiết,Hoàng Thị Hoa,Hoàn tất
+DH1008,2025-06-13,Thời trang,Áo sơ mi nữ,299000,7,0,0,2093000,2093000,Nha Trang,Facebook/Zalo,Chuyển khoản,Khách VIP,Lê Minh Châu,Hoàn tất
+DH1056,2025-06-13,Thực phẩm,Snack khoai tây,159000,13,0,0,2067000,2067000,Đà Nẵng,Facebook/Zalo,Ví điện tử (Momo/ZaloPay),Khách VIP,Trần Thị Bích,Hoàn tất
+DH1069,2025-06-15,Thực phẩm,Hạt điều rang muối,199000,2,10,39800,398000,358200,Đà Nẵng,Online - Shopee,Ví điện tử (Momo/ZaloPay),Khách thân thiết,Nguyễn Văn An,Hoàn tất
+DH1087,2025-06-15,Thời trang,Giày sneaker,79000,9,0,0,711000,711000,Hà Nội,Online - Tiki,Chuyển khoản,Khách mới,Nguyễn Văn An,Hoàn tất
+DH1053,2025-06-17,Thực phẩm,Snack khoai tây,249000,4,0,0,996000,996000,Nha Trang,Online - Shopee,Thẻ tín dụng,Khách thân thiết,Trần Thị Bích,Hoàn tất
+DH1062,2025-06-19,Sách & VPP,Sổ tay bìa da,249000,10,10,249000,2490000,2241000,Hồ Chí Minh,Online - Shopee,Ví điện tử (Momo/ZaloPay),Khách mới,Phạm Quốc Đạt,Hoàn tất
+DH1007,2025-06-21,Gia dụng,Máy xay sinh tố,199000,6,0,0,1194000,1194000,Đà Nẵng,Online - Shopee,COD,Khách VIP,Trần Thị Bích,Đã hủy
+DH1090,2025-06-22,Sách & VPP,Balo laptop,49000,2,0,0,98000,98000,Hải Phòng,Facebook/Zalo,Thẻ tín dụng,Khách VIP,Lê Minh Châu,Đã hủy
+DH1068,2025-06-25,Thời trang,Áo thun nam,799000,13,0,0,10387000,10387000,Hải Phòng,Online - Shopee,COD,Khách mới,Lê Minh Châu,Đã hủy
+DH1038,2025-06-26,Thực phẩm,Mì gói cao cấp,49000,2,0,0,98000,98000,Hà Nội,Facebook/Zalo,Thẻ tín dụng,Khách thân thiết,Hoàng Thị Hoa,Đã hủy
+DH1073,2025-06-29,Gia dụng,Bình giữ nhiệt,159000,15,10,238500,2385000,2146500,Đà Nẵng,Facebook/Zalo,Thẻ tín dụng,Khách VIP,Trần Thị Bích,Hoàn tất
+DH1020,2025-07-01,Thời trang,Túi xách,129000,1,0,0,129000,129000,Nha Trang,Online - Shopee,Chuyển khoản,Khách mới,Nguyễn Văn An,Hoàn tất
+DH1031,2025-07-03,Sách & VPP,Balo laptop,159000,4,15,95400,636000,540600,Đà Nẵng,Online - Lazada,Tiền mặt,Khách thân thiết,Trần Thị Bích,Đang xử lý
+DH1066,2025-07-03,Gia dụng,Bình giữ nhiệt,99000,10,10,99000,990000,891000,Hồ Chí Minh,Online - Lazada,Tiền mặt,Khách mới,Hoàng Thị Hoa,Hoàn tất
+DH1018,2025-07-06,Sách & VPP,Bút lông màu,129000,15,10,193500,1935000,1741500,Nha Trang,Online - Lazada,Tiền mặt,Khách thân thiết,Vũ Đức Huy,Đang xử lý
