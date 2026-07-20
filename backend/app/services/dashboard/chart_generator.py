@@ -2,7 +2,6 @@ from typing import Any
 
 import pandas as pd
 
-
 class ChartGenerator:
     """
     Tạo biểu đồ thông minh dựa trên:
@@ -232,18 +231,19 @@ class ChartGenerator:
 
                 # Pie
                 if 2 <= unique_count <= 6:
+                    pie_score = base_score + 11
+
                     candidates.append({
                         "type": "pie",
                         "dimension": dimension_name,
                         "measure": measure_name,
                         "aggregation": aggregation,
-                        "score": base_score,
+                        "score": pie_score,
                         "reason": (
-                            "Category có ít nhóm, "
-                            "phù hợp biểu đồ tỷ trọng."
+                            "Category có ít nhóm, phù hợp "
+                            "biểu đồ tỷ trọng."
                         ),
                     })
-
                 # Horizontal Bar
                 if 9 <= unique_count <= 30:
                     candidates.append({
@@ -697,7 +697,6 @@ class ChartGenerator:
             "score": candidate["score"],
             "reason": candidate["reason"],
         }
-
 
     def _generate_pie_chart(
         self,

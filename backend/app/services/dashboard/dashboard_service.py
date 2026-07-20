@@ -1,5 +1,7 @@
+import traceback
 from typing import Any
 
+from fastapi import HTTPException
 import pandas as pd
 
 from app.services.dashboard.chart_generator import ChartGenerator
@@ -9,7 +11,9 @@ from app.services.dashboard.dataset_classifier import DatasetClassifier
 from app.services.dashboard.kpi_generator import KPIGenerator
 from app.services.dashboard.insight_generator import InsightGenerator
 from app.services.dashboard.dashboard_composer import DashboardComposer
-
+from app.services.dashboard.llm_insight_writer import (
+    LLMInsightWriter,
+)
 
 class DashboardService:
     """
@@ -32,6 +36,7 @@ class DashboardService:
         self.chart_generator = ChartGenerator()
         self.insight_generator = InsightGenerator()
         self.dashboard_composer = DashboardComposer()
+        self.llm_insight_writer = LLMInsightWriter()
 
 
     
@@ -101,6 +106,21 @@ class DashboardService:
             warnings=warnings,
         )
 
+        # 10. Dùng LLM viết lại insight
+        dashboard_summary = {
+            "rows": int(len(cleaned_df)),
+            "columns": int(len(cleaned_df.columns)),
+        }
+
+        llm_insight_result = (
+            self.llm_insight_writer.write(
+                insight_result=insight_result,
+                dataset_profile=dataset_profile,
+                dashboard_summary=dashboard_summary,
+                warnings=warnings,
+            )
+        )
+
         # 10. Xác định trạng thái
         status = self._determine_status(
             kpis=selected_kpis,
@@ -138,52 +158,52 @@ class DashboardService:
                 insight_result["recommendations"]
             ),
             "insight_summary": insight_result["summary"],
+            "llm_insight": llm_insight_result,
             "warnings": warnings,
         }
 
 
-
+        
     def _safe_generate_kpis(
-        self,
-        df: pd.DataFrame,
-        data_context: dict[str, Any],
-        dataset_profile: dict[str, Any],
-    ) -> tuple[
-        list[dict[str, Any]],
-        list[dict[str, str]],
-    ]:
-        try:
-            result = self.kpi_generator.generate(
-                df=df,
-                data_context=data_context,
-                dataset_profile=dataset_profile,
-            )
+            self,
+            df: pd.DataFrame,
+            data_context: dict[str, Any],
+            dataset_profile: dict[str, Any],
+        ) -> tuple[
+            list[dict[str, Any]],
+            list[dict[str, str]],
+        ]:
+            try:
+                result = self.kpi_generator.generate(
+                    df=df,
+                    data_context=data_context,
+                    dataset_profile=dataset_profile,
+                )
 
-            if not isinstance(result, list):
+                if not isinstance(result, list):
+                    return [], [{
+                        "type": "invalid_kpi_result",
+                        "message": (
+                            "KPIGenerator không trả về "
+                            "danh sách KPI hợp lệ."
+                        ),
+                    }]
+
+                return result, []
+
+            except Exception as error:
+                print("\n===== KPI GENERATION ERROR =====")
+                traceback.print_exc()
+                print("================================\n")
+
                 return [], [{
-                    "type": "invalid_kpi_result",
+                    "type": "kpi_generation_failed",
                     "message": (
-                        "KPIGenerator không trả về "
-                        "danh sách KPI hợp lệ."
+                        "Không thể tạo KPI: "
+                        f"{str(error)}"
                     ),
                 }]
-
-            return result, []
-
-        except Exception as error:
-            print(
-                "KPI generation failed:",
-                str(error),
-            )
-
-            return [], [{
-                "type": "kpi_generation_failed",
-                "message": (
-                    "Không thể tạo KPI: "
-                    f"{str(error)}"
-                ),
-            }]
-   
+ 
     def _safe_generate_charts(
         self,
         df: pd.DataFrame,
@@ -239,3 +259,5 @@ class DashboardService:
             return "partial"
 
         return "insufficient_data"
+    
+

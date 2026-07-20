@@ -10,28 +10,56 @@ class KPIGenerator:
     - DataFrame đã được làm sạch
     - Semantic data context
     - Dataset profile
+    - Ngữ cảnh nghiệp vụ của dataset
 
-    Không cộng các cột identifier.
-    Không tạo KPI cho cột text hoặc dimension.
+    Không cộng identifier, score, rate hoặc balance
+    một cách thiếu ý nghĩa.
     """
 
     MAX_KPIS = 6
+
+    FINANCE_KEYWORDS = {
+        "transaction",
+        "payment",
+        "account",
+        "amount",
+        "balance",
+        "credit",
+        "risk",
+        "fee",
+        "deposit",
+        "withdrawal",
+        "loan",
+    }
 
     PRIORITY_KEYWORDS = {
         "revenue": 100,
         "sales": 95,
         "profit": 90,
-        "income": 85,
-        "amount": 80,
-        "cost": 75,
-        "expense": 75,
-        "quantity": 70,
-        "qty": 70,
-        "orders": 65,
-        "customers": 60,
-        "discount": 50,
-        "rate": 45,
-        "score": 40,
+        "amount": 88,
+        "cost": 80,
+        "expense": 80,
+        "quantity": 75,
+        "qty": 75,
+        "orders": 70,
+        "customers": 65,
+        "income": 60,
+        "discount": 55,
+        "rate": 50,
+        "score": 45,
+    }
+
+    MEAN_KEYWORDS = {
+        "score",
+        "rate",
+        "percentage",
+        "percent",
+        "income",
+        "salary",
+        "wage",
+        "balance",
+        "age",
+        "rating",
     }
 
     def generate(
@@ -41,9 +69,7 @@ class KPIGenerator:
         dataset_profile: dict[str, Any] | None = None,
     ) -> list[dict[str, Any]]:
         """
-        Tạo danh sách KPI.
-
-        Nếu chưa truyền data_context, fallback về KPI cơ bản.
+        Tạo danh sách KPI phù hợp với dataset.
         """
 
         if df.empty:
@@ -61,34 +87,256 @@ class KPIGenerator:
 
         kpis: list[dict[str, Any]] = []
 
-        kpis.extend(
-            self._generate_dataset_specific_kpis(
-                df=df,
-                data_context=data_context,
-                dataset_type=dataset_type,
-            )
+        is_finance = self._is_finance_dataset(
+            df=df,
+            dataset_type=dataset_type,
         )
 
-        kpis.extend(
-            self._generate_measure_kpis(
-                df=df,
-                data_context=data_context,
+        if is_finance:
+            kpis.extend(
+                self._generate_finance_kpis(df)
             )
-        )
+        else:
+            kpis.extend(
+                self._generate_dataset_specific_kpis(
+                    df=df,
+                    data_context=data_context,
+                    dataset_type=dataset_type,
+                )
+            )
 
-        kpis.extend(
-            self._generate_identifier_kpis(
-                df=df,
-                data_context=data_context,
-                dataset_type=dataset_type,
+            kpis.extend(
+                self._generate_measure_kpis(
+                    df=df,
+                    data_context=data_context,
+                )
             )
-        )
+
+            kpis.extend(
+                self._generate_identifier_kpis(
+                    df=df,
+                    data_context=data_context,
+                    dataset_type=dataset_type,
+                )
+            )
 
         kpis = self._remove_duplicate_kpis(kpis)
-
         kpis = self._sort_kpis(kpis)
 
         return kpis[:self.MAX_KPIS]
+
+    def _is_finance_dataset(
+        self,
+        df: pd.DataFrame,
+        dataset_type: str,
+    ) -> bool:
+        """
+        Nhận diện dataset tài chính dựa trên loại dataset
+        hoặc tên cột.
+        """
+
+        normalized_type = (
+            dataset_type
+            .strip()
+            .lower()
+        )
+
+        if normalized_type in {
+            "finance",
+            "financial",
+            "banking",
+            "transaction",
+            "payments",
+        }:
+            return True
+
+        matched_keywords = 0
+
+        for column in df.columns:
+            normalized_column = self._normalize_name(
+                str(column)
+            )
+
+            tokens = set(
+                normalized_column.split("_")
+            )
+
+            if tokens & self.FINANCE_KEYWORDS:
+                matched_keywords += 1
+
+        return matched_keywords >= 3
+
+    def _generate_finance_kpis(
+        self,
+        df: pd.DataFrame,
+    ) -> list[dict[str, Any]]:
+        """
+        KPI dành riêng cho dữ liệu tài chính/giao dịch.
+        """
+
+        kpis: list[dict[str, Any]] = []
+
+        transaction_column = self._find_dataframe_column(
+            df=df,
+            candidates={
+                "transaction_id",
+                "payment_id",
+                "order_id",
+                "invoice_id",
+            },
+        )
+
+        amount_column = self._find_dataframe_column(
+            df=df,
+            candidates={
+                "amount",
+                "transaction_amount",
+                "payment_value",
+                "payment_amount",
+                "total_amount",
+                "value",
+            },
+        )
+
+        fee_column = self._find_dataframe_column(
+            df=df,
+            candidates={
+                "transaction_fee",
+                "payment_fee",
+                "service_fee",
+                "fee",
+            },
+        )
+
+        status_column = self._find_dataframe_column(
+            df=df,
+            candidates={
+                "status",
+                "transaction_status",
+                "payment_status",
+                "order_status",
+            },
+        )
+
+        risk_column = self._find_dataframe_column(
+            df=df,
+            candidates={
+                "risk_level",
+                "risk_category",
+                "risk_status",
+            },
+        )
+
+        if transaction_column:
+            transaction_count = self._safe_nunique(
+                df,
+                transaction_column,
+            )
+        else:
+            transaction_count = int(len(df))
+
+        kpis.append({
+            "id": "total_transactions",
+            "title": "Total Transactions",
+            "value": transaction_count,
+            "format": "integer",
+            "column": transaction_column,
+            "aggregation": "nunique",
+            "priority": 110,
+        })
+
+        if amount_column:
+            total_amount = self._safe_sum(
+                df,
+                amount_column,
+            )
+
+            average_amount = self._safe_mean(
+                df,
+                amount_column,
+            )
+
+            kpis.append({
+                "id": "total_transaction_amount",
+                "title": "Total Transaction Amount",
+                "value": total_amount,
+                "format": "currency",
+                "column": amount_column,
+                "aggregation": "sum",
+                "priority": 109,
+            })
+
+            kpis.append({
+                "id": "average_transaction_value",
+                "title": "Average Transaction Value",
+                "value": average_amount,
+                "format": "currency",
+                "column": amount_column,
+                "aggregation": "mean",
+                "priority": 108,
+            })
+
+        if fee_column:
+            kpis.append({
+                "id": "total_transaction_fee",
+                "title": "Total Transaction Fee",
+                "value": self._safe_sum(
+                    df,
+                    fee_column,
+                ),
+                "format": "currency",
+                "column": fee_column,
+                "aggregation": "sum",
+                "priority": 107,
+            })
+
+        if status_column:
+            completed_rate = self._calculate_category_rate(
+                df=df,
+                column_name=status_column,
+                accepted_values={
+                    "completed",
+                    "complete",
+                    "success",
+                    "successful",
+                    "paid",
+                    "approved",
+                },
+            )
+
+            kpis.append({
+                "id": "completed_transaction_rate",
+                "title": "Completed Rate",
+                "value": completed_rate,
+                "format": "percentage",
+                "column": status_column,
+                "aggregation": "rate",
+                "priority": 106,
+            })
+
+        if risk_column:
+            high_risk_count = self._count_category_values(
+                df=df,
+                column_name=risk_column,
+                accepted_values={
+                    "high",
+                    "high risk",
+                    "critical",
+                    "very high",
+                },
+            )
+
+            kpis.append({
+                "id": "high_risk_transactions",
+                "title": "High-Risk Transactions",
+                "value": high_risk_count,
+                "format": "integer",
+                "column": risk_column,
+                "aggregation": "count",
+                "priority": 105,
+            })
+
+        return kpis
 
     def _generate_dataset_specific_kpis(
         self,
@@ -141,6 +389,37 @@ class KPIGenerator:
             roles={"measure"},
         )
 
+        order_column = self._find_column(
+            data_context=data_context,
+            keywords={
+                "order_id",
+                "order_number",
+                "invoice_id",
+                "invoice_number",
+            },
+            roles={"identifier"},
+        )
+
+        customer_column = self._find_column(
+            data_context=data_context,
+            keywords={
+                "customer_id",
+                "customer_unique_id",
+                "client_id",
+            },
+            roles={"identifier"},
+        )
+
+        profit_column = self._find_column(
+            data_context=data_context,
+            keywords={
+                "profit",
+                "net_profit",
+                "gross_profit",
+            },
+            roles={"measure"},
+        )
+
         if revenue_column:
             revenue_value = self._safe_sum(
                 df,
@@ -157,66 +436,6 @@ class KPIGenerator:
                 "priority": 100,
             })
 
-        profit_column = self._find_column(
-            data_context=data_context,
-            keywords={
-                "profit",
-                "net_profit",
-                "gross_profit",
-            },
-            roles={"measure"},
-        )
-
-        if profit_column:
-            kpis.append({
-                "id": "total_profit",
-                "title": "Total Profit",
-                "value": self._safe_sum(
-                    df,
-                    profit_column,
-                ),
-                "format": "currency",
-                "column": profit_column,
-                "aggregation": "sum",
-                "priority": 95,
-            })
-
-        quantity_column = self._find_column(
-            data_context=data_context,
-            keywords={
-                "quantity",
-                "qty",
-                "units",
-                "order_quantity",
-            },
-            roles={"measure"},
-        )
-
-        if quantity_column:
-            kpis.append({
-                "id": "total_quantity",
-                "title": "Total Quantity",
-                "value": self._safe_sum(
-                    df,
-                    quantity_column,
-                ),
-                "format": "number",
-                "column": quantity_column,
-                "aggregation": "sum",
-                "priority": 85,
-            })
-
-        order_column = self._find_column(
-            data_context=data_context,
-            keywords={
-                "order_id",
-                "order_number",
-                "invoice_id",
-                "invoice_number",
-            },
-            roles={"identifier"},
-        )
-
         if order_column:
             order_count = self._safe_nunique(
                 df,
@@ -230,18 +449,22 @@ class KPIGenerator:
                 "format": "integer",
                 "column": order_column,
                 "aggregation": "nunique",
-                "priority": 90,
+                "priority": 95,
             })
 
-        customer_column = self._find_column(
-            data_context=data_context,
-            keywords={
-                "customer_id",
-                "customer_unique_id",
-                "client_id",
-            },
-            roles={"identifier"},
-        )
+        if profit_column:
+            kpis.append({
+                "id": "total_profit",
+                "title": "Total Profit",
+                "value": self._safe_sum(
+                    df,
+                    profit_column,
+                ),
+                "format": "currency",
+                "column": profit_column,
+                "aggregation": "sum",
+                "priority": 94,
+            })
 
         if customer_column:
             kpis.append({
@@ -254,23 +477,23 @@ class KPIGenerator:
                 "format": "integer",
                 "column": customer_column,
                 "aggregation": "nunique",
-                "priority": 80,
+                "priority": 90,
             })
 
         if revenue_column and order_column:
-            order_count = self._safe_nunique(
-                df,
-                order_column,
-            )
-
-            revenue_value = self._safe_sum(
+            revenue = self._safe_sum(
                 df,
                 revenue_column,
             )
 
+            orders = self._safe_nunique(
+                df,
+                order_column,
+            )
+
             average_order_value = (
-                revenue_value / order_count
-                if order_count > 0
+                revenue / orders
+                if orders > 0
                 else 0
             )
 
@@ -283,8 +506,8 @@ class KPIGenerator:
                 ),
                 "format": "currency",
                 "column": revenue_column,
-                "aggregation": "sum/nunique",
-                "priority": 88,
+                "aggregation": "average_order_value",
+                "priority": 92,
             })
 
         return kpis
@@ -306,6 +529,17 @@ class KPIGenerator:
             roles={"identifier"},
         )
 
+        location_column = self._find_column(
+            data_context=data_context,
+            keywords={
+                "customer_city",
+                "city",
+                "province",
+                "state",
+            },
+            roles={"dimension"},
+        )
+
         if customer_column:
             kpis.append({
                 "id": "unique_customers",
@@ -320,29 +554,18 @@ class KPIGenerator:
                 "priority": 100,
             })
 
-        city_column = self._find_column(
-            data_context=data_context,
-            keywords={
-                "customer_city",
-                "city",
-                "province",
-                "state",
-            },
-            roles={"dimension"},
-        )
-
-        if city_column:
+        if location_column:
             kpis.append({
                 "id": "covered_locations",
                 "title": "Covered Locations",
                 "value": self._safe_nunique(
                     df,
-                    city_column,
+                    location_column,
                 ),
                 "format": "integer",
-                "column": city_column,
+                "column": location_column,
                 "aggregation": "nunique",
-                "priority": 70,
+                "priority": 80,
             })
 
         return kpis
@@ -365,6 +588,16 @@ class KPIGenerator:
             roles={"measure"},
         )
 
+        product_column = self._find_column(
+            data_context=data_context,
+            keywords={
+                "product_id",
+                "sku",
+                "item_id",
+            },
+            roles={"identifier"},
+        )
+
         if stock_column:
             kpis.append({
                 "id": "total_stock",
@@ -378,16 +611,6 @@ class KPIGenerator:
                 "aggregation": "sum",
                 "priority": 100,
             })
-
-        product_column = self._find_column(
-            data_context=data_context,
-            keywords={
-                "product_id",
-                "sku",
-                "item_id",
-            },
-            roles={"identifier"},
-        )
 
         if product_column:
             kpis.append({
@@ -422,6 +645,16 @@ class KPIGenerator:
             roles={"identifier"},
         )
 
+        salary_column = self._find_column(
+            data_context=data_context,
+            keywords={
+                "salary",
+                "income",
+                "wage",
+            },
+            roles={"measure"},
+        )
+
         if employee_column:
             kpis.append({
                 "id": "total_employees",
@@ -435,16 +668,6 @@ class KPIGenerator:
                 "aggregation": "nunique",
                 "priority": 100,
             })
-
-        salary_column = self._find_column(
-            data_context=data_context,
-            keywords={
-                "salary",
-                "income",
-                "wage",
-            },
-            roles={"measure"},
-        )
 
         if salary_column:
             kpis.append({
@@ -481,9 +704,16 @@ class KPIGenerator:
             ):
                 continue
 
-            aggregation = (
-                measure.get("aggregation")
-                or "sum"
+            normalized_name = self._normalize_name(
+                column_name
+            )
+
+            aggregation = self._infer_aggregation(
+                column_name=normalized_name,
+                default_aggregation=(
+                    measure.get("aggregation")
+                    or "sum"
+                ),
             )
 
             semantic_type = measure.get(
@@ -523,6 +753,25 @@ class KPIGenerator:
             })
 
         return kpis
+
+    def _infer_aggregation(
+        self,
+        column_name: str,
+        default_aggregation: str,
+    ) -> str:
+        """
+        Score, rate, income và balance thường có ý nghĩa
+        hơn khi lấy trung bình thay vì tổng.
+        """
+
+        tokens = set(
+            column_name.split("_")
+        )
+
+        if tokens & self.MEAN_KEYWORDS:
+            return "mean"
+
+        return default_aggregation
 
     def _generate_identifier_kpis(
         self,
@@ -576,6 +825,16 @@ class KPIGenerator:
         self,
         df: pd.DataFrame,
     ) -> list[dict[str, Any]]:
+        """
+        Fallback vẫn cố tạo KPI hợp lý từ tên cột.
+        """
+
+        if self._is_finance_dataset(
+            df=df,
+            dataset_type="generic",
+        ):
+            return self._generate_finance_kpis(df)
+
         return [
             {
                 "id": "total_rows",
@@ -597,6 +856,37 @@ class KPIGenerator:
             },
         ]
 
+    def _find_dataframe_column(
+        self,
+        df: pd.DataFrame,
+        candidates: set[str],
+    ) -> str | None:
+        normalized_columns = {
+            self._normalize_name(str(column)): str(column)
+            for column in df.columns
+        }
+
+        for candidate in candidates:
+            if candidate in normalized_columns:
+                return normalized_columns[candidate]
+
+        for normalized_name, original_name in (
+            normalized_columns.items()
+        ):
+            tokens = set(
+                normalized_name.split("_")
+            )
+
+            for candidate in candidates:
+                candidate_tokens = set(
+                    candidate.split("_")
+                )
+
+                if candidate_tokens.issubset(tokens):
+                    return original_name
+
+        return None
+
     def _find_column(
         self,
         data_context: dict[str, Any],
@@ -611,9 +901,10 @@ class KPIGenerator:
                 continue
 
             name = column.get("name", "")
-            normalized_name = column.get(
-                "normalized_name",
-                "",
+
+            normalized_name = (
+                column.get("normalized_name")
+                or self._normalize_name(name)
             )
 
             if normalized_name in keywords:
@@ -633,6 +924,52 @@ class KPIGenerator:
 
         return None
 
+    def _calculate_category_rate(
+        self,
+        df: pd.DataFrame,
+        column_name: str,
+        accepted_values: set[str],
+    ) -> float:
+        series = (
+            df[column_name]
+            .dropna()
+            .astype(str)
+            .str.strip()
+            .str.lower()
+        )
+
+        if series.empty:
+            return 0.0
+
+        matched = series.isin(
+            accepted_values
+        ).sum()
+
+        return round(
+            float(matched / len(series) * 100),
+            2,
+        )
+
+    def _count_category_values(
+        self,
+        df: pd.DataFrame,
+        column_name: str,
+        accepted_values: set[str],
+    ) -> int:
+        series = (
+            df[column_name]
+            .dropna()
+            .astype(str)
+            .str.strip()
+            .str.lower()
+        )
+
+        return int(
+            series.isin(
+                accepted_values
+            ).sum()
+        )
+
     def _safe_sum(
         self,
         df: pd.DataFrame,
@@ -643,9 +980,9 @@ class KPIGenerator:
             errors="coerce",
         )
 
-        value = series.sum()
-
-        return self._json_number(value)
+        return self._json_number(
+            series.sum()
+        )
 
     def _safe_mean(
         self,
@@ -714,10 +1051,8 @@ class KPIGenerator:
         self,
         column_name: str,
     ) -> int:
-        normalized_name = (
+        normalized_name = self._normalize_name(
             column_name
-            .strip()
-            .lower()
         )
 
         tokens = set(
@@ -745,14 +1080,13 @@ class KPIGenerator:
         aggregation: str,
         column_name: str,
     ) -> str:
-        normalized_name = (
+        normalized_name = self._normalize_name(
             column_name
-            .strip()
-            .lower()
-            .replace(" ", "_")
         )
 
-        return f"{aggregation}_{normalized_name}"
+        return (
+            f"{aggregation}_{normalized_name}"
+        )
 
     def _make_title(
         self,
@@ -768,6 +1102,18 @@ class KPIGenerator:
         return (
             f"{prefix} "
             f"{self._format_column_name(column_name)}"
+        )
+
+    def _normalize_name(
+        self,
+        value: str,
+    ) -> str:
+        return (
+            value
+            .strip()
+            .lower()
+            .replace(" ", "_")
+            .replace("-", "_")
         )
 
     def _format_column_name(
