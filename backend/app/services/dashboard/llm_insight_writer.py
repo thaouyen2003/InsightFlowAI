@@ -148,24 +148,254 @@ class LLMInsightWriter:
                 error=None,
             ).model_dump()
 
+       
         except Exception as error:
+            error_message = str(error)
+
             print(
                 "Gemini insight generation failed:",
-                str(error),
+                error_message,
+            )
+            return self._build_local_fallback(
+                insights=insights,
+                recommendations=recommendations,
+                dashboard_summary=dashboard_summary,
+                original_error=error_message,
             )
 
-            return LLMInsightResult(
-                enabled=True,
-                generated=False,
-                model=self.model,
-                executive_summary=None,
-                key_findings=[],
-                recommendations=[],
-                error=(
-                    "Không thể tạo AI Insight bằng Gemini: "
-                    f"{str(error)}"
-                ),
-            ).model_dump()
+            # if (
+            #     "429" in error_message
+            #     or "RESOURCE_EXHAUSTED" in error_message
+            #     or "Quota exceeded" in error_message
+            # ):
+            #     friendly_error = (
+            #         "Gemini đã đạt giới hạn sử dụng hiện tại. "
+            #         "Các insight và khuyến nghị được phân tích "
+            #         "từ dữ liệu vẫn hoạt động bình thường."
+            #     )
+            # else:
+            #     friendly_error = (
+            #         "Không thể tạo nội dung AI Insight vào lúc này. "
+            #         "Các insight và khuyến nghị từ hệ thống "
+            #         "vẫn được hiển thị bình thường."
+            #     )
+
+            # return LLMInsightResult(
+            #     enabled=True,
+            #     generated=False,
+            #     model=self.model,
+            #     executive_summary=None,
+            #     key_findings=[],
+            #     recommendations=[],
+            #     error=friendly_error,
+            # ).model_dump()
+
+    def _build_local_fallback(
+        self,
+        insights: list[dict[str, Any]],
+        recommendations: list[dict[str, Any]],
+        dashboard_summary: dict[str, Any],
+        original_error: str,
+    ) -> dict[str, Any]:
+        """
+        Tạo nội dung AI Insight từ kết quả phân tích nội bộ
+        khi Gemini tạm thời không khả dụng.
+
+        Không tạo thêm số liệu mới.
+        Chỉ diễn giải lại insight và recommendation
+        đã được backend tính toán.
+        """
+
+        key_findings: list[dict[str, str]] = []
+
+        for insight in insights[
+            :self.MAX_INPUT_INSIGHTS
+        ]:
+            title = str(
+                insight.get(
+                    "title",
+                    "Phát hiện từ dữ liệu",
+                )
+            )
+
+            description = str(
+                insight.get(
+                    "description",
+                    "Hệ thống đã ghi nhận một đặc điểm "
+                    "đáng chú ý trong dữ liệu.",
+                )
+            )
+
+            insight_type = insight.get(
+                "type",
+                "information",
+            )
+
+            if hasattr(insight_type, "value"):
+                insight_type = insight_type.value
+
+            insight_type = str(insight_type).lower()
+
+            severity_value = insight.get(
+                "severity",
+                "medium",
+            )
+
+            if hasattr(severity_value, "value"):
+                severity_value = (
+                    severity_value.value
+                )
+
+            severity_value = str(
+                severity_value
+            ).lower()
+
+            if (
+                insight_type == "positive"
+            ):
+                display_severity = "positive"
+
+            elif (
+                insight_type == "critical"
+                or severity_value
+                in {"high", "critical"}
+            ):
+                display_severity = "negative"
+
+            elif (
+                insight_type == "warning"
+                or severity_value == "medium"
+            ):
+                display_severity = "warning"
+
+            else:
+                display_severity = "neutral"
+
+            key_findings.append(
+                {
+                    "title": title,
+                    "description": description,
+                    "severity": display_severity,
+                }
+            )
+
+        local_recommendations: list[
+            dict[str, str]
+        ] = []
+
+        for recommendation in recommendations[
+            :self.MAX_INPUT_RECOMMENDATIONS
+        ]:
+            title = str(
+                recommendation.get(
+                    "title",
+                    "Khuyến nghị xử lý",
+                )
+            )
+
+            description = str(
+                recommendation.get(
+                    "description",
+                    "Cần xem xét và theo dõi "
+                    "phát hiện liên quan.",
+                )
+            )
+
+            priority_value = recommendation.get(
+                "priority",
+                "medium",
+            )
+
+            if hasattr(priority_value, "value"):
+                priority_value = (
+                    priority_value.value
+                )
+
+            priority_value = str(
+                priority_value
+            ).lower()
+
+            if priority_value in {
+                "critical",
+                "high",
+            }:
+                display_priority = "high"
+            elif priority_value == "low":
+                display_priority = "low"
+            else:
+                display_priority = "medium"
+
+            local_recommendations.append(
+                {
+                    "title": title,
+                    "description": description,
+                    "priority": display_priority,
+                }
+            )
+
+        total_insights = len(insights)
+        total_recommendations = len(
+            recommendations
+        )
+
+        kpi_count = dashboard_summary.get(
+            "kpi_count",
+            0,
+        )
+
+        chart_count = dashboard_summary.get(
+            "chart_count",
+            0,
+        )
+
+        summary_parts = [
+            (
+                "InsightFlowAI đã hoàn thành quá trình "
+                "phân tích dữ liệu bằng các bộ phát hiện "
+                "nội bộ."
+            ),
+            (
+                f"Hệ thống ghi nhận {total_insights} "
+                "phát hiện dữ liệu và tạo "
+                f"{total_recommendations} khuyến nghị."
+            ),
+        ]
+
+        if kpi_count or chart_count:
+            summary_parts.append(
+                (
+                    f"Dashboard hiện có {kpi_count} KPI "
+                    f"và {chart_count} biểu đồ hỗ trợ "
+                    "theo dõi và ra quyết định."
+                )
+            )
+
+        summary_parts.append(
+            (
+                "Nội dung này được tổng hợp trực tiếp "
+                "từ kết quả định lượng của hệ thống "
+                "do Gemini đang tạm thời không khả dụng."
+            )
+        )
+
+        executive_summary = " ".join(
+            summary_parts
+        )
+
+        print(
+            "Using local AI Insight fallback:",
+            original_error,
+        )
+
+        return LLMInsightResult(
+            enabled=True,
+            generated=True,
+            model="InsightFlowAI Engine",
+            executive_summary=executive_summary,
+            key_findings=key_findings,
+            recommendations=local_recommendations,
+            error=None,
+        ).model_dump()
 
     def _request_llm(
         self,

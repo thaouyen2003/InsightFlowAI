@@ -51,6 +51,13 @@ class KPIGenerator:
 
     MEAN_KEYWORDS = {
         "score",
+        "gpa",
+        "grade",
+        "mark",
+        "average",
+        "avg",
+        "point",
+        "rating",
         "rate",
         "percentage",
         "percent",
@@ -59,8 +66,76 @@ class KPIGenerator:
         "wage",
         "balance",
         "age",
-        "rating",
     }
+
+    DISPLAY_NAME = {
+        "conduct_score": "Điểm rèn luyện",
+        "gpa": "Điểm GPA",
+        "average_score": "Điểm trung bình",
+        "final_score": "Điểm cuối kỳ",
+        "midterm_score": "Điểm giữa kỳ",
+        "grade_point": "Điểm học tập",
+        "credits_registered": "Tín chỉ đăng ký",
+        "credits_passed": "Tín chỉ đạt",
+        "semester": "Học kỳ",
+        "student_id": "Sinh viên",
+    }
+
+
+    # DISPLAY_NAME = {
+
+    #     "conduct_score":
+    #         "Điểm rèn luyện",
+
+    #     "gpa":
+    #         "Điểm GPA",
+
+    #     "credits_passed":
+    #         "Tín chỉ đạt",
+
+    #     "credits_registered":
+    #         "Tín chỉ đăng ký",
+
+    #     "mandatory_courses_remaining":
+    #         "Học phần bắt buộc còn thiếu",
+
+    #     "semester":
+    #         "Học kỳ",
+
+    #     "student_id":
+    #         "Sinh viên",
+
+    #     "customer_id":
+    #         "Khách hàng",
+
+    #     "customer":
+    #         "Khách hàng",
+
+    #     "revenue":
+    #         "Doanh thu",
+
+    #     "sales":
+    #         "Doanh số",
+
+    #     "profit":
+    #         "Lợi nhuận",
+
+    #     "cost":
+    #         "Chi phí",
+
+    #     "payment_value":
+    #         "Giá trị thanh toán",
+
+    #     "amount":
+    #         "Giá trị",
+
+    #     "quantity":
+    #         "Số lượng",
+
+    #     "price":
+    #         "Đơn giá",
+
+    # }
 
     def generate(
         self,
@@ -1088,22 +1163,32 @@ class KPIGenerator:
             f"{aggregation}_{normalized_name}"
         )
 
+
     def _make_title(
         self,
         aggregation: str,
         column_name: str,
     ) -> str:
-        prefix = (
-            "Average"
-            if aggregation == "mean"
-            else "Total"
+
+        display = self._format_column_name(
+            column_name
         )
 
-        return (
-            f"{prefix} "
-            f"{self._format_column_name(column_name)}"
-        )
+        if aggregation == "mean":
+            return f"{display} trung bình"
 
+        if aggregation == "sum":
+            return f"Tổng {display.lower()}"
+
+        if aggregation == "nunique":
+            return f"Số lượng {display.lower()}"
+
+        if aggregation == "count":
+            return f"Tổng {display.lower()}"
+
+        return display
+
+   
     def _normalize_name(
         self,
         value: str,
@@ -1116,16 +1201,27 @@ class KPIGenerator:
             .replace("-", "_")
         )
 
+
     def _format_column_name(
         self,
         column_name: str,
     ) -> str:
+
+        normalized = self._normalize_name(
+            column_name
+        )
+
+        if normalized in self.DISPLAY_NAME:
+            return self.DISPLAY_NAME[
+                normalized
+            ]
+
         return (
             column_name
             .replace("_", " ")
-            .strip()
             .title()
         )
+    
 
     def _remove_duplicate_kpis(
         self,
@@ -1168,3 +1264,44 @@ class KPIGenerator:
             ),
             reverse=True,
         )
+
+
+
+    def _make_description(
+        self,
+        aggregation: str,
+        column_name: str,
+    ) -> str:
+
+        normalized = self._normalize_name(
+            column_name
+        )
+
+        if normalized in self.DESCRIPTION:
+            return self.DESCRIPTION[
+                normalized
+            ]
+
+        display = self._format_column_name(
+            column_name
+        )
+
+        if aggregation == "mean":
+            return (
+                f"Giá trị trung bình của "
+                f"{display.lower()}."
+            )
+
+        if aggregation == "sum":
+            return (
+                f"Tổng {display.lower()} "
+                f"trong toàn bộ dữ liệu."
+            )
+
+        if aggregation == "nunique":
+            return (
+                f"Số lượng "
+                f"{display.lower()} duy nhất."
+            )
+
+        return display
