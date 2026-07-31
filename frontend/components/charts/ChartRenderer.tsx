@@ -1,25 +1,82 @@
 "use client";
 
+import type {
+    ComponentProps,
+} from "react";
+
+import AreaChartComponent from "./AreaChart";
 import BarChartComponent from "./BarChart";
+import HistogramChart from "./HistogramChart";
+import HorizontalBarChartComponent from "./HorizontalBarChart";
 import LineChartComponent from "./LineChart";
 import PieChartComponent from "./PieChart";
-import HorizontalBarChartComponent from "./HorizontalBarChart";
-import AreaChartComponent from "./AreaChart";
 import ScatterChartComponent from "./ScatterChart";
 
+type LineChartData =
+    ComponentProps<
+        typeof LineChartComponent
+    >["chart"] & {
+        type: "line";
+    };
+
+type BarChartData =
+    ComponentProps<
+        typeof BarChartComponent
+    >["chart"] & {
+        type: "bar";
+    };
+
+type PieChartData =
+    ComponentProps<
+        typeof PieChartComponent
+    >["chart"] & {
+        type: "pie";
+    };
+
+type HorizontalBarChartData =
+    ComponentProps<
+        typeof HorizontalBarChartComponent
+    >["chart"] & {
+        type: "horizontal_bar";
+    };
+
+type AreaChartData =
+    ComponentProps<
+        typeof AreaChartComponent
+    >["chart"] & {
+        type: "area";
+    };
+
+type ScatterChartData =
+    ComponentProps<
+        typeof ScatterChartComponent
+    >["chart"] & {
+        type: "scatter";
+    };
+
+type HistogramChartData =
+    ComponentProps<
+        typeof HistogramChart
+    >["chart"] & {
+        type: "histogram";
+    };
+
+type ChartRendererData =
+    | LineChartData
+    | BarChartData
+    | PieChartData
+    | HorizontalBarChartData
+    | AreaChartData
+    | ScatterChartData
+    | HistogramChartData;
 
 interface ChartRendererProps {
-    chart: any;
+    chart: ChartRendererData;
 }
-
 
 export default function ChartRenderer({
     chart,
 }: ChartRendererProps) {
-    if (!chart || !chart.type) {
-        return null;
-    }
-
     switch (chart.type) {
         case "line":
             return (
@@ -41,7 +98,7 @@ export default function ChartRenderer({
                     chart={chart}
                 />
             );
-        
+
         case "horizontal_bar":
             return (
                 <HorizontalBarChartComponent
@@ -63,30 +120,30 @@ export default function ChartRenderer({
                 />
             );
 
-        case "scatter":
         case "histogram":
             return (
-                <div className="rounded-xl bg-white p-6 text-slate-900">
-                    <h2 className="text-lg font-bold">
-                        {chart.title}
-                    </h2>
-
-                    <p className="mt-2 text-sm text-slate-500">
-                        Biểu đồ {chart.type} sẽ được hỗ trợ
-                        ở bước nâng cấp giao diện tiếp theo.
-                    </p>
-                </div>
+                <HistogramChart
+                    chart={chart}
+                />
             );
 
-        default:
+        default: {
+            const unsupportedChart: never =
+                chart;
+
             return (
                 <div className="rounded-xl bg-white p-6 text-slate-900">
                     <p className="text-sm text-slate-500">
-                        Không hỗ trợ loại biểu đồ:
-                        {" "}
-                        {chart.type}
+                        Không hỗ trợ loại biểu đồ.
                     </p>
+
+                    <span className="hidden">
+                        {String(
+                            unsupportedChart,
+                        )}
+                    </span>
                 </div>
             );
+        }
     }
 }

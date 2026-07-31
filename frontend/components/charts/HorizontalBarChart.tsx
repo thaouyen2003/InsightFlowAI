@@ -88,7 +88,7 @@ export default function HorizontalBarChartComponent({
 
                         <Bar
                             dataKey="value"
-                            fill="#2563eb"
+                            fill="#44bbff"
                             radius={[
                                 0,
                                 6,

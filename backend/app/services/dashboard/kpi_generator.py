@@ -18,6 +18,24 @@ class KPIGenerator:
 
     MAX_KPIS = 6
 
+    ADMISSION_SCORE_COLUMNS = {
+        "diem_xet_tuyen",
+        "điểm_xét_tuyển",
+        "tong_diem_xet_tuyen",
+        "tổng_điểm_xét_tuyển",
+        "admission_score",
+        "entrance_score",
+    }
+
+    ADMISSION_METHOD_COLUMNS = {
+        "phuong_thuc_xet_tuyen",
+        "phương_thức_xét_tuyển",
+        "admission_method",
+        "application_method",
+    }
+
+
+
     FINANCE_KEYWORDS = {
         "transaction",
         "payment",
@@ -52,6 +70,7 @@ class KPIGenerator:
     MEAN_KEYWORDS = {
         "score",
         "gpa",
+        "cpa",
         "grade",
         "mark",
         "average",
@@ -66,21 +85,47 @@ class KPIGenerator:
         "wage",
         "balance",
         "age",
+        "admission_score",
+        "entrance_score",
+        "application_score",
+        "admission_points",
+        "diem_xet_tuyen",
+        "tong_diem_xet_tuyen",
     }
 
     DISPLAY_NAME = {
         "conduct_score": "Điểm rèn luyện",
         "gpa": "Điểm GPA",
+        "cpa": "Điểm CPA",
         "average_score": "Điểm trung bình",
         "final_score": "Điểm cuối kỳ",
         "midterm_score": "Điểm giữa kỳ",
         "grade_point": "Điểm học tập",
+        "điểm_xét_tuyển": "Điểm xét tuyển",
         "credits_registered": "Tín chỉ đăng ký",
         "credits_passed": "Tín chỉ đạt",
         "semester": "Học kỳ",
         "student_id": "Sinh viên",
     }
 
+    STUDENT_IDENTIFIER_COLUMNS = {
+        "student_id",
+        "student_code",
+        "student_number",
+        "student_no",
+        "studentid",
+        "mssv",
+        "ma_sinh_vien",
+        "ma_sv",
+    }
+
+    ROW_INDEX_COLUMNS = {
+        "stt",
+        "index",
+        "row_index",
+        "row_number",
+        "no",
+    }
 
     # DISPLAY_NAME = {
 
@@ -783,6 +828,11 @@ class KPIGenerator:
                 column_name
             )
 
+            if normalized_name in self.ADMISSION_SCORE_COLUMNS:
+                # Điểm xét tuyển được xử lý riêng theo từng
+                # phương thức để tránh trộn nhiều thang điểm.
+                continue
+
             aggregation = self._infer_aggregation(
                 column_name=normalized_name,
                 default_aggregation=(
@@ -790,7 +840,17 @@ class KPIGenerator:
                     or "sum"
                 ),
             )
-
+            print(
+                "[KPI]",
+                "column=",
+                column_name,
+                "normalized=",
+                normalized_name,
+                "input_aggregation=",
+                measure.get("aggregation"),
+                "resolved_aggregation=",
+                aggregation,
+            )
             semantic_type = measure.get(
                 "semantic_type",
                 "measure",
@@ -829,25 +889,79 @@ class KPIGenerator:
 
         return kpis
 
+
+
     def _infer_aggregation(
         self,
         column_name: str,
         default_aggregation: str,
     ) -> str:
         """
-        Score, rate, income và balance thường có ý nghĩa
-        hơn khi lấy trung bình thay vì tổng.
+        Các cột điểm, GPA, CPA, tỷ lệ
+        phải dùng mean thay vì sum.
         """
 
-        tokens = set(
-            column_name.split("_")
+        normalized_name = self._normalize_name(
+            column_name
         )
 
-        if tokens & self.MEAN_KEYWORDS:
+        exact_mean_columns = {
+            "gpa",
+            "cpa",
+            "average_score",
+            "final_score",
+            "midterm_score",
+            "conduct_score",
+            "grade_point",
+            "admission_score",
+            "entrance_score",
+            "application_score",
+            "admission_points",
+            "diem_xet_tuyen",
+            "tong_diem_xet_tuyen",
+            "điểm_xét_tuyển",
+            "tổng_điểm_xét_tuyển",
+        }
+
+        if normalized_name in exact_mean_columns:
             return "mean"
 
-        return default_aggregation
+        tokens = set(
+            normalized_name.split("_")
+        )
 
+        mean_tokens = {
+            "score",
+            "gpa",
+            "cpa",
+            "grade",
+            "mark",
+            "point",
+            "rating",
+            "rate",
+            "percentage",
+            "percent",
+            "diem",
+            "điểm",
+        }
+
+        if tokens & mean_tokens:
+            return "mean"
+
+        allowed_aggregations = {
+            "sum",
+            "mean",
+            "median",
+            "min",
+            "max",
+            "count",
+        }
+
+        if default_aggregation in allowed_aggregations:
+            return default_aggregation
+
+        return "sum"
+   
     def _generate_identifier_kpis(
         self,
         df: pd.DataFrame,
@@ -858,16 +972,22 @@ class KPIGenerator:
             "customer",
             "inventory",
             "human_resources",
+            "education",
+            "student",
+            "academic",
             "generic",
         }:
             return []
 
         kpis: list[dict[str, Any]] = []
 
-        for identifier in data_context.get(
+        identifiers = data_context.get(
             "identifiers",
             [],
-        ):
+        )
+
+        # Ưu tiên mã sinh viên thực sự.
+        for identifier in identifiers:
             column_name = identifier.get("name")
 
             if (
@@ -876,14 +996,19 @@ class KPIGenerator:
             ):
                 continue
 
+            normalized_name = self._normalize_name(
+                column_name
+            )
+
+            if (
+                normalized_name
+                not in self.STUDENT_IDENTIFIER_COLUMNS
+            ):
+                continue
+
             kpis.append({
-                "id": f"unique_{column_name}",
-                "title": (
-                    "Unique "
-                    + self._format_column_name(
-                        column_name
-                    )
-                ),
+                "id": "total_students",
+                "title": "Tổng số sinh viên",
                 "value": self._safe_nunique(
                     df,
                     column_name,
@@ -891,7 +1016,36 @@ class KPIGenerator:
                 "format": "integer",
                 "column": column_name,
                 "aggregation": "nunique",
-                "priority": 45,
+                "priority": 105,
+            })
+
+            return kpis
+
+        # Nếu không có mã sinh viên nhưng có STT,
+        # dùng số dòng làm số sinh viên.
+        normalized_columns = {
+            self._normalize_name(str(column)): str(column)
+            for column in df.columns
+        }
+
+        row_index_column = next(
+            (
+                normalized_columns[name]
+                for name in self.ROW_INDEX_COLUMNS
+                if name in normalized_columns
+            ),
+            None,
+        )
+
+        if row_index_column:
+            kpis.append({
+                "id": "total_students",
+                "title": "Tổng số sinh viên",
+                "value": int(len(df)),
+                "format": "integer",
+                "column": row_index_column,
+                "aggregation": "count",
+                "priority": 105,
             })
 
         return kpis
@@ -1169,13 +1323,31 @@ class KPIGenerator:
         aggregation: str,
         column_name: str,
     ) -> str:
+        normalized = self._normalize_name(
+            column_name
+        )
 
         display = self._format_column_name(
             column_name
         )
 
         if aggregation == "mean":
-            return f"{display} trung bình"
+            if normalized == "cpa":
+                return "Điểm trung bình CPA"
+
+            if normalized == "gpa":
+                return "Điểm trung bình GPA"
+
+            if normalized in {
+                "average_score",
+                "final_score",
+                "midterm_score",
+                "conduct_score",
+                "grade_point",
+            }:
+                return f"{display} trung bình"
+
+            return f"Trung bình {display.lower()}"
 
         if aggregation == "sum":
             return f"Tổng {display.lower()}"
@@ -1305,3 +1477,224 @@ class KPIGenerator:
             )
 
         return display
+
+
+    def _safe_score_mean(
+        self,
+        df: pd.DataFrame,
+        column_name: str,
+    ) -> int | float:
+        series = self._clean_score_series(
+            df=df,
+            column_name=column_name,
+        )
+
+        if series.empty:
+            return 0
+
+        return round(
+            float(series.mean()),
+            2,
+        )
+
+
+    def _clean_score_series(
+
+        self,
+        df: pd.DataFrame,
+        column_name: str,
+    ) -> pd.Series:
+        """
+        Chuẩn hóa cột điểm bị mất dấu thập phân.
+
+        Ví dụ:
+        867  -> 8.67
+        761  -> 7.61
+        977  -> 9.77
+
+        Các giá trị điểm hợp lệ như 20.34, 25.5
+        được giữ nguyên.
+        """
+
+        series = pd.to_numeric(
+            df[column_name],
+            errors="coerce",
+        ).dropna()
+
+        def normalize_score(value: float) -> float:
+            value = float(value)
+
+            if value > 100:
+                return value / 100
+
+            if value > 30:
+                return value / 10
+
+            return value
+
+        return series.apply(normalize_score)
+
+
+    def _find_column(
+        self,
+        df: pd.DataFrame,
+        candidates: set[str],
+    ) -> str | None:
+        """
+        Tìm tên cột thật trong DataFrame dựa trên tên đã chuẩn hóa.
+        """
+
+        for column_name in df.columns:
+            normalized_name = self._normalize_name(
+                str(column_name)
+            )
+
+            if normalized_name in candidates:
+                return str(column_name)
+
+        return None
+
+
+    def _generate_admission_score_kpis(
+        self,
+        df: pd.DataFrame,
+    ) -> list[dict[str, Any]]:
+        """
+        Tạo KPI điểm xét tuyển trung bình theo từng phương thức.
+
+        Không lấy trung bình chung vì các phương thức có thể
+        sử dụng thang điểm khác nhau, ví dụ:
+
+        - Điểm thi THPT / học bạ: thang 30
+        - ĐGNL ĐHQG: thang khoảng 1.200
+        """
+
+        score_column = self._find_column(
+            df=df,
+            candidates=self.ADMISSION_SCORE_COLUMNS,
+        )
+
+        method_column = self._find_column(
+            df=df,
+            candidates=self.ADMISSION_METHOD_COLUMNS,
+        )
+
+        if not score_column or not method_column:
+            return []
+
+        working_df = df[
+            [
+                method_column,
+                score_column,
+            ]
+        ].copy()
+
+        working_df[score_column] = pd.to_numeric(
+            working_df[score_column],
+            errors="coerce",
+        )
+
+        working_df[method_column] = (
+            working_df[method_column]
+            .astype("string")
+            .str.strip()
+        )
+
+        working_df = working_df.dropna(
+            subset=[
+                method_column,
+                score_column,
+            ]
+        )
+
+        if working_df.empty:
+            return []
+
+        grouped = (
+            working_df.groupby(
+                method_column,
+                dropna=True,
+            )[score_column]
+            .agg(
+                average="mean",
+                count="count",
+            )
+            .reset_index()
+        )
+
+        grouped = grouped.sort_values(
+            by="count",
+            ascending=False,
+        )
+
+        kpis: list[dict[str, Any]] = []
+
+        for _, row in grouped.iterrows():
+            method_name = str(
+                row[method_column]
+            ).strip()
+
+            average_score = round(
+                float(row["average"]),
+                2,
+            )
+
+            short_method_name = (
+                self._shorten_admission_method(
+                    method_name
+                )
+            )
+
+            kpis.append(
+                {
+                    "title": (
+                        f"Điểm TB {short_method_name}"
+                    ),
+                    "value": average_score,
+                    "aggregation": "mean",
+                    "column": score_column,
+                    "group_by": method_column,
+                    "group_value": method_name,
+                    "reason": (
+                        "Điểm xét tuyển được tính riêng "
+                        "theo từng phương thức do sử dụng "
+                        "các thang điểm khác nhau."
+                    ),
+                }
+            )
+
+        return kpis
+
+
+
+    def _shorten_admission_method(
+     
+        self,
+        method_name: str,
+    ) -> str:
+        """
+        Rút gọn tên phương thức để KPI không quá dài.
+        """
+
+        normalized_name = (
+            method_name
+            .strip()
+            .lower()
+        )
+
+        if "đgnl" in normalized_name:
+            return "ĐGNL"
+
+        if "đánh giá năng lực" in normalized_name:
+            return "ĐGNL"
+
+        if "thpt" in normalized_name:
+            return "THPT"
+
+        if "học bạ" in normalized_name:
+            return "học bạ"
+
+        if "tuyển thẳng" in normalized_name:
+            return "tuyển thẳng"
+
+        return method_name

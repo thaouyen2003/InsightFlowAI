@@ -1,0 +1,251 @@
+student_id,faculty,major,year,semester,gpa,credits_registered,credits_passed,credits_failed,conduct_score,academic_status
+SV0001,QTKD,Quản trị kinh doanh,2,1,0.74,18,15,3,91,Cảnh báo học vụ
+SV0002,Điều dưỡng,Điều dưỡng,1,1,1.81,15,15,0,63,Bình thường
+SV0003,Truyền thông,Truyền thông đa phương tiện,1,2,3.38,20,14,6,96,Bình thường
+SV0004,Ngôn ngữ,Tiếng Trung,3,2,1.67,15,9,6,86,Bình thường
+SV0005,Truyền thông,Truyền thông đa phương tiện,2,1,2.01,18,18,0,76,Bình thường
+SV0006,QTKD,Quản trị kinh doanh,3,1,0.96,15,15,0,79,Cảnh báo học vụ
+SV0007,Điều dưỡng,Điều dưỡng,3,1,0.72,15,15,0,76,Cảnh báo học vụ
+SV0008,CNTT,CNTT,3,1,3.63,18,16,2,83,Bình thường
+SV0009,Điều dưỡng,Điều dưỡng,3,2,2.94,22,20,2,85,Bình thường
+SV0010,Điều dưỡng,Điều dưỡng,1,2,2.69,22,21,1,81,Bình thường
+SV0011,Điều dưỡng,Điều dưỡng,2,1,3.8,15,8,7,67,Bình thường
+SV0012,Truyền thông,Truyền thông đa phương tiện,4,1,3.57,15,10,5,99,Bình thường
+SV0013,Điều dưỡng,Điều dưỡng,2,2,0.58,22,15,7,93,Cảnh báo học vụ
+SV0014,Ngôn ngữ,Tiếng Trung,3,2,2.32,18,10,8,86,Bình thường
+SV0015,Điều dưỡng,Điều dưỡng,3,2,1.08,18,16,2,67,Cảnh báo học vụ
+SV0016,Truyền thông,Truyền thông đa phương tiện,2,2,2.33,15,9,6,60,Bình thường
+SV0017,CNTT,Khoa học máy tính,1,1,2.89,18,13,5,68,Bình thường
+SV0018,Ngôn ngữ,Tiếng Trung,1,1,2.34,15,12,3,99,Bình thường
+SV0019,Ngôn ngữ,Tiếng Trung,3,1,1.83,22,14,8,63,Bình thường
+SV0020,Điều dưỡng,Điều dưỡng,3,1,1.56,18,16,2,67,Cảnh báo học vụ
+SV0021,Truyền thông,Truyền thông đa phương tiện,4,1,3.16,18,12,6,77,Bình thường
+SV0022,Truyền thông,Truyền thông đa phương tiện,2,1,0.7,15,8,7,89,Cảnh báo học vụ
+SV0023,CNTT,CNTT,4,2,1.9,18,17,1,81,Bình thường
+SV0024,CNTT,CNTT,1,1,0.68,22,16,6,93,Cảnh báo học vụ
+SV0025,Truyền thông,Truyền thông đa phương tiện,3,1,1.06,18,13,5,73,Cảnh báo học vụ
+SV0026,CNTT,Khoa học máy tính,3,1,1.95,18,12,6,70,Bình thường
+SV0027,Điều dưỡng,Điều dưỡng,2,1,1.62,22,17,5,70,Bình thường
+SV0028,Truyền thông,Truyền thông đa phương tiện,4,1,1.66,18,14,4,91,Cảnh báo học vụ
+SV0029,QTKD,Quản trị kinh doanh,3,1,1.26,20,19,1,85,Cảnh báo học vụ
+SV0030,CNTT,Khoa học máy tính,4,1,3.09,22,16,6,62,Bình thường
+SV0031,Ngôn ngữ,Tiếng Trung,3,2,1.53,15,12,3,93,Cảnh báo học vụ
+SV0032,QTKD,Quản trị kinh doanh,4,2,2.56,22,22,0,74,Bình thường
+SV0033,CNTT,Khoa học máy tính,4,2,3.77,22,22,0,66,Bình thường
+SV0034,QTKD,Marketing,4,1,0.55,22,22,0,90,Cảnh báo học vụ
+SV0035,Điều dưỡng,Điều dưỡng,4,1,1.27,15,15,0,74,Cảnh báo học vụ
+SV0036,Truyền thông,Truyền thông đa phương tiện,2,1,1.31,22,15,7,93,Cảnh báo học vụ
+SV0037,Truyền thông,Truyền thông đa phương tiện,2,1,2.65,18,12,6,61,Bình thường
+SV0038,CNTT,Khoa học máy tính,2,1,2.08,15,8,7,72,Bình thường
+SV0039,Điều dưỡng,Điều dưỡng,4,2,2.52,20,17,3,81,Bình thường
+SV0040,CNTT,CNTT,3,2,1.95,22,21,1,70,Bình thường
+SV0041,QTKD,Marketing,4,2,0.54,18,12,6,72,Cảnh báo học vụ
+SV0042,Ngôn ngữ,Tiếng Trung,3,1,3.21,18,12,6,62,Bình thường
+SV0043,CNTT,CNTT,2,1,2.88,20,17,3,88,Bình thường
+SV0044,Điều dưỡng,Điều dưỡng,3,2,1.86,18,17,1,69,Bình thường
+SV0045,CNTT,CNTT,3,2,3.94,15,12,3,68,Bình thường
+SV0046,CNTT,Khoa học máy tính,3,1,2.43,22,22,0,66,Bình thường
+SV0047,CNTT,CNTT,1,1,2.11,22,22,0,70,Bình thường
+SV0048,Ngôn ngữ,Tiếng Trung,4,2,3.09,15,10,5,78,Bình thường
+SV0049,Ngôn ngữ,Tiếng Trung,1,1,0.81,20,19,1,86,Cảnh báo học vụ
+SV0050,QTKD,Marketing,4,1,0.96,22,17,5,99,Cảnh báo học vụ
+SV0051,QTKD,Quản trị kinh doanh,2,2,3.15,22,14,8,89,Bình thường
+SV0052,Ngôn ngữ,Tiếng Trung,1,2,1.56,15,10,5,68,Bình thường
+SV0053,Truyền thông,Truyền thông đa phương tiện,2,1,2.85,18,16,2,79,Bình thường
+SV0054,Truyền thông,Truyền thông đa phương tiện,2,1,2.06,18,14,4,70,Bình thường
+SV0055,QTKD,Marketing,2,1,0.63,18,14,4,75,Cảnh báo học vụ
+SV0056,CNTT,CNTT,3,2,0.85,15,11,4,83,Cảnh báo học vụ
+SV0057,Truyền thông,Truyền thông đa phương tiện,3,2,2.21,22,22,0,70,Bình thường
+SV0058,QTKD,Marketing,1,1,0.67,22,17,5,75,Cảnh báo học vụ
+SV0059,Điều dưỡng,Điều dưỡng,1,2,3.12,20,15,5,84,Bình thường
+SV0060,Truyền thông,Truyền thông đa phương tiện,1,2,3.97,22,22,0,89,Bình thường
+SV0061,QTKD,Marketing,4,1,2.67,22,21,1,92,Bình thường
+SV0062,Ngôn ngữ,Tiếng Trung,3,2,2.16,15,15,0,91,Bình thường
+SV0063,QTKD,Marketing,2,1,1.96,20,14,6,74,Bình thường
+SV0064,QTKD,Quản trị kinh doanh,4,1,3.33,22,21,1,90,Bình thường
+SV0065,Truyền thông,Truyền thông đa phương tiện,1,2,1.84,22,15,7,66,Bình thường
+SV0066,CNTT,CNTT,4,2,3.75,22,20,2,86,Bình thường
+SV0067,QTKD,Marketing,3,2,1.06,18,11,7,66,Cảnh báo học vụ
+SV0068,Truyền thông,Truyền thông đa phương tiện,3,2,3.22,20,15,5,87,Bình thường
+SV0069,Điều dưỡng,Điều dưỡng,4,1,2.91,15,8,7,73,Bình thường
+SV0070,Truyền thông,Truyền thông đa phương tiện,4,2,1.43,22,22,0,96,Cảnh báo học vụ
+SV0071,QTKD,Marketing,1,1,3.67,22,15,7,72,Bình thường
+SV0072,CNTT,Khoa học máy tính,4,1,2.0,22,17,5,75,Bình thường
+SV0073,CNTT,CNTT,1,2,2.61,22,14,8,62,Bình thường
+SV0074,Truyền thông,Truyền thông đa phương tiện,1,1,1.6,15,8,7,80,Bình thường
+SV0075,QTKD,Marketing,3,1,3.45,20,15,5,93,Bình thường
+SV0076,CNTT,Khoa học máy tính,1,2,1.19,18,15,3,64,Cảnh báo học vụ
+SV0077,Truyền thông,Truyền thông đa phương tiện,3,2,2.99,15,9,6,91,Bình thường
+SV0078,CNTT,Khoa học máy tính,3,1,2.93,15,14,1,98,Bình thường
+SV0079,Điều dưỡng,Điều dưỡng,2,1,1.6,22,22,0,100,Bình thường
+SV0080,Truyền thông,Truyền thông đa phương tiện,4,2,1.44,20,14,6,75,Cảnh báo học vụ
+SV0081,Truyền thông,Truyền thông đa phương tiện,1,2,1.2,22,21,1,85,Bình thường
+SV0082,Ngôn ngữ,Tiếng Trung,1,2,1.36,15,8,7,67,Bình thường
+SV0083,Điều dưỡng,Điều dưỡng,2,2,2.5,20,20,0,89,Bình thường
+SV0084,Điều dưỡng,Điều dưỡng,1,2,2.63,22,16,6,60,Bình thường
+SV0085,Ngôn ngữ,Tiếng Trung,1,1,2.0,18,12,6,80,Bình thường
+SV0086,Điều dưỡng,Điều dưỡng,2,1,3.31,18,16,2,75,Bình thường
+SV0087,Truyền thông,Truyền thông đa phương tiện,3,2,0.64,18,11,7,70,Cảnh báo học vụ
+SV0088,CNTT,CNTT,1,1,1.02,15,9,6,90,Cảnh báo học vụ
+SV0089,Truyền thông,Truyền thông đa phương tiện,2,2,3.69,18,10,8,64,Bình thường
+SV0090,Điều dưỡng,Điều dưỡng,2,1,3.39,22,16,6,99,Bình thường
+SV0091,Ngôn ngữ,Tiếng Trung,2,2,1.06,22,15,7,83,Cảnh báo học vụ
+SV0092,Điều dưỡng,Điều dưỡng,3,2,0.68,22,22,0,70,Cảnh báo học vụ
+SV0093,Điều dưỡng,Điều dưỡng,2,1,3.32,20,16,4,76,Bình thường
+SV0094,QTKD,Quản trị kinh doanh,2,2,3.52,18,15,3,80,Bình thường
+SV0095,Truyền thông,Truyền thông đa phương tiện,4,1,3.73,20,18,2,62,Bình thường
+SV0096,Điều dưỡng,Điều dưỡng,4,2,3.94,20,14,6,90,Bình thường
+SV0097,Truyền thông,Truyền thông đa phương tiện,4,2,3.67,15,15,0,63,Bình thường
+SV0098,CNTT,Khoa học máy tính,3,1,3.73,15,8,7,91,Bình thường
+SV0099,QTKD,Quản trị kinh doanh,3,1,3.82,20,12,8,90,Bình thường
+SV0100,Ngôn ngữ,Tiếng Trung,4,1,2.56,15,14,1,62,Bình thường
+SV0101,QTKD,Marketing,4,2,3.85,22,17,5,75,Bình thường
+SV0102,QTKD,Quản trị kinh doanh,3,1,1.9,22,22,0,90,Bình thường
+SV0103,Truyền thông,Truyền thông đa phương tiện,1,2,2.86,20,12,8,61,Bình thường
+SV0104,Truyền thông,Truyền thông đa phương tiện,3,2,3.73,22,22,0,97,Bình thường
+SV0105,QTKD,Quản trị kinh doanh,2,2,1.99,18,15,3,83,Bình thường
+SV0106,Ngôn ngữ,Tiếng Trung,1,2,2.55,18,16,2,64,Bình thường
+SV0107,Ngôn ngữ,Tiếng Trung,4,1,1.79,22,19,3,75,Cảnh báo học vụ
+SV0108,Truyền thông,Truyền thông đa phương tiện,4,1,0.58,22,22,0,62,Cảnh báo học vụ
+SV0109,CNTT,Khoa học máy tính,4,1,2.03,15,7,8,79,Bình thường
+SV0110,Điều dưỡng,Điều dưỡng,3,2,3.35,15,15,0,60,Bình thường
+SV0111,Điều dưỡng,Điều dưỡng,4,2,0.98,22,16,6,66,Cảnh báo học vụ
+SV0112,Truyền thông,Truyền thông đa phương tiện,4,1,2.84,15,14,1,62,Bình thường
+SV0113,CNTT,Khoa học máy tính,4,1,2.65,22,20,2,73,Bình thường
+SV0114,Truyền thông,Truyền thông đa phương tiện,2,2,1.69,15,11,4,87,Bình thường
+SV0115,CNTT,Khoa học máy tính,2,2,1.52,22,14,8,96,Bình thường
+SV0116,QTKD,Quản trị kinh doanh,1,1,1.35,18,17,1,83,Bình thường
+SV0117,Truyền thông,Truyền thông đa phương tiện,3,1,1.3,22,20,2,86,Cảnh báo học vụ
+SV0118,Truyền thông,Truyền thông đa phương tiện,3,2,1.99,22,21,1,96,Bình thường
+SV0119,Truyền thông,Truyền thông đa phương tiện,2,2,3.39,15,13,2,60,Bình thường
+SV0120,CNTT,Khoa học máy tính,1,2,1.95,22,18,4,85,Bình thường
+SV0121,Ngôn ngữ,Tiếng Trung,1,2,0.71,18,16,2,74,Cảnh báo học vụ
+SV0122,Truyền thông,Truyền thông đa phương tiện,2,1,1.08,15,7,8,85,Cảnh báo học vụ
+SV0123,CNTT,CNTT,3,1,1.73,15,12,3,76,Bình thường
+SV0124,Điều dưỡng,Điều dưỡng,1,2,1.93,15,7,8,81,Bình thường
+SV0125,CNTT,Khoa học máy tính,2,2,2.03,18,10,8,93,Bình thường
+SV0126,Điều dưỡng,Điều dưỡng,3,2,3.1,15,8,7,81,Bình thường
+SV0127,QTKD,Marketing,2,2,3.06,15,7,8,82,Bình thường
+SV0128,Truyền thông,Truyền thông đa phương tiện,4,2,0.88,18,11,7,95,Cảnh báo học vụ
+SV0129,Truyền thông,Truyền thông đa phương tiện,3,2,3.23,20,16,4,89,Bình thường
+SV0130,CNTT,CNTT,3,2,2.72,20,14,6,73,Bình thường
+SV0131,CNTT,Khoa học máy tính,4,1,1.07,22,18,4,89,Cảnh báo học vụ
+SV0132,CNTT,CNTT,3,2,0.92,15,10,5,61,Cảnh báo học vụ
+SV0133,CNTT,CNTT,4,1,0.52,20,14,6,75,Cảnh báo học vụ
+SV0134,Điều dưỡng,Điều dưỡng,1,2,3.78,18,13,5,91,Bình thường
+SV0135,Truyền thông,Truyền thông đa phương tiện,4,2,3.17,18,10,8,60,Bình thường
+SV0136,Truyền thông,Truyền thông đa phương tiện,3,1,2.27,15,8,7,70,Bình thường
+SV0137,Ngôn ngữ,Tiếng Trung,3,1,3.64,20,14,6,98,Bình thường
+SV0138,Ngôn ngữ,Tiếng Trung,3,1,3.77,15,15,0,64,Bình thường
+SV0139,QTKD,Quản trị kinh doanh,3,1,3.99,18,18,0,98,Bình thường
+SV0140,CNTT,CNTT,4,1,2.41,15,12,3,94,Bình thường
+SV0141,CNTT,CNTT,1,2,3.49,18,12,6,86,Bình thường
+SV0142,Điều dưỡng,Điều dưỡng,4,1,1.93,22,17,5,82,Bình thường
+SV0143,QTKD,Quản trị kinh doanh,2,2,2.49,22,15,7,78,Bình thường
+SV0144,CNTT,CNTT,2,1,3.25,20,16,4,93,Bình thường
+SV0145,Điều dưỡng,Điều dưỡng,2,2,2.25,20,15,5,97,Bình thường
+SV0146,CNTT,Khoa học máy tính,4,1,3.93,20,18,2,69,Bình thường
+SV0147,Ngôn ngữ,Tiếng Trung,1,2,2.97,15,9,6,95,Bình thường
+SV0148,QTKD,Quản trị kinh doanh,4,1,2.43,20,20,0,61,Bình thường
+SV0149,QTKD,Marketing,4,2,3.24,15,7,8,99,Bình thường
+SV0150,Điều dưỡng,Điều dưỡng,1,1,3.5,22,16,6,96,Bình thường
+SV0151,CNTT,CNTT,2,1,3.53,18,12,6,61,Bình thường
+SV0152,Truyền thông,Truyền thông đa phương tiện,3,1,3.36,20,18,2,79,Bình thường
+SV0153,CNTT,Khoa học máy tính,4,2,2.73,20,20,0,77,Bình thường
+SV0154,Điều dưỡng,Điều dưỡng,2,2,3.46,18,11,7,71,Bình thường
+SV0155,Ngôn ngữ,Tiếng Trung,4,1,2.53,18,18,0,94,Bình thường
+SV0156,QTKD,Marketing,4,2,3.25,20,17,3,78,Bình thường
+SV0157,Truyền thông,Truyền thông đa phương tiện,3,1,0.71,20,18,2,79,Cảnh báo học vụ
+SV0158,CNTT,Khoa học máy tính,4,1,3.88,22,20,2,78,Bình thường
+SV0159,Ngôn ngữ,Tiếng Trung,2,1,0.51,15,7,8,71,Cảnh báo học vụ
+SV0160,QTKD,Quản trị kinh doanh,4,2,0.76,18,16,2,64,Cảnh báo học vụ
+SV0161,Ngôn ngữ,Tiếng Trung,2,2,3.65,22,20,2,61,Bình thường
+SV0162,Truyền thông,Truyền thông đa phương tiện,3,2,1.96,15,14,1,69,Bình thường
+SV0163,Ngôn ngữ,Tiếng Trung,1,1,3.77,18,12,6,92,Bình thường
+SV0164,Điều dưỡng,Điều dưỡng,4,1,3.47,22,19,3,66,Bình thường
+SV0165,Truyền thông,Truyền thông đa phương tiện,2,1,0.9,15,7,8,89,Cảnh báo học vụ
+SV0166,Điều dưỡng,Điều dưỡng,1,1,2.76,22,20,2,91,Bình thường
+SV0167,Truyền thông,Truyền thông đa phương tiện,4,2,1.19,20,12,8,96,Cảnh báo học vụ
+SV0168,QTKD,Quản trị kinh doanh,4,2,1.15,18,15,3,74,Cảnh báo học vụ
+SV0169,CNTT,CNTT,1,2,3.03,20,18,2,98,Bình thường
+SV0170,CNTT,Khoa học máy tính,3,1,3.98,18,10,8,73,Bình thường
+SV0171,Điều dưỡng,Điều dưỡng,2,1,1.7,18,16,2,96,Bình thường
+SV0172,QTKD,Quản trị kinh doanh,4,1,3.67,18,11,7,98,Bình thường
+SV0173,Truyền thông,Truyền thông đa phương tiện,4,1,1.83,15,9,6,98,Bình thường
+SV0174,QTKD,Quản trị kinh doanh,4,1,2.57,22,20,2,89,Bình thường
+SV0175,Điều dưỡng,Điều dưỡng,2,2,3.28,15,8,7,83,Bình thường
+SV0176,Điều dưỡng,Điều dưỡng,4,2,0.89,15,12,3,76,Cảnh báo học vụ
+SV0177,Điều dưỡng,Điều dưỡng,1,1,3.21,20,16,4,68,Bình thường
+SV0178,Truyền thông,Truyền thông đa phương tiện,2,1,0.67,22,22,0,90,Cảnh báo học vụ
+SV0179,QTKD,Marketing,2,2,1.61,20,16,4,74,Bình thường
+SV0180,Ngôn ngữ,Tiếng Trung,3,2,3.08,15,12,3,76,Bình thường
+SV0181,Truyền thông,Truyền thông đa phương tiện,1,1,2.86,15,13,2,67,Bình thường
+SV0182,Điều dưỡng,Điều dưỡng,3,2,1.5,22,15,7,93,Cảnh báo học vụ
+SV0183,Ngôn ngữ,Tiếng Trung,1,2,1.89,15,9,6,73,Bình thường
+SV0184,QTKD,Quản trị kinh doanh,2,1,0.62,18,10,8,90,Cảnh báo học vụ
+SV0185,CNTT,CNTT,4,1,3.12,15,15,0,87,Bình thường
+SV0186,Điều dưỡng,Điều dưỡng,4,2,2.77,20,16,4,63,Bình thường
+SV0187,CNTT,Khoa học máy tính,3,1,3.09,18,15,3,94,Bình thường
+SV0188,QTKD,Marketing,4,1,2.65,22,19,3,85,Bình thường
+SV0189,Ngôn ngữ,Tiếng Trung,4,1,0.91,15,8,7,60,Cảnh báo học vụ
+SV0190,Ngôn ngữ,Tiếng Trung,3,1,3.57,22,19,3,95,Bình thường
+SV0191,Truyền thông,Truyền thông đa phương tiện,2,2,2.08,20,19,1,92,Bình thường
+SV0192,Ngôn ngữ,Tiếng Trung,3,1,0.75,22,14,8,75,Cảnh báo học vụ
+SV0193,Ngôn ngữ,Tiếng Trung,1,1,2.87,18,17,1,82,Bình thường
+SV0194,Truyền thông,Truyền thông đa phương tiện,4,1,0.66,22,15,7,89,Cảnh báo học vụ
+SV0195,QTKD,Marketing,2,2,1.79,18,16,2,88,Bình thường
+SV0196,CNTT,Khoa học máy tính,3,2,0.59,20,13,7,92,Cảnh báo học vụ
+SV0197,Ngôn ngữ,Tiếng Trung,4,2,3.45,15,10,5,67,Bình thường
+SV0198,QTKD,Marketing,1,1,2.62,22,16,6,97,Bình thường
+SV0199,CNTT,CNTT,1,1,2.15,20,15,5,73,Bình thường
+SV0200,Điều dưỡng,Điều dưỡng,3,1,2.01,15,14,1,65,Bình thường
+SV0201,Điều dưỡng,Điều dưỡng,1,2,0.6,18,18,0,89,Cảnh báo học vụ
+SV0202,Điều dưỡng,Điều dưỡng,4,1,2.05,18,11,7,71,Bình thường
+SV0203,Truyền thông,Truyền thông đa phương tiện,4,1,2.81,20,12,8,69,Bình thường
+SV0204,QTKD,Marketing,2,1,1.25,15,8,7,66,Cảnh báo học vụ
+SV0205,CNTT,Khoa học máy tính,4,2,2.06,20,17,3,60,Bình thường
+SV0206,CNTT,CNTT,3,1,1.37,15,11,4,82,Cảnh báo học vụ
+SV0207,Truyền thông,Truyền thông đa phương tiện,4,1,3.23,22,14,8,95,Bình thường
+SV0208,Truyền thông,Truyền thông đa phương tiện,3,2,2.9,18,18,0,66,Bình thường
+SV0209,CNTT,CNTT,2,1,1.28,15,11,4,81,Cảnh báo học vụ
+SV0210,Điều dưỡng,Điều dưỡng,4,2,3.28,18,11,7,99,Bình thường
+SV0211,Điều dưỡng,Điều dưỡng,1,2,1.69,20,17,3,89,Bình thường
+SV0212,Truyền thông,Truyền thông đa phương tiện,2,2,3.95,20,14,6,73,Bình thường
+SV0213,CNTT,Khoa học máy tính,3,2,1.0,15,9,6,100,Cảnh báo học vụ
+SV0214,Điều dưỡng,Điều dưỡng,2,1,1.09,18,13,5,87,Cảnh báo học vụ
+SV0215,Truyền thông,Truyền thông đa phương tiện,4,1,3.79,15,13,2,76,Bình thường
+SV0216,QTKD,Marketing,2,2,1.53,20,20,0,86,Bình thường
+SV0217,CNTT,Khoa học máy tính,1,2,0.64,15,10,5,63,Cảnh báo học vụ
+SV0218,CNTT,Khoa học máy tính,3,1,3.05,18,14,4,85,Bình thường
+SV0219,Truyền thông,Truyền thông đa phương tiện,2,2,0.86,18,16,2,80,Cảnh báo học vụ
+SV0220,Ngôn ngữ,Tiếng Trung,1,2,1.4,18,13,5,73,Bình thường
+SV0221,Truyền thông,Truyền thông đa phương tiện,2,2,0.86,22,17,5,87,Cảnh báo học vụ
+SV0222,Truyền thông,Truyền thông đa phương tiện,2,2,2.48,20,19,1,72,Bình thường
+SV0223,Truyền thông,Truyền thông đa phương tiện,1,1,2.43,20,12,8,62,Bình thường
+SV0224,Truyền thông,Truyền thông đa phương tiện,1,1,0.64,22,15,7,82,Cảnh báo học vụ
+SV0225,Ngôn ngữ,Tiếng Trung,4,2,0.73,20,17,3,83,Cảnh báo học vụ
+SV0226,CNTT,CNTT,4,1,2.04,18,13,5,89,Bình thường
+SV0227,QTKD,Quản trị kinh doanh,2,2,1.65,22,16,6,63,Bình thường
+SV0228,Ngôn ngữ,Tiếng Trung,3,1,3.7,18,14,4,66,Bình thường
+SV0229,QTKD,Quản trị kinh doanh,2,2,2.0,15,11,4,100,Bình thường
+SV0230,CNTT,CNTT,2,1,1.59,22,18,4,97,Bình thường
+SV0231,CNTT,Khoa học máy tính,4,2,0.75,15,10,5,78,Cảnh báo học vụ
+SV0232,CNTT,CNTT,3,1,1.2,15,11,4,66,Cảnh báo học vụ
+SV0233,Truyền thông,Truyền thông đa phương tiện,3,2,2.35,15,15,0,89,Bình thường
+SV0234,Điều dưỡng,Điều dưỡng,4,1,3.13,18,14,4,100,Bình thường
+SV0235,Ngôn ngữ,Tiếng Trung,3,1,0.88,20,14,6,99,Cảnh báo học vụ
+SV0236,Truyền thông,Truyền thông đa phương tiện,2,1,3.84,22,16,6,86,Bình thường
+SV0237,Điều dưỡng,Điều dưỡng,2,1,1.84,20,14,6,100,Bình thường
+SV0238,Điều dưỡng,Điều dưỡng,1,1,3.07,18,18,0,64,Bình thường
+SV0239,Truyền thông,Truyền thông đa phương tiện,1,1,3.85,22,14,8,97,Bình thường
+SV0240,CNTT,CNTT,3,2,1.25,15,7,8,77,Cảnh báo học vụ
+SV0241,QTKD,Quản trị kinh doanh,4,2,3.6,22,17,5,72,Bình thường
+SV0242,QTKD,Marketing,2,1,1.41,20,14,6,74,Bình thường
+SV0243,Ngôn ngữ,Tiếng Trung,4,1,1.19,15,12,3,63,Cảnh báo học vụ
+SV0244,CNTT,CNTT,3,2,0.58,18,15,3,71,Cảnh báo học vụ
+SV0245,Ngôn ngữ,Tiếng Trung,1,1,3.15,22,18,4,97,Bình thường
+SV0246,Truyền thông,Truyền thông đa phương tiện,2,2,2.9,15,8,7,76,Bình thường
+SV0247,Truyền thông,Truyền thông đa phương tiện,1,1,3.07,18,16,2,87,Bình thường
+SV0248,Điều dưỡng,Điều dưỡng,2,2,3.53,22,19,3,93,Bình thường
+SV0249,Điều dưỡng,Điều dưỡng,2,2,0.52,15,7,8,99,Cảnh báo học vụ
+SV0250,Điều dưỡng,Điều dưỡng,1,1,1.1,18,13,5,77,Cảnh báo học vụ

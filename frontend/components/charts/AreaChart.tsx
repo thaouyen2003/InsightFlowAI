@@ -84,8 +84,8 @@ export default function AreaChartComponent({
                         <Area
                             type="monotone"
                             dataKey="y"
-                            stroke="#2563eb"
-                            fill="#93c5fd"
+                            stroke="#009dff"
+                            fill="#75d3ff"
                             fillOpacity={0.55}
                         />
                     </AreaChart>

@@ -29,6 +29,117 @@ class InsightFusionService:
         self.knowledge_service = knowledge_service
         self.query_builder = KnowledgeQueryBuilder()
 
+
+    def _infer_category(
+        self,
+        df: pd.DataFrame,
+        requested_category: str | None = None,
+    ) -> str:
+        """
+        Tự nhận diện nhóm tri thức phù hợp
+        dựa trên tên cột của dataset.
+        """
+
+        allowed_categories = {
+            "hoc_vu",
+            "tot_nghiep",
+            "hoc_bong",
+            "dao_tao",
+        }
+
+        if requested_category:
+            normalized_requested = (
+                requested_category
+                .strip()
+                .lower()
+            )
+
+            if normalized_requested in allowed_categories:
+                return normalized_requested
+
+        normalized_columns = {
+            str(column)
+            .strip()
+            .lower()
+            .replace(" ", "_")
+            .replace("-", "_")
+            for column in df.columns
+        }
+
+        graduation_keywords = {
+            "graduation_status",
+            "graduation_classification",
+            "graduation_eligibility",
+            "graduation_result",
+            "eligible_for_graduation",
+            "mandatory_courses_remaining",
+            "required_courses_remaining",
+            "credits_completed",
+            "credits_required",
+            "total_credits",
+            "cpa",
+        }
+
+        scholarship_keywords = {
+            "scholarship_status",
+            "scholarship_type",
+            "scholarship_amount",
+            "financial_aid",
+        }
+
+        academic_warning_keywords = {
+            "academic_warning",
+            "warning_level",
+            "academic_risk",
+            "risk_level",
+            "failed_credits",
+            "failed_courses",
+            "semester_gpa",
+        }
+
+        training_keywords = {
+            "course",
+            "subject",
+            "semester",
+            "credits_registered",
+            "credits_passed",
+            "class",
+            "major",
+        }
+
+        graduation_score = len(
+            normalized_columns & graduation_keywords
+        )
+
+        scholarship_score = len(
+            normalized_columns & scholarship_keywords
+        )
+
+        warning_score = len(
+            normalized_columns & academic_warning_keywords
+        )
+
+        training_score = len(
+            normalized_columns & training_keywords
+        )
+
+        scores = {
+            "tot_nghiep": graduation_score,
+            "hoc_bong": scholarship_score,
+            "hoc_vu": warning_score,
+            "dao_tao": training_score,
+        }
+
+        best_category = max(
+            scores,
+            key=scores.get,
+        )
+
+        if scores[best_category] > 0:
+            return best_category
+
+        return "dao_tao"
+
     def generate(
         self,
         df: pd.DataFrame,
@@ -38,6 +149,16 @@ class InsightFusionService:
         """
         Tạo kết quả Insight + RAG Fusion.
         """
+
+        resolved_category = self._infer_category(
+            df=df,
+            requested_category=category,
+        )
+
+        print(
+            "[InsightFusion] Resolved category:",
+            resolved_category,
+        )
 
         insight_result = self.insight_engine.generate(
             df=df,
@@ -51,13 +172,13 @@ class InsightFusionService:
         knowledge_query = self.query_builder.build(
             findings=findings,
             dataset_name=dataset_name,
-            category=category,
+            category=resolved_category,
             insight_result=insight_result,
         )
 
         knowledge_result = self._ask_knowledge_service(
             query=knowledge_query,
-            category=category,
+            category=resolved_category,
         )
 
         knowledge_answer = self._extract_answer(
@@ -77,7 +198,7 @@ class InsightFusionService:
         recommendations = self._build_recommendations(
             findings=findings,
             knowledge_answer=knowledge_answer,
-            category=category,
+            category=resolved_category,
         )
 
         return FusionResponse(
@@ -88,7 +209,7 @@ class InsightFusionService:
             recommendations=recommendations,
             sources=sources,
             metadata={
-                "category": category,
+                "category": resolved_category,
                 "row_count": len(df),
                 "column_count": len(df.columns),
                 "generation_mode": generation_mode,
@@ -105,33 +226,20 @@ class InsightFusionService:
         category: str | None,
     ) -> Any:
         """
-        Gửi câu hỏi sang Knowledge Service.
+        Gửi câu hỏi sang Knowledge Service
+        và giữ đúng category đã xác định.
 
-        Nếu lọc theo category không tìm thấy tài liệu,
-        thử lại không giới hạn category để tăng khả năng
-        truy xuất đúng tài liệu.
+        Không tự động truy xuất toàn bộ kho tri thức
+        để tránh lấy nhầm tài liệu khác miền nghiệp vụ.
         """
 
-        result = self.knowledge_service.ask(
+        return self.knowledge_service.ask(
             question=query,
             category=category,
         )
 
-        answer = self._extract_answer(result)
-        sources = self._extract_sources(result)
 
-        if (
-            category
-            and not answer.strip()
-            and not sources
-        ):
-            result = self.knowledge_service.ask(
-                question=query,
-                category=None,
-            )
-
-        return result
-
+   
     def _extract_findings(
         self,
         insight_result: Any,

@@ -2,6 +2,7 @@ from typing import Any
 
 import pandas as pd
 
+
 class ChartGenerator:
     """
     Tạo biểu đồ thông minh dựa trên:
@@ -18,6 +19,22 @@ class ChartGenerator:
     MAX_CATEGORIES = 15
     MAX_TIME_POINTS = 100
 
+    MEAN_KEYWORDS = {
+        "score",
+        "gpa",
+        "cpa",
+        "grade",
+        "mark",
+        "average",
+        "avg",
+        "point",
+        "rating",
+        "rate",
+        "percentage",
+        "percent",
+    }
+
+   
     def generate(
         self,
         df: pd.DataFrame,
@@ -114,9 +131,11 @@ class ChartGenerator:
                 if measure_name not in df.columns:
                     continue
 
-                aggregation = (
-                    measure.get("aggregation")
-                    or "sum"
+                aggregation = self._resolve_aggregation(
+                    measure_name=measure_name,
+                    default_aggregation=measure.get(
+                        "aggregation"
+                    ),
                 )
 
                 score = 90
@@ -200,9 +219,11 @@ class ChartGenerator:
                 if measure_name not in df.columns:
                     continue
 
-                aggregation = (
-                    measure.get("aggregation")
-                    or "sum"
+                aggregation = self._resolve_aggregation(
+                    measure_name=measure_name,
+                    default_aggregation=measure.get(
+                        "aggregation"
+                    ),
                 )
 
                 semantic_type = measure.get(
@@ -230,20 +251,7 @@ class ChartGenerator:
                     })
 
                 # Pie
-                if 2 <= unique_count <= 6:
-                    pie_score = base_score + 11
-
-                    candidates.append({
-                        "type": "pie",
-                        "dimension": dimension_name,
-                        "measure": measure_name,
-                        "aggregation": aggregation,
-                        "score": pie_score,
-                        "reason": (
-                            "Category có ít nhóm, phù hợp "
-                            "biểu đồ tỷ trọng."
-                        ),
-                    })
+                
                 # Horizontal Bar
                 if 9 <= unique_count <= 30:
                     candidates.append({
@@ -259,6 +267,92 @@ class ChartGenerator:
                         ),
                     })
 
+        for dimension in categorical_columns:
+            dimension_name = dimension.get("name")
+
+            unique_count = dimension.get(
+                "unique_count",
+                0,
+            )
+
+            if not dimension_name:
+                continue
+
+            if dimension_name not in df.columns:
+                continue
+
+            if unique_count < 2:
+                continue
+
+            if unique_count > 30:
+                continue
+
+            # Pie chỉ đếm category, không dùng measure.
+            if 2 <= unique_count <= 6:
+                candidates.append({
+                    "type": "pie",
+                    "dimension": dimension_name,
+                    "measure": None,
+                    "aggregation": "count",
+                    "score": 86,
+                    "reason": (
+                        "Category có ít nhóm, phù hợp "
+                        "để thể hiện cơ cấu số lượng."
+                    ),
+                })
+
+            for measure in measures:
+                measure_name = measure.get("name")
+
+                if not measure_name:
+                    continue
+
+                if measure_name not in df.columns:
+                    continue
+
+                aggregation = self._resolve_aggregation(
+                    measure_name=measure_name,
+                    default_aggregation=measure.get(
+                        "aggregation"
+                    ),
+                )
+
+                semantic_type = measure.get(
+                    "semantic_type"
+                )
+
+                base_score = 75
+
+                if semantic_type == "currency":
+                    base_score += 5
+
+                if 2 <= unique_count <= 8:
+                    candidates.append({
+                        "type": "bar",
+                        "dimension": dimension_name,
+                        "measure": measure_name,
+                        "aggregation": aggregation,
+                        "score": base_score + 10,
+                        "reason": (
+                            "Categorical dimension có "
+                            "ít nhóm, phù hợp biểu đồ "
+                            "cột đứng."
+                        ),
+                    })
+
+                if 9 <= unique_count <= 30:
+                    candidates.append({
+                        "type": "horizontal_bar",
+                        "dimension": dimension_name,
+                        "measure": measure_name,
+                        "aggregation": aggregation,
+                        "score": base_score + 12,
+                        "reason": (
+                            "Categorical dimension có "
+                            "nhiều nhóm, phù hợp biểu đồ "
+                            "thanh ngang."
+                        ),
+                    })
         # ==========================================
         # 3. SCATTER CHART
         # ==========================================
@@ -541,6 +635,12 @@ class ChartGenerator:
         measure = candidate["measure"]
         aggregation = candidate["aggregation"]
 
+        title = self._make_measure_chart_title(
+            measure=measure,
+            dimension=dimension,
+            aggregation=aggregation,
+        )
+
         if (
             dimension not in df.columns
             or measure not in df.columns
@@ -610,6 +710,58 @@ class ChartGenerator:
             "score": candidate["score"],
             "reason": candidate["reason"],
         }
+
+    def _make_measure_chart_title(
+        self,
+        measure: str,
+        dimension: str,
+        aggregation: str,
+    ) -> str:
+        normalized_measure = (
+            str(measure)
+            .strip()
+            .lower()
+            .replace(" ", "_")
+            .replace("-", "_")
+        )
+
+        measure_display = self._format_name(
+            measure
+        )
+
+        dimension_display = self._format_name(
+            dimension
+        )
+
+        if (
+            aggregation == "mean"
+            and normalized_measure == "cpa"
+        ):
+            return (
+                f"Điểm CPA trung bình theo "
+                f"{dimension_display}"
+            )
+
+        if (
+            aggregation == "mean"
+            and normalized_measure == "gpa"
+        ):
+            return (
+                f"Điểm GPA trung bình theo "
+                f"{dimension_display}"
+            )
+
+        if aggregation == "mean":
+            return (
+                f"{measure_display} trung bình theo "
+                f"{dimension_display}"
+            )
+
+        return (
+            f"{measure_display} theo "
+            f"{dimension_display}"
+        )
+
     
     def _generate_horizontal_bar_chart(
         self,
@@ -676,10 +828,7 @@ class ChartGenerator:
                 f"{dimension}_{measure}"
             ),
             "type": "horizontal_bar",
-            "title": (
-                f"{self._format_name(measure)} "
-                f"by {self._format_name(dimension)}"
-            ),
+           "title": title,
             "dimension": dimension,
             "measure": measure,
             "aggregation": aggregation,
@@ -1064,3 +1213,62 @@ class ChartGenerator:
             .strip()
             .title()
         )
+
+    def _infer_measure_aggregation(
+        self,
+        column_name: str,
+        default_aggregation: str = "sum",
+    ) -> str:
+        normalized_name = self._normalize_name(
+            column_name
+        )
+
+        tokens = set(
+            normalized_name.split("_")
+        )
+
+        if tokens & self.MEAN_KEYWORDS:
+            return "mean"
+
+        return default_aggregation
+
+    def _resolve_aggregation(
+        self,
+        measure_name: str,
+        default_aggregation: str | None,
+    ) -> str:
+        """
+        Xác định phép tổng hợp phù hợp cho measure.
+
+        GPA, CPA, score, rate... luôn dùng mean,
+        không được cộng tổng.
+        """
+
+        normalized_name = (
+            str(measure_name)
+            .strip()
+            .lower()
+            .replace(" ", "_")
+            .replace("-", "_")
+        )
+
+        tokens = set(
+            normalized_name.split("_")
+        )
+
+        if tokens & self.MEAN_KEYWORDS:
+            return "mean"
+
+        allowed_aggregations = {
+            "sum",
+            "mean",
+            "median",
+            "min",
+            "max",
+            "count",
+        }
+
+        if default_aggregation in allowed_aggregations:
+            return str(default_aggregation)
+
+        return "sum"

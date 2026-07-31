@@ -311,6 +311,163 @@ class RAGService:
             },
         )
 
+
+    def retrieve_chunks(
+        self,
+        question: str,
+        category: str | None = None,
+        top_k: int = 10,
+        *,
+        allow_category_fallback: bool = False,
+    ) -> list[dict[str, Any]]:
+        """
+        Truy xuất các chunk tri thức ở dạng dữ liệu thô.
+
+        Hàm này được sử dụng cho những module cần
+        xử lý trực tiếp nội dung RAG, chẳng hạn:
+
+        - Trích xuất luật xét tốt nghiệp
+        - Trích xuất điều kiện học bổng
+        - Trích xuất quy định học vụ
+
+        Khác với ask(), hàm này không gọi LLM để
+        tạo câu trả lời cuối cùng.
+        """
+
+        clean_question = question.strip()
+
+        if not clean_question:
+            raise ValueError(
+                "Câu truy vấn không được để trống."
+            )
+
+        if top_k <= 0:
+            raise ValueError(
+                "top_k phải lớn hơn 0."
+            )
+
+        requested_category = (
+            category.strip()
+            if category
+            else None
+        )
+
+        retrieved_items = self._retrieve(
+            question=clean_question,
+            top_k=top_k,
+            category=requested_category,
+        )
+
+        if (
+            not retrieved_items
+            and requested_category is not None
+            and allow_category_fallback
+        ):
+            retrieved_items = self._retrieve(
+                question=clean_question,
+                top_k=top_k,
+                category=None,
+            )
+
+        normalized_chunks: list[
+            dict[str, Any]
+        ] = []
+
+        for index, item in enumerate(
+            retrieved_items,
+            start=1,
+        ):
+            if hasattr(item, "model_dump"):
+                item_data = item.model_dump()
+            elif isinstance(item, dict):
+                item_data = item
+            else:
+                item_data = vars(item)
+
+            document_name = (
+                item_data.get("source")
+                or item_data.get("document_name")
+                or item_data.get("filename")
+                or "unknown.pdf"
+            )
+
+            page_number = (
+                item_data.get("page")
+                if item_data.get("page") is not None
+                else item_data.get("page_number")
+            )
+
+            chunk_id = (
+                item_data.get("chunk_id")
+                or item_data.get("id")
+                or f"retrieved_chunk_{index}"
+            )
+
+            content = (
+                item_data.get("content")
+                or item_data.get("text")
+                or item_data.get("document")
+                or ""
+            )
+
+            item_category = (
+                item_data.get("category")
+                or requested_category
+            )
+
+            distance = item_data.get(
+                "distance"
+            )
+
+            normalized_chunks.append(
+                {
+                    "document_name": str(
+                        document_name
+                    ),
+                    "page_number": page_number,
+                    "chunk_id": str(chunk_id),
+                    "content": str(content),
+                    "category": item_category,
+                    "distance": distance,
+                }
+            )
+
+        return normalized_chunks
+
+
+    def generate_text(
+        self,
+        prompt: str,
+    ) -> str:
+        """
+        Gọi Gemini bằng prompt tùy chỉnh.
+
+        Hàm này cho phép các module khác sử dụng
+        chung cơ chế Gemini và retry hiện tại,
+        nhưng tự định nghĩa prompt riêng.
+        """
+
+        clean_prompt = prompt.strip()
+
+        if not clean_prompt:
+            raise ValueError(
+                "Prompt không được để trống."
+            )
+
+        generated_text = self._generate_answer(
+            prompt=clean_prompt,
+            max_retries=self.max_retries,
+        )
+
+        if not generated_text:
+            raise RuntimeError(
+                "Gemini trả về nội dung trống."
+            )
+
+        return generated_text.strip()
+
+    
+
     def _retrieve(
         self,
         question: str,

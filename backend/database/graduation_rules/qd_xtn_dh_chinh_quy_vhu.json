@@ -1,0 +1,152 @@
+{
+  "rule_set_code": "QD_XTN_DH_CHINH_QUY_VHU",
+  "rule_set_name": "Quy định xét tốt nghiệp đại học chính quy - Trường Đại học Văn Hiến",
+  "version": "1.0",
+  "major": null,
+  "cohort": null,
+  "program": null,
+  "effective_date": "2026-01-01",
+  "rules": [
+    {
+      "code": "minimum_gpa",
+      "name": "Điểm trung bình tích lũy",
+      "field_name": "gpa",
+      "operator": "greater_than_or_equal",
+      "required_value": 2.0,
+      "accepted_values": [],
+      "failure_message": "Điểm trung bình tích lũy (CPA) toàn khóa học chưa đạt từ 2.00 trở lên.",
+      "recommendation": "Cần học cải thiện điểm số để đạt mức tối thiểu 2.00.",
+      "is_required": true,
+      "source": {
+        "document_name": "quy_dinh_tot_nghiep.pdf",
+        "page_number": 1,
+        "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+        "evidence_text": "Điểm trung bình tích lũy (CPA): Đạt điểm trung bình tích lũy toàn khóa học từ 2.00 / 4.00 trở lên.",
+        "category": "tot_nghiep"
+      },
+      "confidence": 1.0
+    },
+    {
+      "code": "english_standard",
+      "name": "Chuẩn đầu ra Ngoại ngữ",
+      "field_name": "english_status",
+      "operator": "equal",
+      "required_value": "Đạt",
+      "accepted_values": [],
+      "failure_message": "Chưa đạt chuẩn đầu ra Ngoại ngữ theo quy định.",
+      "recommendation": "Nộp chứng chỉ Ngoại ngữ đạt chuẩn đầu ra theo quy định (TOEIC, IELTS, VSTEP hoặc tương đương).",
+      "is_required": true,
+      "source": {
+        "document_name": "quy_dinh_tot_nghiep.pdf",
+        "page_number": 1,
+        "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+        "evidence_text": "Chuẩn đầu ra Ngoại ngữ: Có chứng chỉ Ngoại ngữ đạt chuẩn đầu ra theo quy định của Nhà trường áp dụng cho từng khóa/ngành đào tạo (TOEIC, IELTS, VSTEP hoặc tương đương).",
+        "category": "tot_nghiep"
+      },
+      "confidence": 0.95
+    },
+    {
+      "code": "informatics_standard",
+      "name": "Chuẩn đầu ra Tin học",
+      "field_name": "informatics_status",
+      "operator": "equal",
+      "required_value": "Đạt",
+      "accepted_values": [],
+      "failure_message": "Chưa đạt chuẩn đầu ra Tin học theo quy định.",
+      "recommendation": "Nộp chứng chỉ Ứng dụng CNTT (Cơ bản/Nâng cao) hoặc chứng chỉ Quốc tế (MOS, IC3) theo quy định.",
+      "is_required": true,
+      "source": {
+        "document_name": "quy_dinh_tot_nghiep.pdf",
+        "page_number": 1,
+        "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+        "evidence_text": "Chuẩn đầu ra Tin học: Có chứng chỉ Ứng dụng CNTT (Cơ bản/Nâng cao) hoặc chứng chỉ Quốc tế (MOS, IC3) theo quy định.",
+        "category": "tot_nghiep"
+      },
+      "confidence": 0.95
+    },
+    {
+      "code": "national_defense_standard",
+      "name": "Chứng chỉ Giáo dục Quốc phòng - An ninh",
+      "field_name": "national_defense_status",
+      "operator": "equal",
+      "required_value": "Hoàn thành",
+      "accepted_values": [],
+      "failure_message": "Chưa hoàn thành chương trình và đạt chứng chỉ Giáo dục Quốc phòng - An ninh.",
+      "recommendation": "Hoàn thành chương trình và nộp chứng chỉ Giáo dục Quốc phòng - An ninh (GDQP-AN).",
+      "is_required": true,
+      "source": {
+        "document_name": "quy_dinh_tot_nghiep.pdf",
+        "page_number": 1,
+        "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+        "evidence_text": "Hoàn thành chương trình và đạt chứng chỉ Giáo dục Quốc phòng - An ninh (GDQP-AN)",
+        "category": "tot_nghiep"
+      },
+      "confidence": 0.95
+    },
+    {
+      "code": "physical_education_standard",
+      "name": "Chứng chỉ Giáo dục Thể chất",
+      "field_name": "physical_education_status",
+      "operator": "equal",
+      "required_value": "Hoàn thành",
+      "accepted_values": [],
+      "failure_message": "Chưa hoàn thành chương trình và đạt chứng chỉ Giáo dục Thể chất.",
+      "recommendation": "Hoàn thành chương trình và đạt chứng chỉ Giáo dục Thể chất (GDTC).",
+      "is_required": true,
+      "source": {
+        "document_name": "quy_dinh_tot_nghiep.pdf",
+        "page_number": 1,
+        "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+        "evidence_text": "đạt chứng chỉ Giáo dục Quốc phòng - An ninh (GDQP-AN) và Giáo dục Thể chất (GDTC).",
+        "category": "tot_nghiep"
+      },
+      "confidence": 0.95
+    },
+    {
+      "code": "tuition_obligation",
+      "name": "Hoàn thành nghĩa vụ tài chính",
+      "field_name": "tuition_status",
+      "operator": "equal",
+      "required_value": "Hoàn thành",
+      "accepted_values": [],
+      "failure_message": "Chưa hoàn thành đầy đủ học phí, các khoản phí phát sinh hoặc các nghĩa vụ hồ sơ, tài sản đối với Nhà trường.",
+      "recommendation": "Hoàn thành đầy đủ học phí, các khoản phí phát sinh và các nghĩa vụ hồ sơ, tài sản đối với Nhà trường.",
+      "is_required": true,
+      "source": {
+        "document_name": "quy_dinh_tot_nghiep.pdf",
+        "page_number": 1,
+        "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+        "evidence_text": "Tài chính & Nghĩa vụ: Hoàn thành đầy đủ học phí, các khoản phí phát sinh và các nghĩa vụ hồ sơ, tài sản đối với Nhà trường.",
+        "category": "tot_nghiep"
+      },
+      "confidence": 0.95
+    },
+    {
+      "code": "discipline_restriction",
+      "name": "Tình trạng kỷ luật",
+      "field_name": "discipline_status",
+      "operator": "not_equal",
+      "required_value": "Đình chỉ học tập",
+      "accepted_values": [],
+      "failure_message": "Sinh viên đang trong thời gian bị kỷ luật ở mức đình chỉ học tập hoặc bị truy cứu trách nhiệm hình sự.",
+      "recommendation": "Liên hệ Phòng Công tác sinh viên và các đơn vị liên quan để giải quyết tình trạng kỷ luật.",
+      "is_required": true,
+      "source": {
+        "document_name": "quy_dinh_tot_nghiep.pdf",
+        "page_number": 1,
+        "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_1",
+        "evidence_text": "sinh viên không bị truy cứu trách nhiệm hình sự hoặc không đang trong thời gian bị kỷ luật ở mức đình chỉ học tập",
+        "category": "tot_nghiep"
+      },
+      "confidence": 0.9
+    }
+  ],
+  "source_documents": [
+    "quy_dinh_tot_nghiep.pdf"
+  ],
+  "extraction_notes": [
+    "Quy chế áp dụng cho sinh viên hệ đại học chính quy Trường Đại học Văn Hiến.",
+    "Bộ luật được sinh bởi provider: gemini, model: gemini-3.5-flash."
+  ],
+  "generated_by": "rag_rule_extractor:gemini"
+}

@@ -1,0 +1,301 @@
+﻿STT,Mã sinh viên,Họ và tên,Lớp,Ngành học,Điểm CPA,Xếp loại tốt nghiệp,Chuẩn Ngoại ngữ,Chuẩn Tin học,GDQP & GDTC,Trạng thái xét
+1,221VHU0001,Đặng Tuấn Dũng,221NG02,Ngôn ngữ Anh,2.12,Trung bình,Đạt (IELTS 5.5+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+2,221VHU0002,Võ Tuấn Uyên,221ĐÔ01,Đông phương học,2.58,Khá,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+3,221VHU0003,Hồ Tuấn Khoa,221ĐÔ02,Đông phương học,2.27,Trung bình,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+4,221VHU0004,Võ Gia Mai,221MA02,Marketing,3.44,Giỏi,Đạt (VSTEP B1),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+5,221VHU0005,Vũ Tuấn Sơn,221ĐÔ03,Đông phương học,3.53,Giỏi,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+6,221VHU0006,Đặng Khánh Phúc,221ĐÔ01,Đông phương học,3.71,Xuất sắc,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+7,221VHU0007,Lý Thành Vinh,221KẾ03,Kế toán,3.41,Giỏi,Đạt (VSTEP B1),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+8,221VHU0008,Bùi Tuấn Châu,221QU02,Quản trị kinh doanh,2.69,Khá,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+9,221VHU0009,Bùi Quang Hùng,221QU01,Quản trị dịch vụ du lịch và lữ hành,2.57,Khá,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+10,221VHU0010,Lê Ngọc Hải,221NG03,Ngôn ngữ Nhật,2.23,Trung bình,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+11,221VHU0011,Đặng Gia Bình,221TH02,Thiết kế đồ họa,2.27,Trung bình,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+12,221VHU0012,Dương Thành Khoa,221TÂ02,Tâm lý học,2.35,Trung bình,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+13,221VHU0013,Huỳnh Quang Trang,221CÔ01,Công nghệ thông tin,2.01,Trung bình,Đạt (IELTS 5.5+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+14,221VHU0014,Huỳnh Ngọc Yến,221KỸ02,Kỹ thuật phần mềm,2.25,Trung bình,Đạt (IELTS 5.5+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+15,221VHU0015,Ngô Ngọc Mai,221CÔ01,Công nghệ thông tin,2.07,Trung bình,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+16,221VHU0016,Bùi Phương Quân,221QU01,Quản trị kinh doanh,2.03,Trung bình,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+17,221VHU0017,Đỗ Minh Em,221KỸ01,Kỹ thuật phần mềm,2.75,Khá,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+18,221VHU0018,Lê Khánh Bình,221KẾ02,Kế toán,3.85,Xuất sắc,Đạt (IELTS 5.5+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+19,221VHU0019,Hoàng Quang Phong,221TÀ01,Tài chính - Ngân hàng,3.46,Giỏi,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+20,221VHU0020,Vũ Đức Vinh,221TH01,Thiết kế đồ họa,2.41,Trung bình,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+21,221VHU0021,Đỗ Hoàng Trang,221CÔ03,Công nghệ thông tin,2.73,Khá,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+22,221VHU0022,Trần Ánh Bình,221ĐÔ03,Đông phương học,2.21,Trung bình,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+23,221VHU0023,Phạm Gia Nga,221MA03,Marketing,2.24,Trung bình,Đạt (IELTS 5.5+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+24,221VHU0024,Hoàng Đức Uyên,221ĐÔ03,Đông phương học,3.23,Giỏi,Đạt (IELTS 5.5+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+25,221VHU0025,Phạm Tuấn Quân,221KẾ02,Kế toán,3.21,Giỏi,Đạt (VSTEP B1),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+26,221VHU0026,Phạm Thu Vinh,221QU02,Quản trị dịch vụ du lịch và lữ hành,2.23,Trung bình,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+27,221VHU0027,Phan Ánh Hải,221KẾ03,Kế toán,3.62,Xuất sắc,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+28,221VHU0028,Ngô Minh Phúc,221CÔ02,Công nghệ thông tin,3.07,Khá,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+29,221VHU0029,Vũ Văn Anh,221ĐÔ01,Đông phương học,2.17,Trung bình,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+30,221VHU0030,Lê Phương Quân,221KỸ03,Kỹ thuật phần mềm,3.41,Giỏi,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+31,221VHU0031,Vũ Ngọc Huy,221KẾ01,Kế toán,2.91,Khá,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+32,221VHU0032,Đặng Quang Tuấn,221TÀ01,Tài chính - Ngân hàng,2.83,Khá,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+33,221VHU0033,Nguyễn Khánh Em,221ĐÔ02,Đông phương học,3.26,Giỏi,Đạt (IELTS 5.5+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+34,221VHU0034,Võ Hoàng Châu,221TÀ02,Tài chính - Ngân hàng,3.59,Giỏi,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+35,221VHU0035,Hồ Ngọc Hùng,221MA03,Marketing,3.35,Giỏi,Đạt (IELTS 5.5+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+36,221VHU0036,Huỳnh Thị Em,221TÂ02,Tâm lý học,3.42,Giỏi,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+37,221VHU0037,Lý Phương Tâm,221ĐÔ02,Đông phương học,2.85,Khá,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+38,221VHU0038,Nguyễn Khánh Tuấn,221TÂ02,Tâm lý học,3.9,Xuất sắc,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+39,221VHU0039,Phạm Gia Nga,221CÔ01,Công nghệ thông tin,2.12,Trung bình,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+40,221VHU0040,Vũ Tuấn Khoa,221NG02,Ngôn ngữ Nhật,3.02,Khá,Đạt (VSTEP B1),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+41,221VHU0041,Vũ Ngọc Linh,221ĐÔ03,Đông phương học,3.32,Giỏi,Đạt (IELTS 5.5+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+42,221VHU0042,Trần Văn Trang,221TH01,Thiết kế đồ họa,2.99,Khá,Đạt (IELTS 5.5+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+43,221VHU0043,Lê Phương Phong,221TÀ03,Tài chính - Ngân hàng,2.47,Trung bình,Đạt (IELTS 5.5+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+44,221VHU0044,Vũ Thu Trang,221MA02,Marketing,2.79,Khá,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+45,221VHU0045,Dương Phương Tâm,221NG02,Ngôn ngữ Anh,2.17,Trung bình,Đạt (IELTS 5.5+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+46,221VHU0046,Phạm Ngọc Vinh,221ĐÔ01,Đông phương học,2.03,Trung bình,Đạt (IELTS 5.5+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+47,221VHU0047,Nguyễn Khánh Châu,221QU03,Quản trị dịch vụ du lịch và lữ hành,3.88,Xuất sắc,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+48,221VHU0048,Phan Tuấn Tuấn,221NG01,Ngôn ngữ Anh,3.85,Xuất sắc,Đạt (IELTS 5.5+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+49,221VHU0049,Dương Quang Sơn,221QU03,Quản trị dịch vụ du lịch và lữ hành,3.17,Khá,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+50,221VHU0050,Dương Thị Dũng,221ĐÔ03,Đông phương học,2.43,Trung bình,Đạt (IELTS 5.5+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+51,221VHU0051,Đặng Thu Quân,221TÀ02,Tài chính - Ngân hàng,3.37,Giỏi,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+52,221VHU0052,Hoàng Khánh Uyên,221TÂ03,Tâm lý học,3.41,Giỏi,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+53,221VHU0053,Phan Đức Dũng,221MA01,Marketing,2.42,Trung bình,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+54,221VHU0054,Ngô Văn Trang,221ĐÔ03,Đông phương học,3.15,Khá,Đạt (IELTS 5.5+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+55,221VHU0055,Hoàng Ngọc Anh,221NG03,Ngôn ngữ Nhật,3.44,Giỏi,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+56,221VHU0056,Lý Thu Yến,221TH01,Thiết kế đồ họa,3.35,Giỏi,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+57,221VHU0057,Hồ Tuấn Thảo,221QU02,Quản trị dịch vụ du lịch và lữ hành,3.72,Xuất sắc,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+58,221VHU0058,Vũ Minh Mai,221TÀ01,Tài chính - Ngân hàng,3.89,Xuất sắc,Đạt (IELTS 5.5+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+59,221VHU0059,Ngô Ánh Uyên,221TÂ03,Tâm lý học,3.0,Khá,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+60,221VHU0060,Phan Đức Hải,221QU03,Quản trị dịch vụ du lịch và lữ hành,3.39,Giỏi,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+61,221VHU0061,Hoàng Hoàng Trang,221TH03,Thiết kế đồ họa,2.98,Khá,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+62,221VHU0062,Phạm Phương Linh,221NG03,Ngôn ngữ Nhật,2.94,Khá,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+63,221VHU0063,Đặng Khánh Nam,221CÔ01,Công nghệ thông tin,3.02,Khá,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+64,221VHU0064,Trần Tuấn Bình,221QU03,Quản trị kinh doanh,2.52,Khá,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+65,221VHU0065,Võ Thành Bình,221TÂ02,Tâm lý học,3.53,Giỏi,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+66,221VHU0066,Dương Thị Thảo,221ĐÔ01,Đông phương học,3.44,Giỏi,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+67,221VHU0067,Đặng Hoàng Tuấn,221CÔ03,Công nghệ thông tin,3.81,Xuất sắc,Đạt (IELTS 5.5+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+68,221VHU0068,Bùi Thu Bình,221CÔ01,Công nghệ thông tin,3.45,Giỏi,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+69,221VHU0069,Đỗ Phương Tâm,221NG02,Ngôn ngữ Nhật,3.44,Giỏi,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+70,221VHU0070,Dương Thành Tuấn,221KỸ02,Kỹ thuật phần mềm,2.36,Trung bình,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+71,221VHU0071,Trần Gia Hùng,221NG01,Ngôn ngữ Nhật,2.52,Khá,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+72,221VHU0072,Bùi Ngọc Uyên,221TH03,Thiết kế đồ họa,2.08,Trung bình,Đạt (IELTS 5.5+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+73,221VHU0073,Đặng Ngọc Tâm,221NG03,Ngôn ngữ Nhật,2.7,Khá,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+74,221VHU0074,Vũ Thành Quân,221KỸ03,Kỹ thuật phần mềm,3.53,Giỏi,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+75,221VHU0075,Hồ Thị Linh,221QU02,Quản trị kinh doanh,3.72,Xuất sắc,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+76,221VHU0076,Đỗ Minh Hải,221QU01,Quản trị dịch vụ du lịch và lữ hành,3.03,Khá,Đạt (VSTEP B1),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+77,221VHU0077,Đỗ Ngọc Hương,221ĐÔ01,Đông phương học,3.2,Giỏi,Đạt (VSTEP B1),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+78,221VHU0078,Bùi Gia Dũng,221MA01,Marketing,2.5,Khá,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+79,221VHU0079,Đỗ Thu Quân,221NG02,Ngôn ngữ Anh,2.95,Khá,Đạt (IELTS 5.5+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+80,221VHU0080,Lê Thị Phúc,221NG01,Ngôn ngữ Nhật,3.04,Khá,Đạt (VSTEP B1),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+81,221VHU0081,Phan Khánh Tuấn,221MA03,Marketing,3.63,Xuất sắc,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+82,221VHU0082,Lê Hoàng Tuấn,221TH01,Thiết kế đồ họa,2.05,Trung bình,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+83,221VHU0083,Lê Thị Bình,221TH03,Thiết kế đồ họa,3.55,Giỏi,Đạt (VSTEP B1),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+84,221VHU0084,Vũ Minh Nam,221MA02,Marketing,2.88,Khá,Đạt (IELTS 5.5+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+85,221VHU0085,Nguyễn Gia Tuấn,221KỸ03,Kỹ thuật phần mềm,3.04,Khá,Đạt (VSTEP B1),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+86,221VHU0086,Trần Hoàng Châu,221TÀ03,Tài chính - Ngân hàng,3.81,Xuất sắc,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+87,221VHU0087,Đặng Ánh Châu,221KẾ02,Kế toán,3.49,Giỏi,Đạt (IELTS 5.5+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+88,221VHU0088,Nguyễn Ngọc Phúc,221NG03,Ngôn ngữ Nhật,2.43,Trung bình,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+89,221VHU0089,Đặng Tuấn Em,221KẾ01,Kế toán,3.32,Giỏi,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+90,221VHU0090,Hoàng Thị Bình,221CÔ02,Công nghệ thông tin,3.12,Khá,Đạt (IELTS 5.5+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+91,221VHU0091,Phan Hoàng Vinh,221TÂ01,Tâm lý học,2.67,Khá,Đạt (IELTS 5.5+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+92,221VHU0092,Huỳnh Đức Thảo,221KẾ03,Kế toán,2.38,Trung bình,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+93,221VHU0093,Dương Tuấn Sơn,221KỸ01,Kỹ thuật phần mềm,2.57,Khá,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+94,221VHU0094,Phan Hoàng Tâm,221NG03,Ngôn ngữ Anh,3.86,Xuất sắc,Đạt (IELTS 5.5+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+95,221VHU0095,Vũ Thị Huy,221QU02,Quản trị dịch vụ du lịch và lữ hành,2.14,Trung bình,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+96,221VHU0096,Dương Quang Thảo,221ĐÔ03,Đông phương học,2.6,Khá,Đạt (VSTEP B1),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+97,221VHU0097,Đỗ Phương Khoa,221MA01,Marketing,2.33,Trung bình,Đạt (IELTS 5.5+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+98,221VHU0098,Ngô Minh Linh,221TH02,Thiết kế đồ họa,3.33,Giỏi,Đạt (IELTS 5.5+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+99,221VHU0099,Dương Quang Yến,221KẾ03,Kế toán,2.95,Khá,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+100,221VHU0100,Lê Khánh Hùng,221TH03,Thiết kế đồ họa,3.74,Xuất sắc,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+101,221VHU0101,Lê Hoàng Châu,221CÔ03,Công nghệ thông tin,3.66,Xuất sắc,Đạt (VSTEP B1),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+102,221VHU0102,Hồ Phương Tâm,221QU03,Quản trị kinh doanh,3.77,Xuất sắc,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+103,221VHU0103,Lý Tuấn Yến,221TH01,Thiết kế đồ họa,2.71,Khá,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+104,221VHU0104,Dương Thu Quân,221KỸ03,Kỹ thuật phần mềm,2.77,Khá,Đạt (VSTEP B1),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+105,221VHU0105,Vũ Khánh Thảo,221ĐÔ02,Đông phương học,2.32,Trung bình,Đạt (VSTEP B1),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+106,221VHU0106,Huỳnh Thành Tâm,221QU02,Quản trị dịch vụ du lịch và lữ hành,3.29,Giỏi,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+107,221VHU0107,Trần Đức Yến,221NG01,Ngôn ngữ Anh,2.45,Trung bình,Đạt (IELTS 5.5+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+108,221VHU0108,Trần Tuấn Hải,221NG02,Ngôn ngữ Nhật,3.77,Xuất sắc,Đạt (IELTS 5.5+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+109,221VHU0109,Dương Văn Bình,221ĐÔ03,Đông phương học,2.63,Khá,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+110,221VHU0110,Võ Ánh Sơn,221QU02,Quản trị dịch vụ du lịch và lữ hành,2.34,Trung bình,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+111,221VHU0111,Lê Thu Hùng,221MA02,Marketing,3.9,Xuất sắc,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+112,221VHU0112,Đỗ Ngọc Phong,221QU01,Quản trị dịch vụ du lịch và lữ hành,2.01,Trung bình,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+113,221VHU0113,Vũ Thị Quân,221ĐÔ01,Đông phương học,2.55,Khá,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+114,221VHU0114,Đỗ Ánh Uyên,221KỸ03,Kỹ thuật phần mềm,3.29,Giỏi,Đạt (IELTS 5.5+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+115,221VHU0115,Phạm Ngọc Tuấn,221NG03,Ngôn ngữ Anh,2.93,Khá,Đạt (VSTEP B1),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+116,221VHU0116,Ngô Văn Hương,221CÔ01,Công nghệ thông tin,2.25,Trung bình,Đạt (VSTEP B1),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+117,221VHU0117,Trần Ánh Em,221CÔ03,Công nghệ thông tin,2.32,Trung bình,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+118,221VHU0118,Nguyễn Hoàng Vinh,221ĐÔ02,Đông phương học,3.6,Xuất sắc,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+119,221VHU0119,Lý Khánh Phong,221TH03,Thiết kế đồ họa,2.43,Trung bình,Đạt (IELTS 5.5+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+120,221VHU0120,Huỳnh Ánh Tuấn,221NG02,Ngôn ngữ Nhật,2.52,Khá,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+121,221VHU0121,Lê Đức Mai,221MA03,Marketing,2.26,Trung bình,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+122,221VHU0122,Ngô Khánh Em,221QU03,Quản trị dịch vụ du lịch và lữ hành,2.19,Trung bình,Đạt (IELTS 5.5+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+123,221VHU0123,Phạm Thị Phong,221ĐÔ03,Đông phương học,2.25,Trung bình,Đạt (VSTEP B1),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+124,221VHU0124,Ngô Thu Nam,221TÀ01,Tài chính - Ngân hàng,3.71,Xuất sắc,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+125,221VHU0125,Lý Phương Yến,221MA02,Marketing,2.68,Khá,Đạt (VSTEP B1),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+126,221VHU0126,Hoàng Minh Phong,221QU03,Quản trị kinh doanh,3.77,Xuất sắc,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+127,221VHU0127,Ngô Minh Hải,221CÔ03,Công nghệ thông tin,3.38,Giỏi,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+128,221VHU0128,Nguyễn Gia Trang,221QU02,Quản trị kinh doanh,3.34,Giỏi,Đạt (IELTS 5.5+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+129,221VHU0129,Phạm Thành Nam,221ĐÔ03,Đông phương học,3.14,Khá,Đạt (IELTS 5.5+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+130,221VHU0130,Đỗ Ánh Hùng,221ĐÔ03,Đông phương học,2.78,Khá,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+131,221VHU0131,Lý Thành Linh,221NG03,Ngôn ngữ Nhật,3.08,Khá,Đạt (IELTS 5.5+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+132,221VHU0132,Đỗ Phương Uyên,221MA03,Marketing,3.43,Giỏi,Đạt (VSTEP B1),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+133,221VHU0133,Vũ Ngọc Uyên,221TH02,Thiết kế đồ họa,2.2,Trung bình,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+134,221VHU0134,Trần Thành Mai,221ĐÔ02,Đông phương học,2.01,Trung bình,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+135,221VHU0135,Ngô Thị Châu,221KẾ03,Kế toán,2.43,Trung bình,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+136,221VHU0136,Hồ Gia Thảo,221ĐÔ01,Đông phương học,3.02,Khá,Đạt (VSTEP B1),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+137,221VHU0137,Lý Ngọc Anh,221QU01,Quản trị kinh doanh,3.66,Xuất sắc,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+138,221VHU0138,Trần Phương Thảo,221NG03,Ngôn ngữ Nhật,3.01,Khá,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+139,221VHU0139,Trần Quang Hương,221ĐÔ02,Đông phương học,2.0,Trung bình,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+140,221VHU0140,Hồ Quang Tuấn,221MA03,Marketing,2.79,Khá,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+141,221VHU0141,Lê Thị Sơn,221KẾ02,Kế toán,3.42,Giỏi,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+142,221VHU0142,Võ Đức Thảo,221QU02,Quản trị kinh doanh,2.89,Khá,Đạt (IELTS 5.5+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+143,221VHU0143,Huỳnh Gia Quân,221KỸ02,Kỹ thuật phần mềm,3.09,Khá,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+144,221VHU0144,Phạm Phương Quân,221KẾ03,Kế toán,3.71,Xuất sắc,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+145,221VHU0145,Dương Gia Tâm,221NG03,Ngôn ngữ Anh,3.5,Giỏi,Đạt (IELTS 5.5+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+146,221VHU0146,Dương Ánh Anh,221NG03,Ngôn ngữ Anh,2.23,Trung bình,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+147,221VHU0147,Vũ Tuấn Uyên,221QU03,Quản trị kinh doanh,3.56,Giỏi,Đạt (IELTS 5.5+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+148,221VHU0148,Nguyễn Hoàng Hùng,221QU01,Quản trị kinh doanh,2.56,Khá,Đạt (IELTS 5.5+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+149,221VHU0149,Huỳnh Ngọc Khoa,221TÀ01,Tài chính - Ngân hàng,2.43,Trung bình,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+150,221VHU0150,Phan Ngọc Vinh,221QU01,Quản trị kinh doanh,2.46,Trung bình,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+151,221VHU0151,Vũ Đức Hương,221QU01,Quản trị dịch vụ du lịch và lữ hành,2.69,Khá,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+152,221VHU0152,Lý Ánh Anh,221NG03,Ngôn ngữ Nhật,3.87,Xuất sắc,Đạt (IELTS 5.5+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+153,221VHU0153,Bùi Ngọc Tâm,221KẾ02,Kế toán,2.96,Khá,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+154,221VHU0154,Vũ Phương Tâm,221TH03,Thiết kế đồ họa,2.11,Trung bình,Đạt (IELTS 5.5+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+155,221VHU0155,Trần Thu Linh,221MA01,Marketing,3.68,Xuất sắc,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+156,221VHU0156,Dương Quang Uyên,221CÔ03,Công nghệ thông tin,2.02,Trung bình,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+157,221VHU0157,Phạm Quang Linh,221QU01,Quản trị dịch vụ du lịch và lữ hành,3.68,Xuất sắc,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+158,221VHU0158,Võ Ngọc Thảo,221TÀ01,Tài chính - Ngân hàng,2.71,Khá,Đạt (IELTS 5.5+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+159,221VHU0159,Ngô Hoàng Yến,221TÀ02,Tài chính - Ngân hàng,2.71,Khá,Đạt (IELTS 5.5+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+160,221VHU0160,Huỳnh Ánh Em,221QU01,Quản trị dịch vụ du lịch và lữ hành,3.34,Giỏi,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+161,221VHU0161,Ngô Khánh Mai,221QU02,Quản trị kinh doanh,2.28,Trung bình,Đạt (VSTEP B1),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+162,221VHU0162,Nguyễn Thành Nam,221NG02,Ngôn ngữ Anh,2.26,Trung bình,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+163,221VHU0163,Đặng Minh Sơn,221QU01,Quản trị dịch vụ du lịch và lữ hành,2.09,Trung bình,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+164,221VHU0164,Phan Khánh Hùng,221NG03,Ngôn ngữ Anh,3.64,Xuất sắc,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+165,221VHU0165,Bùi Minh Linh,221TÀ01,Tài chính - Ngân hàng,3.09,Khá,Đạt (IELTS 5.5+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+166,221VHU0166,Ngô Thị Linh,221ĐÔ02,Đông phương học,3.88,Xuất sắc,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+167,221VHU0167,Đỗ Quang Tuấn,221NG01,Ngôn ngữ Nhật,2.95,Khá,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+168,221VHU0168,Hồ Ánh Huy,221NG03,Ngôn ngữ Anh,3.23,Giỏi,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+169,221VHU0169,Bùi Gia Trang,221QU01,Quản trị dịch vụ du lịch và lữ hành,3.11,Khá,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+170,221VHU0170,Bùi Đức Khoa,221TÀ03,Tài chính - Ngân hàng,3.27,Giỏi,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+171,221VHU0171,Hồ Minh Nga,221TÀ02,Tài chính - Ngân hàng,3.46,Giỏi,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+172,221VHU0172,Huỳnh Thành Anh,221TH03,Thiết kế đồ họa,3.42,Giỏi,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+173,221VHU0173,Lê Đức Phúc,221MA03,Marketing,2.2,Trung bình,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+174,221VHU0174,Trần Văn Yến,221MA02,Marketing,3.02,Khá,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+175,221VHU0175,Hoàng Thị Trang,221MA02,Marketing,2.6,Khá,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+176,221VHU0176,Hoàng Thành Quân,221TH02,Thiết kế đồ họa,2.06,Trung bình,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+177,221VHU0177,Lý Ngọc Sơn,221KẾ03,Kế toán,3.07,Khá,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+178,221VHU0178,Dương Tuấn Vinh,221ĐÔ02,Đông phương học,3.71,Xuất sắc,Đạt (IELTS 5.5+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+179,221VHU0179,Lý Thu Hương,221KỸ02,Kỹ thuật phần mềm,2.86,Khá,Đạt (IELTS 5.5+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+180,221VHU0180,Hoàng Minh Anh,221CÔ02,Công nghệ thông tin,3.02,Khá,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+181,221VHU0181,Lý Thu Anh,221TÂ01,Tâm lý học,3.8,Xuất sắc,Đạt (IELTS 5.5+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+182,221VHU0182,Ngô Phương Huy,221QU01,Quản trị dịch vụ du lịch và lữ hành,2.45,Trung bình,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+183,221VHU0183,Ngô Thu Nam,221MA02,Marketing,2.49,Trung bình,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+184,221VHU0184,Vũ Minh Châu,221MA02,Marketing,3.22,Giỏi,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+185,221VHU0185,Võ Gia Hải,221KỸ03,Kỹ thuật phần mềm,2.36,Trung bình,Đạt (IELTS 5.5+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+186,221VHU0186,Dương Ánh Nga,221KẾ02,Kế toán,3.37,Giỏi,Đạt (IELTS 5.5+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+187,221VHU0187,Nguyễn Thành Bình,221NG02,Ngôn ngữ Nhật,2.04,Trung bình,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+188,221VHU0188,Hoàng Hoàng Nga,221TÂ01,Tâm lý học,2.02,Trung bình,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+189,221VHU0189,Lý Đức Khoa,221MA02,Marketing,2.61,Khá,Đạt (IELTS 5.5+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+190,221VHU0190,Trần Quang Châu,221TH03,Thiết kế đồ họa,2.11,Trung bình,Đạt (IELTS 5.5+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+191,221VHU0191,Lý Thành Hải,221KẾ03,Kế toán,3.59,Giỏi,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+192,221VHU0192,Vũ Gia Yến,221NG02,Ngôn ngữ Anh,2.48,Trung bình,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+193,221VHU0193,Phạm Thu Tuấn,221QU02,Quản trị kinh doanh,2.92,Khá,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+194,221VHU0194,Huỳnh Tuấn Vinh,221CÔ02,Công nghệ thông tin,3.45,Giỏi,Đạt (VSTEP B1),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+195,221VHU0195,Lý Tuấn Huy,221QU01,Quản trị kinh doanh,2.7,Khá,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+196,221VHU0196,Vũ Tuấn Nam,221TÀ02,Tài chính - Ngân hàng,2.03,Trung bình,Đạt (IELTS 5.5+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+197,221VHU0197,Vũ Văn Bình,221QU02,Quản trị dịch vụ du lịch và lữ hành,3.53,Giỏi,Đạt (IELTS 5.5+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+198,221VHU0198,Lê Đức Phúc,221NG03,Ngôn ngữ Anh,2.18,Trung bình,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+199,221VHU0199,Trần Văn Linh,221ĐÔ01,Đông phương học,2.3,Trung bình,Đạt (VSTEP B1),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+200,221VHU0200,Lý Đức Khoa,221NG03,Ngôn ngữ Nhật,3.54,Giỏi,Đạt (IELTS 5.5+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+201,221VHU0201,Phan Văn Uyên,221MA01,Marketing,2.7,Khá,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+202,221VHU0202,Lý Hoàng Nga,221NG01,Ngôn ngữ Nhật,2.57,Khá,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+203,221VHU0203,Huỳnh Thu Linh,221TÀ01,Tài chính - Ngân hàng,3.43,Giỏi,Đạt (IELTS 5.5+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+204,221VHU0204,Hoàng Ngọc Huy,221KẾ03,Kế toán,3.06,Khá,Đạt (IELTS 5.5+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+205,221VHU0205,Hồ Hoàng Phúc,221CÔ02,Công nghệ thông tin,3.21,Giỏi,Đạt (IELTS 5.5+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+206,221VHU0206,Lê Tuấn Sơn,221MA03,Marketing,2.37,Trung bình,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+207,221VHU0207,Hoàng Ánh Huy,221TÀ01,Tài chính - Ngân hàng,2.8,Khá,Đạt (IELTS 5.5+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+208,221VHU0208,Lê Văn Em,221TH02,Thiết kế đồ họa,3.7,Xuất sắc,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+209,221VHU0209,Phan Thị Bình,221QU03,Quản trị dịch vụ du lịch và lữ hành,3.25,Giỏi,Đạt (IELTS 5.5+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+210,221VHU0210,Võ Văn Linh,221QU01,Quản trị kinh doanh,3.18,Khá,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+211,221VHU0211,Lý Khánh Châu,221NG03,Ngôn ngữ Anh,3.56,Giỏi,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+212,221VHU0212,Ngô Khánh Linh,221TÂ03,Tâm lý học,2.11,Trung bình,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+213,221VHU0213,Trần Hoàng Châu,221KẾ01,Kế toán,2.15,Trung bình,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+214,221VHU0214,Vũ Thu Mai,221QU03,Quản trị kinh doanh,2.38,Trung bình,Đạt (VSTEP B1),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+215,221VHU0215,Huỳnh Thu Vinh,221NG03,Ngôn ngữ Nhật,2.81,Khá,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+216,221VHU0216,Dương Hoàng Tuấn,221MA03,Marketing,3.72,Xuất sắc,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+217,221VHU0217,Hồ Thu Khoa,221ĐÔ02,Đông phương học,2.31,Trung bình,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+218,221VHU0218,Bùi Thu Khoa,221TÀ03,Tài chính - Ngân hàng,2.8,Khá,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+219,221VHU0219,Bùi Ánh Hương,221QU02,Quản trị dịch vụ du lịch và lữ hành,3.06,Khá,Đạt (IELTS 5.5+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+220,221VHU0220,Dương Ngọc Mai,221CÔ03,Công nghệ thông tin,3.42,Giỏi,Đạt (IELTS 5.5+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+221,221VHU0221,Hoàng Minh Anh,221KẾ01,Kế toán,3.92,Xuất sắc,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+222,221VHU0222,Võ Thu Quân,221NG01,Ngôn ngữ Nhật,3.11,Khá,Đạt (VSTEP B1),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+223,221VHU0223,Trần Ngọc Linh,221TH01,Thiết kế đồ họa,2.27,Trung bình,Đạt (IELTS 5.5+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+224,221VHU0224,Võ Phương Huy,221KỸ03,Kỹ thuật phần mềm,3.11,Khá,Đạt (VSTEP B1),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+225,221VHU0225,Lê Hoàng Khoa,221NG03,Ngôn ngữ Anh,2.34,Trung bình,Đạt (VSTEP B1),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+226,221VHU0226,Đặng Văn Vinh,221QU02,Quản trị dịch vụ du lịch và lữ hành,2.74,Khá,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+227,221VHU0227,Ngô Gia Dũng,221QU03,Quản trị kinh doanh,3.46,Giỏi,Đạt (VSTEP B1),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+228,221VHU0228,Hồ Văn Huy,221NG02,Ngôn ngữ Nhật,2.08,Trung bình,Đạt (VSTEP B1),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+229,221VHU0229,Vũ Thành Bình,221ĐÔ03,Đông phương học,3.43,Giỏi,Đạt (IELTS 5.5+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+230,221VHU0230,Lê Đức Nam,221KẾ02,Kế toán,3.53,Giỏi,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+231,221VHU0231,Lê Ngọc Tâm,221TÂ01,Tâm lý học,2.1,Trung bình,Đạt (IELTS 5.5+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+232,221VHU0232,Hồ Thu Nam,221TÂ03,Tâm lý học,2.25,Trung bình,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+233,221VHU0233,Phan Ngọc Mai,221ĐÔ01,Đông phương học,3.11,Khá,Đạt (VSTEP B1),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+234,221VHU0234,Lê Minh Yến,221MA01,Marketing,2.63,Khá,Đạt (VSTEP B1),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+235,221VHU0235,Ngô Gia Linh,221TÀ02,Tài chính - Ngân hàng,2.37,Trung bình,Đạt (IELTS 5.5+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+236,221VHU0236,Huỳnh Quang Thảo,221NG01,Ngôn ngữ Anh,3.22,Giỏi,Đạt (IELTS 5.5+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+237,221VHU0237,Phan Tuấn Linh,221TH03,Thiết kế đồ họa,3.48,Giỏi,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+238,221VHU0238,Trần Đức Thảo,221TH02,Thiết kế đồ họa,3.69,Xuất sắc,Đạt (IELTS 5.5+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+239,221VHU0239,Phạm Minh Nga,221NG01,Ngôn ngữ Anh,2.04,Trung bình,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+240,221VHU0240,Võ Thu Phong,221QU02,Quản trị dịch vụ du lịch và lữ hành,3.42,Giỏi,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+241,221VHU0241,Trần Minh Phúc,221CÔ01,Công nghệ thông tin,2.55,Khá,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+242,221VHU0242,Dương Tuấn Anh,221KỸ01,Kỹ thuật phần mềm,2.76,Khá,Đạt (IELTS 5.5+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+243,221VHU0243,Nguyễn Minh Trang,221MA02,Marketing,2.45,Trung bình,Đạt (IELTS 5.5+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+244,221VHU0244,Lý Khánh Thảo,221NG03,Ngôn ngữ Nhật,2.17,Trung bình,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+245,221VHU0245,Nguyễn Văn Hương,221NG03,Ngôn ngữ Nhật,2.59,Khá,Đạt (IELTS 5.5+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+246,221VHU0246,Huỳnh Văn Linh,221ĐÔ01,Đông phương học,2.69,Khá,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+247,221VHU0247,Võ Phương Bình,221ĐÔ03,Đông phương học,2.5,Khá,Đạt (IELTS 5.5+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+248,221VHU0248,Võ Đức Em,221TÀ01,Tài chính - Ngân hàng,3.75,Xuất sắc,Đạt (VSTEP B1),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+249,221VHU0249,Hồ Thu Tuấn,221QU02,Quản trị dịch vụ du lịch và lữ hành,3.7,Xuất sắc,Đạt (VSTEP B1),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+250,221VHU0250,Vũ Ánh Em,221MA02,Marketing,3.89,Xuất sắc,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+251,221VHU0251,Hoàng Đức Trang,221TH01,Thiết kế đồ họa,3.13,Khá,Đạt (VSTEP B1),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+252,221VHU0252,Đặng Hoàng Uyên,221NG03,Ngôn ngữ Nhật,3.77,Xuất sắc,Đạt (IELTS 5.5+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+253,221VHU0253,Huỳnh Quang Châu,221NG01,Ngôn ngữ Nhật,3.04,Khá,Đạt (VSTEP B1),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+254,221VHU0254,Bùi Khánh Em,221TÂ02,Tâm lý học,2.06,Trung bình,Đạt (IELTS 5.5+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+255,221VHU0255,Đặng Ngọc Vinh,221ĐÔ01,Đông phương học,3.82,Xuất sắc,Đạt (IELTS 5.5+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+256,221VHU0256,Phạm Thành Phúc,221CÔ03,Công nghệ thông tin,3.49,Giỏi,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+257,221VHU0257,Vũ Ánh Hương,221QU03,Quản trị kinh doanh,3.34,Giỏi,Đạt (IELTS 5.5+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+258,221VHU0258,Lý Thành Quân,221QU01,Quản trị dịch vụ du lịch và lữ hành,2.91,Khá,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+259,221VHU0259,Hồ Ngọc Phong,221TH02,Thiết kế đồ họa,2.32,Trung bình,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+260,221VHU0260,Nguyễn Minh Nam,221QU01,Quản trị kinh doanh,3.45,Giỏi,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+261,221VHU0261,Huỳnh Ngọc Thảo,221NG02,Ngôn ngữ Anh,3.34,Giỏi,Đạt (IELTS 5.5+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+262,221VHU0262,Hồ Phương Bình,221QU02,Quản trị dịch vụ du lịch và lữ hành,3.43,Giỏi,Đạt (IELTS 5.5+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+263,221VHU0263,Trần Thu Dũng,221NG03,Ngôn ngữ Anh,2.89,Khá,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+264,221VHU0264,Hồ Hoàng Bình,221NG01,Ngôn ngữ Nhật,2.76,Khá,Đạt (VSTEP B1),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+265,221VHU0265,Đặng Ngọc Mai,221KẾ01,Kế toán,3.51,Giỏi,Đạt (IELTS 5.5+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+266,221VHU0266,Ngô Minh Thảo,221CÔ03,Công nghệ thông tin,3.35,Giỏi,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+267,221VHU0267,Dương Thị Vinh,221NG02,Ngôn ngữ Nhật,2.22,Trung bình,Đạt (VSTEP B1),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+268,221VHU0268,Ngô Quang Nga,221CÔ02,Công nghệ thông tin,2.35,Trung bình,Đạt (VSTEP B1),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+269,221VHU0269,Lê Minh Khoa,221TÂ03,Tâm lý học,3.26,Giỏi,Đạt (VSTEP B1),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+270,221VHU0270,Phạm Thị Dũng,221TÂ03,Tâm lý học,2.88,Khá,Đạt (IELTS 5.5+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+271,221VHU0271,Hồ Hoàng Quân,221QU01,Quản trị dịch vụ du lịch và lữ hành,3.85,Xuất sắc,Đạt (IELTS 5.5+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+272,221VHU0272,Huỳnh Quang Tâm,221ĐÔ01,Đông phương học,3.68,Xuất sắc,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+273,221VHU0273,Trần Gia Huy,221KẾ03,Kế toán,3.42,Giỏi,Đạt (IELTS 5.5+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+274,221VHU0274,Huỳnh Thị Em,221QU02,Quản trị kinh doanh,2.01,Trung bình,Đạt (IELTS 5.5+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+275,221VHU0275,Lý Khánh Phong,221NG01,Ngôn ngữ Nhật,3.57,Giỏi,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+276,221VHU0276,Phan Ánh Tuấn,221NG03,Ngôn ngữ Anh,2.88,Khá,Đạt (IELTS 5.5+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+277,221VHU0277,Nguyễn Đức Sơn,221KẾ01,Kế toán,3.21,Giỏi,Đạt (VSTEP B1),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+278,221VHU0278,Huỳnh Thành Bình,221ĐÔ03,Đông phương học,2.68,Khá,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+279,221VHU0279,Đặng Quang Châu,221CÔ03,Công nghệ thông tin,2.21,Trung bình,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+280,221VHU0280,Đặng Ánh Tuấn,221TÂ02,Tâm lý học,3.36,Giỏi,Đạt (VSTEP B1),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+281,221VHU0281,Đỗ Văn Châu,221KẾ02,Kế toán,2.63,Khá,Đạt (IELTS 5.5+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+282,221VHU0282,Lê Minh Phong,221TH03,Thiết kế đồ họa,2.24,Trung bình,Đạt (IELTS 5.5+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+283,221VHU0283,Ngô Thu Hải,221TÂ03,Tâm lý học,2.41,Trung bình,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+284,221VHU0284,Lê Ngọc Vinh,221TÂ02,Tâm lý học,3.18,Khá,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+285,221VHU0285,Bùi Minh Quân,221QU03,Quản trị dịch vụ du lịch và lữ hành,3.94,Xuất sắc,Đạt (IELTS 5.5+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+286,221VHU0286,Lý Thu Vinh,221ĐÔ03,Đông phương học,2.97,Khá,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+287,221VHU0287,Đặng Đức Anh,221KỸ03,Kỹ thuật phần mềm,2.05,Trung bình,Đạt (VSTEP B1),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+288,221VHU0288,Phan Phương Thảo,221MA03,Marketing,2.81,Khá,Đạt (IELTS 5.5+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+289,221VHU0289,Phan Văn Trang,221QU02,Quản trị kinh doanh,3.35,Giỏi,Đạt (IELTS 5.5+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+290,221VHU0290,Đặng Thu Sơn,221TÀ02,Tài chính - Ngân hàng,3.5,Giỏi,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+291,221VHU0291,Hồ Hoàng Tâm,221QU02,Quản trị dịch vụ du lịch và lữ hành,3.87,Xuất sắc,Đạt (TOEIC 450+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+292,221VHU0292,Bùi Tuấn Phong,221NG02,Ngôn ngữ Anh,3.55,Giỏi,Đạt (VSTEP B1),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+293,221VHU0293,Hoàng Tuấn Nga,221NG03,Ngôn ngữ Nhật,3.75,Xuất sắc,Đạt (IELTS 5.5+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+294,221VHU0294,Trần Khánh Quân,221KẾ03,Kế toán,3.1,Khá,Đạt (VSTEP B1),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+295,221VHU0295,Nguyễn Đức Tâm,221ĐÔ01,Đông phương học,2.65,Khá,Đạt (IELTS 5.5+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+296,221VHU0296,Võ Khánh Anh,221TÀ03,Tài chính - Ngân hàng,3.92,Xuất sắc,Đạt (VSTEP B1),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+297,221VHU0297,Hồ Thành Thảo,221KỸ03,Kỹ thuật phần mềm,3.69,Xuất sắc,Đạt (IELTS 5.5+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+298,221VHU0298,Trần Minh Nam,221KỸ02,Kỹ thuật phần mềm,2.97,Khá,Đạt (TOEIC 450+),Đạt (CNTT Nâng cao),Đạt,Đủ điều kiện tốt nghiệp
+299,221VHU0299,Đặng Đức Quân,221KẾ01,Kế toán,2.34,Trung bình,Đạt (IELTS 5.5+),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
+300,221VHU0300,Lê Ngọc Quân,221CÔ01,Công nghệ thông tin,3.56,Giỏi,Đạt (VSTEP B1),Đạt (MOS),Đạt,Đủ điều kiện tốt nghiệp
