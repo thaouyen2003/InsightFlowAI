@@ -1,0 +1,2002 @@
+[
+  {
+    "STT":1,
+    "Mã sinh viên":"241VHU0001",
+    "Họ và tên":"Bùi Ngọc Vinh",
+    "Ngành học":"Ngôn ngữ Nhật",
+    "Quê quán":"Long An",
+    "Đối tượng miễn giảm":"Hộ cận nghèo",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":2,
+    "Mã sinh viên":"241VHU0002",
+    "Họ và tên":"Phạm Khánh Quân",
+    "Ngành học":"Đông phương học",
+    "Quê quán":"Đắk Lắk",
+    "Đối tượng miễn giảm":"Hộ nghèo",
+    "Mức miễn giảm đề xuất":"70% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":3,
+    "Mã sinh viên":"241VHU0003",
+    "Họ và tên":"Trần Ngọc Mai",
+    "Ngành học":"Tâm lý học",
+    "Quê quán":"TP. Hồ Chí Minh",
+    "Đối tượng miễn giảm":"Sinh viên vùng dân tộc thiểu số",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":4,
+    "Mã sinh viên":"241VHU0004",
+    "Họ và tên":"Đặng Văn Tuấn",
+    "Ngành học":"Quản trị dịch vụ du lịch và lữ hành",
+    "Quê quán":"Tiền Giang",
+    "Đối tượng miễn giảm":"Con thương binh \/ bệnh binh",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":5,
+    "Mã sinh viên":"241VHU0005",
+    "Họ và tên":"Trần Thị Quân",
+    "Ngành học":"Đông phương học",
+    "Quê quán":"TP. Hồ Chí Minh",
+    "Đối tượng miễn giảm":"Sinh viên khuyết tật",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":6,
+    "Mã sinh viên":"241VHU0006",
+    "Họ và tên":"Đặng Tuấn Hải",
+    "Ngành học":"Tài chính - Ngân hàng",
+    "Quê quán":"Bình Dương",
+    "Đối tượng miễn giảm":"Hộ nghèo",
+    "Mức miễn giảm đề xuất":"70% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":7,
+    "Mã sinh viên":"241VHU0007",
+    "Họ và tên":"Võ Thu Khoa",
+    "Ngành học":"Ngôn ngữ Anh",
+    "Quê quán":"Bình Dương",
+    "Đối tượng miễn giảm":"Sinh viên khuyết tật",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":8,
+    "Mã sinh viên":"241VHU0008",
+    "Họ và tên":"Hoàng Thành Hùng",
+    "Ngành học":"Kỹ thuật phần mềm",
+    "Quê quán":"Cần Thơ",
+    "Đối tượng miễn giảm":"Con thương binh \/ bệnh binh",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":9,
+    "Mã sinh viên":"241VHU0009",
+    "Họ và tên":"Phạm Đức Sơn",
+    "Ngành học":"Tài chính - Ngân hàng",
+    "Quê quán":"Bình Dương",
+    "Đối tượng miễn giảm":"Sinh viên vùng dân tộc thiểu số",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":10,
+    "Mã sinh viên":"241VHU0010",
+    "Họ và tên":"Hoàng Hoàng Huy",
+    "Ngành học":"Quản trị dịch vụ du lịch và lữ hành",
+    "Quê quán":"Bình Định",
+    "Đối tượng miễn giảm":"Hộ nghèo",
+    "Mức miễn giảm đề xuất":"70% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":11,
+    "Mã sinh viên":"241VHU0011",
+    "Họ và tên":"Đặng Ánh Khoa",
+    "Ngành học":"Ngôn ngữ Nhật",
+    "Quê quán":"Long An",
+    "Đối tượng miễn giảm":"Mồ côi cả cha lẫn mẹ",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":12,
+    "Mã sinh viên":"241VHU0012",
+    "Họ và tên":"Nguyễn Ngọc Tuấn",
+    "Ngành học":"Công nghệ thông tin",
+    "Quê quán":"TP. Hồ Chí Minh",
+    "Đối tượng miễn giảm":"Con thương binh \/ bệnh binh",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":13,
+    "Mã sinh viên":"241VHU0013",
+    "Họ và tên":"Lê Gia Mai",
+    "Ngành học":"Thiết kế đồ họa",
+    "Quê quán":"An Giang",
+    "Đối tượng miễn giảm":"Sinh viên khuyết tật",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":14,
+    "Mã sinh viên":"241VHU0014",
+    "Họ và tên":"Dương Ánh Linh",
+    "Ngành học":"Kế toán",
+    "Quê quán":"Đắk Lắk",
+    "Đối tượng miễn giảm":"Hộ cận nghèo",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":15,
+    "Mã sinh viên":"241VHU0015",
+    "Họ và tên":"Lê Phương Yến",
+    "Ngành học":"Ngôn ngữ Anh",
+    "Quê quán":"Bình Định",
+    "Đối tượng miễn giảm":"Sinh viên vùng dân tộc thiểu số",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":16,
+    "Mã sinh viên":"241VHU0016",
+    "Họ và tên":"Dương Thị Nga",
+    "Ngành học":"Kế toán",
+    "Quê quán":"Đắk Lắk",
+    "Đối tượng miễn giảm":"Sinh viên khuyết tật",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":17,
+    "Mã sinh viên":"241VHU0017",
+    "Họ và tên":"Dương Ngọc Hương",
+    "Ngành học":"Quản trị kinh doanh",
+    "Quê quán":"Bình Dương",
+    "Đối tượng miễn giảm":"Hộ nghèo",
+    "Mức miễn giảm đề xuất":"70% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":18,
+    "Mã sinh viên":"241VHU0018",
+    "Họ và tên":"Đỗ Gia Phúc",
+    "Ngành học":"Tâm lý học",
+    "Quê quán":"Tây Ninh",
+    "Đối tượng miễn giảm":"Sinh viên khuyết tật",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":19,
+    "Mã sinh viên":"241VHU0019",
+    "Họ và tên":"Dương Ngọc Anh",
+    "Ngành học":"Kỹ thuật phần mềm",
+    "Quê quán":"Tây Ninh",
+    "Đối tượng miễn giảm":"Mồ côi cả cha lẫn mẹ",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":20,
+    "Mã sinh viên":"241VHU0020",
+    "Họ và tên":"Lý Ngọc Phúc",
+    "Ngành học":"Kế toán",
+    "Quê quán":"An Giang",
+    "Đối tượng miễn giảm":"Hộ cận nghèo",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":21,
+    "Mã sinh viên":"241VHU0021",
+    "Họ và tên":"Hoàng Thu Dũng",
+    "Ngành học":"Marketing",
+    "Quê quán":"Tây Ninh",
+    "Đối tượng miễn giảm":"Sinh viên khuyết tật",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":22,
+    "Mã sinh viên":"241VHU0022",
+    "Họ và tên":"Lê Phương Huy",
+    "Ngành học":"Ngôn ngữ Nhật",
+    "Quê quán":"An Giang",
+    "Đối tượng miễn giảm":"Mồ côi cả cha lẫn mẹ",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":23,
+    "Mã sinh viên":"241VHU0023",
+    "Họ và tên":"Ngô Đức Thảo",
+    "Ngành học":"Quản trị kinh doanh",
+    "Quê quán":"Tiền Giang",
+    "Đối tượng miễn giảm":"Sinh viên vùng dân tộc thiểu số",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":24,
+    "Mã sinh viên":"241VHU0024",
+    "Họ và tên":"Hồ Thị Khoa",
+    "Ngành học":"Quản trị kinh doanh",
+    "Quê quán":"Bến Tre",
+    "Đối tượng miễn giảm":"Sinh viên khuyết tật",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":25,
+    "Mã sinh viên":"241VHU0025",
+    "Họ và tên":"Ngô Ánh Khoa",
+    "Ngành học":"Ngôn ngữ Nhật",
+    "Quê quán":"Long An",
+    "Đối tượng miễn giảm":"Sinh viên khuyết tật",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":26,
+    "Mã sinh viên":"241VHU0026",
+    "Họ và tên":"Lê Hoàng Uyên",
+    "Ngành học":"Quản trị dịch vụ du lịch và lữ hành",
+    "Quê quán":"An Giang",
+    "Đối tượng miễn giảm":"Mồ côi cả cha lẫn mẹ",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":27,
+    "Mã sinh viên":"241VHU0027",
+    "Họ và tên":"Dương Quang Sơn",
+    "Ngành học":"Kỹ thuật phần mềm",
+    "Quê quán":"Bình Dương",
+    "Đối tượng miễn giảm":"Mồ côi cả cha lẫn mẹ",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":28,
+    "Mã sinh viên":"241VHU0028",
+    "Họ và tên":"Hồ Thị Thảo",
+    "Ngành học":"Kỹ thuật phần mềm",
+    "Quê quán":"Bến Tre",
+    "Đối tượng miễn giảm":"Sinh viên khuyết tật",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":29,
+    "Mã sinh viên":"241VHU0029",
+    "Họ và tên":"Bùi Ngọc Trang",
+    "Ngành học":"Đông phương học",
+    "Quê quán":"Đồng Nai",
+    "Đối tượng miễn giảm":"Con thương binh \/ bệnh binh",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":30,
+    "Mã sinh viên":"241VHU0030",
+    "Họ và tên":"Hoàng Ánh Yến",
+    "Ngành học":"Đông phương học",
+    "Quê quán":"Lâm Đồng",
+    "Đối tượng miễn giảm":"Con thương binh \/ bệnh binh",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":31,
+    "Mã sinh viên":"241VHU0031",
+    "Họ và tên":"Hoàng Ngọc Sơn",
+    "Ngành học":"Kế toán",
+    "Quê quán":"An Giang",
+    "Đối tượng miễn giảm":"Mồ côi cả cha lẫn mẹ",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":32,
+    "Mã sinh viên":"241VHU0032",
+    "Họ và tên":"Dương Đức Hải",
+    "Ngành học":"Đông phương học",
+    "Quê quán":"An Giang",
+    "Đối tượng miễn giảm":"Hộ cận nghèo",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":33,
+    "Mã sinh viên":"241VHU0033",
+    "Họ và tên":"Đặng Gia Uyên",
+    "Ngành học":"Tài chính - Ngân hàng",
+    "Quê quán":"TP. Hồ Chí Minh",
+    "Đối tượng miễn giảm":"Con thương binh \/ bệnh binh",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":34,
+    "Mã sinh viên":"241VHU0034",
+    "Họ và tên":"Hồ Khánh Em",
+    "Ngành học":"Kế toán",
+    "Quê quán":"Cần Thơ",
+    "Đối tượng miễn giảm":"Con thương binh \/ bệnh binh",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":35,
+    "Mã sinh viên":"241VHU0035",
+    "Họ và tên":"Trần Văn Uyên",
+    "Ngành học":"Ngôn ngữ Nhật",
+    "Quê quán":"Bình Dương",
+    "Đối tượng miễn giảm":"Hộ cận nghèo",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":36,
+    "Mã sinh viên":"241VHU0036",
+    "Họ và tên":"Nguyễn Đức Nam",
+    "Ngành học":"Tâm lý học",
+    "Quê quán":"Lâm Đồng",
+    "Đối tượng miễn giảm":"Sinh viên vùng dân tộc thiểu số",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":37,
+    "Mã sinh viên":"241VHU0037",
+    "Họ và tên":"Bùi Hoàng Mai",
+    "Ngành học":"Marketing",
+    "Quê quán":"Cần Thơ",
+    "Đối tượng miễn giảm":"Mồ côi cả cha lẫn mẹ",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":38,
+    "Mã sinh viên":"241VHU0038",
+    "Họ và tên":"Phan Tuấn Phúc",
+    "Ngành học":"Ngôn ngữ Anh",
+    "Quê quán":"Cần Thơ",
+    "Đối tượng miễn giảm":"Hộ nghèo",
+    "Mức miễn giảm đề xuất":"70% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":39,
+    "Mã sinh viên":"241VHU0039",
+    "Họ và tên":"Hồ Khánh Linh",
+    "Ngành học":"Marketing",
+    "Quê quán":"Lâm Đồng",
+    "Đối tượng miễn giảm":"Hộ nghèo",
+    "Mức miễn giảm đề xuất":"70% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":40,
+    "Mã sinh viên":"241VHU0040",
+    "Họ và tên":"Hoàng Thành Anh",
+    "Ngành học":"Kỹ thuật phần mềm",
+    "Quê quán":"Long An",
+    "Đối tượng miễn giảm":"Sinh viên khuyết tật",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":41,
+    "Mã sinh viên":"241VHU0041",
+    "Họ và tên":"Lý Tuấn Nam",
+    "Ngành học":"Thiết kế đồ họa",
+    "Quê quán":"Lâm Đồng",
+    "Đối tượng miễn giảm":"Con thương binh \/ bệnh binh",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":42,
+    "Mã sinh viên":"241VHU0042",
+    "Họ và tên":"Ngô Khánh Nga",
+    "Ngành học":"Tâm lý học",
+    "Quê quán":"An Giang",
+    "Đối tượng miễn giảm":"Sinh viên vùng dân tộc thiểu số",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":43,
+    "Mã sinh viên":"241VHU0043",
+    "Họ và tên":"Huỳnh Ngọc Quân",
+    "Ngành học":"Marketing",
+    "Quê quán":"Bến Tre",
+    "Đối tượng miễn giảm":"Sinh viên vùng dân tộc thiểu số",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":44,
+    "Mã sinh viên":"241VHU0044",
+    "Họ và tên":"Đỗ Đức Phúc",
+    "Ngành học":"Marketing",
+    "Quê quán":"An Giang",
+    "Đối tượng miễn giảm":"Sinh viên vùng dân tộc thiểu số",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":45,
+    "Mã sinh viên":"241VHU0045",
+    "Họ và tên":"Lý Khánh Vinh",
+    "Ngành học":"Quản trị kinh doanh",
+    "Quê quán":"Bình Dương",
+    "Đối tượng miễn giảm":"Sinh viên khuyết tật",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":46,
+    "Mã sinh viên":"241VHU0046",
+    "Họ và tên":"Ngô Thu Tâm",
+    "Ngành học":"Tài chính - Ngân hàng",
+    "Quê quán":"An Giang",
+    "Đối tượng miễn giảm":"Con thương binh \/ bệnh binh",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":47,
+    "Mã sinh viên":"241VHU0047",
+    "Họ và tên":"Lý Hoàng Linh",
+    "Ngành học":"Kỹ thuật phần mềm",
+    "Quê quán":"Đắk Lắk",
+    "Đối tượng miễn giảm":"Sinh viên vùng dân tộc thiểu số",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":48,
+    "Mã sinh viên":"241VHU0048",
+    "Họ và tên":"Lê Thành Vinh",
+    "Ngành học":"Tâm lý học",
+    "Quê quán":"Tiền Giang",
+    "Đối tượng miễn giảm":"Sinh viên vùng dân tộc thiểu số",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":49,
+    "Mã sinh viên":"241VHU0049",
+    "Họ và tên":"Lê Thu Thảo",
+    "Ngành học":"Kỹ thuật phần mềm",
+    "Quê quán":"Lâm Đồng",
+    "Đối tượng miễn giảm":"Hộ nghèo",
+    "Mức miễn giảm đề xuất":"70% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":50,
+    "Mã sinh viên":"241VHU0050",
+    "Họ và tên":"Lê Tuấn Trang",
+    "Ngành học":"Ngôn ngữ Nhật",
+    "Quê quán":"An Giang",
+    "Đối tượng miễn giảm":"Sinh viên vùng dân tộc thiểu số",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":51,
+    "Mã sinh viên":"241VHU0051",
+    "Họ và tên":"Trần Quang Sơn",
+    "Ngành học":"Công nghệ thông tin",
+    "Quê quán":"Cần Thơ",
+    "Đối tượng miễn giảm":"Mồ côi cả cha lẫn mẹ",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":52,
+    "Mã sinh viên":"241VHU0052",
+    "Họ và tên":"Lý Ánh Vinh",
+    "Ngành học":"Tài chính - Ngân hàng",
+    "Quê quán":"Bình Dương",
+    "Đối tượng miễn giảm":"Mồ côi cả cha lẫn mẹ",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":53,
+    "Mã sinh viên":"241VHU0053",
+    "Họ và tên":"Đặng Thành Bình",
+    "Ngành học":"Tâm lý học",
+    "Quê quán":"Bình Dương",
+    "Đối tượng miễn giảm":"Sinh viên vùng dân tộc thiểu số",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":54,
+    "Mã sinh viên":"241VHU0054",
+    "Họ và tên":"Võ Văn Trang",
+    "Ngành học":"Ngôn ngữ Anh",
+    "Quê quán":"An Giang",
+    "Đối tượng miễn giảm":"Sinh viên vùng dân tộc thiểu số",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":55,
+    "Mã sinh viên":"241VHU0055",
+    "Họ và tên":"Trần Tuấn Huy",
+    "Ngành học":"Tâm lý học",
+    "Quê quán":"Bình Dương",
+    "Đối tượng miễn giảm":"Sinh viên vùng dân tộc thiểu số",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":56,
+    "Mã sinh viên":"241VHU0056",
+    "Họ và tên":"Lý Thị Em",
+    "Ngành học":"Ngôn ngữ Nhật",
+    "Quê quán":"Bình Dương",
+    "Đối tượng miễn giảm":"Con thương binh \/ bệnh binh",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":57,
+    "Mã sinh viên":"241VHU0057",
+    "Họ và tên":"Hoàng Ánh Hùng",
+    "Ngành học":"Kế toán",
+    "Quê quán":"Đắk Lắk",
+    "Đối tượng miễn giảm":"Hộ cận nghèo",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":58,
+    "Mã sinh viên":"241VHU0058",
+    "Họ và tên":"Phạm Ánh Phúc",
+    "Ngành học":"Quản trị dịch vụ du lịch và lữ hành",
+    "Quê quán":"Lâm Đồng",
+    "Đối tượng miễn giảm":"Sinh viên khuyết tật",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":59,
+    "Mã sinh viên":"241VHU0059",
+    "Họ và tên":"Dương Quang Phúc",
+    "Ngành học":"Kế toán",
+    "Quê quán":"Tiền Giang",
+    "Đối tượng miễn giảm":"Sinh viên khuyết tật",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":60,
+    "Mã sinh viên":"241VHU0060",
+    "Họ và tên":"Huỳnh Phương Quân",
+    "Ngành học":"Công nghệ thông tin",
+    "Quê quán":"Long An",
+    "Đối tượng miễn giảm":"Hộ cận nghèo",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":61,
+    "Mã sinh viên":"241VHU0061",
+    "Họ và tên":"Hoàng Khánh Phong",
+    "Ngành học":"Marketing",
+    "Quê quán":"Lâm Đồng",
+    "Đối tượng miễn giảm":"Mồ côi cả cha lẫn mẹ",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":62,
+    "Mã sinh viên":"241VHU0062",
+    "Họ và tên":"Dương Hoàng Trang",
+    "Ngành học":"Thiết kế đồ họa",
+    "Quê quán":"Đắk Lắk",
+    "Đối tượng miễn giảm":"Hộ nghèo",
+    "Mức miễn giảm đề xuất":"70% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":63,
+    "Mã sinh viên":"241VHU0063",
+    "Họ và tên":"Đỗ Văn Trang",
+    "Ngành học":"Kế toán",
+    "Quê quán":"Long An",
+    "Đối tượng miễn giảm":"Con thương binh \/ bệnh binh",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":64,
+    "Mã sinh viên":"241VHU0064",
+    "Họ và tên":"Dương Gia Phong",
+    "Ngành học":"Kế toán",
+    "Quê quán":"Cần Thơ",
+    "Đối tượng miễn giảm":"Mồ côi cả cha lẫn mẹ",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":65,
+    "Mã sinh viên":"241VHU0065",
+    "Họ và tên":"Vũ Gia Tuấn",
+    "Ngành học":"Tâm lý học",
+    "Quê quán":"Bình Dương",
+    "Đối tượng miễn giảm":"Mồ côi cả cha lẫn mẹ",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":66,
+    "Mã sinh viên":"241VHU0066",
+    "Họ và tên":"Hoàng Thu Nam",
+    "Ngành học":"Công nghệ thông tin",
+    "Quê quán":"Bến Tre",
+    "Đối tượng miễn giảm":"Hộ cận nghèo",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":67,
+    "Mã sinh viên":"241VHU0067",
+    "Họ và tên":"Bùi Thu Tuấn",
+    "Ngành học":"Công nghệ thông tin",
+    "Quê quán":"Lâm Đồng",
+    "Đối tượng miễn giảm":"Con thương binh \/ bệnh binh",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":68,
+    "Mã sinh viên":"241VHU0068",
+    "Họ và tên":"Đỗ Khánh Nam",
+    "Ngành học":"Quản trị dịch vụ du lịch và lữ hành",
+    "Quê quán":"Tây Ninh",
+    "Đối tượng miễn giảm":"Sinh viên khuyết tật",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":69,
+    "Mã sinh viên":"241VHU0069",
+    "Họ và tên":"Võ Minh Dũng",
+    "Ngành học":"Kế toán",
+    "Quê quán":"Bến Tre",
+    "Đối tượng miễn giảm":"Sinh viên khuyết tật",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":70,
+    "Mã sinh viên":"241VHU0070",
+    "Họ và tên":"Dương Phương Tuấn",
+    "Ngành học":"Tâm lý học",
+    "Quê quán":"Lâm Đồng",
+    "Đối tượng miễn giảm":"Hộ nghèo",
+    "Mức miễn giảm đề xuất":"70% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":71,
+    "Mã sinh viên":"241VHU0071",
+    "Họ và tên":"Phan Thu Khoa",
+    "Ngành học":"Đông phương học",
+    "Quê quán":"Tây Ninh",
+    "Đối tượng miễn giảm":"Sinh viên khuyết tật",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":72,
+    "Mã sinh viên":"241VHU0072",
+    "Họ và tên":"Nguyễn Tuấn Anh",
+    "Ngành học":"Kỹ thuật phần mềm",
+    "Quê quán":"Bình Định",
+    "Đối tượng miễn giảm":"Con thương binh \/ bệnh binh",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":73,
+    "Mã sinh viên":"241VHU0073",
+    "Họ và tên":"Phạm Tuấn Nga",
+    "Ngành học":"Tài chính - Ngân hàng",
+    "Quê quán":"Bình Dương",
+    "Đối tượng miễn giảm":"Hộ nghèo",
+    "Mức miễn giảm đề xuất":"70% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":74,
+    "Mã sinh viên":"241VHU0074",
+    "Họ và tên":"Võ Đức Bình",
+    "Ngành học":"Công nghệ thông tin",
+    "Quê quán":"TP. Hồ Chí Minh",
+    "Đối tượng miễn giảm":"Sinh viên vùng dân tộc thiểu số",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":75,
+    "Mã sinh viên":"241VHU0075",
+    "Họ và tên":"Phan Ánh Trang",
+    "Ngành học":"Kỹ thuật phần mềm",
+    "Quê quán":"Bình Định",
+    "Đối tượng miễn giảm":"Sinh viên khuyết tật",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":76,
+    "Mã sinh viên":"241VHU0076",
+    "Họ và tên":"Hoàng Gia Tuấn",
+    "Ngành học":"Đông phương học",
+    "Quê quán":"Bình Định",
+    "Đối tượng miễn giảm":"Sinh viên vùng dân tộc thiểu số",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":77,
+    "Mã sinh viên":"241VHU0077",
+    "Họ và tên":"Huỳnh Minh Huy",
+    "Ngành học":"Ngôn ngữ Anh",
+    "Quê quán":"Lâm Đồng",
+    "Đối tượng miễn giảm":"Sinh viên khuyết tật",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":78,
+    "Mã sinh viên":"241VHU0078",
+    "Họ và tên":"Dương Minh Yến",
+    "Ngành học":"Marketing",
+    "Quê quán":"Tây Ninh",
+    "Đối tượng miễn giảm":"Sinh viên khuyết tật",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":79,
+    "Mã sinh viên":"241VHU0079",
+    "Họ và tên":"Võ Thành Yến",
+    "Ngành học":"Kỹ thuật phần mềm",
+    "Quê quán":"Bến Tre",
+    "Đối tượng miễn giảm":"Hộ cận nghèo",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":80,
+    "Mã sinh viên":"241VHU0080",
+    "Họ và tên":"Hồ Quang Bình",
+    "Ngành học":"Kế toán",
+    "Quê quán":"Tiền Giang",
+    "Đối tượng miễn giảm":"Hộ cận nghèo",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":81,
+    "Mã sinh viên":"241VHU0081",
+    "Họ và tên":"Lê Ngọc Hải",
+    "Ngành học":"Quản trị dịch vụ du lịch và lữ hành",
+    "Quê quán":"Lâm Đồng",
+    "Đối tượng miễn giảm":"Mồ côi cả cha lẫn mẹ",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":82,
+    "Mã sinh viên":"241VHU0082",
+    "Họ và tên":"Lý Thị Em",
+    "Ngành học":"Ngôn ngữ Nhật",
+    "Quê quán":"An Giang",
+    "Đối tượng miễn giảm":"Mồ côi cả cha lẫn mẹ",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":83,
+    "Mã sinh viên":"241VHU0083",
+    "Họ và tên":"Phạm Ngọc Uyên",
+    "Ngành học":"Kế toán",
+    "Quê quán":"Bình Định",
+    "Đối tượng miễn giảm":"Con thương binh \/ bệnh binh",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":84,
+    "Mã sinh viên":"241VHU0084",
+    "Họ và tên":"Lê Ánh Vinh",
+    "Ngành học":"Kế toán",
+    "Quê quán":"Tiền Giang",
+    "Đối tượng miễn giảm":"Mồ côi cả cha lẫn mẹ",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":85,
+    "Mã sinh viên":"241VHU0085",
+    "Họ và tên":"Hoàng Tuấn Trang",
+    "Ngành học":"Công nghệ thông tin",
+    "Quê quán":"Bến Tre",
+    "Đối tượng miễn giảm":"Con thương binh \/ bệnh binh",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":86,
+    "Mã sinh viên":"241VHU0086",
+    "Họ và tên":"Võ Thành Uyên",
+    "Ngành học":"Tài chính - Ngân hàng",
+    "Quê quán":"TP. Hồ Chí Minh",
+    "Đối tượng miễn giảm":"Mồ côi cả cha lẫn mẹ",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":87,
+    "Mã sinh viên":"241VHU0087",
+    "Họ và tên":"Lý Ngọc Nam",
+    "Ngành học":"Marketing",
+    "Quê quán":"Cần Thơ",
+    "Đối tượng miễn giảm":"Sinh viên khuyết tật",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":88,
+    "Mã sinh viên":"241VHU0088",
+    "Họ và tên":"Vũ Văn Mai",
+    "Ngành học":"Tâm lý học",
+    "Quê quán":"An Giang",
+    "Đối tượng miễn giảm":"Mồ côi cả cha lẫn mẹ",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":89,
+    "Mã sinh viên":"241VHU0089",
+    "Họ và tên":"Đỗ Quang Tuấn",
+    "Ngành học":"Kế toán",
+    "Quê quán":"Lâm Đồng",
+    "Đối tượng miễn giảm":"Mồ côi cả cha lẫn mẹ",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":90,
+    "Mã sinh viên":"241VHU0090",
+    "Họ và tên":"Lê Quang Sơn",
+    "Ngành học":"Tài chính - Ngân hàng",
+    "Quê quán":"Bình Dương",
+    "Đối tượng miễn giảm":"Con thương binh \/ bệnh binh",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":91,
+    "Mã sinh viên":"241VHU0091",
+    "Họ và tên":"Phan Thành Sơn",
+    "Ngành học":"Công nghệ thông tin",
+    "Quê quán":"Đồng Nai",
+    "Đối tượng miễn giảm":"Mồ côi cả cha lẫn mẹ",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":92,
+    "Mã sinh viên":"241VHU0092",
+    "Họ và tên":"Đặng Hoàng Mai",
+    "Ngành học":"Kỹ thuật phần mềm",
+    "Quê quán":"Tây Ninh",
+    "Đối tượng miễn giảm":"Sinh viên khuyết tật",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":93,
+    "Mã sinh viên":"241VHU0093",
+    "Họ và tên":"Lý Thị Trang",
+    "Ngành học":"Ngôn ngữ Anh",
+    "Quê quán":"Long An",
+    "Đối tượng miễn giảm":"Sinh viên khuyết tật",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":94,
+    "Mã sinh viên":"241VHU0094",
+    "Họ và tên":"Trần Đức Anh",
+    "Ngành học":"Tâm lý học",
+    "Quê quán":"Tiền Giang",
+    "Đối tượng miễn giảm":"Sinh viên vùng dân tộc thiểu số",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":95,
+    "Mã sinh viên":"241VHU0095",
+    "Họ và tên":"Hồ Thị Sơn",
+    "Ngành học":"Đông phương học",
+    "Quê quán":"Cần Thơ",
+    "Đối tượng miễn giảm":"Hộ cận nghèo",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":96,
+    "Mã sinh viên":"241VHU0096",
+    "Họ và tên":"Dương Văn Bình",
+    "Ngành học":"Tài chính - Ngân hàng",
+    "Quê quán":"Đắk Lắk",
+    "Đối tượng miễn giảm":"Con thương binh \/ bệnh binh",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":97,
+    "Mã sinh viên":"241VHU0097",
+    "Họ và tên":"Trần Gia Dũng",
+    "Ngành học":"Quản trị kinh doanh",
+    "Quê quán":"Cần Thơ",
+    "Đối tượng miễn giảm":"Sinh viên khuyết tật",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":98,
+    "Mã sinh viên":"241VHU0098",
+    "Họ và tên":"Dương Tuấn Sơn",
+    "Ngành học":"Thiết kế đồ họa",
+    "Quê quán":"Đồng Nai",
+    "Đối tượng miễn giảm":"Sinh viên khuyết tật",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":99,
+    "Mã sinh viên":"241VHU0099",
+    "Họ và tên":"Lê Văn Vinh",
+    "Ngành học":"Thiết kế đồ họa",
+    "Quê quán":"TP. Hồ Chí Minh",
+    "Đối tượng miễn giảm":"Mồ côi cả cha lẫn mẹ",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":100,
+    "Mã sinh viên":"241VHU0100",
+    "Họ và tên":"Lý Ánh Bình",
+    "Ngành học":"Quản trị kinh doanh",
+    "Quê quán":"Long An",
+    "Đối tượng miễn giảm":"Sinh viên khuyết tật",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":101,
+    "Mã sinh viên":"241VHU0101",
+    "Họ và tên":"Nguyễn Thành Trang",
+    "Ngành học":"Công nghệ thông tin",
+    "Quê quán":"Tiền Giang",
+    "Đối tượng miễn giảm":"Hộ cận nghèo",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":102,
+    "Mã sinh viên":"241VHU0102",
+    "Họ và tên":"Huỳnh Khánh Tâm",
+    "Ngành học":"Kỹ thuật phần mềm",
+    "Quê quán":"Tiền Giang",
+    "Đối tượng miễn giảm":"Con thương binh \/ bệnh binh",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":103,
+    "Mã sinh viên":"241VHU0103",
+    "Họ và tên":"Vũ Thị Hải",
+    "Ngành học":"Marketing",
+    "Quê quán":"Lâm Đồng",
+    "Đối tượng miễn giảm":"Hộ cận nghèo",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":104,
+    "Mã sinh viên":"241VHU0104",
+    "Họ và tên":"Hồ Quang Dũng",
+    "Ngành học":"Đông phương học",
+    "Quê quán":"Long An",
+    "Đối tượng miễn giảm":"Sinh viên vùng dân tộc thiểu số",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":105,
+    "Mã sinh viên":"241VHU0105",
+    "Họ và tên":"Bùi Khánh Hải",
+    "Ngành học":"Công nghệ thông tin",
+    "Quê quán":"Tây Ninh",
+    "Đối tượng miễn giảm":"Sinh viên vùng dân tộc thiểu số",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":106,
+    "Mã sinh viên":"241VHU0106",
+    "Họ và tên":"Lê Thị Hùng",
+    "Ngành học":"Thiết kế đồ họa",
+    "Quê quán":"Đắk Lắk",
+    "Đối tượng miễn giảm":"Mồ côi cả cha lẫn mẹ",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":107,
+    "Mã sinh viên":"241VHU0107",
+    "Họ và tên":"Đỗ Thu Phúc",
+    "Ngành học":"Ngôn ngữ Anh",
+    "Quê quán":"TP. Hồ Chí Minh",
+    "Đối tượng miễn giảm":"Hộ nghèo",
+    "Mức miễn giảm đề xuất":"70% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":108,
+    "Mã sinh viên":"241VHU0108",
+    "Họ và tên":"Hoàng Thị Trang",
+    "Ngành học":"Quản trị dịch vụ du lịch và lữ hành",
+    "Quê quán":"TP. Hồ Chí Minh",
+    "Đối tượng miễn giảm":"Mồ côi cả cha lẫn mẹ",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":109,
+    "Mã sinh viên":"241VHU0109",
+    "Họ và tên":"Lý Thị Anh",
+    "Ngành học":"Công nghệ thông tin",
+    "Quê quán":"Đắk Lắk",
+    "Đối tượng miễn giảm":"Hộ nghèo",
+    "Mức miễn giảm đề xuất":"70% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":110,
+    "Mã sinh viên":"241VHU0110",
+    "Họ và tên":"Đặng Gia Uyên",
+    "Ngành học":"Ngôn ngữ Anh",
+    "Quê quán":"Đồng Nai",
+    "Đối tượng miễn giảm":"Sinh viên khuyết tật",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":111,
+    "Mã sinh viên":"241VHU0111",
+    "Họ và tên":"Hoàng Tuấn Hùng",
+    "Ngành học":"Ngôn ngữ Nhật",
+    "Quê quán":"Đồng Nai",
+    "Đối tượng miễn giảm":"Mồ côi cả cha lẫn mẹ",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":112,
+    "Mã sinh viên":"241VHU0112",
+    "Họ và tên":"Huỳnh Ánh Uyên",
+    "Ngành học":"Công nghệ thông tin",
+    "Quê quán":"Đắk Lắk",
+    "Đối tượng miễn giảm":"Sinh viên vùng dân tộc thiểu số",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":113,
+    "Mã sinh viên":"241VHU0113",
+    "Họ và tên":"Lý Ánh Châu",
+    "Ngành học":"Đông phương học",
+    "Quê quán":"Bến Tre",
+    "Đối tượng miễn giảm":"Hộ cận nghèo",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":114,
+    "Mã sinh viên":"241VHU0114",
+    "Họ và tên":"Nguyễn Thu Hương",
+    "Ngành học":"Quản trị kinh doanh",
+    "Quê quán":"Bình Định",
+    "Đối tượng miễn giảm":"Con thương binh \/ bệnh binh",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":115,
+    "Mã sinh viên":"241VHU0115",
+    "Họ và tên":"Đỗ Khánh Yến",
+    "Ngành học":"Ngôn ngữ Nhật",
+    "Quê quán":"Tiền Giang",
+    "Đối tượng miễn giảm":"Sinh viên vùng dân tộc thiểu số",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":116,
+    "Mã sinh viên":"241VHU0116",
+    "Họ và tên":"Phan Minh Bình",
+    "Ngành học":"Quản trị kinh doanh",
+    "Quê quán":"Lâm Đồng",
+    "Đối tượng miễn giảm":"Con thương binh \/ bệnh binh",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":117,
+    "Mã sinh viên":"241VHU0117",
+    "Họ và tên":"Lý Ngọc Phúc",
+    "Ngành học":"Thiết kế đồ họa",
+    "Quê quán":"TP. Hồ Chí Minh",
+    "Đối tượng miễn giảm":"Sinh viên khuyết tật",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":118,
+    "Mã sinh viên":"241VHU0118",
+    "Họ và tên":"Đỗ Minh Hải",
+    "Ngành học":"Marketing",
+    "Quê quán":"An Giang",
+    "Đối tượng miễn giảm":"Hộ cận nghèo",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":119,
+    "Mã sinh viên":"241VHU0119",
+    "Họ và tên":"Dương Văn Dũng",
+    "Ngành học":"Tâm lý học",
+    "Quê quán":"Long An",
+    "Đối tượng miễn giảm":"Con thương binh \/ bệnh binh",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":120,
+    "Mã sinh viên":"241VHU0120",
+    "Họ và tên":"Huỳnh Phương Anh",
+    "Ngành học":"Ngôn ngữ Anh",
+    "Quê quán":"Bình Định",
+    "Đối tượng miễn giảm":"Sinh viên vùng dân tộc thiểu số",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":121,
+    "Mã sinh viên":"241VHU0121",
+    "Họ và tên":"Vũ Hoàng Nga",
+    "Ngành học":"Quản trị dịch vụ du lịch và lữ hành",
+    "Quê quán":"Bến Tre",
+    "Đối tượng miễn giảm":"Sinh viên vùng dân tộc thiểu số",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":122,
+    "Mã sinh viên":"241VHU0122",
+    "Họ và tên":"Phan Hoàng Tuấn",
+    "Ngành học":"Tài chính - Ngân hàng",
+    "Quê quán":"Tây Ninh",
+    "Đối tượng miễn giảm":"Hộ nghèo",
+    "Mức miễn giảm đề xuất":"70% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":123,
+    "Mã sinh viên":"241VHU0123",
+    "Họ và tên":"Vũ Thị Hương",
+    "Ngành học":"Tâm lý học",
+    "Quê quán":"Bến Tre",
+    "Đối tượng miễn giảm":"Mồ côi cả cha lẫn mẹ",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":124,
+    "Mã sinh viên":"241VHU0124",
+    "Họ và tên":"Vũ Thị Phong",
+    "Ngành học":"Quản trị dịch vụ du lịch và lữ hành",
+    "Quê quán":"Bến Tre",
+    "Đối tượng miễn giảm":"Mồ côi cả cha lẫn mẹ",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":125,
+    "Mã sinh viên":"241VHU0125",
+    "Họ và tên":"Hoàng Đức Thảo",
+    "Ngành học":"Ngôn ngữ Anh",
+    "Quê quán":"Tây Ninh",
+    "Đối tượng miễn giảm":"Hộ nghèo",
+    "Mức miễn giảm đề xuất":"70% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":126,
+    "Mã sinh viên":"241VHU0126",
+    "Họ và tên":"Hoàng Ngọc Vinh",
+    "Ngành học":"Quản trị kinh doanh",
+    "Quê quán":"Bình Dương",
+    "Đối tượng miễn giảm":"Sinh viên khuyết tật",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":127,
+    "Mã sinh viên":"241VHU0127",
+    "Họ và tên":"Phan Quang Em",
+    "Ngành học":"Công nghệ thông tin",
+    "Quê quán":"TP. Hồ Chí Minh",
+    "Đối tượng miễn giảm":"Sinh viên khuyết tật",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":128,
+    "Mã sinh viên":"241VHU0128",
+    "Họ và tên":"Võ Thành Dũng",
+    "Ngành học":"Ngôn ngữ Anh",
+    "Quê quán":"Long An",
+    "Đối tượng miễn giảm":"Mồ côi cả cha lẫn mẹ",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":129,
+    "Mã sinh viên":"241VHU0129",
+    "Họ và tên":"Bùi Đức Huy",
+    "Ngành học":"Quản trị dịch vụ du lịch và lữ hành",
+    "Quê quán":"An Giang",
+    "Đối tượng miễn giảm":"Hộ nghèo",
+    "Mức miễn giảm đề xuất":"70% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":130,
+    "Mã sinh viên":"241VHU0130",
+    "Họ và tên":"Huỳnh Ánh Sơn",
+    "Ngành học":"Quản trị kinh doanh",
+    "Quê quán":"Cần Thơ",
+    "Đối tượng miễn giảm":"Con thương binh \/ bệnh binh",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":131,
+    "Mã sinh viên":"241VHU0131",
+    "Họ và tên":"Lý Khánh Hải",
+    "Ngành học":"Quản trị dịch vụ du lịch và lữ hành",
+    "Quê quán":"Bình Dương",
+    "Đối tượng miễn giảm":"Mồ côi cả cha lẫn mẹ",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":132,
+    "Mã sinh viên":"241VHU0132",
+    "Họ và tên":"Nguyễn Hoàng Nam",
+    "Ngành học":"Tâm lý học",
+    "Quê quán":"Tây Ninh",
+    "Đối tượng miễn giảm":"Hộ nghèo",
+    "Mức miễn giảm đề xuất":"70% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":133,
+    "Mã sinh viên":"241VHU0133",
+    "Họ và tên":"Ngô Ánh Hương",
+    "Ngành học":"Quản trị dịch vụ du lịch và lữ hành",
+    "Quê quán":"TP. Hồ Chí Minh",
+    "Đối tượng miễn giảm":"Hộ nghèo",
+    "Mức miễn giảm đề xuất":"70% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":134,
+    "Mã sinh viên":"241VHU0134",
+    "Họ và tên":"Ngô Văn Bình",
+    "Ngành học":"Ngôn ngữ Anh",
+    "Quê quán":"TP. Hồ Chí Minh",
+    "Đối tượng miễn giảm":"Sinh viên khuyết tật",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":135,
+    "Mã sinh viên":"241VHU0135",
+    "Họ và tên":"Ngô Thu Mai",
+    "Ngành học":"Ngôn ngữ Anh",
+    "Quê quán":"Tiền Giang",
+    "Đối tượng miễn giảm":"Sinh viên khuyết tật",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":136,
+    "Mã sinh viên":"241VHU0136",
+    "Họ và tên":"Lý Đức Châu",
+    "Ngành học":"Ngôn ngữ Nhật",
+    "Quê quán":"Đắk Lắk",
+    "Đối tượng miễn giảm":"Con thương binh \/ bệnh binh",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":137,
+    "Mã sinh viên":"241VHU0137",
+    "Họ và tên":"Ngô Đức Em",
+    "Ngành học":"Tài chính - Ngân hàng",
+    "Quê quán":"Lâm Đồng",
+    "Đối tượng miễn giảm":"Hộ cận nghèo",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":138,
+    "Mã sinh viên":"241VHU0138",
+    "Họ và tên":"Lê Văn Phong",
+    "Ngành học":"Đông phương học",
+    "Quê quán":"Đắk Lắk",
+    "Đối tượng miễn giảm":"Hộ cận nghèo",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":139,
+    "Mã sinh viên":"241VHU0139",
+    "Họ và tên":"Dương Khánh Tâm",
+    "Ngành học":"Tâm lý học",
+    "Quê quán":"Tiền Giang",
+    "Đối tượng miễn giảm":"Sinh viên vùng dân tộc thiểu số",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":140,
+    "Mã sinh viên":"241VHU0140",
+    "Họ và tên":"Dương Phương Em",
+    "Ngành học":"Tâm lý học",
+    "Quê quán":"Tây Ninh",
+    "Đối tượng miễn giảm":"Mồ côi cả cha lẫn mẹ",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":141,
+    "Mã sinh viên":"241VHU0141",
+    "Họ và tên":"Dương Hoàng Trang",
+    "Ngành học":"Công nghệ thông tin",
+    "Quê quán":"Bến Tre",
+    "Đối tượng miễn giảm":"Sinh viên khuyết tật",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":142,
+    "Mã sinh viên":"241VHU0142",
+    "Họ và tên":"Bùi Thu Bình",
+    "Ngành học":"Kế toán",
+    "Quê quán":"Đắk Lắk",
+    "Đối tượng miễn giảm":"Mồ côi cả cha lẫn mẹ",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":143,
+    "Mã sinh viên":"241VHU0143",
+    "Họ và tên":"Phan Phương Tuấn",
+    "Ngành học":"Kỹ thuật phần mềm",
+    "Quê quán":"Đắk Lắk",
+    "Đối tượng miễn giảm":"Sinh viên vùng dân tộc thiểu số",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":144,
+    "Mã sinh viên":"241VHU0144",
+    "Họ và tên":"Trần Thu Tuấn",
+    "Ngành học":"Tài chính - Ngân hàng",
+    "Quê quán":"Bến Tre",
+    "Đối tượng miễn giảm":"Con thương binh \/ bệnh binh",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":145,
+    "Mã sinh viên":"241VHU0145",
+    "Họ và tên":"Đỗ Ngọc Thảo",
+    "Ngành học":"Công nghệ thông tin",
+    "Quê quán":"Long An",
+    "Đối tượng miễn giảm":"Hộ cận nghèo",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":146,
+    "Mã sinh viên":"241VHU0146",
+    "Họ và tên":"Lê Thu Uyên",
+    "Ngành học":"Quản trị kinh doanh",
+    "Quê quán":"Đồng Nai",
+    "Đối tượng miễn giảm":"Hộ nghèo",
+    "Mức miễn giảm đề xuất":"70% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":147,
+    "Mã sinh viên":"241VHU0147",
+    "Họ và tên":"Phạm Tuấn Phong",
+    "Ngành học":"Tâm lý học",
+    "Quê quán":"Đồng Nai",
+    "Đối tượng miễn giảm":"Sinh viên vùng dân tộc thiểu số",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":148,
+    "Mã sinh viên":"241VHU0148",
+    "Họ và tên":"Vũ Quang Linh",
+    "Ngành học":"Kế toán",
+    "Quê quán":"Bến Tre",
+    "Đối tượng miễn giảm":"Sinh viên vùng dân tộc thiểu số",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":149,
+    "Mã sinh viên":"241VHU0149",
+    "Họ và tên":"Võ Văn Châu",
+    "Ngành học":"Tài chính - Ngân hàng",
+    "Quê quán":"Tiền Giang",
+    "Đối tượng miễn giảm":"Hộ cận nghèo",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":150,
+    "Mã sinh viên":"241VHU0150",
+    "Họ và tên":"Phạm Ngọc Uyên",
+    "Ngành học":"Ngôn ngữ Nhật",
+    "Quê quán":"Bình Dương",
+    "Đối tượng miễn giảm":"Sinh viên khuyết tật",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":151,
+    "Mã sinh viên":"241VHU0151",
+    "Họ và tên":"Dương Ánh Linh",
+    "Ngành học":"Đông phương học",
+    "Quê quán":"Đồng Nai",
+    "Đối tượng miễn giảm":"Sinh viên khuyết tật",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":152,
+    "Mã sinh viên":"241VHU0152",
+    "Họ và tên":"Dương Thị Châu",
+    "Ngành học":"Marketing",
+    "Quê quán":"Bình Định",
+    "Đối tượng miễn giảm":"Hộ nghèo",
+    "Mức miễn giảm đề xuất":"70% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":153,
+    "Mã sinh viên":"241VHU0153",
+    "Họ và tên":"Phạm Thành Hùng",
+    "Ngành học":"Kỹ thuật phần mềm",
+    "Quê quán":"Tiền Giang",
+    "Đối tượng miễn giảm":"Sinh viên khuyết tật",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":154,
+    "Mã sinh viên":"241VHU0154",
+    "Họ và tên":"Hoàng Khánh Hải",
+    "Ngành học":"Ngôn ngữ Nhật",
+    "Quê quán":"Bình Dương",
+    "Đối tượng miễn giảm":"Sinh viên khuyết tật",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":155,
+    "Mã sinh viên":"241VHU0155",
+    "Họ và tên":"Ngô Tuấn Sơn",
+    "Ngành học":"Thiết kế đồ họa",
+    "Quê quán":"Bến Tre",
+    "Đối tượng miễn giảm":"Mồ côi cả cha lẫn mẹ",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":156,
+    "Mã sinh viên":"241VHU0156",
+    "Họ và tên":"Dương Hoàng Trang",
+    "Ngành học":"Công nghệ thông tin",
+    "Quê quán":"Bình Định",
+    "Đối tượng miễn giảm":"Hộ cận nghèo",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":157,
+    "Mã sinh viên":"241VHU0157",
+    "Họ và tên":"Nguyễn Khánh Hương",
+    "Ngành học":"Ngôn ngữ Nhật",
+    "Quê quán":"Bến Tre",
+    "Đối tượng miễn giảm":"Sinh viên khuyết tật",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":158,
+    "Mã sinh viên":"241VHU0158",
+    "Họ và tên":"Bùi Tuấn Trang",
+    "Ngành học":"Tài chính - Ngân hàng",
+    "Quê quán":"Lâm Đồng",
+    "Đối tượng miễn giảm":"Mồ côi cả cha lẫn mẹ",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":159,
+    "Mã sinh viên":"241VHU0159",
+    "Họ và tên":"Dương Ngọc Huy",
+    "Ngành học":"Quản trị dịch vụ du lịch và lữ hành",
+    "Quê quán":"Long An",
+    "Đối tượng miễn giảm":"Hộ nghèo",
+    "Mức miễn giảm đề xuất":"70% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":160,
+    "Mã sinh viên":"241VHU0160",
+    "Họ và tên":"Võ Đức Phong",
+    "Ngành học":"Tài chính - Ngân hàng",
+    "Quê quán":"Long An",
+    "Đối tượng miễn giảm":"Hộ cận nghèo",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":161,
+    "Mã sinh viên":"241VHU0161",
+    "Họ và tên":"Đỗ Minh Nga",
+    "Ngành học":"Thiết kế đồ họa",
+    "Quê quán":"Đắk Lắk",
+    "Đối tượng miễn giảm":"Sinh viên vùng dân tộc thiểu số",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":162,
+    "Mã sinh viên":"241VHU0162",
+    "Họ và tên":"Đặng Thành Phúc",
+    "Ngành học":"Tâm lý học",
+    "Quê quán":"Long An",
+    "Đối tượng miễn giảm":"Sinh viên khuyết tật",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":163,
+    "Mã sinh viên":"241VHU0163",
+    "Họ và tên":"Huỳnh Đức Dũng",
+    "Ngành học":"Công nghệ thông tin",
+    "Quê quán":"Long An",
+    "Đối tượng miễn giảm":"Hộ cận nghèo",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":164,
+    "Mã sinh viên":"241VHU0164",
+    "Họ và tên":"Dương Minh Linh",
+    "Ngành học":"Thiết kế đồ họa",
+    "Quê quán":"Đắk Lắk",
+    "Đối tượng miễn giảm":"Hộ nghèo",
+    "Mức miễn giảm đề xuất":"70% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":165,
+    "Mã sinh viên":"241VHU0165",
+    "Họ và tên":"Trần Tuấn Khoa",
+    "Ngành học":"Tài chính - Ngân hàng",
+    "Quê quán":"Tiền Giang",
+    "Đối tượng miễn giảm":"Hộ nghèo",
+    "Mức miễn giảm đề xuất":"70% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":166,
+    "Mã sinh viên":"241VHU0166",
+    "Họ và tên":"Huỳnh Thu Huy",
+    "Ngành học":"Kỹ thuật phần mềm",
+    "Quê quán":"Tiền Giang",
+    "Đối tượng miễn giảm":"Con thương binh \/ bệnh binh",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":167,
+    "Mã sinh viên":"241VHU0167",
+    "Họ và tên":"Hoàng Ngọc Khoa",
+    "Ngành học":"Thiết kế đồ họa",
+    "Quê quán":"Cần Thơ",
+    "Đối tượng miễn giảm":"Con thương binh \/ bệnh binh",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":168,
+    "Mã sinh viên":"241VHU0168",
+    "Họ và tên":"Bùi Tuấn Uyên",
+    "Ngành học":"Kế toán",
+    "Quê quán":"An Giang",
+    "Đối tượng miễn giảm":"Mồ côi cả cha lẫn mẹ",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":169,
+    "Mã sinh viên":"241VHU0169",
+    "Họ và tên":"Hoàng Phương Tâm",
+    "Ngành học":"Tâm lý học",
+    "Quê quán":"Đắk Lắk",
+    "Đối tượng miễn giảm":"Mồ côi cả cha lẫn mẹ",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":170,
+    "Mã sinh viên":"241VHU0170",
+    "Họ và tên":"Phạm Hoàng Phong",
+    "Ngành học":"Công nghệ thông tin",
+    "Quê quán":"Cần Thơ",
+    "Đối tượng miễn giảm":"Hộ nghèo",
+    "Mức miễn giảm đề xuất":"70% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":171,
+    "Mã sinh viên":"241VHU0171",
+    "Họ và tên":"Phạm Minh Anh",
+    "Ngành học":"Marketing",
+    "Quê quán":"Tiền Giang",
+    "Đối tượng miễn giảm":"Sinh viên vùng dân tộc thiểu số",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":172,
+    "Mã sinh viên":"241VHU0172",
+    "Họ và tên":"Đỗ Thị Khoa",
+    "Ngành học":"Công nghệ thông tin",
+    "Quê quán":"Đồng Nai",
+    "Đối tượng miễn giảm":"Sinh viên vùng dân tộc thiểu số",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":173,
+    "Mã sinh viên":"241VHU0173",
+    "Họ và tên":"Vũ Phương Yến",
+    "Ngành học":"Kế toán",
+    "Quê quán":"Bình Định",
+    "Đối tượng miễn giảm":"Hộ nghèo",
+    "Mức miễn giảm đề xuất":"70% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":174,
+    "Mã sinh viên":"241VHU0174",
+    "Họ và tên":"Dương Tuấn Tuấn",
+    "Ngành học":"Kỹ thuật phần mềm",
+    "Quê quán":"Đồng Nai",
+    "Đối tượng miễn giảm":"Sinh viên vùng dân tộc thiểu số",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":175,
+    "Mã sinh viên":"241VHU0175",
+    "Họ và tên":"Lý Quang Thảo",
+    "Ngành học":"Quản trị dịch vụ du lịch và lữ hành",
+    "Quê quán":"Lâm Đồng",
+    "Đối tượng miễn giảm":"Sinh viên vùng dân tộc thiểu số",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":176,
+    "Mã sinh viên":"241VHU0176",
+    "Họ và tên":"Đỗ Gia Em",
+    "Ngành học":"Tâm lý học",
+    "Quê quán":"Bến Tre",
+    "Đối tượng miễn giảm":"Mồ côi cả cha lẫn mẹ",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":177,
+    "Mã sinh viên":"241VHU0177",
+    "Họ và tên":"Đỗ Văn Huy",
+    "Ngành học":"Tài chính - Ngân hàng",
+    "Quê quán":"Tiền Giang",
+    "Đối tượng miễn giảm":"Hộ cận nghèo",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":178,
+    "Mã sinh viên":"241VHU0178",
+    "Họ và tên":"Lê Đức Vinh",
+    "Ngành học":"Ngôn ngữ Anh",
+    "Quê quán":"Tiền Giang",
+    "Đối tượng miễn giảm":"Sinh viên khuyết tật",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":179,
+    "Mã sinh viên":"241VHU0179",
+    "Họ và tên":"Đặng Thành Vinh",
+    "Ngành học":"Marketing",
+    "Quê quán":"Long An",
+    "Đối tượng miễn giảm":"Sinh viên khuyết tật",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":180,
+    "Mã sinh viên":"241VHU0180",
+    "Họ và tên":"Lê Thành Hải",
+    "Ngành học":"Kế toán",
+    "Quê quán":"Tây Ninh",
+    "Đối tượng miễn giảm":"Mồ côi cả cha lẫn mẹ",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":181,
+    "Mã sinh viên":"241VHU0181",
+    "Họ và tên":"Lê Ánh Yến",
+    "Ngành học":"Marketing",
+    "Quê quán":"Bến Tre",
+    "Đối tượng miễn giảm":"Con thương binh \/ bệnh binh",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":182,
+    "Mã sinh viên":"241VHU0182",
+    "Họ và tên":"Võ Gia Phúc",
+    "Ngành học":"Ngôn ngữ Nhật",
+    "Quê quán":"An Giang",
+    "Đối tượng miễn giảm":"Mồ côi cả cha lẫn mẹ",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":183,
+    "Mã sinh viên":"241VHU0183",
+    "Họ và tên":"Hoàng Đức Phúc",
+    "Ngành học":"Marketing",
+    "Quê quán":"Tiền Giang",
+    "Đối tượng miễn giảm":"Hộ cận nghèo",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":184,
+    "Mã sinh viên":"241VHU0184",
+    "Họ và tên":"Trần Khánh Huy",
+    "Ngành học":"Quản trị dịch vụ du lịch và lữ hành",
+    "Quê quán":"Cần Thơ",
+    "Đối tượng miễn giảm":"Hộ cận nghèo",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":185,
+    "Mã sinh viên":"241VHU0185",
+    "Họ và tên":"Dương Đức Anh",
+    "Ngành học":"Công nghệ thông tin",
+    "Quê quán":"Bình Dương",
+    "Đối tượng miễn giảm":"Hộ nghèo",
+    "Mức miễn giảm đề xuất":"70% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":186,
+    "Mã sinh viên":"241VHU0186",
+    "Họ và tên":"Lý Thị Trang",
+    "Ngành học":"Đông phương học",
+    "Quê quán":"Long An",
+    "Đối tượng miễn giảm":"Hộ cận nghèo",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":187,
+    "Mã sinh viên":"241VHU0187",
+    "Họ và tên":"Lý Hoàng Trang",
+    "Ngành học":"Quản trị kinh doanh",
+    "Quê quán":"Bình Dương",
+    "Đối tượng miễn giảm":"Con thương binh \/ bệnh binh",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":188,
+    "Mã sinh viên":"241VHU0188",
+    "Họ và tên":"Lý Thị Thảo",
+    "Ngành học":"Tâm lý học",
+    "Quê quán":"Tiền Giang",
+    "Đối tượng miễn giảm":"Hộ cận nghèo",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":189,
+    "Mã sinh viên":"241VHU0189",
+    "Họ và tên":"Ngô Khánh Hùng",
+    "Ngành học":"Đông phương học",
+    "Quê quán":"Đắk Lắk",
+    "Đối tượng miễn giảm":"Sinh viên khuyết tật",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":190,
+    "Mã sinh viên":"241VHU0190",
+    "Họ và tên":"Phạm Quang Quân",
+    "Ngành học":"Tâm lý học",
+    "Quê quán":"Bình Dương",
+    "Đối tượng miễn giảm":"Sinh viên vùng dân tộc thiểu số",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":191,
+    "Mã sinh viên":"241VHU0191",
+    "Họ và tên":"Huỳnh Ánh Bình",
+    "Ngành học":"Thiết kế đồ họa",
+    "Quê quán":"Đắk Lắk",
+    "Đối tượng miễn giảm":"Hộ cận nghèo",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":192,
+    "Mã sinh viên":"241VHU0192",
+    "Họ và tên":"Hoàng Quang Phúc",
+    "Ngành học":"Công nghệ thông tin",
+    "Quê quán":"Bến Tre",
+    "Đối tượng miễn giảm":"Hộ cận nghèo",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":193,
+    "Mã sinh viên":"241VHU0193",
+    "Họ và tên":"Đỗ Văn Huy",
+    "Ngành học":"Kế toán",
+    "Quê quán":"Bình Định",
+    "Đối tượng miễn giảm":"Sinh viên vùng dân tộc thiểu số",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":194,
+    "Mã sinh viên":"241VHU0194",
+    "Họ và tên":"Phan Phương Trang",
+    "Ngành học":"Thiết kế đồ họa",
+    "Quê quán":"Long An",
+    "Đối tượng miễn giảm":"Con thương binh \/ bệnh binh",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Chờ xác minh địa phương"
+  },
+  {
+    "STT":195,
+    "Mã sinh viên":"241VHU0195",
+    "Họ và tên":"Bùi Khánh Khoa",
+    "Ngành học":"Đông phương học",
+    "Quê quán":"Lâm Đồng",
+    "Đối tượng miễn giảm":"Hộ cận nghèo",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":196,
+    "Mã sinh viên":"241VHU0196",
+    "Họ và tên":"Đỗ Thị Sơn",
+    "Ngành học":"Quản trị dịch vụ du lịch và lữ hành",
+    "Quê quán":"TP. Hồ Chí Minh",
+    "Đối tượng miễn giảm":"Hộ cận nghèo",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":197,
+    "Mã sinh viên":"241VHU0197",
+    "Họ và tên":"Hoàng Thu Huy",
+    "Ngành học":"Tài chính - Ngân hàng",
+    "Quê quán":"Tây Ninh",
+    "Đối tượng miễn giảm":"Mồ côi cả cha lẫn mẹ",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Bổ sung HS"
+  },
+  {
+    "STT":198,
+    "Mã sinh viên":"241VHU0198",
+    "Họ và tên":"Huỳnh Thị Hải",
+    "Ngành học":"Thiết kế đồ họa",
+    "Quê quán":"Đồng Nai",
+    "Đối tượng miễn giảm":"Sinh viên vùng dân tộc thiểu số",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":199,
+    "Mã sinh viên":"241VHU0199",
+    "Họ và tên":"Phạm Gia Nga",
+    "Ngành học":"Kỹ thuật phần mềm",
+    "Quê quán":"TP. Hồ Chí Minh",
+    "Đối tượng miễn giảm":"Con thương binh \/ bệnh binh",
+    "Mức miễn giảm đề xuất":"100% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  },
+  {
+    "STT":200,
+    "Mã sinh viên":"241VHU0200",
+    "Họ và tên":"Lý Quang Huy",
+    "Ngành học":"Tâm lý học",
+    "Quê quán":"Tiền Giang",
+    "Đối tượng miễn giảm":"Hộ cận nghèo",
+    "Mức miễn giảm đề xuất":"50% Học phí",
+    "Tình trạng hồ sơ":"Đã duyệt - Đúng hạn"
+  }
+]

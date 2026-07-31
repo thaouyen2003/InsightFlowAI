@@ -1,0 +1,1379 @@
+student_id,course_code,course_name,credits,semester,status
+SV0001,CSE493,AI,4,1,Đang học
+SV0001,CSE164,CSDL,4,1,Học lại
+SV0001,CSE211,AI,2,1,Hoàn thành
+SV0001,CSE261,ERP,2,1,Học lại
+SV0001,CSE233,Lập trình Python,4,1,Học lại
+SV0001,CSE491,AI,4,1,Đang học
+SV0002,CSE265,CSDL,2,1,Đang học
+SV0002,CSE371,CSDL,4,1,Đang học
+SV0002,CSE132,ERP,2,1,Học lại
+SV0002,CSE366,CSDL,2,1,Học lại
+SV0002,CSE360,CSDL,2,1,Đang học
+SV0002,CSE383,HCI,4,1,Học lại
+SV0003,CSE109,Lập trình Python,2,2,Hoàn thành
+SV0003,CSE269,ERP,4,2,Học lại
+SV0003,CSE269,AI,4,2,Học lại
+SV0003,CSE115,CSDL,2,2,Học lại
+SV0003,CSE499,Mạng máy tính,3,2,Đang học
+SV0003,CSE149,Lập trình Python,2,2,Học lại
+SV0003,CSE248,HCI,4,2,Học lại
+SV0004,CSE231,ERP,2,2,Đang học
+SV0004,CSE145,HCI,4,2,Hoàn thành
+SV0004,CSE421,AI,4,2,Hoàn thành
+SV0004,CSE214,ERP,3,2,Đang học
+SV0005,CSE311,Mạng máy tính,4,1,Hoàn thành
+SV0005,CSE246,HCI,2,1,Học lại
+SV0005,CSE263,Mạng máy tính,4,1,Đang học
+SV0005,CSE363,AI,4,1,Đang học
+SV0005,CSE280,HCI,4,1,Học lại
+SV0005,CSE279,ERP,4,1,Đang học
+SV0005,CSE358,HCI,4,1,Đang học
+SV0006,CSE247,Mạng máy tính,4,1,Hoàn thành
+SV0006,CSE331,CSDL,2,1,Hoàn thành
+SV0006,CSE308,HCI,3,1,Học lại
+SV0006,CSE250,Lập trình Python,3,1,Hoàn thành
+SV0006,CSE467,ERP,3,1,Đang học
+SV0006,CSE412,Mạng máy tính,4,1,Hoàn thành
+SV0006,CSE256,ERP,3,1,Đang học
+SV0007,CSE363,ERP,2,1,Đang học
+SV0007,CSE293,CSDL,2,1,Học lại
+SV0007,CSE207,CSDL,4,1,Đang học
+SV0007,CSE350,CSDL,2,1,Học lại
+SV0007,CSE388,AI,2,1,Học lại
+SV0007,CSE345,AI,3,1,Hoàn thành
+SV0007,CSE135,AI,4,1,Học lại
+SV0008,CSE173,ERP,2,1,Đang học
+SV0008,CSE405,AI,4,1,Hoàn thành
+SV0008,CSE363,Mạng máy tính,4,1,Học lại
+SV0008,CSE323,CSDL,4,1,Đang học
+SV0009,CSE418,AI,4,2,Hoàn thành
+SV0009,CSE140,AI,2,2,Học lại
+SV0009,CSE267,Lập trình Python,2,2,Hoàn thành
+SV0009,CSE120,AI,4,2,Học lại
+SV0009,CSE342,AI,4,2,Học lại
+SV0010,CSE487,CSDL,2,2,Đang học
+SV0010,CSE157,ERP,4,2,Hoàn thành
+SV0010,CSE235,ERP,2,2,Hoàn thành
+SV0010,CSE324,AI,3,2,Hoàn thành
+SV0010,CSE185,HCI,2,2,Học lại
+SV0010,CSE445,Lập trình Python,4,2,Đang học
+SV0010,CSE266,CSDL,4,2,Hoàn thành
+SV0011,CSE152,Lập trình Python,3,1,Hoàn thành
+SV0011,CSE249,Mạng máy tính,2,1,Học lại
+SV0011,CSE142,ERP,4,1,Hoàn thành
+SV0011,CSE302,CSDL,2,1,Học lại
+SV0011,CSE340,AI,2,1,Đang học
+SV0011,CSE164,Mạng máy tính,3,1,Hoàn thành
+SV0012,CSE418,Lập trình Python,2,1,Hoàn thành
+SV0012,CSE406,Mạng máy tính,4,1,Hoàn thành
+SV0012,CSE486,HCI,3,1,Đang học
+SV0012,CSE230,CSDL,2,1,Học lại
+SV0012,CSE117,HCI,2,1,Học lại
+SV0013,CSE165,HCI,4,2,Hoàn thành
+SV0013,CSE494,HCI,4,2,Học lại
+SV0013,CSE204,HCI,3,2,Học lại
+SV0013,CSE170,ERP,2,2,Học lại
+SV0013,CSE112,Lập trình Python,4,2,Hoàn thành
+SV0014,CSE126,Lập trình Python,3,2,Đang học
+SV0014,CSE322,Lập trình Python,4,2,Học lại
+SV0014,CSE299,AI,3,2,Học lại
+SV0014,CSE470,CSDL,3,2,Đang học
+SV0014,CSE239,Lập trình Python,2,2,Đang học
+SV0014,CSE143,AI,2,2,Học lại
+SV0014,CSE182,Lập trình Python,3,2,Học lại
+SV0015,CSE432,ERP,3,2,Hoàn thành
+SV0015,CSE178,CSDL,2,2,Hoàn thành
+SV0015,CSE408,AI,2,2,Hoàn thành
+SV0015,CSE330,AI,3,2,Hoàn thành
+SV0015,CSE231,Lập trình Python,3,2,Đang học
+SV0015,CSE244,CSDL,2,2,Hoàn thành
+SV0015,CSE425,Mạng máy tính,3,2,Đang học
+SV0016,CSE439,ERP,3,2,Đang học
+SV0016,CSE466,CSDL,4,2,Đang học
+SV0016,CSE135,ERP,4,2,Đang học
+SV0016,CSE148,Lập trình Python,2,2,Học lại
+SV0016,CSE152,ERP,4,2,Học lại
+SV0016,CSE188,Mạng máy tính,4,2,Đang học
+SV0017,CSE117,ERP,2,1,Đang học
+SV0017,CSE218,CSDL,4,1,Học lại
+SV0017,CSE311,Mạng máy tính,3,1,Đang học
+SV0017,CSE130,HCI,2,1,Đang học
+SV0017,CSE259,HCI,3,1,Học lại
+SV0017,CSE139,HCI,2,1,Đang học
+SV0017,CSE328,Lập trình Python,3,1,Đang học
+SV0018,CSE419,HCI,2,1,Học lại
+SV0018,CSE443,HCI,2,1,Học lại
+SV0018,CSE263,HCI,4,1,Hoàn thành
+SV0018,CSE374,AI,4,1,Đang học
+SV0018,CSE329,AI,2,1,Học lại
+SV0018,CSE146,ERP,3,1,Hoàn thành
+SV0018,CSE218,CSDL,4,1,Đang học
+SV0019,CSE434,CSDL,4,1,Đang học
+SV0019,CSE446,HCI,3,1,Hoàn thành
+SV0019,CSE409,AI,4,1,Đang học
+SV0019,CSE208,Lập trình Python,3,1,Đang học
+SV0020,CSE132,CSDL,3,1,Đang học
+SV0020,CSE397,HCI,2,1,Hoàn thành
+SV0020,CSE401,ERP,3,1,Học lại
+SV0020,CSE498,HCI,4,1,Đang học
+SV0020,CSE454,HCI,3,1,Hoàn thành
+SV0020,CSE213,Lập trình Python,3,1,Học lại
+SV0021,CSE206,HCI,3,1,Học lại
+SV0021,CSE105,ERP,4,1,Đang học
+SV0021,CSE124,AI,3,1,Học lại
+SV0021,CSE498,AI,3,1,Học lại
+SV0021,CSE242,Mạng máy tính,3,1,Học lại
+SV0022,CSE417,Mạng máy tính,2,1,Học lại
+SV0022,CSE177,Mạng máy tính,2,1,Đang học
+SV0022,CSE343,CSDL,4,1,Đang học
+SV0022,CSE208,Mạng máy tính,2,1,Đang học
+SV0022,CSE449,HCI,4,1,Hoàn thành
+SV0022,CSE307,ERP,4,1,Đang học
+SV0023,CSE318,HCI,2,2,Học lại
+SV0023,CSE375,AI,4,2,Học lại
+SV0023,CSE386,Lập trình Python,3,2,Hoàn thành
+SV0023,CSE423,CSDL,4,2,Học lại
+SV0023,CSE366,AI,2,2,Học lại
+SV0023,CSE125,Lập trình Python,3,2,Học lại
+SV0024,CSE420,Lập trình Python,2,1,Học lại
+SV0024,CSE290,Lập trình Python,2,1,Đang học
+SV0024,CSE214,Mạng máy tính,2,1,Hoàn thành
+SV0024,CSE122,AI,2,1,Học lại
+SV0024,CSE428,CSDL,4,1,Học lại
+SV0024,CSE231,HCI,3,1,Học lại
+SV0025,CSE326,CSDL,4,1,Đang học
+SV0025,CSE382,CSDL,2,1,Hoàn thành
+SV0025,CSE409,HCI,3,1,Hoàn thành
+SV0025,CSE491,AI,3,1,Học lại
+SV0026,CSE259,CSDL,2,1,Học lại
+SV0026,CSE191,Lập trình Python,4,1,Hoàn thành
+SV0026,CSE494,CSDL,2,1,Hoàn thành
+SV0026,CSE190,ERP,4,1,Học lại
+SV0026,CSE427,Lập trình Python,2,1,Hoàn thành
+SV0027,CSE136,AI,2,1,Học lại
+SV0027,CSE384,ERP,3,1,Học lại
+SV0027,CSE426,Mạng máy tính,4,1,Học lại
+SV0027,CSE200,ERP,2,1,Đang học
+SV0027,CSE451,ERP,3,1,Đang học
+SV0028,CSE220,CSDL,4,1,Đang học
+SV0028,CSE467,HCI,2,1,Đang học
+SV0028,CSE115,HCI,4,1,Học lại
+SV0028,CSE190,HCI,4,1,Học lại
+SV0028,CSE167,Mạng máy tính,4,1,Học lại
+SV0029,CSE119,CSDL,3,1,Học lại
+SV0029,CSE119,HCI,2,1,Học lại
+SV0029,CSE363,ERP,2,1,Học lại
+SV0029,CSE461,Lập trình Python,2,1,Hoàn thành
+SV0029,CSE160,AI,3,1,Đang học
+SV0029,CSE449,ERP,2,1,Đang học
+SV0029,CSE345,Mạng máy tính,2,1,Học lại
+SV0030,CSE224,AI,4,1,Đang học
+SV0030,CSE429,AI,4,1,Hoàn thành
+SV0030,CSE102,ERP,3,1,Học lại
+SV0030,CSE174,ERP,3,1,Đang học
+SV0030,CSE325,CSDL,3,1,Hoàn thành
+SV0031,CSE377,CSDL,4,2,Học lại
+SV0031,CSE224,Mạng máy tính,2,2,Đang học
+SV0031,CSE192,Lập trình Python,2,2,Học lại
+SV0031,CSE142,Lập trình Python,4,2,Hoàn thành
+SV0031,CSE204,ERP,4,2,Hoàn thành
+SV0032,CSE289,CSDL,4,2,Học lại
+SV0032,CSE420,AI,3,2,Hoàn thành
+SV0032,CSE336,AI,3,2,Hoàn thành
+SV0032,CSE230,Mạng máy tính,3,2,Hoàn thành
+SV0032,CSE209,Lập trình Python,4,2,Học lại
+SV0032,CSE484,AI,3,2,Hoàn thành
+SV0033,CSE480,Lập trình Python,3,2,Đang học
+SV0033,CSE113,HCI,3,2,Đang học
+SV0033,CSE160,CSDL,4,2,Học lại
+SV0033,CSE457,HCI,3,2,Học lại
+SV0033,CSE171,HCI,2,2,Học lại
+SV0034,CSE428,Mạng máy tính,3,1,Học lại
+SV0034,CSE320,AI,4,1,Hoàn thành
+SV0034,CSE279,CSDL,4,1,Đang học
+SV0034,CSE199,Mạng máy tính,3,1,Đang học
+SV0034,CSE123,Lập trình Python,4,1,Đang học
+SV0034,CSE355,Mạng máy tính,4,1,Học lại
+SV0034,CSE287,CSDL,3,1,Học lại
+SV0035,CSE436,AI,3,1,Đang học
+SV0035,CSE263,Lập trình Python,3,1,Học lại
+SV0035,CSE281,AI,4,1,Hoàn thành
+SV0035,CSE490,Mạng máy tính,4,1,Hoàn thành
+SV0035,CSE401,Mạng máy tính,3,1,Đang học
+SV0035,CSE126,Lập trình Python,3,1,Hoàn thành
+SV0036,CSE202,AI,3,1,Hoàn thành
+SV0036,CSE265,HCI,3,1,Đang học
+SV0036,CSE193,Lập trình Python,2,1,Đang học
+SV0036,CSE258,ERP,2,1,Học lại
+SV0036,CSE262,CSDL,3,1,Học lại
+SV0036,CSE153,CSDL,2,1,Học lại
+SV0037,CSE305,Lập trình Python,4,1,Đang học
+SV0037,CSE244,Mạng máy tính,3,1,Đang học
+SV0037,CSE159,Mạng máy tính,3,1,Học lại
+SV0037,CSE303,Lập trình Python,4,1,Hoàn thành
+SV0037,CSE378,Lập trình Python,3,1,Đang học
+SV0037,CSE270,CSDL,2,1,Hoàn thành
+SV0037,CSE223,HCI,4,1,Học lại
+SV0038,CSE253,HCI,3,1,Học lại
+SV0038,CSE190,Lập trình Python,4,1,Đang học
+SV0038,CSE352,ERP,4,1,Đang học
+SV0038,CSE231,Mạng máy tính,4,1,Học lại
+SV0038,CSE238,HCI,3,1,Đang học
+SV0039,CSE452,Mạng máy tính,4,2,Học lại
+SV0039,CSE296,Lập trình Python,2,2,Hoàn thành
+SV0039,CSE193,CSDL,2,2,Hoàn thành
+SV0039,CSE298,AI,2,2,Học lại
+SV0040,CSE418,Mạng máy tính,2,2,Đang học
+SV0040,CSE309,AI,2,2,Đang học
+SV0040,CSE395,HCI,3,2,Đang học
+SV0040,CSE472,ERP,2,2,Hoàn thành
+SV0040,CSE488,ERP,4,2,Đang học
+SV0041,CSE245,Lập trình Python,3,2,Hoàn thành
+SV0041,CSE113,CSDL,4,2,Hoàn thành
+SV0041,CSE498,CSDL,3,2,Học lại
+SV0041,CSE307,CSDL,4,2,Hoàn thành
+SV0041,CSE140,ERP,2,2,Học lại
+SV0042,CSE294,Mạng máy tính,3,1,Đang học
+SV0042,CSE342,HCI,3,1,Đang học
+SV0042,CSE240,CSDL,3,1,Học lại
+SV0042,CSE376,Lập trình Python,2,1,Đang học
+SV0042,CSE480,CSDL,3,1,Hoàn thành
+SV0042,CSE387,ERP,2,1,Học lại
+SV0042,CSE205,Mạng máy tính,2,1,Đang học
+SV0043,CSE191,HCI,2,1,Hoàn thành
+SV0043,CSE147,ERP,3,1,Hoàn thành
+SV0043,CSE315,AI,4,1,Hoàn thành
+SV0043,CSE481,CSDL,4,1,Hoàn thành
+SV0043,CSE179,CSDL,2,1,Hoàn thành
+SV0043,CSE203,Mạng máy tính,4,1,Hoàn thành
+SV0044,CSE157,Lập trình Python,4,2,Đang học
+SV0044,CSE383,Lập trình Python,3,2,Học lại
+SV0044,CSE290,AI,2,2,Đang học
+SV0044,CSE125,HCI,3,2,Hoàn thành
+SV0045,CSE417,HCI,4,2,Hoàn thành
+SV0045,CSE166,ERP,2,2,Học lại
+SV0045,CSE475,CSDL,3,2,Học lại
+SV0045,CSE384,CSDL,2,2,Học lại
+SV0045,CSE472,AI,3,2,Đang học
+SV0045,CSE111,HCI,4,2,Học lại
+SV0045,CSE469,HCI,2,2,Học lại
+SV0046,CSE319,HCI,3,1,Học lại
+SV0046,CSE320,AI,3,1,Học lại
+SV0046,CSE102,Lập trình Python,4,1,Hoàn thành
+SV0046,CSE396,HCI,4,1,Đang học
+SV0047,CSE408,Mạng máy tính,4,1,Hoàn thành
+SV0047,CSE209,Mạng máy tính,2,1,Đang học
+SV0047,CSE463,HCI,4,1,Đang học
+SV0047,CSE129,CSDL,4,1,Học lại
+SV0047,CSE104,Mạng máy tính,4,1,Hoàn thành
+SV0047,CSE279,Mạng máy tính,2,1,Học lại
+SV0048,CSE166,ERP,2,2,Học lại
+SV0048,CSE123,Lập trình Python,4,2,Học lại
+SV0048,CSE283,HCI,4,2,Học lại
+SV0048,CSE168,CSDL,4,2,Hoàn thành
+SV0048,CSE232,CSDL,4,2,Đang học
+SV0049,CSE330,AI,2,1,Hoàn thành
+SV0049,CSE185,AI,3,1,Học lại
+SV0049,CSE324,Lập trình Python,3,1,Học lại
+SV0049,CSE277,CSDL,2,1,Hoàn thành
+SV0049,CSE308,CSDL,2,1,Đang học
+SV0049,CSE251,Lập trình Python,3,1,Học lại
+SV0049,CSE412,AI,2,1,Hoàn thành
+SV0050,CSE155,Mạng máy tính,4,1,Hoàn thành
+SV0050,CSE496,AI,3,1,Hoàn thành
+SV0050,CSE228,HCI,2,1,Học lại
+SV0050,CSE433,ERP,2,1,Hoàn thành
+SV0050,CSE165,AI,3,1,Hoàn thành
+SV0051,CSE321,Mạng máy tính,2,2,Đang học
+SV0051,CSE396,HCI,4,2,Học lại
+SV0051,CSE406,AI,2,2,Hoàn thành
+SV0051,CSE435,CSDL,3,2,Hoàn thành
+SV0051,CSE354,HCI,2,2,Đang học
+SV0051,CSE167,Lập trình Python,2,2,Hoàn thành
+SV0052,CSE327,AI,2,2,Học lại
+SV0052,CSE183,Lập trình Python,3,2,Đang học
+SV0052,CSE265,ERP,2,2,Hoàn thành
+SV0052,CSE491,Mạng máy tính,3,2,Đang học
+SV0052,CSE186,Lập trình Python,3,2,Đang học
+SV0052,CSE302,Lập trình Python,4,2,Hoàn thành
+SV0053,CSE221,Mạng máy tính,2,1,Hoàn thành
+SV0053,CSE248,Lập trình Python,3,1,Học lại
+SV0053,CSE453,AI,3,1,Hoàn thành
+SV0053,CSE263,Lập trình Python,3,1,Hoàn thành
+SV0053,CSE159,HCI,3,1,Hoàn thành
+SV0053,CSE158,Lập trình Python,3,1,Hoàn thành
+SV0053,CSE280,Lập trình Python,2,1,Hoàn thành
+SV0054,CSE425,CSDL,2,1,Học lại
+SV0054,CSE316,Lập trình Python,4,1,Đang học
+SV0054,CSE104,CSDL,4,1,Hoàn thành
+SV0054,CSE210,ERP,2,1,Học lại
+SV0054,CSE472,CSDL,4,1,Đang học
+SV0055,CSE356,CSDL,3,1,Đang học
+SV0055,CSE152,CSDL,4,1,Hoàn thành
+SV0055,CSE337,ERP,4,1,Hoàn thành
+SV0055,CSE268,Mạng máy tính,2,1,Học lại
+SV0055,CSE286,AI,4,1,Học lại
+SV0055,CSE478,Mạng máy tính,2,1,Đang học
+SV0056,CSE211,AI,2,2,Học lại
+SV0056,CSE229,AI,2,2,Hoàn thành
+SV0056,CSE353,AI,3,2,Đang học
+SV0056,CSE359,CSDL,2,2,Đang học
+SV0057,CSE249,HCI,2,2,Hoàn thành
+SV0057,CSE440,AI,3,2,Học lại
+SV0057,CSE385,ERP,2,2,Học lại
+SV0057,CSE286,HCI,4,2,Đang học
+SV0058,CSE387,CSDL,2,1,Học lại
+SV0058,CSE241,CSDL,2,1,Đang học
+SV0058,CSE306,CSDL,4,1,Học lại
+SV0058,CSE140,HCI,2,1,Hoàn thành
+SV0058,CSE444,Lập trình Python,2,1,Hoàn thành
+SV0058,CSE246,AI,2,1,Hoàn thành
+SV0059,CSE119,Mạng máy tính,3,2,Hoàn thành
+SV0059,CSE185,ERP,2,2,Đang học
+SV0059,CSE442,Mạng máy tính,2,2,Học lại
+SV0059,CSE432,Mạng máy tính,4,2,Học lại
+SV0059,CSE368,HCI,3,2,Hoàn thành
+SV0060,CSE409,ERP,2,2,Học lại
+SV0060,CSE304,CSDL,2,2,Học lại
+SV0060,CSE128,Mạng máy tính,3,2,Hoàn thành
+SV0060,CSE444,Lập trình Python,2,2,Hoàn thành
+SV0060,CSE251,Lập trình Python,4,2,Học lại
+SV0060,CSE249,ERP,2,2,Hoàn thành
+SV0060,CSE221,CSDL,3,2,Học lại
+SV0061,CSE187,CSDL,2,1,Đang học
+SV0061,CSE403,AI,3,1,Học lại
+SV0061,CSE159,HCI,3,1,Đang học
+SV0061,CSE210,AI,3,1,Đang học
+SV0061,CSE456,ERP,3,1,Học lại
+SV0062,CSE204,AI,4,2,Học lại
+SV0062,CSE296,HCI,3,2,Đang học
+SV0062,CSE305,Lập trình Python,2,2,Đang học
+SV0062,CSE107,CSDL,2,2,Hoàn thành
+SV0062,CSE251,AI,4,2,Hoàn thành
+SV0062,CSE416,HCI,4,2,Đang học
+SV0063,CSE456,ERP,2,1,Đang học
+SV0063,CSE343,Lập trình Python,4,1,Học lại
+SV0063,CSE369,Lập trình Python,4,1,Đang học
+SV0063,CSE121,HCI,3,1,Hoàn thành
+SV0063,CSE457,CSDL,4,1,Hoàn thành
+SV0063,CSE193,Lập trình Python,4,1,Học lại
+SV0063,CSE203,HCI,2,1,Học lại
+SV0064,CSE318,CSDL,3,1,Hoàn thành
+SV0064,CSE334,CSDL,3,1,Học lại
+SV0064,CSE454,AI,4,1,Hoàn thành
+SV0064,CSE443,ERP,2,1,Đang học
+SV0064,CSE254,AI,3,1,Học lại
+SV0065,CSE369,HCI,3,2,Học lại
+SV0065,CSE421,AI,2,2,Học lại
+SV0065,CSE297,ERP,2,2,Học lại
+SV0065,CSE222,Mạng máy tính,3,2,Đang học
+SV0065,CSE347,AI,2,2,Đang học
+SV0066,CSE313,CSDL,3,2,Đang học
+SV0066,CSE400,Lập trình Python,3,2,Học lại
+SV0066,CSE309,ERP,3,2,Học lại
+SV0066,CSE230,Lập trình Python,2,2,Học lại
+SV0067,CSE146,AI,2,2,Hoàn thành
+SV0067,CSE300,HCI,2,2,Học lại
+SV0067,CSE354,AI,4,2,Học lại
+SV0067,CSE250,Lập trình Python,3,2,Hoàn thành
+SV0067,CSE369,CSDL,2,2,Học lại
+SV0067,CSE354,CSDL,2,2,Hoàn thành
+SV0068,CSE300,CSDL,3,2,Học lại
+SV0068,CSE168,CSDL,4,2,Đang học
+SV0068,CSE381,CSDL,3,2,Hoàn thành
+SV0068,CSE187,ERP,2,2,Đang học
+SV0069,CSE384,AI,3,1,Hoàn thành
+SV0069,CSE187,HCI,2,1,Học lại
+SV0069,CSE310,HCI,4,1,Đang học
+SV0069,CSE240,AI,2,1,Đang học
+SV0069,CSE308,Mạng máy tính,2,1,Học lại
+SV0070,CSE454,Mạng máy tính,4,2,Hoàn thành
+SV0070,CSE353,CSDL,2,2,Đang học
+SV0070,CSE310,Lập trình Python,3,2,Đang học
+SV0070,CSE305,Lập trình Python,3,2,Hoàn thành
+SV0070,CSE314,AI,2,2,Đang học
+SV0070,CSE352,AI,2,2,Đang học
+SV0070,CSE248,Lập trình Python,4,2,Đang học
+SV0071,CSE465,HCI,3,1,Đang học
+SV0071,CSE301,AI,4,1,Hoàn thành
+SV0071,CSE242,AI,3,1,Đang học
+SV0071,CSE380,ERP,3,1,Hoàn thành
+SV0071,CSE155,CSDL,3,1,Học lại
+SV0072,CSE360,Mạng máy tính,4,1,Hoàn thành
+SV0072,CSE240,AI,4,1,Đang học
+SV0072,CSE263,ERP,4,1,Hoàn thành
+SV0072,CSE487,HCI,4,1,Hoàn thành
+SV0072,CSE157,AI,2,1,Học lại
+SV0072,CSE222,Lập trình Python,4,1,Đang học
+SV0073,CSE467,CSDL,3,2,Đang học
+SV0073,CSE415,ERP,3,2,Học lại
+SV0073,CSE136,CSDL,4,2,Học lại
+SV0073,CSE404,AI,3,2,Học lại
+SV0073,CSE261,Mạng máy tính,4,2,Hoàn thành
+SV0074,CSE407,Lập trình Python,2,1,Học lại
+SV0074,CSE307,Mạng máy tính,3,1,Đang học
+SV0074,CSE433,HCI,4,1,Đang học
+SV0074,CSE255,CSDL,3,1,Hoàn thành
+SV0074,CSE243,ERP,4,1,Hoàn thành
+SV0074,CSE422,HCI,4,1,Học lại
+SV0075,CSE203,Lập trình Python,4,1,Đang học
+SV0075,CSE449,AI,2,1,Đang học
+SV0075,CSE302,ERP,4,1,Hoàn thành
+SV0075,CSE326,CSDL,4,1,Đang học
+SV0076,CSE403,CSDL,4,2,Đang học
+SV0076,CSE161,ERP,2,2,Hoàn thành
+SV0076,CSE380,AI,2,2,Học lại
+SV0076,CSE276,CSDL,4,2,Hoàn thành
+SV0077,CSE129,Mạng máy tính,2,2,Đang học
+SV0077,CSE441,AI,3,2,Hoàn thành
+SV0077,CSE258,ERP,3,2,Đang học
+SV0077,CSE384,AI,4,2,Học lại
+SV0077,CSE189,Lập trình Python,3,2,Hoàn thành
+SV0077,CSE411,ERP,4,2,Đang học
+SV0077,CSE190,AI,2,2,Đang học
+SV0078,CSE255,CSDL,4,1,Học lại
+SV0078,CSE302,AI,4,1,Hoàn thành
+SV0078,CSE161,Lập trình Python,2,1,Hoàn thành
+SV0078,CSE428,HCI,2,1,Học lại
+SV0078,CSE493,Lập trình Python,4,1,Đang học
+SV0078,CSE408,Mạng máy tính,3,1,Học lại
+SV0079,CSE161,AI,4,1,Hoàn thành
+SV0079,CSE486,Mạng máy tính,4,1,Đang học
+SV0079,CSE424,Mạng máy tính,4,1,Hoàn thành
+SV0079,CSE469,CSDL,2,1,Hoàn thành
+SV0079,CSE114,Lập trình Python,3,1,Học lại
+SV0080,CSE120,CSDL,3,2,Đang học
+SV0080,CSE414,ERP,4,2,Đang học
+SV0080,CSE123,HCI,3,2,Hoàn thành
+SV0080,CSE437,Mạng máy tính,4,2,Học lại
+SV0080,CSE356,ERP,2,2,Hoàn thành
+SV0080,CSE161,AI,4,2,Đang học
+SV0081,CSE330,Lập trình Python,3,2,Đang học
+SV0081,CSE227,Lập trình Python,2,2,Đang học
+SV0081,CSE324,AI,2,2,Học lại
+SV0081,CSE259,HCI,4,2,Học lại
+SV0081,CSE306,Lập trình Python,4,2,Đang học
+SV0082,CSE214,HCI,4,2,Học lại
+SV0082,CSE181,Lập trình Python,3,2,Đang học
+SV0082,CSE337,AI,3,2,Đang học
+SV0082,CSE294,Mạng máy tính,3,2,Đang học
+SV0082,CSE246,CSDL,2,2,Học lại
+SV0082,CSE423,CSDL,4,2,Đang học
+SV0083,CSE410,HCI,4,2,Học lại
+SV0083,CSE136,ERP,3,2,Hoàn thành
+SV0083,CSE282,CSDL,3,2,Hoàn thành
+SV0083,CSE483,CSDL,4,2,Hoàn thành
+SV0084,CSE181,ERP,4,2,Học lại
+SV0084,CSE245,CSDL,2,2,Học lại
+SV0084,CSE485,HCI,4,2,Đang học
+SV0084,CSE211,Mạng máy tính,2,2,Học lại
+SV0084,CSE202,Mạng máy tính,2,2,Hoàn thành
+SV0084,CSE302,Lập trình Python,4,2,Hoàn thành
+SV0084,CSE428,HCI,3,2,Học lại
+SV0085,CSE184,CSDL,2,1,Đang học
+SV0085,CSE238,AI,4,1,Đang học
+SV0085,CSE165,ERP,3,1,Hoàn thành
+SV0085,CSE469,Mạng máy tính,4,1,Học lại
+SV0085,CSE284,CSDL,4,1,Đang học
+SV0086,CSE411,CSDL,3,1,Đang học
+SV0086,CSE108,Mạng máy tính,2,1,Hoàn thành
+SV0086,CSE364,CSDL,4,1,Học lại
+SV0086,CSE246,HCI,3,1,Hoàn thành
+SV0086,CSE450,AI,4,1,Đang học
+SV0087,CSE484,Lập trình Python,4,2,Hoàn thành
+SV0087,CSE401,Lập trình Python,4,2,Đang học
+SV0087,CSE275,Mạng máy tính,3,2,Hoàn thành
+SV0087,CSE380,AI,4,2,Đang học
+SV0087,CSE284,Lập trình Python,2,2,Đang học
+SV0087,CSE172,AI,2,2,Đang học
+SV0087,CSE373,AI,2,2,Đang học
+SV0088,CSE359,CSDL,3,1,Hoàn thành
+SV0088,CSE240,Lập trình Python,2,1,Đang học
+SV0088,CSE428,AI,4,1,Học lại
+SV0088,CSE444,CSDL,4,1,Hoàn thành
+SV0089,CSE292,ERP,3,2,Học lại
+SV0089,CSE306,CSDL,3,2,Hoàn thành
+SV0089,CSE325,HCI,3,2,Học lại
+SV0089,CSE373,Mạng máy tính,4,2,Đang học
+SV0089,CSE432,ERP,3,2,Hoàn thành
+SV0090,CSE367,AI,4,1,Hoàn thành
+SV0090,CSE323,HCI,4,1,Đang học
+SV0090,CSE223,HCI,3,1,Đang học
+SV0090,CSE269,Lập trình Python,4,1,Học lại
+SV0090,CSE290,Mạng máy tính,2,1,Học lại
+SV0090,CSE476,Lập trình Python,4,1,Đang học
+SV0091,CSE368,AI,2,2,Hoàn thành
+SV0091,CSE221,Mạng máy tính,4,2,Hoàn thành
+SV0091,CSE434,HCI,4,2,Hoàn thành
+SV0091,CSE280,CSDL,4,2,Hoàn thành
+SV0092,CSE279,Lập trình Python,4,2,Hoàn thành
+SV0092,CSE354,AI,4,2,Hoàn thành
+SV0092,CSE307,AI,2,2,Đang học
+SV0092,CSE224,HCI,4,2,Hoàn thành
+SV0092,CSE366,Lập trình Python,2,2,Học lại
+SV0092,CSE309,HCI,3,2,Học lại
+SV0092,CSE472,HCI,4,2,Đang học
+SV0093,CSE386,Lập trình Python,2,1,Hoàn thành
+SV0093,CSE375,HCI,3,1,Học lại
+SV0093,CSE420,HCI,2,1,Học lại
+SV0093,CSE370,AI,3,1,Học lại
+SV0093,CSE325,Lập trình Python,3,1,Đang học
+SV0093,CSE236,HCI,4,1,Học lại
+SV0093,CSE147,CSDL,4,1,Học lại
+SV0094,CSE470,CSDL,3,2,Đang học
+SV0094,CSE134,Mạng máy tính,2,2,Đang học
+SV0094,CSE375,Lập trình Python,2,2,Học lại
+SV0094,CSE138,Mạng máy tính,2,2,Đang học
+SV0095,CSE328,Mạng máy tính,3,1,Hoàn thành
+SV0095,CSE284,ERP,4,1,Hoàn thành
+SV0095,CSE312,Lập trình Python,4,1,Hoàn thành
+SV0095,CSE224,AI,4,1,Hoàn thành
+SV0096,CSE196,HCI,4,2,Học lại
+SV0096,CSE109,HCI,3,2,Đang học
+SV0096,CSE398,HCI,4,2,Đang học
+SV0096,CSE383,HCI,4,2,Hoàn thành
+SV0096,CSE342,Mạng máy tính,3,2,Học lại
+SV0097,CSE129,Lập trình Python,4,2,Hoàn thành
+SV0097,CSE477,Lập trình Python,3,2,Hoàn thành
+SV0097,CSE349,Mạng máy tính,4,2,Học lại
+SV0097,CSE351,ERP,4,2,Đang học
+SV0097,CSE205,ERP,3,2,Hoàn thành
+SV0097,CSE363,CSDL,3,2,Học lại
+SV0098,CSE133,CSDL,4,1,Đang học
+SV0098,CSE499,Lập trình Python,3,1,Hoàn thành
+SV0098,CSE259,ERP,2,1,Học lại
+SV0098,CSE399,CSDL,3,1,Hoàn thành
+SV0098,CSE479,Lập trình Python,3,1,Hoàn thành
+SV0099,CSE296,ERP,2,1,Học lại
+SV0099,CSE180,HCI,4,1,Đang học
+SV0099,CSE263,CSDL,4,1,Đang học
+SV0099,CSE499,HCI,2,1,Học lại
+SV0099,CSE118,ERP,3,1,Hoàn thành
+SV0099,CSE458,ERP,3,1,Hoàn thành
+SV0099,CSE494,AI,4,1,Học lại
+SV0100,CSE232,ERP,4,1,Đang học
+SV0100,CSE102,AI,3,1,Hoàn thành
+SV0100,CSE418,ERP,2,1,Học lại
+SV0100,CSE437,HCI,3,1,Đang học
+SV0100,CSE185,Mạng máy tính,4,1,Học lại
+SV0100,CSE312,CSDL,2,1,Đang học
+SV0100,CSE148,Mạng máy tính,4,1,Đang học
+SV0101,CSE375,Lập trình Python,3,2,Hoàn thành
+SV0101,CSE202,ERP,4,2,Hoàn thành
+SV0101,CSE200,Mạng máy tính,3,2,Đang học
+SV0101,CSE251,Mạng máy tính,2,2,Học lại
+SV0101,CSE435,AI,3,2,Học lại
+SV0101,CSE137,HCI,2,2,Hoàn thành
+SV0101,CSE306,AI,2,2,Đang học
+SV0102,CSE287,HCI,3,1,Hoàn thành
+SV0102,CSE274,Mạng máy tính,2,1,Đang học
+SV0102,CSE335,Mạng máy tính,3,1,Đang học
+SV0102,CSE274,HCI,3,1,Hoàn thành
+SV0102,CSE123,Mạng máy tính,2,1,Học lại
+SV0103,CSE211,CSDL,4,2,Học lại
+SV0103,CSE124,Mạng máy tính,2,2,Hoàn thành
+SV0103,CSE315,CSDL,4,2,Đang học
+SV0103,CSE258,HCI,3,2,Hoàn thành
+SV0104,CSE348,CSDL,3,2,Học lại
+SV0104,CSE369,AI,3,2,Hoàn thành
+SV0104,CSE406,Lập trình Python,4,2,Hoàn thành
+SV0104,CSE363,ERP,2,2,Hoàn thành
+SV0104,CSE365,Mạng máy tính,4,2,Hoàn thành
+SV0104,CSE296,ERP,4,2,Học lại
+SV0104,CSE436,Mạng máy tính,3,2,Đang học
+SV0105,CSE285,HCI,3,2,Hoàn thành
+SV0105,CSE174,CSDL,3,2,Hoàn thành
+SV0105,CSE394,AI,2,2,Học lại
+SV0105,CSE220,ERP,2,2,Đang học
+SV0105,CSE385,CSDL,4,2,Học lại
+SV0105,CSE337,ERP,2,2,Hoàn thành
+SV0106,CSE491,Mạng máy tính,3,2,Hoàn thành
+SV0106,CSE244,AI,2,2,Đang học
+SV0106,CSE415,Mạng máy tính,3,2,Hoàn thành
+SV0106,CSE228,AI,2,2,Học lại
+SV0106,CSE319,CSDL,3,2,Đang học
+SV0106,CSE268,CSDL,2,2,Hoàn thành
+SV0106,CSE130,HCI,2,2,Đang học
+SV0107,CSE230,Lập trình Python,3,1,Hoàn thành
+SV0107,CSE321,HCI,3,1,Hoàn thành
+SV0107,CSE233,Mạng máy tính,4,1,Hoàn thành
+SV0107,CSE241,HCI,4,1,Học lại
+SV0107,CSE325,AI,3,1,Học lại
+SV0108,CSE481,Lập trình Python,3,1,Đang học
+SV0108,CSE101,Lập trình Python,2,1,Hoàn thành
+SV0108,CSE276,HCI,2,1,Hoàn thành
+SV0108,CSE222,HCI,4,1,Hoàn thành
+SV0108,CSE179,CSDL,3,1,Đang học
+SV0109,CSE242,ERP,2,1,Đang học
+SV0109,CSE336,AI,3,1,Đang học
+SV0109,CSE134,Mạng máy tính,3,1,Hoàn thành
+SV0109,CSE251,CSDL,2,1,Đang học
+SV0109,CSE122,AI,2,1,Học lại
+SV0110,CSE259,ERP,3,2,Hoàn thành
+SV0110,CSE494,Mạng máy tính,3,2,Hoàn thành
+SV0110,CSE243,Lập trình Python,4,2,Đang học
+SV0110,CSE179,CSDL,3,2,Hoàn thành
+SV0110,CSE118,Mạng máy tính,4,2,Học lại
+SV0110,CSE283,Mạng máy tính,3,2,Hoàn thành
+SV0110,CSE160,HCI,2,2,Học lại
+SV0111,CSE369,Lập trình Python,4,2,Đang học
+SV0111,CSE144,Lập trình Python,2,2,Hoàn thành
+SV0111,CSE344,Mạng máy tính,3,2,Hoàn thành
+SV0111,CSE184,Mạng máy tính,2,2,Học lại
+SV0111,CSE416,Lập trình Python,4,2,Đang học
+SV0111,CSE196,AI,3,2,Đang học
+SV0111,CSE138,CSDL,3,2,Hoàn thành
+SV0112,CSE378,CSDL,2,1,Học lại
+SV0112,CSE179,HCI,3,1,Học lại
+SV0112,CSE345,ERP,2,1,Hoàn thành
+SV0112,CSE302,HCI,4,1,Đang học
+SV0112,CSE125,AI,2,1,Học lại
+SV0113,CSE362,CSDL,2,1,Đang học
+SV0113,CSE371,Mạng máy tính,2,1,Học lại
+SV0113,CSE365,Mạng máy tính,2,1,Học lại
+SV0113,CSE469,HCI,2,1,Đang học
+SV0113,CSE395,Mạng máy tính,2,1,Học lại
+SV0114,CSE213,HCI,3,2,Đang học
+SV0114,CSE142,Lập trình Python,3,2,Học lại
+SV0114,CSE383,Lập trình Python,4,2,Học lại
+SV0114,CSE441,AI,2,2,Học lại
+SV0115,CSE311,AI,2,2,Hoàn thành
+SV0115,CSE206,HCI,3,2,Học lại
+SV0115,CSE457,Lập trình Python,3,2,Hoàn thành
+SV0115,CSE140,HCI,2,2,Hoàn thành
+SV0115,CSE468,Mạng máy tính,4,2,Đang học
+SV0115,CSE382,CSDL,2,2,Đang học
+SV0116,CSE256,Mạng máy tính,3,1,Hoàn thành
+SV0116,CSE434,ERP,4,1,Hoàn thành
+SV0116,CSE254,HCI,2,1,Đang học
+SV0116,CSE131,Lập trình Python,2,1,Học lại
+SV0116,CSE463,ERP,2,1,Đang học
+SV0116,CSE412,HCI,4,1,Đang học
+SV0116,CSE362,ERP,4,1,Học lại
+SV0117,CSE390,ERP,4,1,Hoàn thành
+SV0117,CSE145,Lập trình Python,3,1,Đang học
+SV0117,CSE265,AI,3,1,Học lại
+SV0117,CSE116,Lập trình Python,4,1,Hoàn thành
+SV0117,CSE397,CSDL,3,1,Học lại
+SV0117,CSE171,Mạng máy tính,2,1,Học lại
+SV0117,CSE318,AI,4,1,Đang học
+SV0118,CSE417,Mạng máy tính,3,2,Hoàn thành
+SV0118,CSE376,Lập trình Python,2,2,Hoàn thành
+SV0118,CSE357,Mạng máy tính,4,2,Đang học
+SV0118,CSE135,ERP,2,2,Học lại
+SV0118,CSE434,Lập trình Python,2,2,Đang học
+SV0118,CSE197,ERP,2,2,Hoàn thành
+SV0119,CSE387,Mạng máy tính,4,2,Đang học
+SV0119,CSE267,AI,3,2,Hoàn thành
+SV0119,CSE253,CSDL,2,2,Hoàn thành
+SV0119,CSE362,CSDL,2,2,Học lại
+SV0119,CSE478,CSDL,3,2,Hoàn thành
+SV0119,CSE234,CSDL,4,2,Học lại
+SV0119,CSE485,CSDL,4,2,Học lại
+SV0120,CSE421,Mạng máy tính,2,2,Hoàn thành
+SV0120,CSE259,Lập trình Python,2,2,Đang học
+SV0120,CSE186,CSDL,4,2,Đang học
+SV0120,CSE147,Lập trình Python,3,2,Đang học
+SV0121,CSE370,CSDL,3,2,Đang học
+SV0121,CSE208,ERP,3,2,Hoàn thành
+SV0121,CSE455,AI,2,2,Học lại
+SV0121,CSE448,Mạng máy tính,4,2,Đang học
+SV0122,CSE113,Lập trình Python,4,1,Hoàn thành
+SV0122,CSE300,CSDL,3,1,Học lại
+SV0122,CSE125,AI,4,1,Đang học
+SV0122,CSE242,ERP,4,1,Đang học
+SV0122,CSE467,ERP,3,1,Đang học
+SV0123,CSE177,AI,2,1,Đang học
+SV0123,CSE218,CSDL,4,1,Học lại
+SV0123,CSE203,ERP,3,1,Hoàn thành
+SV0123,CSE369,HCI,3,1,Học lại
+SV0123,CSE497,ERP,2,1,Đang học
+SV0123,CSE245,ERP,2,1,Học lại
+SV0124,CSE111,HCI,2,2,Học lại
+SV0124,CSE189,Mạng máy tính,4,2,Học lại
+SV0124,CSE158,ERP,3,2,Đang học
+SV0124,CSE316,HCI,2,2,Hoàn thành
+SV0124,CSE433,AI,2,2,Hoàn thành
+SV0124,CSE367,AI,2,2,Đang học
+SV0124,CSE402,Mạng máy tính,3,2,Đang học
+SV0125,CSE318,Lập trình Python,3,2,Học lại
+SV0125,CSE138,ERP,4,2,Đang học
+SV0125,CSE145,CSDL,2,2,Hoàn thành
+SV0125,CSE223,CSDL,4,2,Hoàn thành
+SV0125,CSE172,Mạng máy tính,3,2,Học lại
+SV0126,CSE168,Mạng máy tính,2,2,Hoàn thành
+SV0126,CSE358,HCI,2,2,Hoàn thành
+SV0126,CSE338,AI,3,2,Đang học
+SV0126,CSE295,HCI,3,2,Đang học
+SV0126,CSE379,Mạng máy tính,2,2,Đang học
+SV0126,CSE242,Mạng máy tính,2,2,Học lại
+SV0127,CSE328,Lập trình Python,4,2,Hoàn thành
+SV0127,CSE165,CSDL,2,2,Đang học
+SV0127,CSE374,AI,4,2,Học lại
+SV0127,CSE485,Lập trình Python,3,2,Học lại
+SV0128,CSE254,ERP,4,2,Hoàn thành
+SV0128,CSE145,HCI,2,2,Học lại
+SV0128,CSE404,AI,3,2,Học lại
+SV0128,CSE230,Mạng máy tính,4,2,Học lại
+SV0129,CSE452,Mạng máy tính,3,2,Đang học
+SV0129,CSE474,ERP,3,2,Đang học
+SV0129,CSE463,ERP,2,2,Đang học
+SV0129,CSE161,Mạng máy tính,3,2,Học lại
+SV0130,CSE487,ERP,3,2,Hoàn thành
+SV0130,CSE437,Mạng máy tính,2,2,Đang học
+SV0130,CSE242,ERP,4,2,Đang học
+SV0130,CSE138,HCI,3,2,Đang học
+SV0130,CSE240,Mạng máy tính,3,2,Đang học
+SV0130,CSE480,CSDL,4,2,Hoàn thành
+SV0131,CSE279,HCI,3,1,Học lại
+SV0131,CSE167,AI,2,1,Đang học
+SV0131,CSE384,HCI,4,1,Đang học
+SV0131,CSE434,HCI,3,1,Đang học
+SV0131,CSE358,ERP,3,1,Hoàn thành
+SV0132,CSE199,Mạng máy tính,4,2,Học lại
+SV0132,CSE240,CSDL,3,2,Học lại
+SV0132,CSE303,AI,2,2,Đang học
+SV0132,CSE445,Lập trình Python,3,2,Học lại
+SV0133,CSE321,Lập trình Python,2,1,Học lại
+SV0133,CSE150,AI,4,1,Hoàn thành
+SV0133,CSE460,CSDL,4,1,Hoàn thành
+SV0133,CSE476,ERP,3,1,Học lại
+SV0134,CSE309,CSDL,4,2,Học lại
+SV0134,CSE350,Lập trình Python,3,2,Học lại
+SV0134,CSE159,AI,4,2,Hoàn thành
+SV0134,CSE445,CSDL,4,2,Hoàn thành
+SV0134,CSE284,HCI,4,2,Học lại
+SV0134,CSE190,AI,2,2,Học lại
+SV0134,CSE141,CSDL,2,2,Hoàn thành
+SV0135,CSE466,Mạng máy tính,4,2,Đang học
+SV0135,CSE218,CSDL,4,2,Đang học
+SV0135,CSE262,CSDL,4,2,Học lại
+SV0135,CSE114,Lập trình Python,3,2,Hoàn thành
+SV0135,CSE101,CSDL,3,2,Học lại
+SV0135,CSE157,AI,3,2,Học lại
+SV0135,CSE206,Mạng máy tính,3,2,Học lại
+SV0136,CSE484,Mạng máy tính,4,1,Hoàn thành
+SV0136,CSE156,Lập trình Python,2,1,Hoàn thành
+SV0136,CSE414,AI,2,1,Hoàn thành
+SV0136,CSE329,CSDL,4,1,Học lại
+SV0137,CSE297,AI,3,1,Hoàn thành
+SV0137,CSE455,AI,2,1,Hoàn thành
+SV0137,CSE263,AI,2,1,Hoàn thành
+SV0137,CSE486,AI,2,1,Đang học
+SV0138,CSE109,ERP,2,1,Học lại
+SV0138,CSE487,ERP,2,1,Đang học
+SV0138,CSE464,HCI,4,1,Học lại
+SV0138,CSE457,Mạng máy tính,4,1,Hoàn thành
+SV0138,CSE430,AI,2,1,Hoàn thành
+SV0138,CSE483,AI,2,1,Học lại
+SV0138,CSE219,AI,2,1,Hoàn thành
+SV0139,CSE380,Mạng máy tính,4,1,Đang học
+SV0139,CSE105,Mạng máy tính,3,1,Đang học
+SV0139,CSE160,AI,3,1,Hoàn thành
+SV0139,CSE357,ERP,3,1,Hoàn thành
+SV0139,CSE203,AI,4,1,Học lại
+SV0139,CSE417,HCI,2,1,Hoàn thành
+SV0139,CSE130,Lập trình Python,4,1,Học lại
+SV0140,CSE113,HCI,3,1,Hoàn thành
+SV0140,CSE176,AI,2,1,Đang học
+SV0140,CSE115,HCI,4,1,Hoàn thành
+SV0140,CSE419,HCI,2,1,Hoàn thành
+SV0140,CSE428,HCI,3,1,Hoàn thành
+SV0141,CSE470,ERP,3,2,Học lại
+SV0141,CSE150,HCI,3,2,Học lại
+SV0141,CSE254,Lập trình Python,2,2,Hoàn thành
+SV0141,CSE129,AI,3,2,Hoàn thành
+SV0141,CSE414,HCI,3,2,Học lại
+SV0141,CSE491,HCI,4,2,Hoàn thành
+SV0142,CSE113,ERP,3,1,Hoàn thành
+SV0142,CSE486,Lập trình Python,2,1,Hoàn thành
+SV0142,CSE113,HCI,4,1,Học lại
+SV0142,CSE376,Mạng máy tính,3,1,Đang học
+SV0142,CSE213,HCI,4,1,Hoàn thành
+SV0142,CSE349,HCI,2,1,Đang học
+SV0142,CSE477,Mạng máy tính,3,1,Đang học
+SV0143,CSE279,CSDL,2,2,Hoàn thành
+SV0143,CSE200,Lập trình Python,2,2,Hoàn thành
+SV0143,CSE336,AI,3,2,Hoàn thành
+SV0143,CSE140,CSDL,4,2,Đang học
+SV0143,CSE462,AI,4,2,Đang học
+SV0143,CSE197,HCI,4,2,Học lại
+SV0143,CSE292,CSDL,4,2,Hoàn thành
+SV0144,CSE270,CSDL,4,1,Đang học
+SV0144,CSE347,Mạng máy tính,2,1,Học lại
+SV0144,CSE141,Mạng máy tính,2,1,Học lại
+SV0144,CSE351,AI,3,1,Đang học
+SV0145,CSE125,Mạng máy tính,3,2,Đang học
+SV0145,CSE301,HCI,3,2,Hoàn thành
+SV0145,CSE222,ERP,3,2,Hoàn thành
+SV0145,CSE233,CSDL,2,2,Học lại
+SV0146,CSE490,Mạng máy tính,4,1,Học lại
+SV0146,CSE348,ERP,2,1,Đang học
+SV0146,CSE481,Mạng máy tính,2,1,Học lại
+SV0146,CSE229,Mạng máy tính,3,1,Đang học
+SV0146,CSE172,Mạng máy tính,4,1,Học lại
+SV0146,CSE293,HCI,2,1,Đang học
+SV0146,CSE446,Mạng máy tính,4,1,Học lại
+SV0147,CSE473,AI,3,2,Học lại
+SV0147,CSE368,CSDL,3,2,Đang học
+SV0147,CSE416,ERP,3,2,Đang học
+SV0147,CSE150,CSDL,4,2,Học lại
+SV0147,CSE372,ERP,3,2,Đang học
+SV0147,CSE449,HCI,3,2,Học lại
+SV0148,CSE170,HCI,4,1,Đang học
+SV0148,CSE453,HCI,4,1,Học lại
+SV0148,CSE182,Mạng máy tính,4,1,Hoàn thành
+SV0148,CSE187,Mạng máy tính,2,1,Hoàn thành
+SV0149,CSE175,CSDL,4,2,Hoàn thành
+SV0149,CSE253,Mạng máy tính,4,2,Học lại
+SV0149,CSE475,AI,2,2,Hoàn thành
+SV0149,CSE486,ERP,2,2,Hoàn thành
+SV0150,CSE168,Mạng máy tính,2,1,Học lại
+SV0150,CSE441,ERP,3,1,Đang học
+SV0150,CSE452,Mạng máy tính,3,1,Học lại
+SV0150,CSE342,Lập trình Python,4,1,Hoàn thành
+SV0150,CSE458,Lập trình Python,4,1,Hoàn thành
+SV0150,CSE465,Mạng máy tính,2,1,Đang học
+SV0150,CSE149,ERP,3,1,Học lại
+SV0151,CSE290,Mạng máy tính,4,1,Hoàn thành
+SV0151,CSE325,ERP,4,1,Học lại
+SV0151,CSE488,HCI,2,1,Học lại
+SV0151,CSE239,Lập trình Python,3,1,Đang học
+SV0151,CSE272,Mạng máy tính,3,1,Hoàn thành
+SV0151,CSE299,ERP,3,1,Đang học
+SV0152,CSE368,CSDL,3,1,Học lại
+SV0152,CSE137,AI,4,1,Đang học
+SV0152,CSE162,ERP,2,1,Đang học
+SV0152,CSE427,ERP,3,1,Hoàn thành
+SV0153,CSE309,Lập trình Python,4,2,Đang học
+SV0153,CSE244,AI,4,2,Học lại
+SV0153,CSE273,HCI,2,2,Hoàn thành
+SV0153,CSE103,Mạng máy tính,4,2,Hoàn thành
+SV0153,CSE154,Lập trình Python,2,2,Hoàn thành
+SV0154,CSE293,CSDL,3,2,Hoàn thành
+SV0154,CSE232,Mạng máy tính,3,2,Học lại
+SV0154,CSE438,Mạng máy tính,3,2,Đang học
+SV0154,CSE350,Mạng máy tính,3,2,Đang học
+SV0154,CSE299,AI,4,2,Hoàn thành
+SV0154,CSE446,CSDL,4,2,Đang học
+SV0155,CSE278,Lập trình Python,4,1,Đang học
+SV0155,CSE226,ERP,4,1,Đang học
+SV0155,CSE410,ERP,4,1,Hoàn thành
+SV0155,CSE470,Mạng máy tính,4,1,Học lại
+SV0155,CSE103,Lập trình Python,4,1,Học lại
+SV0155,CSE325,Mạng máy tính,4,1,Học lại
+SV0156,CSE222,ERP,2,2,Đang học
+SV0156,CSE379,AI,2,2,Học lại
+SV0156,CSE104,ERP,4,2,Học lại
+SV0156,CSE304,CSDL,2,2,Đang học
+SV0156,CSE318,Lập trình Python,2,2,Hoàn thành
+SV0157,CSE340,HCI,2,1,Học lại
+SV0157,CSE460,ERP,3,1,Đang học
+SV0157,CSE178,Mạng máy tính,3,1,Đang học
+SV0157,CSE175,HCI,3,1,Học lại
+SV0157,CSE282,Mạng máy tính,3,1,Đang học
+SV0157,CSE309,HCI,4,1,Hoàn thành
+SV0158,CSE431,ERP,2,1,Học lại
+SV0158,CSE339,Lập trình Python,4,1,Học lại
+SV0158,CSE137,ERP,4,1,Hoàn thành
+SV0158,CSE354,HCI,4,1,Đang học
+SV0158,CSE347,ERP,2,1,Học lại
+SV0158,CSE122,Mạng máy tính,2,1,Hoàn thành
+SV0158,CSE475,HCI,4,1,Đang học
+SV0159,CSE390,Lập trình Python,3,1,Học lại
+SV0159,CSE128,Lập trình Python,3,1,Hoàn thành
+SV0159,CSE461,Mạng máy tính,4,1,Học lại
+SV0159,CSE399,AI,2,1,Hoàn thành
+SV0159,CSE322,HCI,2,1,Đang học
+SV0159,CSE263,HCI,3,1,Hoàn thành
+SV0159,CSE348,CSDL,3,1,Hoàn thành
+SV0160,CSE246,Lập trình Python,2,2,Học lại
+SV0160,CSE252,HCI,4,2,Học lại
+SV0160,CSE128,CSDL,3,2,Hoàn thành
+SV0160,CSE139,CSDL,2,2,Học lại
+SV0161,CSE243,Mạng máy tính,2,2,Hoàn thành
+SV0161,CSE405,Mạng máy tính,2,2,Đang học
+SV0161,CSE205,HCI,3,2,Hoàn thành
+SV0161,CSE455,ERP,2,2,Học lại
+SV0161,CSE386,Mạng máy tính,4,2,Hoàn thành
+SV0161,CSE265,CSDL,2,2,Đang học
+SV0162,CSE135,ERP,4,2,Học lại
+SV0162,CSE245,Lập trình Python,3,2,Đang học
+SV0162,CSE371,Lập trình Python,4,2,Học lại
+SV0162,CSE417,AI,2,2,Hoàn thành
+SV0163,CSE282,Mạng máy tính,2,1,Hoàn thành
+SV0163,CSE406,Lập trình Python,3,1,Hoàn thành
+SV0163,CSE319,AI,3,1,Hoàn thành
+SV0163,CSE175,ERP,4,1,Đang học
+SV0163,CSE443,AI,4,1,Học lại
+SV0163,CSE217,AI,3,1,Học lại
+SV0163,CSE425,CSDL,2,1,Học lại
+SV0164,CSE290,Mạng máy tính,3,1,Hoàn thành
+SV0164,CSE175,CSDL,3,1,Học lại
+SV0164,CSE494,Lập trình Python,3,1,Đang học
+SV0164,CSE473,CSDL,4,1,Đang học
+SV0164,CSE257,Lập trình Python,2,1,Hoàn thành
+SV0164,CSE293,AI,3,1,Đang học
+SV0165,CSE390,ERP,3,1,Hoàn thành
+SV0165,CSE461,HCI,3,1,Học lại
+SV0165,CSE492,HCI,4,1,Học lại
+SV0165,CSE211,AI,4,1,Hoàn thành
+SV0165,CSE258,Mạng máy tính,3,1,Học lại
+SV0165,CSE190,CSDL,2,1,Đang học
+SV0166,CSE372,HCI,2,1,Học lại
+SV0166,CSE254,ERP,2,1,Đang học
+SV0166,CSE476,ERP,4,1,Đang học
+SV0166,CSE469,HCI,2,1,Đang học
+SV0166,CSE112,HCI,2,1,Đang học
+SV0167,CSE414,AI,4,2,Học lại
+SV0167,CSE459,AI,3,2,Học lại
+SV0167,CSE318,ERP,3,2,Học lại
+SV0167,CSE464,AI,2,2,Học lại
+SV0167,CSE223,CSDL,3,2,Đang học
+SV0168,CSE356,CSDL,4,2,Hoàn thành
+SV0168,CSE155,AI,2,2,Đang học
+SV0168,CSE325,HCI,2,2,Hoàn thành
+SV0168,CSE435,ERP,4,2,Đang học
+SV0168,CSE268,CSDL,3,2,Hoàn thành
+SV0168,CSE439,ERP,3,2,Học lại
+SV0169,CSE380,Mạng máy tính,3,2,Hoàn thành
+SV0169,CSE407,Lập trình Python,4,2,Học lại
+SV0169,CSE153,Lập trình Python,3,2,Hoàn thành
+SV0169,CSE454,HCI,2,2,Học lại
+SV0169,CSE261,Mạng máy tính,3,2,Hoàn thành
+SV0170,CSE420,ERP,3,1,Đang học
+SV0170,CSE304,Lập trình Python,3,1,Học lại
+SV0170,CSE190,HCI,3,1,Hoàn thành
+SV0170,CSE467,ERP,3,1,Hoàn thành
+SV0170,CSE306,HCI,3,1,Đang học
+SV0171,CSE482,HCI,4,1,Hoàn thành
+SV0171,CSE167,Lập trình Python,3,1,Hoàn thành
+SV0171,CSE285,ERP,3,1,Hoàn thành
+SV0171,CSE195,CSDL,2,1,Đang học
+SV0171,CSE393,CSDL,3,1,Hoàn thành
+SV0171,CSE152,HCI,3,1,Học lại
+SV0171,CSE236,AI,4,1,Học lại
+SV0172,CSE485,Mạng máy tính,3,1,Hoàn thành
+SV0172,CSE187,HCI,4,1,Học lại
+SV0172,CSE116,ERP,2,1,Đang học
+SV0172,CSE171,HCI,4,1,Hoàn thành
+SV0172,CSE208,AI,3,1,Hoàn thành
+SV0172,CSE347,AI,3,1,Hoàn thành
+SV0172,CSE380,AI,4,1,Hoàn thành
+SV0173,CSE362,HCI,2,1,Học lại
+SV0173,CSE171,Lập trình Python,4,1,Học lại
+SV0173,CSE376,Lập trình Python,3,1,Học lại
+SV0173,CSE365,CSDL,4,1,Học lại
+SV0173,CSE248,Mạng máy tính,4,1,Hoàn thành
+SV0173,CSE372,Mạng máy tính,3,1,Hoàn thành
+SV0174,CSE220,HCI,3,1,Đang học
+SV0174,CSE212,AI,2,1,Học lại
+SV0174,CSE413,ERP,3,1,Hoàn thành
+SV0174,CSE319,ERP,3,1,Đang học
+SV0174,CSE376,HCI,2,1,Đang học
+SV0174,CSE116,CSDL,2,1,Đang học
+SV0174,CSE392,Mạng máy tính,2,1,Đang học
+SV0175,CSE442,AI,2,2,Hoàn thành
+SV0175,CSE462,Lập trình Python,2,2,Học lại
+SV0175,CSE298,ERP,2,2,Đang học
+SV0175,CSE271,AI,2,2,Hoàn thành
+SV0175,CSE448,CSDL,3,2,Học lại
+SV0175,CSE474,AI,2,2,Hoàn thành
+SV0175,CSE462,HCI,4,2,Đang học
+SV0176,CSE273,HCI,3,2,Đang học
+SV0176,CSE252,ERP,4,2,Học lại
+SV0176,CSE361,ERP,4,2,Đang học
+SV0176,CSE433,CSDL,2,2,Hoàn thành
+SV0176,CSE257,AI,4,2,Học lại
+SV0176,CSE466,ERP,2,2,Đang học
+SV0177,CSE147,Mạng máy tính,3,1,Đang học
+SV0177,CSE192,CSDL,2,1,Học lại
+SV0177,CSE121,ERP,3,1,Hoàn thành
+SV0177,CSE102,Mạng máy tính,2,1,Đang học
+SV0177,CSE441,ERP,2,1,Học lại
+SV0177,CSE348,ERP,3,1,Hoàn thành
+SV0178,CSE481,AI,3,1,Hoàn thành
+SV0178,CSE105,AI,4,1,Hoàn thành
+SV0178,CSE499,AI,4,1,Hoàn thành
+SV0178,CSE228,HCI,3,1,Đang học
+SV0178,CSE271,CSDL,2,1,Học lại
+SV0178,CSE384,HCI,4,1,Hoàn thành
+SV0178,CSE435,HCI,3,1,Học lại
+SV0179,CSE395,AI,3,2,Đang học
+SV0179,CSE256,ERP,2,2,Đang học
+SV0179,CSE172,CSDL,3,2,Học lại
+SV0179,CSE361,AI,4,2,Hoàn thành
+SV0180,CSE370,ERP,3,2,Hoàn thành
+SV0180,CSE330,AI,2,2,Học lại
+SV0180,CSE277,Mạng máy tính,2,2,Học lại
+SV0180,CSE217,Lập trình Python,4,2,Học lại
+SV0181,CSE303,ERP,4,1,Đang học
+SV0181,CSE365,CSDL,4,1,Hoàn thành
+SV0181,CSE473,AI,2,1,Hoàn thành
+SV0181,CSE280,CSDL,4,1,Học lại
+SV0181,CSE369,HCI,4,1,Học lại
+SV0181,CSE175,CSDL,4,1,Hoàn thành
+SV0181,CSE239,Mạng máy tính,3,1,Hoàn thành
+SV0182,CSE309,CSDL,3,2,Hoàn thành
+SV0182,CSE180,Mạng máy tính,2,2,Đang học
+SV0182,CSE242,ERP,2,2,Học lại
+SV0182,CSE115,HCI,3,2,Đang học
+SV0182,CSE182,HCI,4,2,Hoàn thành
+SV0183,CSE128,ERP,4,2,Học lại
+SV0183,CSE252,ERP,2,2,Hoàn thành
+SV0183,CSE280,ERP,2,2,Hoàn thành
+SV0183,CSE119,HCI,2,2,Hoàn thành
+SV0184,CSE299,Mạng máy tính,3,1,Hoàn thành
+SV0184,CSE471,Mạng máy tính,4,1,Hoàn thành
+SV0184,CSE152,AI,2,1,Học lại
+SV0184,CSE283,AI,3,1,Đang học
+SV0184,CSE175,Mạng máy tính,3,1,Học lại
+SV0185,CSE142,Lập trình Python,2,1,Học lại
+SV0185,CSE180,ERP,2,1,Học lại
+SV0185,CSE118,Mạng máy tính,4,1,Học lại
+SV0185,CSE269,Mạng máy tính,3,1,Đang học
+SV0185,CSE177,ERP,4,1,Học lại
+SV0185,CSE379,ERP,3,1,Đang học
+SV0185,CSE184,CSDL,3,1,Hoàn thành
+SV0186,CSE441,ERP,2,2,Hoàn thành
+SV0186,CSE109,HCI,2,2,Hoàn thành
+SV0186,CSE223,HCI,2,2,Đang học
+SV0186,CSE129,ERP,3,2,Học lại
+SV0187,CSE346,AI,4,1,Đang học
+SV0187,CSE181,Mạng máy tính,2,1,Đang học
+SV0187,CSE285,Lập trình Python,3,1,Hoàn thành
+SV0187,CSE150,Mạng máy tính,4,1,Học lại
+SV0187,CSE472,CSDL,3,1,Học lại
+SV0187,CSE475,ERP,2,1,Học lại
+SV0188,CSE246,Mạng máy tính,3,1,Đang học
+SV0188,CSE302,CSDL,3,1,Hoàn thành
+SV0188,CSE328,HCI,4,1,Đang học
+SV0188,CSE123,Lập trình Python,4,1,Đang học
+SV0189,CSE288,HCI,4,1,Hoàn thành
+SV0189,CSE370,HCI,2,1,Học lại
+SV0189,CSE101,CSDL,2,1,Đang học
+SV0189,CSE128,ERP,2,1,Hoàn thành
+SV0189,CSE445,AI,4,1,Đang học
+SV0190,CSE134,ERP,2,1,Đang học
+SV0190,CSE426,HCI,3,1,Hoàn thành
+SV0190,CSE309,AI,4,1,Hoàn thành
+SV0190,CSE391,Mạng máy tính,2,1,Đang học
+SV0190,CSE160,Lập trình Python,2,1,Học lại
+SV0190,CSE212,ERP,4,1,Hoàn thành
+SV0191,CSE239,HCI,2,2,Đang học
+SV0191,CSE429,ERP,2,2,Học lại
+SV0191,CSE153,HCI,4,2,Đang học
+SV0191,CSE162,AI,2,2,Hoàn thành
+SV0191,CSE359,CSDL,3,2,Học lại
+SV0191,CSE309,AI,4,2,Đang học
+SV0192,CSE137,Mạng máy tính,3,1,Học lại
+SV0192,CSE222,Lập trình Python,4,1,Hoàn thành
+SV0192,CSE281,Lập trình Python,4,1,Hoàn thành
+SV0192,CSE247,HCI,3,1,Hoàn thành
+SV0192,CSE245,ERP,3,1,Hoàn thành
+SV0192,CSE369,ERP,2,1,Đang học
+SV0192,CSE400,Mạng máy tính,4,1,Đang học
+SV0193,CSE120,AI,2,1,Hoàn thành
+SV0193,CSE211,Lập trình Python,4,1,Hoàn thành
+SV0193,CSE287,Lập trình Python,3,1,Đang học
+SV0193,CSE270,Lập trình Python,4,1,Học lại
+SV0194,CSE378,AI,3,1,Học lại
+SV0194,CSE339,AI,3,1,Hoàn thành
+SV0194,CSE456,AI,2,1,Học lại
+SV0194,CSE400,Lập trình Python,2,1,Học lại
+SV0194,CSE460,Lập trình Python,3,1,Đang học
+SV0195,CSE228,HCI,2,2,Hoàn thành
+SV0195,CSE320,ERP,3,2,Đang học
+SV0195,CSE179,ERP,3,2,Đang học
+SV0195,CSE478,Mạng máy tính,4,2,Học lại
+SV0195,CSE288,CSDL,3,2,Đang học
+SV0195,CSE401,HCI,4,2,Học lại
+SV0195,CSE193,HCI,3,2,Học lại
+SV0196,CSE264,AI,4,2,Đang học
+SV0196,CSE372,AI,3,2,Hoàn thành
+SV0196,CSE320,Mạng máy tính,4,2,Hoàn thành
+SV0196,CSE470,HCI,4,2,Đang học
+SV0196,CSE386,CSDL,3,2,Đang học
+SV0196,CSE440,Lập trình Python,2,2,Hoàn thành
+SV0197,CSE239,Mạng máy tính,3,2,Học lại
+SV0197,CSE242,HCI,4,2,Học lại
+SV0197,CSE112,ERP,4,2,Học lại
+SV0197,CSE262,AI,4,2,Hoàn thành
+SV0198,CSE190,ERP,3,1,Đang học
+SV0198,CSE418,Lập trình Python,3,1,Hoàn thành
+SV0198,CSE114,ERP,2,1,Đang học
+SV0198,CSE158,ERP,4,1,Học lại
+SV0199,CSE406,Mạng máy tính,3,1,Đang học
+SV0199,CSE283,Mạng máy tính,3,1,Đang học
+SV0199,CSE287,Mạng máy tính,3,1,Đang học
+SV0199,CSE258,AI,4,1,Học lại
+SV0200,CSE177,AI,2,1,Đang học
+SV0200,CSE348,HCI,4,1,Đang học
+SV0200,CSE324,Lập trình Python,3,1,Học lại
+SV0200,CSE245,AI,2,1,Học lại
+SV0201,CSE207,AI,2,2,Đang học
+SV0201,CSE243,CSDL,4,2,Đang học
+SV0201,CSE406,Mạng máy tính,3,2,Đang học
+SV0201,CSE343,AI,4,2,Đang học
+SV0201,CSE302,ERP,4,2,Đang học
+SV0201,CSE269,Mạng máy tính,4,2,Học lại
+SV0202,CSE237,AI,2,1,Học lại
+SV0202,CSE358,CSDL,2,1,Đang học
+SV0202,CSE196,Lập trình Python,4,1,Đang học
+SV0202,CSE135,Lập trình Python,4,1,Đang học
+SV0202,CSE178,ERP,4,1,Hoàn thành
+SV0202,CSE112,ERP,2,1,Học lại
+SV0202,CSE224,HCI,4,1,Học lại
+SV0203,CSE355,Mạng máy tính,4,1,Hoàn thành
+SV0203,CSE244,Mạng máy tính,2,1,Đang học
+SV0203,CSE140,AI,3,1,Đang học
+SV0203,CSE315,ERP,4,1,Học lại
+SV0203,CSE101,CSDL,2,1,Đang học
+SV0204,CSE468,Lập trình Python,3,1,Học lại
+SV0204,CSE117,HCI,3,1,Học lại
+SV0204,CSE370,Mạng máy tính,4,1,Đang học
+SV0204,CSE415,Lập trình Python,2,1,Học lại
+SV0204,CSE227,CSDL,3,1,Học lại
+SV0204,CSE141,HCI,3,1,Hoàn thành
+SV0204,CSE169,Lập trình Python,2,1,Đang học
+SV0205,CSE110,Lập trình Python,4,2,Học lại
+SV0205,CSE153,HCI,3,2,Đang học
+SV0205,CSE380,ERP,2,2,Hoàn thành
+SV0205,CSE116,ERP,2,2,Học lại
+SV0205,CSE382,Lập trình Python,2,2,Học lại
+SV0205,CSE465,ERP,2,2,Đang học
+SV0206,CSE441,ERP,3,1,Hoàn thành
+SV0206,CSE158,AI,3,1,Học lại
+SV0206,CSE126,Lập trình Python,4,1,Hoàn thành
+SV0206,CSE187,HCI,3,1,Hoàn thành
+SV0206,CSE309,AI,4,1,Đang học
+SV0206,CSE245,CSDL,3,1,Đang học
+SV0206,CSE452,ERP,3,1,Học lại
+SV0207,CSE407,Lập trình Python,3,1,Hoàn thành
+SV0207,CSE493,AI,4,1,Hoàn thành
+SV0207,CSE293,CSDL,3,1,Hoàn thành
+SV0207,CSE279,ERP,2,1,Hoàn thành
+SV0207,CSE160,ERP,3,1,Học lại
+SV0208,CSE404,AI,2,2,Hoàn thành
+SV0208,CSE401,HCI,2,2,Đang học
+SV0208,CSE460,AI,2,2,Đang học
+SV0208,CSE222,Mạng máy tính,3,2,Học lại
+SV0208,CSE101,Mạng máy tính,2,2,Đang học
+SV0208,CSE114,AI,4,2,Học lại
+SV0209,CSE354,Lập trình Python,4,1,Hoàn thành
+SV0209,CSE364,ERP,4,1,Đang học
+SV0209,CSE136,ERP,3,1,Học lại
+SV0209,CSE495,ERP,3,1,Đang học
+SV0209,CSE347,AI,3,1,Học lại
+SV0210,CSE289,Mạng máy tính,2,2,Đang học
+SV0210,CSE143,HCI,4,2,Đang học
+SV0210,CSE268,CSDL,2,2,Học lại
+SV0210,CSE256,ERP,2,2,Học lại
+SV0210,CSE481,CSDL,4,2,Học lại
+SV0211,CSE457,ERP,4,2,Học lại
+SV0211,CSE290,Lập trình Python,2,2,Đang học
+SV0211,CSE208,HCI,2,2,Hoàn thành
+SV0211,CSE244,ERP,3,2,Đang học
+SV0211,CSE413,HCI,2,2,Đang học
+SV0212,CSE173,HCI,2,2,Học lại
+SV0212,CSE444,CSDL,3,2,Học lại
+SV0212,CSE493,HCI,3,2,Đang học
+SV0212,CSE109,AI,3,2,Hoàn thành
+SV0212,CSE197,AI,3,2,Hoàn thành
+SV0212,CSE388,AI,2,2,Hoàn thành
+SV0212,CSE412,ERP,4,2,Hoàn thành
+SV0213,CSE462,AI,2,2,Hoàn thành
+SV0213,CSE273,ERP,4,2,Hoàn thành
+SV0213,CSE302,ERP,3,2,Đang học
+SV0213,CSE313,Lập trình Python,2,2,Học lại
+SV0214,CSE446,ERP,4,1,Hoàn thành
+SV0214,CSE449,AI,4,1,Hoàn thành
+SV0214,CSE403,Mạng máy tính,3,1,Đang học
+SV0214,CSE208,Lập trình Python,4,1,Đang học
+SV0214,CSE215,Lập trình Python,3,1,Đang học
+SV0215,CSE349,Lập trình Python,4,1,Đang học
+SV0215,CSE394,Mạng máy tính,4,1,Hoàn thành
+SV0215,CSE270,AI,4,1,Học lại
+SV0215,CSE347,AI,2,1,Học lại
+SV0216,CSE298,AI,3,2,Học lại
+SV0216,CSE307,ERP,2,2,Học lại
+SV0216,CSE412,Mạng máy tính,4,2,Đang học
+SV0216,CSE356,CSDL,3,2,Học lại
+SV0217,CSE147,CSDL,4,2,Đang học
+SV0217,CSE394,AI,2,2,Học lại
+SV0217,CSE261,Mạng máy tính,2,2,Học lại
+SV0217,CSE206,AI,4,2,Hoàn thành
+SV0217,CSE189,AI,3,2,Đang học
+SV0218,CSE354,HCI,4,1,Học lại
+SV0218,CSE457,Mạng máy tính,3,1,Hoàn thành
+SV0218,CSE365,ERP,2,1,Hoàn thành
+SV0218,CSE199,Lập trình Python,3,1,Học lại
+SV0218,CSE183,AI,2,1,Hoàn thành
+SV0218,CSE293,HCI,3,1,Đang học
+SV0219,CSE385,Mạng máy tính,3,2,Hoàn thành
+SV0219,CSE393,ERP,4,2,Học lại
+SV0219,CSE469,CSDL,2,2,Hoàn thành
+SV0219,CSE140,Mạng máy tính,3,2,Học lại
+SV0219,CSE360,Mạng máy tính,4,2,Học lại
+SV0220,CSE398,Lập trình Python,2,2,Đang học
+SV0220,CSE366,Lập trình Python,2,2,Học lại
+SV0220,CSE467,Mạng máy tính,4,2,Đang học
+SV0220,CSE443,AI,3,2,Đang học
+SV0221,CSE138,ERP,4,2,Đang học
+SV0221,CSE491,CSDL,3,2,Học lại
+SV0221,CSE392,Lập trình Python,4,2,Học lại
+SV0221,CSE458,AI,3,2,Học lại
+SV0222,CSE317,AI,4,2,Đang học
+SV0222,CSE174,HCI,4,2,Hoàn thành
+SV0222,CSE188,CSDL,2,2,Học lại
+SV0222,CSE430,HCI,2,2,Hoàn thành
+SV0222,CSE421,Lập trình Python,2,2,Hoàn thành
+SV0223,CSE420,ERP,3,1,Học lại
+SV0223,CSE121,Lập trình Python,4,1,Học lại
+SV0223,CSE367,AI,2,1,Đang học
+SV0223,CSE319,AI,4,1,Học lại
+SV0223,CSE143,Mạng máy tính,2,1,Hoàn thành
+SV0224,CSE197,Lập trình Python,3,1,Đang học
+SV0224,CSE354,Mạng máy tính,4,1,Hoàn thành
+SV0224,CSE232,HCI,2,1,Học lại
+SV0224,CSE331,ERP,3,1,Hoàn thành
+SV0224,CSE124,AI,4,1,Đang học
+SV0224,CSE177,Lập trình Python,3,1,Hoàn thành
+SV0225,CSE374,CSDL,4,2,Học lại
+SV0225,CSE332,HCI,3,2,Học lại
+SV0225,CSE261,AI,4,2,Đang học
+SV0225,CSE377,Mạng máy tính,4,2,Đang học
+SV0226,CSE433,AI,2,1,Học lại
+SV0226,CSE461,HCI,4,1,Hoàn thành
+SV0226,CSE136,ERP,3,1,Học lại
+SV0226,CSE261,CSDL,4,1,Đang học
+SV0226,CSE120,CSDL,4,1,Học lại
+SV0226,CSE400,CSDL,4,1,Hoàn thành
+SV0226,CSE449,ERP,3,1,Đang học
+SV0227,CSE418,AI,2,2,Học lại
+SV0227,CSE217,Lập trình Python,3,2,Hoàn thành
+SV0227,CSE372,AI,4,2,Đang học
+SV0227,CSE437,Lập trình Python,2,2,Học lại
+SV0227,CSE450,ERP,2,2,Hoàn thành
+SV0227,CSE389,ERP,3,2,Hoàn thành
+SV0227,CSE298,Lập trình Python,4,2,Hoàn thành
+SV0228,CSE455,ERP,3,1,Học lại
+SV0228,CSE184,Mạng máy tính,4,1,Hoàn thành
+SV0228,CSE132,Mạng máy tính,4,1,Đang học
+SV0228,CSE414,HCI,3,1,Đang học
+SV0228,CSE207,AI,4,1,Học lại
+SV0228,CSE178,AI,3,1,Hoàn thành
+SV0228,CSE148,Lập trình Python,2,1,Học lại
+SV0229,CSE100,HCI,3,2,Hoàn thành
+SV0229,CSE130,HCI,2,2,Học lại
+SV0229,CSE492,Lập trình Python,4,2,Hoàn thành
+SV0229,CSE456,AI,4,2,Hoàn thành
+SV0230,CSE245,HCI,4,1,Học lại
+SV0230,CSE344,Mạng máy tính,2,1,Hoàn thành
+SV0230,CSE441,Lập trình Python,3,1,Hoàn thành
+SV0230,CSE472,Lập trình Python,4,1,Đang học
+SV0231,CSE436,Lập trình Python,3,2,Đang học
+SV0231,CSE436,Mạng máy tính,4,2,Học lại
+SV0231,CSE253,CSDL,4,2,Đang học
+SV0231,CSE417,CSDL,2,2,Hoàn thành
+SV0231,CSE414,ERP,4,2,Học lại
+SV0232,CSE311,CSDL,3,1,Đang học
+SV0232,CSE133,AI,2,1,Học lại
+SV0232,CSE188,Mạng máy tính,2,1,Hoàn thành
+SV0232,CSE287,ERP,4,1,Đang học
+SV0233,CSE317,AI,4,2,Đang học
+SV0233,CSE317,ERP,3,2,Học lại
+SV0233,CSE426,AI,4,2,Hoàn thành
+SV0233,CSE408,HCI,2,2,Đang học
+SV0233,CSE441,Lập trình Python,2,2,Đang học
+SV0234,CSE392,HCI,2,1,Hoàn thành
+SV0234,CSE439,Mạng máy tính,4,1,Học lại
+SV0234,CSE213,Lập trình Python,2,1,Đang học
+SV0234,CSE465,AI,2,1,Học lại
+SV0234,CSE401,AI,4,1,Học lại
+SV0234,CSE475,HCI,4,1,Đang học
+SV0235,CSE116,AI,2,1,Hoàn thành
+SV0235,CSE415,Mạng máy tính,3,1,Học lại
+SV0235,CSE173,HCI,4,1,Học lại
+SV0235,CSE495,HCI,2,1,Học lại
+SV0236,CSE447,HCI,3,1,Đang học
+SV0236,CSE144,AI,3,1,Học lại
+SV0236,CSE449,CSDL,3,1,Hoàn thành
+SV0236,CSE339,Lập trình Python,2,1,Hoàn thành
+SV0236,CSE400,CSDL,2,1,Hoàn thành
+SV0237,CSE390,HCI,3,1,Đang học
+SV0237,CSE489,Mạng máy tính,4,1,Hoàn thành
+SV0237,CSE211,ERP,2,1,Đang học
+SV0237,CSE281,AI,4,1,Đang học
+SV0238,CSE110,HCI,4,1,Đang học
+SV0238,CSE260,Lập trình Python,4,1,Đang học
+SV0238,CSE178,Lập trình Python,3,1,Đang học
+SV0238,CSE242,AI,3,1,Học lại
+SV0238,CSE110,ERP,4,1,Đang học
+SV0239,CSE360,HCI,3,1,Đang học
+SV0239,CSE280,ERP,2,1,Hoàn thành
+SV0239,CSE353,Mạng máy tính,4,1,Hoàn thành
+SV0239,CSE346,Mạng máy tính,2,1,Học lại
+SV0239,CSE488,AI,4,1,Học lại
+SV0239,CSE346,Mạng máy tính,2,1,Hoàn thành
+SV0239,CSE496,HCI,3,1,Đang học
+SV0240,CSE399,AI,4,2,Hoàn thành
+SV0240,CSE170,CSDL,2,2,Học lại
+SV0240,CSE395,CSDL,4,2,Đang học
+SV0240,CSE416,Lập trình Python,4,2,Hoàn thành
+SV0240,CSE435,AI,4,2,Đang học
+SV0240,CSE314,Mạng máy tính,2,2,Học lại
+SV0240,CSE362,AI,3,2,Hoàn thành
+SV0241,CSE374,Lập trình Python,3,2,Đang học
+SV0241,CSE150,Mạng máy tính,3,2,Hoàn thành
+SV0241,CSE200,AI,2,2,Hoàn thành
+SV0241,CSE194,HCI,3,2,Học lại
+SV0241,CSE176,ERP,2,2,Học lại
+SV0242,CSE400,HCI,2,1,Đang học
+SV0242,CSE144,ERP,4,1,Hoàn thành
+SV0242,CSE362,Mạng máy tính,3,1,Đang học
+SV0242,CSE477,Mạng máy tính,2,1,Học lại
+SV0242,CSE386,ERP,4,1,Học lại
+SV0242,CSE226,ERP,3,1,Đang học
+SV0243,CSE106,HCI,2,1,Học lại
+SV0243,CSE182,CSDL,3,1,Học lại
+SV0243,CSE486,CSDL,3,1,Đang học
+SV0243,CSE416,Lập trình Python,2,1,Đang học
+SV0244,CSE111,ERP,4,2,Đang học
+SV0244,CSE120,Lập trình Python,3,2,Hoàn thành
+SV0244,CSE132,HCI,4,2,Đang học
+SV0244,CSE235,Lập trình Python,4,2,Học lại
+SV0244,CSE332,CSDL,3,2,Đang học
+SV0245,CSE412,ERP,3,1,Đang học
+SV0245,CSE140,ERP,2,1,Hoàn thành
+SV0245,CSE370,Mạng máy tính,3,1,Hoàn thành
+SV0245,CSE112,ERP,2,1,Hoàn thành
+SV0245,CSE444,CSDL,4,1,Hoàn thành
+SV0246,CSE178,AI,4,2,Hoàn thành
+SV0246,CSE155,ERP,4,2,Học lại
+SV0246,CSE121,CSDL,4,2,Học lại
+SV0246,CSE120,CSDL,3,2,Học lại
+SV0247,CSE371,Mạng máy tính,2,1,Học lại
+SV0247,CSE343,AI,4,1,Đang học
+SV0247,CSE457,Mạng máy tính,4,1,Học lại
+SV0247,CSE490,CSDL,2,1,Đang học
+SV0247,CSE174,HCI,4,1,Học lại
+SV0247,CSE240,AI,2,1,Đang học
+SV0248,CSE145,Mạng máy tính,2,2,Hoàn thành
+SV0248,CSE341,HCI,3,2,Đang học
+SV0248,CSE444,HCI,3,2,Đang học
+SV0248,CSE447,Mạng máy tính,2,2,Đang học
+SV0248,CSE157,AI,4,2,Học lại
+SV0249,CSE451,ERP,3,2,Hoàn thành
+SV0249,CSE432,CSDL,4,2,Học lại
+SV0249,CSE127,AI,4,2,Đang học
+SV0249,CSE136,AI,4,2,Học lại
+SV0249,CSE412,ERP,2,2,Đang học
+SV0249,CSE278,CSDL,2,2,Học lại
+SV0249,CSE498,Lập trình Python,4,2,Học lại
+SV0250,CSE424,HCI,3,1,Hoàn thành
+SV0250,CSE455,CSDL,2,1,Đang học
+SV0250,CSE133,Lập trình Python,3,1,Hoàn thành
+SV0250,CSE169,ERP,3,1,Đang học
+SV0250,CSE438,HCI,3,1,Học lại

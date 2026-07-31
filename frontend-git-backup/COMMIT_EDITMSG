@@ -1,0 +1,12 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Changes to be committed:
+#	modified:   app/page.tsx
+#	new file:   app/upload/page.tsx
+#	new file:   components/schema/SummaryCards.tsx
+#	modified:   package-lock.json
+#	modified:   package.json
+#

@@ -1,0 +1,71 @@
+student_id,gpa,credits_completed,english_standard,it_standard,graduation_status
+SV0012,3.57,132,Chưa đạt,Đạt,Đủ điều kiện
+SV0021,3.16,136,Chưa đạt,Đạt,Đủ điều kiện
+SV0023,1.9,133,Đạt,Chưa đạt,Chưa đủ
+SV0028,1.66,131,Chưa đạt,Chưa đạt,Chưa đủ
+SV0030,3.09,123,Đạt,Chưa đạt,Đủ điều kiện
+SV0032,2.56,120,Đạt,Đạt,Đủ điều kiện
+SV0033,3.77,132,Đạt,Chưa đạt,Đủ điều kiện
+SV0034,0.55,137,Chưa đạt,Đạt,Chưa đủ
+SV0035,1.27,121,Đạt,Chưa đạt,Chưa đủ
+SV0039,2.52,125,Đạt,Chưa đạt,Đủ điều kiện
+SV0041,0.54,121,Đạt,Chưa đạt,Chưa đủ
+SV0048,3.09,122,Đạt,Đạt,Đủ điều kiện
+SV0050,0.96,135,Đạt,Đạt,Chưa đủ
+SV0061,2.67,130,Đạt,Đạt,Đủ điều kiện
+SV0064,3.33,122,Chưa đạt,Đạt,Đủ điều kiện
+SV0066,3.75,139,Chưa đạt,Đạt,Đủ điều kiện
+SV0069,2.91,139,Chưa đạt,Chưa đạt,Đủ điều kiện
+SV0070,1.43,127,Chưa đạt,Đạt,Chưa đủ
+SV0072,2.0,137,Đạt,Đạt,Đủ điều kiện
+SV0080,1.44,123,Đạt,Đạt,Chưa đủ
+SV0095,3.73,121,Đạt,Chưa đạt,Đủ điều kiện
+SV0096,3.94,124,Chưa đạt,Đạt,Đủ điều kiện
+SV0097,3.67,127,Chưa đạt,Đạt,Đủ điều kiện
+SV0100,2.56,126,Chưa đạt,Đạt,Đủ điều kiện
+SV0101,3.85,133,Đạt,Chưa đạt,Đủ điều kiện
+SV0107,1.79,133,Đạt,Đạt,Chưa đủ
+SV0108,0.58,138,Đạt,Đạt,Chưa đủ
+SV0109,2.03,137,Chưa đạt,Chưa đạt,Đủ điều kiện
+SV0111,0.98,121,Đạt,Đạt,Chưa đủ
+SV0112,2.84,135,Chưa đạt,Đạt,Đủ điều kiện
+SV0113,2.65,138,Chưa đạt,Chưa đạt,Đủ điều kiện
+SV0128,0.88,128,Đạt,Chưa đạt,Chưa đủ
+SV0131,1.07,128,Đạt,Đạt,Chưa đủ
+SV0133,0.52,128,Chưa đạt,Đạt,Chưa đủ
+SV0135,3.17,137,Chưa đạt,Đạt,Đủ điều kiện
+SV0140,2.41,123,Đạt,Chưa đạt,Đủ điều kiện
+SV0142,1.93,127,Đạt,Chưa đạt,Chưa đủ
+SV0146,3.93,123,Đạt,Đạt,Đủ điều kiện
+SV0148,2.43,129,Đạt,Đạt,Đủ điều kiện
+SV0149,3.24,121,Chưa đạt,Đạt,Đủ điều kiện
+SV0153,2.73,134,Chưa đạt,Đạt,Đủ điều kiện
+SV0155,2.53,128,Đạt,Chưa đạt,Đủ điều kiện
+SV0156,3.25,133,Đạt,Đạt,Đủ điều kiện
+SV0158,3.88,140,Đạt,Đạt,Đủ điều kiện
+SV0160,0.76,120,Chưa đạt,Đạt,Chưa đủ
+SV0164,3.47,127,Chưa đạt,Đạt,Đủ điều kiện
+SV0167,1.19,130,Đạt,Chưa đạt,Chưa đủ
+SV0168,1.15,133,Chưa đạt,Chưa đạt,Chưa đủ
+SV0172,3.67,130,Đạt,Chưa đạt,Đủ điều kiện
+SV0173,1.83,131,Đạt,Chưa đạt,Chưa đủ
+SV0174,2.57,121,Đạt,Chưa đạt,Đủ điều kiện
+SV0176,0.89,134,Đạt,Đạt,Chưa đủ
+SV0185,3.12,125,Chưa đạt,Đạt,Đủ điều kiện
+SV0186,2.77,140,Chưa đạt,Đạt,Đủ điều kiện
+SV0188,2.65,137,Chưa đạt,Chưa đạt,Đủ điều kiện
+SV0189,0.91,131,Chưa đạt,Đạt,Chưa đủ
+SV0194,0.66,124,Chưa đạt,Đạt,Chưa đủ
+SV0197,3.45,123,Đạt,Chưa đạt,Đủ điều kiện
+SV0202,2.05,122,Đạt,Đạt,Đủ điều kiện
+SV0203,2.81,134,Đạt,Chưa đạt,Đủ điều kiện
+SV0205,2.06,122,Chưa đạt,Chưa đạt,Đủ điều kiện
+SV0207,3.23,133,Chưa đạt,Chưa đạt,Đủ điều kiện
+SV0210,3.28,122,Chưa đạt,Đạt,Đủ điều kiện
+SV0215,3.79,125,Đạt,Chưa đạt,Đủ điều kiện
+SV0225,0.73,136,Đạt,Chưa đạt,Chưa đủ
+SV0226,2.04,140,Đạt,Đạt,Đủ điều kiện
+SV0231,0.75,133,Chưa đạt,Chưa đạt,Chưa đủ
+SV0234,3.13,132,Đạt,Chưa đạt,Đủ điều kiện
+SV0241,3.6,136,Đạt,Chưa đạt,Đủ điều kiện
+SV0243,1.19,122,Đạt,Chưa đạt,Chưa đủ
