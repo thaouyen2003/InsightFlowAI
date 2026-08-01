@@ -1,0 +1,696 @@
+"use client";
+
+import React, { useState, useRef } from "react";
+import SummaryCards from "@/components/schema/SummaryCards";
+import ProfileSummary from "@/components/profile/ProfileSummary";
+import ColumnList from "@/components/profile/ColumnList";
+
+interface UploadedFile {
+    name: string;
+    size: string;
+    type: string;
+}
+
+export default function UploadPage() {
+    const [file, setFile] = useState<UploadedFile | null>(null);
+    const [rawFile, setRawFile] = useState<File | null>(null);
+
+    const [isDragActive, setIsDragActive] = useState(false);
+    const [isUploading, setIsUploading] = useState(false);
+    const [isAnalyzing, setIsAnalyzing] = useState(false);
+
+    const [uploadProgress, setUploadProgress] = useState(0);
+
+    const [datasetInfo, setDatasetInfo] = useState<any>(null);
+    const [schemaResult, setSchemaResult] = useState<any>(null);
+
+    const [toastMessage, setToastMessage] = useState<string | null>(null);
+
+    const fileInputRef = useRef<HTMLInputElement>(null);
+
+    const [profileResult, setProfileResult] = useState<any>(null);
+
+    const triggerToast = (msg: string) => {
+        setToastMessage(msg);
+        setTimeout(() => {
+            setToastMessage(null);
+        }, 3000);
+    };
+
+    const formatBytes = (bytes: number): string => {
+        if (bytes === 0) return "0 Bytes";
+        const k = 1024;
+        const sizes = ["Bytes", "KB", "MB"];
+        const i = Math.floor(Math.log(bytes) / Math.log(k));
+        return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + " " + sizes[i];
+    };
+
+    // Drag and Drop Event Handlers
+    const handleDrag = (e: React.DragEvent) => {
+        e.preventDefault();
+        e.stopPropagation();
+        if (e.type === "dragenter" || e.type === "dragover") {
+            setIsDragActive(true);
+        } else if (e.type === "dragleave") {
+            setIsDragActive(false);
+        }
+    };
+
+    const handleDrop = (e: React.DragEvent) => {
+        e.preventDefault();
+        e.stopPropagation();
+        setIsDragActive(false);
+        if (e.dataTransfer.files && e.dataTransfer.files.length > 0) {
+            handleFile(e.dataTransfer.files[0]);
+        }
+    };
+
+    const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+        if (e.target.files && e.target.files.length > 0) {
+            handleFile(e.target.files[0]);
+        }
+    };
+
+    const handleFile = (rawFile: File) => {
+        const extension = rawFile.name.split(".").pop()?.toLowerCase() || "";
+        if (["csv", "xlsx", "xls", "json"].includes(extension)) {
+            setFile({
+                name: rawFile.name,
+                size: formatBytes(rawFile.size),
+                type: extension,
+            });
+            setRawFile(rawFile);
+            triggerToast("Đã tải tệp lên thành công!");
+        } else {
+            triggerToast("Định dạng file không được hỗ trợ!");
+        }
+    };
+
+    const loadSample = (type: "ecommerce" | "saas") => {
+        if (type === "ecommerce") {
+            setFile({
+                name: "Global_E_Commerce_Q2_2026.csv",
+                size: "4.82 MB",
+                type: "csv",
+            });
+        } else {
+            setFile({
+                name: "SaaS_User_Engagement_Detailed.json",
+                size: "1.25 MB",
+                type: "json",
+            });
+        }
+        triggerToast("Đã chọn dữ liệu mẫu!");
+    };
+
+    const startUploadProcess = async () => {
+        if (!rawFile) return;
+
+        setIsUploading(true);
+        setUploadProgress(20);
+
+        try {
+            // ==========================================
+            // STEP 1 - Upload Dataset
+            // ==========================================
+            const formData = new FormData();
+            formData.append("file", rawFile);
+
+            const response = await fetch(
+                "http://127.0.0.1:8000/upload",
+                {
+                    method: "POST",
+                    body: formData,
+                }
+            );
+
+            if (!response.ok) {
+                throw new Error("Upload thất bại");
+            }
+
+            setUploadProgress(60);
+
+            const result = await response.json();
+            console.log("Upload Result:", result);
+            setDatasetInfo(result);
+            localStorage.setItem("uploadedFile", result.filename);
+
+
+            const detectResponse = await fetch(
+                "http://127.0.0.1:8000/evaluation/detect",
+                {
+                    method: "POST",
+                    headers: {
+                        "Content-Type":
+                            "application/json",
+                    },
+                    body: JSON.stringify({
+                        filename: result.filename,
+                    }),
+                }
+            );
+
+            if (!detectResponse.ok) {
+                const errorText =
+                    await detectResponse.text();
+
+                console.error(
+                    "Dataset detect failed:",
+                    errorText
+                );
+
+                localStorage.removeItem(
+                    "datasetCategory"
+                );
+
+                localStorage.removeItem(
+                    "datasetCategoryLabel"
+                );
+            } else {
+                const detectResult =
+                    await detectResponse.json();
+
+                console.log(
+                    "Dataset Classification:",
+                    detectResult
+                );
+
+                localStorage.setItem(
+                    "datasetCategory",
+                    detectResult.category
+                );
+
+                localStorage.setItem(
+                    "datasetCategoryLabel",
+                    detectResult.label
+                );
+
+                localStorage.setItem(
+                    "datasetCategoryConfidence",
+                    String(
+                        detectResult.confidence ?? 0
+                    )
+                );
+            }
+            // ==========================================
+            // STEP 2 - Schema Analyzer
+            // ==========================================
+            const analyzeForm = new FormData();
+            analyzeForm.append("file", rawFile);
+
+            const analyzeResponse = await fetch(
+                "http://127.0.0.1:8000/schema/analyze",
+                {
+                    method: "POST",
+                    body: analyzeForm,
+                }
+            );
+
+            if (!analyzeResponse.ok) {
+                throw new Error("Schema Analyze thất bại");
+            }
+
+            const analysis = await analyzeResponse.json();
+            console.log("Schema Result:", analysis);
+            setSchemaResult(analysis.analysis);
+
+            // ==========================================
+            // STEP 3 - Hoàn tất
+            // ==========================================
+            const profileForm = new FormData();
+            profileForm.append("file", rawFile);
+
+            const profileResponse = await fetch(
+                "http://127.0.0.1:8000/profile/",
+                {
+                    method: "POST",
+                    body: profileForm,
+                }
+            );
+
+            if (!profileResponse.ok) {
+                throw new Error("Profile Analyze thất bại");
+            }
+
+            const profileData = await profileResponse.json();
+            console.log("Profile Result:", profileData);
+
+            setProfileResult(profileData.profile);
+            setUploadProgress(100);
+            triggerToast("Phân tích dữ liệu thành công!");
+
+        } catch (error) {
+            console.error(error);
+            triggerToast("Có lỗi xảy ra!");
+        } finally {
+            setTimeout(() => {
+                setIsUploading(false);
+                setUploadProgress(0);
+            }, 800);
+        }
+    };
+
+    // Phân tích Schema
+    const handleAnalyze = async () => {
+        if (!rawFile) {
+            setToastMessage("Vui lòng chọn file trước.");
+            return;
+        }
+
+        try {
+            setIsAnalyzing(true);
+            const formData = new FormData();
+            formData.append("file", rawFile);
+
+            const response = await fetch(
+                "http://127.0.0.1:8000/schema/analyze",
+                {
+                    method: "POST",
+                    body: formData,
+                }
+            );
+
+            if (!response.ok) {
+                throw new Error("Không thể phân tích dữ liệu.");
+            }
+
+            const data = await response.json();
+            setSchemaResult(data.analysis);
+            setToastMessage("Phân tích dữ liệu thành công.");
+        } catch (error) {
+            console.error(error);
+            setToastMessage("Có lỗi xảy ra khi phân tích.");
+        } finally {
+            setIsAnalyzing(false);
+        }
+    };
+
+    return (
+        <main className="min-h-screen bg-[#030712] text-gray-100 font-sans relative overflow-x-hidden flex flex-col items-center p-6">
+            {}
+            {/* Global style overrides to target & fix imported subcomponents directly */}
+            <style dangerouslySetInnerHTML={{ __html: `
+                /* 1. Fix white grid/caro background in ColumnList from Screenshot 2026-07-09 at 02.23.44.png */
+                .column-intelligence-wrapper [class*="bg-white"],
+                .column-intelligence-wrapper [class*="bg-grid"],
+                .column-intelligence-wrapper div[style*="background-image"] {
+                    background-image: none !important;
+                    background-color: rgba(15, 23, 42, 0.4) !important;
+                    backdrop-filter: blur(16px) !important;
+                    border: 1px solid rgba(255, 255, 255, 0.05) !important;
+                }
+
+                /* 2. Improve text readability inside column intelligence cards */
+                .column-intelligence-wrapper text, 
+                .column-intelligence-wrapper p, 
+                .column-intelligence-wrapper span, 
+                .column-intelligence-wrapper td, 
+                .column-intelligence-wrapper th,
+                .column-intelligence-wrapper h3,
+                .column-intelligence-wrapper div {
+                    color: #e2e8f0 !important;
+                }
+
+                .column-intelligence-wrapper [class*="text-zinc-500"],
+                .column-intelligence-wrapper [class*="text-gray-500"],
+                .column-intelligence-wrapper [class*="text-slate-500"] {
+                    color: #94a3b8 !important;
+                }
+
+                /* 3. Style raw JSON statistics and top_values to look like pretty developer code blocks */
+                .column-intelligence-wrapper pre,
+                .column-intelligence-wrapper code,
+                .column-intelligence-wrapper [class*="font-mono"] {
+                    background-color: rgba(3, 7, 18, 0.6) !important;
+                    color: #38bdf8 !important; /* Premium Cyan Cyan color for developer code style */
+                    border: 1px solid rgba(255, 255, 255, 0.05) !important;
+                    border-radius: 12px !important;
+                    padding: 10px !important;
+                    font-family: monospace !important;
+                    white-space: pre-wrap !important;
+                    word-break: break-all !important;
+                }
+
+                /* 4. Smooth scrollbar for tables */
+                .custom-scrollbar::-webkit-scrollbar {
+                    width: 6px;
+                    height: 6px;
+                }
+                .custom-scrollbar::-webkit-scrollbar-track {
+                    background: transparent;
+                }
+                .custom-scrollbar::-webkit-scrollbar-thumb {
+                    background: #374151;
+                    border-radius: 9999px;
+                }
+                .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+                    background: #4b5563;
+                }
+            `}} />
+
+            {/* Background Soft Glows */}
+            <div className="fixed inset-0 pointer-events-none overflow-hidden z-0">
+                <div className="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] rounded-full bg-indigo-900/20 blur-[130px]" />
+                <div className="absolute bottom-[-10%] right-[-10%] w-[60%] h-[60%] rounded-full bg-purple-950/15 blur-[150px]" />
+                <div className="absolute inset-0 bg-[linear-gradient(to_right,#111827_1px,transparent_1px),linear-gradient(to_bottom,#111827_1px,transparent_1px)] bg-[size:32px_32px] opacity-20" />
+            </div>
+
+            {}
+            <div className="relative z-10 w-full max-w-7xl space-y-10 bg-gray-950/40 backdrop-blur-md border border-gray-900 rounded-3xl p-8 sm:p-10 shadow-2xl overflow-hidden">
+                {/* Glowing accent border */}
+                <div className="absolute top-0 left-1/2 -translate-x-1/2 w-48 h-[2px] bg-gradient-to-r from-transparent via-indigo-500 to-transparent" />
+
+                {/* Brand Header */}
+                <div className="text-center space-y-2">
+                    <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-indigo-500/10 text-indigo-400 text-xs font-semibold border border-indigo-500/20">
+                        <svg className="w-3.5 h-3.5 animate-pulse" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                        InsightFlow AI
+                    </div>
+                    <h1 className="text-3xl font-extrabold tracking-tight bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
+                        Tải lên tập dữ liệu thô
+                    </h1>
+                    <p className="text-sm text-gray-400 max-w-md mx-auto">
+                        Hỗ trợ Excel, CSV hoặc JSON. Thuật toán AI sẽ tự động phân tách cấu trúc và chuyển đổi thành Dashboard trực quan.
+                    </p>
+                </div>
+
+                {/* Drag & Drop Main Zone */}
+                {!isUploading ? (
+                    <div
+                        onDragEnter={handleDrag}
+                        onDragOver={handleDrag}
+                        onDragLeave={handleDrag}
+                        onDrop={handleDrop}
+                        onClick={() => fileInputRef.current?.click()}
+                        className={`group border-2 border-dashed rounded-2xl p-10 text-center cursor-pointer transition-all duration-300 flex flex-col items-center justify-center min-h-[220px] relative ${isDragActive
+                            ? "border-indigo-500 bg-indigo-500/5 shadow-[0_0_30px_rgba(99,102,241,0.15)]"
+                            : "border-gray-800 bg-gray-950/60 hover:border-indigo-500/50 hover:bg-gray-900/20"
+                            }`}
+                    >
+                        <input
+                            ref={fileInputRef}
+                            type="file"
+                            className="hidden"
+                            accept=".csv,.xlsx,.xls,.json"
+                            onChange={handleFileChange}
+                        />
+
+                        <div className="p-4 rounded-xl bg-gray-950 border border-gray-800 text-gray-500 group-hover:text-indigo-400 group-hover:scale-105 transition-all duration-300 mb-4">
+                            <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
+                            </svg>
+                        </div>
+
+                        <p className="text-sm font-bold text-gray-200">
+                            Kéo thả tệp dữ liệu của bạn vào đây
+                        </p>
+                        <p className="text-xs text-indigo-400 mt-1.5 group-hover:underline">
+                            hoặc click để tìm kiếm tệp từ máy tính
+                        </p>
+
+                        <div className="flex gap-2 justify-center mt-4">
+                            <span className="text-[10px] px-2 py-0.5 rounded bg-gray-900 border border-gray-800 text-gray-500">Excel</span>
+                            <span className="text-[10px] px-2 py-0.5 rounded bg-gray-900 border border-gray-800 text-gray-500">CSV</span>
+                            <span className="text-[10px] px-2 py-0.5 rounded bg-gray-900 border border-gray-800 text-gray-500">JSON</span>
+                        </div>
+                    </div>
+                ) : (
+                    /* Uploading Pipeline simulation */
+                    <div className="border border-gray-950 bg-gray-950/60 rounded-2xl p-10 flex flex-col items-center justify-center space-y-6">
+                        <div className="relative w-14 h-14">
+                            <div className="absolute inset-0 border-2 border-dashed border-indigo-500/30 rounded-full animate-spin" />
+                            <div className="absolute inset-1.5 border-2 border-indigo-500 rounded-full animate-pulse" />
+                        </div>
+                        <div className="text-center space-y-1">
+                            <h4 className="text-sm font-bold text-gray-200">Insight AI đang bóc tách schema dữ liệu...</h4>
+                            <p className="text-[11px] text-gray-500">Tiến trình nạp tệp: {uploadProgress}%</p>
+                        </div>
+                        <div className="w-full max-w-xs bg-gray-900 h-1.5 rounded-full overflow-hidden border border-gray-800">
+                            <div
+                                className="bg-gradient-to-r from-indigo-500 to-purple-500 h-full transition-all duration-150"
+                                style={{ width: `${uploadProgress}%` }}
+                            />
+                        </div>
+                    </div>
+                )}
+
+                {/* Selected File Box */}
+                {!isUploading && file && (
+                    <div className="p-4 bg-gray-950/80 border border-gray-900 rounded-xl flex items-center justify-between animate-fade-in">
+                        <div className="flex items-center gap-3">
+                            <div className="p-2.5 rounded bg-indigo-500/10 text-indigo-400">
+                                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                                </svg>
+                            </div>
+                            <div className="min-w-0">
+                                <p className="text-xs font-bold text-gray-200 truncate">{file.name}</p>
+                                <p className="text-[10px] text-gray-500">{file.size} • Định dạng {file.type.toUpperCase()}</p>
+                            </div>
+                        </div>
+
+                        <button
+                            onClick={() => {
+                                setFile(null);
+                                setRawFile(null);
+                            }}
+                            className="p-1 hover:bg-gray-900 rounded text-gray-500 hover:text-red-400 transition-colors"
+                        >
+                            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                        </button>
+                    </div>
+                )}
+
+                {/* Action Controls & Sample Buttons */}
+                {!isUploading && (
+                    <div className="pt-4 border-t border-gray-900/50 flex flex-col sm:flex-row gap-4 items-center justify-between">
+                        {/* Quick Sample Selector */}
+                        <div className="flex items-center gap-2">
+                            <span className="text-[11px] text-gray-500">Sử dụng tệp mẫu:</span>
+                            <button
+                                onClick={() => loadSample("ecommerce")}
+                                className="px-2.5 py-1.5 rounded-lg bg-gray-950/80 border border-gray-900 hover:border-indigo-500/40 text-[10px] font-bold text-gray-300 hover:text-white transition-all"
+                            >
+                                📊 Doanh thu Q2
+                            </button>
+                            <button
+                                onClick={() => loadSample("saas")}
+                                className="px-2.5 py-1.5 rounded-lg bg-gray-950/80 border border-gray-900 hover:border-purple-500/40 text-[10px] font-bold text-gray-300 hover:text-white transition-all"
+                            >
+                                ⚡ SaaS active users
+                            </button>
+                        </div>
+
+                        {/* Launch Button */}
+                        <button
+                            disabled={!file}
+                            onClick={startUploadProcess}
+                            className={`w-full sm:w-auto px-6 py-3 rounded-xl font-bold text-xs flex items-center justify-center gap-2 transition-all ${file
+                                ? "bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-white shadow-lg shadow-indigo-600/20 hover:-translate-y-0.5 active:translate-y-0"
+                                : "bg-gray-900 text-gray-500 cursor-not-allowed border border-gray-800"
+                                }`}
+                        >
+                            Phân tích dữ liệu ngay
+                            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                            </svg>
+                        </button>
+                    </div>
+                )}
+
+                {datasetInfo && (
+                    <div className="mt-8 rounded-2xl border border-gray-800 bg-gray-950/60 p-6 space-y-4">
+
+                        <h2 className="text-lg font-bold text-white">
+                            Dataset Preview
+                        </h2>
+
+                        <div className="grid grid-cols-2 gap-4 text-sm">
+
+                            <div>
+                                <span className="text-gray-400">
+                                    File:
+                                </span>
+
+                                <p className="font-semibold">
+                                    {datasetInfo.filename}
+                                </p>
+                            </div>
+
+                            <div>
+                                <span className="text-gray-400">
+                                    Rows:
+                                </span>
+
+                                <p className="font-semibold">
+                                    {datasetInfo.rows}
+                                </p>
+                            </div>
+
+                            <div className="col-span-2">
+                                <span className="text-gray-400">
+                                    Columns:
+                                </span>
+
+                                <p className="font-semibold">
+                                    {datasetInfo.columns.join(", ")}
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                )}
+
+                {datasetInfo?.preview && (
+                    <div className="mt-6 overflow-auto rounded-xl border border-gray-800 custom-scrollbar">
+
+                        <table className="min-w-full text-xs">
+
+                            <thead className="bg-gray-900">
+
+                                <tr>
+
+                                    {datasetInfo.columns.map((col: string) => (
+
+                                        <th
+                                            key={col}
+                                            className="px-4 py-2 text-left"
+                                        >
+                                            {col}
+                                        </th>
+
+                                    ))}
+
+                                </tr>
+
+                            </thead>
+
+                            <tbody>
+
+                                {datasetInfo.preview.map(
+                                    (row: any, index: number) => (
+
+                                        <tr
+                                            key={index}
+                                            className="border-t border-gray-800 hover:bg-gray-900/30 transition-colors"
+                                        >
+
+                                            {datasetInfo.columns.map(
+                                                (col: string) => (
+
+                                                    <td
+                                                        key={col}
+                                                        className="px-4 py-2 text-gray-300"
+                                                    >
+                                                        {String(row[col])}
+                                                    </td>
+
+                                                )
+                                            )}
+
+                                        </tr>
+
+                                    )
+                                )}
+
+                            </tbody>
+
+                        </table>
+
+                    </div>
+                )}
+            </div>
+
+            {/* Elegant Toast Alert Notification */}
+            <div
+                className={`fixed bottom-6 right-6 z-50 transform transition-all duration-300 bg-gray-950/95 border border-indigo-500/30 text-white px-5 py-3 rounded-xl shadow-2xl flex items-center gap-3 ${toastMessage ? "translate-y-0 opacity-100" : "translate-y-12 opacity-0 pointer-events-none"
+                    }`}
+            >
+                <div className="w-5 h-5 rounded-full bg-indigo-500/10 text-indigo-400 flex items-center justify-center">
+                    <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7" />
+                    </svg>
+                </div>
+                <span className="text-xs font-semibold">{toastMessage}</span>
+            </div>
+
+            {}
+            {
+                schemaResult && (
+
+                    <div className="mt-16 w-full max-w-7xl">
+
+                        <h2 className="text-2xl font-bold text-white">
+                            Dataset Summary
+                        </h2>
+
+                        <p className="text-zinc-400 mt-1">
+                            Tổng quan cấu trúc của tập dữ liệu.
+                        </p>
+
+                        <div className="mt-6">
+
+                            <SummaryCards
+                                summary={schemaResult.summary}
+                            />
+
+                        </div>
+
+                    </div>
+
+                )
+            }
+
+            {}
+            {
+                profileResult && (
+
+                    <section className="w-full max-w-7xl mt-16 space-y-12">
+
+                        {/* Dataset Profile Summary */}
+                        <div>
+
+                            <ProfileSummary
+                                summary={profileResult.summary}
+                            />
+
+                        </div>
+
+
+                        {/* Column Intelligence */}
+                        {/* Wrapper class column-intelligence-wrapper applies targeted dark premium overrides to imported ColumnList */}
+                        <div className="column-intelligence-wrapper">
+
+                            <div className="mb-8">
+
+                                <h2 className="text-3xl font-bold text-white">
+                                    Column Intelligence
+                                </h2>
+
+
+                                <p className="mt-2 text-zinc-400">
+                                    Explore schema, data types and statistics of every attribute.
+                                </p>
+
+                            </div>
+
+
+                            <div className="break-all whitespace-pre-wrap overflow-hidden text-ellipsis">
+                                <ColumnList columns={profileResult.columns} />
+                            </div>
+
+                        </div>
+
+                    </section>
+
+                )
+            }
+
+        </main>
+    );
+}

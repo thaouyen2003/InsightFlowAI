@@ -1,0 +1,37 @@
+{
+  "rule_set_code": "grad_req",
+  "rule_set_name": "Graduation Requirements",
+  "version": "1.0",
+  "major": null,
+  "cohort": null,
+  "program": null,
+  "effective_date": null,
+  "rules": [
+    {
+      "code": "minimum_gpa",
+      "name": "Điểm trung bình tích lũy",
+      "field_name": "gpa",
+      "operator": "greater_than_or_equal",
+      "required_value": 2.0,
+      "accepted_values": [],
+      "failure_message": "Điểm trung bình chưa đạt yêu cầu tốt nghiệp.",
+      "recommendation": "Cần học cải thiện điểm trung bình tích lũy.",
+      "is_required": true,
+      "source": {
+        "document_name": "quy_dinh_tot_nghiep.pdf",
+        "page_number": 1,
+        "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+        "evidence_text": "Điểm trung bình tích lũy (CPA): Đạt điểm trung bình tích lũy toàn khóa học từ 2.00 / 4.00 trở lên.",
+        "category": "tot_nghiep"
+      },
+      "confidence": 0.95
+    }
+  ],
+  "source_documents": [
+    "quy_dinh_tot_nghiep.pdf"
+  ],
+  "extraction_notes": [
+    "Bộ luật được sinh bởi provider: openrouter, model: cohere/north-mini-code:free."
+  ],
+  "generated_by": "rag_rule_extractor:openrouter"
+}

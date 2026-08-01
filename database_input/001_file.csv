@@ -1,0 +1,301 @@
+﻿student_id,student_name,gpa,english_status,informatics_status,national_defense_status,physical_education_status,tuition_status,discipline_status
+SV001,Nguyễn Bảo Hằng,2.28,Chưa đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV002,Nguyễn Trọng Hải,3.34,Đạt,Đạt,Hoàn thành,Hoàn thành,Chưa hoàn thành,Bình thường
+SV003,Ngô Quang Khang,2.13,Chưa đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV004,Dương Mai Diệp,3.89,Đạt,Đạt,Hoàn thành,Hoàn thành,Chưa hoàn thành,Bình thường
+SV005,Trần Kim Trang,2.42,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV006,Phan Việt Khang,3.31,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV007,Vũ Việt Kiên,3.61,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV008,Bùi Kim Phương,2.87,Chưa đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV009,Ngô Phương Loan,2.58,Chưa đạt,Đạt,Hoàn thành,Hoàn thành,Chưa hoàn thành,Bình thường
+SV010,Ngô Xuân Cường,2.63,Đạt,Đạt,Hoàn thành,Hoàn thành,Chưa hoàn thành,Bình thường
+SV011,Võ Việt Kiên,2.04,Đạt,Đạt,Chưa hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV012,Phạm Việt Khoa,3.61,Đạt,Đạt,Hoàn thành,Hoàn thành,Chưa hoàn thành,Cảnh cáo
+SV013,Bùi Thanh An,2.04,Đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV014,Lý Hữu Trung,2.95,Đạt,Đạt,Chưa hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV015,Phan Bảo Loan,3.94,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV016,Vũ Phương Hằng,1.82,Chưa đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV017,Lý Thành Phúc,2.08,Chưa đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV018,Ngô Quang Nam,2.68,Chưa đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV019,Phạm Kim Hà,2.21,Đạt,Đạt,Hoàn thành,Hoàn thành,Chưa hoàn thành,Bình thường
+SV020,Phạm Thị Phương,3.95,Đạt,Chưa đạt,Chưa hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV021,Hồ Văn Đạt,2.61,Chưa đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Cảnh cáo
+SV022,Lý Thu Hà,2.44,Chưa đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV023,Huỳnh Thị Nga,1.97,Đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Cảnh cáo
+SV024,Trần Xuân Cường,2.70,Đạt,Đạt,Chưa hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV025,Đặng Anh Kiên,3.80,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV026,Hoàng Diệu Vân,1.95,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Khiển trách
+SV027,Nguyễn Mai Huyền,3.80,Đạt,Đạt,Hoàn thành,Chưa hoàn thành,Hoàn thành,Bình thường
+SV028,Phan Tuấn Kiên,2.24,Chưa đạt,Đạt,Hoàn thành,Chưa hoàn thành,Hoàn thành,Bình thường
+SV029,Võ Văn An,2.52,Đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV030,Hoàng Trọng Bình,3.59,Đạt,Đạt,Hoàn thành,Hoàn thành,Chưa hoàn thành,Bình thường
+SV031,Đỗ Kim Quỳnh,2.34,Đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV032,Huỳnh Thu Vân,2.69,Đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV033,Huỳnh Tuấn Dũng,2.62,Đạt,Đạt,Hoàn thành,Chưa hoàn thành,Hoàn thành,Bình thường
+SV034,Vũ Thị Quỳnh,2.22,Đạt,Chưa đạt,Chưa hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV035,Bùi Thị Diệp,3.69,Đạt,Đạt,Chưa hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV036,Ngô Phương Nga,2.05,Chưa đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV037,Phan Diệu Mai,1.95,Chưa đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV038,Ngô Quang Minh,3.30,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV039,Hồ Mai Tuyết,1.80,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV040,Lý Tuấn Đạt,3.22,Đạt,Đạt,Hoàn thành,Hoàn thành,Chưa hoàn thành,Bình thường
+SV041,Phan Đức An,1.90,Chưa đạt,Chưa đạt,Hoàn thành,Hoàn thành,Chưa hoàn thành,Bình thường
+SV042,Hồ Thanh Loan,2.32,Chưa đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV043,Dương Văn Phúc,2.34,Chưa đạt,Đạt,Hoàn thành,Hoàn thành,Chưa hoàn thành,Bình thường
+SV044,Dương Phương Tuyết,3.35,Đạt,Đạt,Hoàn thành,Chưa hoàn thành,Hoàn thành,Bình thường
+SV045,Vũ Việt Khang,3.45,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV046,Lê Đức Duy,2.30,Chưa đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV047,Ngô Minh Vinh,3.46,Chưa đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Cảnh cáo
+SV048,Hồ Minh Phúc,3.41,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV049,Hồ Tuấn Đạt,3.61,Chưa đạt,Chưa đạt,Hoàn thành,Chưa hoàn thành,Hoàn thành,Bình thường
+SV050,Ngô Đức Tuấn,2.79,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV051,Ngô Bảo Tuyết,1.98,Đạt,Chưa đạt,Chưa hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV052,Nguyễn Kim Hà,3.60,Đạt,Đạt,Hoàn thành,Hoàn thành,Chưa hoàn thành,Bình thường
+SV053,Đỗ Đức Sơn,3.11,Đạt,Đạt,Hoàn thành,Chưa hoàn thành,Hoàn thành,Bình thường
+SV054,Hồ Minh Thịnh,2.23,Chưa đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV055,Trần Diệu Nhi,2.72,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV056,Dương Thu Mai,2.18,Đạt,Chưa đạt,Hoàn thành,Chưa hoàn thành,Hoàn thành,Bình thường
+SV057,Võ Diệu Uyên,2.33,Chưa đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV058,Lý Quang Đạt,2.85,Đạt,Đạt,Hoàn thành,Hoàn thành,Chưa hoàn thành,Bình thường
+SV059,Phan Ngọc Hằng,3.35,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV060,Vũ Minh Thịnh,2.32,Chưa đạt,Đạt,Hoàn thành,Hoàn thành,Chưa hoàn thành,Bình thường
+SV061,Dương Công Khoa,2.34,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV062,Lý Công Toàn,3.07,Đạt,Đạt,Chưa hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV063,Hoàng Công Bình,3.89,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV064,Lý Thanh My,2.53,Chưa đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV065,Trần Thu Dung,3.54,Chưa đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV066,Hồ Thanh Yến,2.75,Chưa đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV067,Phan Kim Hoa,3.22,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV068,Vũ Công Thịnh,2.41,Chưa đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV069,Phan Hồng Diệp,2.97,Đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV070,Đặng Thanh Diệp,2.81,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV071,Bùi Phương Hoa,1.86,Đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV072,Trần Thu Ngân,2.92,Đạt,Đạt,Chưa hoàn thành,Hoàn thành,Hoàn thành,Khiển trách
+SV073,Ngô Quang Kiên,3.24,Chưa đạt,Đạt,Hoàn thành,Hoàn thành,Chưa hoàn thành,Bình thường
+SV074,Dương Ngọc Lan,2.34,Đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV075,Trần Thành Phong,2.58,Chưa đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Cảnh cáo
+SV076,Lý Hữu An,3.89,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV077,Phạm Thanh Diệp,3.19,Đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV078,Dương Trọng Duy,2.62,Chưa đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV079,Võ Văn Khoa,3.36,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV080,Hồ Anh Vũ,2.49,Đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV081,Hồ Hồng Quỳnh,3.50,Đạt,Đạt,Chưa hoàn thành,Hoàn thành,Chưa hoàn thành,Bình thường
+SV082,Dương Hữu Phong,3.76,Đạt,Đạt,Hoàn thành,Chưa hoàn thành,Hoàn thành,Bình thường
+SV083,Hồ Việt Cường,3.63,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV084,Trần Phương Chi,2.30,Chưa đạt,Đạt,Hoàn thành,Hoàn thành,Chưa hoàn thành,Bình thường
+SV085,Phạm Thanh Giang,3.29,Chưa đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV086,Huỳnh Thu Giang,1.97,Chưa đạt,Chưa đạt,Hoàn thành,Chưa hoàn thành,Hoàn thành,Bình thường
+SV087,Võ Việt An,3.73,Đạt,Đạt,Hoàn thành,Hoàn thành,Chưa hoàn thành,Khiển trách
+SV088,Ngô Tuấn Khang,2.78,Đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV089,Đặng Văn Tú,3.22,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV090,Đặng Thành Sơn,3.52,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV091,Phạm Việt Tài,1.88,Chưa đạt,Đạt,Hoàn thành,Hoàn thành,Chưa hoàn thành,Bình thường
+SV092,Phan Đức Trường,2.96,Chưa đạt,Đạt,Chưa hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV093,Đặng Tuấn Tuấn,2.53,Đạt,Chưa đạt,Hoàn thành,Chưa hoàn thành,Chưa hoàn thành,Bình thường
+SV094,Đỗ Ngọc Trâm,2.65,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV095,Đỗ Ngọc Quỳnh,2.30,Đạt,Chưa đạt,Hoàn thành,Chưa hoàn thành,Hoàn thành,Bình thường
+SV096,Đặng Hồng Diệp,2.10,Chưa đạt,Đạt,Hoàn thành,Hoàn thành,Chưa hoàn thành,Bình thường
+SV097,Ngô Xuân Toàn,3.36,Chưa đạt,Đạt,Hoàn thành,Hoàn thành,Chưa hoàn thành,Bình thường
+SV098,Phan Thanh My,3.84,Đạt,Đạt,Hoàn thành,Hoàn thành,Chưa hoàn thành,Bình thường
+SV099,Phan Hữu Tuấn,3.57,Đạt,Đạt,Hoàn thành,Chưa hoàn thành,Hoàn thành,Bình thường
+SV100,Phan Ngọc Tuyết,3.45,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Cảnh cáo
+SV101,Hoàng Đức Phúc,2.34,Đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV102,Huỳnh Công Bình,2.07,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV103,Vũ Xuân Bình,3.36,Chưa đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Khiển trách
+SV104,Ngô Ngọc Ngân,3.33,Đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV105,Bùi Hồng Oanh,2.94,Đạt,Đạt,Hoàn thành,Hoàn thành,Chưa hoàn thành,Bình thường
+SV106,Phan Hồng My,3.71,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV107,Hoàng Việt Vũ,2.82,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV108,Bùi Việt Dũng,2.68,Chưa đạt,Chưa đạt,Hoàn thành,Chưa hoàn thành,Hoàn thành,Bình thường
+SV109,Phạm Xuân Phong,2.26,Chưa đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV110,Ngô Mai Trang,3.56,Đạt,Đạt,Hoàn thành,Chưa hoàn thành,Hoàn thành,Bình thường
+SV111,Đặng Quang Long,1.81,Chưa đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV112,Phan Hồng Mai,2.78,Đạt,Đạt,Hoàn thành,Chưa hoàn thành,Hoàn thành,Cảnh cáo
+SV113,Trần Việt Cường,2.39,Chưa đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV114,Đặng Việt Thắng,3.08,Đạt,Đạt,Hoàn thành,Chưa hoàn thành,Hoàn thành,Bình thường
+SV115,Hoàng Bảo Huyền,2.51,Đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV116,Đỗ Ngọc Loan,3.65,Đạt,Đạt,Chưa hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV117,Ngô Bảo Diệp,2.67,Chưa đạt,Đạt,Chưa hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV118,Phạm Thành Nam,3.07,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV119,Phạm Mai Nga,2.22,Chưa đạt,Đạt,Chưa hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV120,Huỳnh Xuân Duy,3.43,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV121,Bùi Việt Kiên,2.12,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV122,Dương Văn Bình,2.59,Đạt,Đạt,Chưa hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV123,Trần Thanh Yến,3.54,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV124,Bùi Ngọc Nga,3.19,Đạt,Đạt,Chưa hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV125,Hồ Hồng Trang,2.53,Đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV126,Hoàng Quang Cường,3.05,Đạt,Đạt,Chưa hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV127,Đặng Mai Loan,3.18,Đạt,Đạt,Hoàn thành,Chưa hoàn thành,Chưa hoàn thành,Cảnh cáo
+SV128,Ngô Trọng Long,1.84,Đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Khiển trách
+SV129,Đặng Hữu Phong,3.46,Đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV130,Huỳnh Đức Tú,3.29,Đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV131,Đặng Thanh Hằng,2.95,Đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Cảnh cáo
+SV132,Dương Bảo Trang,2.62,Đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV133,Đỗ Mai Yến,2.02,Chưa đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Cảnh cáo
+SV134,Ngô Hữu Vũ,2.28,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV135,Đỗ Kim An,2.49,Đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Cảnh cáo
+SV136,Hoàng Tuấn Phát,2.76,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV137,Phạm Bảo Hằng,2.45,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Cảnh cáo
+SV138,Nguyễn Mai Như,2.32,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV139,Đỗ Hữu Phong,2.97,Chưa đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV140,Nguyễn Quang Trường,1.95,Đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV141,Bùi Việt Đạt,3.59,Đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV142,Trần Bảo Hà,1.89,Đạt,Đạt,Chưa hoàn thành,Hoàn thành,Chưa hoàn thành,Bình thường
+SV143,Phan Công Long,3.65,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV144,Hồ Quang Đạt,2.87,Đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV145,Huỳnh Mai Huyền,2.49,Đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV146,Trần Tuấn Tuấn,3.76,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV147,Huỳnh Văn Duy,3.62,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV148,Trần Phương Dung,3.26,Chưa đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV149,Vũ Ngọc An,3.38,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV150,Đặng Thanh Hà,2.06,Chưa đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV151,Bùi Diệu Thảo,1.94,Chưa đạt,Chưa đạt,Hoàn thành,Hoàn thành,Chưa hoàn thành,Bình thường
+SV152,Vũ Ngọc Hà,3.50,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Khiển trách
+SV153,Lê Hữu Khoa,2.66,Chưa đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV154,Lê Anh Nghĩa,3.26,Đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Khiển trách
+SV155,Trần Hữu Phong,2.13,Đạt,Đạt,Hoàn thành,Hoàn thành,Chưa hoàn thành,Cảnh cáo
+SV156,Võ Kim Phương,3.86,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV157,Huỳnh Phương Thư,3.74,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Cảnh cáo
+SV158,Võ Kim Trang,3.03,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV159,Hồ Công Nghĩa,1.96,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV160,Đỗ Hồng Dung,3.44,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV161,Hồ Xuân Nam,2.33,Chưa đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV162,Dương Anh Vinh,2.46,Đạt,Chưa đạt,Hoàn thành,Chưa hoàn thành,Hoàn thành,Bình thường
+SV163,Lý Xuân Vinh,3.61,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV164,Hồ Quang Bình,2.66,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV165,Phạm Đức Dũng,2.65,Chưa đạt,Đạt,Chưa hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV166,Trần Thị Dung,3.33,Đạt,Đạt,Hoàn thành,Chưa hoàn thành,Hoàn thành,Cảnh cáo
+SV167,Hồ Xuân Toàn,3.61,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV168,Bùi Việt Dũng,3.91,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV169,Vũ Thị Như,2.83,Đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV170,Phạm Kim An,2.75,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV171,Trần Thu Nga,2.25,Đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Cảnh cáo
+SV172,Đỗ Việt Trung,3.67,Đạt,Đạt,Hoàn thành,Hoàn thành,Chưa hoàn thành,Bình thường
+SV173,Đặng Công Thịnh,2.25,Chưa đạt,Đạt,Hoàn thành,Chưa hoàn thành,Hoàn thành,Bình thường
+SV174,Hồ Minh Tú,2.54,Chưa đạt,Đạt,Hoàn thành,Chưa hoàn thành,Hoàn thành,Cảnh cáo
+SV175,Lý Kim Hà,3.58,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV176,Vũ Việt Hùng,1.91,Đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV177,Ngô Thanh Ngân,3.20,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV178,Trần Đức Nam,3.70,Đạt,Đạt,Chưa hoàn thành,Hoàn thành,Hoàn thành,Cảnh cáo
+SV179,Đặng Thị An,2.44,Đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV180,Hoàng Mai My,2.39,Chưa đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV181,Đặng Xuân Thắng,3.43,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV182,Huỳnh Thu Ngân,2.50,Đạt,Đạt,Hoàn thành,Hoàn thành,Chưa hoàn thành,Bình thường
+SV183,Nguyễn Bảo Phương,2.57,Đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Cảnh cáo
+SV184,Đặng Ngọc Phương,3.77,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV185,Ngô Mai Yến,2.81,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV186,Dương Trọng Thịnh,2.58,Chưa đạt,Đạt,Hoàn thành,Chưa hoàn thành,Hoàn thành,Bình thường
+SV187,Dương Hữu Thắng,2.24,Chưa đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV188,Trần Trọng Nghĩa,3.25,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV189,Lê Trọng Bình,3.81,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV190,Ngô Diệu Vân,2.62,Chưa đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV191,Đỗ Ngọc Giang,3.93,Đạt,Đạt,Chưa hoàn thành,Hoàn thành,Hoàn thành,Khiển trách
+SV192,Ngô Trọng Minh,3.57,Đạt,Đạt,Hoàn thành,Chưa hoàn thành,Hoàn thành,Bình thường
+SV193,Ngô Phương Trang,3.81,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV194,Vũ Thị Loan,2.74,Đạt,Chưa đạt,Hoàn thành,Hoàn thành,Chưa hoàn thành,Bình thường
+SV195,Bùi Phương Oanh,3.46,Đạt,Đạt,Hoàn thành,Chưa hoàn thành,Hoàn thành,Bình thường
+SV196,Huỳnh Việt Thắng,2.72,Đạt,Chưa đạt,Chưa hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV197,Hoàng Công Minh,2.20,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV198,Ngô Minh Phúc,2.94,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV199,Phan Thị Hoa,2.61,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV200,Phan Quang Khoa,3.86,Đạt,Đạt,Chưa hoàn thành,Hoàn thành,Chưa hoàn thành,Bình thường
+SV201,Phan Minh Vũ,2.31,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV202,Dương Ngọc Trâm,3.91,Đạt,Đạt,Chưa hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV203,Hoàng Văn Khang,2.99,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV204,Bùi Công Trung,3.57,Chưa đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV205,Lý Thu Yến,3.71,Chưa đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV206,Nguyễn Minh Duy,3.61,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV207,Lý Thanh An,1.81,Chưa đạt,Đạt,Hoàn thành,Hoàn thành,Chưa hoàn thành,Bình thường
+SV208,Ngô Thu Diệp,3.77,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV209,Hồ Anh Quân,2.32,Chưa đạt,Đạt,Hoàn thành,Hoàn thành,Chưa hoàn thành,Bình thường
+SV210,Hồ Minh Minh,2.99,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV211,Phạm Mai Yến,1.89,Đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV212,Trần Thu Yến,3.63,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Cảnh cáo
+SV213,Vũ Xuân Tú,3.63,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV214,Đỗ Văn Dũng,2.74,Chưa đạt,Đạt,Hoàn thành,Chưa hoàn thành,Hoàn thành,Bình thường
+SV215,Võ Anh Phát,2.29,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV216,Vũ Tuấn Cường,1.98,Đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV217,Đặng Anh Long,3.44,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV218,Lê Xuân Sơn,3.49,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV219,Vũ Phương Nga,2.16,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV220,Lý Hữu Long,2.34,Đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV221,Bùi Phương Loan,3.53,Đạt,Đạt,Hoàn thành,Hoàn thành,Chưa hoàn thành,Bình thường
+SV222,Phan Anh Kiên,2.18,Đạt,Đạt,Hoàn thành,Hoàn thành,Chưa hoàn thành,Bình thường
+SV223,Võ Minh Long,2.04,Chưa đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Cảnh cáo
+SV224,Phan Anh Trường,2.43,Chưa đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV225,Hoàng Tuấn Nam,3.50,Đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Cảnh cáo
+SV226,Trần Diệu Thảo,3.73,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV227,Trần Phương Phương,3.26,Đạt,Đạt,Chưa hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV228,Vũ Thanh Linh,2.64,Chưa đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV229,Lê Hữu Tú,3.82,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV230,Dương Quang Cường,2.45,Chưa đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV231,Vũ Mai Giang,2.99,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV232,Hồ Thị Thư,3.12,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV233,Lê Phương Diệp,3.52,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV234,Bùi Phương Loan,3.11,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV235,Lê Việt Duy,2.47,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV236,Ngô Thu Ngân,3.17,Đạt,Đạt,Chưa hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV237,Dương Xuân Bình,3.66,Chưa đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV238,Lý Minh Thịnh,3.61,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV239,Huỳnh Thanh Như,3.40,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV240,Trần Tuấn Nghĩa,2.97,Chưa đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Khiển trách
+SV241,Đỗ Hữu Nghĩa,3.66,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV242,Ngô Thu Oanh,2.10,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV243,Đặng Công Quân,2.37,Chưa đạt,Chưa đạt,Hoàn thành,Hoàn thành,Chưa hoàn thành,Bình thường
+SV244,Võ Thu Thảo,3.66,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV245,Võ Hồng Loan,2.77,Đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Cảnh cáo
+SV246,Lý Quang Quân,1.81,Chưa đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV247,Hồ Thành Nam,3.57,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV248,Trần Thị Diệp,3.15,Chưa đạt,Đạt,Chưa hoàn thành,Hoàn thành,Hoàn thành,Khiển trách
+SV249,Hoàng Việt Khoa,2.14,Chưa đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Cảnh cáo
+SV250,Hồ Việt Khoa,3.36,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV251,Dương Thị An,3.30,Đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV252,Phạm Ngọc Lan,2.59,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV253,Nguyễn Xuân Tài,2.15,Đạt,Đạt,Hoàn thành,Chưa hoàn thành,Hoàn thành,Bình thường
+SV254,Phạm Đức Trung,2.06,Chưa đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV255,Đặng Tuấn An,3.62,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV256,Vũ Anh Minh,2.04,Đạt,Chưa đạt,Hoàn thành,Chưa hoàn thành,Chưa hoàn thành,Cảnh cáo
+SV257,Ngô Quang Phúc,3.27,Đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV258,Trần Minh Phong,2.42,Chưa đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV259,Lê Công Cường,2.90,Đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV260,Lê Bảo Thảo,2.74,Chưa đạt,Đạt,Hoàn thành,Chưa hoàn thành,Hoàn thành,Bình thường
+SV261,Huỳnh Hữu An,3.32,Đạt,Đạt,Chưa hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV262,Hoàng Tuấn Trung,3.68,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV263,Lê Anh Nghĩa,2.90,Đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Cảnh cáo
+SV264,Phạm Kim Thư,2.89,Đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV265,Trần Mai Trâm,3.76,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV266,Đỗ Hữu Phong,3.25,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV267,Đặng Diệu Chi,2.99,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV268,Lý Kim Thư,3.74,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV269,Nguyễn Diệu An,3.43,Đạt,Đạt,Hoàn thành,Hoàn thành,Chưa hoàn thành,Bình thường
+SV270,Hoàng Bảo Chi,1.89,Đạt,Chưa đạt,Hoàn thành,Chưa hoàn thành,Hoàn thành,Bình thường
+SV271,Hoàng Hồng Chi,3.07,Đạt,Đạt,Hoàn thành,Hoàn thành,Chưa hoàn thành,Cảnh cáo
+SV272,Bùi Quang Nghĩa,2.38,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV273,Ngô Hữu Phúc,2.57,Chưa đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV274,Trần Thành Tú,3.64,Đạt,Đạt,Chưa hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV275,Huỳnh Thị Loan,3.64,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV276,Vũ Đức Hải,3.57,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV277,Lê Thành Vinh,3.19,Chưa đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Cảnh cáo
+SV278,Ngô Tuấn Minh,2.87,Đạt,Đạt,Hoàn thành,Chưa hoàn thành,Hoàn thành,Bình thường
+SV279,Vũ Việt Khoa,2.87,Chưa đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV280,Vũ Mai Trâm,1.84,Đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV281,Võ Đức An,2.49,Đạt,Chưa đạt,Hoàn thành,Hoàn thành,Chưa hoàn thành,Bình thường
+SV282,Vũ Thu Diệp,2.33,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Cảnh cáo
+SV283,Hồ Diệu Yến,3.60,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Cảnh cáo
+SV284,Đỗ Xuân Quân,2.11,Chưa đạt,Chưa đạt,Hoàn thành,Chưa hoàn thành,Hoàn thành,Bình thường
+SV285,Trần Thành Sơn,2.27,Đạt,Đạt,Chưa hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV286,Bùi Thị An,2.12,Chưa đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV287,Hồ Phương Diệp,2.52,Đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV288,Đỗ Thành Thắng,3.07,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Cảnh cáo
+SV289,Hồ Phương Anh,2.19,Đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV290,Lê Thành Long,3.91,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Cảnh cáo
+SV291,Võ Thành Hùng,3.29,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV292,Ngô Anh Vinh,2.61,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV293,Lê Văn Khoa,1.84,Đạt,Đạt,Hoàn thành,Chưa hoàn thành,Hoàn thành,Bình thường
+SV294,Lê Diệu Oanh,3.92,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV295,Bùi Thành Hải,2.68,Đạt,Chưa đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV296,Lý Đức Bình,2.58,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV297,Đặng Hữu Phát,3.61,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV298,Hồ Quang Đạt,2.76,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV299,Lê Diệu Trâm,2.96,Chưa đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
+SV300,Lý Phương Vân,2.31,Đạt,Đạt,Hoàn thành,Hoàn thành,Hoàn thành,Bình thường
