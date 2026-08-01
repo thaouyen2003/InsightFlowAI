@@ -5,3 +5,11 @@
 !.env.example
 backend/.env
 frontend/.env.local
+
+# Environment variables
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env.local
+push-error.txt
