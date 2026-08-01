@@ -1,0 +1,1001 @@
+mssv,ho_ten,ngay_sinh,khoa,nganh,nam_hoc,hoc_ky,gpa_hoc_ky,diem_ren_luyen,loai_hoc_bong_dang_ky,hoan_canh_kho_khan,vipham_ky_luat,no_hoc_phi,ket_qua_xet_hoc_bong,ly_do_truot_hoac_xep_loai
+211A000001,Pham Tuyet Thao,2003-09-20,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,3.78,94,Hoc bong Dong hanh Vuot kho,1,0,0,Dat,Dat HB Dong hanh Vuot kho
+211A000002,Ngo Van Yen,2003-02-11,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 1,2.95,98,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000003,Do Phuong Thao,2003-11-23,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 1,3.15,73,Hoc bong Tai nang VHU,1,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000004,Cao Tan An,2003-12-30,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 2,2.89,80,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000005,Dinh Truc Nhi,2003-09-26,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 2,3.06,56,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000006,Trinh Minh Yen,2003-08-08,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 2,3.76,62,Hoc bong Dong hanh Vuot kho,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000007,Mai Ngoc Thinh,2003-07-25,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,3.61,80,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000008,Tran Gia Yen,2003-08-23,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 2,3.83,71,Hoc bong Dong hanh Vuot kho,1,0,0,Dat,Dat HB Dong hanh Vuot kho
+211A000009,Truong Huu Bich,2003-05-29,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 1,2.92,87,Hoc bong Tai nang VHU,1,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000010,Truong Truc Cuong,2003-11-29,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 2,2.28,81,Hoc bong Trai tim Hung Hau,1,0,0,Khong dat,GPA hoac DRL khong dat muc toi thieu cho HB Trai tim Hung Hau
+211A000011,Phan Huu Cuong,2003-11-09,Kinh te,Tai chinh Ngan hang,2025-2026,Hoc ky 1,3.27,89,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000012,Cao Truc Em,2003-10-07,Kinh te,Marketing,2025-2026,Hoc ky 1,3.9,99,Hoc bong Tai nang VHU,0,0,0,Dat,Dat HB Tai nang VHU
+211A000013,Vo Tan Thao,2003-07-30,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 1,2.81,61,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000014,Do Van An,2003-09-19,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 2,2.95,62,Hoc bong Dong hanh Vuot kho,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000015,Vo Kim Hang,2003-08-11,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 2,3.22,98,Hoc bong Khuyen khich Hoc tap,1,1,0,Khong dat,Vi pham ky luat trong hoc ky
+211A000016,Dang Thi Thinh,2003-01-25,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 2,3.44,56,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000017,Vo Quoc Giang,2003-07-19,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 2,3.73,79,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000018,Vu Nhat Linh,2003-08-28,Kinh te,Ke toan,2025-2026,Hoc ky 2,2.94,88,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000019,Le Duc Mai,2003-07-28,Du lich,Quan tri Khach san,2025-2026,Hoc ky 1,2.76,65,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000020,Mai Thanh Vy,2003-05-31,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 1,2.29,71,Hoc bong Khuyen khich Hoc tap,1,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000021,Do Quoc Dung,2003-09-17,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 1,2.65,75,Hoc bong Trai tim Hung Hau,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000022,Ly Nhat An,2003-01-30,Cong nghe Thong tin,Ky thuat Phan mem,2025-2026,Hoc ky 1,2.68,61,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000023,Dinh Thi Nhi,2003-06-11,Du lich,Quan tri Khach san,2025-2026,Hoc ky 2,2.9,98,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Kha
+211A000024,Ly Phuong Linh,2003-07-02,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 1,2.63,76,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000025,Cao Van Thinh,2003-06-25,Kinh te,Logistics va Quan ly Chuoi cung ung,2025-2026,Hoc ky 1,3.46,62,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000026,Do Tan An,2003-08-06,Du lich,Quan tri Khach san,2025-2026,Hoc ky 2,2.88,79,Hoc bong Trai tim Hung Hau,1,0,0,Dat,Dat HB Trai tim Hung Hau (Hoan canh kho khan + Hoc luc Kha tro len)
+211A000027,Dang Huu An,2003-12-05,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,3.58,69,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000028,Ly Tuyet Em,2003-11-17,Du lich,Quan tri Khach san,2025-2026,Hoc ky 1,3.14,96,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000029,Hoang Thi An,2003-11-18,Kinh te,Marketing,2025-2026,Hoc ky 1,3.92,98,Hoc bong Trai tim Hung Hau,1,0,0,Dat,Dat HB Trai tim Hung Hau (Hoan canh kho khan + Hoc luc Kha tro len)
+211A000030,Ngo Huu Lam,2003-06-25,Kinh te,Ke toan,2025-2026,Hoc ky 2,2.96,84,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000031,Vo Truc An,2003-07-01,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 1,3.3,60,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000032,Pham Van Thinh,2003-04-22,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,3.9,79,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000033,Hoang Huu Lam,2003-06-08,Cong nghe Thong tin,Ky thuat Phan mem,2025-2026,Hoc ky 1,3.79,73,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000034,Nguyen Truc Phong,2003-07-02,Du lich,Quan tri Khach san,2025-2026,Hoc ky 1,2.44,89,Hoc bong Trai tim Hung Hau,0,1,0,Khong dat,Vi pham ky luat trong hoc ky
+211A000035,Nguyen Viet Cuong,2003-07-08,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 1,3.23,70,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000036,Le Phuong Lam,2003-11-12,Ngoai ngu,Ngon ngu Trung Quoc,2025-2026,Hoc ky 1,2.75,86,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000037,Phan Viet Cuong,2003-02-05,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 2,2.6,97,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000038,Hoang Tuyet Quang,2003-07-26,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 1,3.62,69,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000039,Huynh Thanh Em,2003-08-15,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,2.6,62,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000040,Vo Huu Lam,2003-04-30,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 1,2.6,91,Hoc bong Dong hanh Vuot kho,1,0,0,Dat,Dat HB Dong hanh Vuot kho
+211A000041,Hoang Nhat Mai,2003-02-18,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,2.9,96,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000042,Nguyen Ngoc Thinh,2003-12-26,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 2,3.19,94,Hoc bong Dong hanh Vuot kho,1,0,0,Dat,Dat HB Dong hanh Vuot kho
+211A000043,Nguyen Thi Khoa,2003-11-22,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 2,2.13,68,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000044,Mai Thanh Thinh,2003-01-06,Cong nghe Thong tin,Ky thuat Phan mem,2025-2026,Hoc ky 2,3.93,84,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000045,Truong Kim Vy,2003-10-14,Kinh te,Quan tri Kinh doanh,2025-2026,Hoc ky 1,2.61,81,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000046,Ngo Truc Mai,2003-06-25,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 2,2.58,75,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000047,Vu Viet Lam,2003-08-27,Kinh te,Ke toan,2025-2026,Hoc ky 2,3.06,80,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000048,Le Kim Thinh,2003-06-02,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 2,3.02,97,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000049,Dang Ngoc Thao,2003-09-24,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 1,2.15,70,Hoc bong Trai tim Hung Hau,1,0,0,Khong dat,GPA hoac DRL khong dat muc toi thieu cho HB Trai tim Hung Hau
+211A000050,Trinh Thanh Lam,2003-09-08,Kinh te,Logistics va Quan ly Chuoi cung ung,2025-2026,Hoc ky 2,2.78,96,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000051,Vo Gia Em,2003-12-03,Du lich,Quan tri Khach san,2025-2026,Hoc ky 1,2.63,74,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000052,Do Gia Quan,2003-03-28,Kinh te,Luat Kinh te,2025-2026,Hoc ky 1,3.51,98,Hoc bong Trai tim Hung Hau,1,0,0,Dat,Dat HB Trai tim Hung Hau (Hoan canh kho khan + Hoc luc Kha tro len)
+211A000053,Mai Van Linh,2003-04-24,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 1,2.98,81,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000054,Vu Van Bich,2003-02-18,Ngoai ngu,Ngon ngu Trung Quoc,2025-2026,Hoc ky 2,2.72,56,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000055,Truong Thanh Giang,2003-05-04,Kinh te,Luat Kinh te,2025-2026,Hoc ky 2,2.5,65,Hoc bong Dong hanh Vuot kho,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000056,Bui Tan Quan,2003-10-14,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 1,3.75,68,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000057,Dinh Quoc Dung,2003-03-30,Kinh te,Luat Kinh te,2025-2026,Hoc ky 2,2.46,82,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000058,Ly Tan Nam,2003-07-23,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 2,3.77,77,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000059,Ngo Viet Quan,2003-07-13,Du lich,Quan tri Khach san,2025-2026,Hoc ky 2,3.52,98,Hoc bong Khuyen khich Hoc tap,1,0,0,Dat,Dat HB KKHT Loai Gioi
+211A000060,Trinh Kim Dung,2003-05-22,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 1,3.21,59,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000061,Cao Duc Yen,2003-09-03,Du lich,Quan tri Khach san,2025-2026,Hoc ky 1,3.79,63,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000062,Ly Van Bich,2003-02-06,Du lich,Quan tri Khach san,2025-2026,Hoc ky 2,3.45,74,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000063,Ngo Phuong Khoa,2003-09-21,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 1,3.02,93,Hoc bong Trai tim Hung Hau,1,0,0,Dat,Dat HB Trai tim Hung Hau (Hoan canh kho khan + Hoc luc Kha tro len)
+211A000064,Vu Phuong Quang,2003-09-29,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 1,2.82,57,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000065,Hoang Ngoc Phong,2003-10-25,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 1,3.89,62,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000066,Phan Phuong Dung,2003-02-24,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 1,2.56,58,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000067,Le Ngoc Giang,2003-01-19,Kinh te,Luat Kinh te,2025-2026,Hoc ky 1,3.79,90,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Xuat sac
+211A000068,Phan Kim Bich,2003-04-08,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,2.65,65,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000069,Tran Truc Lam,2003-02-06,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,3.03,58,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000070,Ngo Thi An,2003-07-31,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 2,3.37,66,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000071,Hoang Phuong Lam,2003-11-27,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,2.27,77,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000072,Trinh Khanh Quang,2003-12-22,Kinh te,Luat Kinh te,2025-2026,Hoc ky 2,2.43,90,Hoc bong Khuyen khich Hoc tap,0,1,0,Khong dat,Vi pham ky luat trong hoc ky
+211A000073,Vu Nhat Vy,2003-06-23,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 1,3.5,92,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Gioi
+211A000074,Ngo Tan Yen,2003-12-12,Du lich,Quan tri Khach san,2025-2026,Hoc ky 2,3.5,55,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000075,Phan Minh Khoa,2003-12-07,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 2,2.31,63,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000076,Nguyen Duc Yen,2003-06-01,Kinh te,Marketing,2025-2026,Hoc ky 1,2.93,62,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000077,Le Phuong Lam,2003-08-13,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 2,2.94,94,Hoc bong Dong hanh Vuot kho,1,0,0,Dat,Dat HB Dong hanh Vuot kho
+211A000078,Dang Minh Yen,2003-10-08,Cong nghe Thong tin,Ky thuat Phan mem,2025-2026,Hoc ky 1,3.96,73,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000079,Dang Minh Khoa,2003-07-17,Kinh te,Logistics va Quan ly Chuoi cung ung,2025-2026,Hoc ky 2,3.31,80,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000080,Huynh Ngoc Nam,2003-08-20,Kinh te,Tai chinh Ngan hang,2025-2026,Hoc ky 2,2.17,94,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000081,Cao Gia Quan,2003-07-12,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,3.25,57,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000082,Mai Kim Linh,2003-12-07,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 2,3.51,88,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000083,Dinh Viet Khoa,2003-10-14,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 2,3.72,56,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000084,Huynh Truc Giang,2003-08-11,Du lich,Quan tri Khach san,2025-2026,Hoc ky 2,2.16,60,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000085,Dinh Viet Thao,2003-11-17,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 1,2.7,55,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000086,Phan Nhat Dung,2003-11-26,Cong nghe Thong tin,Ky thuat Phan mem,2025-2026,Hoc ky 2,2.74,66,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000087,Phan Minh Thinh,2003-08-05,Kinh te,Quan tri Kinh doanh,2025-2026,Hoc ky 1,3.39,82,Hoc bong Khuyen khich Hoc tap,1,0,0,Dat,Dat HB KKHT Loai Gioi
+211A000088,Do Minh Bich,2003-07-28,Kinh te,Marketing,2025-2026,Hoc ky 1,2.58,89,Hoc bong Trai tim Hung Hau,1,0,0,Dat,Dat HB Trai tim Hung Hau (Hoan canh kho khan + Hoc luc Kha tro len)
+211A000089,Nguyen Gia Yen,2003-11-07,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 2,3.58,99,Hoc bong Trai tim Hung Hau,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000090,Le Ngoc Mai,2003-08-07,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 1,3.49,93,Hoc bong Trai tim Hung Hau,1,0,0,Dat,Dat HB Trai tim Hung Hau (Hoan canh kho khan + Hoc luc Kha tro len)
+211A000091,Ly Kim Quan,2003-05-29,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 1,3.43,92,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000092,Ly Tan Dung,2003-11-07,Kinh te,Quan tri Kinh doanh,2025-2026,Hoc ky 1,3.23,76,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000093,Truong Duc Yen,2003-07-12,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,3.73,82,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000094,Do Phuong Nam,2003-05-09,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 2,2.88,57,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000095,Tran Minh Mai,2003-08-10,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 2,3.82,71,Hoc bong Khuyen khich Hoc tap,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000096,Dang Thi Nam,2003-11-13,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 1,3.37,89,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Gioi
+211A000097,Ngo Minh Cuong,2003-02-23,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 1,2.36,90,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000098,Phan Thanh Bich,2003-08-01,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 2,3.3,89,Hoc bong Trai tim Hung Hau,1,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000099,Cao Nhat Quang,2003-08-14,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,2.64,61,Hoc bong Trai tim Hung Hau,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000100,Phan Kim Yen,2003-03-19,Kinh te,Ke toan,2025-2026,Hoc ky 1,3.53,99,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000101,Huynh Hoang Nam,2003-07-20,Cong nghe Thong tin,Cong nghe Thong tin,2025-2026,Hoc ky 2,3.18,60,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000102,Duong Huu Thinh,2003-02-26,Du lich,Quan tri Khach san,2025-2026,Hoc ky 1,2.97,77,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000103,Pham Phuong Lam,2003-10-29,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,2.46,66,Hoc bong Tai nang VHU,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000104,Vo Tan Thinh,2003-01-26,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 1,3.45,85,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Gioi
+211A000105,Pham Thanh Linh,2003-03-05,Ngoai ngu,Ngon ngu Trung Quoc,2025-2026,Hoc ky 2,2.24,75,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000106,Tran Hoang Linh,2003-08-11,Cong nghe Thong tin,Ky thuat Phan mem,2025-2026,Hoc ky 1,3.86,55,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000107,Hoang Minh Lam,2003-09-13,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 2,3.12,94,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000108,Vu Truc Phong,2003-02-01,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,2.48,71,Hoc bong Tai nang VHU,1,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000109,Nguyen Nhat Quan,2003-12-16,Cong nghe Thong tin,Cong nghe Thong tin,2025-2026,Hoc ky 2,2.37,97,Hoc bong Dong hanh Vuot kho,1,0,0,Dat,Dat HB Dong hanh Vuot kho
+211A000110,Do Minh Lam,2003-03-02,Kinh te,Marketing,2025-2026,Hoc ky 1,3.31,72,Hoc bong Trai tim Hung Hau,1,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000111,Tran Kim Quang,2003-06-29,Kinh te,Marketing,2025-2026,Hoc ky 1,3.63,99,Hoc bong Tai nang VHU,0,0,0,Dat,Dat HB Tai nang VHU
+211A000112,Truong Nhat Thinh,2003-08-10,Kinh te,Quan tri Kinh doanh,2025-2026,Hoc ky 2,2.81,78,Hoc bong Trai tim Hung Hau,1,0,0,Dat,Dat HB Trai tim Hung Hau (Hoan canh kho khan + Hoc luc Kha tro len)
+211A000113,Ngo Tuyet Thinh,2003-02-15,Kinh te,Luat Kinh te,2025-2026,Hoc ky 2,2.45,84,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000114,Duong Nhat Quan,2003-08-21,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 2,3.4,95,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Gioi
+211A000115,Hoang Hoang Nhi,2003-09-26,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 2,2.89,62,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000116,Vo Khanh Mai,2003-10-23,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 2,3.25,72,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Kha
+211A000117,Ly Truc Lam,2003-08-24,Du lich,Quan tri Khach san,2025-2026,Hoc ky 1,2.6,72,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000118,Dinh Viet Nhi,2003-10-14,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,2.23,56,Hoc bong Khuyen khich Hoc tap,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000119,Vu Thi An,2003-10-31,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 1,2.47,93,Hoc bong Trai tim Hung Hau,1,0,0,Khong dat,GPA hoac DRL khong dat muc toi thieu cho HB Trai tim Hung Hau
+211A000120,Do Duc Bich,2003-04-13,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 2,2.94,88,Hoc bong Khuyen khich Hoc tap,1,0,0,Dat,Dat HB KKHT Loai Kha
+211A000121,Le Minh Linh,2003-07-25,Kinh te,Ke toan,2025-2026,Hoc ky 1,2.25,66,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000122,Tran Tan An,2003-11-19,Kinh te,Quan tri Kinh doanh,2025-2026,Hoc ky 1,2.68,79,Hoc bong Trai tim Hung Hau,1,0,0,Dat,Dat HB Trai tim Hung Hau (Hoan canh kho khan + Hoc luc Kha tro len)
+211A000123,Vu Minh Mai,2003-06-29,Kinh te,Logistics va Quan ly Chuoi cung ung,2025-2026,Hoc ky 1,3.82,60,Hoc bong Trai tim Hung Hau,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000124,Le Gia Yen,2003-08-19,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 2,3.58,93,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000125,Le Thanh Hang,2003-09-09,Cong nghe Thong tin,Ky thuat Phan mem,2025-2026,Hoc ky 2,3.39,61,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000126,Vo Minh Linh,2003-09-08,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 2,3.65,75,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000127,Ngo Tuyet Dung,2003-07-22,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 1,3.96,75,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000128,Vo Ngoc Dung,2003-08-22,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,2.6,81,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000129,Nguyen Quoc An,2003-09-28,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,2.39,64,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000130,Ngo Duc An,2003-12-16,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 1,2.82,96,Hoc bong Khuyen khich Hoc tap,1,1,0,Khong dat,Vi pham ky luat trong hoc ky
+211A000131,Pham Duc Thinh,2003-01-28,Cong nghe Thong tin,Ky thuat Phan mem,2025-2026,Hoc ky 1,3.51,64,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000132,Truong Thanh Quang,2003-09-27,Kinh te,Marketing,2025-2026,Hoc ky 2,3.41,96,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000133,Pham Quoc Dung,2003-04-08,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 2,2.21,57,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000134,Cao Phuong Yen,2003-06-21,Kinh te,Ke toan,2025-2026,Hoc ky 1,2.34,73,Hoc bong Dong hanh Vuot kho,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000135,Bui Viet Dung,2003-01-27,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,2.46,86,Hoc bong Khuyen khich Hoc tap,1,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000136,Dang Ngoc Khoa,2003-05-01,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,2.89,90,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000137,Truong Huu An,2003-02-23,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 1,2.3,59,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000138,Vo Quoc Nam,2003-01-01,Kinh te,Quan tri Kinh doanh,2025-2026,Hoc ky 2,3.68,55,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000139,Vo Ngoc Dung,2003-09-19,Kinh te,Ke toan,2025-2026,Hoc ky 1,3.17,88,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000140,Le Khanh Nam,2003-03-09,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,2.45,68,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000141,Mai Duc Quang,2003-07-22,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 1,2.78,65,Hoc bong Tai nang VHU,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000142,Vo Ngoc Em,2003-08-17,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 1,3.29,65,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000143,Huynh Phuong Bich,2003-05-22,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,2.52,69,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000144,Duong Phuong Nam,2003-08-21,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 1,2.73,71,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000145,Dinh Quoc Nhi,2003-10-06,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 1,2.12,93,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000146,Dinh Tan Bich,2003-05-05,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 1,2.69,89,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000147,Nguyen Truc Mai,2003-07-19,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 2,2.25,74,Hoc bong Khuyen khich Hoc tap,1,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000148,Ngo Nhat Giang,2003-04-03,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 2,3.18,70,Hoc bong Dong hanh Vuot kho,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000149,Cao Kim Yen,2003-09-13,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 1,2.43,87,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000150,Nguyen Hoang Phong,2003-11-12,Kinh te,Logistics va Quan ly Chuoi cung ung,2025-2026,Hoc ky 2,2.69,86,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000151,Vo Ngoc Lam,2003-04-22,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 2,2.61,79,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000152,Truong Truc Quan,2003-08-18,Du lich,Quan tri Khach san,2025-2026,Hoc ky 1,2.64,99,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000153,Duong Tan Quan,2003-11-25,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 2,2.35,77,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000154,Tran Thanh Hang,2003-03-28,Cong nghe Thong tin,Ky thuat Phan mem,2025-2026,Hoc ky 2,3.43,87,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000155,Le Khanh Thao,2003-04-07,Cong nghe Thong tin,Ky thuat Phan mem,2025-2026,Hoc ky 2,3.5,86,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Gioi
+211A000156,Vo Viet Em,2003-11-12,Kinh te,Quan tri Kinh doanh,2025-2026,Hoc ky 2,2.65,76,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000157,Vu Minh Quang,2003-12-24,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 2,2.71,82,Hoc bong Khuyen khich Hoc tap,1,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000158,Nguyen Hoang Cuong,2003-05-30,Ngoai ngu,Ngon ngu Trung Quoc,2025-2026,Hoc ky 2,2.87,91,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000159,Hoang Thi An,2003-08-23,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,2.32,73,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000160,Le Viet Phong,2003-01-22,Ngoai ngu,Ngon ngu Trung Quoc,2025-2026,Hoc ky 1,3.14,67,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000161,Dinh Nhat Cuong,2003-01-08,Cong nghe Thong tin,Cong nghe Thong tin,2025-2026,Hoc ky 1,3.18,76,Hoc bong Tai nang VHU,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000162,Pham Viet Quang,2003-06-28,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,3.52,58,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000163,Tran Quoc Cuong,2003-10-09,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,3.2,76,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000164,Vu Khanh Hang,2003-11-26,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 2,3.71,61,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000165,Ly Duc Linh,2003-05-16,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,3.19,93,Hoc bong Khuyen khich Hoc tap,1,0,0,Dat,Dat HB KKHT Loai Kha
+211A000166,Do Nhat Em,2003-06-17,Kinh te,Logistics va Quan ly Chuoi cung ung,2025-2026,Hoc ky 2,2.71,82,Hoc bong Khuyen khich Hoc tap,1,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000167,Do Phuong Cuong,2003-04-21,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 2,2.14,92,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000168,Dinh Huu Dung,2003-11-28,Ngoai ngu,Ngon ngu Trung Quoc,2025-2026,Hoc ky 1,2.56,84,Hoc bong Khuyen khich Hoc tap,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000169,Ly Duc Quan,2003-08-16,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 2,3.33,59,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000170,Ly Hoang Thao,2003-08-09,Cong nghe Thong tin,Ky thuat Phan mem,2025-2026,Hoc ky 2,2.19,82,Hoc bong Tai nang VHU,1,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000171,Ly Thanh Vy,2003-12-18,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 2,3.96,62,Hoc bong Khuyen khich Hoc tap,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000172,Phan Huu Dung,2003-09-11,Kinh te,Luat Kinh te,2025-2026,Hoc ky 2,3.41,80,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000173,Nguyen Quoc Thao,2003-05-18,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 1,3.36,76,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Kha
+211A000174,Phan Duc Thinh,2003-02-02,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 2,3.06,91,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000175,Do Tuyet Quang,2003-06-23,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 1,3.51,78,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000176,Truong Truc Bich,2003-10-04,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 2,2.45,80,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000177,Phan Hoang Quang,2003-08-20,Ngoai ngu,Ngon ngu Trung Quoc,2025-2026,Hoc ky 1,2.87,72,Hoc bong Khuyen khich Hoc tap,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000178,Le Duc Giang,2003-03-12,Du lich,Quan tri Khach san,2025-2026,Hoc ky 1,3.54,84,Hoc bong Tai nang VHU,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000179,Vu Duc Thao,2003-06-22,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,2.99,60,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000180,Cao Quoc Yen,2003-04-20,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,2.94,85,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000181,Ly Thanh Mai,2003-03-03,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 1,3.04,87,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000182,Duong Truc Cuong,2003-06-07,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 1,2.52,65,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000183,Mai Truc Quang,2003-02-28,Kinh te,Tai chinh Ngan hang,2025-2026,Hoc ky 2,2.61,55,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000184,Truong Ngoc Giang,2003-09-24,Kinh te,Ke toan,2025-2026,Hoc ky 1,3.66,74,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000185,Trinh Thanh Thao,2003-02-21,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,3.6,73,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000186,Mai Phuong Nhi,2003-03-28,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,3.94,78,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000187,Vo Phuong Nam,2003-02-05,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 1,2.84,94,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000188,Dinh Thi Giang,2003-08-30,Cong nghe Thong tin,Cong nghe Thong tin,2025-2026,Hoc ky 2,2.37,80,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000189,Le Kim Khoa,2003-01-27,Cong nghe Thong tin,Cong nghe Thong tin,2025-2026,Hoc ky 2,2.23,79,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000190,Dang Quoc Hang,2003-05-17,Du lich,Quan tri Khach san,2025-2026,Hoc ky 1,3.86,65,Hoc bong Trai tim Hung Hau,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000191,Tran Kim Vy,2003-09-25,Kinh te,Tai chinh Ngan hang,2025-2026,Hoc ky 1,3.04,72,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000192,Cao Van Phong,2003-02-28,Du lich,Quan tri Khach san,2025-2026,Hoc ky 1,3.62,78,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000193,Ngo Ngoc Linh,2003-09-13,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 2,2.25,91,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000194,Dinh Quoc Yen,2003-10-04,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 1,3.53,67,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000195,Phan Thanh An,2003-12-02,Kinh te,Marketing,2025-2026,Hoc ky 2,2.37,81,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000196,Tran Tuyet Dung,2003-12-16,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,2.86,64,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000197,Dang Tuyet Quang,2003-06-16,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,2.17,85,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000198,Mai Phuong Giang,2003-08-17,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 1,2.89,72,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000199,Truong Huu An,2003-05-17,Kinh te,Quan tri Kinh doanh,2025-2026,Hoc ky 1,2.65,99,Hoc bong Khuyen khich Hoc tap,1,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000200,Vo Quoc Mai,2003-02-22,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 1,2.84,96,Hoc bong Tai nang VHU,1,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000201,Do Gia Phong,2003-01-11,Ngoai ngu,Ngon ngu Trung Quoc,2025-2026,Hoc ky 1,3.09,87,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000202,Cao Van Quan,2003-09-01,Cong nghe Thong tin,Cong nghe Thong tin,2025-2026,Hoc ky 1,3.89,83,Hoc bong Tai nang VHU,1,1,0,Khong dat,Vi pham ky luat trong hoc ky
+211A000203,Huynh Thi Dung,2003-07-22,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 2,3.93,74,Hoc bong Tai nang VHU,1,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000204,Ngo Truc Phong,2003-09-16,Du lich,Quan tri Khach san,2025-2026,Hoc ky 2,3.48,82,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Gioi
+211A000205,Bui Phuong Mai,2003-12-28,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 2,2.18,82,Hoc bong Trai tim Hung Hau,1,0,0,Khong dat,GPA hoac DRL khong dat muc toi thieu cho HB Trai tim Hung Hau
+211A000206,Ly Minh Mai,2003-05-25,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 1,2.51,67,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000207,Truong Phuong Hang,2003-01-08,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 2,2.28,60,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000208,Dang Thi Mai,2003-06-09,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 1,2.8,66,Hoc bong Khuyen khich Hoc tap,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000209,Phan Kim Linh,2003-05-15,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,2.95,81,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000210,Vu Quoc Nam,2003-06-29,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,2.71,83,Hoc bong Tai nang VHU,1,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000211,Tran Thi Cuong,2003-03-13,Cong nghe Thong tin,Ky thuat Phan mem,2025-2026,Hoc ky 2,2.83,66,Hoc bong Dong hanh Vuot kho,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000212,Truong Phuong Phong,2003-11-09,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 2,3.22,85,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000213,Pham Kim Lam,2003-01-16,Du lich,Quan tri Khach san,2025-2026,Hoc ky 2,3.16,84,Hoc bong Tai nang VHU,1,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000214,Do Van Bich,2003-05-10,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 2,3.31,90,Hoc bong Khuyen khich Hoc tap,1,0,0,Dat,Dat HB KKHT Loai Gioi
+211A000215,Dinh Viet Nam,2003-01-19,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 2,3.96,71,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000216,Pham Nhat Bich,2003-09-02,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 2,2.69,77,Hoc bong Khuyen khich Hoc tap,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000217,Phan Nhat Cuong,2003-05-01,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 1,2.58,93,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000218,Vo Phuong Giang,2003-05-28,Du lich,Quan tri Khach san,2025-2026,Hoc ky 1,3.34,96,Hoc bong Khuyen khich Hoc tap,1,0,0,Dat,Dat HB KKHT Loai Gioi
+211A000219,Vu Tan Mai,2003-05-15,Du lich,Quan tri Khach san,2025-2026,Hoc ky 2,3.41,63,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000220,Nguyen Ngoc Khoa,2003-06-17,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 2,3.63,72,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000221,Phan Gia Cuong,2003-07-27,Du lich,Quan tri Khach san,2025-2026,Hoc ky 2,2.82,61,Hoc bong Dong hanh Vuot kho,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000222,Trinh Minh Bich,2003-05-01,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 2,3.0,83,Hoc bong Tai nang VHU,0,1,0,Khong dat,Vi pham ky luat trong hoc ky
+211A000223,Dang Truc Quan,2003-07-10,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 2,3.12,57,Hoc bong Khuyen khich Hoc tap,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000224,Bui Gia Bich,2003-11-10,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,2.91,72,Hoc bong Dong hanh Vuot kho,1,0,0,Dat,Dat HB Dong hanh Vuot kho
+211A000225,Vu Nhat Giang,2003-10-01,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,2.17,72,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000226,Huynh Minh Thao,2003-10-11,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 2,3.74,67,Hoc bong Dong hanh Vuot kho,1,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000227,Le Quoc Cuong,2003-04-04,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,2.82,82,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Kha
+211A000228,Hoang Khanh Em,2003-10-08,Kinh te,Ke toan,2025-2026,Hoc ky 1,3.03,58,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000229,Le Gia Phong,2003-07-01,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,3.18,67,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000230,Huynh Quoc Bich,2003-04-17,Kinh te,Ke toan,2025-2026,Hoc ky 1,3.31,85,Hoc bong Khuyen khich Hoc tap,1,0,0,Dat,Dat HB KKHT Loai Gioi
+211A000231,Bui Thanh Vy,2003-03-13,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 1,2.17,58,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000232,Duong Tan Giang,2003-03-04,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 1,3.59,75,Hoc bong Dong hanh Vuot kho,1,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000233,Mai Khanh Mai,2003-08-19,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,3.93,99,Hoc bong Tai nang VHU,0,0,0,Dat,Dat HB Tai nang VHU
+211A000234,Do Gia Dung,2003-12-02,Cong nghe Thong tin,Cong nghe Thong tin,2025-2026,Hoc ky 1,2.87,86,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000235,Hoang Nhat Quan,2003-04-04,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 1,2.24,66,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000236,Mai Ngoc Linh,2003-06-29,Ngoai ngu,Ngon ngu Trung Quoc,2025-2026,Hoc ky 2,3.29,94,Hoc bong Tai nang VHU,1,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000237,Ly Van Yen,2003-10-02,Kinh te,Luat Kinh te,2025-2026,Hoc ky 2,2.51,92,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000238,Cao Van Quang,2003-01-13,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 2,3.13,92,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000239,Nguyen Tan Vy,2003-02-02,Du lich,Quan tri Khach san,2025-2026,Hoc ky 2,3.37,69,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000240,Cao Phuong Mai,2003-03-15,Cong nghe Thong tin,Cong nghe Thong tin,2025-2026,Hoc ky 1,3.31,80,Hoc bong Tai nang VHU,0,1,0,Khong dat,Vi pham ky luat trong hoc ky
+211A000241,Tran Duc Nhi,2003-05-27,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 1,2.66,85,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000242,Hoang Phuong Em,2003-12-15,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,2.31,61,Hoc bong Khuyen khich Hoc tap,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000243,Vu Van An,2003-11-27,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 1,3.03,61,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000244,Pham Duc Giang,2003-03-09,Ngoai ngu,Ngon ngu Trung Quoc,2025-2026,Hoc ky 2,3.66,91,Hoc bong Tai nang VHU,0,0,0,Dat,Dat HB Tai nang VHU
+211A000245,Ngo Hoang Hang,2003-02-16,Kinh te,Logistics va Quan ly Chuoi cung ung,2025-2026,Hoc ky 1,2.11,96,Hoc bong Trai tim Hung Hau,1,0,0,Khong dat,GPA hoac DRL khong dat muc toi thieu cho HB Trai tim Hung Hau
+211A000246,Mai Minh Thao,2003-08-05,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 1,2.84,79,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000247,Dinh Phuong Nam,2003-12-23,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 2,3.28,84,Hoc bong Tai nang VHU,1,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000248,Pham Thi Quang,2003-08-28,Kinh te,Luat Kinh te,2025-2026,Hoc ky 2,3.64,75,Hoc bong Tai nang VHU,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000249,Mai Khanh Bich,2003-04-20,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 2,3.18,76,Hoc bong Trai tim Hung Hau,1,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000250,Phan Duc Hang,2003-10-31,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 1,2.78,74,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000251,Le Thi Hang,2003-05-20,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,2.73,65,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000252,Truong Thi Khoa,2003-07-13,Kinh te,Ke toan,2025-2026,Hoc ky 2,2.65,64,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000253,Phan Gia Dung,2003-04-17,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 1,2.91,96,Hoc bong Khuyen khich Hoc tap,1,0,0,Dat,Dat HB KKHT Loai Kha
+211A000254,Nguyen Tuyet Em,2003-07-28,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 2,2.2,70,Hoc bong Dong hanh Vuot kho,1,0,0,Dat,Dat HB Dong hanh Vuot kho
+211A000255,Duong Huu Em,2003-04-08,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 2,3.64,68,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000256,Do Phuong Bich,2003-12-18,Kinh te,Ke toan,2025-2026,Hoc ky 2,3.73,99,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Xuat sac
+211A000257,Dinh Phuong Cuong,2003-05-01,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 2,3.29,59,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000258,Mai Kim Lam,2003-09-08,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 2,3.31,98,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000259,Cao Kim Yen,2003-04-11,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,3.75,94,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000260,Le Duc Vy,2003-01-06,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,3.01,77,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000261,Le Ngoc Lam,2003-08-04,Cong nghe Thong tin,Ky thuat Phan mem,2025-2026,Hoc ky 2,3.66,68,Hoc bong Tai nang VHU,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000262,Truong Gia Bich,2003-07-04,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 2,3.71,87,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000263,Mai Phuong Dung,2003-07-31,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,3.08,79,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000264,Nguyen Duc Cuong,2003-04-15,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 2,3.16,70,Hoc bong Dong hanh Vuot kho,1,0,0,Dat,Dat HB Dong hanh Vuot kho
+211A000265,Phan Huu Bich,2003-01-26,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 1,2.97,96,Hoc bong Tai nang VHU,1,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000266,Huynh Kim Dung,2003-12-13,Du lich,Quan tri Khach san,2025-2026,Hoc ky 1,2.16,82,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000267,Pham Van An,2003-06-17,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,3.17,57,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000268,Vo Khanh An,2003-12-01,Du lich,Quan tri Khach san,2025-2026,Hoc ky 2,2.27,90,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000269,Duong Tan Linh,2003-12-09,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 1,3.01,60,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000270,Trinh Khanh Dung,2003-09-25,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 1,3.48,99,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Gioi
+211A000271,Vo Tuyet Linh,2003-06-03,Cong nghe Thong tin,Ky thuat Phan mem,2025-2026,Hoc ky 1,3.59,85,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000272,Mai Gia An,2003-05-25,Kinh te,Luat Kinh te,2025-2026,Hoc ky 1,2.61,89,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000273,Hoang Minh Mai,2003-09-02,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 2,3.04,71,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Kha
+211A000274,Mai Nhat Thinh,2003-05-13,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 2,3.24,92,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Gioi
+211A000275,Trinh Hoang Yen,2003-09-08,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 1,2.18,77,Hoc bong Tai nang VHU,1,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000276,Huynh Tuyet Thinh,2003-06-06,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,3.16,86,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000277,Phan Kim Mai,2003-04-13,Du lich,Quan tri Khach san,2025-2026,Hoc ky 1,3.25,70,Hoc bong Tai nang VHU,1,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000278,Huynh Van Lam,2003-01-31,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,3.8,87,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000279,Le Viet Quan,2003-05-19,Kinh te,Logistics va Quan ly Chuoi cung ung,2025-2026,Hoc ky 1,2.5,86,Hoc bong Khuyen khich Hoc tap,1,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000280,Pham Thi Khoa,2003-03-30,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 1,2.99,71,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000281,Trinh Phuong Thao,2003-08-03,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 1,3.33,79,Hoc bong Tai nang VHU,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000282,Vu Tuyet Mai,2003-05-21,Cong nghe Thong tin,Cong nghe Thong tin,2025-2026,Hoc ky 2,3.84,86,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000283,Ngo Minh Dung,2003-04-15,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 1,3.53,93,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Gioi
+211A000284,Vu Minh Vy,2003-08-04,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,2.32,92,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000285,Ly Quoc Hang,2003-01-14,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 2,2.67,88,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000286,Duong Nhat Hang,2003-02-11,Kinh te,Quan tri Kinh doanh,2025-2026,Hoc ky 1,2.95,85,Hoc bong Trai tim Hung Hau,1,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000287,Le Truc Quang,2003-12-22,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,2.9,78,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Kha
+211A000288,Do Truc Yen,2003-01-30,Du lich,Quan tri Khach san,2025-2026,Hoc ky 2,2.52,79,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000289,Hoang Tuyet Lam,2003-09-21,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,3.48,56,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000290,Dang Thanh Giang,2003-12-21,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 2,2.71,55,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000291,Vo Tuyet Khoa,2003-02-18,Kinh te,Quan tri Kinh doanh,2025-2026,Hoc ky 1,3.93,99,Hoc bong Tai nang VHU,0,0,0,Dat,Dat HB Tai nang VHU
+211A000292,Dang Hoang Linh,2003-05-23,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 2,2.46,96,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000293,Dang Kim Khoa,2003-09-08,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 2,2.19,60,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000294,Trinh Tan Vy,2003-10-11,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 1,2.13,82,Hoc bong Tai nang VHU,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000295,Bui Tuyet Vy,2003-01-07,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 2,3.38,83,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Gioi
+211A000296,Mai Khanh Yen,2003-10-26,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 1,3.86,74,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000297,Nguyen Duc Phong,2003-07-11,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,2.58,58,Hoc bong Tai nang VHU,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000298,Mai Ngoc Bich,2003-05-17,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 2,2.2,81,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000299,Vu Thanh Nam,2003-05-04,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 1,3.51,75,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Kha
+211A000300,Tran Nhat An,2003-03-28,Cong nghe Thong tin,Ky thuat Phan mem,2025-2026,Hoc ky 1,2.29,61,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000301,Hoang Truc Dung,2003-10-03,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 2,2.94,68,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000302,Ly Thanh Giang,2003-10-31,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,2.58,76,Hoc bong Trai tim Hung Hau,1,1,1,Khong dat,Vi pham ky luat trong hoc ky
+211A000303,Huynh Gia An,2003-02-18,Kinh te,Logistics va Quan ly Chuoi cung ung,2025-2026,Hoc ky 1,2.68,63,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000304,Le Truc Thao,2003-05-02,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,3.31,70,Hoc bong Trai tim Hung Hau,1,0,0,Khong dat,GPA hoac DRL khong dat muc toi thieu cho HB Trai tim Hung Hau
+211A000305,Huynh Tan Thinh,2003-01-30,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 1,2.56,74,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000306,Cao Ngoc Dung,2003-12-07,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 2,3.03,87,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000307,Truong Truc Quan,2003-07-14,Kinh te,Ke toan,2025-2026,Hoc ky 2,3.05,62,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000308,Ngo Viet Cuong,2003-11-28,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 1,3.6,74,Hoc bong Tai nang VHU,1,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000309,Bui Thanh Giang,2003-10-24,Ngoai ngu,Ngon ngu Trung Quoc,2025-2026,Hoc ky 1,3.47,70,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Kha
+211A000310,Pham Truc Khoa,2003-07-01,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 1,3.85,62,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000311,Dang Truc An,2003-04-13,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 2,3.53,59,Hoc bong Dong hanh Vuot kho,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000312,Do Thanh Phong,2003-04-13,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 1,2.92,57,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000313,Hoang Tan Quang,2003-09-01,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,3.3,98,Hoc bong Tai nang VHU,1,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000314,Pham Thi Giang,2003-03-07,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 2,2.26,88,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000315,Cao Ngoc Thinh,2003-11-16,Kinh te,Luat Kinh te,2025-2026,Hoc ky 2,2.65,62,Hoc bong Tai nang VHU,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000316,Trinh Thanh Giang,2003-05-09,Kinh te,Marketing,2025-2026,Hoc ky 1,2.23,99,Hoc bong Tai nang VHU,1,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000317,Mai Ngoc Giang,2003-05-24,Du lich,Quan tri Khach san,2025-2026,Hoc ky 2,3.52,88,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Gioi
+211A000318,Huynh Khanh Quang,2003-12-09,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 1,2.97,94,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000319,Dinh Khanh Hang,2003-07-07,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 2,3.31,81,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000320,Bui Thanh Quan,2003-05-11,Ngoai ngu,Ngon ngu Trung Quoc,2025-2026,Hoc ky 1,3.85,58,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000321,Mai Thanh Thinh,2003-06-20,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 1,2.57,89,Hoc bong Trai tim Hung Hau,1,0,0,Dat,Dat HB Trai tim Hung Hau (Hoan canh kho khan + Hoc luc Kha tro len)
+211A000322,Dang Huu Vy,2003-06-08,Kinh te,Logistics va Quan ly Chuoi cung ung,2025-2026,Hoc ky 2,2.53,70,Hoc bong Trai tim Hung Hau,1,0,0,Khong dat,GPA hoac DRL khong dat muc toi thieu cho HB Trai tim Hung Hau
+211A000323,Nguyen Quoc Em,2003-11-10,Kinh te,Luat Kinh te,2025-2026,Hoc ky 1,2.17,64,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000324,Do Thi Linh,2003-03-27,Cong nghe Thong tin,Cong nghe Thong tin,2025-2026,Hoc ky 1,2.98,87,Hoc bong Tai nang VHU,1,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000325,Phan Hoang An,2003-01-22,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,2.33,76,Hoc bong Tai nang VHU,1,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000326,Do Thi Linh,2003-01-07,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,3.91,84,Hoc bong Trai tim Hung Hau,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000327,Mai Nhat Khoa,2003-01-05,Kinh te,Marketing,2025-2026,Hoc ky 2,3.46,71,Hoc bong Tai nang VHU,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000328,Cao Kim Cuong,2003-04-10,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 2,2.19,59,Hoc bong Trai tim Hung Hau,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000329,Dinh Khanh Em,2003-09-07,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 1,2.46,90,Hoc bong Tai nang VHU,1,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000330,Ngo Thanh Quan,2003-07-08,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 2,2.1,89,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000331,Vo Ngoc Thao,2003-04-21,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 2,3.08,67,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000332,Ly Nhat Thao,2003-04-05,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 2,2.77,57,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000333,Ly Van An,2003-03-13,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 2,3.28,58,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000334,Vu Tan Cuong,2003-06-13,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 1,2.33,95,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000335,Hoang Thi Cuong,2003-05-14,Ngoai ngu,Ngon ngu Trung Quoc,2025-2026,Hoc ky 2,2.41,77,Hoc bong Trai tim Hung Hau,1,0,0,Khong dat,GPA hoac DRL khong dat muc toi thieu cho HB Trai tim Hung Hau
+211A000336,Truong Huu Hang,2003-08-25,Cong nghe Thong tin,Ky thuat Phan mem,2025-2026,Hoc ky 2,2.66,95,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000337,Phan Quoc Yen,2003-10-25,Ngoai ngu,Ngon ngu Trung Quoc,2025-2026,Hoc ky 2,3.67,86,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Xuat sac
+211A000338,Duong Khanh Em,2003-05-14,Ngoai ngu,Ngon ngu Trung Quoc,2025-2026,Hoc ky 1,2.8,86,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000339,Huynh Ngoc Giang,2003-12-15,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 2,2.33,59,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000340,Phan Kim Nam,2003-12-16,Du lich,Quan tri Khach san,2025-2026,Hoc ky 1,2.38,81,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000341,Ngo Viet An,2003-09-26,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 1,3.83,87,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000342,Do Viet Khoa,2003-06-08,Kinh te,Quan tri Kinh doanh,2025-2026,Hoc ky 1,3.44,77,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000343,Cao Truc Quang,2003-12-09,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 2,2.75,78,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000344,Do Nhat Quan,2003-03-10,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 2,3.72,59,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000345,Cao Thanh Hang,2003-06-13,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 2,2.81,83,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000346,Nguyen Thi Cuong,2003-09-28,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 2,2.81,93,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Kha
+211A000347,Le Quoc Quan,2003-11-01,Du lich,Quan tri Khach san,2025-2026,Hoc ky 1,3.28,70,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Kha
+211A000348,Phan Minh Quang,2003-10-01,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 2,2.32,58,Hoc bong Dong hanh Vuot kho,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000349,Ngo Tan Mai,2003-06-23,Cong nghe Thong tin,Ky thuat Phan mem,2025-2026,Hoc ky 2,3.55,57,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000350,Hoang Truc Bich,2003-09-23,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 1,2.99,56,Hoc bong Dong hanh Vuot kho,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000351,Mai Tuyet Quan,2003-03-15,Kinh te,Logistics va Quan ly Chuoi cung ung,2025-2026,Hoc ky 2,2.49,60,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000352,Le Thanh Lam,2003-01-07,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 2,2.86,82,Hoc bong Tai nang VHU,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000353,Huynh Truc Quan,2003-09-21,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 2,2.85,71,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Kha
+211A000354,Dinh Duc Phong,2003-12-11,Kinh te,Luat Kinh te,2025-2026,Hoc ky 2,2.89,93,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Kha
+211A000355,Nguyen Duc Mai,2003-08-15,Kinh te,Quan tri Kinh doanh,2025-2026,Hoc ky 2,3.63,73,Hoc bong Trai tim Hung Hau,1,0,0,Khong dat,GPA hoac DRL khong dat muc toi thieu cho HB Trai tim Hung Hau
+211A000356,Ly Tuyet Hang,2003-09-01,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 2,2.43,63,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000357,Phan Truc Phong,2003-12-25,Cong nghe Thong tin,Ky thuat Phan mem,2025-2026,Hoc ky 2,2.39,95,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000358,Vu Khanh Quan,2003-12-28,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 1,2.14,65,Hoc bong Dong hanh Vuot kho,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000359,Dang Gia Phong,2003-05-20,Cong nghe Thong tin,Cong nghe Thong tin,2025-2026,Hoc ky 1,3.37,60,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000360,Huynh Kim Khoa,2003-09-21,Kinh te,Quan tri Kinh doanh,2025-2026,Hoc ky 1,2.24,60,Hoc bong Trai tim Hung Hau,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000361,Nguyen Nhat Nam,2003-05-07,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,3.1,87,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000362,Do Gia Nhi,2003-05-02,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,3.49,70,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Kha
+211A000363,Ly Thi Quang,2003-04-29,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 1,2.17,61,Hoc bong Dong hanh Vuot kho,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000364,Dang Viet Vy,2003-01-19,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 2,3.34,72,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Kha
+211A000365,Huynh Khanh Dung,2003-02-27,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 1,2.38,79,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000366,Ngo Huu Quang,2003-11-06,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 1,3.18,55,Hoc bong Dong hanh Vuot kho,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000367,Vo Huu Thao,2003-05-12,Kinh te,Quan tri Kinh doanh,2025-2026,Hoc ky 2,2.42,76,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000368,Pham Hoang Dung,2003-11-24,Cong nghe Thong tin,Ky thuat Phan mem,2025-2026,Hoc ky 2,3.48,70,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000369,Do Tan Giang,2003-02-15,Kinh te,Quan tri Kinh doanh,2025-2026,Hoc ky 1,3.43,90,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000370,Ngo Hoang Yen,2003-07-13,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 2,3.32,71,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Kha
+211A000371,Hoang Truc An,2003-03-26,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,2.14,94,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000372,Mai Kim Quan,2003-08-11,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 1,2.64,82,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000373,Phan Gia Thao,2003-08-29,Du lich,Quan tri Khach san,2025-2026,Hoc ky 1,2.77,64,Hoc bong Tai nang VHU,1,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000374,Do Gia Vy,2003-06-18,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,3.43,76,Hoc bong Trai tim Hung Hau,1,0,0,Dat,Dat HB Trai tim Hung Hau (Hoan canh kho khan + Hoc luc Kha tro len)
+211A000375,Ngo Truc Cuong,2003-01-18,Kinh te,Tai chinh Ngan hang,2025-2026,Hoc ky 1,2.44,86,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000376,Ly Ngoc Quan,2003-03-31,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 1,3.87,93,Hoc bong Tai nang VHU,0,0,0,Dat,Dat HB Tai nang VHU
+211A000377,Nguyen Ngoc Cuong,2003-11-17,Du lich,Quan tri Khach san,2025-2026,Hoc ky 1,2.7,88,Hoc bong Trai tim Hung Hau,1,0,0,Dat,Dat HB Trai tim Hung Hau (Hoan canh kho khan + Hoc luc Kha tro len)
+211A000378,Le Ngoc Quang,2003-09-22,Kinh te,Luat Kinh te,2025-2026,Hoc ky 2,2.37,77,Hoc bong Dong hanh Vuot kho,1,0,0,Dat,Dat HB Dong hanh Vuot kho
+211A000379,Do Thanh Mai,2003-01-24,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,3.43,80,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Gioi
+211A000380,Trinh Tuyet Thao,2003-09-11,Du lich,Quan tri Khach san,2025-2026,Hoc ky 1,2.72,78,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000381,Do Gia Quan,2003-11-21,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 1,2.39,98,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000382,Pham Tan Vy,2003-06-30,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 2,3.93,68,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000383,Bui Quoc Thao,2003-04-17,Kinh te,Marketing,2025-2026,Hoc ky 2,3.42,83,Hoc bong Tai nang VHU,1,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000384,Phan Minh Dung,2003-03-11,Kinh te,Luat Kinh te,2025-2026,Hoc ky 2,2.39,86,Hoc bong Khuyen khich Hoc tap,1,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000385,Ly Tan Vy,2003-05-09,Du lich,Quan tri Khach san,2025-2026,Hoc ky 2,3.31,80,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Gioi
+211A000386,Bui Truc Mai,2003-08-12,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 1,3.71,99,Hoc bong Dong hanh Vuot kho,0,1,0,Khong dat,Vi pham ky luat trong hoc ky
+211A000387,Tran Hoang Dung,2003-04-06,Cong nghe Thong tin,Ky thuat Phan mem,2025-2026,Hoc ky 1,2.31,98,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000388,Truong Minh Nhi,2003-12-25,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 2,3.39,60,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000389,Phan Tan Quang,2003-05-17,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 2,3.04,82,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Kha
+211A000390,Dinh Duc Giang,2003-02-18,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 1,3.94,87,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000391,Truong Minh Quan,2003-03-11,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 2,3.62,78,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000392,Cao Quoc Dung,2003-11-28,Cong nghe Thong tin,Ky thuat Phan mem,2025-2026,Hoc ky 2,3.2,96,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000393,Dang Tuyet Thinh,2003-05-06,Ngoai ngu,Ngon ngu Trung Quoc,2025-2026,Hoc ky 2,2.22,97,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000394,Dinh Viet Quang,2003-12-29,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,3.7,59,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000395,Ngo Tuyet Nam,2003-07-09,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 2,3.63,74,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Kha
+211A000396,Ly Kim Phong,2003-10-20,Kinh te,Luat Kinh te,2025-2026,Hoc ky 2,2.37,77,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000397,Vu Tuyet Nam,2003-05-02,Cong nghe Thong tin,Ky thuat Phan mem,2025-2026,Hoc ky 1,3.1,92,Hoc bong Dong hanh Vuot kho,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000398,Bui Minh Phong,2003-03-04,Ngoai ngu,Ngon ngu Trung Quoc,2025-2026,Hoc ky 2,3.31,91,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Gioi
+211A000399,Ly Minh Hang,2003-05-28,Cong nghe Thong tin,Cong nghe Thong tin,2025-2026,Hoc ky 2,3.3,73,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Kha
+211A000400,Le Nhat Nam,2003-10-18,Du lich,Quan tri Khach san,2025-2026,Hoc ky 2,2.62,94,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000401,Vo Tuyet Nhi,2003-12-02,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 1,3.39,75,Hoc bong Tai nang VHU,1,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000402,Bui Khanh Nam,2003-06-30,Du lich,Quan tri Khach san,2025-2026,Hoc ky 2,3.75,96,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Xuat sac
+211A000403,Ly Quoc Khoa,2003-12-25,Kinh te,Tai chinh Ngan hang,2025-2026,Hoc ky 2,2.83,61,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000404,Nguyen Viet Giang,2003-09-09,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 2,3.87,88,Hoc bong Tai nang VHU,1,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000405,Ly Viet Quang,2003-09-02,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 2,2.54,57,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000406,Trinh Phuong An,2003-06-26,Kinh te,Logistics va Quan ly Chuoi cung ung,2025-2026,Hoc ky 1,2.21,73,Hoc bong Trai tim Hung Hau,1,0,0,Khong dat,GPA hoac DRL khong dat muc toi thieu cho HB Trai tim Hung Hau
+211A000407,Duong Hoang Hang,2003-05-14,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,2.17,71,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000408,Ly Kim Vy,2003-11-22,Du lich,Quan tri Khach san,2025-2026,Hoc ky 2,3.9,94,Hoc bong Tai nang VHU,0,0,0,Dat,Dat HB Tai nang VHU
+211A000409,Pham Thi Lam,2003-11-25,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,2.77,70,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000410,Bui Ngoc Quang,2003-12-08,Cong nghe Thong tin,Cong nghe Thong tin,2025-2026,Hoc ky 2,2.35,55,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000411,Truong Khanh Cuong,2003-11-14,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 1,2.3,91,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000412,Ngo Truc Mai,2003-05-18,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 1,3.01,90,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000413,Nguyen Thi Linh,2003-11-01,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,3.9,92,Hoc bong Tai nang VHU,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000414,Mai Hoang Thao,2003-02-17,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 1,3.59,64,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000415,Le Khanh Vy,2003-12-05,Kinh te,Marketing,2025-2026,Hoc ky 2,2.79,94,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000416,Dinh Minh Lam,2003-04-23,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 1,3.38,55,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000417,Vu Van Bich,2003-12-30,Du lich,Quan tri Khach san,2025-2026,Hoc ky 2,2.44,80,Hoc bong Khuyen khich Hoc tap,1,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000418,Phan Viet Vy,2003-12-13,Ngoai ngu,Ngon ngu Trung Quoc,2025-2026,Hoc ky 2,2.2,83,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000419,Duong Huu An,2003-10-08,Kinh te,Ke toan,2025-2026,Hoc ky 1,2.34,78,Hoc bong Trai tim Hung Hau,1,0,0,Khong dat,GPA hoac DRL khong dat muc toi thieu cho HB Trai tim Hung Hau
+211A000420,Dinh Viet Lam,2003-01-26,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 1,2.11,98,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000421,Pham Ngoc Em,2003-06-19,Cong nghe Thong tin,Cong nghe Thong tin,2025-2026,Hoc ky 2,3.17,92,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Kha
+211A000422,Phan Ngoc Khoa,2003-04-04,Du lich,Quan tri Khach san,2025-2026,Hoc ky 2,3.0,65,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000423,Vu Ngoc Bich,2003-08-13,Kinh te,Logistics va Quan ly Chuoi cung ung,2025-2026,Hoc ky 2,3.8,80,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000424,Nguyen Minh Thao,2003-09-23,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 1,3.17,56,Hoc bong Khuyen khich Hoc tap,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000425,Vo Hoang Thinh,2003-07-11,Kinh te,Tai chinh Ngan hang,2025-2026,Hoc ky 1,2.53,86,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000426,Trinh Thi Thinh,2003-06-20,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 2,3.13,78,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Kha
+211A000427,Duong Huu An,2003-03-24,Cong nghe Thong tin,Cong nghe Thong tin,2025-2026,Hoc ky 2,2.38,58,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000428,Ly Gia Phong,2003-10-18,Kinh te,Quan tri Kinh doanh,2025-2026,Hoc ky 1,2.14,76,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000429,Trinh Tuyet Giang,2003-09-19,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 1,3.03,83,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000430,Bui Van Yen,2003-04-28,Cong nghe Thong tin,Cong nghe Thong tin,2025-2026,Hoc ky 1,3.62,57,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000431,Truong Thi Cuong,2003-12-31,Kinh te,Luat Kinh te,2025-2026,Hoc ky 1,3.79,69,Hoc bong Tai nang VHU,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000432,Mai Phuong Nhi,2003-02-27,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 2,2.95,78,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Kha
+211A000433,Le Gia Nhi,2003-06-12,Cong nghe Thong tin,Cong nghe Thong tin,2025-2026,Hoc ky 2,2.34,88,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000434,Le Ngoc Vy,2003-07-01,Du lich,Quan tri Khach san,2025-2026,Hoc ky 1,2.42,94,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000435,Bui Viet Cuong,2003-10-04,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 1,2.38,95,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000436,Hoang Thi Khoa,2003-03-11,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 2,2.48,82,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000437,Dang Kim Vy,2003-02-22,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 2,3.95,65,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000438,Tran Thanh Quang,2003-01-27,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 1,3.96,61,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000439,Phan Tuyet Nam,2003-07-13,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 2,3.77,55,Hoc bong Dong hanh Vuot kho,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000440,Tran Thi Thao,2003-08-29,Du lich,Quan tri Khach san,2025-2026,Hoc ky 1,2.85,83,Hoc bong Trai tim Hung Hau,0,1,0,Khong dat,Vi pham ky luat trong hoc ky
+211A000441,Huynh Ngoc Thinh,2003-08-26,Ngoai ngu,Ngon ngu Trung Quoc,2025-2026,Hoc ky 1,2.42,56,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000442,Hoang Minh Yen,2003-04-13,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,3.64,56,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000443,Mai Van Quan,2003-12-08,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 2,2.83,63,Hoc bong Khuyen khich Hoc tap,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000444,Mai Nhat Lam,2003-01-09,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 1,3.48,75,Hoc bong Trai tim Hung Hau,1,0,0,Dat,Dat HB Trai tim Hung Hau (Hoan canh kho khan + Hoc luc Kha tro len)
+211A000445,Nguyen Gia Dung,2003-07-30,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 1,3.63,71,Hoc bong Tai nang VHU,1,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000446,Tran Nhat Thao,2003-02-26,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 2,2.56,58,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000447,Tran Ngoc Mai,2003-08-18,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 2,2.14,93,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000448,Le Gia Quan,2003-05-31,Kinh te,Ke toan,2025-2026,Hoc ky 2,3.62,73,Hoc bong Khuyen khich Hoc tap,1,0,0,Dat,Dat HB KKHT Loai Kha
+211A000449,Nguyen Hoang Giang,2003-06-12,Cong nghe Thong tin,Cong nghe Thong tin,2025-2026,Hoc ky 2,3.92,65,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000450,Vu Nhat Vy,2003-04-30,Kinh te,Marketing,2025-2026,Hoc ky 2,3.47,80,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Gioi
+211A000451,Duong Minh Quan,2003-04-08,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,2.72,81,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000452,Phan Phuong Nam,2003-02-07,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,3.39,68,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000453,Tran Viet Thao,2003-10-05,Kinh te,Logistics va Quan ly Chuoi cung ung,2025-2026,Hoc ky 2,3.61,79,Hoc bong Dong hanh Vuot kho,1,0,0,Dat,Dat HB Dong hanh Vuot kho
+211A000454,Ly Phuong Vy,2003-12-20,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 1,2.67,85,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000455,Nguyen Kim Dung,2003-12-08,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 1,3.65,81,Hoc bong Trai tim Hung Hau,1,0,0,Dat,Dat HB Trai tim Hung Hau (Hoan canh kho khan + Hoc luc Kha tro len)
+211A000456,Phan Tan Nam,2003-01-18,Ngoai ngu,Ngon ngu Trung Quoc,2025-2026,Hoc ky 2,2.77,78,Hoc bong Khuyen khich Hoc tap,1,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000457,Dinh Van Hang,2003-09-27,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 2,3.09,92,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000458,Hoang Gia Giang,2003-08-05,Du lich,Quan tri Khach san,2025-2026,Hoc ky 1,3.65,76,Hoc bong Khuyen khich Hoc tap,1,0,0,Dat,Dat HB KKHT Loai Kha
+211A000459,Dang Quoc An,2003-06-01,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,3.42,80,Hoc bong Trai tim Hung Hau,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000460,Duong Minh Em,2003-09-06,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 1,3.93,67,Hoc bong Tai nang VHU,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000461,Pham Tuyet Nhi,2003-07-22,Kinh te,Ke toan,2025-2026,Hoc ky 2,3.66,69,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000462,Ly Duc Bich,2003-02-17,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 1,2.29,92,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000463,Phan Tuyet Phong,2003-03-20,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,2.86,77,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Kha
+211A000464,Mai Kim Giang,2003-07-18,Cong nghe Thong tin,Cong nghe Thong tin,2025-2026,Hoc ky 2,2.6,86,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000465,Vo Huu Khoa,2003-06-11,Kinh te,Luat Kinh te,2025-2026,Hoc ky 1,2.8,60,Hoc bong Dong hanh Vuot kho,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000466,Ngo Minh Nam,2003-08-18,Kinh te,Ke toan,2025-2026,Hoc ky 2,2.35,61,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000467,Dinh Quoc Khoa,2003-02-06,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 2,2.41,64,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000468,Do Khanh Quan,2003-11-06,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 2,2.25,56,Hoc bong Khuyen khich Hoc tap,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000469,Ngo Ngoc Thinh,2003-06-30,Kinh te,Logistics va Quan ly Chuoi cung ung,2025-2026,Hoc ky 2,3.38,81,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000470,Phan Quoc Nhi,2003-07-06,Cong nghe Thong tin,Ky thuat Phan mem,2025-2026,Hoc ky 2,3.67,61,Hoc bong Khuyen khich Hoc tap,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000471,Do Phuong Hang,2003-04-23,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 2,3.66,55,Hoc bong Khuyen khich Hoc tap,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000472,Pham Tuyet Mai,2003-03-01,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 2,3.53,79,Hoc bong Trai tim Hung Hau,1,0,0,Dat,Dat HB Trai tim Hung Hau (Hoan canh kho khan + Hoc luc Kha tro len)
+211A000473,Do Viet Thinh,2003-08-04,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 1,3.44,69,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000474,Le Hoang Thinh,2003-11-26,Cong nghe Thong tin,Cong nghe Thong tin,2025-2026,Hoc ky 1,2.38,64,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000475,Pham Minh Thao,2003-08-24,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 1,2.95,81,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000476,Bui Viet Nam,2003-04-26,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 2,3.82,73,Hoc bong Khuyen khich Hoc tap,1,0,0,Dat,Dat HB KKHT Loai Kha
+211A000477,Dang Hoang Khoa,2003-12-22,Du lich,Quan tri Khach san,2025-2026,Hoc ky 1,3.72,65,Hoc bong Trai tim Hung Hau,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000478,Mai Van Phong,2003-02-06,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 1,2.43,70,Hoc bong Dong hanh Vuot kho,1,0,0,Dat,Dat HB Dong hanh Vuot kho
+211A000479,Le Thanh Khoa,2003-03-18,Kinh te,Ke toan,2025-2026,Hoc ky 1,3.08,69,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000480,Dang Tan Bich,2003-06-02,Du lich,Quan tri Khach san,2025-2026,Hoc ky 1,2.51,84,Hoc bong Khuyen khich Hoc tap,1,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000481,Nguyen Tan An,2003-06-19,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 2,3.07,67,Hoc bong Khuyen khich Hoc tap,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000482,Dinh Hoang Yen,2003-09-19,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 2,2.28,92,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000483,Duong Thi Cuong,2003-10-13,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 2,3.38,84,Hoc bong Trai tim Hung Hau,1,0,0,Dat,Dat HB Trai tim Hung Hau (Hoan canh kho khan + Hoc luc Kha tro len)
+211A000484,Hoang Tuyet Bich,2003-07-25,Cong nghe Thong tin,Cong nghe Thong tin,2025-2026,Hoc ky 2,3.13,77,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Kha
+211A000485,Truong Viet Thinh,2003-11-16,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 2,3.47,87,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000486,Vo Duc Khoa,2003-06-15,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,2.67,85,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000487,Trinh Truc Vy,2003-07-16,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 1,3.52,71,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000488,Dang Ngoc Linh,2003-05-04,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 1,3.67,60,Hoc bong Trai tim Hung Hau,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000489,Huynh Viet Bich,2003-04-06,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 1,2.75,55,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000490,Truong Huu Nam,2003-01-10,Kinh te,Logistics va Quan ly Chuoi cung ung,2025-2026,Hoc ky 1,2.76,89,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000491,Ly Khanh Giang,2003-07-30,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 2,2.54,98,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000492,Cao Quoc Vy,2003-01-16,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 2,3.2,60,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000493,Mai Thi Khoa,2003-05-17,Kinh te,Marketing,2025-2026,Hoc ky 1,3.06,98,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000494,Ly Truc Quan,2003-02-04,Kinh te,Quan tri Kinh doanh,2025-2026,Hoc ky 2,3.0,65,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000495,Duong Nhat Giang,2003-03-14,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 2,2.88,88,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000496,Pham Duc Hang,2003-08-05,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 2,2.58,81,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000497,Vu Minh Dung,2003-02-19,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 1,3.67,65,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000498,Le Ngoc Dung,2003-06-23,Du lich,Quan tri Khach san,2025-2026,Hoc ky 1,3.29,93,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000499,Huynh Thi Mai,2003-06-27,Cong nghe Thong tin,Ky thuat Phan mem,2025-2026,Hoc ky 1,3.48,66,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000500,Truong Hoang Bich,2003-02-06,Kinh te,Logistics va Quan ly Chuoi cung ung,2025-2026,Hoc ky 2,3.41,76,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Kha
+211A000501,Pham Khanh Linh,2003-09-13,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 2,2.83,70,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Kha
+211A000502,Le Ngoc Lam,2003-07-13,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 1,2.12,72,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000503,Vo Viet Yen,2003-08-25,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 2,3.15,90,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Kha
+211A000504,Huynh Van Dung,2003-12-04,Du lich,Quan tri Khach san,2025-2026,Hoc ky 2,3.58,59,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000505,Trinh Phuong Phong,2003-01-04,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 2,2.33,68,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000506,Truong Tan Mai,2003-09-11,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,3.32,98,Hoc bong Tai nang VHU,1,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000507,Dang Duc Khoa,2003-03-23,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 1,3.93,97,Hoc bong Tai nang VHU,0,0,0,Dat,Dat HB Tai nang VHU
+211A000508,Dinh Truc Khoa,2003-03-13,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 1,2.68,68,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000509,Dinh Nhat Mai,2003-05-06,Kinh te,Logistics va Quan ly Chuoi cung ung,2025-2026,Hoc ky 2,3.7,97,Hoc bong Tai nang VHU,0,0,0,Dat,Dat HB Tai nang VHU
+211A000510,Bui Tuyet Quan,2003-12-01,Kinh te,Logistics va Quan ly Chuoi cung ung,2025-2026,Hoc ky 1,2.82,63,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000511,Mai Kim Phong,2003-09-30,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 1,2.16,58,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000512,Vu Tan Quang,2003-09-13,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,3.02,81,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000513,Phan Van Em,2003-10-01,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 1,2.43,77,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000514,Ly Thanh Bich,2003-11-13,Cong nghe Thong tin,Ky thuat Phan mem,2025-2026,Hoc ky 1,3.92,79,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000515,Do Huu Yen,2003-08-15,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 1,2.69,71,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000516,Huynh Truc Quang,2003-10-04,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 2,3.74,73,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000517,Ly Duc Quang,2003-11-09,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,3.42,71,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000518,Pham Tan An,2003-01-17,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 1,2.79,74,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000519,Duong Quoc Nam,2003-03-18,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 2,3.49,64,Hoc bong Khuyen khich Hoc tap,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000520,Hoang Kim Nhi,2003-03-31,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 2,3.87,72,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Kha
+211A000521,Le Thanh Bich,2003-07-19,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 1,2.88,99,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Kha
+211A000522,Do Quoc Yen,2003-08-20,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,2.98,67,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000523,Duong Khanh Khoa,2003-05-16,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 2,2.16,84,Hoc bong Trai tim Hung Hau,1,0,0,Khong dat,GPA hoac DRL khong dat muc toi thieu cho HB Trai tim Hung Hau
+211A000524,Tran Quoc Hang,2003-12-15,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 1,2.28,80,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000525,Dang Viet Em,2003-11-28,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 2,3.7,95,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000526,Mai Phuong Yen,2003-12-03,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 1,3.46,60,Hoc bong Dong hanh Vuot kho,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000527,Do Truc Nam,2003-11-02,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,3.93,83,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Gioi
+211A000528,Dang Thanh Thinh,2003-03-10,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 1,2.99,71,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Kha
+211A000529,Dinh Thi Bich,2003-08-06,Cong nghe Thong tin,Ky thuat Phan mem,2025-2026,Hoc ky 2,2.72,64,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000530,Trinh Tan Thao,2003-11-26,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,3.87,68,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000531,Vu Viet Nhi,2003-10-29,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 1,2.75,88,Hoc bong Trai tim Hung Hau,0,1,0,Khong dat,Vi pham ky luat trong hoc ky
+211A000532,Mai Ngoc Yen,2003-06-13,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 2,3.84,69,Hoc bong Trai tim Hung Hau,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000533,Duong Thi Mai,2003-06-28,Ngoai ngu,Ngon ngu Trung Quoc,2025-2026,Hoc ky 1,3.31,76,Hoc bong Trai tim Hung Hau,1,0,0,Dat,Dat HB Trai tim Hung Hau (Hoan canh kho khan + Hoc luc Kha tro len)
+211A000534,Vu Duc Giang,2003-11-06,Kinh te,Ke toan,2025-2026,Hoc ky 1,2.9,75,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000535,Vu Nhat Linh,2003-02-16,Kinh te,Ke toan,2025-2026,Hoc ky 2,3.34,82,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000536,Truong Thanh Yen,2003-01-07,Ngoai ngu,Ngon ngu Trung Quoc,2025-2026,Hoc ky 2,3.49,89,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000537,Cao Van Giang,2003-05-20,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 1,3.75,63,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000538,Trinh Ngoc Yen,2003-05-17,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 2,3.87,85,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Xuat sac
+211A000539,Ly Nhat Khoa,2003-01-21,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 2,2.74,57,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000540,Dinh Viet Linh,2003-07-02,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,3.85,66,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000541,Vu Quoc Mai,2003-08-25,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 1,3.17,67,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000542,Dinh Van Khoa,2003-11-29,Cong nghe Thong tin,Ky thuat Phan mem,2025-2026,Hoc ky 2,2.65,83,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000543,Vo Thanh Nhi,2003-08-07,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 1,2.69,60,Hoc bong Trai tim Hung Hau,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000544,Cao Kim Quan,2003-02-20,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,3.25,65,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000545,Duong Khanh Bich,2003-05-03,Kinh te,Tai chinh Ngan hang,2025-2026,Hoc ky 1,2.68,84,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000546,Hoang Thi Mai,2003-06-12,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 1,3.9,95,Hoc bong Tai nang VHU,1,0,0,Dat,Dat HB Tai nang VHU
+211A000547,Vo Nhat Thinh,2003-07-31,Kinh te,Ke toan,2025-2026,Hoc ky 2,3.21,78,Hoc bong Trai tim Hung Hau,1,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000548,Ngo Van Vy,2003-02-01,Cong nghe Thong tin,Cong nghe Thong tin,2025-2026,Hoc ky 2,2.13,61,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000549,Le Hoang Phong,2003-12-05,Du lich,Quan tri Khach san,2025-2026,Hoc ky 1,3.52,73,Hoc bong Dong hanh Vuot kho,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000550,Bui Nhat Lam,2003-11-24,Cong nghe Thong tin,Cong nghe Thong tin,2025-2026,Hoc ky 1,2.82,74,Hoc bong Tai nang VHU,1,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000551,Hoang Thanh An,2003-11-21,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 1,2.32,63,Hoc bong Trai tim Hung Hau,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000552,Vo Tan Mai,2003-12-06,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,2.43,92,Hoc bong Dong hanh Vuot kho,1,0,0,Dat,Dat HB Dong hanh Vuot kho
+211A000553,Phan Nhat Bich,2003-02-02,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 1,2.51,70,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000554,Ly Ngoc Quang,2003-02-06,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,2.94,97,Hoc bong Dong hanh Vuot kho,0,1,0,Khong dat,Vi pham ky luat trong hoc ky
+211A000555,Nguyen Nhat An,2003-03-31,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,2.8,73,Hoc bong Khuyen khich Hoc tap,1,0,0,Dat,Dat HB KKHT Loai Kha
+211A000556,Vu Phuong Thinh,2003-12-08,Kinh te,Tai chinh Ngan hang,2025-2026,Hoc ky 1,3.41,86,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000557,Bui Huu Thao,2003-07-17,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 2,2.67,65,Hoc bong Trai tim Hung Hau,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000558,Truong Huu An,2003-08-16,Kinh te,Tai chinh Ngan hang,2025-2026,Hoc ky 2,2.66,56,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000559,Phan Kim Bich,2003-07-26,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 2,3.37,73,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000560,Vo Tan Nam,2003-07-24,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 1,2.46,87,Hoc bong Tai nang VHU,1,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000561,Tran Phuong Lam,2003-09-05,Kinh te,Tai chinh Ngan hang,2025-2026,Hoc ky 2,3.89,59,Hoc bong Khuyen khich Hoc tap,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000562,Bui Tan Linh,2003-08-03,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,3.18,66,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000563,Truong Quoc Thao,2003-02-23,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,3.82,89,Hoc bong Khuyen khich Hoc tap,1,0,0,Dat,Dat HB KKHT Loai Xuat sac
+211A000564,Cao Gia Vy,2003-07-01,Kinh te,Luat Kinh te,2025-2026,Hoc ky 2,2.56,83,Hoc bong Dong hanh Vuot kho,0,1,0,Khong dat,Vi pham ky luat trong hoc ky
+211A000565,Ly Khanh Thao,2003-08-01,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,2.56,88,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000566,Bui Nhat Quan,2003-02-16,Kinh te,Logistics va Quan ly Chuoi cung ung,2025-2026,Hoc ky 1,2.61,94,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000567,Vu Tuyet Thinh,2003-01-17,Du lich,Quan tri Khach san,2025-2026,Hoc ky 1,3.41,89,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000568,Huynh Kim Thao,2003-10-08,Kinh te,Quan tri Kinh doanh,2025-2026,Hoc ky 2,3.92,92,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Xuat sac
+211A000569,Nguyen Truc Lam,2003-11-21,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 2,3.44,94,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000570,Vo Van Dung,2003-10-15,Kinh te,Quan tri Kinh doanh,2025-2026,Hoc ky 1,2.16,93,Hoc bong Khuyen khich Hoc tap,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000571,Huynh Truc Thao,2003-04-24,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,2.1,95,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000572,Phan Truc Phong,2003-01-24,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,2.82,81,Hoc bong Tai nang VHU,1,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000573,Hoang Khanh Khoa,2003-03-03,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 1,3.32,67,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000574,Vu Truc Bich,2003-03-27,Du lich,Quan tri Khach san,2025-2026,Hoc ky 2,2.15,89,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000575,Cao Huu Quang,2003-03-30,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 1,3.64,62,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000576,Bui Minh Thinh,2003-07-02,Du lich,Quan tri Khach san,2025-2026,Hoc ky 2,2.78,88,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000577,Le Viet Cuong,2003-07-17,Du lich,Quan tri Khach san,2025-2026,Hoc ky 2,2.96,55,Hoc bong Dong hanh Vuot kho,0,1,0,Khong dat,Vi pham ky luat trong hoc ky
+211A000578,Dinh Phuong Khoa,2003-04-26,Ngoai ngu,Ngon ngu Trung Quoc,2025-2026,Hoc ky 1,3.58,78,Hoc bong Trai tim Hung Hau,1,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000579,Huynh Viet Phong,2003-05-12,Kinh te,Marketing,2025-2026,Hoc ky 1,2.61,69,Hoc bong Dong hanh Vuot kho,0,1,0,Khong dat,Vi pham ky luat trong hoc ky
+211A000580,Duong Minh Quang,2003-03-30,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 1,3.39,84,Hoc bong Dong hanh Vuot kho,1,0,0,Dat,Dat HB Dong hanh Vuot kho
+211A000581,Nguyen Thanh Thinh,2003-09-21,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 1,3.66,76,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000582,Le Huu Cuong,2003-06-27,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,2.96,67,Hoc bong Tai nang VHU,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000583,Le Gia Linh,2003-05-25,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 1,2.83,57,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000584,Phan Viet Khoa,2003-12-28,Cong nghe Thong tin,Ky thuat Phan mem,2025-2026,Hoc ky 1,3.46,88,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000585,Mai Ngoc Cuong,2003-06-20,Du lich,Quan tri Khach san,2025-2026,Hoc ky 2,2.97,90,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Kha
+211A000586,Phan Ngoc Nam,2003-07-29,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 2,3.51,69,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000587,Do Duc Khoa,2003-09-27,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,3.39,80,Hoc bong Khuyen khich Hoc tap,1,0,0,Dat,Dat HB KKHT Loai Gioi
+211A000588,Ly Truc Mai,2003-09-09,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,2.98,97,Hoc bong Tai nang VHU,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000589,Vu Hoang Em,2003-09-04,Ngoai ngu,Ngon ngu Trung Quoc,2025-2026,Hoc ky 2,3.66,94,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Xuat sac
+211A000590,Le Duc Khoa,2003-03-26,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 1,2.28,76,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000591,Dinh Thi Yen,2003-06-24,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 1,3.6,80,Hoc bong Tai nang VHU,1,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000592,Dinh Tan Phong,2003-03-09,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 2,3.25,63,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000593,Huynh Khanh Quan,2003-05-19,Ngoai ngu,Ngon ngu Trung Quoc,2025-2026,Hoc ky 2,2.31,61,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000594,Vo Tan Hang,2003-05-24,Kinh te,Luat Kinh te,2025-2026,Hoc ky 2,2.4,79,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000595,Nguyen Truc Quang,2003-04-15,Ngoai ngu,Ngon ngu Trung Quoc,2025-2026,Hoc ky 2,3.93,56,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000596,Vo Kim Dung,2003-07-09,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 1,2.73,75,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000597,Duong Khanh Bich,2003-04-01,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 2,3.1,75,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000598,Do Hoang Yen,2003-12-24,Du lich,Quan tri Khach san,2025-2026,Hoc ky 2,2.18,69,Hoc bong Khuyen khich Hoc tap,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000599,Mai Khanh Vy,2003-10-05,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 2,3.04,82,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Kha
+211A000600,Truong Gia Hang,2003-10-15,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 1,2.42,96,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000601,Ly Quoc Nhi,2003-01-30,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 2,3.93,77,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000602,Vu Nhat Lam,2003-01-01,Kinh te,Ke toan,2025-2026,Hoc ky 2,2.68,97,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000603,Truong Duc Linh,2003-08-16,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 1,2.89,78,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000604,Truong Gia Quang,2003-12-22,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 2,2.82,83,Hoc bong Dong hanh Vuot kho,1,0,0,Dat,Dat HB Dong hanh Vuot kho
+211A000605,Huynh Hoang Giang,2003-08-31,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 1,2.32,70,Hoc bong Trai tim Hung Hau,1,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000606,Ly Thi Nam,2003-09-09,Cong nghe Thong tin,Ky thuat Phan mem,2025-2026,Hoc ky 2,2.13,78,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000607,Le Huu Hang,2003-07-19,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 2,3.12,64,Hoc bong Khuyen khich Hoc tap,0,1,0,Khong dat,Vi pham ky luat trong hoc ky
+211A000608,Tran Tuyet Yen,2003-08-08,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 2,3.71,64,Hoc bong Dong hanh Vuot kho,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000609,Vu Thi Phong,2003-05-28,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,3.02,84,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000610,Vu Phuong Quan,2003-04-03,Cong nghe Thong tin,Ky thuat Phan mem,2025-2026,Hoc ky 1,3.21,88,Hoc bong Tai nang VHU,1,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000611,Dinh Gia Em,2003-05-11,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 2,3.55,83,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000612,Pham Khanh Cuong,2003-06-09,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 1,3.1,65,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000613,Tran Kim Giang,2003-03-05,Cong nghe Thong tin,Ky thuat Phan mem,2025-2026,Hoc ky 1,3.31,66,Hoc bong Dong hanh Vuot kho,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000614,Ngo Viet Hang,2003-07-12,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 1,3.35,63,Hoc bong Trai tim Hung Hau,1,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000615,Tran Truc Khoa,2003-04-19,Kinh te,Logistics va Quan ly Chuoi cung ung,2025-2026,Hoc ky 2,3.42,80,Hoc bong Tai nang VHU,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000616,Duong Duc Nhi,2003-01-19,Cong nghe Thong tin,Ky thuat Phan mem,2025-2026,Hoc ky 1,3.66,67,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000617,Le Duc Hang,2003-11-18,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,2.28,67,Hoc bong Tai nang VHU,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000618,Mai Viet Hang,2003-04-07,Kinh te,Ke toan,2025-2026,Hoc ky 1,3.28,73,Hoc bong Trai tim Hung Hau,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000619,Huynh Tan Mai,2003-12-06,Kinh te,Logistics va Quan ly Chuoi cung ung,2025-2026,Hoc ky 1,3.81,70,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000620,Truong Tuyet Nhi,2003-02-14,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 1,2.47,89,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000621,Ly Huu Lam,2003-07-25,Kinh te,Ke toan,2025-2026,Hoc ky 2,2.5,64,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000622,Ly Minh Em,2003-12-02,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 2,2.85,80,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Kha
+211A000623,Duong Khanh Lam,2003-07-08,Cong nghe Thong tin,Cong nghe Thong tin,2025-2026,Hoc ky 2,3.69,74,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000624,Bui Huu Bich,2003-12-29,Kinh te,Quan tri Kinh doanh,2025-2026,Hoc ky 2,2.62,81,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000625,Mai Viet Hang,2003-09-14,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,3.35,68,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000626,Vu Khanh Nhi,2003-01-25,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 2,2.54,66,Hoc bong Tai nang VHU,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000627,Phan Khanh Dung,2003-08-17,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,2.37,60,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000628,Trinh Viet Hang,2003-11-13,Du lich,Quan tri Khach san,2025-2026,Hoc ky 1,3.54,74,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000629,Ly Viet Cuong,2003-06-24,Ngoai ngu,Ngon ngu Trung Quoc,2025-2026,Hoc ky 1,2.13,97,Hoc bong Trai tim Hung Hau,1,0,0,Khong dat,GPA hoac DRL khong dat muc toi thieu cho HB Trai tim Hung Hau
+211A000630,Cao Nhat Nam,2003-06-14,Cong nghe Thong tin,Ky thuat Phan mem,2025-2026,Hoc ky 1,3.25,99,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Gioi
+211A000631,Ly Ngoc Em,2003-05-03,Ngoai ngu,Ngon ngu Trung Quoc,2025-2026,Hoc ky 2,2.53,96,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000632,Trinh Tan Phong,2003-08-12,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 2,3.76,73,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000633,Trinh Viet Khoa,2003-08-15,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 2,2.18,89,Hoc bong Trai tim Hung Hau,1,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000634,Le Van Nhi,2003-08-17,Du lich,Quan tri Khach san,2025-2026,Hoc ky 1,3.85,69,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000635,Mai Phuong Phong,2003-06-13,Kinh te,Logistics va Quan ly Chuoi cung ung,2025-2026,Hoc ky 2,3.38,60,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000636,Pham Khanh Bich,2003-05-28,Kinh te,Logistics va Quan ly Chuoi cung ung,2025-2026,Hoc ky 2,3.77,57,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000637,Dinh Minh Lam,2003-08-20,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 1,2.31,66,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000638,Pham Nhat Nhi,2003-02-17,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 2,2.83,68,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000639,Duong Duc Quang,2003-02-21,Kinh te,Tai chinh Ngan hang,2025-2026,Hoc ky 2,3.73,81,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Gioi
+211A000640,Do Thanh Dung,2003-12-13,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 1,2.78,70,Hoc bong Dong hanh Vuot kho,1,0,0,Dat,Dat HB Dong hanh Vuot kho
+211A000641,Duong Thi Vy,2003-10-12,Kinh te,Marketing,2025-2026,Hoc ky 1,2.21,99,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000642,Mai Kim An,2003-07-05,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,3.07,96,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000643,Vu Truc Lam,2003-04-06,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 1,2.44,74,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000644,Mai Thanh Linh,2003-02-28,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,2.35,83,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000645,Vu Quoc Thinh,2003-05-13,Cong nghe Thong tin,Cong nghe Thong tin,2025-2026,Hoc ky 2,3.02,93,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000646,Dang Quoc Phong,2003-07-26,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,2.22,80,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000647,Mai Tuyet Lam,2003-10-18,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,3.4,82,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Gioi
+211A000648,Dang Thi Linh,2003-07-25,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,2.88,94,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Kha
+211A000649,Dinh Tan Lam,2003-12-10,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,3.41,94,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000650,Vo Duc Nhi,2003-05-26,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 2,2.48,89,Hoc bong Dong hanh Vuot kho,1,0,0,Dat,Dat HB Dong hanh Vuot kho
+211A000651,Mai Kim Thinh,2003-09-15,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 1,3.09,59,Hoc bong Khuyen khich Hoc tap,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000652,Do Gia Thinh,2003-10-28,Kinh te,Quan tri Kinh doanh,2025-2026,Hoc ky 1,3.12,83,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000653,Vo Viet Cuong,2003-06-04,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 1,3.32,84,Hoc bong Trai tim Hung Hau,0,1,0,Khong dat,Vi pham ky luat trong hoc ky
+211A000654,Truong Viet Mai,2003-01-18,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,3.1,78,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000655,Cao Minh Nam,2003-12-18,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 1,3.06,65,Hoc bong Khuyen khich Hoc tap,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000656,Ly Phuong Quan,2003-05-25,Kinh te,Marketing,2025-2026,Hoc ky 1,2.18,71,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000657,Vo Thi Nam,2003-11-12,Kinh te,Quan tri Kinh doanh,2025-2026,Hoc ky 2,3.79,89,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000658,Ly Duc Quang,2003-06-27,Kinh te,Quan tri Kinh doanh,2025-2026,Hoc ky 1,3.4,94,Hoc bong Tai nang VHU,1,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000659,Hoang Thi Quan,2003-12-20,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,3.01,60,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000660,Dinh Gia Yen,2003-06-20,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 1,3.59,84,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000661,Trinh Viet Hang,2003-04-25,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 1,3.47,70,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000662,Ly Ngoc Linh,2003-06-16,Kinh te,Marketing,2025-2026,Hoc ky 2,3.22,56,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000663,Tran Kim Hang,2003-11-08,Kinh te,Quan tri Kinh doanh,2025-2026,Hoc ky 2,3.11,76,Hoc bong Trai tim Hung Hau,0,1,0,Khong dat,Vi pham ky luat trong hoc ky
+211A000664,Pham Quoc Giang,2003-05-11,Kinh te,Logistics va Quan ly Chuoi cung ung,2025-2026,Hoc ky 2,3.64,98,Hoc bong Tai nang VHU,1,0,0,Dat,Dat HB Tai nang VHU
+211A000665,Mai Duc Em,2003-10-09,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 1,2.67,88,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000666,Phan Gia An,2003-10-03,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,2.87,80,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000667,Truong Thi Bich,2003-08-09,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 1,3.87,57,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000668,Do Tan Linh,2003-06-23,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 1,3.53,90,Hoc bong Khuyen khich Hoc tap,1,0,0,Dat,Dat HB KKHT Loai Gioi
+211A000669,Le Quoc Khoa,2003-10-10,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,2.11,79,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000670,Dinh Thanh Thinh,2003-09-10,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 1,3.25,86,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Gioi
+211A000671,Truong Ngoc Dung,2003-10-26,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 1,2.25,56,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000672,Do Thi Phong,2003-03-07,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 1,3.83,93,Hoc bong Trai tim Hung Hau,0,1,1,Khong dat,Vi pham ky luat trong hoc ky
+211A000673,Huynh Duc Thinh,2003-08-26,Cong nghe Thong tin,Cong nghe Thong tin,2025-2026,Hoc ky 1,2.65,79,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000674,Nguyen Hoang Khoa,2003-04-30,Kinh te,Quan tri Kinh doanh,2025-2026,Hoc ky 2,2.92,68,Hoc bong Trai tim Hung Hau,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000675,Le Van An,2003-09-19,Kinh te,Luat Kinh te,2025-2026,Hoc ky 1,3.13,98,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000676,Pham Huu Khoa,2003-01-21,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 1,2.9,66,Hoc bong Trai tim Hung Hau,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000677,Ngo Duc Quang,2003-07-23,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 2,2.26,99,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000678,Vo Truc Nhi,2003-02-04,Cong nghe Thong tin,Cong nghe Thong tin,2025-2026,Hoc ky 2,3.86,77,Hoc bong Khuyen khich Hoc tap,1,1,0,Khong dat,Vi pham ky luat trong hoc ky
+211A000679,Bui Quoc Dung,2003-10-28,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 2,3.48,63,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000680,Truong Tan Dung,2003-05-11,Cong nghe Thong tin,Cong nghe Thong tin,2025-2026,Hoc ky 1,2.75,74,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000681,Truong Kim Nhi,2003-12-22,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 1,3.37,60,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000682,Dinh Hoang Nam,2003-11-11,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 2,3.16,80,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000683,Bui Truc Thao,2003-03-31,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 2,2.33,84,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000684,Tran Phuong Phong,2003-11-02,Kinh te,Marketing,2025-2026,Hoc ky 1,2.19,97,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000685,Pham Quoc Thinh,2003-02-14,Kinh te,Marketing,2025-2026,Hoc ky 1,3.0,97,Hoc bong Tai nang VHU,1,1,0,Khong dat,Vi pham ky luat trong hoc ky
+211A000686,Trinh Gia Bich,2003-09-08,Ngoai ngu,Ngon ngu Trung Quoc,2025-2026,Hoc ky 2,2.37,63,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000687,Dang Kim Linh,2003-07-29,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 2,2.77,80,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000688,Cao Khanh Quang,2003-11-28,Cong nghe Thong tin,Ky thuat Phan mem,2025-2026,Hoc ky 2,2.23,73,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000689,Dinh Tuyet Mai,2003-02-05,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 1,3.06,67,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000690,Trinh Thanh Em,2003-08-03,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,3.02,67,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000691,Ngo Kim Nhi,2003-07-16,Du lich,Quan tri Khach san,2025-2026,Hoc ky 1,2.83,69,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000692,Dang Tan Nam,2003-03-22,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 2,2.93,80,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000693,Nguyen Tuyet Yen,2003-09-09,Kinh te,Logistics va Quan ly Chuoi cung ung,2025-2026,Hoc ky 2,2.31,69,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000694,Huynh Huu Mai,2003-10-17,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 1,3.43,85,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000695,Le Duc Khoa,2003-06-03,Ngoai ngu,Ngon ngu Trung Quoc,2025-2026,Hoc ky 1,3.46,59,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000696,Nguyen Quoc An,2003-02-11,Kinh te,Marketing,2025-2026,Hoc ky 1,2.24,76,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000697,Mai Quoc Nam,2003-11-16,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,3.2,76,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Kha
+211A000698,Truong Hoang Cuong,2003-05-07,Ngoai ngu,Ngon ngu Trung Quoc,2025-2026,Hoc ky 1,2.56,90,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000699,Truong Gia Hang,2003-05-04,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,2.39,66,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000700,Mai Thi Quan,2003-06-05,Cong nghe Thong tin,Ky thuat Phan mem,2025-2026,Hoc ky 1,3.18,97,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000701,Vu Thi Nhi,2003-07-27,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 1,2.37,66,Hoc bong Tai nang VHU,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000702,Dang Huu Hang,2003-12-07,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 1,3.64,99,Hoc bong Dong hanh Vuot kho,1,0,0,Dat,Dat HB Dong hanh Vuot kho
+211A000703,Vo Viet An,2003-10-29,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 1,3.97,77,Hoc bong Dong hanh Vuot kho,1,0,0,Dat,Dat HB Dong hanh Vuot kho
+211A000704,Bui Kim Nhi,2003-10-25,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 1,2.24,68,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000705,Vu Nhat Mai,2003-03-24,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 1,2.38,61,Hoc bong Tai nang VHU,0,1,0,Khong dat,Vi pham ky luat trong hoc ky
+211A000706,Do Thanh An,2003-03-31,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 2,3.95,60,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000707,Bui Phuong Nhi,2003-10-10,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,2.75,76,Hoc bong Khuyen khich Hoc tap,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000708,Bui Tuyet Cuong,2003-06-07,Kinh te,Quan tri Kinh doanh,2025-2026,Hoc ky 2,2.8,56,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000709,Dinh Phuong Cuong,2003-05-20,Kinh te,Logistics va Quan ly Chuoi cung ung,2025-2026,Hoc ky 2,3.23,81,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000710,Pham Minh An,2003-02-25,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 1,3.24,59,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000711,Hoang Hoang Lam,2003-01-23,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,2.79,83,Hoc bong Khuyen khich Hoc tap,1,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000712,Phan Van Giang,2003-05-24,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 1,2.43,92,Hoc bong Dong hanh Vuot kho,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000713,Cao Thi Hang,2003-01-22,Kinh te,Luat Kinh te,2025-2026,Hoc ky 1,2.75,75,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000714,Le Nhat Dung,2003-11-13,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 2,2.25,92,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000715,Nguyen Kim Linh,2003-10-10,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,2.62,71,Hoc bong Trai tim Hung Hau,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000716,Bui Minh Giang,2003-02-23,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 2,3.45,67,Hoc bong Trai tim Hung Hau,0,1,0,Khong dat,Vi pham ky luat trong hoc ky
+211A000717,Vo Khanh Thinh,2003-06-22,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 2,2.71,91,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000718,Tran Minh Nhi,2003-07-14,Ngoai ngu,Ngon ngu Trung Quoc,2025-2026,Hoc ky 1,3.17,70,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000719,Hoang Duc Cuong,2003-07-27,Cong nghe Thong tin,Ky thuat Phan mem,2025-2026,Hoc ky 1,2.48,83,Hoc bong Khuyen khich Hoc tap,1,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000720,Nguyen Viet Dung,2003-06-27,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 1,3.77,67,Hoc bong Trai tim Hung Hau,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000721,Pham Minh Quang,2003-06-29,Ngoai ngu,Ngon ngu Trung Quoc,2025-2026,Hoc ky 1,2.37,70,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000722,Vo Ngoc Linh,2003-12-26,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,3.87,75,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000723,Tran Kim Quan,2003-02-24,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 1,2.7,69,Hoc bong Trai tim Hung Hau,1,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000724,Phan Viet Khoa,2003-11-23,Kinh te,Quan tri Kinh doanh,2025-2026,Hoc ky 2,3.37,69,Hoc bong Dong hanh Vuot kho,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000725,Ly Nhat Giang,2003-10-03,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,2.15,68,Hoc bong Khuyen khich Hoc tap,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000726,Huynh Gia Khoa,2003-03-02,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 1,2.44,85,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000727,Huynh Kim Phong,2003-05-19,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 1,2.16,74,Hoc bong Dong hanh Vuot kho,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000728,Tran Duc Mai,2003-02-28,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 1,2.56,68,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000729,Huynh Truc Thinh,2003-09-16,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,2.5,68,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000730,Ngo Kim Thao,2003-08-20,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 1,2.83,81,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000731,Truong Khanh Cuong,2003-03-13,Du lich,Quan tri Khach san,2025-2026,Hoc ky 1,3.77,63,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000732,Huynh Viet Lam,2003-12-08,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 1,2.96,62,Hoc bong Tai nang VHU,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000733,Ly Kim Quang,2003-12-25,Du lich,Quan tri Khach san,2025-2026,Hoc ky 1,2.44,66,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000734,Trinh Tan Vy,2003-01-28,Du lich,Quan tri Khach san,2025-2026,Hoc ky 1,3.92,87,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000735,Vo Viet Phong,2003-09-11,Ngoai ngu,Ngon ngu Trung Quoc,2025-2026,Hoc ky 2,3.6,59,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000736,Pham Gia Nam,2003-09-26,Du lich,Quan tri Khach san,2025-2026,Hoc ky 1,2.19,90,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000737,Le Viet An,2003-08-28,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 2,3.15,97,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000738,Pham Tuyet Hang,2003-07-04,Du lich,Quan tri Khach san,2025-2026,Hoc ky 1,2.88,73,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000739,Bui Kim Yen,2003-06-19,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 2,3.09,81,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000740,Huynh Thanh Thinh,2003-04-17,Ngoai ngu,Ngon ngu Trung Quoc,2025-2026,Hoc ky 1,3.37,87,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000741,Vo Thi Giang,2003-08-13,Ngoai ngu,Ngon ngu Trung Quoc,2025-2026,Hoc ky 2,2.74,64,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000742,Ly Tan Thao,2003-02-10,Cong nghe Thong tin,Cong nghe Thong tin,2025-2026,Hoc ky 1,3.39,87,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000743,Ly Ngoc Thao,2003-01-26,Kinh te,Logistics va Quan ly Chuoi cung ung,2025-2026,Hoc ky 2,2.32,80,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000744,Hoang Thi Vy,2003-08-25,Cong nghe Thong tin,Ky thuat Phan mem,2025-2026,Hoc ky 1,2.25,91,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000745,Pham Kim Quang,2003-10-10,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 1,2.62,72,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000746,Duong Quoc Mai,2003-10-13,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 1,2.38,70,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000747,Ly Van Dung,2003-07-29,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 2,2.27,83,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000748,Dang Thanh Thinh,2003-01-21,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,3.39,90,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Gioi
+211A000749,Ngo Van Quang,2003-05-09,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 1,3.58,72,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000750,Dang Thanh Bich,2003-03-05,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 1,2.14,94,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000751,Vu Kim Em,2003-05-30,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 1,3.87,67,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000752,Truong Kim Hang,2003-12-31,Kinh te,Quan tri Kinh doanh,2025-2026,Hoc ky 2,3.87,64,Hoc bong Dong hanh Vuot kho,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000753,Hoang Hoang Khoa,2003-04-23,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 1,2.88,63,Hoc bong Dong hanh Vuot kho,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000754,Vu Viet Vy,2003-09-08,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 2,2.71,99,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000755,Tran Huu Lam,2003-04-17,Kinh te,Luat Kinh te,2025-2026,Hoc ky 2,2.25,68,Hoc bong Khuyen khich Hoc tap,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000756,Ly Tuyet Nam,2003-06-30,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 1,3.89,80,Hoc bong Tai nang VHU,1,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000757,Phan Tan Thinh,2003-02-09,Cong nghe Thong tin,Ky thuat Phan mem,2025-2026,Hoc ky 2,2.39,63,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000758,Pham Viet Giang,2003-05-23,Kinh te,Luat Kinh te,2025-2026,Hoc ky 1,2.49,59,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000759,Le Khanh Quan,2003-05-01,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 2,3.71,65,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000760,Truong Van An,2003-07-31,Kinh te,Luat Kinh te,2025-2026,Hoc ky 1,3.43,86,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000761,Do Kim Lam,2003-04-22,Cong nghe Thong tin,Ky thuat Phan mem,2025-2026,Hoc ky 1,3.73,90,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000762,Vu Tuyet Phong,2003-04-19,Kinh te,Logistics va Quan ly Chuoi cung ung,2025-2026,Hoc ky 1,2.48,74,Hoc bong Khuyen khich Hoc tap,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000763,Mai Tuyet Quan,2003-06-12,Du lich,Quan tri Khach san,2025-2026,Hoc ky 2,3.43,89,Hoc bong Tai nang VHU,1,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000764,Ngo Hoang Nam,2003-03-04,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 2,3.96,97,Hoc bong Dong hanh Vuot kho,1,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000765,Ly Thanh Mai,2003-08-11,Du lich,Quan tri Khach san,2025-2026,Hoc ky 2,3.63,71,Hoc bong Dong hanh Vuot kho,0,1,0,Khong dat,Vi pham ky luat trong hoc ky
+211A000766,Dang Nhat Hang,2003-02-27,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 2,2.5,65,Hoc bong Khuyen khich Hoc tap,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000767,Dinh Phuong Nam,2003-08-17,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 2,3.79,92,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Xuat sac
+211A000768,Ngo Tuyet Lam,2003-03-27,Kinh te,Quan tri Kinh doanh,2025-2026,Hoc ky 2,2.44,83,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000769,Truong Quoc Vy,2003-09-30,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,3.44,85,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000770,Phan Nhat Hang,2003-12-13,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 1,3.43,97,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000771,Le Thanh Lam,2003-11-26,Kinh te,Tai chinh Ngan hang,2025-2026,Hoc ky 2,2.14,68,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000772,Vu Huu Dung,2003-10-13,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,3.06,57,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000773,Huynh Khanh Linh,2003-10-16,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 1,2.19,93,Hoc bong Khuyen khich Hoc tap,1,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000774,Pham Truc Khoa,2003-06-23,Kinh te,Logistics va Quan ly Chuoi cung ung,2025-2026,Hoc ky 1,3.57,57,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000775,Vu Ngoc Em,2003-11-02,Du lich,Quan tri Khach san,2025-2026,Hoc ky 2,2.81,67,Hoc bong Khuyen khich Hoc tap,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000776,Trinh Thanh An,2003-03-02,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 2,3.96,66,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000777,Bui Quoc Cuong,2003-12-03,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,3.53,95,Hoc bong Trai tim Hung Hau,0,1,1,Khong dat,Vi pham ky luat trong hoc ky
+211A000778,Vu Viet Dung,2003-08-01,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 1,3.51,79,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000779,Hoang Truc An,2003-08-23,Kinh te,Quan tri Kinh doanh,2025-2026,Hoc ky 1,2.73,99,Hoc bong Khuyen khich Hoc tap,1,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000780,Huynh Nhat Thinh,2003-06-09,Cong nghe Thong tin,Ky thuat Phan mem,2025-2026,Hoc ky 2,2.39,69,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000781,Huynh Minh Quang,2003-04-21,Kinh te,Ke toan,2025-2026,Hoc ky 1,2.99,56,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000782,Do Minh Cuong,2003-12-19,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 1,3.85,71,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Kha
+211A000783,Ngo Duc Giang,2003-05-04,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 2,3.65,58,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000784,Pham Duc Quang,2003-04-23,Kinh te,Tai chinh Ngan hang,2025-2026,Hoc ky 1,2.92,97,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000785,Dang Thanh Quang,2003-12-15,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,3.16,87,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000786,Mai Phuong Khoa,2003-10-19,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 2,3.55,83,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000787,Dang Van Vy,2003-01-08,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 1,3.17,83,Hoc bong Trai tim Hung Hau,1,0,0,Dat,Dat HB Trai tim Hung Hau (Hoan canh kho khan + Hoc luc Kha tro len)
+211A000788,Trinh Viet Nhi,2003-01-22,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 1,3.25,58,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000789,Huynh Tuyet Cuong,2003-02-16,Cong nghe Thong tin,Ky thuat Phan mem,2025-2026,Hoc ky 1,2.97,98,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Kha
+211A000790,Hoang Tan Quang,2003-11-07,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 1,2.56,88,Hoc bong Khuyen khich Hoc tap,1,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000791,Mai Viet Em,2003-11-02,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 1,3.95,97,Hoc bong Tai nang VHU,0,0,0,Dat,Dat HB Tai nang VHU
+211A000792,Dang Truc Thao,2003-04-13,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,3.68,85,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000793,Ly Tan Yen,2003-11-20,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,2.89,74,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000794,Hoang Kim Thinh,2003-03-16,Kinh te,Ke toan,2025-2026,Hoc ky 2,3.91,94,Hoc bong Tai nang VHU,0,0,0,Dat,Dat HB Tai nang VHU
+211A000795,Vo Tan Nhi,2003-10-02,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 2,2.7,69,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000796,Huynh Nhat An,2003-01-25,Kinh te,Luat Kinh te,2025-2026,Hoc ky 2,3.52,60,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000797,Vu Gia Khoa,2003-04-14,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 2,2.29,94,Hoc bong Khuyen khich Hoc tap,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000798,Tran Tan Phong,2003-11-05,Du lich,Quan tri Khach san,2025-2026,Hoc ky 1,2.24,94,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000799,Huynh Phuong Dung,2003-08-18,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,3.53,75,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000800,Do Thanh Yen,2003-07-14,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 1,3.68,67,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000801,Vo Quoc Hang,2003-10-11,Du lich,Quan tri Khach san,2025-2026,Hoc ky 1,3.59,86,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Gioi
+211A000802,Trinh Kim Thao,2003-08-10,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 2,3.87,98,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Xuat sac
+211A000803,Huynh Hoang Khoa,2003-04-04,Du lich,Quan tri Khach san,2025-2026,Hoc ky 1,3.37,72,Hoc bong Trai tim Hung Hau,1,0,0,Khong dat,GPA hoac DRL khong dat muc toi thieu cho HB Trai tim Hung Hau
+211A000804,Do Thi Bich,2003-02-18,Du lich,Quan tri Khach san,2025-2026,Hoc ky 2,3.31,82,Hoc bong Trai tim Hung Hau,1,0,0,Dat,Dat HB Trai tim Hung Hau (Hoan canh kho khan + Hoc luc Kha tro len)
+211A000805,Phan Huu Nam,2003-07-18,Kinh te,Marketing,2025-2026,Hoc ky 2,3.65,89,Hoc bong Tai nang VHU,1,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000806,Dinh Huu Vy,2003-11-14,Kinh te,Luat Kinh te,2025-2026,Hoc ky 2,2.83,75,Hoc bong Tai nang VHU,1,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000807,Le Ngoc Lam,2003-07-09,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 2,3.9,64,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000808,Truong Kim Mai,2003-11-17,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 2,3.43,81,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000809,Nguyen Huu Quang,2003-02-01,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 2,3.8,68,Hoc bong Trai tim Hung Hau,1,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000810,Mai Minh Yen,2003-04-05,Cong nghe Thong tin,Ky thuat Phan mem,2025-2026,Hoc ky 1,2.7,68,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000811,Ly Phuong Khoa,2003-01-07,Ngoai ngu,Ngon ngu Trung Quoc,2025-2026,Hoc ky 2,3.72,86,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Xuat sac
+211A000812,Duong Huu Lam,2003-10-18,Kinh te,Logistics va Quan ly Chuoi cung ung,2025-2026,Hoc ky 2,2.82,84,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000813,Ngo Nhat Quang,2003-08-09,Ngoai ngu,Ngon ngu Trung Quoc,2025-2026,Hoc ky 1,2.6,73,Hoc bong Dong hanh Vuot kho,1,1,0,Khong dat,Vi pham ky luat trong hoc ky
+211A000814,Vo Viet Yen,2003-05-10,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 2,2.6,58,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000815,Phan Viet Em,2003-11-19,Cong nghe Thong tin,Cong nghe Thong tin,2025-2026,Hoc ky 1,2.92,81,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000816,Nguyen Van Mai,2003-09-04,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 2,2.65,93,Hoc bong Tai nang VHU,1,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000817,Huynh Gia Nam,2003-12-14,Kinh te,Marketing,2025-2026,Hoc ky 1,3.68,55,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000818,Phan Gia Thinh,2003-05-25,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 1,2.52,81,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000819,Dang Viet Khoa,2003-10-29,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 2,2.11,72,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000820,Ly Kim Nam,2003-06-26,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 1,2.46,72,Hoc bong Dong hanh Vuot kho,1,0,0,Dat,Dat HB Dong hanh Vuot kho
+211A000821,Pham Truc Giang,2003-07-28,Kinh te,Luat Kinh te,2025-2026,Hoc ky 2,3.36,88,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000822,Huynh Duc Nam,2003-04-10,Kinh te,Ke toan,2025-2026,Hoc ky 2,3.48,97,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Gioi
+211A000823,Dinh Truc Yen,2003-01-17,Cong nghe Thong tin,Ky thuat Phan mem,2025-2026,Hoc ky 2,3.3,62,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000824,Hoang Viet Khoa,2003-11-06,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 1,3.35,97,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000825,Huynh Duc Hang,2003-11-11,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,2.91,55,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000826,Trinh Huu Dung,2003-04-29,Kinh te,Quan tri Kinh doanh,2025-2026,Hoc ky 2,2.46,80,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000827,Le Phuong Thinh,2003-02-13,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 2,2.74,78,Hoc bong Tai nang VHU,0,1,0,Khong dat,Vi pham ky luat trong hoc ky
+211A000828,Tran Thanh Hang,2003-06-05,Kinh te,Logistics va Quan ly Chuoi cung ung,2025-2026,Hoc ky 2,3.15,55,Hoc bong Dong hanh Vuot kho,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000829,Duong Thi Thao,2003-02-08,Du lich,Quan tri Khach san,2025-2026,Hoc ky 2,3.24,85,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000830,Duong Truc Nam,2003-05-07,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,2.49,85,Hoc bong Dong hanh Vuot kho,1,0,0,Dat,Dat HB Dong hanh Vuot kho
+211A000831,Ly Quoc Nhi,2003-03-23,Ngoai ngu,Ngon ngu Trung Quoc,2025-2026,Hoc ky 2,3.0,82,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000832,Bui Tan Nam,2003-06-03,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 2,2.94,78,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000833,Vo Minh Thao,2003-06-20,Ngoai ngu,Ngon ngu Trung Quoc,2025-2026,Hoc ky 2,2.12,72,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000834,Nguyen Minh Khoa,2003-11-16,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 2,2.9,57,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000835,Bui Ngoc Mai,2003-03-13,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 2,3.06,87,Hoc bong Khuyen khich Hoc tap,1,0,0,Dat,Dat HB KKHT Loai Kha
+211A000836,Phan Minh Bich,2003-05-01,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 2,3.69,86,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Xuat sac
+211A000837,Cao Gia Yen,2003-11-11,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 2,2.71,99,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000838,Tran Quoc Em,2003-02-13,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 2,3.4,68,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000839,Vo Hoang Nam,2003-10-25,Kinh te,Logistics va Quan ly Chuoi cung ung,2025-2026,Hoc ky 1,2.71,59,Hoc bong Tai nang VHU,1,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000840,Nguyen Hoang Giang,2003-05-16,Ngoai ngu,Ngon ngu Trung Quoc,2025-2026,Hoc ky 1,2.99,64,Hoc bong Khuyen khich Hoc tap,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000841,Truong Khanh Lam,2003-12-13,Ngoai ngu,Ngon ngu Trung Quoc,2025-2026,Hoc ky 2,2.65,99,Hoc bong Khuyen khich Hoc tap,1,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000842,Trinh Quoc An,2003-03-16,Kinh te,Luat Kinh te,2025-2026,Hoc ky 1,3.85,93,Hoc bong Tai nang VHU,0,0,0,Dat,Dat HB Tai nang VHU
+211A000843,Ly Kim Thao,2003-08-14,Cong nghe Thong tin,Cong nghe Thong tin,2025-2026,Hoc ky 1,2.72,59,Hoc bong Trai tim Hung Hau,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000844,Mai Quoc An,2003-02-23,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 1,3.22,66,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000845,Vo Duc Dung,2003-04-30,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 2,3.68,63,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000846,Phan Khanh Nhi,2003-11-29,Kinh te,Tai chinh Ngan hang,2025-2026,Hoc ky 2,3.76,87,Hoc bong Dong hanh Vuot kho,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000847,Cao Khanh Quang,2003-12-25,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 2,2.33,77,Hoc bong Trai tim Hung Hau,1,0,0,Khong dat,GPA hoac DRL khong dat muc toi thieu cho HB Trai tim Hung Hau
+211A000848,Duong Gia Quan,2003-10-21,Du lich,Quan tri Khach san,2025-2026,Hoc ky 2,2.99,93,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000849,Phan Truc Thinh,2003-02-05,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 2,2.64,89,Hoc bong Dong hanh Vuot kho,1,0,0,Dat,Dat HB Dong hanh Vuot kho
+211A000850,Truong Phuong Dung,2003-12-19,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 1,2.43,74,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000851,Do Hoang Mai,2003-06-26,Kinh te,Ke toan,2025-2026,Hoc ky 2,2.57,70,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000852,Vu Kim Thao,2003-07-25,Kinh te,Ke toan,2025-2026,Hoc ky 2,3.97,84,Hoc bong Dong hanh Vuot kho,1,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000853,Mai Quoc Hang,2003-07-13,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,3.05,82,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000854,Hoang Viet Khoa,2003-06-24,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 1,3.3,76,Hoc bong Tai nang VHU,1,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000855,Dinh Viet Quang,2003-10-31,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,3.04,93,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Kha
+211A000856,Pham Viet Yen,2003-04-23,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 2,2.67,60,Hoc bong Trai tim Hung Hau,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000857,Ly Thanh Bich,2003-02-09,Kinh te,Marketing,2025-2026,Hoc ky 1,3.38,64,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000858,Duong Minh Phong,2003-01-24,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 1,2.98,98,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000859,Vu Viet Mai,2003-09-15,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,2.69,94,Hoc bong Tai nang VHU,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000860,Truong Tuyet Khoa,2003-10-22,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,3.52,96,Hoc bong Trai tim Hung Hau,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000861,Tran Kim Nhi,2003-05-29,Kinh te,Quan tri Kinh doanh,2025-2026,Hoc ky 1,3.08,93,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Kha
+211A000862,Trinh Hoang Em,2003-04-30,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 1,2.52,64,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000863,Do Hoang Nhi,2003-03-19,Kinh te,Luat Kinh te,2025-2026,Hoc ky 2,2.77,71,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000864,Ly Ngoc Hang,2003-04-09,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,2.92,74,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000865,Vo Gia Phong,2003-04-18,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 2,3.03,98,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000866,Pham Minh Hang,2003-12-07,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 1,3.67,67,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000867,Cao Tan Quang,2003-11-24,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 1,3.84,62,Hoc bong Tai nang VHU,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000868,Hoang Tan Mai,2003-05-12,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 2,2.92,83,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000869,Cao Phuong An,2003-07-31,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 1,3.49,81,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000870,Le Thanh Nam,2003-01-29,Du lich,Quan tri Khach san,2025-2026,Hoc ky 2,3.32,64,Hoc bong Khuyen khich Hoc tap,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000871,Vo Ngoc Khoa,2003-07-26,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 1,2.34,68,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000872,Tran Truc Yen,2003-07-06,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 2,2.7,80,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000873,Duong Tuyet Linh,2003-09-03,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 1,3.14,97,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000874,Nguyen Huu Lam,2003-04-29,Du lich,Quan tri Khach san,2025-2026,Hoc ky 2,2.25,66,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000875,Trinh Hoang Nam,2003-10-03,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 1,2.42,96,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000876,Do Van Khoa,2003-04-06,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 1,3.2,91,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000877,Ngo Hoang Nhi,2003-04-11,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,2.52,68,Hoc bong Trai tim Hung Hau,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000878,Duong Viet Thinh,2003-04-04,Cong nghe Thong tin,Cong nghe Thong tin,2025-2026,Hoc ky 2,3.14,84,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000879,Truong Kim Vy,2003-12-15,Ngoai ngu,Ngon ngu Trung Quoc,2025-2026,Hoc ky 2,2.33,57,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000880,Bui Hoang Linh,2003-09-07,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 1,3.47,99,Hoc bong Trai tim Hung Hau,0,1,0,Khong dat,Vi pham ky luat trong hoc ky
+211A000881,Vo Duc Hang,2003-05-19,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 1,2.93,92,Hoc bong Tai nang VHU,0,1,0,Khong dat,Vi pham ky luat trong hoc ky
+211A000882,Vo Hoang Vy,2003-07-01,Ngoai ngu,Ngon ngu Trung Quoc,2025-2026,Hoc ky 2,3.29,99,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000883,Do Quoc Phong,2003-12-08,Ngoai ngu,Ngon ngu Trung Quoc,2025-2026,Hoc ky 2,2.9,62,Hoc bong Khuyen khich Hoc tap,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000884,Do Truc Quan,2003-10-21,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 2,3.94,66,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000885,Trinh Quoc An,2003-12-25,Du lich,Quan tri Khach san,2025-2026,Hoc ky 1,2.59,61,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000886,Pham Phuong Dung,2003-12-21,Kinh te,Marketing,2025-2026,Hoc ky 1,3.76,83,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000887,Le Tan Hang,2003-05-30,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 1,3.02,71,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000888,Hoang Ngoc Khoa,2003-02-24,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 1,2.67,57,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000889,Nguyen Phuong Khoa,2003-09-27,Kinh te,Ke toan,2025-2026,Hoc ky 2,2.11,80,Hoc bong Khuyen khich Hoc tap,1,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000890,Dang Nhat Dung,2003-04-26,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 2,2.12,85,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000891,Ly Gia Yen,2003-09-05,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 2,2.36,59,Hoc bong Dong hanh Vuot kho,1,1,0,Khong dat,Vi pham ky luat trong hoc ky
+211A000892,Dang Van Yen,2003-09-04,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,2.31,71,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000893,Ly Tuyet Vy,2003-05-25,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 2,3.16,57,Hoc bong Dong hanh Vuot kho,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000894,Cao Ngoc Nam,2003-02-07,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 1,2.39,66,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000895,Phan Tan Thao,2003-09-06,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 2,2.44,56,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000896,Hoang Huu Dung,2003-08-30,Du lich,Quan tri Khach san,2025-2026,Hoc ky 2,3.52,58,Hoc bong Tai nang VHU,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000897,Hoang Ngoc Thinh,2003-12-22,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,2.74,65,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000898,Bui Viet Vy,2003-07-13,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 1,3.2,81,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000899,Vu Van Mai,2003-10-05,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,3.95,65,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000900,Vo Thi Khoa,2003-03-25,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,2.77,75,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000901,Nguyen Gia Vy,2003-03-26,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 2,2.32,74,Hoc bong Trai tim Hung Hau,1,0,0,Khong dat,GPA hoac DRL khong dat muc toi thieu cho HB Trai tim Hung Hau
+211A000902,Vo Ngoc Khoa,2003-02-26,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 2,2.64,63,Hoc bong Khuyen khich Hoc tap,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000903,Ly Tuyet Quang,2003-07-17,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 1,2.32,95,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000904,Nguyen Phuong Nam,2003-11-09,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 1,2.4,91,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000905,Ly Huu Yen,2003-06-24,Kinh te,Quan tri Kinh doanh,2025-2026,Hoc ky 2,2.47,69,Hoc bong Khuyen khich Hoc tap,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000906,Ly Khanh Yen,2003-05-17,Cong nghe Thong tin,Cong nghe Thong tin,2025-2026,Hoc ky 1,2.75,63,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000907,Cao Gia Nam,2003-06-09,Cong nghe Thong tin,Ky thuat Phan mem,2025-2026,Hoc ky 1,3.34,92,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000908,Nguyen Nhat Nhi,2003-09-22,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,3.36,61,Hoc bong Dong hanh Vuot kho,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000909,Duong Tan Giang,2003-04-30,Cong nghe Thong tin,Cong nghe Thong tin,2025-2026,Hoc ky 2,3.6,69,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000910,Ngo Huu Thao,2003-02-16,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 1,3.62,84,Hoc bong Trai tim Hung Hau,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000911,Pham Quoc Cuong,2003-06-01,Kinh te,Ke toan,2025-2026,Hoc ky 1,2.49,86,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000912,Phan Tuyet Mai,2003-12-08,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 2,2.9,92,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000913,Bui Van Thinh,2003-03-13,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 2,3.21,60,Hoc bong Khuyen khich Hoc tap,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000914,Huynh Viet Yen,2003-08-10,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,3.21,76,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Kha
+211A000915,Huynh Gia Nhi,2003-12-09,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 1,2.49,82,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000916,Le Duc Nam,2003-08-03,Kinh te,Logistics va Quan ly Chuoi cung ung,2025-2026,Hoc ky 1,2.7,62,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000917,Vo Thanh Bich,2003-07-18,Du lich,Quan tri Khach san,2025-2026,Hoc ky 1,2.43,89,Hoc bong Dong hanh Vuot kho,1,0,0,Dat,Dat HB Dong hanh Vuot kho
+211A000918,Trinh Thi Cuong,2003-06-28,Du lich,Quan tri Khach san,2025-2026,Hoc ky 2,2.56,83,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000919,Pham Viet Phong,2003-05-19,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,2.8,65,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000920,Truong Nhat Linh,2003-07-26,Du lich,Quan tri Khach san,2025-2026,Hoc ky 2,2.48,89,Hoc bong Trai tim Hung Hau,1,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000921,Trinh Van Giang,2003-07-06,Kinh te,Quan tri Kinh doanh,2025-2026,Hoc ky 2,3.63,62,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000922,Cao Van Giang,2003-12-23,Kinh te,Marketing,2025-2026,Hoc ky 2,2.48,85,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000923,Phan Duc Quan,2003-08-22,Du lich,Quan tri Khach san,2025-2026,Hoc ky 2,2.48,90,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000924,Dinh Thi Dung,2003-07-16,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 1,2.34,77,Hoc bong Khuyen khich Hoc tap,1,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000925,Trinh Hoang Linh,2003-01-06,Du lich,Quan tri Khach san,2025-2026,Hoc ky 2,2.6,87,Hoc bong Khuyen khich Hoc tap,1,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000926,Vo Hoang Quang,2003-11-25,Du lich,Quan tri Khach san,2025-2026,Hoc ky 1,2.77,74,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000927,Bui Minh Mai,2003-12-10,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,3.31,83,Hoc bong Dong hanh Vuot kho,1,0,0,Dat,Dat HB Dong hanh Vuot kho
+211A000928,Vo Gia Giang,2003-07-20,Kinh te,Tai chinh Ngan hang,2025-2026,Hoc ky 2,3.69,61,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000929,Ly Truc Mai,2003-05-31,Kinh te,Tai chinh Ngan hang,2025-2026,Hoc ky 1,2.89,89,Hoc bong Dong hanh Vuot kho,1,1,0,Khong dat,Vi pham ky luat trong hoc ky
+211A000930,Huynh Duc Hang,2003-09-05,Du lich,Quan tri Khach san,2025-2026,Hoc ky 2,3.84,57,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000931,Vu Huu Giang,2003-10-02,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 2,3.84,99,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000932,Pham Tan Nhi,2003-02-12,Kinh te,Logistics va Quan ly Chuoi cung ung,2025-2026,Hoc ky 2,2.71,55,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000933,Phan Thi Lam,2003-09-05,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 1,3.02,57,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000934,Trinh Thanh Quang,2003-07-08,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 2,2.39,80,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000935,Cao Thanh Mai,2003-01-12,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 2,2.65,90,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000936,Cao Thi Thao,2003-10-25,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,3.14,85,Hoc bong Trai tim Hung Hau,1,0,0,Dat,Dat HB Trai tim Hung Hau (Hoan canh kho khan + Hoc luc Kha tro len)
+211A000937,Pham Nhat Cuong,2003-07-07,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,3.67,56,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000938,Tran Ngoc Quang,2003-04-30,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 1,2.23,72,Hoc bong Dong hanh Vuot kho,1,0,0,Dat,Dat HB Dong hanh Vuot kho
+211A000939,Truong Nhat Cuong,2003-05-03,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,3.76,81,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Gioi
+211A000940,Dang Nhat Nhi,2003-09-12,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 2,2.15,55,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000941,Nguyen Tuyet Lam,2003-05-20,Du lich,Quan tri Khach san,2025-2026,Hoc ky 2,2.79,75,Hoc bong Tai nang VHU,0,1,0,Khong dat,Vi pham ky luat trong hoc ky
+211A000942,Mai Khanh Giang,2003-06-03,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 2,3.2,62,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000943,Pham Thi Mai,2003-09-28,Du lich,Quan tri Khach san,2025-2026,Hoc ky 2,2.94,82,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000944,Le Thanh Em,2003-05-26,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 2,3.08,90,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Kha
+211A000945,Pham Quoc Khoa,2003-02-05,Ngoai ngu,Ngon ngu Trung Quoc,2025-2026,Hoc ky 2,3.63,86,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000946,Pham Quoc Khoa,2003-07-18,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,3.02,88,Hoc bong Khuyen khich Hoc tap,1,0,0,Dat,Dat HB KKHT Loai Kha
+211A000947,Le Khanh Mai,2003-10-04,Du lich,Quan tri Khach san,2025-2026,Hoc ky 2,3.87,56,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000948,Do Phuong Cuong,2003-12-25,Kinh te,Ke toan,2025-2026,Hoc ky 1,2.51,80,Hoc bong Tai nang VHU,0,1,0,Khong dat,Vi pham ky luat trong hoc ky
+211A000949,Dinh Kim Dung,2003-07-13,Du lich,Quan tri Khach san,2025-2026,Hoc ky 1,2.42,77,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000950,Mai Khanh Cuong,2003-10-05,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 2,2.29,86,Hoc bong Dong hanh Vuot kho,1,0,0,Dat,Dat HB Dong hanh Vuot kho
+211A000951,Ly Quoc Mai,2003-12-08,Du lich,Quan tri Khach san,2025-2026,Hoc ky 2,2.54,70,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000952,Truong Viet Yen,2003-07-03,Kinh te,Ke toan,2025-2026,Hoc ky 1,3.86,81,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Gioi
+211A000953,Dang Duc Lam,2003-03-17,Du lich,Quan tri Khach san,2025-2026,Hoc ky 2,3.51,70,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000954,Bui Ngoc Em,2003-03-01,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 1,2.7,56,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000955,Cao Hoang Quan,2003-06-26,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 1,3.03,99,Hoc bong Tai nang VHU,1,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000956,Huynh Gia Vy,2003-07-01,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 2,2.54,80,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000957,Huynh Truc Lam,2003-01-09,Kinh te,Quan tri Kinh doanh,2025-2026,Hoc ky 1,2.61,86,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000958,Pham Minh Nam,2003-09-24,Du lich,Quan tri Khach san,2025-2026,Hoc ky 1,3.47,70,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Kha
+211A000959,Tran Huu Linh,2003-06-04,Du lich,Quan tri Khach san,2025-2026,Hoc ky 2,2.96,97,Hoc bong Trai tim Hung Hau,1,0,0,Dat,Dat HB Trai tim Hung Hau (Hoan canh kho khan + Hoc luc Kha tro len)
+211A000960,Mai Ngoc Quan,2003-05-13,Kinh te,Tai chinh Ngan hang,2025-2026,Hoc ky 2,3.16,76,Hoc bong Tai nang VHU,1,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000961,Le Truc Phong,2003-03-09,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 2,2.63,74,Hoc bong Dong hanh Vuot kho,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000962,Vu Van Lam,2003-05-11,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 1,3.17,75,Hoc bong Tai nang VHU,1,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000963,Huynh Gia Em,2003-01-04,Ngoai ngu,Ngon ngu Trung Quoc,2025-2026,Hoc ky 2,3.14,60,Hoc bong Trai tim Hung Hau,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000964,Tran Minh Khoa,2003-11-27,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 2,3.91,93,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000965,Dang Truc Bich,2003-04-09,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 1,3.55,78,Hoc bong Dong hanh Vuot kho,1,0,0,Dat,Dat HB Dong hanh Vuot kho
+211A000966,Ngo Huu Mai,2003-07-10,Du lich,Quan tri Khach san,2025-2026,Hoc ky 2,2.67,97,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000967,Nguyen Thi Yen,2003-06-27,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 1,2.31,57,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000968,Truong Tan Bich,2003-11-26,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 1,3.43,90,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000969,Do Thanh Khoa,2003-10-25,Kinh te,Tai chinh Ngan hang,2025-2026,Hoc ky 2,3.46,71,Hoc bong Dong hanh Vuot kho,1,0,0,Dat,Dat HB Dong hanh Vuot kho
+211A000970,Mai Tan Yen,2003-02-11,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,2.88,96,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Kha
+211A000971,Dinh Tuyet Cuong,2003-11-16,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 2,2.55,96,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000972,Nguyen Quoc Mai,2003-08-30,Truyen thong,Quan he Cong chuong,2025-2026,Hoc ky 2,3.17,76,Hoc bong Tai nang VHU,0,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A000973,Nguyen Tuyet Bich,2003-04-01,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,2.21,98,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,GPA khong dat muc toi thieu 2.80 cho HB KKHT
+211A000974,Dinh Thi Quang,2003-03-09,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,2.68,58,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000975,Huynh Khanh Nam,2003-08-12,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 1,2.46,94,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000976,Duong Hoang Linh,2003-07-01,Du lich,Quan tri Khach san,2025-2026,Hoc ky 1,3.45,73,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000977,Dang Duc Nam,2003-03-26,Kinh te,Tai chinh Ngan hang,2025-2026,Hoc ky 2,3.56,91,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Gioi
+211A000978,Dinh Tan Lam,2003-06-14,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 1,3.51,83,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Gioi
+211A000979,Phan Thanh Vy,2003-05-30,Ngoai ngu,Ngon ngu Anh,2025-2026,Hoc ky 2,2.44,84,Hoc bong Khuyen khich Hoc tap,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000980,Truong Khanh Khoa,2003-10-27,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 1,2.97,78,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000981,Ly Truc Dung,2003-08-12,Cong nghe Thong tin,Ky thuat Phan mem,2025-2026,Hoc ky 1,3.63,57,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000982,Vo Quoc Mai,2003-06-18,Kinh te,Ke toan,2025-2026,Hoc ky 1,3.49,82,Hoc bong Dong hanh Vuot kho,1,1,0,Khong dat,Vi pham ky luat trong hoc ky
+211A000983,Ly Truc Nhi,2003-01-23,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 2,3.47,57,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000984,Dang Minh Khoa,2003-05-28,Cong nghe Thong tin,An toan Thong tin,2025-2026,Hoc ky 2,3.65,91,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Xuat sac
+211A000985,Truong Hoang Dung,2003-01-19,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,2.29,62,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000986,Vu Kim Lam,2003-01-14,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 2,3.84,96,Hoc bong Khuyen khich Hoc tap,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000987,Hoang Duc Yen,2003-01-12,Cong nghe Thong tin,Ky thuat Phan mem,2025-2026,Hoc ky 2,2.87,93,Hoc bong Khuyen khich Hoc tap,0,0,0,Dat,Dat HB KKHT Loai Kha
+211A000988,Truong Hoang Bich,2003-06-04,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 1,3.69,96,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000989,Trinh Ngoc Em,2003-03-26,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,3.76,75,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000990,Pham Truc Mai,2003-10-07,Cong nghe Thong tin,Cong nghe Thong tin,2025-2026,Hoc ky 2,3.46,62,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000991,Ly Huu Quang,2003-08-10,Truyen thong,Truyen thong Da phuong tien,2025-2026,Hoc ky 1,2.71,67,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000992,Huynh Viet Giang,2003-03-21,Du lich,Quan tri Khach san,2025-2026,Hoc ky 2,3.65,60,Hoc bong Tai nang VHU,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000993,Dang Kim Yen,2003-01-11,Ngoai ngu,Ngon ngu Trung Quoc,2025-2026,Hoc ky 2,3.43,71,Hoc bong Khuyen khich Hoc tap,0,0,1,Khong dat,Con no hoc phi / Chi phi khac
+211A000994,Vu Nhat Quang,2003-10-12,Cong nghe Thong tin,Khoa hoc Du lieu,2025-2026,Hoc ky 1,3.84,59,Hoc bong Khuyen khich Hoc tap,0,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000995,Hoang Thi Phong,2003-03-01,Kinh te,Ke toan,2025-2026,Hoc ky 1,3.34,92,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000996,Le Thanh Nhi,2003-02-06,Ngoai ngu,Ngon ngu Nhat,2025-2026,Hoc ky 1,3.42,67,Hoc bong Tai nang VHU,1,0,0,Khong dat,Diem ren luyen duoi 70 (Yeu/Trung binh)
+211A000997,Vo Thanh Quang,2003-05-02,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,2.65,91,Hoc bong Dong hanh Vuot kho,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000998,Tran Khanh Thinh,2003-03-15,Du lich,Quan tri Dich vu Du lich,2025-2026,Hoc ky 2,3.12,85,Hoc bong Trai tim Hung Hau,0,0,0,Khong dat,Khong thuoc doi tuong hoan canh gia dinh kho khan
+211A000999,Vo Khanh Lam,2003-07-25,Ky thuat Cong nghe,Cong nghe Ky thuat O to,2025-2026,Hoc ky 1,2.63,71,Hoc bong Tai nang VHU,1,0,0,Khong dat,Yeu cau GPA >= 3.60 va DRL >= 90
+211A001000,Vu Tan Dung,2003-10-19,Kinh te,Luat Kinh te,2025-2026,Hoc ky 1,2.71,86,Hoc bong Trai tim Hung Hau,1,0,0,Dat,Dat HB Trai tim Hung Hau (Hoan canh kho khan + Hoc luc Kha tro len)

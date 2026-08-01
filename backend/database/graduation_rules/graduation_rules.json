@@ -1,0 +1,151 @@
+{
+  "rule_set_code": "graduation_rules",
+  "rule_set_name": "Quy chế xét tốt nghiệp",
+  "version": "1.0",
+  "major": null,
+  "cohort": null,
+  "program": null,
+  "effective_date": null,
+  "rules": [
+    {
+      "code": "minimum_gpa",
+      "name": "Điểm trung bình tích lũy",
+      "field_name": "gpa",
+      "operator": "greater_than_or_equal",
+      "required_value": 2.0,
+      "accepted_values": [],
+      "failure_message": "Điểm trung bình chưa đạt.",
+      "recommendation": "Cần học cải thiện.",
+      "is_required": true,
+      "source": {
+        "document_name": "quy_dinh_tot_nghiep.pdf",
+        "page_number": 1,
+        "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_1",
+        "evidence_text": "Đạt điểm trung bình tích lũy toàn khóa học từ 2.00 / 4.00 trở lên.",
+        "category": "tot_nghiep"
+      },
+      "confidence": 0.95
+    },
+    {
+      "code": "discipline_status_not_suspended",
+      "name": "Trạng thái kỷ luật",
+      "field_name": "discipline_status",
+      "operator": "not_equal",
+      "required_value": "đình chỉ học tập",
+      "accepted_values": [],
+      "failure_message": "Sinh viên đang bị kỷ luật đình chỉ học tập.",
+      "recommendation": "Cần khắc phục vi phạm kỷ luật.",
+      "is_required": true,
+      "source": {
+        "document_name": "quy_dinh_tot_nghiep.pdf",
+        "page_number": 1,
+        "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_1",
+        "evidence_text": "không bị truy cứu trách nhiệm hình sự hoặc không đang trong thời gian bị kỷ luật ở mức đình chỉ học tập;",
+        "category": "tot_nghiep"
+      },
+      "confidence": 0.9
+    },
+    {
+      "code": "english_qualification",
+      "name": "Chứng chỉ ngoại ngữ",
+      "field_name": "english_status",
+      "operator": "equal",
+      "required_value": "đạt chuẩn",
+      "accepted_values": [],
+      "failure_message": "Chứng chỉ ngoại ngữ chưa đạt chuẩn.",
+      "recommendation": "Cần cập nhật chứng chỉ ngoại ngữ.",
+      "is_required": true,
+      "source": {
+        "document_name": "quy_dinh_tot_nghiep.pdf",
+        "page_number": 1,
+        "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+        "evidence_text": "Có chứng chỉ Ngoại ngữ đạt chuẩn đầu ra theo quy định của Nhà trường áp dụng cho từng khóa/ngành đào tạo (TOEIC, IELTS, VSTEP hoặc tương đương).",
+        "category": "tot_nghiep"
+      },
+      "confidence": 0.92
+    },
+    {
+      "code": "informatics_qualification",
+      "name": "Chứng chỉ tin học",
+      "field_name": "informatics_status",
+      "operator": "equal",
+      "required_value": "đạt chuẩn",
+      "accepted_values": [],
+      "failure_message": "Chứng chỉ tin học chưa đạt chuẩn.",
+      "recommendation": "Cần cập nhật chứng chỉ tin học.",
+      "is_required": true,
+      "source": {
+        "document_name": "quy_dinh_tot_nghiep.pdf",
+        "page_number": 1,
+        "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+        "evidence_text": "Có chứng chỉ Ứng dụng CNTT (Cơ bản/Nâng cao) hoặc chứng chỉ Quốc tế (MOS, IC3) theo quy định.",
+        "category": "tot_nghiep"
+      },
+      "confidence": 0.92
+    },
+    {
+      "code": "physical_education_qualification",
+      "name": "Chứng chỉ giáo dục thể chất",
+      "field_name": "physical_education_status",
+      "operator": "equal",
+      "required_value": "đạt chuẩn",
+      "accepted_values": [],
+      "failure_message": "Chứng chỉ giáo dục thể chất chưa đạt chuẩn.",
+      "recommendation": "Cần hoàn thành chương trình giáo dục thể chất.",
+      "is_required": true,
+      "source": {
+        "document_name": "quy_dinh_tot_nghiep.pdf",
+        "page_number": 1,
+        "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+        "evidence_text": "Hoàn thành chương trình và đạt chứng chỉ Giáo dục Thể chất (GDTC).",
+        "category": "tot_nghiep"
+      },
+      "confidence": 0.9
+    },
+    {
+      "code": "national_defense_qualification",
+      "name": "Chứng chỉ giáo dục quốc phòng",
+      "field_name": "national_defense_status",
+      "operator": "equal",
+      "required_value": "đạt chuẩn",
+      "accepted_values": [],
+      "failure_message": "Chứng chỉ giáo dục quốc phòng chưa đạt chuẩn.",
+      "recommendation": "Cần hoàn thành chương trình giáo dục quốc phòng.",
+      "is_required": true,
+      "source": {
+        "document_name": "quy_dinh_tot_nghiep.pdf",
+        "page_number": 1,
+        "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+        "evidence_text": "Hoàn thành chương trình và đạt chứng chỉ Giáo dục Quốc phòng - An ninh (GDQP-AN).",
+        "category": "tot_nghiep"
+      },
+      "confidence": 0.9
+    },
+    {
+      "code": "tuition_qualification",
+      "name": "Hoàn thành nghĩa vụ tài chính",
+      "field_name": "tuition_status",
+      "operator": "equal",
+      "required_value": "đạt",
+      "accepted_values": [],
+      "failure_message": "Nghĩa vụ tài chính chưa hoàn thành.",
+      "recommendation": "Cần thanh toán đầy đủ học phí và các khoản phí phát sinh.",
+      "is_required": true,
+      "source": {
+        "document_name": "quy_dinh_tot_nghiep.pdf",
+        "page_number": 1,
+        "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+        "evidence_text": "Hoàn thành đầy đủ học phí, các khoản phí phát sinh và các nghĩa vụ hồ sơ, tài sản đối với Nhà trường.",
+        "category": "tot_nghiep"
+      },
+      "confidence": 0.88
+    }
+  ],
+  "source_documents": [
+    "quy_dinh_tot_nghiep.pdf"
+  ],
+  "extraction_notes": [
+    "Bộ luật được sinh bởi provider: openrouter, model: openai/gpt-oss-20b:free."
+  ],
+  "generated_by": "rag_rule_extractor:openrouter"
+}

@@ -1,0 +1,501 @@
+﻿STT,Mã hồ sơ,Họ và tên,Ngày sinh,Tỉnh/Thành phố,Ngành xét tuyển,Phương thức xét tuyển,Điểm xét tuyển,Kết quả
+1,261VHU0001,Phạm Văn Vinh,24/02/2008,Lâm Đồng,Kế toán,Xét học bạ THPT,20.34,Trúng tuyển
+2,261VHU0002,Lê Ánh Nam,08/09/2008,An Giang,Công nghệ thông tin,Xét học bạ THPT,18.98,Trúng tuyển
+3,261VHU0003,Nguyễn Thu Hải,14/04/2008,Tiền Giang,Tâm lý học,Xét điểm ĐGNL ĐHQG,867.0,Trúng tuyển
+4,261VHU0004,Võ Phương Anh,09/03/2008,Đồng Nai,Thiết kế đồ họa,Xét điểm ĐGNL ĐHQG,761.0,Trúng tuyển
+5,261VHU0005,Bùi Thị Châu,12/10/2008,Bình Dương,Marketing,Xét học bạ THPT,21.77,Trúng tuyển
+6,261VHU0006,Trần Hoàng Nga,13/02/2008,Cần Thơ,Ngôn ngữ Nhật,Xét học bạ THPT,28.22,Trúng tuyển
+7,261VHU0007,Đặng Khánh Trang,23/02/2008,TP. Hồ Chí Minh,Quản trị dịch vụ du lịch và lữ hành,Xét điểm thi THPT,24.06,Trúng tuyển
+8,261VHU0008,Vũ Phương Huy,13/05/2008,Tiền Giang,Kỹ thuật phần mềm,Xét học bạ THPT,27.1,Trúng tuyển
+9,261VHU0009,Đỗ Thành Linh,23/11/2008,Lâm Đồng,Tài chính - Ngân hàng,Xét học bạ THPT,25.04,Trúng tuyển
+10,261VHU0010,Lê Ánh Trang,06/08/2008,Bến Tre,Thiết kế đồ họa,Xét điểm ĐGNL ĐHQG,877.0,Trúng tuyển
+11,261VHU0011,Võ Tuấn Uyên,27/01/2008,Đồng Nai,Ngôn ngữ Nhật,Xét học bạ THPT,25.19,Trúng tuyển
+12,261VHU0012,Trần Phương Khoa,19/12/2008,Tây Ninh,Marketing,Xét điểm thi THPT,18.69,Trúng tuyển
+13,261VHU0013,Phan Tuấn Phong,09/03/2008,Đồng Nai,Marketing,Xét điểm ĐGNL ĐHQG,774.0,Trúng tuyển
+14,261VHU0014,Võ Hoàng Tâm,08/03/2008,Cần Thơ,Marketing,Xét điểm ĐGNL ĐHQG,752.0,Trúng tuyển
+15,261VHU0015,Lý Thị Yến,06/11/2008,Bến Tre,Công nghệ thông tin,Xét học bạ THPT,19.6,Trúng tuyển
+16,261VHU0016,Lê Gia Mai,18/01/2008,Lâm Đồng,Quản trị dịch vụ du lịch và lữ hành,Xét điểm thi THPT,23.56,Trúng tuyển
+17,261VHU0017,Phạm Tuấn Sơn,10/07/2008,Long An,Kế toán,Xét điểm ĐGNL ĐHQG,729.0,Trúng tuyển
+18,261VHU0018,Dương Văn Vinh,25/03/2008,Cần Thơ,Tâm lý học,Xét điểm thi THPT,28.2,Trúng tuyển
+19,261VHU0019,Phạm Khánh Trang,07/03/2008,Tây Ninh,Kế toán,Xét điểm ĐGNL ĐHQG,793.0,Trúng tuyển
+20,261VHU0020,Huỳnh Thu Yến,16/01/2008,Bình Định,Ngôn ngữ Nhật,Xét học bạ THPT,24.29,Trúng tuyển
+21,261VHU0021,Đỗ Khánh Huy,19/02/2008,Bình Định,Quản trị kinh doanh,Xét học bạ THPT,20.53,Trúng tuyển
+22,261VHU0022,Lý Khánh Châu,16/09/2008,Long An,Ngôn ngữ Nhật,Xét học bạ THPT,19.35,Trúng tuyển
+23,261VHU0023,Võ Thu Thảo,25/12/2008,Đắk Lắk,Marketing,Xét học bạ THPT,27.75,Trúng tuyển
+24,261VHU0024,Phan Hoàng Huy,15/09/2008,Tiền Giang,Marketing,Xét điểm ĐGNL ĐHQG,847.0,Trúng tuyển
+25,261VHU0025,Phạm Đức Hương,18/04/2008,An Giang,Kỹ thuật phần mềm,Xét điểm thi THPT,18.22,Trúng tuyển
+26,261VHU0026,Vũ Văn Châu,03/01/2008,Tây Ninh,Tâm lý học,Xét điểm ĐGNL ĐHQG,622.0,Không trúng tuyển
+27,261VHU0027,Lê Thu Hương,18/03/2008,Đắk Lắk,Kế toán,Xét điểm ĐGNL ĐHQG,784.0,Trúng tuyển
+28,261VHU0028,Lý Đức Phong,22/07/2008,Tây Ninh,Marketing,Xét học bạ THPT,18.99,Trúng tuyển
+29,261VHU0029,Ngô Gia Nga,21/02/2008,TP. Hồ Chí Minh,Tâm lý học,Xét học bạ THPT,25.07,Trúng tuyển
+30,261VHU0030,Hồ Hoàng Khoa,18/08/2008,Long An,Kỹ thuật phần mềm,Xét học bạ THPT,20.01,Trúng tuyển
+31,261VHU0031,Ngô Thành Hùng,03/08/2008,Cần Thơ,Ngôn ngữ Anh,Xét học bạ THPT,27.18,Trúng tuyển
+32,261VHU0032,Phạm Văn Trang,25/04/2008,Long An,Ngôn ngữ Nhật,Xét học bạ THPT,28.17,Trúng tuyển
+33,261VHU0033,Ngô Ngọc Phong,06/07/2008,TP. Hồ Chí Minh,Quản trị kinh doanh,Xét điểm thi THPT,27.48,Trúng tuyển
+34,261VHU0034,Hồ Minh Nga,24/09/2008,Lâm Đồng,Kế toán,Xét điểm thi THPT,25.31,Trúng tuyển
+35,261VHU0035,Lý Thành Hải,19/12/2008,Cần Thơ,Kế toán,Xét học bạ THPT,28.17,Trúng tuyển
+36,261VHU0036,Trần Hoàng Khoa,17/09/2008,Long An,Công nghệ thông tin,Xét học bạ THPT,24.13,Trúng tuyển
+37,261VHU0037,Trần Thu Châu,22/04/2008,Bến Tre,Thiết kế đồ họa,Xét học bạ THPT,24.25,Trúng tuyển
+38,261VHU0038,Phạm Ánh Hương,03/07/2008,Lâm Đồng,Quản trị dịch vụ du lịch và lữ hành,Xét điểm ĐGNL ĐHQG,615.0,Không trúng tuyển
+39,261VHU0039,Bùi Minh Hải,09/07/2008,Long An,Đông phương học,Xét điểm ĐGNL ĐHQG,719.0,Trúng tuyển
+40,261VHU0040,Đặng Ngọc Khoa,19/02/2008,Bình Định,Kỹ thuật phần mềm,Xét học bạ THPT,22.81,Trúng tuyển
+41,261VHU0041,Phan Thu Hùng,08/06/2008,Bình Dương,Thiết kế đồ họa,Xét điểm thi THPT,27.25,Trúng tuyển
+42,261VHU0042,Huỳnh Ngọc Sơn,26/11/2008,Cần Thơ,Tâm lý học,Xét điểm thi THPT,24.42,Trúng tuyển
+43,261VHU0043,Nguyễn Tuấn Sơn,05/05/2008,Bình Định,Kế toán,Xét điểm ĐGNL ĐHQG,639.0,Không trúng tuyển
+44,261VHU0044,Phạm Hoàng Sơn,07/12/2008,Tây Ninh,Thiết kế đồ họa,Xét điểm thi THPT,20.96,Trúng tuyển
+45,261VHU0045,Phan Tuấn Trang,28/01/2008,Bình Định,Kế toán,Xét điểm ĐGNL ĐHQG,786.0,Trúng tuyển
+46,261VHU0046,Ngô Khánh Hùng,05/11/2008,Bình Dương,Công nghệ thông tin,Xét học bạ THPT,21.5,Trúng tuyển
+47,261VHU0047,Huỳnh Hoàng Nga,01/02/2008,Bình Định,Ngôn ngữ Nhật,Xét điểm ĐGNL ĐHQG,763.0,Trúng tuyển
+48,261VHU0048,Hoàng Thu Bình,14/03/2008,TP. Hồ Chí Minh,Tài chính - Ngân hàng,Xét điểm ĐGNL ĐHQG,810.0,Trúng tuyển
+49,261VHU0049,Đặng Quang Bình,22/02/2008,Tây Ninh,Tài chính - Ngân hàng,Xét học bạ THPT,25.16,Trúng tuyển
+50,261VHU0050,Ngô Ánh Vinh,26/03/2008,Bến Tre,Thiết kế đồ họa,Xét học bạ THPT,27.08,Trúng tuyển
+51,261VHU0051,Nguyễn Thành Vinh,28/12/2008,Đồng Nai,Tài chính - Ngân hàng,Xét điểm thi THPT,26.42,Trúng tuyển
+52,261VHU0052,Võ Thành Uyên,28/08/2008,Đồng Nai,Kỹ thuật phần mềm,Xét điểm thi THPT,27.16,Trúng tuyển
+53,261VHU0053,Phan Khánh Nga,28/04/2008,Đồng Nai,Tài chính - Ngân hàng,Xét điểm thi THPT,26.62,Trúng tuyển
+54,261VHU0054,Nguyễn Tuấn Hải,03/05/2008,Tây Ninh,Marketing,Xét điểm thi THPT,20.93,Trúng tuyển
+55,261VHU0055,Hồ Tuấn Sơn,09/03/2008,An Giang,Tài chính - Ngân hàng,Xét học bạ THPT,19.21,Trúng tuyển
+56,261VHU0056,Võ Văn Dũng,26/06/2008,Bến Tre,Quản trị dịch vụ du lịch và lữ hành,Xét điểm thi THPT,21.63,Trúng tuyển
+57,261VHU0057,Phạm Gia Tâm,14/01/2008,Cần Thơ,Quản trị kinh doanh,Xét điểm thi THPT,18.47,Trúng tuyển
+58,261VHU0058,Phan Quang Nam,20/06/2008,Lâm Đồng,Kỹ thuật phần mềm,Xét điểm ĐGNL ĐHQG,950.0,Trúng tuyển
+59,261VHU0059,Phạm Hoàng Huy,11/07/2008,Đắk Lắk,Ngôn ngữ Nhật,Xét điểm thi THPT,25.0,Trúng tuyển
+60,261VHU0060,Đặng Thu Em,13/11/2008,Đắk Lắk,Quản trị kinh doanh,Xét điểm thi THPT,24.98,Trúng tuyển
+61,261VHU0061,Huỳnh Ánh Tâm,01/05/2008,Bình Dương,Kế toán,Xét điểm thi THPT,23.75,Trúng tuyển
+62,261VHU0062,Phan Gia Tâm,15/08/2008,Lâm Đồng,Quản trị dịch vụ du lịch và lữ hành,Xét điểm ĐGNL ĐHQG,722.0,Trúng tuyển
+63,261VHU0063,Phan Thu Phong,10/09/2008,Lâm Đồng,Tâm lý học,Xét học bạ THPT,24.92,Trúng tuyển
+64,261VHU0064,Bùi Thị Yến,26/04/2008,Long An,Quản trị kinh doanh,Xét điểm ĐGNL ĐHQG,718.0,Trúng tuyển
+65,261VHU0065,Nguyễn Văn Hương,03/08/2008,Bến Tre,Ngôn ngữ Anh,Xét điểm ĐGNL ĐHQG,923.0,Trúng tuyển
+66,261VHU0066,Phan Hoàng Uyên,05/11/2008,Đắk Lắk,Marketing,Xét điểm thi THPT,22.2,Trúng tuyển
+67,261VHU0067,Nguyễn Phương Yến,26/12/2008,Cần Thơ,Kỹ thuật phần mềm,Xét điểm thi THPT,20.3,Trúng tuyển
+68,261VHU0068,Dương Văn Sơn,26/08/2008,Lâm Đồng,Quản trị kinh doanh,Xét học bạ THPT,22.79,Trúng tuyển
+69,261VHU0069,Bùi Phương Nga,14/09/2008,Tiền Giang,Quản trị dịch vụ du lịch và lữ hành,Xét điểm ĐGNL ĐHQG,939.0,Trúng tuyển
+70,261VHU0070,Huỳnh Hoàng Phong,27/11/2008,Bình Dương,Ngôn ngữ Anh,Xét điểm thi THPT,25.89,Trúng tuyển
+71,261VHU0071,Lý Tuấn Hương,10/04/2008,Bình Dương,Kế toán,Xét điểm thi THPT,18.81,Trúng tuyển
+72,261VHU0072,Bùi Quang Sơn,13/12/2008,Long An,Kỹ thuật phần mềm,Xét học bạ THPT,19.58,Trúng tuyển
+73,261VHU0073,Phan Thị Nam,14/01/2008,Đồng Nai,Marketing,Xét điểm thi THPT,23.7,Trúng tuyển
+74,261VHU0074,Ngô Gia Yến,25/10/2008,Bến Tre,Quản trị dịch vụ du lịch và lữ hành,Xét điểm ĐGNL ĐHQG,607.0,Không trúng tuyển
+75,261VHU0075,Lý Văn Linh,27/07/2008,Cần Thơ,Kế toán,Xét điểm thi THPT,26.96,Trúng tuyển
+76,261VHU0076,Vũ Ngọc Hương,13/06/2008,Lâm Đồng,Kế toán,Xét điểm thi THPT,23.1,Trúng tuyển
+77,261VHU0077,Hồ Hoàng Phúc,18/01/2008,Bến Tre,Ngôn ngữ Anh,Xét học bạ THPT,28.3,Trúng tuyển
+78,261VHU0078,Nguyễn Thị Trang,06/01/2008,Bình Dương,Marketing,Xét học bạ THPT,27.1,Trúng tuyển
+79,261VHU0079,Hồ Quang Hải,13/05/2008,Bến Tre,Ngôn ngữ Anh,Xét điểm thi THPT,21.54,Trúng tuyển
+80,261VHU0080,Võ Khánh Châu,02/06/2008,Đồng Nai,Ngôn ngữ Anh,Xét học bạ THPT,25.86,Trúng tuyển
+81,261VHU0081,Lê Phương Trang,07/01/2008,An Giang,Công nghệ thông tin,Xét học bạ THPT,27.97,Trúng tuyển
+82,261VHU0082,Hoàng Đức Em,07/08/2008,Đắk Lắk,Ngôn ngữ Anh,Xét điểm ĐGNL ĐHQG,643.0,Không trúng tuyển
+83,261VHU0083,Võ Phương Linh,24/12/2008,Bình Định,Thiết kế đồ họa,Xét điểm ĐGNL ĐHQG,831.0,Trúng tuyển
+84,261VHU0084,Huỳnh Minh Dũng,19/11/2008,Bến Tre,Quản trị dịch vụ du lịch và lữ hành,Xét học bạ THPT,27.75,Trúng tuyển
+85,261VHU0085,Hồ Hoàng Hải,21/04/2008,Bình Định,Kỹ thuật phần mềm,Xét điểm ĐGNL ĐHQG,862.0,Trúng tuyển
+86,261VHU0086,Đặng Khánh Tuấn,19/01/2008,Tây Ninh,Quản trị dịch vụ du lịch và lữ hành,Xét học bạ THPT,26.36,Trúng tuyển
+87,261VHU0087,Ngô Tuấn Linh,01/07/2008,Tiền Giang,Kỹ thuật phần mềm,Xét điểm ĐGNL ĐHQG,846.0,Trúng tuyển
+88,261VHU0088,Phạm Gia Linh,14/03/2008,Đắk Lắk,Đông phương học,Xét điểm thi THPT,25.43,Trúng tuyển
+89,261VHU0089,Võ Ánh Sơn,24/10/2008,Bình Dương,Ngôn ngữ Anh,Xét điểm thi THPT,22.57,Trúng tuyển
+90,261VHU0090,Bùi Khánh Hương,08/08/2008,An Giang,Kỹ thuật phần mềm,Xét điểm thi THPT,27.26,Trúng tuyển
+91,261VHU0091,Hồ Quang Anh,07/06/2008,Bình Dương,Ngôn ngữ Anh,Xét điểm thi THPT,19.91,Trúng tuyển
+92,261VHU0092,Bùi Minh Thảo,17/04/2008,Bình Định,Tâm lý học,Xét điểm thi THPT,23.84,Trúng tuyển
+93,261VHU0093,Vũ Hoàng Nam,23/08/2008,Lâm Đồng,Ngôn ngữ Anh,Xét điểm ĐGNL ĐHQG,888.0,Trúng tuyển
+94,261VHU0094,Lý Ngọc Anh,23/04/2008,Bình Dương,Kỹ thuật phần mềm,Xét điểm thi THPT,20.33,Trúng tuyển
+95,261VHU0095,Đỗ Ngọc Sơn,24/09/2008,Tây Ninh,Ngôn ngữ Nhật,Xét điểm thi THPT,22.47,Trúng tuyển
+96,261VHU0096,Đỗ Hoàng Nga,04/12/2008,Đồng Nai,Kế toán,Xét điểm thi THPT,20.64,Trúng tuyển
+97,261VHU0097,Bùi Thị Vinh,07/12/2008,Tiền Giang,Ngôn ngữ Nhật,Xét điểm ĐGNL ĐHQG,670.0,Trúng tuyển
+98,261VHU0098,Võ Hoàng Tâm,04/04/2008,Bình Dương,Ngôn ngữ Nhật,Xét điểm ĐGNL ĐHQG,708.0,Trúng tuyển
+99,261VHU0099,Vũ Quang Phúc,05/05/2008,TP. Hồ Chí Minh,Kế toán,Xét học bạ THPT,25.43,Trúng tuyển
+100,261VHU0100,Trần Thu Huy,25/08/2008,Bình Định,Tâm lý học,Xét học bạ THPT,24.7,Trúng tuyển
+101,261VHU0101,Nguyễn Ánh Huy,06/01/2008,Bình Dương,Ngôn ngữ Anh,Xét điểm thi THPT,22.62,Trúng tuyển
+102,261VHU0102,Lý Thị Châu,21/11/2008,TP. Hồ Chí Minh,Marketing,Xét điểm thi THPT,18.78,Trúng tuyển
+103,261VHU0103,Hoàng Thành Tâm,04/09/2008,Bến Tre,Kế toán,Xét học bạ THPT,28.44,Trúng tuyển
+104,261VHU0104,Vũ Phương Quân,10/10/2008,Bến Tre,Marketing,Xét điểm thi THPT,27.54,Trúng tuyển
+105,261VHU0105,Đặng Ánh Thảo,04/04/2008,Lâm Đồng,Công nghệ thông tin,Xét điểm ĐGNL ĐHQG,965.0,Trúng tuyển
+106,261VHU0106,Phan Minh Tuấn,18/02/2008,Long An,Kỹ thuật phần mềm,Xét học bạ THPT,20.52,Trúng tuyển
+107,261VHU0107,Nguyễn Gia Nga,02/04/2008,Bình Dương,Tâm lý học,Xét điểm ĐGNL ĐHQG,779.0,Trúng tuyển
+108,261VHU0108,Đặng Hoàng Nga,09/11/2008,An Giang,Kỹ thuật phần mềm,Xét điểm ĐGNL ĐHQG,689.0,Trúng tuyển
+109,261VHU0109,Phan Gia Dũng,09/03/2008,Bình Định,Ngôn ngữ Nhật,Xét học bạ THPT,24.8,Trúng tuyển
+110,261VHU0110,Trần Thành Huy,10/08/2008,Bình Định,Quản trị dịch vụ du lịch và lữ hành,Xét điểm ĐGNL ĐHQG,913.0,Trúng tuyển
+111,261VHU0111,Dương Hoàng Huy,17/09/2008,Tiền Giang,Tâm lý học,Xét điểm thi THPT,27.9,Trúng tuyển
+112,261VHU0112,Dương Thị Thảo,20/05/2008,TP. Hồ Chí Minh,Công nghệ thông tin,Xét điểm thi THPT,25.71,Trúng tuyển
+113,261VHU0113,Lê Đức Tuấn,25/11/2008,Bình Dương,Quản trị dịch vụ du lịch và lữ hành,Xét điểm ĐGNL ĐHQG,961.0,Trúng tuyển
+114,261VHU0114,Trần Phương Yến,15/05/2008,Long An,Thiết kế đồ họa,Xét điểm thi THPT,23.45,Trúng tuyển
+115,261VHU0115,Ngô Tuấn Phong,11/06/2008,Lâm Đồng,Kỹ thuật phần mềm,Xét điểm thi THPT,21.65,Trúng tuyển
+116,261VHU0116,Phạm Khánh Phúc,10/11/2008,Bến Tre,Tài chính - Ngân hàng,Xét điểm thi THPT,25.28,Trúng tuyển
+117,261VHU0117,Trần Ngọc Châu,25/07/2008,Cần Thơ,Tài chính - Ngân hàng,Xét điểm thi THPT,21.39,Trúng tuyển
+118,261VHU0118,Nguyễn Tuấn Sơn,17/06/2008,An Giang,Ngôn ngữ Anh,Xét điểm thi THPT,18.57,Trúng tuyển
+119,261VHU0119,Lý Tuấn Nga,05/05/2008,Tiền Giang,Công nghệ thông tin,Xét học bạ THPT,20.8,Trúng tuyển
+120,261VHU0120,Lý Thị Anh,23/03/2008,Bình Dương,Đông phương học,Xét điểm ĐGNL ĐHQG,904.0,Trúng tuyển
+121,261VHU0121,Nguyễn Thu Nam,04/08/2008,Bình Định,Kỹ thuật phần mềm,Xét học bạ THPT,28.42,Trúng tuyển
+122,261VHU0122,Hoàng Ngọc Uyên,14/08/2008,Tiền Giang,Kế toán,Xét điểm ĐGNL ĐHQG,868.0,Trúng tuyển
+123,261VHU0123,Vũ Ngọc Sơn,20/09/2008,Đắk Lắk,Thiết kế đồ họa,Xét điểm thi THPT,20.0,Trúng tuyển
+124,261VHU0124,Hoàng Khánh Châu,26/09/2008,Bình Dương,Kế toán,Xét điểm thi THPT,21.57,Trúng tuyển
+125,261VHU0125,Nguyễn Minh Vinh,22/08/2008,Long An,Kế toán,Xét điểm ĐGNL ĐHQG,820.0,Trúng tuyển
+126,261VHU0126,Dương Thu Phong,18/07/2008,Tiền Giang,Tài chính - Ngân hàng,Xét điểm thi THPT,23.8,Trúng tuyển
+127,261VHU0127,Bùi Khánh Hải,08/07/2008,TP. Hồ Chí Minh,Tâm lý học,Xét học bạ THPT,24.0,Trúng tuyển
+128,261VHU0128,Bùi Hoàng Phong,22/11/2008,Long An,Tâm lý học,Xét điểm thi THPT,22.05,Trúng tuyển
+129,261VHU0129,Lý Văn Em,04/08/2008,Bình Định,Ngôn ngữ Nhật,Xét điểm ĐGNL ĐHQG,726.0,Trúng tuyển
+130,261VHU0130,Dương Văn Vinh,05/02/2008,Tiền Giang,Thiết kế đồ họa,Xét điểm thi THPT,27.14,Trúng tuyển
+131,261VHU0131,Võ Quang Thảo,28/06/2008,Lâm Đồng,Tâm lý học,Xét điểm thi THPT,24.82,Trúng tuyển
+132,261VHU0132,Hồ Quang Trang,02/10/2008,Bình Định,Tâm lý học,Xét điểm thi THPT,27.16,Trúng tuyển
+133,261VHU0133,Vũ Tuấn Tuấn,14/02/2008,Lâm Đồng,Kế toán,Xét học bạ THPT,25.84,Trúng tuyển
+134,261VHU0134,Phạm Ngọc Phúc,02/06/2008,TP. Hồ Chí Minh,Tâm lý học,Xét điểm thi THPT,27.49,Trúng tuyển
+135,261VHU0135,Đặng Quang Linh,14/10/2008,Lâm Đồng,Marketing,Xét học bạ THPT,20.56,Trúng tuyển
+136,261VHU0136,Huỳnh Thành Phúc,20/11/2008,Đồng Nai,Kỹ thuật phần mềm,Xét điểm ĐGNL ĐHQG,931.0,Trúng tuyển
+137,261VHU0137,Lý Ánh Em,15/05/2008,Lâm Đồng,Quản trị kinh doanh,Xét điểm thi THPT,24.7,Trúng tuyển
+138,261VHU0138,Nguyễn Phương Nga,03/08/2008,Tây Ninh,Kế toán,Xét điểm ĐGNL ĐHQG,808.0,Trúng tuyển
+139,261VHU0139,Đặng Tuấn Nam,10/04/2008,Bến Tre,Tâm lý học,Xét điểm thi THPT,22.8,Trúng tuyển
+140,261VHU0140,Lý Thị Hương,10/12/2008,Bình Dương,Marketing,Xét điểm ĐGNL ĐHQG,736.0,Trúng tuyển
+141,261VHU0141,Nguyễn Khánh Tuấn,28/11/2008,Đắk Lắk,Marketing,Xét điểm thi THPT,18.09,Trúng tuyển
+142,261VHU0142,Trần Ánh Vinh,08/10/2008,Tây Ninh,Ngôn ngữ Anh,Xét điểm thi THPT,26.15,Trúng tuyển
+143,261VHU0143,Vũ Tuấn Hải,24/11/2008,Lâm Đồng,Quản trị dịch vụ du lịch và lữ hành,Xét điểm thi THPT,25.12,Trúng tuyển
+144,261VHU0144,Hoàng Tuấn Dũng,26/08/2008,TP. Hồ Chí Minh,Đông phương học,Xét điểm ĐGNL ĐHQG,615.0,Không trúng tuyển
+145,261VHU0145,Đỗ Hoàng Em,14/03/2008,Đồng Nai,Kỹ thuật phần mềm,Xét điểm thi THPT,21.43,Trúng tuyển
+146,261VHU0146,Hoàng Phương Sơn,09/03/2008,Bình Dương,Tài chính - Ngân hàng,Xét điểm ĐGNL ĐHQG,791.0,Trúng tuyển
+147,261VHU0147,Lý Phương Huy,15/02/2008,Long An,Tâm lý học,Xét điểm thi THPT,26.44,Trúng tuyển
+148,261VHU0148,Vũ Khánh Tuấn,28/09/2008,Tây Ninh,Tâm lý học,Xét điểm ĐGNL ĐHQG,972.0,Trúng tuyển
+149,261VHU0149,Lê Phương Mai,15/06/2008,Lâm Đồng,Công nghệ thông tin,Xét điểm thi THPT,23.63,Trúng tuyển
+150,261VHU0150,Võ Ánh Mai,08/08/2008,TP. Hồ Chí Minh,Đông phương học,Xét điểm thi THPT,19.14,Trúng tuyển
+151,261VHU0151,Bùi Ánh Hương,15/12/2008,Bình Dương,Đông phương học,Xét học bạ THPT,24.67,Trúng tuyển
+152,261VHU0152,Ngô Thị Em,16/02/2008,Bình Định,Công nghệ thông tin,Xét học bạ THPT,21.2,Trúng tuyển
+153,261VHU0153,Vũ Thu Em,24/12/2008,Cần Thơ,Marketing,Xét điểm thi THPT,21.9,Trúng tuyển
+154,261VHU0154,Ngô Ánh Vinh,21/02/2008,Tiền Giang,Tâm lý học,Xét học bạ THPT,27.3,Trúng tuyển
+155,261VHU0155,Ngô Minh Bình,15/04/2008,Tây Ninh,Tâm lý học,Xét điểm thi THPT,20.28,Trúng tuyển
+156,261VHU0156,Phạm Tuấn Linh,13/05/2008,Đồng Nai,Ngôn ngữ Nhật,Xét điểm ĐGNL ĐHQG,736.0,Trúng tuyển
+157,261VHU0157,Phạm Khánh Nga,21/10/2008,TP. Hồ Chí Minh,Kỹ thuật phần mềm,Xét điểm ĐGNL ĐHQG,681.0,Trúng tuyển
+158,261VHU0158,Trần Phương Khoa,07/02/2008,Cần Thơ,Quản trị kinh doanh,Xét học bạ THPT,26.26,Trúng tuyển
+159,261VHU0159,Phan Ánh Hải,26/10/2008,TP. Hồ Chí Minh,Quản trị kinh doanh,Xét điểm thi THPT,26.13,Trúng tuyển
+160,261VHU0160,Võ Khánh Em,06/02/2008,Lâm Đồng,Thiết kế đồ họa,Xét điểm ĐGNL ĐHQG,695.0,Trúng tuyển
+161,261VHU0161,Nguyễn Thành Anh,01/03/2008,Bình Dương,Tài chính - Ngân hàng,Xét học bạ THPT,24.18,Trúng tuyển
+162,261VHU0162,Trần Thành Vinh,03/08/2008,Tiền Giang,Marketing,Xét điểm ĐGNL ĐHQG,643.0,Không trúng tuyển
+163,261VHU0163,Đỗ Thu Tâm,20/01/2008,Đắk Lắk,Kỹ thuật phần mềm,Xét điểm thi THPT,23.29,Trúng tuyển
+164,261VHU0164,Đặng Ngọc Trang,28/07/2008,Bến Tre,Công nghệ thông tin,Xét học bạ THPT,28.49,Trúng tuyển
+165,261VHU0165,Phạm Ngọc Uyên,11/10/2008,Long An,Ngôn ngữ Anh,Xét học bạ THPT,27.44,Trúng tuyển
+166,261VHU0166,Lê Thành Hùng,23/06/2008,Bến Tre,Quản trị dịch vụ du lịch và lữ hành,Xét điểm ĐGNL ĐHQG,822.0,Trúng tuyển
+167,261VHU0167,Đặng Ngọc Quân,23/02/2008,Lâm Đồng,Quản trị dịch vụ du lịch và lữ hành,Xét điểm thi THPT,19.04,Trúng tuyển
+168,261VHU0168,Phan Gia Nga,15/07/2008,Bến Tre,Quản trị kinh doanh,Xét điểm thi THPT,21.56,Trúng tuyển
+169,261VHU0169,Phạm Quang Nam,05/11/2008,Tiền Giang,Tài chính - Ngân hàng,Xét điểm ĐGNL ĐHQG,697.0,Trúng tuyển
+170,261VHU0170,Lê Thị Châu,24/06/2008,Long An,Kỹ thuật phần mềm,Xét điểm thi THPT,19.01,Trúng tuyển
+171,261VHU0171,Trần Ánh Sơn,14/06/2008,Lâm Đồng,Ngôn ngữ Nhật,Xét điểm thi THPT,25.04,Trúng tuyển
+172,261VHU0172,Ngô Khánh Vinh,12/02/2008,An Giang,Công nghệ thông tin,Xét điểm thi THPT,24.3,Trúng tuyển
+173,261VHU0173,Phan Thành Tuấn,12/09/2008,Tây Ninh,Ngôn ngữ Anh,Xét học bạ THPT,26.9,Trúng tuyển
+174,261VHU0174,Phạm Phương Hùng,28/09/2008,An Giang,Quản trị dịch vụ du lịch và lữ hành,Xét học bạ THPT,26.48,Trúng tuyển
+175,261VHU0175,Nguyễn Ánh Tuấn,09/12/2008,Bình Dương,Tâm lý học,Xét điểm thi THPT,18.3,Trúng tuyển
+176,261VHU0176,Bùi Quang Anh,13/02/2008,Long An,Thiết kế đồ họa,Xét học bạ THPT,23.95,Trúng tuyển
+177,261VHU0177,Nguyễn Thị Vinh,15/06/2008,Long An,Ngôn ngữ Nhật,Xét học bạ THPT,21.95,Trúng tuyển
+178,261VHU0178,Đỗ Minh Vinh,02/03/2008,Long An,Tài chính - Ngân hàng,Xét điểm ĐGNL ĐHQG,827.0,Trúng tuyển
+179,261VHU0179,Trần Tuấn Châu,16/10/2008,Tiền Giang,Kế toán,Xét điểm thi THPT,24.95,Trúng tuyển
+180,261VHU0180,Ngô Minh Hải,04/05/2008,Lâm Đồng,Ngôn ngữ Nhật,Xét học bạ THPT,21.62,Trúng tuyển
+181,261VHU0181,Lý Thu Tuấn,20/01/2008,TP. Hồ Chí Minh,Kế toán,Xét học bạ THPT,20.32,Trúng tuyển
+182,261VHU0182,Phan Minh Hải,04/01/2008,Tiền Giang,Thiết kế đồ họa,Xét điểm thi THPT,21.04,Trúng tuyển
+183,261VHU0183,Ngô Thành Em,17/09/2008,Lâm Đồng,Marketing,Xét điểm ĐGNL ĐHQG,867.0,Trúng tuyển
+184,261VHU0184,Đỗ Thị Mai,15/02/2008,Tây Ninh,Tâm lý học,Xét học bạ THPT,22.58,Trúng tuyển
+185,261VHU0185,Ngô Ánh Mai,04/07/2008,TP. Hồ Chí Minh,Tâm lý học,Xét điểm ĐGNL ĐHQG,759.0,Trúng tuyển
+186,261VHU0186,Bùi Thành Thảo,03/07/2008,Bình Định,Ngôn ngữ Anh,Xét điểm ĐGNL ĐHQG,950.0,Trúng tuyển
+187,261VHU0187,Vũ Gia Tâm,28/05/2008,Đắk Lắk,Marketing,Xét điểm ĐGNL ĐHQG,630.0,Không trúng tuyển
+188,261VHU0188,Bùi Đức Khoa,04/09/2008,Cần Thơ,Thiết kế đồ họa,Xét học bạ THPT,23.36,Trúng tuyển
+189,261VHU0189,Phan Phương Linh,21/03/2008,Đồng Nai,Tài chính - Ngân hàng,Xét điểm ĐGNL ĐHQG,964.0,Trúng tuyển
+190,261VHU0190,Phạm Thành Hùng,25/11/2008,Bình Định,Quản trị kinh doanh,Xét học bạ THPT,24.33,Trúng tuyển
+191,261VHU0191,Huỳnh Phương Trang,25/10/2008,Tiền Giang,Ngôn ngữ Anh,Xét điểm thi THPT,25.92,Trúng tuyển
+192,261VHU0192,Bùi Khánh Trang,16/08/2008,Lâm Đồng,Tài chính - Ngân hàng,Xét học bạ THPT,22.62,Trúng tuyển
+193,261VHU0193,Đặng Phương Hùng,03/05/2008,Tiền Giang,Quản trị dịch vụ du lịch và lữ hành,Xét học bạ THPT,21.7,Trúng tuyển
+194,261VHU0194,Dương Văn Bình,28/02/2008,An Giang,Tài chính - Ngân hàng,Xét điểm thi THPT,18.81,Trúng tuyển
+195,261VHU0195,Hồ Ngọc Tâm,15/10/2008,Lâm Đồng,Ngôn ngữ Nhật,Xét điểm ĐGNL ĐHQG,940.0,Trúng tuyển
+196,261VHU0196,Phan Quang Thảo,02/08/2008,Bình Định,Ngôn ngữ Anh,Xét điểm ĐGNL ĐHQG,657.0,Trúng tuyển
+197,261VHU0197,Bùi Hoàng Châu,08/12/2008,Tiền Giang,Ngôn ngữ Nhật,Xét điểm ĐGNL ĐHQG,666.0,Trúng tuyển
+198,261VHU0198,Dương Thu Quân,10/07/2008,Bến Tre,Quản trị dịch vụ du lịch và lữ hành,Xét học bạ THPT,21.82,Trúng tuyển
+199,261VHU0199,Bùi Tuấn Thảo,03/06/2008,Bình Định,Công nghệ thông tin,Xét điểm ĐGNL ĐHQG,846.0,Trúng tuyển
+200,261VHU0200,Hồ Minh Hùng,20/03/2008,Tây Ninh,Tâm lý học,Xét điểm ĐGNL ĐHQG,966.0,Trúng tuyển
+201,261VHU0201,Lê Ánh Tuấn,21/12/2008,Lâm Đồng,Thiết kế đồ họa,Xét điểm thi THPT,21.26,Trúng tuyển
+202,261VHU0202,Hồ Thành Thảo,13/11/2008,Tây Ninh,Tâm lý học,Xét học bạ THPT,21.25,Trúng tuyển
+203,261VHU0203,Hoàng Tuấn Uyên,03/11/2008,Lâm Đồng,Tâm lý học,Xét điểm ĐGNL ĐHQG,947.0,Trúng tuyển
+204,261VHU0204,Ngô Thu Linh,07/06/2008,Tiền Giang,Công nghệ thông tin,Xét điểm thi THPT,21.24,Trúng tuyển
+205,261VHU0205,Phan Đức Em,26/02/2008,Cần Thơ,Thiết kế đồ họa,Xét học bạ THPT,21.11,Trúng tuyển
+206,261VHU0206,Trần Tuấn Khoa,05/03/2008,Long An,Quản trị dịch vụ du lịch và lữ hành,Xét học bạ THPT,24.27,Trúng tuyển
+207,261VHU0207,Huỳnh Hoàng Nga,24/04/2008,Tiền Giang,Công nghệ thông tin,Xét điểm thi THPT,21.83,Trúng tuyển
+208,261VHU0208,Đặng Phương Vinh,10/08/2008,Đồng Nai,Ngôn ngữ Anh,Xét học bạ THPT,23.61,Trúng tuyển
+209,261VHU0209,Đỗ Tuấn Tâm,25/07/2008,Cần Thơ,Ngôn ngữ Anh,Xét điểm thi THPT,26.08,Trúng tuyển
+210,261VHU0210,Ngô Thành Hải,02/11/2008,Tiền Giang,Quản trị dịch vụ du lịch và lữ hành,Xét học bạ THPT,27.17,Trúng tuyển
+211,261VHU0211,Đỗ Thu Dũng,10/02/2008,Long An,Tâm lý học,Xét điểm ĐGNL ĐHQG,923.0,Trúng tuyển
+212,261VHU0212,Võ Ngọc Quân,08/08/2008,Tây Ninh,Thiết kế đồ họa,Xét điểm thi THPT,18.96,Trúng tuyển
+213,261VHU0213,Nguyễn Gia Bình,13/02/2008,Tây Ninh,Marketing,Xét điểm ĐGNL ĐHQG,742.0,Trúng tuyển
+214,261VHU0214,Vũ Văn Khoa,26/03/2008,Long An,Kỹ thuật phần mềm,Xét điểm ĐGNL ĐHQG,847.0,Trúng tuyển
+215,261VHU0215,Trần Minh Phong,16/08/2008,An Giang,Tâm lý học,Xét học bạ THPT,25.97,Trúng tuyển
+216,261VHU0216,Nguyễn Thị Anh,18/12/2008,An Giang,Kế toán,Xét học bạ THPT,26.77,Trúng tuyển
+217,261VHU0217,Ngô Thị Yến,02/04/2008,Bến Tre,Kế toán,Xét học bạ THPT,21.16,Trúng tuyển
+218,261VHU0218,Dương Thị Dũng,21/09/2008,An Giang,Ngôn ngữ Anh,Xét điểm ĐGNL ĐHQG,804.0,Trúng tuyển
+219,261VHU0219,Vũ Hoàng Em,12/04/2008,An Giang,Kế toán,Xét điểm thi THPT,18.02,Trúng tuyển
+220,261VHU0220,Ngô Thành Tuấn,12/02/2008,Cần Thơ,Đông phương học,Xét học bạ THPT,23.5,Trúng tuyển
+221,261VHU0221,Nguyễn Gia Phong,12/05/2008,Đắk Lắk,Công nghệ thông tin,Xét điểm ĐGNL ĐHQG,747.0,Trúng tuyển
+222,261VHU0222,Nguyễn Quang Châu,21/02/2008,An Giang,Tài chính - Ngân hàng,Xét học bạ THPT,25.7,Trúng tuyển
+223,261VHU0223,Bùi Thành Bình,21/03/2008,Lâm Đồng,Tài chính - Ngân hàng,Xét điểm ĐGNL ĐHQG,729.0,Trúng tuyển
+224,261VHU0224,Dương Hoàng Phong,03/12/2008,Tiền Giang,Đông phương học,Xét học bạ THPT,26.52,Trúng tuyển
+225,261VHU0225,Trần Minh Hải,11/05/2008,Cần Thơ,Công nghệ thông tin,Xét học bạ THPT,27.3,Trúng tuyển
+226,261VHU0226,Hồ Khánh Sơn,21/04/2008,Bình Dương,Ngôn ngữ Anh,Xét điểm thi THPT,18.38,Trúng tuyển
+227,261VHU0227,Đỗ Khánh Yến,04/06/2008,Bến Tre,Công nghệ thông tin,Xét điểm ĐGNL ĐHQG,726.0,Trúng tuyển
+228,261VHU0228,Hồ Hoàng Nga,16/12/2008,Tiền Giang,Marketing,Xét điểm thi THPT,28.22,Trúng tuyển
+229,261VHU0229,Đỗ Phương Quân,03/07/2008,An Giang,Kế toán,Xét học bạ THPT,25.63,Trúng tuyển
+230,261VHU0230,Huỳnh Thu Huy,22/05/2008,Bình Dương,Tài chính - Ngân hàng,Xét học bạ THPT,18.84,Trúng tuyển
+231,261VHU0231,Dương Ánh Uyên,12/08/2008,TP. Hồ Chí Minh,Marketing,Xét học bạ THPT,25.24,Trúng tuyển
+232,261VHU0232,Đỗ Ánh Nam,02/02/2008,Lâm Đồng,Kế toán,Xét điểm ĐGNL ĐHQG,972.0,Trúng tuyển
+233,261VHU0233,Hồ Quang Quân,01/03/2008,An Giang,Tâm lý học,Xét điểm ĐGNL ĐHQG,661.0,Trúng tuyển
+234,261VHU0234,Dương Văn Em,12/06/2008,Bến Tre,Kỹ thuật phần mềm,Xét học bạ THPT,26.17,Trúng tuyển
+235,261VHU0235,Trần Ánh Em,12/08/2008,Bình Định,Đông phương học,Xét điểm thi THPT,27.96,Trúng tuyển
+236,261VHU0236,Hoàng Thu Linh,08/02/2008,TP. Hồ Chí Minh,Marketing,Xét điểm thi THPT,24.82,Trúng tuyển
+237,261VHU0237,Huỳnh Ngọc Quân,25/05/2008,Đắk Lắk,Marketing,Xét điểm ĐGNL ĐHQG,645.0,Không trúng tuyển
+238,261VHU0238,Dương Đức Thảo,16/04/2008,Bình Định,Kế toán,Xét điểm ĐGNL ĐHQG,948.0,Trúng tuyển
+239,261VHU0239,Hoàng Khánh Châu,15/02/2008,Lâm Đồng,Ngôn ngữ Anh,Xét học bạ THPT,27.44,Trúng tuyển
+240,261VHU0240,Bùi Tuấn Linh,10/05/2008,Long An,Tâm lý học,Xét học bạ THPT,23.77,Trúng tuyển
+241,261VHU0241,Huỳnh Phương Linh,07/03/2008,Đồng Nai,Ngôn ngữ Nhật,Xét học bạ THPT,19.27,Trúng tuyển
+242,261VHU0242,Lý Văn Linh,26/09/2008,Long An,Ngôn ngữ Nhật,Xét điểm ĐGNL ĐHQG,740.0,Trúng tuyển
+243,261VHU0243,Lê Thị Huy,17/07/2008,Bến Tre,Marketing,Xét điểm ĐGNL ĐHQG,873.0,Trúng tuyển
+244,261VHU0244,Lê Thành Khoa,22/09/2008,Tây Ninh,Đông phương học,Xét học bạ THPT,22.72,Trúng tuyển
+245,261VHU0245,Hoàng Khánh Yến,25/03/2008,Bến Tre,Ngôn ngữ Nhật,Xét điểm ĐGNL ĐHQG,823.0,Trúng tuyển
+246,261VHU0246,Trần Khánh Dũng,06/06/2008,Đắk Lắk,Ngôn ngữ Nhật,Xét học bạ THPT,21.19,Trúng tuyển
+247,261VHU0247,Vũ Quang Quân,21/09/2008,Bình Dương,Kế toán,Xét học bạ THPT,20.63,Trúng tuyển
+248,261VHU0248,Hoàng Tuấn Huy,21/03/2008,An Giang,Quản trị dịch vụ du lịch và lữ hành,Xét điểm ĐGNL ĐHQG,636.0,Không trúng tuyển
+249,261VHU0249,Hoàng Thành Tuấn,11/10/2008,TP. Hồ Chí Minh,Quản trị dịch vụ du lịch và lữ hành,Xét điểm ĐGNL ĐHQG,943.0,Trúng tuyển
+250,261VHU0250,Nguyễn Thị Bình,07/10/2008,Bến Tre,Đông phương học,Xét điểm ĐGNL ĐHQG,701.0,Trúng tuyển
+251,261VHU0251,Nguyễn Ngọc Trang,10/08/2008,Đồng Nai,Ngôn ngữ Nhật,Xét điểm thi THPT,24.74,Trúng tuyển
+252,261VHU0252,Hồ Minh Nga,15/07/2008,Tiền Giang,Kỹ thuật phần mềm,Xét điểm ĐGNL ĐHQG,623.0,Không trúng tuyển
+253,261VHU0253,Dương Đức Khoa,23/06/2008,Đắk Lắk,Quản trị dịch vụ du lịch và lữ hành,Xét học bạ THPT,21.28,Trúng tuyển
+254,261VHU0254,Đỗ Gia Em,11/04/2008,Tiền Giang,Tài chính - Ngân hàng,Xét điểm ĐGNL ĐHQG,813.0,Trúng tuyển
+255,261VHU0255,Phạm Minh Nga,10/07/2008,An Giang,Quản trị kinh doanh,Xét học bạ THPT,19.02,Trúng tuyển
+256,261VHU0256,Ngô Đức Phúc,07/03/2008,Tiền Giang,Tài chính - Ngân hàng,Xét điểm ĐGNL ĐHQG,874.0,Trúng tuyển
+257,261VHU0257,Dương Ngọc Huy,13/09/2008,Tiền Giang,Ngôn ngữ Anh,Xét học bạ THPT,18.95,Trúng tuyển
+258,261VHU0258,Vũ Đức Tâm,16/10/2008,Lâm Đồng,Tài chính - Ngân hàng,Xét học bạ THPT,18.53,Trúng tuyển
+259,261VHU0259,Lý Minh Sơn,09/12/2008,Tây Ninh,Công nghệ thông tin,Xét học bạ THPT,22.52,Trúng tuyển
+260,261VHU0260,Hồ Quang Bình,07/06/2008,Cần Thơ,Marketing,Xét học bạ THPT,23.99,Trúng tuyển
+261,261VHU0261,Đặng Thị Mai,09/10/2008,Lâm Đồng,Ngôn ngữ Nhật,Xét điểm thi THPT,26.03,Trúng tuyển
+262,261VHU0262,Phạm Thành Dũng,11/09/2008,Tây Ninh,Marketing,Xét điểm thi THPT,26.35,Trúng tuyển
+263,261VHU0263,Hoàng Đức Thảo,02/01/2008,Long An,Ngôn ngữ Nhật,Xét điểm thi THPT,23.25,Trúng tuyển
+264,261VHU0264,Bùi Phương Phong,17/03/2008,Tây Ninh,Ngôn ngữ Nhật,Xét điểm thi THPT,19.56,Trúng tuyển
+265,261VHU0265,Bùi Thành Mai,19/06/2008,Cần Thơ,Quản trị dịch vụ du lịch và lữ hành,Xét điểm ĐGNL ĐHQG,920.0,Trúng tuyển
+266,261VHU0266,Lý Hoàng Tâm,12/06/2008,Lâm Đồng,Kế toán,Xét điểm thi THPT,26.57,Trúng tuyển
+267,261VHU0267,Phạm Gia Tâm,21/01/2008,An Giang,Kế toán,Xét điểm ĐGNL ĐHQG,931.0,Trúng tuyển
+268,261VHU0268,Lý Minh Trang,02/10/2008,Tiền Giang,Quản trị dịch vụ du lịch và lữ hành,Xét điểm ĐGNL ĐHQG,686.0,Trúng tuyển
+269,261VHU0269,Huỳnh Thu Trang,13/03/2008,Lâm Đồng,Tâm lý học,Xét điểm ĐGNL ĐHQG,894.0,Trúng tuyển
+270,261VHU0270,Vũ Văn Tâm,15/06/2008,Bến Tre,Tâm lý học,Xét học bạ THPT,20.0,Trúng tuyển
+271,261VHU0271,Hoàng Gia Uyên,20/08/2008,Đắk Lắk,Quản trị kinh doanh,Xét điểm thi THPT,23.27,Trúng tuyển
+272,261VHU0272,Trần Hoàng Em,22/08/2008,Cần Thơ,Ngôn ngữ Nhật,Xét học bạ THPT,23.89,Trúng tuyển
+273,261VHU0273,Hồ Quang Phúc,12/11/2008,Đắk Lắk,Ngôn ngữ Anh,Xét điểm ĐGNL ĐHQG,730.0,Trúng tuyển
+274,261VHU0274,Võ Ánh Phong,10/04/2008,Bình Dương,Quản trị kinh doanh,Xét học bạ THPT,20.93,Trúng tuyển
+275,261VHU0275,Đặng Hoàng Hải,16/06/2008,Cần Thơ,Tâm lý học,Xét điểm ĐGNL ĐHQG,786.0,Trúng tuyển
+276,261VHU0276,Võ Minh Dũng,13/06/2008,Long An,Quản trị dịch vụ du lịch và lữ hành,Xét điểm ĐGNL ĐHQG,806.0,Trúng tuyển
+277,261VHU0277,Đặng Văn Huy,15/11/2008,Bình Dương,Tâm lý học,Xét học bạ THPT,21.64,Trúng tuyển
+278,261VHU0278,Lý Đức Hải,23/05/2008,Long An,Ngôn ngữ Nhật,Xét điểm thi THPT,27.8,Trúng tuyển
+279,261VHU0279,Phạm Ánh Vinh,22/09/2008,Đồng Nai,Quản trị dịch vụ du lịch và lữ hành,Xét học bạ THPT,20.55,Trúng tuyển
+280,261VHU0280,Vũ Văn Dũng,04/11/2008,Long An,Marketing,Xét điểm thi THPT,25.53,Trúng tuyển
+281,261VHU0281,Nguyễn Thu Phúc,16/08/2008,Lâm Đồng,Marketing,Xét điểm ĐGNL ĐHQG,955.0,Trúng tuyển
+282,261VHU0282,Phan Phương Huy,25/02/2008,Lâm Đồng,Tài chính - Ngân hàng,Xét điểm thi THPT,24.78,Trúng tuyển
+283,261VHU0283,Vũ Thu Vinh,06/07/2008,Long An,Tâm lý học,Xét học bạ THPT,27.59,Trúng tuyển
+284,261VHU0284,Trần Khánh Mai,28/05/2008,TP. Hồ Chí Minh,Ngôn ngữ Anh,Xét học bạ THPT,27.83,Trúng tuyển
+285,261VHU0285,Nguyễn Minh Tâm,11/05/2008,Tiền Giang,Quản trị dịch vụ du lịch và lữ hành,Xét học bạ THPT,27.75,Trúng tuyển
+286,261VHU0286,Lý Thành Quân,04/06/2008,Long An,Ngôn ngữ Anh,Xét điểm thi THPT,20.02,Trúng tuyển
+287,261VHU0287,Dương Tuấn Hùng,11/05/2008,An Giang,Tâm lý học,Xét học bạ THPT,18.15,Trúng tuyển
+288,261VHU0288,Phan Thành Thảo,17/06/2008,Bình Định,Đông phương học,Xét điểm thi THPT,26.68,Trúng tuyển
+289,261VHU0289,Hồ Tuấn Dũng,08/01/2008,Bình Dương,Thiết kế đồ họa,Xét học bạ THPT,23.01,Trúng tuyển
+290,261VHU0290,Hồ Đức Nga,24/10/2008,TP. Hồ Chí Minh,Kế toán,Xét điểm thi THPT,21.17,Trúng tuyển
+291,261VHU0291,Võ Tuấn Linh,04/08/2008,Bình Dương,Tâm lý học,Xét học bạ THPT,18.65,Trúng tuyển
+292,261VHU0292,Huỳnh Gia Tuấn,23/02/2008,Lâm Đồng,Ngôn ngữ Nhật,Xét điểm ĐGNL ĐHQG,893.0,Trúng tuyển
+293,261VHU0293,Đặng Quang Thảo,16/03/2008,Tiền Giang,Quản trị kinh doanh,Xét học bạ THPT,28.05,Trúng tuyển
+294,261VHU0294,Đỗ Gia Uyên,26/11/2008,Đồng Nai,Ngôn ngữ Nhật,Xét điểm thi THPT,25.95,Trúng tuyển
+295,261VHU0295,Vũ Tuấn Yến,17/12/2008,Tây Ninh,Quản trị dịch vụ du lịch và lữ hành,Xét học bạ THPT,23.52,Trúng tuyển
+296,261VHU0296,Lê Ánh Dũng,07/10/2008,Cần Thơ,Công nghệ thông tin,Xét điểm ĐGNL ĐHQG,943.0,Trúng tuyển
+297,261VHU0297,Hoàng Thành Khoa,07/12/2008,An Giang,Ngôn ngữ Nhật,Xét điểm thi THPT,19.22,Trúng tuyển
+298,261VHU0298,Lý Thị Quân,17/07/2008,Tiền Giang,Ngôn ngữ Anh,Xét học bạ THPT,22.76,Trúng tuyển
+299,261VHU0299,Trần Thu Nga,13/05/2008,TP. Hồ Chí Minh,Đông phương học,Xét điểm thi THPT,25.59,Trúng tuyển
+300,261VHU0300,Phan Ánh Châu,03/09/2008,TP. Hồ Chí Minh,Công nghệ thông tin,Xét điểm thi THPT,21.62,Trúng tuyển
+301,261VHU0301,Lê Ngọc Bình,05/11/2008,Đắk Lắk,Kế toán,Xét điểm thi THPT,19.89,Trúng tuyển
+302,261VHU0302,Ngô Quang Mai,22/11/2008,Cần Thơ,Ngôn ngữ Anh,Xét điểm thi THPT,21.94,Trúng tuyển
+303,261VHU0303,Hoàng Tuấn Linh,13/09/2008,Long An,Kỹ thuật phần mềm,Xét học bạ THPT,28.42,Trúng tuyển
+304,261VHU0304,Vũ Khánh Anh,24/09/2008,Bến Tre,Công nghệ thông tin,Xét điểm thi THPT,22.86,Trúng tuyển
+305,261VHU0305,Hồ Khánh Hương,09/04/2008,Đắk Lắk,Quản trị kinh doanh,Xét điểm thi THPT,21.63,Trúng tuyển
+306,261VHU0306,Phạm Văn Tuấn,01/04/2008,Đồng Nai,Marketing,Xét điểm ĐGNL ĐHQG,891.0,Trúng tuyển
+307,261VHU0307,Lê Thị Thảo,23/01/2008,Đồng Nai,Công nghệ thông tin,Xét điểm thi THPT,24.28,Trúng tuyển
+308,261VHU0308,Trần Gia Nga,28/01/2008,Long An,Quản trị kinh doanh,Xét điểm ĐGNL ĐHQG,683.0,Trúng tuyển
+309,261VHU0309,Đặng Đức Vinh,25/11/2008,Tây Ninh,Quản trị dịch vụ du lịch và lữ hành,Xét điểm thi THPT,24.06,Trúng tuyển
+310,261VHU0310,Vũ Minh Em,10/05/2008,TP. Hồ Chí Minh,Đông phương học,Xét điểm ĐGNL ĐHQG,684.0,Trúng tuyển
+311,261VHU0311,Huỳnh Tuấn Tuấn,12/11/2008,Lâm Đồng,Marketing,Xét điểm ĐGNL ĐHQG,788.0,Trúng tuyển
+312,261VHU0312,Hồ Phương Quân,05/05/2008,Bến Tre,Tài chính - Ngân hàng,Xét điểm ĐGNL ĐHQG,758.0,Trúng tuyển
+313,261VHU0313,Huỳnh Phương Sơn,10/12/2008,Long An,Ngôn ngữ Anh,Xét học bạ THPT,26.92,Trúng tuyển
+314,261VHU0314,Dương Văn Sơn,05/07/2008,Đồng Nai,Marketing,Xét điểm thi THPT,23.85,Trúng tuyển
+315,261VHU0315,Võ Đức Khoa,28/06/2008,Bình Định,Đông phương học,Xét học bạ THPT,27.68,Trúng tuyển
+316,261VHU0316,Phan Văn Hùng,02/02/2008,Đồng Nai,Marketing,Xét điểm ĐGNL ĐHQG,830.0,Trúng tuyển
+317,261VHU0317,Phan Ngọc Hải,01/04/2008,Đồng Nai,Tài chính - Ngân hàng,Xét điểm thi THPT,28.05,Trúng tuyển
+318,261VHU0318,Phạm Hoàng Yến,23/04/2008,Bến Tre,Ngôn ngữ Anh,Xét học bạ THPT,25.3,Trúng tuyển
+319,261VHU0319,Vũ Thu Khoa,21/06/2008,Bình Dương,Kế toán,Xét điểm thi THPT,22.9,Trúng tuyển
+320,261VHU0320,Võ Quang Quân,24/08/2008,Tây Ninh,Ngôn ngữ Anh,Xét điểm thi THPT,19.04,Trúng tuyển
+321,261VHU0321,Phan Quang Khoa,08/12/2008,Long An,Marketing,Xét học bạ THPT,23.91,Trúng tuyển
+322,261VHU0322,Nguyễn Minh Sơn,10/03/2008,Đồng Nai,Quản trị dịch vụ du lịch và lữ hành,Xét điểm ĐGNL ĐHQG,874.0,Trúng tuyển
+323,261VHU0323,Bùi Đức Mai,21/11/2008,Tây Ninh,Quản trị dịch vụ du lịch và lữ hành,Xét học bạ THPT,23.24,Trúng tuyển
+324,261VHU0324,Võ Phương Phong,15/03/2008,Đắk Lắk,Tâm lý học,Xét điểm ĐGNL ĐHQG,881.0,Trúng tuyển
+325,261VHU0325,Đỗ Thành Em,18/11/2008,TP. Hồ Chí Minh,Tâm lý học,Xét điểm ĐGNL ĐHQG,786.0,Trúng tuyển
+326,261VHU0326,Trần Khánh Châu,14/03/2008,Lâm Đồng,Đông phương học,Xét học bạ THPT,26.03,Trúng tuyển
+327,261VHU0327,Vũ Thị Uyên,15/06/2008,TP. Hồ Chí Minh,Thiết kế đồ họa,Xét học bạ THPT,20.3,Trúng tuyển
+328,261VHU0328,Lý Tuấn Phong,14/01/2008,TP. Hồ Chí Minh,Công nghệ thông tin,Xét học bạ THPT,23.59,Trúng tuyển
+329,261VHU0329,Võ Thu Huy,22/07/2008,Long An,Công nghệ thông tin,Xét điểm ĐGNL ĐHQG,909.0,Trúng tuyển
+330,261VHU0330,Phạm Thị Quân,17/05/2008,Tây Ninh,Thiết kế đồ họa,Xét học bạ THPT,20.02,Trúng tuyển
+331,261VHU0331,Võ Phương Mai,15/10/2008,Đồng Nai,Kỹ thuật phần mềm,Xét điểm thi THPT,28.07,Trúng tuyển
+332,261VHU0332,Vũ Minh Tuấn,21/01/2008,Bình Định,Kỹ thuật phần mềm,Xét điểm ĐGNL ĐHQG,977.0,Trúng tuyển
+333,261VHU0333,Hồ Gia Mai,01/12/2008,Long An,Ngôn ngữ Nhật,Xét điểm thi THPT,18.59,Trúng tuyển
+334,261VHU0334,Lê Ngọc Nam,28/02/2008,Cần Thơ,Đông phương học,Xét điểm thi THPT,23.94,Trúng tuyển
+335,261VHU0335,Trần Đức Hải,02/02/2008,Lâm Đồng,Tâm lý học,Xét điểm ĐGNL ĐHQG,781.0,Trúng tuyển
+336,261VHU0336,Võ Thu Tâm,28/06/2008,TP. Hồ Chí Minh,Đông phương học,Xét học bạ THPT,19.88,Trúng tuyển
+337,261VHU0337,Phan Ánh Em,10/03/2008,An Giang,Tâm lý học,Xét điểm thi THPT,27.75,Trúng tuyển
+338,261VHU0338,Vũ Ánh Mai,25/12/2008,Long An,Đông phương học,Xét điểm ĐGNL ĐHQG,726.0,Trúng tuyển
+339,261VHU0339,Lê Thu Vinh,08/02/2008,Tây Ninh,Tài chính - Ngân hàng,Xét học bạ THPT,19.03,Trúng tuyển
+340,261VHU0340,Hồ Phương Khoa,15/08/2008,Đồng Nai,Công nghệ thông tin,Xét điểm ĐGNL ĐHQG,704.0,Trúng tuyển
+341,261VHU0341,Đỗ Thu Mai,22/07/2008,Bình Định,Marketing,Xét học bạ THPT,25.14,Trúng tuyển
+342,261VHU0342,Đặng Phương Hương,05/07/2008,Đắk Lắk,Tâm lý học,Xét học bạ THPT,18.86,Trúng tuyển
+343,261VHU0343,Hoàng Hoàng Mai,01/05/2008,Tiền Giang,Tài chính - Ngân hàng,Xét điểm thi THPT,19.12,Trúng tuyển
+344,261VHU0344,Đỗ Phương Hùng,14/08/2008,Cần Thơ,Kỹ thuật phần mềm,Xét học bạ THPT,18.92,Trúng tuyển
+345,261VHU0345,Ngô Thị Anh,20/10/2008,Tây Ninh,Kỹ thuật phần mềm,Xét điểm thi THPT,23.82,Trúng tuyển
+346,261VHU0346,Hồ Văn Huy,24/09/2008,Đồng Nai,Marketing,Xét điểm thi THPT,26.18,Trúng tuyển
+347,261VHU0347,Huỳnh Tuấn Mai,09/08/2008,Long An,Thiết kế đồ họa,Xét học bạ THPT,20.82,Trúng tuyển
+348,261VHU0348,Lê Thành Nam,26/02/2008,Tây Ninh,Kế toán,Xét điểm thi THPT,21.15,Trúng tuyển
+349,261VHU0349,Võ Đức Vinh,07/08/2008,Bình Định,Đông phương học,Xét điểm thi THPT,24.23,Trúng tuyển
+350,261VHU0350,Hoàng Minh Anh,13/06/2008,Tiền Giang,Marketing,Xét điểm thi THPT,26.84,Trúng tuyển
+351,261VHU0351,Bùi Gia Trang,20/12/2008,Đồng Nai,Quản trị dịch vụ du lịch và lữ hành,Xét học bạ THPT,21.15,Trúng tuyển
+352,261VHU0352,Lý Quang Phúc,23/11/2008,Tiền Giang,Marketing,Xét điểm thi THPT,21.06,Trúng tuyển
+353,261VHU0353,Vũ Quang Mai,19/04/2008,An Giang,Kế toán,Xét điểm thi THPT,21.83,Trúng tuyển
+354,261VHU0354,Huỳnh Tuấn Yến,15/12/2008,Đồng Nai,Ngôn ngữ Nhật,Xét học bạ THPT,28.01,Trúng tuyển
+355,261VHU0355,Dương Phương Huy,26/07/2008,Lâm Đồng,Tâm lý học,Xét học bạ THPT,26.6,Trúng tuyển
+356,261VHU0356,Lý Thành Trang,05/12/2008,Bến Tre,Kế toán,Xét học bạ THPT,20.65,Trúng tuyển
+357,261VHU0357,Hồ Thị Nga,18/09/2008,Đắk Lắk,Quản trị dịch vụ du lịch và lữ hành,Xét điểm thi THPT,24.11,Trúng tuyển
+358,261VHU0358,Ngô Thu Bình,18/10/2008,Lâm Đồng,Tài chính - Ngân hàng,Xét điểm ĐGNL ĐHQG,940.0,Trúng tuyển
+359,261VHU0359,Lê Thị Yến,06/11/2008,An Giang,Quản trị kinh doanh,Xét điểm ĐGNL ĐHQG,853.0,Trúng tuyển
+360,261VHU0360,Trần Ánh Trang,25/06/2008,Bến Tre,Đông phương học,Xét điểm ĐGNL ĐHQG,752.0,Trúng tuyển
+361,261VHU0361,Phạm Văn Dũng,17/09/2008,An Giang,Kế toán,Xét học bạ THPT,23.36,Trúng tuyển
+362,261VHU0362,Vũ Ngọc Linh,19/12/2008,Cần Thơ,Marketing,Xét điểm thi THPT,26.11,Trúng tuyển
+363,261VHU0363,Hoàng Quang Anh,03/02/2008,Đắk Lắk,Ngôn ngữ Anh,Xét học bạ THPT,21.1,Trúng tuyển
+364,261VHU0364,Hoàng Quang Huy,17/08/2008,Tây Ninh,Tài chính - Ngân hàng,Xét điểm thi THPT,26.23,Trúng tuyển
+365,261VHU0365,Lý Thị Nga,03/05/2008,TP. Hồ Chí Minh,Tâm lý học,Xét điểm ĐGNL ĐHQG,772.0,Trúng tuyển
+366,261VHU0366,Phạm Văn Khoa,06/12/2008,Đồng Nai,Đông phương học,Xét học bạ THPT,25.11,Trúng tuyển
+367,261VHU0367,Huỳnh Thu Phúc,15/04/2008,Bến Tre,Tài chính - Ngân hàng,Xét điểm ĐGNL ĐHQG,762.0,Trúng tuyển
+368,261VHU0368,Huỳnh Thành Trang,24/10/2008,Đồng Nai,Đông phương học,Xét điểm thi THPT,22.15,Trúng tuyển
+369,261VHU0369,Dương Ánh Nam,07/05/2008,Đắk Lắk,Marketing,Xét học bạ THPT,25.4,Trúng tuyển
+370,261VHU0370,Lê Ánh Dũng,07/08/2008,Bình Định,Ngôn ngữ Nhật,Xét học bạ THPT,21.84,Trúng tuyển
+371,261VHU0371,Võ Tuấn Phong,13/10/2008,Bến Tre,Ngôn ngữ Nhật,Xét điểm ĐGNL ĐHQG,719.0,Trúng tuyển
+372,261VHU0372,Phạm Quang Linh,22/12/2008,Bình Dương,Ngôn ngữ Anh,Xét điểm ĐGNL ĐHQG,666.0,Trúng tuyển
+373,261VHU0373,Lê Tuấn Em,04/03/2008,Tây Ninh,Tài chính - Ngân hàng,Xét học bạ THPT,20.51,Trúng tuyển
+374,261VHU0374,Hoàng Thu Mai,13/07/2008,Long An,Marketing,Xét điểm ĐGNL ĐHQG,652.0,Trúng tuyển
+375,261VHU0375,Lý Tuấn Sơn,06/09/2008,Long An,Tâm lý học,Xét điểm ĐGNL ĐHQG,954.0,Trúng tuyển
+376,261VHU0376,Lý Minh Em,20/01/2008,Tây Ninh,Thiết kế đồ họa,Xét điểm thi THPT,26.84,Trúng tuyển
+377,261VHU0377,Nguyễn Ngọc Em,17/11/2008,Tiền Giang,Quản trị kinh doanh,Xét điểm thi THPT,28.12,Trúng tuyển
+378,261VHU0378,Ngô Tuấn Phong,16/03/2008,Bình Định,Marketing,Xét điểm ĐGNL ĐHQG,919.0,Trúng tuyển
+379,261VHU0379,Nguyễn Phương Yến,08/09/2008,Bình Dương,Quản trị kinh doanh,Xét điểm thi THPT,18.34,Trúng tuyển
+380,261VHU0380,Huỳnh Phương Nga,16/09/2008,Cần Thơ,Quản trị dịch vụ du lịch và lữ hành,Xét điểm ĐGNL ĐHQG,894.0,Trúng tuyển
+381,261VHU0381,Phạm Ánh Dũng,12/09/2008,TP. Hồ Chí Minh,Kế toán,Xét điểm ĐGNL ĐHQG,913.0,Trúng tuyển
+382,261VHU0382,Dương Thu Hải,21/04/2008,Bình Dương,Marketing,Xét học bạ THPT,25.73,Trúng tuyển
+383,261VHU0383,Trần Ngọc Hùng,04/04/2008,Đồng Nai,Tài chính - Ngân hàng,Xét học bạ THPT,22.61,Trúng tuyển
+384,261VHU0384,Đỗ Khánh Uyên,20/03/2008,Đồng Nai,Quản trị dịch vụ du lịch và lữ hành,Xét điểm ĐGNL ĐHQG,763.0,Trúng tuyển
+385,261VHU0385,Phan Phương Bình,20/09/2008,Long An,Quản trị dịch vụ du lịch và lữ hành,Xét điểm thi THPT,23.59,Trúng tuyển
+386,261VHU0386,Bùi Hoàng Huy,28/09/2008,Lâm Đồng,Kế toán,Xét điểm ĐGNL ĐHQG,702.0,Trúng tuyển
+387,261VHU0387,Phạm Thành Yến,28/11/2008,Long An,Marketing,Xét học bạ THPT,28.42,Trúng tuyển
+388,261VHU0388,Hoàng Đức Em,25/11/2008,Bến Tre,Tâm lý học,Xét điểm thi THPT,26.7,Trúng tuyển
+389,261VHU0389,Lý Thành Tâm,13/08/2008,Bình Định,Đông phương học,Xét điểm thi THPT,24.59,Trúng tuyển
+390,261VHU0390,Lê Gia Quân,12/08/2008,Tiền Giang,Tâm lý học,Xét điểm thi THPT,25.29,Trúng tuyển
+391,261VHU0391,Bùi Ánh Anh,15/11/2008,Lâm Đồng,Tâm lý học,Xét học bạ THPT,25.67,Trúng tuyển
+392,261VHU0392,Đỗ Khánh Châu,14/04/2008,Tiền Giang,Ngôn ngữ Nhật,Xét điểm thi THPT,20.29,Trúng tuyển
+393,261VHU0393,Võ Quang Huy,19/08/2008,Tây Ninh,Tài chính - Ngân hàng,Xét điểm ĐGNL ĐHQG,820.0,Trúng tuyển
+394,261VHU0394,Trần Văn Dũng,28/03/2008,Tiền Giang,Đông phương học,Xét điểm thi THPT,18.17,Trúng tuyển
+395,261VHU0395,Dương Văn Nam,21/05/2008,Long An,Quản trị kinh doanh,Xét điểm ĐGNL ĐHQG,946.0,Trúng tuyển
+396,261VHU0396,Võ Thị Trang,22/11/2008,Long An,Tài chính - Ngân hàng,Xét điểm thi THPT,18.87,Trúng tuyển
+397,261VHU0397,Trần Gia Trang,08/07/2008,Lâm Đồng,Kế toán,Xét điểm ĐGNL ĐHQG,866.0,Trúng tuyển
+398,261VHU0398,Lê Hoàng Dũng,05/10/2008,Đồng Nai,Công nghệ thông tin,Xét học bạ THPT,23.01,Trúng tuyển
+399,261VHU0399,Dương Văn Anh,28/07/2008,Đắk Lắk,Tâm lý học,Xét điểm thi THPT,26.58,Trúng tuyển
+400,261VHU0400,Hoàng Ngọc Châu,26/02/2008,Bình Định,Quản trị kinh doanh,Xét điểm thi THPT,18.94,Trúng tuyển
+401,261VHU0401,Bùi Quang Huy,25/03/2008,Lâm Đồng,Thiết kế đồ họa,Xét điểm thi THPT,26.12,Trúng tuyển
+402,261VHU0402,Hoàng Thị Quân,06/08/2008,Tây Ninh,Quản trị dịch vụ du lịch và lữ hành,Xét học bạ THPT,24.41,Trúng tuyển
+403,261VHU0403,Phan Tuấn Vinh,15/04/2008,Bình Định,Thiết kế đồ họa,Xét điểm thi THPT,24.47,Trúng tuyển
+404,261VHU0404,Phạm Thành Yến,12/07/2008,Tây Ninh,Kỹ thuật phần mềm,Xét điểm ĐGNL ĐHQG,877.0,Trúng tuyển
+405,261VHU0405,Hoàng Đức Hùng,20/10/2008,Đắk Lắk,Đông phương học,Xét học bạ THPT,20.61,Trúng tuyển
+406,261VHU0406,Đặng Phương Uyên,07/09/2008,An Giang,Công nghệ thông tin,Xét điểm ĐGNL ĐHQG,933.0,Trúng tuyển
+407,261VHU0407,Phan Hoàng Mai,26/04/2008,Tiền Giang,Kế toán,Xét điểm ĐGNL ĐHQG,621.0,Không trúng tuyển
+408,261VHU0408,Hồ Thị Hương,17/01/2008,Tây Ninh,Ngôn ngữ Anh,Xét điểm ĐGNL ĐHQG,826.0,Trúng tuyển
+409,261VHU0409,Bùi Thành Mai,22/03/2008,Tiền Giang,Quản trị dịch vụ du lịch và lữ hành,Xét điểm thi THPT,21.84,Trúng tuyển
+410,261VHU0410,Lê Văn Tâm,02/01/2008,Bến Tre,Kỹ thuật phần mềm,Xét học bạ THPT,20.75,Trúng tuyển
+411,261VHU0411,Đặng Tuấn Uyên,13/02/2008,Lâm Đồng,Ngôn ngữ Nhật,Xét điểm thi THPT,22.45,Trúng tuyển
+412,261VHU0412,Hoàng Minh Châu,07/03/2008,Cần Thơ,Kế toán,Xét học bạ THPT,23.37,Trúng tuyển
+413,261VHU0413,Bùi Gia Tâm,03/05/2008,Đắk Lắk,Đông phương học,Xét điểm ĐGNL ĐHQG,859.0,Trúng tuyển
+414,261VHU0414,Ngô Hoàng Hương,14/02/2008,Tiền Giang,Công nghệ thông tin,Xét học bạ THPT,18.91,Trúng tuyển
+415,261VHU0415,Trần Minh Tuấn,04/01/2008,Đắk Lắk,Tâm lý học,Xét điểm ĐGNL ĐHQG,881.0,Trúng tuyển
+416,261VHU0416,Hoàng Hoàng Anh,17/09/2008,Đắk Lắk,Thiết kế đồ họa,Xét điểm thi THPT,28.01,Trúng tuyển
+417,261VHU0417,Võ Thành Linh,09/12/2008,Bình Định,Thiết kế đồ họa,Xét điểm ĐGNL ĐHQG,897.0,Trúng tuyển
+418,261VHU0418,Nguyễn Quang Nam,23/10/2008,Lâm Đồng,Kế toán,Xét điểm ĐGNL ĐHQG,624.0,Không trúng tuyển
+419,261VHU0419,Lê Ngọc Nga,28/10/2008,Long An,Ngôn ngữ Nhật,Xét điểm thi THPT,18.58,Trúng tuyển
+420,261VHU0420,Đỗ Thành Hùng,04/04/2008,Đắk Lắk,Kỹ thuật phần mềm,Xét điểm ĐGNL ĐHQG,856.0,Trúng tuyển
+421,261VHU0421,Nguyễn Văn Anh,13/03/2008,Long An,Quản trị kinh doanh,Xét học bạ THPT,22.95,Trúng tuyển
+422,261VHU0422,Trần Thu Uyên,11/04/2008,Bến Tre,Tâm lý học,Xét điểm ĐGNL ĐHQG,759.0,Trúng tuyển
+423,261VHU0423,Bùi Minh Châu,22/01/2008,Long An,Quản trị dịch vụ du lịch và lữ hành,Xét điểm thi THPT,19.25,Trúng tuyển
+424,261VHU0424,Vũ Phương Quân,15/05/2008,Bình Dương,Công nghệ thông tin,Xét điểm thi THPT,18.72,Trúng tuyển
+425,261VHU0425,Bùi Thị Sơn,10/10/2008,Bình Dương,Ngôn ngữ Anh,Xét học bạ THPT,21.87,Trúng tuyển
+426,261VHU0426,Vũ Ngọc Linh,25/04/2008,Đắk Lắk,Quản trị dịch vụ du lịch và lữ hành,Xét điểm thi THPT,28.48,Trúng tuyển
+427,261VHU0427,Vũ Thành Anh,12/11/2008,Đắk Lắk,Marketing,Xét học bạ THPT,20.45,Trúng tuyển
+428,261VHU0428,Nguyễn Quang Anh,24/05/2008,Bình Định,Đông phương học,Xét điểm thi THPT,26.91,Trúng tuyển
+429,261VHU0429,Phan Thu Hương,05/12/2008,Bình Dương,Marketing,Xét điểm thi THPT,28.09,Trúng tuyển
+430,261VHU0430,Lê Văn Hương,12/08/2008,Đắk Lắk,Ngôn ngữ Nhật,Xét điểm thi THPT,25.36,Trúng tuyển
+431,261VHU0431,Lê Ánh Dũng,13/02/2008,An Giang,Ngôn ngữ Nhật,Xét học bạ THPT,24.69,Trúng tuyển
+432,261VHU0432,Trần Gia Tuấn,28/06/2008,Bến Tre,Thiết kế đồ họa,Xét học bạ THPT,21.06,Trúng tuyển
+433,261VHU0433,Bùi Quang Nga,07/03/2008,An Giang,Kế toán,Xét học bạ THPT,18.78,Trúng tuyển
+434,261VHU0434,Phạm Thành Dũng,14/02/2008,Cần Thơ,Thiết kế đồ họa,Xét điểm thi THPT,22.89,Trúng tuyển
+435,261VHU0435,Đỗ Phương Hải,28/02/2008,Bình Định,Ngôn ngữ Anh,Xét điểm thi THPT,22.87,Trúng tuyển
+436,261VHU0436,Huỳnh Phương Tuấn,02/04/2008,Tây Ninh,Kế toán,Xét điểm ĐGNL ĐHQG,865.0,Trúng tuyển
+437,261VHU0437,Hoàng Thị Uyên,02/11/2008,Bình Dương,Quản trị kinh doanh,Xét điểm thi THPT,22.16,Trúng tuyển
+438,261VHU0438,Võ Khánh Phúc,18/12/2008,Cần Thơ,Công nghệ thông tin,Xét điểm thi THPT,26.97,Trúng tuyển
+439,261VHU0439,Vũ Thị Nga,02/04/2008,Long An,Kỹ thuật phần mềm,Xét học bạ THPT,19.28,Trúng tuyển
+440,261VHU0440,Phan Khánh Mai,21/02/2008,An Giang,Tài chính - Ngân hàng,Xét điểm ĐGNL ĐHQG,840.0,Trúng tuyển
+441,261VHU0441,Võ Khánh Châu,21/08/2008,Long An,Công nghệ thông tin,Xét học bạ THPT,20.08,Trúng tuyển
+442,261VHU0442,Lê Khánh Khoa,02/03/2008,An Giang,Kỹ thuật phần mềm,Xét học bạ THPT,27.89,Trúng tuyển
+443,261VHU0443,Ngô Khánh Vinh,22/07/2008,Long An,Marketing,Xét điểm thi THPT,18.31,Trúng tuyển
+444,261VHU0444,Đỗ Đức Phúc,05/01/2008,An Giang,Kế toán,Xét điểm thi THPT,22.68,Trúng tuyển
+445,261VHU0445,Vũ Tuấn Huy,16/01/2008,Bình Định,Ngôn ngữ Anh,Xét điểm thi THPT,27.27,Trúng tuyển
+446,261VHU0446,Võ Gia Em,26/09/2008,Đồng Nai,Marketing,Xét học bạ THPT,24.75,Trúng tuyển
+447,261VHU0447,Nguyễn Gia Uyên,16/06/2008,An Giang,Tài chính - Ngân hàng,Xét điểm thi THPT,23.72,Trúng tuyển
+448,261VHU0448,Bùi Gia Hùng,08/01/2008,Bình Dương,Thiết kế đồ họa,Xét học bạ THPT,21.35,Trúng tuyển
+449,261VHU0449,Trần Phương Phong,08/03/2008,Bình Định,Ngôn ngữ Nhật,Xét điểm thi THPT,26.05,Trúng tuyển
+450,261VHU0450,Vũ Tuấn Hương,24/01/2008,Đồng Nai,Kế toán,Xét điểm ĐGNL ĐHQG,910.0,Trúng tuyển
+451,261VHU0451,Hồ Quang Phúc,26/12/2008,Đắk Lắk,Thiết kế đồ họa,Xét học bạ THPT,24.22,Trúng tuyển
+452,261VHU0452,Đỗ Ánh Anh,19/10/2008,Long An,Tâm lý học,Xét điểm ĐGNL ĐHQG,734.0,Trúng tuyển
+453,261VHU0453,Phan Khánh Phong,02/02/2008,TP. Hồ Chí Minh,Ngôn ngữ Nhật,Xét điểm thi THPT,19.84,Trúng tuyển
+454,261VHU0454,Vũ Ánh Hương,11/10/2008,Đồng Nai,Công nghệ thông tin,Xét điểm ĐGNL ĐHQG,782.0,Trúng tuyển
+455,261VHU0455,Hoàng Quang Uyên,05/10/2008,Đắk Lắk,Thiết kế đồ họa,Xét điểm thi THPT,18.63,Trúng tuyển
+456,261VHU0456,Hoàng Phương Dũng,12/12/2008,Lâm Đồng,Ngôn ngữ Nhật,Xét điểm thi THPT,28.09,Trúng tuyển
+457,261VHU0457,Hồ Ánh Dũng,06/12/2008,Bến Tre,Tài chính - Ngân hàng,Xét điểm thi THPT,21.39,Trúng tuyển
+458,261VHU0458,Lý Tuấn Khoa,23/10/2008,Tây Ninh,Thiết kế đồ họa,Xét điểm ĐGNL ĐHQG,968.0,Trúng tuyển
+459,261VHU0459,Vũ Tuấn Tâm,23/05/2008,Long An,Thiết kế đồ họa,Xét điểm thi THPT,21.22,Trúng tuyển
+460,261VHU0460,Huỳnh Hoàng Anh,25/10/2008,TP. Hồ Chí Minh,Tâm lý học,Xét điểm ĐGNL ĐHQG,749.0,Trúng tuyển
+461,261VHU0461,Huỳnh Ánh Khoa,04/08/2008,Long An,Quản trị dịch vụ du lịch và lữ hành,Xét học bạ THPT,24.72,Trúng tuyển
+462,261VHU0462,Bùi Hoàng Châu,06/11/2008,Bình Định,Quản trị kinh doanh,Xét điểm thi THPT,28.31,Trúng tuyển
+463,261VHU0463,Bùi Ngọc Anh,03/06/2008,Bình Dương,Kế toán,Xét học bạ THPT,20.62,Trúng tuyển
+464,261VHU0464,Phạm Hoàng Anh,14/03/2008,Bến Tre,Công nghệ thông tin,Xét điểm thi THPT,22.6,Trúng tuyển
+465,261VHU0465,Lý Gia Linh,16/10/2008,Lâm Đồng,Ngôn ngữ Nhật,Xét điểm thi THPT,19.06,Trúng tuyển
+466,261VHU0466,Vũ Thành Nga,11/05/2008,Bình Định,Kỹ thuật phần mềm,Xét học bạ THPT,21.1,Trúng tuyển
+467,261VHU0467,Lê Quang Phúc,18/02/2008,Tây Ninh,Marketing,Xét học bạ THPT,25.69,Trúng tuyển
+468,261VHU0468,Lý Hoàng Anh,14/03/2008,TP. Hồ Chí Minh,Marketing,Xét điểm ĐGNL ĐHQG,663.0,Trúng tuyển
+469,261VHU0469,Phạm Quang Hải,24/12/2008,Cần Thơ,Quản trị kinh doanh,Xét điểm thi THPT,25.32,Trúng tuyển
+470,261VHU0470,Võ Tuấn Huy,13/10/2008,Cần Thơ,Kế toán,Xét học bạ THPT,19.01,Trúng tuyển
+471,261VHU0471,Lý Thành Bình,10/11/2008,Lâm Đồng,Tài chính - Ngân hàng,Xét học bạ THPT,22.49,Trúng tuyển
+472,261VHU0472,Lý Đức Dũng,10/02/2008,Tiền Giang,Công nghệ thông tin,Xét học bạ THPT,19.79,Trúng tuyển
+473,261VHU0473,Phạm Minh Mai,09/02/2008,Lâm Đồng,Ngôn ngữ Anh,Xét điểm thi THPT,27.4,Trúng tuyển
+474,261VHU0474,Hồ Thành Linh,02/05/2008,Tiền Giang,Marketing,Xét điểm thi THPT,19.96,Trúng tuyển
+475,261VHU0475,Dương Minh Hương,25/12/2008,Lâm Đồng,Kế toán,Xét điểm ĐGNL ĐHQG,623.0,Không trúng tuyển
+476,261VHU0476,Phạm Thị Tuấn,25/10/2008,Đồng Nai,Tài chính - Ngân hàng,Xét điểm ĐGNL ĐHQG,757.0,Trúng tuyển
+477,261VHU0477,Trần Khánh Mai,22/08/2008,An Giang,Ngôn ngữ Nhật,Xét điểm thi THPT,28.14,Trúng tuyển
+478,261VHU0478,Vũ Ngọc Huy,23/01/2008,Cần Thơ,Kỹ thuật phần mềm,Xét điểm thi THPT,27.48,Trúng tuyển
+479,261VHU0479,Hoàng Thị Yến,06/04/2008,Đồng Nai,Ngôn ngữ Anh,Xét học bạ THPT,27.97,Trúng tuyển
+480,261VHU0480,Hoàng Văn Nam,27/11/2008,Long An,Kỹ thuật phần mềm,Xét điểm ĐGNL ĐHQG,765.0,Trúng tuyển
+481,261VHU0481,Võ Quang Vinh,13/09/2008,Tây Ninh,Kỹ thuật phần mềm,Xét học bạ THPT,22.08,Trúng tuyển
+482,261VHU0482,Võ Thu Nga,17/07/2008,Bình Định,Công nghệ thông tin,Xét điểm ĐGNL ĐHQG,837.0,Trúng tuyển
+483,261VHU0483,Ngô Thành Em,04/02/2008,An Giang,Quản trị dịch vụ du lịch và lữ hành,Xét điểm ĐGNL ĐHQG,821.0,Trúng tuyển
+484,261VHU0484,Phạm Phương Huy,09/07/2008,Lâm Đồng,Ngôn ngữ Nhật,Xét điểm thi THPT,27.22,Trúng tuyển
+485,261VHU0485,Lý Ánh Thảo,13/03/2008,An Giang,Ngôn ngữ Anh,Xét học bạ THPT,19.81,Trúng tuyển
+486,261VHU0486,Hồ Văn Mai,24/08/2008,Bình Dương,Tài chính - Ngân hàng,Xét điểm ĐGNL ĐHQG,690.0,Trúng tuyển
+487,261VHU0487,Đỗ Văn Khoa,16/12/2008,Lâm Đồng,Kế toán,Xét điểm thi THPT,20.94,Trúng tuyển
+488,261VHU0488,Phạm Khánh Hương,15/06/2008,Bình Dương,Thiết kế đồ họa,Xét điểm thi THPT,28.23,Trúng tuyển
+489,261VHU0489,Ngô Ánh Trang,27/07/2008,Đắk Lắk,Kỹ thuật phần mềm,Xét học bạ THPT,22.64,Trúng tuyển
+490,261VHU0490,Lý Phương Quân,06/02/2008,Bình Dương,Tài chính - Ngân hàng,Xét học bạ THPT,23.41,Trúng tuyển
+491,261VHU0491,Hồ Thành Yến,07/04/2008,TP. Hồ Chí Minh,Ngôn ngữ Nhật,Xét điểm ĐGNL ĐHQG,611.0,Không trúng tuyển
+492,261VHU0492,Vũ Văn Nga,09/06/2008,Tiền Giang,Công nghệ thông tin,Xét điểm thi THPT,25.4,Trúng tuyển
+493,261VHU0493,Hồ Tuấn Dũng,16/10/2008,Tiền Giang,Đông phương học,Xét học bạ THPT,20.54,Trúng tuyển
+494,261VHU0494,Huỳnh Khánh Phong,06/05/2008,Đắk Lắk,Quản trị dịch vụ du lịch và lữ hành,Xét điểm ĐGNL ĐHQG,733.0,Trúng tuyển
+495,261VHU0495,Lê Minh Anh,19/04/2008,Đồng Nai,Marketing,Xét học bạ THPT,19.71,Trúng tuyển
+496,261VHU0496,Vũ Tuấn Hải,01/11/2008,TP. Hồ Chí Minh,Kế toán,Xét điểm ĐGNL ĐHQG,756.0,Trúng tuyển
+497,261VHU0497,Lý Thành Trang,08/05/2008,An Giang,Thiết kế đồ họa,Xét điểm ĐGNL ĐHQG,904.0,Trúng tuyển
+498,261VHU0498,Đặng Hoàng Uyên,13/06/2008,Tiền Giang,Đông phương học,Xét điểm thi THPT,22.45,Trúng tuyển
+499,261VHU0499,Võ Đức Nga,20/07/2008,An Giang,Kế toán,Xét điểm ĐGNL ĐHQG,798.0,Trúng tuyển
+500,261VHU0500,Phạm Văn Quân,20/10/2008,Bình Dương,Đông phương học,Xét điểm thi THPT,23.9,Trúng tuyển
