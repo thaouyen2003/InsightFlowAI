@@ -1,5 +1,12 @@
 from __future__ import annotations
 
+from pathlib import Path
+
+from pydantic import BaseModel
+
+from app.services.data_service import DATA_DIR
+
+
 from io import BytesIO
 
 import pandas as pd
@@ -19,11 +26,19 @@ from app.services.graduation.service import (
 )
 
 
+
 router = APIRouter(
     prefix="/graduation",
     tags=["Graduation Evaluation"],
 )
 
+class StoredGraduationEvaluationRequest(
+    BaseModel
+):
+    filename: str
+    rule_set_code: str = (
+        "qd_xtn_dh_chinh_quy_vhu"
+    )
 
 def read_uploaded_dataframe(
     *,
@@ -137,3 +152,56 @@ async def evaluate_graduation(
 
     finally:
         await file.close()
+
+
+
+@router.post(
+    "/evaluate-stored",
+    response_model=GraduationEvaluationResponse,
+)
+def evaluate_stored_graduation(
+    request: StoredGraduationEvaluationRequest,
+) -> GraduationEvaluationResponse:
+    """
+    Đánh giá dataset đã được endpoint /upload
+    lưu trong thư mục database_input.
+    """
+
+    safe_filename = Path(
+        request.filename
+    ).name
+
+    file_path = DATA_DIR / safe_filename
+
+    try:
+        service = GraduationEvaluationService()
+
+        return service.evaluate_file(
+            file_path=file_path,
+            rule_set_code=request.rule_set_code,
+        )
+
+    except FileNotFoundError as error:
+        raise HTTPException(
+            status_code=404,
+            detail=str(error),
+        ) from error
+
+    except (
+        ValueError,
+        TypeError,
+        pd.errors.ParserError,
+    ) as error:
+        raise HTTPException(
+            status_code=400,
+            detail=str(error),
+        ) from error
+
+    except Exception as error:
+        raise HTTPException(
+            status_code=500,
+            detail=(
+                "Không thể đánh giá file đã lưu: "
+                f"{error}"
+            ),
+        ) from error

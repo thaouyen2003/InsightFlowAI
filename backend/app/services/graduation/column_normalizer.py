@@ -50,6 +50,7 @@ class GraduationColumnNormalizer(
             "diem_tb_tich_luy",
             "diem_tich_luy",
             "dtb_tich_luy",
+            "gpa_tich_luy",
         },
 
         "accumulated_credits": {
@@ -93,6 +94,8 @@ class GraduationColumnNormalizer(
             "trang_thai_ngoai_ngu",
             "chung_chi_ngoai_ngu",
             "english_passed",
+            "chuandau_ngoai_ngu",
+            "chuan_dau_ra_ngoai_ngu",
         },
 
         "informatics_status": {
@@ -103,6 +106,8 @@ class GraduationColumnNormalizer(
             "chuan_tin_hoc",
             "trang_thai_tin_hoc",
             "chung_chi_tin_hoc",
+            "chuandau_tin_hoc",
+            "chuan_dau_ra_tin_hoc",
         },
 
         "physical_education_status": {
@@ -121,6 +126,8 @@ class GraduationColumnNormalizer(
             "gdqp",
             "giao_duc_quoc_phong",
             "trang_thai_gdqp",
+            "chung_chi_gdqp_gddt",
+            "chung_chi_gdqp_gdtc",
         },
 
         "tuition_status": {
@@ -131,6 +138,7 @@ class GraduationColumnNormalizer(
             "trang_thai_hoc_phi",
             "nghia_vu_tai_chinh",
             "cong_no",
+            "no_hoc_phi",
         },
 
         "conduct_score": {

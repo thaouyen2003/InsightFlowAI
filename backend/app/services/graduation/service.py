@@ -113,14 +113,221 @@ class GraduationEvaluationService:
         normalized_df, normalization_report = (
             normalized_result
         )
+        # Tạo bản sao để tránh thay đổi DataFrame gốc.
+        normalized_df = normalized_df.copy()
+
+        # Dataset hiện tại dùng một cột gộp cho
+        # GDQP-AN và Giáo dục Thể chất.
+        if (
+            "national_defense_status"
+            in normalized_df.columns
+            and "physical_education_status"
+            not in normalized_df.columns
+        ):
+            normalized_df[
+                "physical_education_status"
+            ] = normalized_df[
+                "national_defense_status"
+            ]
+
+        def normalize_pass_status(
+            value: Any,
+        ) -> Any:
+            normalized_value = (
+                GraduationEvaluator
+                .normalize_status_value(value)
+            )
+
+            passed_values = {
+                "dat",
+                "da dat",
+                "hoan thanh",
+                "passed",
+                "pass",
+                "true",
+                "co",
+                "1",
+            }
+
+            failed_values = {
+                "chua dat",
+                "khong dat",
+                "chua hoan thanh",
+                "failed",
+                "fail",
+                "false",
+                "khong",
+                "0",
+            }
+
+            if normalized_value in passed_values:
+                return "Đạt"
+
+            if normalized_value in failed_values:
+                return "Chưa đạt"
+
+            return value
+
+        def normalize_completion_status(
+            value: Any,
+        ) -> Any:
+            normalized_value = (
+                GraduationEvaluator
+                .normalize_status_value(value)
+            )
+
+            completed_values = {
+                "dat",
+                "da dat",
+                "hoan thanh",
+                "passed",
+                "pass",
+                "true",
+                "co",
+                "1",
+            }
+
+            incomplete_values = {
+                "chua dat",
+                "khong dat",
+                "chua hoan thanh",
+                "failed",
+                "fail",
+                "false",
+                "khong",
+                "0",
+            }
+
+            if normalized_value in completed_values:
+                return "Hoàn thành"
+
+            if normalized_value in incomplete_values:
+                return "Chưa hoàn thành"
+
+            return value
+
+        for column_name in {
+            "english_status",
+            "informatics_status",
+        }:
+            if column_name in normalized_df.columns:
+                normalized_df[column_name] = (
+                    normalized_df[column_name]
+                    .map(normalize_pass_status)
+                )
+
+        for column_name in {
+            "national_defense_status",
+            "physical_education_status",
+        }:
+            if column_name in normalized_df.columns:
+                normalized_df[column_name] = (
+                    normalized_df[column_name]
+                    .map(
+                        normalize_completion_status
+                    )
+                )
+
+        # no_hoc_phi:
+        # 0 = không nợ học phí
+        # 1 = còn nợ học phí
+        if "tuition_status" in normalized_df.columns:
+            def normalize_tuition_status(
+                value: Any,
+            ) -> Any:
+                normalized_value = (
+                    GraduationEvaluator
+                    .normalize_status_value(value)
+                )
+
+                completed_values = {
+                    "0",
+                    "khong",
+                    "khong no",
+                    "khong con no",
+                    "da thanh toan",
+                    "hoan thanh",
+                }
+
+                incomplete_values = {
+                    "1",
+                    "co",
+                    "con no",
+                    "chua thanh toan",
+                    "chua hoan thanh",
+                }
+
+                if normalized_value in completed_values:
+                    return "Hoàn thành"
+
+                if normalized_value in incomplete_values:
+                    return "Chưa hoàn thành"
+
+                return value
+
+            normalized_df["tuition_status"] = (
+                normalized_df["tuition_status"]
+                .map(normalize_tuition_status)
+            )
+
+        # Dataset hiện tại quy ước:
+        # 0 = không bị kỷ luật
+        # 1 = thuộc trường hợp kỷ luật không đủ điều kiện.
+        if (
+            "discipline_status"
+            in normalized_df.columns
+        ):
+            def normalize_discipline_status(
+                value: Any,
+            ) -> Any:
+                normalized_value = (
+                    GraduationEvaluator
+                    .normalize_status_value(value)
+                )
+
+                if normalized_value in {
+                    "0",
+                    "khong",
+                    "khong ky luat",
+                }:
+                    return "Không kỷ luật"
+
+                if normalized_value in {
+                    "1",
+                    "co",
+                    "co ky luat",
+                }:
+                    return "Đình chỉ học tập"
+
+                return value
+
+            normalized_df[
+                "discipline_status"
+            ] = normalized_df[
+                "discipline_status"
+            ].map(
+                normalize_discipline_status
+            )
+
+
+
+        rule_set = self.rule_repository.load(
+            rule_set_code
+        )
+
+        required_rule_fields = [
+            rule.field_name
+            for rule in rule_set.rules
+            if rule.is_required
+        ]
 
         validation_result = (
             GraduationDataValidator.validate(
-                normalized_df
+                normalized_df,
+                required_rule_fields=(
+                    required_rule_fields
+                ),
             )
-        )
-        rule_set = self.rule_repository.load(
-            rule_set_code
         )
         
 

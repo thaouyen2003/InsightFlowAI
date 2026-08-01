@@ -80,16 +80,6 @@ export default function DashboardPage() {
         getUploadedFileServerSnapshot
     );
 
-    const [dashboard, setDashboard] =
-        useState<DashboardResponse | null>(
-            null
-        );
-
-    const [fusion, setFusion] =
-        useState<FusionResponse | null>(
-            null
-        );
-
     const [loading, setLoading] =
         useState(true);
 
@@ -102,10 +92,38 @@ export default function DashboardPage() {
     const [fusionError, setFusionError] =
         useState("");
 
+    const [dashboard, setDashboard] =
+        useState<DashboardResponse | null>(
+            null
+        );
+
+    const [fusion, setFusion] =
+        useState<FusionResponse | null>(
+            null
+        );
+
+    const [datasetCategory, setDatasetCategory] =
+        useState("");
+
+    const [datasetLabel, setDatasetLabel] =
+        useState("");
+
     useEffect(() => {
         if (!uploadedFile) {
             return;
         }
+        setDatasetCategory(
+            localStorage.getItem(
+                "datasetCategory"
+            ) ?? ""
+        );
+
+        setDatasetLabel(
+            localStorage.getItem(
+                "datasetCategoryLabel"
+            ) ?? ""
+        );
+
 
         let isActive = true;
 
@@ -391,17 +409,28 @@ export default function DashboardPage() {
                                 </p>
 
                                 <p
-                                    className="
-                                        mt-2
-                                        truncate
-                                        font-semibold
-                                        text-blue-300
-                                    "
-                                    title={datasetName}
-                                >
+                                    className=" mt-2 truncate font-semibold text-blue-300 " title={datasetName} >
                                     {datasetName ||
                                         "No dataset"}
                                 </p>
+
+                                {datasetCategory && (
+                                    <div
+                                        className="
+                                            mt-3
+                                            inline-flex
+                                            rounded-full
+                                            bg-indigo-500/20
+                                            px-3
+                                            py-1
+                                            text-xs
+                                            font-semibold
+                                            text-indigo-300
+                                        "
+                                    >
+                                        {datasetLabel}
+                                    </div>
+                                )}
 
                                 <div
                                     className="
@@ -941,6 +970,55 @@ export default function DashboardPage() {
                             </>
                         )}
                 </div>
+
+
+
+
+                {datasetCategory !== "general" &&
+                    datasetCategory !== "" && (
+                        <section className=" mx-10 mb-4 rounded-3xl border border-indigo-500/20 bg-slate-900 p-8 " >
+                            <h2
+                                className="
+                                    text-2xl
+                                    font-bold
+                                    text-white
+                                "
+                            >
+                                Knowledge Evaluation
+                            </h2>
+
+                            <p
+                                className="
+                                    mt-2
+                                    text-slate-400
+                                "
+                            >
+                                Dataset này có thể được
+                                đối chiếu với kho tri thức
+                                để đánh giá tự động.
+                            </p>
+
+                            <button
+                                onClick={() => {
+                                    window.location.href =
+                                        "/evaluation";
+                                }}
+                                className="
+                                    mt-6
+                                    rounded-xl
+                                    bg-indigo-600
+                                    px-6
+                                    py-3
+                                    font-semibold
+                                    text-white
+                                    hover:bg-indigo-500
+                                "
+                            >
+                                Xem kết quả đánh giá
+                            </button>
+                        </section>
+                    )}
+
             </main>
         </div>
     );

@@ -29,6 +29,9 @@ from app.api.graduation import (
     router as graduation_router,
 )
 
+from app.api.evaluation import (
+    router as evaluation_router,
+)
 # =========================================================
 # FASTAPI APPLICATION
 # =========================================================
@@ -71,6 +74,7 @@ app.include_router(dashboard_router)
 app.include_router(knowledge_router)
 app.include_router(insight_fusion_router)
 app.include_router(graduation_router)
+app.include_router(evaluation_router)
 
 # =========================================================
 # ROOT ENDPOINT

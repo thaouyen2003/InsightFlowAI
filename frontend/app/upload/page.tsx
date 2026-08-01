@@ -135,6 +135,63 @@ export default function UploadPage() {
             setDatasetInfo(result);
             localStorage.setItem("uploadedFile", result.filename);
 
+
+            const detectResponse = await fetch(
+                "http://127.0.0.1:8000/evaluation/detect",
+                {
+                    method: "POST",
+                    headers: {
+                        "Content-Type":
+                            "application/json",
+                    },
+                    body: JSON.stringify({
+                        filename: result.filename,
+                    }),
+                }
+            );
+
+            if (!detectResponse.ok) {
+                const errorText =
+                    await detectResponse.text();
+
+                console.error(
+                    "Dataset detect failed:",
+                    errorText
+                );
+
+                localStorage.removeItem(
+                    "datasetCategory"
+                );
+
+                localStorage.removeItem(
+                    "datasetCategoryLabel"
+                );
+            } else {
+                const detectResult =
+                    await detectResponse.json();
+
+                console.log(
+                    "Dataset Classification:",
+                    detectResult
+                );
+
+                localStorage.setItem(
+                    "datasetCategory",
+                    detectResult.category
+                );
+
+                localStorage.setItem(
+                    "datasetCategoryLabel",
+                    detectResult.label
+                );
+
+                localStorage.setItem(
+                    "datasetCategoryConfidence",
+                    String(
+                        detectResult.confidence ?? 0
+                    )
+                );
+            }
             // ==========================================
             // STEP 2 - Schema Analyzer
             // ==========================================
