@@ -37,6 +37,9 @@ class ScholarshipDataValidator:
     """
     Kiểm tra cấu trúc và chất lượng dữ liệu đầu vào
     phục vụ đánh giá học bổng.
+
+    Các cột bắt buộc không được viết cứng hoàn toàn
+    trong validator mà được truyền từ ScholarshipRuleSet.
     """
 
     IDENTITY_COLUMNS = {
@@ -66,6 +69,9 @@ class ScholarshipDataValidator:
         """
         Kiểm tra DataFrame sau khi tên cột đã được
         ScholarshipColumnNormalizer chuẩn hóa.
+
+        required_rule_fields được lấy từ bộ luật
+        học bổng đang được sử dụng.
         """
 
         if not isinstance(df, pd.DataFrame):

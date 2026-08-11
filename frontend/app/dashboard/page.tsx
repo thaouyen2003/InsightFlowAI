@@ -29,6 +29,7 @@ import Header from
 import Sidebar from
     "@/components/layout/Sidebar";
 
+import Link from "next/link";
 
 type DashboardChart =
     ComponentProps<typeof ChartRenderer>["chart"];
@@ -966,6 +967,51 @@ export default function DashboardPage() {
                                                 fusion={fusion}
                                             />
                                         )}
+                                </section>
+
+
+                                <section
+                                    className="
+                                        mt-6
+                                        rounded-3xl
+                                        border
+                                        border-violet-300/30
+                                        bg-violet-500/5
+                                        p-6
+                                    "
+                                >
+                                    <div className="flex items-center justify-between">
+                                        <div>
+                                            <p className="text-sm font-semibold text-violet-500">
+                                                Knowledge Evaluation
+                                            </p>
+
+                                            <h3 className="mt-1 text-xl font-bold">
+                                                Đánh giá tốt nghiệp &
+                                                học bổng
+                                            </h3>
+
+                                            <p className="mt-2 text-sm text-slate-500">
+                                                Đối chiếu dữ liệu với bộ luật được
+                                                sinh từ RAG Knowledge Base.
+                                            </p>
+                                        </div>
+
+                                        <Link
+                                            href="/evaluation"
+                                            className="
+                                                rounded-xl
+                                                bg-violet-600
+                                                px-6
+                                                py-3
+                                                font-semibold
+                                                text-white
+                                                hover:bg-violet-700
+                                            "
+                                        >
+                                            Xem phân tích →
+                                        </Link>
+                                    </div>
                                 </section>
                             </>
                         )}

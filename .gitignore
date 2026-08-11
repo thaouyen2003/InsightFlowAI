@@ -1,0 +1,29 @@
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment
+.env
+backend/.env
+
+# Next.js
+node_modules/
+.next/
+
+# Runtime metrics
+backend/database/knowledge_metrics.json
+
+# Temporary / backup
+structure.txt
+frontend/app/upload 2/
+
+# Chroma runtime database
+backend/database/chroma/

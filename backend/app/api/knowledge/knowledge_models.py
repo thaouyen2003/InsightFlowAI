@@ -43,6 +43,71 @@ class KnowledgeAskRequest(BaseModel):
     )
 
 
+class KnowledgeSearchRequest(BaseModel):
+    """
+    Dữ liệu gửi lên khi người dùng
+    tìm kiếm tri thức bằng Semantic Search.
+    """
+
+    query: str = Field(
+        ...,
+        min_length=2,
+        description="Nội dung cần tìm trong Knowledge Base.",
+        examples=[
+            "Điều kiện xét tốt nghiệp là gì?"
+        ],
+    )
+
+    top_k: int = Field(
+        default=5,
+        ge=1,
+        le=10,
+        description=(
+            "Số đoạn tri thức liên quan nhất "
+            "cần lấy từ ChromaDB."
+        ),
+    )
+
+    category: str | None = Field(
+        default=None,
+        description=(
+            "Nhóm tài liệu tùy chọn: "
+            "dao_tao, hoc_bong, hoc_vu, "
+            "tot_nghiep."
+        ),
+        examples=["tot_nghiep"],
+    )
+
+
+class KnowledgeSearchItemResponse(BaseModel):
+    """
+    Một kết quả Semantic Search.
+    """
+
+    chunk_id: str
+    content: str
+    source: str
+    page: int | None = None
+    category: str | None = None
+    distance: float | None = None
+
+
+class KnowledgeSearchResponse(BaseModel):
+    """
+    Danh sách kết quả Semantic Search.
+    """
+
+    success: bool = True
+    query: str
+
+    results: list[
+        KnowledgeSearchItemResponse
+    ] = Field(
+        default_factory=list
+    )
+
+    retrieved_count: int = 0
+
 class KnowledgeSourceResponse(BaseModel):
     """
     Một nguồn tài liệu được sử dụng
@@ -84,3 +149,31 @@ class KnowledgeHealthResponse(BaseModel):
     success: bool = True
     status: str
     vector_count: int
+
+
+class KnowledgeDocumentResponse(BaseModel):
+    """
+    Thông tin một tài liệu trong Knowledge Base.
+    """
+
+    filename: str
+    category: str
+    file_type: str
+    size_bytes: int
+
+
+class KnowledgeDocumentListResponse(BaseModel):
+    """
+    Danh sách tài liệu đang có trong
+    Knowledge Base.
+    """
+
+    success: bool = True
+
+    documents: list[
+        KnowledgeDocumentResponse
+    ] = Field(
+        default_factory=list
+    )
+
+    total_documents: int = 0

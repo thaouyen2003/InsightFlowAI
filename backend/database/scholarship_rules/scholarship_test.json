@@ -1,0 +1,39 @@
+{
+"rule_set_code": "scholarship_test",
+"rule_set_name": "Bộ luật học bổng thử nghiệm",
+"version": "1.0",
+"major": null,
+"cohort": null,
+"program": null,
+"effective_date": null,
+"scholarship_type": "academic",
+"rules": [
+{
+"code": "minimum_gpa",
+"name": "GPA tối thiểu",
+"field_name": "gpa",
+"operator": "greater_than_or_equal",
+"required_value": 3.2,
+"accepted_values": [],
+"failure_message": "GPA chưa đạt yêu cầu tối thiểu 3.2.",
+"recommendation": "Sinh viên cần cải thiện điểm trung bình tích lũy.",
+"is_required": true,
+"source": {
+"document_name": "hoc_bong.pdf",
+"page_number": 1,
+"chunk_id": "chunk_1",
+"evidence_text": "Sinh viên phải có điểm trung bình tích lũy từ 3.2 trở lên để được xét học bổng.",
+"category": "hoc_bong"
+},
+"confidence": 1.0
+}
+],
+"source_documents": [
+"hoc_bong.pdf"
+],
+"extraction_notes": [
+"Bộ luật thử nghiệm dùng để kiểm tra chức năng Scholarship Evaluation.",
+"Ngưỡng GPA 3.2 hiện được sử dụng cho mục đích kiểm thử và cần được đối chiếu với quy định học bổng chính thức."
+],
+"generated_by": "manual_test"
+}
