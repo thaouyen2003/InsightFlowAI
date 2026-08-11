@@ -1,0 +1,301 @@
+student_id,student_name,major,credits_earned,required_credits,gpa,english_passed,it_passed,mandatory_courses_remaining,graduation_status
+SV001,SinhVien_001,QTKD,130,140,2.04,True,True,1,Đang học
+SV002,SinhVien_002,CNTT,137,140,2.03,True,False,3,Chưa đủ điều kiện TN
+SV003,SinhVien_003,Kế toán,103,140,2.31,True,False,1,Có nguy cơ
+SV004,SinhVien_004,Ngôn ngữ Anh,116,140,2.28,True,True,1,Có nguy cơ
+SV005,SinhVien_005,Ngôn ngữ Anh,107,140,2.14,True,True,0,Có nguy cơ
+SV006,SinhVien_006,Marketing,112,140,3.13,True,False,3,Có nguy cơ
+SV007,SinhVien_007,CNTT,95,140,3.01,True,False,1,Có nguy cơ
+SV008,SinhVien_008,CNTT,132,140,2.3,True,True,1,Đang học
+SV009,SinhVien_009,Ngôn ngữ Anh,114,140,2.41,True,True,2,Có nguy cơ
+SV010,SinhVien_010,QTKD,134,140,3.86,True,False,1,Có nguy cơ
+SV011,SinhVien_011,CNTT,100,140,2.82,True,False,1,Có nguy cơ
+SV012,SinhVien_012,Kế toán,104,140,3.61,True,True,2,Chưa đủ điều kiện TN
+SV013,SinhVien_013,QTKD,135,140,2.49,False,True,3,Chưa đủ điều kiện TN
+SV014,SinhVien_014,Marketing,105,140,3.44,True,False,3,Có nguy cơ
+SV015,SinhVien_015,CNTT,113,140,2.28,True,False,3,Chưa đủ điều kiện TN
+SV016,SinhVien_016,Marketing,97,140,2.14,True,False,3,Có nguy cơ
+SV017,SinhVien_017,CNTT,114,140,3.11,False,False,2,Có nguy cơ
+SV018,SinhVien_018,Marketing,133,140,3.39,True,False,2,Chưa đủ điều kiện TN
+SV019,SinhVien_019,CNTT,100,140,2.8,True,False,1,Có nguy cơ
+SV020,SinhVien_020,Kế toán,130,140,2.46,True,True,2,Có nguy cơ
+SV021,SinhVien_021,CNTT,139,140,3.83,True,False,2,Có nguy cơ
+SV022,SinhVien_022,Kế toán,113,140,3.73,True,True,0,Có nguy cơ
+SV023,SinhVien_023,Marketing,95,140,1.99,False,True,1,Chưa đủ điều kiện TN
+SV024,SinhVien_024,Marketing,125,140,2.16,False,True,1,Có nguy cơ
+SV025,SinhVien_025,QTKD,132,140,3.23,False,False,3,Chưa đủ điều kiện TN
+SV026,SinhVien_026,CNTT,94,140,2.54,True,False,1,Chưa đủ điều kiện TN
+SV027,SinhVien_027,Ngôn ngữ Anh,104,140,1.95,True,True,0,Có nguy cơ
+SV028,SinhVien_028,Marketing,132,140,2.87,True,False,3,Có nguy cơ
+SV029,SinhVien_029,Marketing,116,140,2.22,True,False,3,Có nguy cơ
+SV030,SinhVien_030,Ngôn ngữ Anh,119,140,3.7,True,False,0,Chưa đủ điều kiện TN
+SV031,SinhVien_031,QTKD,96,140,2.35,True,False,3,Chưa đủ điều kiện TN
+SV032,SinhVien_032,Kế toán,107,140,2.82,True,True,0,Chưa đủ điều kiện TN
+SV033,SinhVien_033,QTKD,90,140,3.93,True,True,3,Có nguy cơ
+SV034,SinhVien_034,Ngôn ngữ Anh,115,140,3.79,True,True,0,Có nguy cơ
+SV035,SinhVien_035,Ngôn ngữ Anh,140,140,3.53,True,True,3,Chưa đủ điều kiện TN
+SV036,SinhVien_036,Kế toán,103,140,3.93,True,False,2,Chưa đủ điều kiện TN
+SV037,SinhVien_037,QTKD,120,140,2.91,True,True,0,Đang học
+SV038,SinhVien_038,Kế toán,94,140,3.11,True,True,0,Có nguy cơ
+SV039,SinhVien_039,Kế toán,105,140,3.07,True,False,0,Có nguy cơ
+SV040,SinhVien_040,Marketing,126,140,2.95,True,True,2,Có nguy cơ
+SV041,SinhVien_041,CNTT,98,140,3.28,True,True,2,Có nguy cơ
+SV042,SinhVien_042,QTKD,90,140,2.81,True,True,1,Có nguy cơ
+SV043,SinhVien_043,Kế toán,112,140,3.74,True,True,2,Chưa đủ điều kiện TN
+SV044,SinhVien_044,CNTT,135,140,2.47,True,False,2,Có nguy cơ
+SV045,SinhVien_045,Kế toán,98,140,2.38,True,False,1,Có nguy cơ
+SV046,SinhVien_046,Ngôn ngữ Anh,103,140,3.38,True,False,2,Có nguy cơ
+SV047,SinhVien_047,QTKD,93,140,2.0,False,True,0,Chưa đủ điều kiện TN
+SV048,SinhVien_048,Marketing,130,140,3.96,True,False,3,Có nguy cơ
+SV049,SinhVien_049,Ngôn ngữ Anh,125,140,1.82,True,False,1,Có nguy cơ
+SV050,SinhVien_050,CNTT,127,140,3.02,False,True,0,Có nguy cơ
+SV051,SinhVien_051,Kế toán,112,140,2.26,True,False,0,Có nguy cơ
+SV052,SinhVien_052,QTKD,116,140,3.94,True,True,1,Có nguy cơ
+SV053,SinhVien_053,CNTT,116,140,1.85,True,True,1,Có nguy cơ
+SV054,SinhVien_054,Marketing,114,140,3.72,False,True,1,Có nguy cơ
+SV055,SinhVien_055,Marketing,112,140,2.47,True,True,0,Có nguy cơ
+SV056,SinhVien_056,Marketing,111,140,2.41,True,True,2,Có nguy cơ
+SV057,SinhVien_057,Ngôn ngữ Anh,133,140,3.96,True,True,0,Đủ điều kiện TN
+SV058,SinhVien_058,Ngôn ngữ Anh,101,140,3.08,True,True,0,Có nguy cơ
+SV059,SinhVien_059,Kế toán,136,140,3.53,False,False,0,Có nguy cơ
+SV060,SinhVien_060,CNTT,102,140,2.36,False,True,1,Có nguy cơ
+SV061,SinhVien_061,Ngôn ngữ Anh,132,140,3.83,True,False,0,Có nguy cơ
+SV062,SinhVien_062,Kế toán,122,140,2.48,False,True,3,Có nguy cơ
+SV063,SinhVien_063,Ngôn ngữ Anh,98,140,2.22,False,False,1,Có nguy cơ
+SV064,SinhVien_064,Kế toán,115,140,3.01,True,True,2,Có nguy cơ
+SV065,SinhVien_065,Kế toán,128,140,3.24,False,True,3,Có nguy cơ
+SV066,SinhVien_066,Kế toán,120,140,3.55,True,False,0,Có nguy cơ
+SV067,SinhVien_067,QTKD,111,140,2.01,True,False,2,Có nguy cơ
+SV068,SinhVien_068,Kế toán,99,140,1.85,True,True,0,Có nguy cơ
+SV069,SinhVien_069,CNTT,102,140,3.38,False,True,3,Có nguy cơ
+SV070,SinhVien_070,QTKD,138,140,3.69,True,True,1,Đang học
+SV071,SinhVien_071,CNTT,134,140,2.94,True,False,1,Có nguy cơ
+SV072,SinhVien_072,Marketing,119,140,2.09,False,False,2,Có nguy cơ
+SV073,SinhVien_073,Marketing,129,140,3.59,False,False,3,Có nguy cơ
+SV074,SinhVien_074,Kế toán,118,140,2.37,True,False,2,Có nguy cơ
+SV075,SinhVien_075,Ngôn ngữ Anh,121,140,3.18,True,True,0,Đang học
+SV076,SinhVien_076,QTKD,105,140,2.4,True,False,0,Chưa đủ điều kiện TN
+SV077,SinhVien_077,Kế toán,114,140,3.33,True,True,3,Có nguy cơ
+SV078,SinhVien_078,Kế toán,119,140,2.71,True,True,3,Có nguy cơ
+SV079,SinhVien_079,Ngôn ngữ Anh,134,140,1.84,False,True,0,Có nguy cơ
+SV080,SinhVien_080,Ngôn ngữ Anh,138,140,2.66,False,False,1,Có nguy cơ
+SV081,SinhVien_081,Marketing,117,140,2.87,False,True,3,Có nguy cơ
+SV082,SinhVien_082,Marketing,98,140,3.96,True,True,0,Chưa đủ điều kiện TN
+SV083,SinhVien_083,QTKD,98,140,3.71,True,True,2,Có nguy cơ
+SV084,SinhVien_084,CNTT,119,140,2.52,False,True,3,Có nguy cơ
+SV085,SinhVien_085,CNTT,120,140,1.84,True,True,1,Đang học
+SV086,SinhVien_086,QTKD,139,140,3.91,True,True,1,Đang học
+SV087,SinhVien_087,Kế toán,91,140,3.17,True,True,3,Có nguy cơ
+SV088,SinhVien_088,CNTT,103,140,2.82,True,True,1,Có nguy cơ
+SV089,SinhVien_089,Ngôn ngữ Anh,139,140,3.6,True,True,0,Đủ điều kiện TN
+SV090,SinhVien_090,QTKD,126,140,3.29,False,True,1,Chưa đủ điều kiện TN
+SV091,SinhVien_091,Kế toán,96,140,3.33,True,False,0,Có nguy cơ
+SV092,SinhVien_092,Ngôn ngữ Anh,140,140,1.89,False,False,2,Chưa đủ điều kiện TN
+SV093,SinhVien_093,Marketing,90,140,3.67,False,True,3,Có nguy cơ
+SV094,SinhVien_094,Kế toán,135,140,2.14,True,False,2,Có nguy cơ
+SV095,SinhVien_095,QTKD,139,140,2.86,False,False,2,Có nguy cơ
+SV096,SinhVien_096,Marketing,95,140,2.41,False,True,3,Có nguy cơ
+SV097,SinhVien_097,Ngôn ngữ Anh,111,140,1.86,True,True,3,Có nguy cơ
+SV098,SinhVien_098,QTKD,111,140,2.42,True,False,0,Có nguy cơ
+SV099,SinhVien_099,Marketing,95,140,2.33,False,True,1,Có nguy cơ
+SV100,SinhVien_100,QTKD,118,140,3.54,True,True,1,Có nguy cơ
+SV101,SinhVien_101,Kế toán,109,140,3.26,True,True,2,Có nguy cơ
+SV102,SinhVien_102,CNTT,111,140,2.57,False,True,2,Có nguy cơ
+SV103,SinhVien_103,Marketing,136,140,2.22,True,False,1,Chưa đủ điều kiện TN
+SV104,SinhVien_104,Ngôn ngữ Anh,107,140,3.39,True,True,1,Có nguy cơ
+SV105,SinhVien_105,Kế toán,101,140,2.46,True,True,0,Có nguy cơ
+SV106,SinhVien_106,CNTT,108,140,3.33,True,False,3,Chưa đủ điều kiện TN
+SV107,SinhVien_107,CNTT,126,140,2.43,False,True,2,Chưa đủ điều kiện TN
+SV108,SinhVien_108,CNTT,106,140,3.87,False,True,0,Có nguy cơ
+SV109,SinhVien_109,Kế toán,126,140,3.18,True,True,1,Đang học
+SV110,SinhVien_110,Kế toán,109,140,1.99,True,True,3,Có nguy cơ
+SV111,SinhVien_111,Kế toán,104,140,3.51,False,True,3,Có nguy cơ
+SV112,SinhVien_112,QTKD,117,140,2.47,True,False,0,Có nguy cơ
+SV113,SinhVien_113,QTKD,130,140,2.26,True,True,1,Đang học
+SV114,SinhVien_114,Marketing,125,140,1.97,True,True,3,Có nguy cơ
+SV115,SinhVien_115,Marketing,108,140,1.87,True,False,2,Có nguy cơ
+SV116,SinhVien_116,Kế toán,94,140,3.31,True,False,1,Có nguy cơ
+SV117,SinhVien_117,Ngôn ngữ Anh,104,140,3.22,True,True,0,Chưa đủ điều kiện TN
+SV118,SinhVien_118,Marketing,128,140,3.45,True,True,0,Đang học
+SV119,SinhVien_119,Kế toán,134,140,2.47,False,True,3,Có nguy cơ
+SV120,SinhVien_120,QTKD,92,140,3.76,True,False,2,Chưa đủ điều kiện TN
+SV121,SinhVien_121,QTKD,133,140,3.64,True,False,2,Có nguy cơ
+SV122,SinhVien_122,Marketing,120,140,2.94,False,True,1,Có nguy cơ
+SV123,SinhVien_123,Ngôn ngữ Anh,130,140,3.59,True,True,2,Có nguy cơ
+SV124,SinhVien_124,Ngôn ngữ Anh,132,140,2.03,True,True,3,Có nguy cơ
+SV125,SinhVien_125,Ngôn ngữ Anh,132,140,3.88,True,True,0,Đủ điều kiện TN
+SV126,SinhVien_126,Kế toán,106,140,2.51,False,False,0,Có nguy cơ
+SV127,SinhVien_127,Marketing,119,140,2.71,True,False,2,Có nguy cơ
+SV128,SinhVien_128,Ngôn ngữ Anh,130,140,2.77,True,True,2,Có nguy cơ
+SV129,SinhVien_129,Kế toán,118,140,3.74,False,True,0,Có nguy cơ
+SV130,SinhVien_130,CNTT,105,140,3.36,True,False,0,Có nguy cơ
+SV131,SinhVien_131,QTKD,104,140,3.98,True,True,0,Có nguy cơ
+SV132,SinhVien_132,Marketing,121,140,3.85,True,False,2,Có nguy cơ
+SV133,SinhVien_133,Kế toán,120,140,2.34,True,True,1,Đang học
+SV134,SinhVien_134,Marketing,122,140,3.44,True,True,2,Có nguy cơ
+SV135,SinhVien_135,Kế toán,111,140,3.86,True,True,2,Có nguy cơ
+SV136,SinhVien_136,Ngôn ngữ Anh,127,140,4.0,False,True,3,Có nguy cơ
+SV137,SinhVien_137,QTKD,111,140,3.01,False,True,2,Có nguy cơ
+SV138,SinhVien_138,Marketing,126,140,2.64,False,True,2,Có nguy cơ
+SV139,SinhVien_139,Kế toán,114,140,3.97,True,True,0,Chưa đủ điều kiện TN
+SV140,SinhVien_140,QTKD,111,140,3.71,False,True,3,Chưa đủ điều kiện TN
+SV141,SinhVien_141,Ngôn ngữ Anh,116,140,3.72,True,True,3,Có nguy cơ
+SV142,SinhVien_142,Kế toán,111,140,3.17,False,False,0,Có nguy cơ
+SV143,SinhVien_143,QTKD,114,140,3.9,False,False,0,Có nguy cơ
+SV144,SinhVien_144,Marketing,130,140,3.31,True,True,0,Đủ điều kiện TN
+SV145,SinhVien_145,CNTT,96,140,3.47,True,True,1,Có nguy cơ
+SV146,SinhVien_146,QTKD,92,140,2.51,True,True,2,Có nguy cơ
+SV147,SinhVien_147,Marketing,105,140,2.97,True,True,1,Chưa đủ điều kiện TN
+SV148,SinhVien_148,Ngôn ngữ Anh,129,140,3.3,False,False,1,Có nguy cơ
+SV149,SinhVien_149,QTKD,119,140,2.36,True,True,2,Có nguy cơ
+SV150,SinhVien_150,Marketing,94,140,2.77,True,False,2,Có nguy cơ
+SV151,SinhVien_151,CNTT,134,140,2.35,True,True,3,Có nguy cơ
+SV152,SinhVien_152,Ngôn ngữ Anh,105,140,2.64,True,False,2,Có nguy cơ
+SV153,SinhVien_153,CNTT,91,140,3.95,False,True,0,Có nguy cơ
+SV154,SinhVien_154,QTKD,128,140,3.44,True,True,2,Có nguy cơ
+SV155,SinhVien_155,CNTT,129,140,2.35,True,False,0,Có nguy cơ
+SV156,SinhVien_156,CNTT,109,140,3.53,True,False,2,Có nguy cơ
+SV157,SinhVien_157,Kế toán,108,140,2.52,False,True,1,Chưa đủ điều kiện TN
+SV158,SinhVien_158,Marketing,113,140,2.97,True,True,2,Có nguy cơ
+SV159,SinhVien_159,QTKD,108,140,3.44,True,True,3,Có nguy cơ
+SV160,SinhVien_160,Marketing,138,140,3.93,False,False,2,Chưa đủ điều kiện TN
+SV161,SinhVien_161,Ngôn ngữ Anh,90,140,2.38,True,True,2,Có nguy cơ
+SV162,SinhVien_162,Marketing,127,140,2.64,True,True,1,Đang học
+SV163,SinhVien_163,Marketing,91,140,3.16,True,False,1,Có nguy cơ
+SV164,SinhVien_164,CNTT,134,140,2.46,False,True,1,Chưa đủ điều kiện TN
+SV165,SinhVien_165,QTKD,109,140,3.99,True,True,1,Có nguy cơ
+SV166,SinhVien_166,CNTT,114,140,2.8,False,False,1,Có nguy cơ
+SV167,SinhVien_167,Marketing,121,140,3.15,True,True,2,Có nguy cơ
+SV168,SinhVien_168,Ngôn ngữ Anh,105,140,3.68,True,False,2,Có nguy cơ
+SV169,SinhVien_169,QTKD,93,140,2.68,True,True,3,Chưa đủ điều kiện TN
+SV170,SinhVien_170,QTKD,131,140,3.21,True,True,2,Có nguy cơ
+SV171,SinhVien_171,QTKD,140,140,3.04,True,False,1,Có nguy cơ
+SV172,SinhVien_172,Kế toán,111,140,3.5,True,True,1,Có nguy cơ
+SV173,SinhVien_173,Ngôn ngữ Anh,106,140,3.56,True,False,0,Chưa đủ điều kiện TN
+SV174,SinhVien_174,Ngôn ngữ Anh,140,140,3.53,True,True,1,Đang học
+SV175,SinhVien_175,Marketing,93,140,2.08,False,False,0,Có nguy cơ
+SV176,SinhVien_176,CNTT,118,140,3.51,True,True,1,Có nguy cơ
+SV177,SinhVien_177,CNTT,136,140,3.52,True,True,0,Đủ điều kiện TN
+SV178,SinhVien_178,Marketing,120,140,3.66,False,False,0,Có nguy cơ
+SV179,SinhVien_179,Ngôn ngữ Anh,94,140,3.78,True,False,1,Chưa đủ điều kiện TN
+SV180,SinhVien_180,Kế toán,129,140,3.19,True,True,2,Có nguy cơ
+SV181,SinhVien_181,QTKD,117,140,2.02,True,False,1,Có nguy cơ
+SV182,SinhVien_182,Ngôn ngữ Anh,116,140,2.55,False,True,3,Có nguy cơ
+SV183,SinhVien_183,Marketing,117,140,2.49,True,True,1,Có nguy cơ
+SV184,SinhVien_184,Ngôn ngữ Anh,94,140,2.0,True,True,3,Chưa đủ điều kiện TN
+SV185,SinhVien_185,Marketing,98,140,3.02,True,False,0,Có nguy cơ
+SV186,SinhVien_186,Kế toán,136,140,1.91,True,False,2,Có nguy cơ
+SV187,SinhVien_187,Kế toán,122,140,2.27,False,True,0,Có nguy cơ
+SV188,SinhVien_188,Kế toán,113,140,2.05,True,False,1,Có nguy cơ
+SV189,SinhVien_189,Ngôn ngữ Anh,139,140,3.6,True,False,2,Chưa đủ điều kiện TN
+SV190,SinhVien_190,QTKD,134,140,3.48,True,True,0,Đủ điều kiện TN
+SV191,SinhVien_191,CNTT,99,140,3.05,False,True,1,Có nguy cơ
+SV192,SinhVien_192,QTKD,95,140,3.44,True,True,3,Có nguy cơ
+SV193,SinhVien_193,QTKD,113,140,2.49,True,False,0,Có nguy cơ
+SV194,SinhVien_194,Marketing,100,140,3.46,True,False,0,Có nguy cơ
+SV195,SinhVien_195,CNTT,121,140,3.14,False,True,1,Có nguy cơ
+SV196,SinhVien_196,Ngôn ngữ Anh,112,140,2.75,True,False,3,Có nguy cơ
+SV197,SinhVien_197,QTKD,92,140,2.29,True,True,1,Có nguy cơ
+SV198,SinhVien_198,Marketing,139,140,2.1,True,True,2,Chưa đủ điều kiện TN
+SV199,SinhVien_199,Kế toán,137,140,2.75,True,True,1,Đang học
+SV200,SinhVien_200,CNTT,125,140,3.63,True,True,3,Có nguy cơ
+SV201,SinhVien_201,Marketing,117,140,1.84,True,True,3,Có nguy cơ
+SV202,SinhVien_202,Kế toán,108,140,2.05,True,True,1,Có nguy cơ
+SV203,SinhVien_203,QTKD,119,140,3.63,True,True,3,Có nguy cơ
+SV204,SinhVien_204,QTKD,117,140,3.1,True,True,2,Có nguy cơ
+SV205,SinhVien_205,QTKD,111,140,3.51,True,False,0,Có nguy cơ
+SV206,SinhVien_206,QTKD,139,140,2.57,True,True,0,Đủ điều kiện TN
+SV207,SinhVien_207,Marketing,106,140,2.23,True,False,0,Chưa đủ điều kiện TN
+SV208,SinhVien_208,Ngôn ngữ Anh,119,140,3.46,False,False,2,Có nguy cơ
+SV209,SinhVien_209,Kế toán,99,140,2.77,False,True,2,Có nguy cơ
+SV210,SinhVien_210,CNTT,93,140,2.57,True,True,3,Có nguy cơ
+SV211,SinhVien_211,Kế toán,113,140,3.63,True,False,0,Có nguy cơ
+SV212,SinhVien_212,Marketing,114,140,2.82,True,True,1,Có nguy cơ
+SV213,SinhVien_213,Ngôn ngữ Anh,122,140,2.13,True,True,0,Đang học
+SV214,SinhVien_214,Marketing,135,140,1.99,True,True,1,Đang học
+SV215,SinhVien_215,Marketing,118,140,2.95,True,True,2,Có nguy cơ
+SV216,SinhVien_216,CNTT,116,140,3.5,True,False,2,Chưa đủ điều kiện TN
+SV217,SinhVien_217,Ngôn ngữ Anh,125,140,3.29,True,True,1,Đang học
+SV218,SinhVien_218,Marketing,95,140,3.08,True,True,2,Có nguy cơ
+SV219,SinhVien_219,Ngôn ngữ Anh,98,140,3.11,True,True,3,Có nguy cơ
+SV220,SinhVien_220,CNTT,98,140,3.27,True,False,3,Có nguy cơ
+SV221,SinhVien_221,QTKD,113,140,2.48,True,True,3,Chưa đủ điều kiện TN
+SV222,SinhVien_222,Kế toán,99,140,1.97,True,False,0,Có nguy cơ
+SV223,SinhVien_223,Kế toán,98,140,3.11,True,True,1,Có nguy cơ
+SV224,SinhVien_224,QTKD,100,140,3.39,True,True,2,Có nguy cơ
+SV225,SinhVien_225,Marketing,118,140,3.14,False,True,1,Có nguy cơ
+SV226,SinhVien_226,Kế toán,102,140,2.61,False,True,2,Có nguy cơ
+SV227,SinhVien_227,Ngôn ngữ Anh,123,140,2.72,True,True,1,Đang học
+SV228,SinhVien_228,Kế toán,93,140,3.21,True,False,0,Có nguy cơ
+SV229,SinhVien_229,QTKD,97,140,2.43,True,True,3,Có nguy cơ
+SV230,SinhVien_230,Marketing,117,140,2.0,True,True,2,Có nguy cơ
+SV231,SinhVien_231,Ngôn ngữ Anh,93,140,2.67,True,True,3,Có nguy cơ
+SV232,SinhVien_232,QTKD,104,140,1.86,True,False,2,Có nguy cơ
+SV233,SinhVien_233,Marketing,92,140,2.43,False,False,1,Có nguy cơ
+SV234,SinhVien_234,QTKD,118,140,3.15,True,True,2,Có nguy cơ
+SV235,SinhVien_235,CNTT,125,140,3.87,False,True,2,Có nguy cơ
+SV236,SinhVien_236,Marketing,93,140,2.32,False,True,0,Có nguy cơ
+SV237,SinhVien_237,CNTT,128,140,2.98,True,False,1,Có nguy cơ
+SV238,SinhVien_238,Ngôn ngữ Anh,129,140,2.58,False,True,0,Có nguy cơ
+SV239,SinhVien_239,Marketing,94,140,3.9,True,True,3,Chưa đủ điều kiện TN
+SV240,SinhVien_240,CNTT,113,140,2.36,True,True,0,Có nguy cơ
+SV241,SinhVien_241,Ngôn ngữ Anh,139,140,3.08,True,True,0,Đủ điều kiện TN
+SV242,SinhVien_242,Marketing,124,140,2.54,True,False,3,Có nguy cơ
+SV243,SinhVien_243,QTKD,130,140,2.2,True,True,3,Chưa đủ điều kiện TN
+SV244,SinhVien_244,Kế toán,92,140,3.54,True,True,2,Có nguy cơ
+SV245,SinhVien_245,CNTT,120,140,2.36,True,True,2,Có nguy cơ
+SV246,SinhVien_246,Marketing,131,140,2.53,True,True,3,Có nguy cơ
+SV247,SinhVien_247,Kế toán,114,140,2.55,True,True,3,Có nguy cơ
+SV248,SinhVien_248,QTKD,107,140,3.56,False,True,3,Có nguy cơ
+SV249,SinhVien_249,Ngôn ngữ Anh,124,140,2.45,True,True,2,Có nguy cơ
+SV250,SinhVien_250,CNTT,118,140,3.13,False,True,3,Có nguy cơ
+SV251,SinhVien_251,CNTT,136,140,3.71,True,False,3,Có nguy cơ
+SV252,SinhVien_252,QTKD,94,140,3.28,False,True,1,Có nguy cơ
+SV253,SinhVien_253,Ngôn ngữ Anh,128,140,3.29,False,True,1,Chưa đủ điều kiện TN
+SV254,SinhVien_254,Ngôn ngữ Anh,113,140,2.64,True,False,1,Có nguy cơ
+SV255,SinhVien_255,Marketing,113,140,2.78,True,False,1,Có nguy cơ
+SV256,SinhVien_256,Marketing,110,140,3.23,True,True,0,Có nguy cơ
+SV257,SinhVien_257,QTKD,123,140,2.65,True,True,2,Có nguy cơ
+SV258,SinhVien_258,CNTT,129,140,2.43,False,True,0,Chưa đủ điều kiện TN
+SV259,SinhVien_259,CNTT,118,140,2.18,False,True,2,Có nguy cơ
+SV260,SinhVien_260,Ngôn ngữ Anh,125,140,2.99,True,True,1,Đang học
+SV261,SinhVien_261,Marketing,122,140,2.29,True,True,1,Đang học
+SV262,SinhVien_262,CNTT,91,140,2.59,True,True,1,Có nguy cơ
+SV263,SinhVien_263,Kế toán,94,140,2.48,False,False,3,Có nguy cơ
+SV264,SinhVien_264,Kế toán,94,140,2.08,True,False,0,Có nguy cơ
+SV265,SinhVien_265,CNTT,112,140,2.08,True,True,3,Có nguy cơ
+SV266,SinhVien_266,QTKD,97,140,2.94,True,True,1,Có nguy cơ
+SV267,SinhVien_267,Kế toán,112,140,3.88,True,True,2,Chưa đủ điều kiện TN
+SV268,SinhVien_268,QTKD,107,140,2.08,True,False,0,Có nguy cơ
+SV269,SinhVien_269,Kế toán,127,140,3.87,True,True,2,Có nguy cơ
+SV270,SinhVien_270,Kế toán,92,140,3.62,True,True,0,Có nguy cơ
+SV271,SinhVien_271,Kế toán,106,140,3.23,False,False,0,Có nguy cơ
+SV272,SinhVien_272,Marketing,108,140,3.21,True,True,1,Có nguy cơ
+SV273,SinhVien_273,Marketing,109,140,2.8,True,True,3,Có nguy cơ
+SV274,SinhVien_274,Ngôn ngữ Anh,103,140,2.55,True,True,2,Có nguy cơ
+SV275,SinhVien_275,Marketing,115,140,2.09,True,False,0,Có nguy cơ
+SV276,SinhVien_276,Marketing,97,140,2.39,True,True,0,Chưa đủ điều kiện TN
+SV277,SinhVien_277,QTKD,129,140,2.72,True,True,2,Chưa đủ điều kiện TN
+SV278,SinhVien_278,CNTT,121,140,3.99,False,True,2,Có nguy cơ
+SV279,SinhVien_279,Ngôn ngữ Anh,115,140,2.91,True,True,2,Chưa đủ điều kiện TN
+SV280,SinhVien_280,Marketing,121,140,3.11,False,True,0,Có nguy cơ
+SV281,SinhVien_281,CNTT,98,140,3.74,True,True,2,Chưa đủ điều kiện TN
+SV282,SinhVien_282,Kế toán,126,140,3.04,True,False,2,Chưa đủ điều kiện TN
+SV283,SinhVien_283,CNTT,118,140,3.48,True,False,0,Chưa đủ điều kiện TN
+SV284,SinhVien_284,QTKD,115,140,2.62,True,False,2,Có nguy cơ
+SV285,SinhVien_285,QTKD,128,140,2.92,True,True,0,Đang học
+SV286,SinhVien_286,Kế toán,135,140,2.53,False,False,3,Chưa đủ điều kiện TN
+SV287,SinhVien_287,Ngôn ngữ Anh,98,140,2.52,True,True,3,Có nguy cơ
+SV288,SinhVien_288,CNTT,127,140,2.54,False,False,2,Có nguy cơ
+SV289,SinhVien_289,CNTT,113,140,2.53,True,True,2,Có nguy cơ
+SV290,SinhVien_290,QTKD,128,140,2.84,True,False,0,Có nguy cơ
+SV291,SinhVien_291,CNTT,123,140,3.18,False,True,1,Chưa đủ điều kiện TN
+SV292,SinhVien_292,QTKD,102,140,1.84,True,True,1,Có nguy cơ
+SV293,SinhVien_293,Kế toán,116,140,2.9,False,False,0,Có nguy cơ
+SV294,SinhVien_294,QTKD,103,140,3.03,False,False,3,Có nguy cơ
+SV295,SinhVien_295,Ngôn ngữ Anh,119,140,3.81,True,False,2,Có nguy cơ
+SV296,SinhVien_296,Ngôn ngữ Anh,129,140,2.87,True,True,2,Có nguy cơ
+SV297,SinhVien_297,Ngôn ngữ Anh,139,140,2.44,True,False,3,Có nguy cơ
+SV298,SinhVien_298,Kế toán,125,140,3.85,True,True,0,Đang học
+SV299,SinhVien_299,Ngôn ngữ Anh,133,140,3.0,False,True,1,Có nguy cơ
+SV300,SinhVien_300,QTKD,135,140,1.97,False,False,2,Có nguy cơ

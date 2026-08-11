@@ -1,0 +1,1001 @@
+mssv,ho_ten,ngay_sinh,khoa,nganh,tin_chi_tich_luy,tin_chi_yeu_cau,gpa_tich_luy,xep_loai_hoc_luc,diem_ren_luyen,chuandau_ngoai_ngu,chuandau_tin_hoc,chung_chi_gdqp_gddt,no_hoc_phi,ky_luat,ket_qua_xet_tot_nghiep,ly_do_chi_tiet
+201A000001,Pham Tuyet Thao,2002-09-20,Ky thuat Cong nghe,Cong nghe Ky thuat O to,125,135,3.16,Kha,76,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 10 tin chi tich luy
+201A000002,Cao Duc Khoa,2002-01-02,Du lich,Quan tri Khach san,124,124,3.57,Gioi,78,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000003,Do Viet Nhi,2002-09-20,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.04,Trung binh,84,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000004,Nguyen Viet Nam,2002-08-25,Truyen thong,Truyen thong Da phuong tien,126,126,3.08,Kha,81,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000005,Huynh Kim Lam,2002-08-04,Du lich,Quan tri Dich vu Du lich,124,124,3.54,Gioi,86,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000006,Pham Nhat Quang,2002-03-14,Truyen thong,Truyen thong Da phuong tien,124,126,3.17,Kha,79,Dat,Dat,Chua dat,0,0,Khong du dieu kien,Thieu 2 tin chi tich luy | Thieu chung chi GDQP-AN/GDDT
+201A000007,Huynh Tan Thinh,2002-11-28,Du lich,Quan tri Dich vu Du lich,124,124,2.69,Kha,62,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000008,Phan Kim Quang,2002-07-04,Kinh te,Ke toan,128,128,2.83,Kha,81,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000009,Pham Duc Thao,2002-05-13,Truyen thong,Truyen thong Da phuong tien,114,126,2.86,Kha,54,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 12 tin chi tich luy
+201A000010,Vo Duc An,2002-02-17,Cong nghe Thong tin,An toan Thong tin,132,132,3.81,Xuat sac,55,Dat,Dat,Dat,1,0,Khong du dieu kien,Con no hoc phi / Chi phi thuat
+201A000011,Ly Viet Em,2002-01-03,Ngoai ngu,Ngon ngu Trung Quoc,125,125,3.47,Gioi,81,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000012,Dinh Kim Linh,2002-02-13,Truyen thong,Truyen thong Da phuong tien,116,126,2.49,Trung binh,76,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 10 tin chi tich luy
+201A000013,Huynh Hoang Bich,2002-06-27,Ky thuat Cong nghe,Cong nghe Ky thuat O to,134,135,1.9,Yeu,80,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 1 tin chi tich luy | GPA tich luy duoi 2.00 (Yeu)
+201A000014,Cao Quoc Em,2002-10-30,Du lich,Quan tri Khach san,124,124,2.56,Kha,88,Dat,Dat,Dat,1,0,Khong du dieu kien,Con no hoc phi / Chi phi thuat
+201A000015,Dang Thi Thinh,2002-01-25,Truyen thong,Truyen thong Da phuong tien,126,126,3.28,Gioi,51,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000016,Dang Quoc Nhi,2002-05-20,Truyen thong,Quan he Cong chuong,119,126,2.49,Trung binh,72,Dat,Dat,Chua dat,0,0,Khong du dieu kien,Thieu 7 tin chi tich luy | Thieu chung chi GDQP-AN/GDDT
+201A000017,Dang Tuyet Thao,2002-09-04,Truyen thong,Truyen thong Da phuong tien,126,126,2.95,Kha,67,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000018,Hoang Nhat Thinh,2002-12-10,Kinh te,Quan tri Kinh doanh,128,128,2.18,Trung binh,85,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000019,Cao Thanh Vy,2002-05-31,Du lich,Quan tri Dich vu Du lich,124,124,2.13,Trung binh,66,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000020,Dang Minh Thao,2002-06-10,Ngoai ngu,Ngon ngu Trung Quoc,120,125,3.81,Xuat sac,60,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 5 tin chi tich luy
+201A000021,Truong Van Bich,2002-02-19,Kinh te,Quan tri Kinh doanh,128,128,2.05,Trung binh,85,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000022,Dinh Thi Nhi,2002-06-11,Du lich,Quan tri Khach san,124,124,2.74,Kha,93,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000023,Huynh Tan Nam,2002-01-30,Ky thuat Cong nghe,Cong nghe Ky thuat O to,130,135,3.31,Gioi,68,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 5 tin chi tich luy
+201A000024,Cao Van Thinh,2002-06-25,Kinh te,Logistics va Quan ly Chuoi cung ung,128,128,3.94,Xuat sac,60,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000025,Duong Van Phong,2002-10-24,Kinh te,Ke toan,128,128,2.64,Kha,76,Dat,Dat,Dat,1,0,Khong du dieu kien,Con no hoc phi / Chi phi thuat
+201A000026,Mai Huu Nhi,2002-05-11,Kinh te,Tai chinh Ngan hang,128,128,2.43,Trung binh,80,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000027,Dang Huu Bich,2002-11-29,Du lich,Quan tri Dich vu Du lich,124,124,2.94,Kha,97,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000028,Ngo Kim Em,2002-07-24,Ky thuat Cong nghe,Cong nghe Ky thuat O to,131,135,3.03,Kha,67,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 4 tin chi tich luy
+201A000029,Vu Tan Hang,2002-03-23,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.73,Xuat sac,72,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000030,Le Tan Nam,2002-10-07,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.4,Gioi,51,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000031,Huynh Phuong Thinh,2002-09-22,Ky thuat Cong nghe,Cong nghe Ky thuat O to,133,135,2.03,Trung binh,96,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 2 tin chi tich luy
+201A000032,Bui Quoc Linh,2002-06-01,Du lich,Quan tri Dich vu Du lich,124,124,3.89,Xuat sac,62,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000033,Do Huu Giang,2002-09-22,Cong nghe Thong tin,Ky thuat Phan mem,132,132,2.15,Trung binh,51,Chua dat,Dat,Dat,0,1,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu | Dang trong thoi gian ky luat cap Truong
+201A000034,Do Hoang Nam,2002-06-04,Kinh te,Logistics va Quan ly Chuoi cung ung,128,128,3.13,Kha,58,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000035,Ly Tan Dung,2002-06-28,Truyen thong,Quan he Cong chuong,126,126,2.94,Kha,72,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000036,Le Truc Linh,2002-05-16,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.76,Kha,85,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000037,Dang Thanh Quan,2002-04-23,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.59,Kha,87,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000038,Ly Tuyet Dung,2002-06-13,Ngoai ngu,Ngon ngu Nhat,125,125,2.99,Kha,67,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000039,Phan Phuong Nhi,2002-01-12,Du lich,Quan tri Dich vu Du lich,124,124,2.56,Kha,93,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000040,Mai Kim Hang,2002-08-06,Ngoai ngu,Ngon ngu Trung Quoc,125,125,3.79,Xuat sac,96,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000041,Dinh Nhat Quang,2002-09-05,Ngoai ngu,Ngon ngu Anh,125,125,2.31,Trung binh,57,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000042,Trinh Ngoc Yen,2002-11-19,Ngoai ngu,Ngon ngu Anh,125,125,2.24,Trung binh,50,Chua dat,Dat,Chua dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu | Thieu chung chi GDQP-AN/GDDT
+201A000043,Dang Tan Cuong,2002-10-18,Truyen thong,Truyen thong Da phuong tien,126,126,2.42,Trung binh,76,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000044,Vu Tuyet Mai,2002-06-27,Ngoai ngu,Ngon ngu Trung Quoc,125,125,2.88,Kha,70,Dat,Dat,Dat,1,0,Khong du dieu kien,Con no hoc phi / Chi phi thuat
+201A000045,Ly Duc Hang,2002-07-08,Ngoai ngu,Ngon ngu Trung Quoc,118,125,2.49,Trung binh,87,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 7 tin chi tich luy
+201A000046,Mai Tan Quang,2002-11-12,Cong nghe Thong tin,Khoa hoc Du lieu,132,132,3.24,Gioi,73,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000047,Trinh Kim Nhi,2002-11-19,Cong nghe Thong tin,Ky thuat Phan mem,132,132,2.36,Trung binh,77,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000048,Vu Gia Thinh,2002-12-14,Ngoai ngu,Ngon ngu Nhat,118,125,2.97,Kha,96,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 7 tin chi tich luy
+201A000049,Vo Thi Bich,2002-05-24,Ngoai ngu,Ngon ngu Anh,125,125,3.87,Xuat sac,94,Dat,Dat,Dat,1,0,Khong du dieu kien,Con no hoc phi / Chi phi thuat
+201A000050,Vo Nhat Yen,2002-09-08,Du lich,Quan tri Khach san,124,124,2.93,Kha,84,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000051,Trinh Thi Quang,2002-01-04,Cong nghe Thong tin,Cong nghe Thong tin,132,132,3.62,Xuat sac,94,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000052,Le Nhat Phong,2002-04-13,Kinh te,Tai chinh Ngan hang,128,128,3.88,Xuat sac,63,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000053,Do Thanh Linh,2002-11-19,Ky thuat Cong nghe,Cong nghe Ky thuat O to,126,135,3.12,Kha,55,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 9 tin chi tich luy
+201A000054,Dinh Quoc Dung,2002-03-30,Kinh te,Luat Kinh te,128,128,3.74,Xuat sac,77,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000055,Duong Viet Nhi,2002-01-05,Truyen thong,Quan he Cong chuong,120,126,2.88,Kha,58,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 6 tin chi tich luy
+201A000056,Cao Thi Thinh,2002-06-17,Ngoai ngu,Ngon ngu Trung Quoc,125,125,2.83,Kha,84,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000057,Tran Hoang Vy,2002-01-22,Cong nghe Thong tin,An toan Thong tin,132,132,2.66,Kha,91,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000058,Hoang Gia An,2002-02-23,Truyen thong,Truyen thong Da phuong tien,126,126,3.66,Xuat sac,51,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000059,Hoang Gia Linh,2002-08-30,Kinh te,Ke toan,128,128,2.83,Kha,65,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000060,Dinh Quoc Quan,2002-04-07,Cong nghe Thong tin,An toan Thong tin,132,132,2.86,Kha,51,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000061,Duong Khanh Thao,2002-06-10,Ngoai ngu,Ngon ngu Nhat,115,125,1.91,Yeu,88,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 10 tin chi tich luy | GPA tich luy duoi 2.00 (Yeu)
+201A000062,Cao Hoang Thinh,2002-03-29,Truyen thong,Quan he Cong chuong,126,126,3.53,Gioi,76,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000063,Trinh Ngoc Nam,2002-02-13,Ngoai ngu,Ngon ngu Anh,124,125,2.31,Trung binh,90,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 1 tin chi tich luy
+201A000064,Phan Kim Bich,2002-04-08,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.04,Trung binh,91,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000065,Ly Hoang Thinh,2002-03-27,Du lich,Quan tri Khach san,124,124,1.96,Yeu,72,Dat,Dat,Dat,1,0,Khong du dieu kien,GPA tich luy duoi 2.00 (Yeu) | Con no hoc phi / Chi phi thuat
+201A000066,Mai Hoang Quan,2002-12-12,Du lich,Quan tri Khach san,124,124,2.2,Trung binh,62,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000067,Le Van Nam,2002-02-08,Ky thuat Cong nghe,Cong nghe Ky thuat O to,125,135,3.66,Xuat sac,65,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 10 tin chi tich luy
+201A000068,Vu Huu Dung,2002-03-13,Cong nghe Thong tin,An toan Thong tin,132,132,3.32,Gioi,90,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000069,Cao Van Lam,2002-05-02,Cong nghe Thong tin,An toan Thong tin,127,132,3.1,Kha,86,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 5 tin chi tich luy
+201A000070,Hoang Quoc Quan,2002-10-30,Cong nghe Thong tin,Ky thuat Phan mem,132,132,3.43,Gioi,60,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000071,Dinh Kim Linh,2002-03-17,Truyen thong,Quan he Cong chuong,126,126,3.13,Kha,59,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000072,Hoang Duc Cuong,2002-07-17,Ngoai ngu,Ngon ngu Nhat,125,125,3.38,Gioi,69,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000073,Dang Minh Yen,2002-10-08,Cong nghe Thong tin,Ky thuat Phan mem,132,132,3.32,Gioi,95,Chua dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu | Chua dat chuan dau ra Tin hoc
+201A000074,Pham Khanh Nhi,2002-03-07,Du lich,Quan tri Dich vu Du lich,124,124,2.68,Kha,89,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000075,Phan Khanh Giang,2002-09-18,Ngoai ngu,Ngon ngu Anh,125,125,3.58,Gioi,69,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000076,Vu Thi Yen,2002-06-07,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.93,Kha,85,Dat,Dat,Chua dat,0,0,Khong du dieu kien,Thieu chung chi GDQP-AN/GDDT
+201A000077,Trinh Tan Yen,2002-09-17,Ngoai ngu,Ngon ngu Nhat,125,125,2.95,Kha,50,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000078,Ngo Huu Vy,2002-07-13,Ngoai ngu,Ngon ngu Trung Quoc,124,125,2.07,Trung binh,63,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 1 tin chi tich luy
+201A000079,Bui Viet An,2002-10-07,Cong nghe Thong tin,Cong nghe Thong tin,132,132,2.68,Kha,79,Dat,Dat,Chua dat,0,0,Khong du dieu kien,Thieu chung chi GDQP-AN/GDDT
+201A000080,Hoang Tan An,2002-02-19,Cong nghe Thong tin,Khoa hoc Du lieu,132,132,2.82,Kha,76,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000081,Vu Tuyet Yen,2002-04-03,Cong nghe Thong tin,Cong nghe Thong tin,132,132,2.16,Trung binh,79,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000082,Vo Hoang An,2002-12-18,Truyen thong,Quan he Cong chuong,124,126,2.78,Kha,53,Dat,Dat,Dat,1,0,Khong du dieu kien,Thieu 2 tin chi tich luy | Con no hoc phi / Chi phi thuat
+201A000083,Le Ngoc Thinh,2002-09-26,Kinh te,Marketing,128,128,3.85,Xuat sac,50,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000084,Pham Khanh Nam,2002-02-08,Truyen thong,Truyen thong Da phuong tien,126,126,3.15,Kha,70,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000085,Trinh Quoc Thao,2002-08-03,Ngoai ngu,Ngon ngu Anh,125,125,2.38,Trung binh,79,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000086,Cao Duc Giang,2002-07-03,Du lich,Quan tri Dich vu Du lich,119,124,2.08,Trung binh,88,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 5 tin chi tich luy
+201A000087,Pham Tuyet Nhi,2002-11-28,Truyen thong,Quan he Cong chuong,126,126,3.27,Gioi,73,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000088,Huynh Viet An,2002-07-02,Truyen thong,Quan he Cong chuong,126,126,3.49,Gioi,50,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000089,Mai Thi Dung,2002-06-19,Truyen thong,Quan he Cong chuong,126,126,3.77,Xuat sac,95,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000090,Do Huu Quan,2002-02-22,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.08,Trung binh,76,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000091,Cao Phuong Bich,2002-03-12,Truyen thong,Truyen thong Da phuong tien,126,126,3.66,Xuat sac,76,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000092,Truong Tan Em,2002-05-17,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.35,Gioi,54,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000093,Nguyen Tan Dung,2002-03-07,Truyen thong,Truyen thong Da phuong tien,126,126,3.4,Gioi,83,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000094,Pham Thanh Quan,2002-07-17,Cong nghe Thong tin,Khoa hoc Du lieu,132,132,2.01,Trung binh,50,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000095,Le Tan Thinh,2002-10-15,Cong nghe Thong tin,Cong nghe Thong tin,132,132,2.82,Kha,72,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000096,Pham Phuong Lam,2002-10-29,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.24,Trung binh,61,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000097,Duong Huu Bich,2002-10-12,Ngoai ngu,Ngon ngu Anh,125,125,2.84,Kha,52,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000098,Pham Thanh Linh,2002-03-05,Ngoai ngu,Ngon ngu Trung Quoc,123,125,2.86,Kha,68,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Thieu 2 tin chi tich luy | Chua dat chuan dau ra Tin hoc
+201A000099,Duong Nhat Cuong,2002-04-14,Ky thuat Cong nghe,Cong nghe Ky thuat O to,134,135,1.91,Yeu,70,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 1 tin chi tich luy | GPA tich luy duoi 2.00 (Yeu)
+201A000100,Truong Tuyet Thinh,2002-11-12,Kinh te,Quan tri Kinh doanh,128,128,3.27,Gioi,95,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000101,Do Thanh Thinh,2002-05-11,Du lich,Quan tri Dich vu Du lich,124,124,2.98,Kha,98,Dat,Dat,Dat,1,0,Khong du dieu kien,Con no hoc phi / Chi phi thuat
+201A000102,Tran Thi Quang,2002-03-16,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.35,Gioi,91,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000103,Bui Ngoc Hang,2002-08-24,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.4,Gioi,83,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000104,Bui Tan Giang,2002-06-07,Truyen thong,Quan he Cong chuong,126,126,2.77,Kha,77,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000105,Dinh Truc Lam,2002-06-12,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.55,Gioi,71,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000106,Ngo Khanh Linh,2002-11-15,Truyen thong,Quan he Cong chuong,125,126,3.84,Xuat sac,96,Chua dat,Dat,Dat,1,0,Khong du dieu kien,Thieu 1 tin chi tich luy | Chua dat chuan dau ra Ngoai ngu | Con no hoc phi / Chi phi thuat
+201A000107,Phan Tuyet Cuong,2002-07-18,Du lich,Quan tri Dich vu Du lich,124,124,2.73,Kha,57,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000108,Hoang Tuyet Khoa,2002-05-16,Du lich,Quan tri Dich vu Du lich,124,124,2.44,Trung binh,60,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000109,Le Huu Em,2002-05-17,Ngoai ngu,Ngon ngu Nhat,125,125,2.67,Kha,55,Dat,Dat,Dat,1,0,Khong du dieu kien,Con no hoc phi / Chi phi thuat
+201A000110,Le Thi An,2002-01-22,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,1.89,Yeu,81,Dat,Dat,Dat,0,0,Khong du dieu kien,GPA tich luy duoi 2.00 (Yeu)
+201A000111,Dinh Gia Quang,2002-04-13,Kinh te,Quan tri Kinh doanh,128,128,1.92,Yeu,52,Dat,Chua dat,Dat,0,0,Khong du dieu kien,GPA tich luy duoi 2.00 (Yeu) | Chua dat chuan dau ra Tin hoc
+201A000112,Pham Nhat Nhi,2002-02-09,Cong nghe Thong tin,Khoa hoc Du lieu,132,132,2.6,Kha,55,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000113,Duong Van Hang,2002-01-02,Cong nghe Thong tin,Khoa hoc Du lieu,132,132,2.26,Trung binh,78,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000114,Cao Khanh Bich,2002-02-11,Kinh te,Marketing,128,128,2.92,Kha,55,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000115,Hoang Truc Yen,2002-03-30,Du lich,Quan tri Khach san,124,124,3.63,Xuat sac,54,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000116,Vu Minh Thao,2002-08-03,Cong nghe Thong tin,Khoa hoc Du lieu,132,132,2.1,Trung binh,87,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000117,Nguyen Phuong Quang,2002-06-24,Ngoai ngu,Ngon ngu Nhat,125,125,2.51,Kha,77,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000118,Trinh Gia Mai,2002-10-25,Truyen thong,Truyen thong Da phuong tien,126,126,3.37,Gioi,58,Dat,Dat,Chua dat,0,0,Khong du dieu kien,Thieu chung chi GDQP-AN/GDDT
+201A000119,Dang Phuong Lam,2002-04-25,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.17,Trung binh,60,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000120,Trinh Gia Linh,2002-03-21,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.47,Trung binh,75,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000121,Dinh Viet Bich,2002-07-15,Cong nghe Thong tin,Cong nghe Thong tin,132,132,2.94,Kha,92,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000122,Tran Minh Khoa,2002-04-29,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.22,Trung binh,87,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000123,Trinh Gia Quan,2002-07-22,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.13,Trung binh,94,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000124,Do Phuong Bich,2002-08-22,Cong nghe Thong tin,Cong nghe Thong tin,132,132,2.3,Trung binh,75,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000125,Ngo Gia Quang,2002-06-01,Truyen thong,Quan he Cong chuong,125,126,1.99,Yeu,97,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 1 tin chi tich luy | GPA tich luy duoi 2.00 (Yeu)
+201A000126,Vu Hoang Quang,2002-02-07,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.76,Xuat sac,67,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000127,Dinh Huu Phong,2002-10-07,Cong nghe Thong tin,Cong nghe Thong tin,132,132,2.31,Trung binh,74,Dat,Dat,Dat,1,0,Khong du dieu kien,Con no hoc phi / Chi phi thuat
+201A000128,Nguyen Quoc Dung,2002-07-01,Kinh te,Quan tri Kinh doanh,128,128,3.36,Gioi,55,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000129,Trinh Thanh Linh,2002-03-01,Du lich,Quan tri Khach san,121,124,3.55,Gioi,82,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 3 tin chi tich luy
+201A000130,Pham Gia Giang,2002-03-31,Kinh te,Luat Kinh te,128,128,2.95,Kha,92,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000131,Vu Phuong Bich,2002-05-29,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.76,Xuat sac,68,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000132,Phan Nhat Lam,2002-02-06,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.74,Xuat sac,90,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000133,Ly Duc Cuong,2002-04-25,Du lich,Quan tri Khach san,124,124,1.96,Yeu,73,Dat,Dat,Dat,0,1,Khong du dieu kien,GPA tich luy duoi 2.00 (Yeu) | Dang trong thoi gian ky luat cap Truong
+201A000134,Truong Thi Mai,2002-08-07,Ngoai ngu,Ngon ngu Trung Quoc,125,125,2.28,Trung binh,79,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000135,Phan Minh An,2002-11-16,Du lich,Quan tri Dich vu Du lich,124,124,2.45,Trung binh,88,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000136,Truong Huu Khoa,2002-03-07,Truyen thong,Quan he Cong chuong,125,126,2.85,Kha,74,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Thieu 1 tin chi tich luy | Chua dat chuan dau ra Tin hoc
+201A000137,Tran Truc Thinh,2002-09-26,Kinh te,Quan tri Kinh doanh,128,128,3.72,Xuat sac,86,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000138,Truong Tuyet Khoa,2002-11-12,Truyen thong,Truyen thong Da phuong tien,126,126,1.9,Yeu,86,Dat,Dat,Dat,1,0,Khong du dieu kien,GPA tich luy duoi 2.00 (Yeu) | Con no hoc phi / Chi phi thuat
+201A000139,Trinh Gia Giang,2002-01-07,Truyen thong,Truyen thong Da phuong tien,115,126,3.78,Xuat sac,77,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 11 tin chi tich luy | Chua dat chuan dau ra Ngoai ngu
+201A000140,Vu Kim Em,2002-01-27,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.55,Gioi,67,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000141,Huynh Ngoc Hang,2002-03-26,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.32,Gioi,78,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000142,Bui Tan Linh,2002-08-15,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.2,Gioi,61,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000143,Le Gia Phong,2002-12-28,Truyen thong,Quan he Cong chuong,123,126,3.9,Xuat sac,60,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 3 tin chi tich luy
+201A000144,Cao Ngoc Quang,2002-02-16,Ngoai ngu,Ngon ngu Trung Quoc,125,125,3.87,Xuat sac,58,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000145,Duong Quoc Mai,2002-07-17,Ngoai ngu,Ngon ngu Nhat,125,125,2.25,Trung binh,56,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000146,Tran Nhat Lam,2002-06-11,Cong nghe Thong tin,Cong nghe Thong tin,132,132,2.64,Kha,98,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000147,Mai Tan Mai,2002-01-24,Cong nghe Thong tin,An toan Thong tin,132,132,3.35,Gioi,70,Dat,Dat,Dat,1,0,Khong du dieu kien,Con no hoc phi / Chi phi thuat
+201A000148,Ngo Hoang Nam,2002-08-08,Cong nghe Thong tin,Khoa hoc Du lieu,132,132,1.91,Yeu,95,Dat,Dat,Dat,0,0,Khong du dieu kien,GPA tich luy duoi 2.00 (Yeu)
+201A000149,Dinh Nhat Cuong,2002-01-08,Cong nghe Thong tin,Cong nghe Thong tin,132,132,3.34,Gioi,71,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000150,Pham Viet Quang,2002-06-28,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.18,Kha,98,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000151,Dinh Quoc Cuong,2002-10-09,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.12,Kha,65,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000152,Huynh Duc Vy,2002-06-13,Cong nghe Thong tin,An toan Thong tin,132,132,3.73,Xuat sac,68,Dat,Dat,Dat,0,1,Khong du dieu kien,Dang trong thoi gian ky luat cap Truong
+201A000153,Cao Ngoc Yen,2002-09-14,Cong nghe Thong tin,An toan Thong tin,132,132,2.95,Kha,72,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000154,Ly Tuyet Phong,2002-02-08,Du lich,Quan tri Dich vu Du lich,124,124,2.4,Trung binh,91,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000155,Cao Tan Giang,2002-08-01,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.99,Kha,57,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000156,Le Ngoc Khoa,2002-12-21,Cong nghe Thong tin,An toan Thong tin,132,132,2.8,Kha,74,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000157,Le Huu An,2002-06-07,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.76,Kha,54,Chua dat,Dat,Chua dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu | Thieu chung chi GDQP-AN/GDDT
+201A000158,Truong Tuyet Phong,2002-04-27,Cong nghe Thong tin,Khoa hoc Du lieu,132,132,3.08,Kha,73,Chua dat,Dat,Chua dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu | Thieu chung chi GDQP-AN/GDDT
+201A000159,Phan Viet Nhi,2002-08-13,Du lich,Quan tri Khach san,121,124,3.87,Xuat sac,67,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 3 tin chi tich luy
+201A000160,Nguyen Quoc Thao,2002-05-18,Du lich,Quan tri Dich vu Du lich,124,124,3.92,Xuat sac,85,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000161,Phan Huu Cuong,2002-09-06,Truyen thong,Quan he Cong chuong,126,126,3.05,Kha,87,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000162,Do Tuyet Quang,2002-06-23,Truyen thong,Quan he Cong chuong,126,126,2.63,Kha,98,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000163,Truong Truc Bich,2002-10-04,Du lich,Quan tri Dich vu Du lich,124,124,2.24,Trung binh,75,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000164,Phan Ngoc Thao,2002-04-13,Truyen thong,Quan he Cong chuong,126,126,2.27,Trung binh,50,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000165,Hoang Duc Mai,2002-01-17,Ngoai ngu,Ngon ngu Trung Quoc,125,125,3.56,Gioi,79,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000166,Le Van Dung,2002-07-17,Du lich,Quan tri Khach san,120,124,3.4,Gioi,83,Dat,Dat,Chua dat,0,0,Khong du dieu kien,Thieu 4 tin chi tich luy | Thieu chung chi GDQP-AN/GDDT
+201A000167,Pham Ngoc Hang,2002-06-13,Cong nghe Thong tin,Cong nghe Thong tin,132,132,2.29,Trung binh,90,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000168,Duong Truc Cuong,2002-06-07,Truyen thong,Truyen thong Da phuong tien,126,126,2.04,Trung binh,98,Dat,Dat,Chua dat,0,0,Khong du dieu kien,Thieu chung chi GDQP-AN/GDDT
+201A000169,Vu Truc Dung,2002-04-26,Kinh te,Luat Kinh te,128,128,2.38,Trung binh,50,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000170,Dang Tan Hang,2002-03-04,Ngoai ngu,Ngon ngu Anh,125,125,3.06,Kha,82,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000171,Hoang Truc Linh,2002-05-30,Cong nghe Thong tin,Khoa hoc Du lieu,125,132,2.68,Kha,91,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Thieu 7 tin chi tich luy | Chua dat chuan dau ra Tin hoc
+201A000172,Duong Gia Nhi,2002-07-08,Cong nghe Thong tin,Cong nghe Thong tin,121,132,3.51,Gioi,95,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 11 tin chi tich luy
+201A000173,Ngo Viet Yen,2002-01-31,Kinh te,Marketing,128,128,1.95,Yeu,95,Dat,Dat,Dat,0,0,Khong du dieu kien,GPA tich luy duoi 2.00 (Yeu)
+201A000174,Truong Van Mai,2002-06-27,Cong nghe Thong tin,Ky thuat Phan mem,132,132,3.9,Xuat sac,90,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000175,Hoang Duc Giang,2002-12-26,Kinh te,Tai chinh Ngan hang,119,128,2.98,Kha,64,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 9 tin chi tich luy
+201A000176,Tran Kim Vy,2002-09-25,Kinh te,Tai chinh Ngan hang,128,128,3.54,Gioi,63,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000177,Truong Minh Yen,2002-03-07,Kinh te,Marketing,128,128,2.34,Trung binh,71,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000178,Do Hoang Yen,2002-10-17,Ngoai ngu,Ngon ngu Trung Quoc,115,125,3.18,Kha,97,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 10 tin chi tich luy
+201A000179,Tran Thanh Phong,2002-02-16,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.78,Kha,50,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000180,Hoang Truc Thao,2002-07-28,Cong nghe Thong tin,Khoa hoc Du lieu,132,132,2.09,Trung binh,93,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000181,Pham Gia Mai,2002-05-03,Du lich,Quan tri Khach san,124,124,2.84,Kha,94,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000182,Cao Thi Thinh,2002-07-16,Kinh te,Marketing,128,128,2.13,Trung binh,67,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000183,Mai Van Lam,2002-04-16,Cong nghe Thong tin,Cong nghe Thong tin,132,132,3.3,Gioi,81,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000184,Pham Tuyet Em,2002-02-08,Truyen thong,Quan he Cong chuong,126,126,2.79,Kha,72,Dat,Dat,Chua dat,1,0,Khong du dieu kien,Thieu chung chi GDQP-AN/GDDT | Con no hoc phi / Chi phi thuat
+201A000185,Le Kim Thao,2002-06-27,Du lich,Quan tri Khach san,124,124,3.57,Gioi,87,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000186,Ngo Hoang Quan,2002-06-25,Truyen thong,Truyen thong Da phuong tien,119,126,1.95,Yeu,75,Dat,Dat,Chua dat,0,0,Khong du dieu kien,Thieu 7 tin chi tich luy | GPA tich luy duoi 2.00 (Yeu) | Thieu chung chi GDQP-AN/GDDT
+201A000187,Phan Duc Thao,2002-05-04,Truyen thong,Quan he Cong chuong,126,126,3.25,Gioi,57,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000188,Vo Thanh Nhi,2002-06-10,Ky thuat Cong nghe,Cong nghe Ky thuat O to,128,135,1.94,Yeu,77,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 7 tin chi tich luy | GPA tich luy duoi 2.00 (Yeu)
+201A000189,Pham Tuyet Linh,2002-09-10,Truyen thong,Truyen thong Da phuong tien,126,126,2.24,Trung binh,68,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000190,Bui Van Linh,2002-05-12,Truyen thong,Truyen thong Da phuong tien,126,126,2.04,Trung binh,82,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000191,Hoang Tan An,2002-12-08,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.63,Kha,61,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000192,Duong Ngoc Hang,2002-11-27,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.73,Kha,80,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000193,Do Viet Mai,2002-12-14,Truyen thong,Quan he Cong chuong,126,126,2.5,Kha,81,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000194,Dang Phuong Nhi,2002-04-06,Truyen thong,Quan he Cong chuong,126,126,2.79,Kha,77,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000195,Vu Thanh Cuong,2002-08-08,Ngoai ngu,Ngon ngu Trung Quoc,125,125,2.06,Trung binh,82,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000196,Vu Duc Linh,2002-11-09,Truyen thong,Truyen thong Da phuong tien,126,126,2.6,Kha,91,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000197,Mai Van Quang,2002-10-09,Kinh te,Marketing,128,128,3.12,Kha,72,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000198,Ly Tan An,2002-03-18,Ngoai ngu,Ngon ngu Anh,125,125,2.74,Kha,80,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000199,Dinh Thi Linh,2002-08-30,Cong nghe Thong tin,An toan Thong tin,130,132,3.37,Gioi,80,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 2 tin chi tich luy
+201A000200,Cao Minh Nhi,2002-03-28,Ky thuat Cong nghe,Cong nghe Ky thuat O to,123,135,2.23,Trung binh,86,Dat,Dat,Dat,1,0,Khong du dieu kien,Thieu 12 tin chi tich luy | Con no hoc phi / Chi phi thuat
+201A000201,Trinh Truc Linh,2002-06-23,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.62,Xuat sac,85,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000202,Vo Gia Giang,2002-11-27,Ngoai ngu,Ngon ngu Anh,125,125,3.9,Xuat sac,98,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000203,Bui Tan Hang,2002-10-11,Cong nghe Thong tin,An toan Thong tin,132,132,2.03,Trung binh,84,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000204,Truong Quoc Cuong,2002-01-09,Ngoai ngu,Ngon ngu Trung Quoc,125,125,2.35,Trung binh,70,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000205,Do Thi Giang,2002-12-26,Du lich,Quan tri Dich vu Du lich,112,124,2.8,Kha,73,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 12 tin chi tich luy
+201A000206,Nguyen Kim Dung,2002-01-23,Kinh te,Tai chinh Ngan hang,128,128,3.13,Kha,96,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000207,Vu Hoang Em,2002-05-01,Truyen thong,Quan he Cong chuong,126,126,3.6,Xuat sac,84,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000208,Do Khanh Hang,2002-02-04,Truyen thong,Truyen thong Da phuong tien,126,126,2.05,Trung binh,98,Dat,Dat,Dat,0,1,Khong du dieu kien,Dang trong thoi gian ky luat cap Truong
+201A000209,Le Quoc Cuong,2002-04-04,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.66,Kha,77,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000210,Ngo Gia Thinh,2002-03-09,Ngoai ngu,Ngon ngu Anh,125,125,3.42,Gioi,53,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000211,Truong Viet Em,2002-05-09,Du lich,Quan tri Khach san,124,124,3.22,Gioi,56,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000212,Dang Thi Hang,2002-03-28,Ngoai ngu,Ngon ngu Trung Quoc,116,125,2.36,Trung binh,58,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 9 tin chi tich luy
+201A000213,Cao Gia Thinh,2002-06-18,Cong nghe Thong tin,Cong nghe Thong tin,129,132,3.04,Kha,97,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Thieu 3 tin chi tich luy | Chua dat chuan dau ra Tin hoc
+201A000214,Ngo Minh Khoa,2002-06-12,Truyen thong,Quan he Cong chuong,126,126,1.88,Yeu,85,Chua dat,Dat,Dat,0,0,Khong du dieu kien,GPA tich luy duoi 2.00 (Yeu) | Chua dat chuan dau ra Ngoai ngu
+201A000215,Cao Phuong Dung,2002-11-10,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.11,Kha,71,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000216,Pham Nhat Thao,2002-09-07,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.54,Kha,52,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000217,Pham Hoang Giang,2002-12-14,Cong nghe Thong tin,Cong nghe Thong tin,125,132,3.01,Kha,68,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 7 tin chi tich luy
+201A000218,Dinh Tuyet Quang,2002-01-28,Du lich,Quan tri Khach san,124,124,1.91,Yeu,84,Dat,Dat,Dat,0,0,Khong du dieu kien,GPA tich luy duoi 2.00 (Yeu)
+201A000219,Cao Tan Yen,2002-02-02,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.88,Kha,54,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000220,Tran Tan An,2002-05-26,Ky thuat Cong nghe,Cong nghe Ky thuat O to,134,135,2.57,Kha,64,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 1 tin chi tich luy
+201A000221,Huynh Tuyet Em,2002-01-31,Cong nghe Thong tin,Ky thuat Phan mem,132,132,2.69,Kha,67,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000222,Pham Viet Em,2002-06-03,Du lich,Quan tri Dich vu Du lich,123,124,2.55,Kha,64,Dat,Dat,Chua dat,0,0,Khong du dieu kien,Thieu 1 tin chi tich luy | Thieu chung chi GDQP-AN/GDDT
+201A000223,Pham Minh An,2002-10-11,Truyen thong,Quan he Cong chuong,125,126,2.9,Kha,50,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 1 tin chi tich luy
+201A000224,Bui Truc Yen,2002-02-20,Cong nghe Thong tin,Cong nghe Thong tin,132,132,3.74,Xuat sac,57,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000225,Cao Tan Vy,2002-01-29,Ngoai ngu,Ngon ngu Nhat,125,125,3.35,Gioi,91,Dat,Dat,Dat,0,1,Khong du dieu kien,Dang trong thoi gian ky luat cap Truong
+201A000226,Vo Nhat Lam,2002-05-18,Cong nghe Thong tin,Cong nghe Thong tin,132,132,3.11,Kha,90,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000227,Bui Quoc Lam,2002-11-05,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.72,Xuat sac,76,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000228,Cao Ngoc Phong,2002-05-31,Kinh te,Tai chinh Ngan hang,128,128,1.93,Yeu,79,Chua dat,Dat,Dat,0,0,Khong du dieu kien,GPA tich luy duoi 2.00 (Yeu) | Chua dat chuan dau ra Ngoai ngu
+201A000229,Do Thi Yen,2002-01-30,Cong nghe Thong tin,Ky thuat Phan mem,132,132,2.3,Trung binh,73,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000230,Hoang Thi Quang,2002-08-28,Truyen thong,Truyen thong Da phuong tien,121,126,2.43,Trung binh,51,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 5 tin chi tich luy
+201A000231,Ly Hoang Bich,2002-04-07,Ky thuat Cong nghe,Cong nghe Ky thuat O to,134,135,2.84,Kha,56,Dat,Dat,Dat,1,0,Khong du dieu kien,Thieu 1 tin chi tich luy | Con no hoc phi / Chi phi thuat
+201A000232,Truong Thi Khoa,2002-07-13,Kinh te,Ke toan,123,128,2.75,Kha,59,Dat,Dat,Chua dat,0,0,Khong du dieu kien,Thieu 5 tin chi tich luy | Thieu chung chi GDQP-AN/GDDT
+201A000233,Phan Gia Dung,2002-04-17,Cong nghe Thong tin,Khoa hoc Du lieu,132,132,3.51,Gioi,91,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000234,Vo Nhat Mai,2002-02-15,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.35,Trung binh,90,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000235,Duong Huu Em,2002-04-08,Truyen thong,Quan he Cong chuong,126,126,3.57,Gioi,97,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000236,Do Phuong Bich,2002-12-18,Kinh te,Ke toan,128,128,3.67,Xuat sac,94,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000237,Dinh Phuong Cuong,2002-05-01,Cong nghe Thong tin,An toan Thong tin,132,132,3.18,Kha,54,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000238,Ly Truc Thao,2002-07-10,Ngoai ngu,Ngon ngu Trung Quoc,125,125,3.47,Gioi,97,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000239,Cao Kim Yen,2002-04-11,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.64,Kha,98,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000240,Nguyen Gia Quan,2002-09-06,Ngoai ngu,Ngon ngu Anh,125,125,2.71,Kha,60,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000241,Bui Tuyet Vy,2002-07-15,Ngoai ngu,Ngon ngu Nhat,125,125,2.73,Kha,52,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000242,Truong Ngoc Em,2002-03-09,Kinh te,Luat Kinh te,128,128,2.67,Kha,76,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000243,Duong Tuyet An,2002-08-22,Cong nghe Thong tin,Ky thuat Phan mem,132,132,3.38,Gioi,69,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000244,Phan Huu Bich,2002-01-26,Truyen thong,Quan he Cong chuong,126,126,2.35,Trung binh,72,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000245,Pham Kim Thinh,2002-02-12,Kinh te,Quan tri Kinh doanh,117,128,2.41,Trung binh,89,Dat,Dat,Dat,1,0,Khong du dieu kien,Thieu 11 tin chi tich luy | Con no hoc phi / Chi phi thuat
+201A000246,Ly Van Bich,2002-08-28,Ngoai ngu,Ngon ngu Anh,125,125,3.74,Xuat sac,88,Dat,Dat,Dat,0,1,Khong du dieu kien,Dang trong thoi gian ky luat cap Truong
+201A000247,Nguyen Tan Bich,2002-06-16,Truyen thong,Quan he Cong chuong,126,126,3.81,Xuat sac,83,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000248,Huynh Duc Thao,2002-04-26,Cong nghe Thong tin,Khoa hoc Du lieu,132,132,3.39,Gioi,96,Dat,Dat,Dat,1,0,Khong du dieu kien,Con no hoc phi / Chi phi thuat
+201A000249,Duong Hoang Giang,2002-02-13,Cong nghe Thong tin,An toan Thong tin,132,132,2.44,Trung binh,73,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000250,Tran Ngoc Phong,2002-10-01,Truyen thong,Truyen thong Da phuong tien,126,126,2.11,Trung binh,70,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000251,Cao Ngoc Thao,2002-07-12,Ngoai ngu,Ngon ngu Anh,125,125,2.69,Kha,57,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000252,Truong Kim Nam,2002-11-07,Truyen thong,Truyen thong Da phuong tien,126,126,3.85,Xuat sac,67,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000253,Nguyen Viet Lam,2002-07-30,Ngoai ngu,Ngon ngu Trung Quoc,118,125,3.79,Xuat sac,84,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 7 tin chi tich luy
+201A000254,Ly Kim Dung,2002-04-12,Kinh te,Marketing,128,128,2.54,Kha,85,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000255,Dinh Huu Nhi,2002-01-11,Ngoai ngu,Ngon ngu Anh,125,125,3.82,Xuat sac,57,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000256,Le Quoc Lam,2002-02-02,Ngoai ngu,Ngon ngu Nhat,125,125,3.55,Gioi,95,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000257,Dinh Kim Khoa,2002-05-17,Cong nghe Thong tin,Cong nghe Thong tin,132,132,3.7,Xuat sac,61,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000258,Ngo Quoc Yen,2002-09-23,Ky thuat Cong nghe,Cong nghe Ky thuat O to,124,135,3.17,Kha,76,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 11 tin chi tich luy
+201A000259,Tran Viet Quang,2002-06-11,Ngoai ngu,Ngon ngu Nhat,125,125,2.03,Trung binh,89,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000260,Cao Gia Khoa,2002-10-23,Cong nghe Thong tin,Cong nghe Thong tin,132,132,2.0,Trung binh,52,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000261,Ly Truc Dung,2002-10-22,Truyen thong,Quan he Cong chuong,126,126,2.1,Trung binh,87,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000262,Dang Thanh An,2002-05-26,Cong nghe Thong tin,Khoa hoc Du lieu,132,132,2.96,Kha,93,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000263,Bui Hoang Giang,2002-02-06,Kinh te,Marketing,128,128,2.86,Kha,61,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000264,Ly Ngoc Phong,2002-07-09,Cong nghe Thong tin,Ky thuat Phan mem,132,132,3.13,Kha,73,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000265,Dang Hoang Thao,2002-05-13,Cong nghe Thong tin,Khoa hoc Du lieu,132,132,2.53,Kha,82,Dat,Dat,Dat,1,0,Khong du dieu kien,Con no hoc phi / Chi phi thuat
+201A000266,Vo Quoc Giang,2002-04-11,Kinh te,Luat Kinh te,128,128,3.7,Xuat sac,70,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000267,Ngo Minh Giang,2002-01-04,Cong nghe Thong tin,Khoa hoc Du lieu,132,132,2.08,Trung binh,87,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000268,Huynh Tuyet Hang,2002-12-01,Kinh te,Luat Kinh te,128,128,2.15,Trung binh,90,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000269,Duong Kim Nam,2002-01-26,Cong nghe Thong tin,Ky thuat Phan mem,132,132,2.16,Trung binh,60,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000270,Nguyen Ngoc Phong,2002-11-29,Ngoai ngu,Ngon ngu Anh,125,125,1.93,Yeu,62,Dat,Dat,Dat,0,0,Khong du dieu kien,GPA tich luy duoi 2.00 (Yeu)
+201A000271,Cao Thi Thinh,2002-06-06,Ngoai ngu,Ngon ngu Nhat,125,125,2.98,Kha,65,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000272,Duong Tan Cuong,2002-04-20,Kinh te,Quan tri Kinh doanh,128,128,2.64,Kha,65,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000273,Le Truc Thinh,2002-05-16,Cong nghe Thong tin,Khoa hoc Du lieu,122,132,3.93,Xuat sac,74,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 10 tin chi tich luy
+201A000274,Vu Thanh Nam,2002-05-04,Cong nghe Thong tin,An toan Thong tin,132,132,3.43,Gioi,70,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000275,Truong Van Giang,2002-02-13,Kinh te,Tai chinh Ngan hang,128,128,2.08,Trung binh,66,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000276,Dinh Truc Dung,2002-10-03,Cong nghe Thong tin,An toan Thong tin,132,132,3.9,Xuat sac,64,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000277,Trinh Tan Lam,2002-05-10,Truyen thong,Quan he Cong chuong,126,126,2.35,Trung binh,50,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000278,Pham Thanh Vy,2002-02-25,Ngoai ngu,Ngon ngu Anh,125,125,2.36,Trung binh,90,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000279,Trinh Khanh Em,2002-07-16,Ky thuat Cong nghe,Cong nghe Ky thuat O to,123,135,3.83,Xuat sac,96,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 12 tin chi tich luy
+201A000280,Mai Thi Quang,2002-07-24,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.5,Kha,51,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000281,Pham Phuong Nam,2002-06-14,Truyen thong,Truyen thong Da phuong tien,126,126,3.92,Xuat sac,80,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000282,Ly Ngoc Thao,2002-10-14,Cong nghe Thong tin,Cong nghe Thong tin,132,132,2.28,Trung binh,64,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000283,Ngo Viet Linh,2002-05-26,Truyen thong,Quan he Cong chuong,126,126,3.91,Xuat sac,62,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000284,Ly Tan Dung,2002-09-11,Kinh te,Ke toan,117,128,3.24,Gioi,50,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 11 tin chi tich luy | Chua dat chuan dau ra Ngoai ngu
+201A000285,Dang Truc An,2002-04-13,Cong nghe Thong tin,Khoa hoc Du lieu,132,132,3.92,Xuat sac,54,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000286,Hoang Viet Hang,2002-11-26,Truyen thong,Truyen thong Da phuong tien,126,126,3.09,Kha,77,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000287,Hoang Tan Quang,2002-09-01,Ky thuat Cong nghe,Cong nghe Ky thuat O to,132,135,3.19,Kha,93,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 3 tin chi tich luy
+201A000288,Dang Gia Yen,2002-09-20,Ngoai ngu,Ngon ngu Trung Quoc,116,125,3.06,Kha,72,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 9 tin chi tich luy
+201A000289,Cao Ngoc Thinh,2002-11-16,Kinh te,Luat Kinh te,122,128,2.47,Trung binh,57,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 6 tin chi tich luy
+201A000290,Ly Khanh Phong,2002-04-24,Cong nghe Thong tin,Khoa hoc Du lieu,132,132,2.84,Kha,74,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000291,Trinh Kim Cuong,2002-10-14,Cong nghe Thong tin,Cong nghe Thong tin,125,132,2.32,Trung binh,81,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 7 tin chi tich luy | Chua dat chuan dau ra Ngoai ngu
+201A000292,Duong Gia Nam,2002-07-18,Ngoai ngu,Ngon ngu Trung Quoc,125,125,2.62,Kha,66,Dat,Dat,Dat,1,0,Khong du dieu kien,Con no hoc phi / Chi phi thuat
+201A000293,Phan Thanh Hang,2002-08-15,Ngoai ngu,Ngon ngu Nhat,125,125,2.14,Trung binh,77,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000294,Bui Huu Mai,2002-03-01,Ngoai ngu,Ngon ngu Anh,125,125,2.97,Kha,58,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000295,Mai Tan Giang,2002-10-24,Du lich,Quan tri Dich vu Du lich,124,124,2.37,Trung binh,62,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000296,Vo Quoc Bich,2002-01-19,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.86,Kha,55,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000297,Nguyen Thanh Quan,2002-08-26,Du lich,Quan tri Dich vu Du lich,124,124,2.84,Kha,87,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000298,Tran Minh Quan,2002-03-05,Ngoai ngu,Ngon ngu Trung Quoc,125,125,3.67,Xuat sac,76,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000299,Nguyen Nhat Cuong,2002-09-29,Truyen thong,Truyen thong Da phuong tien,126,126,2.39,Trung binh,76,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000300,Mai Ngoc Mai,2002-04-20,Du lich,Quan tri Khach san,124,124,3.06,Kha,55,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000301,Vo Tan Yen,2002-04-27,Kinh te,Marketing,128,128,3.46,Gioi,62,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000302,Ngo Thanh Quan,2002-07-08,Ngoai ngu,Ngon ngu Nhat,125,125,3.06,Kha,50,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000303,Vo Ngoc Thao,2002-04-21,Ngoai ngu,Ngon ngu Anh,125,125,2.94,Kha,62,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000304,Trinh Quoc Quan,2002-09-16,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.46,Trung binh,73,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000305,Nguyen Gia Linh,2002-01-17,Du lich,Quan tri Dich vu Du lich,124,124,3.72,Xuat sac,95,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000306,Duong Hoang Mai,2002-01-13,Ky thuat Cong nghe,Cong nghe Ky thuat O to,133,135,2.9,Kha,54,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 2 tin chi tich luy
+201A000307,Tran Hoang Lam,2002-05-13,Du lich,Quan tri Dich vu Du lich,124,124,2.6,Kha,92,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000308,Bui Duc Bich,2002-10-02,Kinh te,Logistics va Quan ly Chuoi cung ung,128,128,3.88,Xuat sac,69,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000309,Hoang Duc Giang,2002-11-18,Du lich,Quan tri Dich vu Du lich,119,124,3.61,Xuat sac,81,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 5 tin chi tich luy
+201A000310,Vo Ngoc Mai,2002-11-29,Cong nghe Thong tin,Khoa hoc Du lieu,132,132,3.84,Xuat sac,53,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000311,Vu Duc Nam,2002-03-03,Ngoai ngu,Ngon ngu Anh,125,125,3.28,Gioi,94,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000312,Cao Khanh Em,2002-03-19,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.58,Kha,92,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000313,Dang Khanh Thao,2002-08-23,Kinh te,Luat Kinh te,128,128,2.25,Trung binh,95,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000314,Do Tuyet Yen,2002-01-24,Kinh te,Tai chinh Ngan hang,128,128,3.92,Xuat sac,81,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000315,Do Viet Linh,2002-08-23,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.49,Gioi,77,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000316,Nguyen Hoang Em,2002-07-10,Cong nghe Thong tin,Ky thuat Phan mem,122,132,2.25,Trung binh,97,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Thieu 10 tin chi tich luy | Chua dat chuan dau ra Tin hoc
+201A000317,Phan Tan Nam,2002-12-23,Truyen thong,Quan he Cong chuong,125,126,1.96,Yeu,83,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 1 tin chi tich luy | GPA tich luy duoi 2.00 (Yeu)
+201A000318,Pham Hoang Cuong,2002-12-26,Kinh te,Marketing,128,128,2.28,Trung binh,90,Dat,Dat,Dat,1,0,Khong du dieu kien,Con no hoc phi / Chi phi thuat
+201A000319,Pham Truc Thinh,2002-08-01,Ngoai ngu,Ngon ngu Trung Quoc,125,125,2.68,Kha,53,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000320,Duong Tuyet Mai,2002-02-10,Kinh te,Luat Kinh te,128,128,2.18,Trung binh,62,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000321,Phan Tan An,2002-08-30,Ngoai ngu,Ngon ngu Anh,125,125,3.35,Gioi,80,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000322,Bui Truc Hang,2002-05-01,Cong nghe Thong tin,Ky thuat Phan mem,132,132,2.68,Kha,51,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000323,Do Nhat Thao,2002-09-18,Ngoai ngu,Ngon ngu Nhat,125,125,1.97,Yeu,74,Dat,Dat,Dat,0,0,Khong du dieu kien,GPA tich luy duoi 2.00 (Yeu)
+201A000324,Pham Huu Bich,2002-01-25,Kinh te,Ke toan,128,128,3.06,Kha,77,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000325,Do Minh Quang,2002-06-13,Cong nghe Thong tin,An toan Thong tin,124,132,2.21,Trung binh,74,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 8 tin chi tich luy
+201A000326,Phan Ngoc Mai,2002-04-15,Truyen thong,Truyen thong Da phuong tien,126,126,2.75,Kha,61,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000327,Truong Van Hang,2002-10-23,Du lich,Quan tri Dich vu Du lich,124,124,3.19,Kha,74,Dat,Dat,Chua dat,0,0,Khong du dieu kien,Thieu chung chi GDQP-AN/GDDT
+201A000328,Trinh Tuyet Hang,2002-01-11,Ngoai ngu,Ngon ngu Anh,125,125,2.15,Trung binh,87,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000329,Nguyen Thanh Mai,2002-02-16,Truyen thong,Truyen thong Da phuong tien,126,126,2.59,Kha,74,Dat,Dat,Dat,1,1,Khong du dieu kien,Con no hoc phi / Chi phi thuat | Dang trong thoi gian ky luat cap Truong
+201A000330,Le Gia Nam,2002-01-22,Cong nghe Thong tin,An toan Thong tin,132,132,2.37,Trung binh,51,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000331,Pham Minh Nam,2002-03-17,Truyen thong,Truyen thong Da phuong tien,126,126,3.36,Gioi,70,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000332,Cao Huu Lam,2002-01-30,Truyen thong,Truyen thong Da phuong tien,126,126,2.14,Trung binh,75,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000333,Do Thi Phong,2002-02-19,Truyen thong,Quan he Cong chuong,126,126,2.0,Trung binh,70,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000334,Pham Viet Nam,2002-12-07,Cong nghe Thong tin,Ky thuat Phan mem,125,132,2.18,Trung binh,96,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 7 tin chi tich luy
+201A000335,Dinh Viet Em,2002-03-06,Du lich,Quan tri Khach san,116,124,2.78,Kha,97,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 8 tin chi tich luy
+201A000336,Tran Tuyet Khoa,2002-05-09,Ngoai ngu,Ngon ngu Nhat,125,125,3.28,Gioi,57,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000337,Phan Thanh Nam,2002-06-03,Kinh te,Quan tri Kinh doanh,128,128,2.96,Kha,95,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000338,Dinh Phuong Quang,2002-01-19,Truyen thong,Quan he Cong chuong,121,126,3.5,Gioi,56,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 5 tin chi tich luy
+201A000339,Dinh Ngoc Bich,2002-01-12,Ky thuat Cong nghe,Cong nghe Ky thuat O to,125,135,2.23,Trung binh,64,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 10 tin chi tich luy
+201A000340,Truong Duc Phong,2002-04-28,Ngoai ngu,Ngon ngu Anh,125,125,3.9,Xuat sac,54,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000341,Vu Van Bich,2002-07-03,Du lich,Quan tri Khach san,117,124,2.56,Kha,51,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 7 tin chi tich luy
+201A000342,Pham Tuyet Hang,2002-11-28,Truyen thong,Quan he Cong chuong,126,126,3.0,Kha,92,Dat,Dat,Chua dat,0,0,Khong du dieu kien,Thieu chung chi GDQP-AN/GDDT
+201A000343,Dinh Khanh Giang,2002-01-13,Truyen thong,Truyen thong Da phuong tien,119,126,2.67,Kha,90,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 7 tin chi tich luy
+201A000344,Nguyen Phuong An,2002-10-02,Cong nghe Thong tin,Khoa hoc Du lieu,132,132,1.98,Yeu,90,Dat,Dat,Dat,0,0,Khong du dieu kien,GPA tich luy duoi 2.00 (Yeu)
+201A000345,Hoang Kim Cuong,2002-05-10,Truyen thong,Truyen thong Da phuong tien,114,126,3.64,Xuat sac,68,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 12 tin chi tich luy
+201A000346,Cao Viet Yen,2002-04-19,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.23,Gioi,72,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000347,Nguyen Kim Vy,2002-06-12,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.09,Trung binh,71,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000348,Vo Duc Bich,2002-05-13,Cong nghe Thong tin,Ky thuat Phan mem,132,132,3.34,Gioi,92,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000349,Pham Tan Vy,2002-06-30,Cong nghe Thong tin,Khoa hoc Du lieu,132,132,3.09,Kha,63,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000350,Dang Kim Hang,2002-04-01,Truyen thong,Quan he Cong chuong,126,126,2.79,Kha,73,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000351,Vo Thanh Nam,2002-03-21,Cong nghe Thong tin,An toan Thong tin,132,132,3.72,Xuat sac,77,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000352,Pham Tuyet Thao,2002-07-20,Du lich,Quan tri Khach san,124,124,3.02,Kha,63,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000353,Ly Truc Lam,2002-01-16,Truyen thong,Truyen thong Da phuong tien,126,126,3.73,Xuat sac,57,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000354,Tran Tan Em,2002-05-06,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.77,Xuat sac,75,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000355,Le Tuyet Hang,2002-04-06,Kinh te,Luat Kinh te,128,128,3.06,Kha,80,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000356,Cao Ngoc Nhi,2002-03-25,Du lich,Quan tri Dich vu Du lich,124,124,2.94,Kha,92,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000357,Tran Kim Phong,2002-02-25,Truyen thong,Truyen thong Da phuong tien,126,126,3.21,Gioi,77,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000358,Cao Quoc Dung,2002-11-28,Cong nghe Thong tin,Ky thuat Phan mem,132,132,3.07,Kha,91,Dat,Dat,Chua dat,1,0,Khong du dieu kien,Thieu chung chi GDQP-AN/GDDT | Con no hoc phi / Chi phi thuat
+201A000359,Dang Tuyet Thinh,2002-05-06,Ngoai ngu,Ngon ngu Trung Quoc,125,125,1.99,Yeu,92,Dat,Dat,Dat,0,0,Khong du dieu kien,GPA tich luy duoi 2.00 (Yeu)
+201A000360,Vu Van Giang,2002-03-01,Cong nghe Thong tin,An toan Thong tin,132,132,3.39,Gioi,89,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000361,Do Phuong Mai,2002-10-14,Ngoai ngu,Ngon ngu Nhat,125,125,1.95,Yeu,61,Dat,Dat,Dat,0,0,Khong du dieu kien,GPA tich luy duoi 2.00 (Yeu)
+201A000362,Vo Viet Em,2002-05-31,Ngoai ngu,Ngon ngu Nhat,125,125,2.08,Trung binh,81,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000363,Cao Kim Phong,2002-02-10,Kinh te,Quan tri Kinh doanh,128,128,2.28,Trung binh,90,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000364,Cao Kim Dung,2002-04-11,Du lich,Quan tri Dich vu Du lich,124,124,3.87,Xuat sac,98,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000365,Duong Van Nam,2002-01-29,Cong nghe Thong tin,Cong nghe Thong tin,132,132,2.58,Kha,85,Dat,Dat,Dat,0,1,Khong du dieu kien,Dang trong thoi gian ky luat cap Truong
+201A000366,Hoang Gia Mai,2002-07-20,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,1.94,Yeu,70,Dat,Dat,Dat,0,0,Khong du dieu kien,GPA tich luy duoi 2.00 (Yeu)
+201A000367,Do Viet Thinh,2002-10-10,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.1,Trung binh,52,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000368,Bui Gia Nam,2002-07-20,Truyen thong,Truyen thong Da phuong tien,121,126,3.29,Gioi,55,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 5 tin chi tich luy
+201A000369,Ly Thanh Thao,2002-05-14,Du lich,Quan tri Dich vu Du lich,124,124,3.63,Xuat sac,67,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000370,Ngo Thi Em,2002-11-18,Cong nghe Thong tin,An toan Thong tin,132,132,2.73,Kha,74,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000371,Vu Minh Linh,2002-12-06,Ngoai ngu,Ngon ngu Anh,125,125,2.4,Trung binh,71,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000372,Cao Thanh Lam,2002-09-21,Du lich,Quan tri Khach san,124,124,3.0,Kha,70,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000373,Ly Duc Yen,2002-10-26,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.37,Trung binh,72,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000374,Vu Minh Bich,2002-09-01,Kinh te,Ke toan,126,128,3.81,Xuat sac,93,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 2 tin chi tich luy
+201A000375,Dinh Duc Khoa,2002-03-31,Cong nghe Thong tin,Ky thuat Phan mem,132,132,2.49,Trung binh,60,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000376,Pham Truc Cuong,2002-10-12,Truyen thong,Truyen thong Da phuong tien,126,126,3.33,Gioi,51,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000377,Do Tuyet Bich,2002-07-16,Cong nghe Thong tin,Cong nghe Thong tin,132,132,2.97,Kha,55,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000378,Bui Ngoc Cuong,2002-05-01,Ky thuat Cong nghe,Cong nghe Ky thuat O to,129,135,2.62,Kha,89,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 6 tin chi tich luy
+201A000379,Pham Ngoc Khoa,2002-05-27,Truyen thong,Truyen thong Da phuong tien,126,126,3.82,Xuat sac,88,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000380,Vu Van Bich,2002-12-30,Du lich,Quan tri Khach san,124,124,3.09,Kha,55,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000381,Do Kim Phong,2002-01-28,Truyen thong,Truyen thong Da phuong tien,126,126,2.98,Kha,98,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000382,Ngo Tuyet Giang,2002-03-06,Ngoai ngu,Ngon ngu Anh,125,125,3.93,Xuat sac,74,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000383,Phan Hoang An,2002-10-17,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.08,Kha,88,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000384,Le Thi Nam,2002-10-19,Truyen thong,Truyen thong Da phuong tien,126,126,3.56,Gioi,67,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000385,Trinh Huu Khoa,2002-06-05,Truyen thong,Truyen thong Da phuong tien,125,126,3.2,Gioi,75,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 1 tin chi tich luy
+201A000386,Phan Khanh Thao,2002-12-22,Truyen thong,Quan he Cong chuong,121,126,3.39,Gioi,60,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 5 tin chi tich luy
+201A000387,Cao Van An,2002-02-25,Truyen thong,Quan he Cong chuong,126,126,3.36,Gioi,95,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000388,Pham Khanh Nhi,2002-09-13,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.1,Trung binh,70,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000389,Ly Van Lam,2002-10-07,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,1.99,Yeu,67,Dat,Dat,Dat,1,0,Khong du dieu kien,GPA tich luy duoi 2.00 (Yeu) | Con no hoc phi / Chi phi thuat
+201A000390,Nguyen Kim Phong,2002-03-18,Cong nghe Thong tin,Ky thuat Phan mem,128,132,2.44,Trung binh,59,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 4 tin chi tich luy
+201A000391,Le Van Giang,2002-06-22,Truyen thong,Quan he Cong chuong,126,126,3.22,Gioi,90,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000392,Vu Hoang Quang,2002-08-16,Kinh te,Quan tri Kinh doanh,128,128,3.87,Xuat sac,63,Dat,Dat,Chua dat,0,0,Khong du dieu kien,Thieu chung chi GDQP-AN/GDDT
+201A000393,Cao Khanh Bich,2002-06-06,Cong nghe Thong tin,An toan Thong tin,132,132,2.31,Trung binh,53,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000394,Do Khanh Yen,2002-07-09,Du lich,Quan tri Dich vu Du lich,124,124,2.36,Trung binh,85,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000395,Do Van Lam,2002-10-07,Truyen thong,Quan he Cong chuong,126,126,2.12,Trung binh,74,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000396,Hoang Tan Hang,2002-09-10,Ngoai ngu,Ngon ngu Anh,120,125,3.05,Kha,72,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 5 tin chi tich luy
+201A000397,Trinh Phuong Hang,2002-07-11,Cong nghe Thong tin,An toan Thong tin,132,132,2.37,Trung binh,90,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000398,Tran Khanh Em,2002-09-12,Cong nghe Thong tin,An toan Thong tin,132,132,2.75,Kha,65,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000399,Pham Duc Hang,2002-05-09,Truyen thong,Truyen thong Da phuong tien,126,126,1.94,Yeu,90,Dat,Dat,Dat,0,0,Khong du dieu kien,GPA tich luy duoi 2.00 (Yeu)
+201A000400,Dinh Thi Khoa,2002-02-24,Cong nghe Thong tin,Ky thuat Phan mem,132,132,3.11,Kha,78,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000401,Ly Van Quang,2002-07-26,Cong nghe Thong tin,Khoa hoc Du lieu,131,132,2.95,Kha,88,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 1 tin chi tich luy
+201A000402,Huynh Ngoc Thinh,2002-08-26,Ngoai ngu,Ngon ngu Trung Quoc,125,125,3.49,Gioi,83,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000403,Hoang Minh Yen,2002-04-13,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.11,Trung binh,63,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000404,Nguyen Duc Lam,2002-07-19,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.72,Kha,84,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000405,Ngo Tuyet Hang,2002-07-30,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.36,Gioi,79,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000406,Do Duc Linh,2002-11-14,Cong nghe Thong tin,An toan Thong tin,132,132,3.53,Gioi,81,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000407,Ngo Minh Cuong,2002-02-01,Ngoai ngu,Ngon ngu Nhat,125,125,2.58,Kha,51,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000408,Le Gia Quan,2002-05-31,Kinh te,Ke toan,123,128,2.11,Trung binh,75,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 5 tin chi tich luy
+201A000409,Dinh Hoang Giang,2002-06-12,Cong nghe Thong tin,Cong nghe Thong tin,132,132,3.28,Gioi,95,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000410,Dinh Nhat Vy,2002-04-30,Kinh te,Marketing,128,128,1.92,Yeu,75,Dat,Dat,Dat,1,0,Khong du dieu kien,GPA tich luy duoi 2.00 (Yeu) | Con no hoc phi / Chi phi thuat
+201A000411,Pham Duc Hang,2002-11-20,Du lich,Quan tri Khach san,124,124,1.98,Yeu,66,Dat,Chua dat,Dat,0,0,Khong du dieu kien,GPA tich luy duoi 2.00 (Yeu) | Chua dat chuan dau ra Tin hoc
+201A000412,Phan Phuong Nam,2002-02-07,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.45,Gioi,80,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000413,Dang Phuong Vy,2002-07-18,Truyen thong,Quan he Cong chuong,126,126,2.75,Kha,90,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000414,Tran Truc Bich,2002-06-04,Du lich,Quan tri Dich vu Du lich,124,124,3.5,Gioi,57,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000415,Vu Thi Em,2002-08-01,Kinh te,Luat Kinh te,116,128,3.4,Gioi,60,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 12 tin chi tich luy
+201A000416,Duong Kim Nam,2002-07-02,Ngoai ngu,Ngon ngu Anh,125,125,2.72,Kha,67,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000417,Vo Tuyet Thao,2002-05-21,Du lich,Quan tri Dich vu Du lich,124,124,2.21,Trung binh,57,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000418,Vo Van Mai,2002-12-20,Cong nghe Thong tin,An toan Thong tin,132,132,2.23,Trung binh,61,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000419,Bui Phuong Em,2002-01-06,Du lich,Quan tri Khach san,124,124,2.47,Trung binh,57,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000420,Phan Truc Dung,2002-06-24,Truyen thong,Quan he Cong chuong,126,126,3.24,Gioi,74,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000421,Dang Gia An,2002-09-14,Truyen thong,Quan he Cong chuong,125,126,2.04,Trung binh,98,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 1 tin chi tich luy | Chua dat chuan dau ra Ngoai ngu
+201A000422,Huynh Van Quang,2002-11-10,Ngoai ngu,Ngon ngu Anh,125,125,2.52,Kha,59,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000423,Le Minh Hang,2002-06-27,Kinh te,Logistics va Quan ly Chuoi cung ung,128,128,2.66,Kha,56,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000424,Vu Thanh Nam,2002-08-04,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.33,Trung binh,63,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000425,Do Truc Em,2002-11-21,Kinh te,Quan tri Kinh doanh,128,128,2.16,Trung binh,72,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000426,Cao Tuyet Mai,2002-10-04,Truyen thong,Quan he Cong chuong,126,126,2.33,Trung binh,96,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000427,Ly Quoc Lam,2002-03-21,Ngoai ngu,Ngon ngu Nhat,116,125,3.76,Xuat sac,64,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 9 tin chi tich luy
+201A000428,Phan Hoang Thao,2002-12-27,Cong nghe Thong tin,Cong nghe Thong tin,132,132,1.93,Yeu,70,Dat,Dat,Dat,0,0,Khong du dieu kien,GPA tich luy duoi 2.00 (Yeu)
+201A000429,Ly Nhat Hang,2002-06-06,Du lich,Quan tri Khach san,124,124,3.5,Gioi,60,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000430,Tran Huu Nhi,2002-12-24,Ngoai ngu,Ngon ngu Trung Quoc,125,125,3.56,Gioi,62,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000431,Nguyen Thi Phong,2002-05-05,Du lich,Quan tri Khach san,124,124,3.49,Gioi,57,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000432,Vo Duc An,2002-07-11,Ngoai ngu,Ngon ngu Trung Quoc,125,125,3.81,Xuat sac,95,Dat,Dat,Dat,1,0,Khong du dieu kien,Con no hoc phi / Chi phi thuat
+201A000433,Bui Hoang Quan,2002-05-18,Cong nghe Thong tin,Cong nghe Thong tin,121,132,2.1,Trung binh,54,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 11 tin chi tich luy
+201A000434,Cao Thanh Thao,2002-02-17,Truyen thong,Truyen thong Da phuong tien,115,126,2.91,Kha,57,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 11 tin chi tich luy | Chua dat chuan dau ra Ngoai ngu
+201A000435,Truong Khanh Thao,2002-06-13,Cong nghe Thong tin,Ky thuat Phan mem,126,132,3.81,Xuat sac,73,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 6 tin chi tich luy
+201A000436,Dang Quoc Giang,2002-02-10,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.05,Kha,64,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000437,Vo Huu An,2002-08-11,Cong nghe Thong tin,An toan Thong tin,120,132,3.2,Gioi,86,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 12 tin chi tich luy
+201A000438,Vo Gia Mai,2002-02-15,Du lich,Quan tri Khach san,121,124,2.12,Trung binh,67,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 3 tin chi tich luy | Chua dat chuan dau ra Ngoai ngu
+201A000439,Dang Tan Bich,2002-06-02,Du lich,Quan tri Khach san,120,124,3.91,Xuat sac,79,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 4 tin chi tich luy
+201A000440,Duong Van Mai,2002-07-23,Du lich,Quan tri Dich vu Du lich,124,124,2.47,Trung binh,62,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000441,Mai Hoang Yen,2002-02-11,Du lich,Quan tri Dich vu Du lich,124,124,3.14,Kha,73,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000442,Dinh Tan Bich,2002-02-17,Du lich,Quan tri Dich vu Du lich,124,124,2.79,Kha,64,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000443,Tran Phuong Dung,2002-01-12,Ngoai ngu,Ngon ngu Trung Quoc,125,125,2.57,Kha,54,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000444,Dinh Viet Mai,2002-09-27,Du lich,Quan tri Dich vu Du lich,124,124,2.48,Trung binh,80,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000445,Phan Thanh Linh,2002-03-06,Truyen thong,Quan he Cong chuong,126,126,3.18,Kha,70,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000446,Le Tan Giang,2002-01-11,Ngoai ngu,Ngon ngu Nhat,125,125,2.11,Trung binh,93,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000447,Do Quoc Cuong,2002-12-28,Kinh te,Marketing,128,128,2.11,Trung binh,75,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000448,Dang Phuong Lam,2002-11-06,Cong nghe Thong tin,Khoa hoc Du lieu,132,132,2.57,Kha,66,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000449,Bui Huu Thinh,2002-10-31,Cong nghe Thong tin,Khoa hoc Du lieu,132,132,3.73,Xuat sac,91,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000450,Truong Duc Quang,2002-08-11,Kinh te,Luat Kinh te,128,128,2.05,Trung binh,93,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000451,Cao Van Phong,2002-01-13,Truyen thong,Truyen thong Da phuong tien,126,126,2.33,Trung binh,66,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000452,Truong Thanh Thao,2002-08-15,Ky thuat Cong nghe,Cong nghe Ky thuat O to,126,135,3.6,Xuat sac,60,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 9 tin chi tich luy
+201A000453,Vo Minh Linh,2002-09-04,Ky thuat Cong nghe,Cong nghe Ky thuat O to,134,135,2.1,Trung binh,62,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 1 tin chi tich luy
+201A000454,Truong Quoc Thao,2002-06-24,Kinh te,Marketing,128,128,2.05,Trung binh,79,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000455,Truong Minh Dung,2002-12-09,Ngoai ngu,Ngon ngu Nhat,113,125,3.66,Xuat sac,95,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 12 tin chi tich luy
+201A000456,Bui Hoang Giang,2002-09-02,Kinh te,Luat Kinh te,128,128,2.86,Kha,54,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000457,Truong Quoc Hang,2002-06-21,Du lich,Quan tri Dich vu Du lich,124,124,3.46,Gioi,53,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000458,Dang Duc Yen,2002-05-08,Truyen thong,Truyen thong Da phuong tien,126,126,3.93,Xuat sac,55,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000459,Trinh Tuyet An,2002-04-25,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.05,Trung binh,93,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000460,Mai Khanh Cuong,2002-04-06,Cong nghe Thong tin,Ky thuat Phan mem,132,132,2.4,Trung binh,67,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000461,Le Gia Nam,2002-11-09,Truyen thong,Quan he Cong chuong,126,126,3.69,Xuat sac,75,Dat,Dat,Dat,1,0,Khong du dieu kien,Con no hoc phi / Chi phi thuat
+201A000462,Truong Phuong An,2002-03-03,Ky thuat Cong nghe,Cong nghe Ky thuat O to,124,135,1.99,Yeu,88,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 11 tin chi tich luy | GPA tich luy duoi 2.00 (Yeu)
+201A000463,Huynh Thi Nam,2002-03-04,Cong nghe Thong tin,Ky thuat Phan mem,132,132,3.55,Gioi,68,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000464,Vu Hoang Dung,2002-11-28,Cong nghe Thong tin,Khoa hoc Du lieu,132,132,3.32,Gioi,75,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000465,Duong Quoc Em,2002-12-04,Ngoai ngu,Ngon ngu Anh,125,125,3.28,Gioi,89,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000466,Bui Nhat Cuong,2002-04-04,Kinh te,Tai chinh Ngan hang,128,128,2.56,Kha,65,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000467,Do Thanh An,2002-10-08,Ngoai ngu,Ngon ngu Anh,125,125,2.8,Kha,59,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000468,Mai Kim Phong,2002-09-30,Cong nghe Thong tin,Khoa hoc Du lieu,132,132,2.61,Kha,85,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000469,Vu Truc Khoa,2002-08-07,Truyen thong,Quan he Cong chuong,126,126,2.72,Kha,66,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000470,Duong Thi Giang,2002-09-22,Ngoai ngu,Ngon ngu Anh,125,125,3.85,Xuat sac,67,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000471,Huynh Ngoc Giang,2002-02-17,Cong nghe Thong tin,Khoa hoc Du lieu,126,132,3.57,Gioi,90,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 6 tin chi tich luy
+201A000472,Do Thi Quang,2002-08-02,Truyen thong,Quan he Cong chuong,126,126,2.98,Kha,73,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000473,Do Khanh Nhi,2002-04-17,Ngoai ngu,Ngon ngu Nhat,125,125,3.29,Gioi,61,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000474,Tran Khanh Dung,2002-11-22,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.87,Kha,54,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000475,Duong Quoc Nam,2002-03-18,Cong nghe Thong tin,Khoa hoc Du lieu,132,132,3.93,Xuat sac,51,Dat,Dat,Chua dat,0,0,Khong du dieu kien,Thieu chung chi GDQP-AN/GDDT
+201A000476,Hoang Kim Nhi,2002-03-31,Truyen thong,Quan he Cong chuong,126,126,3.82,Xuat sac,67,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000477,Bui Thi Nhi,2002-03-03,Truyen thong,Truyen thong Da phuong tien,126,126,3.3,Gioi,59,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000478,Phan Viet Mai,2002-08-28,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.13,Trung binh,74,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000479,Hoang Tuyet An,2002-10-03,Truyen thong,Truyen thong Da phuong tien,126,126,2.72,Kha,90,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000480,Dang Hoang Nhi,2002-03-22,Du lich,Quan tri Dich vu Du lich,124,124,3.22,Gioi,61,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000481,Vo Van Nhi,2002-02-16,Kinh te,Logistics va Quan ly Chuoi cung ung,128,128,3.1,Kha,96,Chua dat,Dat,Chua dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu | Thieu chung chi GDQP-AN/GDDT
+201A000482,Vo Hoang Phong,2002-10-02,Truyen thong,Truyen thong Da phuong tien,120,126,3.92,Xuat sac,80,Dat,Dat,Dat,1,0,Khong du dieu kien,Thieu 6 tin chi tich luy | Con no hoc phi / Chi phi thuat
+201A000483,Phan Van Nam,2002-08-23,Kinh te,Quan tri Kinh doanh,128,128,2.98,Kha,50,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000484,Tran Gia Yen,2002-01-25,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,1.85,Yeu,75,Dat,Chua dat,Dat,0,0,Khong du dieu kien,GPA tich luy duoi 2.00 (Yeu) | Chua dat chuan dau ra Tin hoc
+201A000485,Dang Khanh Dung,2002-08-04,Truyen thong,Quan he Cong chuong,126,126,3.23,Gioi,91,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000486,Vo Tan Phong,2002-09-16,Ngoai ngu,Ngon ngu Anh,125,125,2.63,Kha,87,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000487,Phan Quoc An,2002-09-30,Ngoai ngu,Ngon ngu Trung Quoc,125,125,3.91,Xuat sac,72,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000488,Mai Tan Bich,2002-06-18,Ngoai ngu,Ngon ngu Nhat,113,125,2.1,Trung binh,86,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 12 tin chi tich luy
+201A000489,Dinh Gia Lam,2002-02-02,Truyen thong,Quan he Cong chuong,121,126,3.24,Gioi,83,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 5 tin chi tich luy
+201A000490,Cao Duc Khoa,2002-08-07,Truyen thong,Truyen thong Da phuong tien,126,126,2.97,Kha,77,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000491,Trinh Huu Lam,2002-02-18,Cong nghe Thong tin,An toan Thong tin,132,132,2.19,Trung binh,67,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000492,Vo Truc Thao,2002-12-13,Ngoai ngu,Ngon ngu Trung Quoc,120,125,3.0,Kha,72,Chua dat,Dat,Dat,0,1,Khong du dieu kien,Thieu 5 tin chi tich luy | Chua dat chuan dau ra Ngoai ngu | Dang trong thoi gian ky luat cap Truong
+201A000493,Truong Khanh Bich,2002-07-31,Du lich,Quan tri Dich vu Du lich,124,124,2.57,Kha,52,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000494,Do Tan Nam,2002-11-24,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.4,Gioi,61,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000495,Hoang Duc Quang,2002-06-21,Du lich,Quan tri Khach san,124,124,3.63,Xuat sac,84,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000496,Pham Thanh Nhi,2002-05-31,Truyen thong,Truyen thong Da phuong tien,126,126,2.63,Kha,59,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000497,Bui Thanh Mai,2002-08-18,Cong nghe Thong tin,Ky thuat Phan mem,132,132,3.76,Xuat sac,76,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000498,Bui Tan Yen,2002-04-21,Kinh te,Marketing,128,128,1.98,Yeu,94,Dat,Dat,Dat,0,0,Khong du dieu kien,GPA tich luy duoi 2.00 (Yeu)
+201A000499,Le Duc Hang,2002-01-08,Cong nghe Thong tin,Khoa hoc Du lieu,132,132,3.29,Gioi,52,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000500,Cao Truc Thao,2002-03-21,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.72,Kha,60,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000501,Phan Huu An,2002-05-07,Cong nghe Thong tin,Cong nghe Thong tin,132,132,2.41,Trung binh,71,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000502,Truong Thanh Vy,2002-01-13,Du lich,Quan tri Dich vu Du lich,124,124,2.73,Kha,71,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000503,Pham Phuong Vy,2002-06-07,Ngoai ngu,Ngon ngu Trung Quoc,125,125,3.52,Gioi,95,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000504,Nguyen Gia Hang,2002-03-05,Ngoai ngu,Ngon ngu Trung Quoc,125,125,3.71,Xuat sac,59,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000505,Cao Truc Nhi,2002-07-01,Truyen thong,Quan he Cong chuong,126,126,3.2,Gioi,54,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000506,Do Quoc Cuong,2002-05-14,Ngoai ngu,Ngon ngu Nhat,125,125,3.76,Xuat sac,59,Dat,Dat,Chua dat,0,0,Khong du dieu kien,Thieu chung chi GDQP-AN/GDDT
+201A000507,Truong Khanh An,2002-08-10,Cong nghe Thong tin,Ky thuat Phan mem,132,132,3.72,Xuat sac,73,Dat,Dat,Chua dat,0,0,Khong du dieu kien,Thieu chung chi GDQP-AN/GDDT
+201A000508,Mai Khanh Hang,2002-02-21,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.42,Trung binh,77,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000509,Huynh Huu Thinh,2002-11-02,Ngoai ngu,Ngon ngu Nhat,125,125,3.22,Gioi,51,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000510,Nguyen Duc Khoa,2002-04-04,Ngoai ngu,Ngon ngu Nhat,125,125,2.04,Trung binh,67,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000511,Do Viet Quan,2002-12-13,Du lich,Quan tri Dich vu Du lich,124,124,3.26,Gioi,72,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000512,Le Kim Bich,2002-04-08,Ngoai ngu,Ngon ngu Trung Quoc,125,125,3.68,Xuat sac,74,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000513,Ly Truc Em,2002-05-04,Ngoai ngu,Ngon ngu Trung Quoc,125,125,2.07,Trung binh,54,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000514,Le Kim Giang,2002-03-24,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.74,Kha,76,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000515,Tran Duc Dung,2002-07-13,Du lich,Quan tri Khach san,124,124,2.35,Trung binh,91,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000516,Trinh Hoang An,2002-05-23,Ngoai ngu,Ngon ngu Anh,125,125,3.23,Gioi,88,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000517,Bui Nhat Quang,2002-06-10,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.59,Gioi,55,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000518,Cao Truc Mai,2002-10-13,Cong nghe Thong tin,Cong nghe Thong tin,132,132,3.7,Xuat sac,81,Dat,Dat,Chua dat,0,0,Khong du dieu kien,Thieu chung chi GDQP-AN/GDDT
+201A000519,Trinh Huu Giang,2002-02-15,Ngoai ngu,Ngon ngu Trung Quoc,125,125,1.94,Yeu,68,Dat,Chua dat,Dat,0,0,Khong du dieu kien,GPA tich luy duoi 2.00 (Yeu) | Chua dat chuan dau ra Tin hoc
+201A000520,Cao Nhat Quang,2002-01-11,Du lich,Quan tri Dich vu Du lich,124,124,3.53,Gioi,85,Dat,Dat,Dat,0,1,Khong du dieu kien,Dang trong thoi gian ky luat cap Truong
+201A000521,Tran Quoc Yen,2002-01-04,Cong nghe Thong tin,An toan Thong tin,132,132,2.57,Kha,81,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000522,Vu Tuyet Em,2002-08-14,Truyen thong,Quan he Cong chuong,126,126,2.61,Kha,74,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000523,Phan Tuyet Khoa,2002-05-05,Cong nghe Thong tin,Khoa hoc Du lieu,132,132,1.87,Yeu,63,Dat,Dat,Dat,0,0,Khong du dieu kien,GPA tich luy duoi 2.00 (Yeu)
+201A000524,Vu Truc Bich,2002-03-27,Du lich,Quan tri Khach san,124,124,3.13,Kha,88,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000525,Vu Quoc An,2002-05-11,Cong nghe Thong tin,Cong nghe Thong tin,130,132,3.63,Xuat sac,64,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 2 tin chi tich luy
+201A000526,Pham Huu Nam,2002-10-22,Du lich,Quan tri Khach san,124,124,2.61,Kha,83,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000527,Le Phuong Vy,2002-01-17,Du lich,Quan tri Dich vu Du lich,124,124,1.86,Yeu,59,Dat,Dat,Dat,0,0,Khong du dieu kien,GPA tich luy duoi 2.00 (Yeu)
+201A000528,Do Minh Nam,2002-11-25,Kinh te,Marketing,127,128,3.56,Gioi,74,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 1 tin chi tich luy
+201A000529,Vu Thi An,2002-01-08,Du lich,Quan tri Dich vu Du lich,124,124,3.95,Xuat sac,80,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000530,Truong Thanh Dung,2002-07-15,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.88,Xuat sac,92,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000531,Nguyen Kim Yen,2002-02-08,Du lich,Quan tri Khach san,124,124,3.26,Gioi,87,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000532,Le Ngoc Cuong,2002-10-30,Kinh te,Ke toan,128,128,3.49,Gioi,60,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000533,Phan Viet Khoa,2002-12-28,Cong nghe Thong tin,Ky thuat Phan mem,132,132,2.36,Trung binh,63,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000534,Ly Hoang Mai,2002-11-16,Du lich,Quan tri Khach san,124,124,2.64,Kha,51,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000535,Ly Viet Phong,2002-09-29,Truyen thong,Quan he Cong chuong,126,126,2.32,Trung binh,92,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000536,Ngo Kim Nam,2002-04-18,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.14,Kha,93,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000537,Ly Tan Cuong,2002-09-09,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.86,Kha,94,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000538,Le Duc Khoa,2002-03-26,Truyen thong,Truyen thong Da phuong tien,126,126,2.03,Trung binh,96,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000539,Dinh Tuyet Thao,2002-11-21,Ngoai ngu,Ngon ngu Anh,125,125,2.69,Kha,91,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000540,Dinh Tan Phong,2002-03-09,Truyen thong,Truyen thong Da phuong tien,126,126,2.62,Kha,58,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000541,Ngo Duc Lam,2002-06-16,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.48,Gioi,57,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000542,Bui Ngoc Em,2002-12-25,Truyen thong,Truyen thong Da phuong tien,126,126,2.64,Kha,77,Dat,Dat,Chua dat,0,0,Khong du dieu kien,Thieu chung chi GDQP-AN/GDDT
+201A000543,Ly Van Mai,2002-02-23,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.11,Kha,95,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000544,Hoang Van Mai,2002-03-14,Ngoai ngu,Ngon ngu Anh,125,125,2.48,Trung binh,52,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000545,Huynh Minh Yen,2002-05-02,Kinh te,Ke toan,128,128,3.32,Gioi,56,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000546,Mai Khanh Vy,2002-10-05,Truyen thong,Quan he Cong chuong,118,126,2.9,Kha,77,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Thieu 8 tin chi tich luy | Chua dat chuan dau ra Tin hoc
+201A000547,Bui Huu Quan,2002-06-14,Cong nghe Thong tin,Ky thuat Phan mem,132,132,3.2,Gioi,54,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000548,Vu Duc Nam,2002-04-09,Kinh te,Marketing,127,128,3.85,Xuat sac,76,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 1 tin chi tich luy
+201A000549,Duong Thanh Lam,2002-10-26,Kinh te,Marketing,128,128,3.81,Xuat sac,78,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000550,Do Huu Yen,2002-04-03,Du lich,Quan tri Khach san,124,124,2.47,Trung binh,77,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000551,Huynh Phuong Nhi,2002-03-03,Truyen thong,Quan he Cong chuong,126,126,3.34,Gioi,67,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000552,Truong Hoang Dung,2002-09-18,Kinh te,Logistics va Quan ly Chuoi cung ung,128,128,2.83,Kha,61,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000553,Pham Thanh Thinh,2002-07-14,Cong nghe Thong tin,Khoa hoc Du lieu,132,132,2.79,Kha,96,Dat,Dat,Chua dat,0,0,Khong du dieu kien,Thieu chung chi GDQP-AN/GDDT
+201A000554,Huynh Viet Thao,2002-08-30,Du lich,Quan tri Khach san,124,124,2.52,Kha,80,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000555,Vo Truc Quang,2002-07-14,Ngoai ngu,Ngon ngu Trung Quoc,125,125,1.93,Yeu,68,Dat,Dat,Dat,0,0,Khong du dieu kien,GPA tich luy duoi 2.00 (Yeu)
+201A000556,Ngo Gia Thao,2002-09-02,Truyen thong,Quan he Cong chuong,126,126,2.23,Trung binh,87,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000557,Do Gia Em,2002-05-11,Du lich,Quan tri Dich vu Du lich,124,124,2.71,Kha,88,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000558,Ngo Hoang Linh,2002-05-26,Ngoai ngu,Ngon ngu Anh,125,125,2.2,Trung binh,51,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000559,Dinh Kim Giang,2002-03-05,Cong nghe Thong tin,Ky thuat Phan mem,132,132,3.85,Xuat sac,55,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000560,Ngo Viet Hang,2002-07-12,Truyen thong,Truyen thong Da phuong tien,126,126,3.42,Gioi,58,Dat,Dat,Dat,1,0,Khong du dieu kien,Con no hoc phi / Chi phi thuat
+201A000561,Vu Khanh Hang,2002-03-24,Du lich,Quan tri Dich vu Du lich,124,124,3.58,Gioi,95,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000562,Huynh Thi Cuong,2002-04-05,Kinh te,Tai chinh Ngan hang,128,128,2.21,Trung binh,89,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000563,Bui Nhat Quang,2002-02-17,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.77,Kha,68,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000564,Ngo Ngoc Em,2002-11-19,Cong nghe Thong tin,Khoa hoc Du lieu,132,132,3.73,Xuat sac,80,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000565,Bui Nhat Khoa,2002-04-24,Kinh te,Marketing,127,128,2.74,Kha,90,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 1 tin chi tich luy
+201A000566,Tran Quoc Phong,2002-07-31,Truyen thong,Quan he Cong chuong,126,126,2.69,Kha,65,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000567,Ly Minh Em,2002-12-02,Du lich,Quan tri Dich vu Du lich,117,124,1.98,Yeu,75,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 7 tin chi tich luy | GPA tich luy duoi 2.00 (Yeu)
+201A000568,Ly Viet An,2002-10-28,Cong nghe Thong tin,An toan Thong tin,127,132,2.7,Kha,71,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 5 tin chi tich luy
+201A000569,Bui Thi Quan,2002-05-22,Truyen thong,Quan he Cong chuong,126,126,2.43,Trung binh,90,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000570,Bui Kim Quang,2002-08-25,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.23,Gioi,93,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000571,Huynh Thi Linh,2002-05-20,Ngoai ngu,Ngon ngu Anh,125,125,2.39,Trung binh,81,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000572,Pham Nhat Em,2002-02-10,Du lich,Quan tri Dich vu Du lich,124,124,2.02,Trung binh,70,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000573,Duong Khanh Nam,2002-04-21,Truyen thong,Quan he Cong chuong,126,126,3.94,Xuat sac,95,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000574,Vo Phuong Cuong,2002-10-30,Ngoai ngu,Ngon ngu Anh,125,125,3.16,Kha,77,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000575,Phan Thi Giang,2002-02-02,Ngoai ngu,Ngon ngu Nhat,125,125,2.59,Kha,77,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000576,Huynh Truc Thinh,2002-09-22,Ngoai ngu,Ngon ngu Nhat,125,125,2.52,Kha,68,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000577,Phan Kim Nam,2002-04-24,Truyen thong,Truyen thong Da phuong tien,126,126,2.5,Kha,67,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000578,Dinh Van Nhi,2002-08-17,Du lich,Quan tri Khach san,124,124,3.13,Kha,91,Dat,Dat,Dat,0,1,Khong du dieu kien,Dang trong thoi gian ky luat cap Truong
+201A000579,Huynh Nhat Mai,2002-03-06,Du lich,Quan tri Dich vu Du lich,124,124,2.02,Trung binh,54,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000580,Tran Tan Giang,2002-09-24,Truyen thong,Truyen thong Da phuong tien,126,126,3.26,Gioi,65,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000581,Phan Duc Bich,2002-01-31,Cong nghe Thong tin,Khoa hoc Du lieu,132,132,2.24,Trung binh,64,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000582,Huynh Tuyet Thinh,2002-07-19,Truyen thong,Quan he Cong chuong,126,126,3.55,Gioi,56,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000583,Dang Truc Bich,2002-07-31,Cong nghe Thong tin,Ky thuat Phan mem,132,132,3.37,Gioi,73,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000584,Do Duc Khoa,2002-08-03,Du lich,Quan tri Dich vu Du lich,124,124,2.06,Trung binh,68,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000585,Cao Van Hang,2002-06-02,Du lich,Quan tri Khach san,124,124,2.99,Kha,51,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000586,Hoang Khanh Mai,2002-08-06,Truyen thong,Quan he Cong chuong,126,126,2.38,Trung binh,81,Dat,Dat,Dat,1,0,Khong du dieu kien,Con no hoc phi / Chi phi thuat
+201A000587,Huynh Huu Hang,2002-06-01,Cong nghe Thong tin,Ky thuat Phan mem,132,132,3.11,Kha,78,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000588,Dang Huu Lam,2002-02-15,Cong nghe Thong tin,An toan Thong tin,132,132,3.13,Kha,67,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000589,Duong Quoc Cuong,2002-09-05,Truyen thong,Truyen thong Da phuong tien,126,126,2.63,Kha,96,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000590,Truong Minh Em,2002-10-05,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.11,Kha,68,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000591,Truong Khanh Phong,2002-07-28,Du lich,Quan tri Khach san,124,124,3.18,Kha,88,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000592,Ly Van Linh,2002-11-15,Kinh te,Quan tri Kinh doanh,128,128,2.54,Kha,58,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000593,Mai Phuong Nhi,2002-02-09,Du lich,Quan tri Dich vu Du lich,124,124,2.92,Kha,82,Dat,Dat,Dat,0,1,Khong du dieu kien,Dang trong thoi gian ky luat cap Truong
+201A000594,Truong Quoc Hang,2002-06-30,Du lich,Quan tri Khach san,124,124,3.02,Kha,60,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000595,Trinh Gia Nam,2002-11-23,Cong nghe Thong tin,Khoa hoc Du lieu,132,132,2.18,Trung binh,79,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000596,Tran Khanh Quang,2002-09-29,Cong nghe Thong tin,Khoa hoc Du lieu,132,132,2.73,Kha,90,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000597,Phan Duc Khoa,2002-09-20,Truyen thong,Truyen thong Da phuong tien,126,126,2.86,Kha,57,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000598,Ngo Nhat Vy,2002-05-03,Cong nghe Thong tin,Khoa hoc Du lieu,132,132,2.97,Kha,69,Dat,Chua dat,Dat,1,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc | Con no hoc phi / Chi phi thuat
+201A000599,Dang Hoang Quang,2002-06-18,Du lich,Quan tri Khach san,124,124,2.35,Trung binh,57,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000600,Vo Tan Nhi,2002-09-14,Truyen thong,Quan he Cong chuong,114,126,3.77,Xuat sac,94,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 12 tin chi tich luy
+201A000601,Bui Truc Phong,2002-11-09,Kinh te,Luat Kinh te,128,128,3.76,Xuat sac,67,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000602,Le Kim Vy,2002-10-21,Ngoai ngu,Ngon ngu Trung Quoc,125,125,2.32,Trung binh,68,Chua dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu | Chua dat chuan dau ra Tin hoc
+201A000603,Ngo Duc Thao,2002-05-18,Kinh te,Ke toan,128,128,2.42,Trung binh,68,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000604,Dinh Ngoc Bich,2002-09-16,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.89,Xuat sac,56,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000605,Dinh Ngoc An,2002-06-22,Ngoai ngu,Ngon ngu Anh,125,125,3.76,Xuat sac,60,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000606,Ly Tuyet Quang,2002-11-14,Cong nghe Thong tin,Khoa hoc Du lieu,132,132,2.12,Trung binh,76,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000607,Hoang Tan Quan,2002-03-09,Cong nghe Thong tin,An toan Thong tin,132,132,3.03,Kha,75,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000608,Tran Nhat Thinh,2002-07-26,Kinh te,Quan tri Kinh doanh,126,128,3.52,Gioi,62,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 2 tin chi tich luy
+201A000609,Truong Truc Giang,2002-07-29,Ky thuat Cong nghe,Cong nghe Ky thuat O to,134,135,2.35,Trung binh,77,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 1 tin chi tich luy
+201A000610,Bui Minh An,2002-07-18,Ngoai ngu,Ngon ngu Anh,125,125,3.46,Gioi,88,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000611,Dinh Truc An,2002-10-24,Kinh te,Marketing,128,128,3.53,Gioi,66,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000612,Nguyen Nhat Linh,2002-06-04,Kinh te,Ke toan,128,128,2.77,Kha,78,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000613,Tran Ngoc Nhi,2002-08-13,Du lich,Quan tri Dich vu Du lich,124,124,3.04,Kha,68,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000614,Nguyen Hoang Khoa,2002-04-30,Kinh te,Quan tri Kinh doanh,128,128,3.84,Xuat sac,62,Dat,Dat,Dat,1,1,Khong du dieu kien,Con no hoc phi / Chi phi thuat | Dang trong thoi gian ky luat cap Truong
+201A000615,Nguyen Kim Em,2002-02-17,Du lich,Quan tri Khach san,124,124,2.97,Kha,51,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000616,Tran Ngoc Bich,2002-02-18,Truyen thong,Quan he Cong chuong,126,126,3.06,Kha,63,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000617,Phan Truc Nhi,2002-09-03,Du lich,Quan tri Dich vu Du lich,124,124,2.2,Trung binh,94,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000618,Vo Nhat Em,2002-08-31,Truyen thong,Truyen thong Da phuong tien,126,126,3.2,Gioi,69,Chua dat,Chua dat,Dat,0,1,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu | Chua dat chuan dau ra Tin hoc | Dang trong thoi gian ky luat cap Truong
+201A000619,Vu Van Linh,2002-07-26,Kinh te,Tai chinh Ngan hang,128,128,3.49,Gioi,53,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000620,Le Kim Khoa,2002-02-24,Truyen thong,Quan he Cong chuong,126,126,2.39,Trung binh,57,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000621,Mai Van Quan,2002-07-31,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.67,Kha,94,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000622,Duong Nhat Linh,2002-11-11,Kinh te,Logistics va Quan ly Chuoi cung ung,128,128,2.6,Kha,89,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000623,Cao Tuyet Quang,2002-10-16,Ngoai ngu,Ngon ngu Nhat,125,125,2.89,Kha,67,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000624,Trinh Quoc Mai,2002-02-14,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.82,Kha,53,Chua dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu | Chua dat chuan dau ra Tin hoc
+201A000625,Vu Kim Yen,2002-01-28,Cong nghe Thong tin,Cong nghe Thong tin,132,132,3.18,Kha,68,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000626,Tran Truc Lam,2002-09-05,Cong nghe Thong tin,Khoa hoc Du lieu,132,132,2.94,Kha,53,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000627,Vo Ngoc Yen,2002-01-18,Kinh te,Quan tri Kinh doanh,128,128,3.2,Gioi,61,Chua dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu | Chua dat chuan dau ra Tin hoc
+201A000628,Ly Viet Dung,2002-07-27,Du lich,Quan tri Dich vu Du lich,124,124,2.96,Kha,86,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000629,Mai Tan Em,2002-04-03,Kinh te,Tai chinh Ngan hang,128,128,3.44,Gioi,71,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000630,Phan Thanh Cuong,2002-07-30,Du lich,Quan tri Khach san,124,124,3.69,Xuat sac,94,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000631,Hoang Viet Dung,2002-05-13,Kinh te,Logistics va Quan ly Chuoi cung ung,128,128,2.93,Kha,96,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000632,Mai Quoc Linh,2002-07-03,Kinh te,Quan tri Kinh doanh,120,128,3.52,Gioi,78,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 8 tin chi tich luy
+201A000633,Phan Van Mai,2002-11-08,Truyen thong,Truyen thong Da phuong tien,126,126,2.09,Trung binh,64,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000634,Hoang Van Nam,2002-04-01,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.46,Gioi,76,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000635,Hoang Hoang Nam,2002-06-08,Ngoai ngu,Ngon ngu Trung Quoc,125,125,3.89,Xuat sac,61,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000636,Bui Tuyet Thinh,2002-03-29,Ngoai ngu,Ngon ngu Trung Quoc,125,125,2.15,Trung binh,87,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000637,Bui Nhat Cuong,2002-02-12,Kinh te,Ke toan,125,128,2.36,Trung binh,85,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 3 tin chi tich luy
+201A000638,Vo Thanh Khoa,2002-11-22,Truyen thong,Quan he Cong chuong,126,126,2.24,Trung binh,82,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000639,Phan Tan Bich,2002-03-28,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.25,Gioi,51,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000640,Cao Tuyet Dung,2002-03-14,Ngoai ngu,Ngon ngu Anh,125,125,2.69,Kha,77,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000641,Ngo Thanh Bich,2002-12-23,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.89,Kha,77,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000642,Dang Nhat Nam,2002-08-27,Truyen thong,Truyen thong Da phuong tien,126,126,3.07,Kha,63,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000643,Ngo Hoang Lam,2002-04-22,Du lich,Quan tri Khach san,124,124,1.86,Yeu,81,Dat,Dat,Dat,0,0,Khong du dieu kien,GPA tich luy duoi 2.00 (Yeu)
+201A000644,Vo Minh Linh,2002-07-11,Cong nghe Thong tin,Cong nghe Thong tin,132,132,3.66,Xuat sac,95,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000645,Huynh Van Phong,2002-08-02,Cong nghe Thong tin,Ky thuat Phan mem,132,132,2.66,Kha,85,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000646,Tran Viet Nam,2002-06-21,Cong nghe Thong tin,Ky thuat Phan mem,132,132,1.86,Yeu,62,Dat,Dat,Dat,0,0,Khong du dieu kien,GPA tich luy duoi 2.00 (Yeu)
+201A000647,Dang Minh Vy,2002-08-02,Ngoai ngu,Ngon ngu Nhat,125,125,2.63,Kha,95,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000648,Ly Khanh Thao,2002-09-09,Du lich,Quan tri Dich vu Du lich,122,124,2.62,Kha,96,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 2 tin chi tich luy
+201A000649,Vo Hoang Quan,2002-05-31,Ky thuat Cong nghe,Cong nghe Ky thuat O to,129,135,2.0,Trung binh,52,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Thieu 6 tin chi tich luy | Chua dat chuan dau ra Tin hoc
+201A000650,Do Khanh Quan,2002-01-28,Truyen thong,Quan he Cong chuong,126,126,2.08,Trung binh,79,Dat,Chua dat,Dat,0,1,Khong du dieu kien,Chua dat chuan dau ra Tin hoc | Dang trong thoi gian ky luat cap Truong
+201A000651,Tran Quoc Vy,2002-07-22,Cong nghe Thong tin,Cong nghe Thong tin,132,132,2.05,Trung binh,94,Dat,Dat,Dat,1,0,Khong du dieu kien,Con no hoc phi / Chi phi thuat
+201A000652,Hoang Kim Nam,2002-12-14,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.3,Trung binh,55,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000653,Huynh Hoang Dung,2002-05-06,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.49,Trung binh,91,Chua dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu | Chua dat chuan dau ra Tin hoc
+201A000654,Ly Quoc Hang,2002-08-05,Cong nghe Thong tin,Cong nghe Thong tin,132,132,2.07,Trung binh,56,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000655,Bui Gia Vy,2002-12-22,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.31,Trung binh,59,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000656,Dinh Duc Quang,2002-06-15,Truyen thong,Quan he Cong chuong,126,126,3.58,Gioi,80,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000657,Cao Khanh Yen,2002-08-31,Ngoai ngu,Ngon ngu Nhat,125,125,3.6,Xuat sac,78,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000658,Phan Nhat Yen,2002-05-21,Kinh te,Quan tri Kinh doanh,122,128,2.06,Trung binh,98,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 6 tin chi tich luy | Chua dat chuan dau ra Ngoai ngu
+201A000659,Dinh Minh Dung,2002-09-05,Ngoai ngu,Ngon ngu Nhat,125,125,2.02,Trung binh,55,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000660,Ly Tan Quan,2002-12-07,Ngoai ngu,Ngon ngu Trung Quoc,125,125,2.41,Trung binh,60,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000661,Le Tuyet Khoa,2002-10-13,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.12,Trung binh,69,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000662,Hoang Gia Khoa,2002-10-05,Truyen thong,Truyen thong Da phuong tien,126,126,1.94,Yeu,66,Dat,Chua dat,Dat,0,0,Khong du dieu kien,GPA tich luy duoi 2.00 (Yeu) | Chua dat chuan dau ra Tin hoc
+201A000663,Trinh Van An,2002-12-22,Kinh te,Quan tri Kinh doanh,128,128,2.89,Kha,83,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000664,Vu Truc Bich,2002-05-09,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.69,Xuat sac,67,Dat,Dat,Dat,1,0,Khong du dieu kien,Con no hoc phi / Chi phi thuat
+201A000665,Trinh Phuong Giang,2002-05-21,Cong nghe Thong tin,Ky thuat Phan mem,132,132,2.8,Kha,98,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000666,Bui Viet Nam,2002-08-17,Kinh te,Logistics va Quan ly Chuoi cung ung,128,128,2.69,Kha,91,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000667,Trinh Minh Nam,2002-04-18,Cong nghe Thong tin,Ky thuat Phan mem,132,132,2.45,Trung binh,80,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000668,Vo Phuong Phong,2002-06-11,Kinh te,Marketing,117,128,3.83,Xuat sac,76,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 11 tin chi tich luy
+201A000669,Vo Thi Thao,2002-10-04,Du lich,Quan tri Khach san,114,124,2.14,Trung binh,75,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 10 tin chi tich luy
+201A000670,Do Minh Thinh,2002-07-03,Truyen thong,Quan he Cong chuong,126,126,3.32,Gioi,88,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000671,Ly Viet Hang,2002-11-06,Kinh te,Ke toan,128,128,2.48,Trung binh,53,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000672,Vo Viet Cuong,2002-03-16,Ngoai ngu,Ngon ngu Nhat,125,125,2.53,Kha,90,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000673,Pham Gia Nam,2002-09-26,Du lich,Quan tri Khach san,124,124,3.18,Kha,66,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000674,Le Viet An,2002-08-28,Cong nghe Thong tin,An toan Thong tin,132,132,2.02,Trung binh,92,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000675,Bui Viet Vy,2002-01-24,Du lich,Quan tri Khach san,124,124,2.45,Trung binh,64,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000676,Cao Kim Yen,2002-06-19,Truyen thong,Truyen thong Da phuong tien,126,126,3.37,Gioi,79,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000677,Truong Duc Nhi,2002-07-23,Kinh te,Logistics va Quan ly Chuoi cung ung,128,128,2.93,Kha,55,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000678,Bui Gia Thinh,2002-05-10,Kinh te,Quan tri Kinh doanh,128,128,2.39,Trung binh,77,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000679,Tran Ngoc Linh,2002-09-18,Cong nghe Thong tin,Cong nghe Thong tin,132,132,3.3,Gioi,82,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000680,Ngo Duc Dung,2002-07-20,Kinh te,Ke toan,128,128,3.48,Gioi,71,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000681,Dinh Gia Cuong,2002-07-05,Du lich,Quan tri Dich vu Du lich,115,124,2.36,Trung binh,75,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 9 tin chi tich luy
+201A000682,Duong Phuong Giang,2002-05-23,Truyen thong,Quan he Cong chuong,126,126,2.36,Trung binh,78,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000683,Nguyen Minh Em,2002-09-18,Kinh te,Marketing,128,128,2.9,Kha,89,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000684,Mai Nhat Phong,2002-02-16,Truyen thong,Quan he Cong chuong,126,126,2.23,Trung binh,89,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000685,Pham Minh Vy,2002-10-15,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.42,Gioi,73,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000686,Dinh Hoang Dung,2002-05-21,Kinh te,Tai chinh Ngan hang,128,128,3.74,Xuat sac,92,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000687,Vu Quoc Hang,2002-09-29,Cong nghe Thong tin,An toan Thong tin,132,132,2.86,Kha,83,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000688,Bui Thi Thinh,2002-12-02,Ngoai ngu,Ngon ngu Trung Quoc,125,125,2.47,Trung binh,82,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000689,Huynh Nhat Nhi,2002-09-17,Kinh te,Luat Kinh te,128,128,3.46,Gioi,98,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000690,Vu Nhat Khoa,2002-09-07,Truyen thong,Quan he Cong chuong,126,126,2.97,Kha,69,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000691,Hoang Viet Phong,2002-01-28,Du lich,Quan tri Dich vu Du lich,124,124,3.38,Gioi,71,Dat,Chua dat,Chua dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc | Thieu chung chi GDQP-AN/GDDT
+201A000692,Huynh Ngoc Dung,2002-11-22,Ngoai ngu,Ngon ngu Nhat,125,125,2.79,Kha,53,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000693,Phan Tan Thinh,2002-02-09,Cong nghe Thong tin,Ky thuat Phan mem,132,132,2.17,Trung binh,58,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000694,Ly Gia Thinh,2002-04-25,Kinh te,Ke toan,128,128,3.85,Xuat sac,87,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000695,Phan Khanh Bich,2002-06-02,Ky thuat Cong nghe,Cong nghe Ky thuat O to,132,135,1.93,Yeu,92,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 3 tin chi tich luy | GPA tich luy duoi 2.00 (Yeu)
+201A000696,Le Gia Quang,2002-10-23,Du lich,Quan tri Khach san,124,124,2.64,Kha,69,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000697,Pham Gia Thinh,2002-08-13,Cong nghe Thong tin,Khoa hoc Du lieu,132,132,3.42,Gioi,70,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000698,Mai Hoang Thinh,2002-04-13,Cong nghe Thong tin,Cong nghe Thong tin,132,132,2.99,Kha,79,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000699,Hoang Nhat Quang,2002-09-19,Kinh te,Quan tri Kinh doanh,128,128,2.68,Kha,53,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000700,Hoang Thanh Bich,2002-07-24,Ngoai ngu,Ngon ngu Anh,119,125,2.76,Kha,63,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 6 tin chi tich luy
+201A000701,Bui Van Bich,2002-06-26,Kinh te,Marketing,128,128,2.25,Trung binh,57,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000702,Cao Truc Yen,2002-07-24,Ngoai ngu,Ngon ngu Nhat,125,125,3.19,Kha,76,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000703,Ngo Tuyet Lam,2002-03-27,Kinh te,Quan tri Kinh doanh,128,128,2.01,Trung binh,53,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000704,Cao Huu Phong,2002-07-16,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.77,Xuat sac,64,Dat,Dat,Dat,1,0,Khong du dieu kien,Con no hoc phi / Chi phi thuat
+201A000705,Tran Hoang Quang,2002-01-30,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.1,Kha,97,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000706,Duong Khanh Quang,2002-11-02,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.0,Kha,57,Dat,Dat,Dat,1,0,Khong du dieu kien,Con no hoc phi / Chi phi thuat
+201A000707,Ngo Tuyet Linh,2002-07-19,Kinh te,Ke toan,128,128,2.39,Trung binh,53,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000708,Pham Truc Khoa,2002-06-23,Kinh te,Logistics va Quan ly Chuoi cung ung,128,128,3.49,Gioi,52,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000709,Dinh Huu Khoa,2002-06-24,Truyen thong,Quan he Cong chuong,125,126,2.78,Kha,83,Dat,Dat,Dat,1,0,Khong du dieu kien,Thieu 1 tin chi tich luy | Con no hoc phi / Chi phi thuat
+201A000710,Truong Van Giang,2002-03-17,Cong nghe Thong tin,An toan Thong tin,132,132,2.73,Kha,89,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000711,Vo Van An,2002-01-16,Kinh te,Luat Kinh te,128,128,2.57,Kha,76,Dat,Dat,Chua dat,0,0,Khong du dieu kien,Thieu chung chi GDQP-AN/GDDT
+201A000712,Vo Tan Giang,2002-08-29,Ngoai ngu,Ngon ngu Trung Quoc,125,125,2.81,Kha,57,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000713,Truong Quoc Thinh,2002-07-15,Truyen thong,Quan he Cong chuong,126,126,2.61,Kha,64,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000714,Vu Thanh Hang,2002-07-05,Kinh te,Marketing,128,128,2.17,Trung binh,72,Dat,Dat,Chua dat,0,0,Khong du dieu kien,Thieu chung chi GDQP-AN/GDDT
+201A000715,Huynh Minh Lam,2002-01-14,Cong nghe Thong tin,Cong nghe Thong tin,128,132,3.18,Kha,61,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 4 tin chi tich luy
+201A000716,Vo Thanh Em,2002-10-15,Kinh te,Quan tri Kinh doanh,128,128,3.38,Gioi,81,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000717,Truong Truc Thinh,2002-06-16,Ngoai ngu,Ngon ngu Nhat,125,125,3.43,Gioi,63,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000718,Cao Tan Thao,2002-09-10,Ngoai ngu,Ngon ngu Nhat,125,125,2.95,Kha,85,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000719,Vo Hoang Thinh,2002-01-14,Kinh te,Luat Kinh te,128,128,3.09,Kha,66,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000720,Huynh Duc Yen,2002-09-18,Ngoai ngu,Ngon ngu Nhat,125,125,3.0,Kha,84,Dat,Dat,Chua dat,1,0,Khong du dieu kien,Thieu chung chi GDQP-AN/GDDT | Con no hoc phi / Chi phi thuat
+201A000721,Trinh Kim Mai,2002-04-13,Cong nghe Thong tin,Cong nghe Thong tin,132,132,3.56,Gioi,55,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000722,Hoang Huu Bich,2002-06-15,Ngoai ngu,Ngon ngu Nhat,125,125,3.95,Xuat sac,83,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000723,Truong Minh Thao,2002-04-09,Du lich,Quan tri Dich vu Du lich,124,124,2.69,Kha,63,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000724,Ly Tuyet Hang,2002-03-28,Kinh te,Marketing,128,128,3.69,Xuat sac,93,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000725,Mai Khanh Nam,2002-11-09,Ngoai ngu,Ngon ngu Nhat,114,125,3.86,Xuat sac,90,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 11 tin chi tich luy
+201A000726,Vu Duc Mai,2002-09-24,Du lich,Quan tri Khach san,124,124,3.5,Gioi,69,Chua dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu | Chua dat chuan dau ra Tin hoc
+201A000727,Duong Gia Linh,2002-07-21,Du lich,Quan tri Dich vu Du lich,117,124,2.52,Kha,64,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 7 tin chi tich luy
+201A000728,Nguyen Thi Khoa,2002-12-28,Truyen thong,Truyen thong Da phuong tien,126,126,2.01,Trung binh,58,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000729,Mai Phuong Lam,2002-02-20,Kinh te,Logistics va Quan ly Chuoi cung ung,124,128,3.3,Gioi,53,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 4 tin chi tich luy
+201A000730,Bui Hoang Cuong,2002-11-04,Du lich,Quan tri Khach san,121,124,3.41,Gioi,95,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 3 tin chi tich luy
+201A000731,Ngo Ngoc Mai,2002-08-15,Cong nghe Thong tin,Ky thuat Phan mem,128,132,3.27,Gioi,89,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 4 tin chi tich luy
+201A000732,Bui Ngoc Em,2002-06-24,Kinh te,Luat Kinh te,128,128,3.36,Gioi,94,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000733,Vu Kim Dung,2002-02-09,Kinh te,Marketing,119,128,2.94,Kha,83,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 9 tin chi tich luy | Chua dat chuan dau ra Ngoai ngu
+201A000734,Trinh Minh Vy,2002-02-11,Du lich,Quan tri Khach san,124,124,2.67,Kha,64,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000735,Ngo Truc Giang,2002-09-19,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.05,Trung binh,85,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000736,Duong Thanh Quan,2002-10-01,Ngoai ngu,Ngon ngu Nhat,125,125,3.24,Gioi,75,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000737,Cao Viet Thinh,2002-08-02,Truyen thong,Quan he Cong chuong,116,126,3.04,Kha,98,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 10 tin chi tich luy | Chua dat chuan dau ra Ngoai ngu
+201A000738,Do Phuong Nhi,2002-06-10,Ngoai ngu,Ngon ngu Trung Quoc,118,125,3.17,Kha,91,Dat,Dat,Dat,1,0,Khong du dieu kien,Thieu 7 tin chi tich luy | Con no hoc phi / Chi phi thuat
+201A000739,Phan Duc An,2002-03-15,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.75,Xuat sac,95,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000740,Truong Truc Bich,2002-10-01,Du lich,Quan tri Khach san,116,124,1.98,Yeu,50,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 8 tin chi tich luy | GPA tich luy duoi 2.00 (Yeu)
+201A000741,Bui Nhat Thao,2002-01-18,Du lich,Quan tri Khach san,124,124,1.97,Yeu,58,Dat,Dat,Dat,0,0,Khong du dieu kien,GPA tich luy duoi 2.00 (Yeu)
+201A000742,Dang Van Quan,2002-06-26,Ngoai ngu,Ngon ngu Nhat,125,125,1.88,Yeu,97,Dat,Dat,Dat,1,0,Khong du dieu kien,GPA tich luy duoi 2.00 (Yeu) | Con no hoc phi / Chi phi thuat
+201A000743,Truong Tan Vy,2002-10-03,Ngoai ngu,Ngon ngu Trung Quoc,125,125,2.73,Kha,79,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000744,Ngo Nhat Quang,2002-08-09,Ngoai ngu,Ngon ngu Trung Quoc,125,125,3.59,Gioi,86,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000745,Do Ngoc Quang,2002-05-06,Ngoai ngu,Ngon ngu Nhat,125,125,3.42,Gioi,93,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000746,Tran Hoang Khoa,2002-08-12,Kinh te,Marketing,117,128,2.13,Trung binh,92,Dat,Dat,Dat,1,0,Khong du dieu kien,Thieu 11 tin chi tich luy | Con no hoc phi / Chi phi thuat
+201A000747,Ly Hoang Phong,2002-05-29,Kinh te,Logistics va Quan ly Chuoi cung ung,128,128,3.82,Xuat sac,61,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000748,Phan Minh An,2002-01-24,Ngoai ngu,Ngon ngu Anh,125,125,3.75,Xuat sac,58,Dat,Dat,Chua dat,0,0,Khong du dieu kien,Thieu chung chi GDQP-AN/GDDT
+201A000749,Ngo Hoang Phong,2002-10-28,Kinh te,Luat Kinh te,128,128,2.48,Trung binh,61,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000750,Mai Ngoc Lam,2002-01-03,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.81,Kha,62,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000751,Cao Nhat Dung,2002-04-09,Truyen thong,Quan he Cong chuong,126,126,2.73,Kha,58,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000752,Bui Nhat Quan,2002-09-23,Du lich,Quan tri Dich vu Du lich,124,124,3.73,Xuat sac,85,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000753,Truong Duc Vy,2002-12-27,Cong nghe Thong tin,Cong nghe Thong tin,132,132,2.28,Trung binh,88,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000754,Cao Viet Thao,2002-03-01,Truyen thong,Quan he Cong chuong,126,126,2.15,Trung binh,70,Dat,Dat,Chua dat,0,0,Khong du dieu kien,Thieu chung chi GDQP-AN/GDDT
+201A000755,Vu Gia An,2002-12-08,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.34,Trung binh,80,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000756,Huynh Huu Lam,2002-08-09,Cong nghe Thong tin,Cong nghe Thong tin,132,132,2.17,Trung binh,88,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000757,Bui Phuong Yen,2002-01-21,Cong nghe Thong tin,Cong nghe Thong tin,123,132,2.03,Trung binh,82,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 9 tin chi tich luy
+201A000758,Pham Van Thinh,2002-02-01,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.49,Gioi,82,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000759,Duong Thi Thao,2002-02-08,Du lich,Quan tri Khach san,114,124,2.05,Trung binh,67,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 10 tin chi tich luy
+201A000760,Ngo Tan Dung,2002-04-17,Truyen thong,Quan he Cong chuong,126,126,2.84,Kha,91,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000761,Vu Nhat Hang,2002-04-04,Cong nghe Thong tin,Ky thuat Phan mem,132,132,2.48,Trung binh,69,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000762,Vo Tan Phong,2002-03-30,Kinh te,Quan tri Kinh doanh,128,128,2.59,Kha,70,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000763,Nguyen Minh Khoa,2002-11-16,Ngoai ngu,Ngon ngu Nhat,118,125,2.74,Kha,52,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 7 tin chi tich luy
+201A000764,Bui Ngoc Mai,2002-03-13,Truyen thong,Quan he Cong chuong,126,126,2.92,Kha,82,Chua dat,Chua dat,Chua dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu | Chua dat chuan dau ra Tin hoc | Thieu chung chi GDQP-AN/GDDT
+201A000765,Pham Duc Vy,2002-02-21,Cong nghe Thong tin,Ky thuat Phan mem,128,132,3.47,Gioi,82,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 4 tin chi tich luy
+201A000766,Phan Van Vy,2002-03-10,Du lich,Quan tri Dich vu Du lich,124,124,3.17,Kha,70,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000767,Dang Gia Cuong,2002-02-03,Ngoai ngu,Ngon ngu Trung Quoc,125,125,3.61,Xuat sac,63,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000768,Dang Gia Cuong,2002-06-28,Du lich,Quan tri Khach san,124,124,2.53,Kha,54,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000769,Ly Tan Cuong,2002-08-30,Ngoai ngu,Ngon ngu Anh,125,125,2.99,Kha,76,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000770,Duong Kim Mai,2002-05-30,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.9,Xuat sac,98,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000771,Mai Tuyet Cuong,2002-10-13,Kinh te,Tai chinh Ngan hang,128,128,3.75,Xuat sac,82,Dat,Dat,Dat,1,0,Khong du dieu kien,Con no hoc phi / Chi phi thuat
+201A000772,Le Quoc Yen,2002-11-18,Ngoai ngu,Ngon ngu Trung Quoc,125,125,3.56,Gioi,91,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000773,Dang Viet Bich,2002-03-20,Truyen thong,Quan he Cong chuong,126,126,2.82,Kha,64,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000774,Ly Quoc Quan,2002-04-29,Truyen thong,Truyen thong Da phuong tien,126,126,3.06,Kha,50,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000775,Cao Khanh Quang,2002-12-25,Ngoai ngu,Ngon ngu Anh,125,125,2.1,Trung binh,72,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000776,Phan Huu Yen,2002-11-18,Kinh te,Ke toan,128,128,3.71,Xuat sac,88,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000777,Le Tan Nam,2002-05-28,Ngoai ngu,Ngon ngu Trung Quoc,125,125,3.18,Kha,62,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000778,Ly Quoc Giang,2002-12-17,Ngoai ngu,Ngon ngu Nhat,119,125,2.76,Kha,73,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 6 tin chi tich luy
+201A000779,Ngo Huu Cuong,2002-11-18,Kinh te,Ke toan,123,128,3.68,Xuat sac,83,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 5 tin chi tich luy
+201A000780,Vu Nhat Lam,2002-06-19,Cong nghe Thong tin,Ky thuat Phan mem,129,132,2.26,Trung binh,97,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 3 tin chi tich luy
+201A000781,Duong Hoang Mai,2002-07-05,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.66,Kha,70,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000782,Dinh Tan Phong,2002-11-16,Ngoai ngu,Ngon ngu Nhat,125,125,3.3,Gioi,54,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000783,Pham Viet Yen,2002-04-23,Ngoai ngu,Ngon ngu Anh,125,125,2.63,Kha,55,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000784,Tran Hoang Khoa,2002-07-19,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.17,Trung binh,57,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000785,Hoang Khanh Quang,2002-11-03,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.55,Gioi,92,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000786,Duong Gia Yen,2002-12-16,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.18,Trung binh,53,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000787,Cao Minh Thinh,2002-07-30,Cong nghe Thong tin,Ky thuat Phan mem,132,132,3.31,Gioi,69,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000788,Tran Thanh Thinh,2002-05-03,Ngoai ngu,Ngon ngu Trung Quoc,115,125,3.15,Kha,59,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 10 tin chi tich luy
+201A000789,Pham Gia Dung,2002-07-12,Ngoai ngu,Ngon ngu Anh,125,125,2.37,Trung binh,76,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000790,Ly Thanh Hang,2002-12-06,Truyen thong,Quan he Cong chuong,126,126,2.5,Kha,80,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000791,Mai Viet Quan,2002-09-11,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.56,Kha,56,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000792,Le Thanh Em,2002-05-21,Truyen thong,Quan he Cong chuong,126,126,2.6,Kha,50,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000793,Hoang Tan Mai,2002-05-12,Ngoai ngu,Ngon ngu Nhat,125,125,3.08,Kha,78,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000794,Huynh Van Phong,2002-09-02,Ngoai ngu,Ngon ngu Anh,125,125,2.71,Kha,67,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000795,Cao Kim Vy,2002-04-13,Truyen thong,Truyen thong Da phuong tien,126,126,1.91,Yeu,60,Dat,Dat,Dat,0,1,Khong du dieu kien,GPA tich luy duoi 2.00 (Yeu) | Dang trong thoi gian ky luat cap Truong
+201A000796,Vo Van Hang,2002-08-30,Cong nghe Thong tin,Cong nghe Thong tin,131,132,3.31,Gioi,89,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 1 tin chi tich luy | Chua dat chuan dau ra Ngoai ngu
+201A000797,Duong Minh Mai,2002-06-22,Truyen thong,Quan he Cong chuong,126,126,2.5,Kha,81,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000798,Ngo Khanh An,2002-10-13,Ngoai ngu,Ngon ngu Anh,123,125,2.83,Kha,72,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 2 tin chi tich luy
+201A000799,Trinh Kim Cuong,2002-07-09,Du lich,Quan tri Dich vu Du lich,124,124,2.21,Trung binh,97,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000800,Nguyen Khanh Giang,2002-10-21,Truyen thong,Truyen thong Da phuong tien,126,126,3.06,Kha,93,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000801,Ngo Hoang Nhi,2002-04-11,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.32,Trung binh,65,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000802,Mai Quoc Dung,2002-09-18,Cong nghe Thong tin,Khoa hoc Du lieu,132,132,2.83,Kha,86,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000803,Trinh Viet Thinh,2002-12-21,Ngoai ngu,Ngon ngu Anh,125,125,2.69,Kha,90,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000804,Vu Kim Lam,2002-02-14,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.79,Xuat sac,64,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000805,Do Khanh Giang,2002-08-15,Du lich,Quan tri Dich vu Du lich,124,124,2.74,Kha,91,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000806,Do Tuyet Thinh,2002-06-21,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.28,Trung binh,77,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000807,Duong Kim Lam,2002-08-06,Ngoai ngu,Ngon ngu Anh,125,125,3.39,Gioi,53,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000808,Cao Nhat Quan,2002-07-25,Kinh te,Tai chinh Ngan hang,128,128,2.46,Trung binh,58,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000809,Vo Ngoc Thinh,2002-02-20,Du lich,Quan tri Dich vu Du lich,124,124,2.02,Trung binh,97,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000810,Vu Thi Mai,2002-08-19,Ngoai ngu,Ngon ngu Anh,125,125,3.19,Kha,54,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000811,Vu Ngoc Quang,2002-11-22,Kinh te,Luat Kinh te,128,128,2.08,Trung binh,86,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000812,Duong Thi Bich,2002-12-04,Cong nghe Thong tin,Cong nghe Thong tin,132,132,2.92,Kha,51,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000813,Vu Phuong An,2002-08-31,Truyen thong,Truyen thong Da phuong tien,126,126,2.71,Kha,64,Dat,Dat,Dat,1,0,Khong du dieu kien,Con no hoc phi / Chi phi thuat
+201A000814,Dinh Gia Dung,2002-07-15,Truyen thong,Quan he Cong chuong,126,126,2.86,Kha,66,Dat,Dat,Dat,0,1,Khong du dieu kien,Dang trong thoi gian ky luat cap Truong
+201A000815,Do Viet Giang,2002-01-08,Du lich,Quan tri Dich vu Du lich,113,124,3.72,Xuat sac,59,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 11 tin chi tich luy | Chua dat chuan dau ra Ngoai ngu
+201A000816,Bui Duc Hang,2002-10-17,Ngoai ngu,Ngon ngu Nhat,120,125,2.88,Kha,54,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Thieu 5 tin chi tich luy | Chua dat chuan dau ra Tin hoc
+201A000817,Bui Ngoc Nam,2002-02-07,Ngoai ngu,Ngon ngu Nhat,125,125,2.43,Trung binh,67,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000818,Pham Tuyet Nam,2002-04-04,Cong nghe Thong tin,Khoa hoc Du lieu,132,132,2.07,Trung binh,58,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000819,Duong Thi Linh,2002-04-29,Truyen thong,Quan he Cong chuong,126,126,2.52,Kha,66,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000820,Cao Minh Dung,2002-02-06,Kinh te,Quan tri Kinh doanh,128,128,2.28,Trung binh,94,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000821,Vu Huu Nam,2002-02-22,Truyen thong,Quan he Cong chuong,126,126,2.56,Kha,90,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000822,Huynh Phuong Em,2002-02-01,Kinh te,Tai chinh Ngan hang,128,128,2.37,Trung binh,70,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000823,Nguyen Gia Vy,2002-03-26,Cong nghe Thong tin,An toan Thong tin,132,132,3.09,Kha,92,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000824,Ly Khanh Dung,2002-06-02,Kinh te,Marketing,128,128,2.13,Trung binh,76,Dat,Dat,Chua dat,0,0,Khong du dieu kien,Thieu chung chi GDQP-AN/GDDT
+201A000825,Dinh Tuyet Quang,2002-07-17,Truyen thong,Quan he Cong chuong,126,126,2.07,Trung binh,90,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000826,Dinh Phuong Nam,2002-11-09,Truyen thong,Truyen thong Da phuong tien,126,126,3.86,Xuat sac,65,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000827,Ly Huu Yen,2002-06-24,Kinh te,Quan tri Kinh doanh,128,128,3.37,Gioi,64,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000828,Ly Khanh Yen,2002-05-17,Cong nghe Thong tin,Cong nghe Thong tin,132,132,2.33,Trung binh,58,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000829,Nguyen Gia Vy,2002-04-22,Ky thuat Cong nghe,Cong nghe Ky thuat O to,126,135,3.22,Gioi,61,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 9 tin chi tich luy
+201A000830,Trinh Phuong Quan,2002-12-08,Ngoai ngu,Ngon ngu Anh,117,125,2.39,Trung binh,89,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 8 tin chi tich luy
+201A000831,Cao Hoang Mai,2002-01-16,Kinh te,Marketing,128,128,2.17,Trung binh,58,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000832,Vu Hoang Quan,2002-05-05,Du lich,Quan tri Khach san,124,124,1.98,Yeu,56,Dat,Dat,Dat,0,0,Khong du dieu kien,GPA tich luy duoi 2.00 (Yeu)
+201A000833,Vu Tan Linh,2002-05-31,Truyen thong,Quan he Cong chuong,126,126,2.6,Kha,62,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000834,Bui Van Thinh,2002-03-13,Du lich,Quan tri Dich vu Du lich,124,124,3.9,Xuat sac,50,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000835,Huynh Viet Yen,2002-08-10,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.08,Kha,71,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000836,Huynh Gia Nhi,2002-12-09,Ngoai ngu,Ngon ngu Anh,121,125,1.94,Yeu,79,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 4 tin chi tich luy | GPA tich luy duoi 2.00 (Yeu)
+201A000837,Truong Gia Vy,2002-12-14,Cong nghe Thong tin,Khoa hoc Du lieu,132,132,3.69,Xuat sac,84,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000838,Dinh Thanh Khoa,2002-04-01,Kinh te,Logistics va Quan ly Chuoi cung ung,120,128,2.06,Trung binh,74,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 8 tin chi tich luy
+201A000839,Mai Thanh Nhi,2002-05-05,Ngoai ngu,Ngon ngu Nhat,125,125,2.47,Trung binh,77,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000840,Bui Viet Giang,2002-11-14,Truyen thong,Quan he Cong chuong,126,126,3.85,Xuat sac,77,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000841,Bui Huu Khoa,2002-07-13,Du lich,Quan tri Khach san,124,124,3.61,Xuat sac,61,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000842,Ly Thanh Vy,2002-01-15,Kinh te,Luat Kinh te,128,128,3.81,Xuat sac,62,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000843,Phan Duc Quan,2002-08-22,Du lich,Quan tri Khach san,124,124,3.28,Gioi,52,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000844,Pham Phuong Bich,2002-06-05,Kinh te,Tai chinh Ngan hang,116,128,1.93,Yeu,83,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 12 tin chi tich luy | GPA tich luy duoi 2.00 (Yeu)
+201A000845,Dinh Van Yen,2002-08-08,Ngoai ngu,Ngon ngu Nhat,125,125,1.94,Yeu,78,Dat,Dat,Dat,0,0,Khong du dieu kien,GPA tich luy duoi 2.00 (Yeu)
+201A000846,Bui Huu Hang,2002-07-02,Du lich,Quan tri Dich vu Du lich,113,124,2.79,Kha,73,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 11 tin chi tich luy | Chua dat chuan dau ra Ngoai ngu
+201A000847,Hoang Viet Phong,2002-11-27,Cong nghe Thong tin,An toan Thong tin,132,132,2.38,Trung binh,64,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000848,Pham Phuong Mai,2002-05-23,Kinh te,Ke toan,120,128,2.55,Kha,98,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 8 tin chi tich luy
+201A000849,Nguyen Duc Thao,2002-07-22,Truyen thong,Truyen thong Da phuong tien,126,126,3.2,Gioi,58,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000850,Ly Viet Linh,2002-04-17,Truyen thong,Truyen thong Da phuong tien,126,126,2.81,Kha,88,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000851,Cao Hoang Dung,2002-06-05,Truyen thong,Truyen thong Da phuong tien,126,126,3.02,Kha,89,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000852,Trinh Quoc Quan,2002-12-23,Du lich,Quan tri Khach san,124,124,2.47,Trung binh,76,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000853,Dang Kim Vy,2002-09-16,Kinh te,Marketing,127,128,3.94,Xuat sac,77,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 1 tin chi tich luy
+201A000854,Cao Thanh Mai,2002-01-12,Truyen thong,Truyen thong Da phuong tien,126,126,2.77,Kha,60,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000855,Trinh Truc Vy,2002-12-24,Cong nghe Thong tin,An toan Thong tin,132,132,2.19,Trung binh,82,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000856,Huynh Van Yen,2002-10-07,Du lich,Quan tri Khach san,124,124,3.53,Gioi,92,Dat,Dat,Dat,0,1,Khong du dieu kien,Dang trong thoi gian ky luat cap Truong
+201A000857,Tran Hoang Lam,2002-11-13,Truyen thong,Quan he Cong chuong,126,126,2.74,Kha,77,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000858,Truong Minh Dung,2002-09-21,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.75,Kha,81,Dat,Dat,Dat,1,0,Khong du dieu kien,Con no hoc phi / Chi phi thuat
+201A000859,Trinh Phuong Mai,2002-01-16,Ngoai ngu,Ngon ngu Nhat,125,125,2.07,Trung binh,73,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000860,Ngo Quoc Linh,2002-08-31,Kinh te,Marketing,128,128,3.47,Gioi,92,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000861,Hoang Kim Thinh,2002-12-21,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.79,Kha,77,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000862,Huynh Viet Cuong,2002-04-14,Kinh te,Ke toan,128,128,3.88,Xuat sac,68,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000863,Trinh Duc Dung,2002-03-24,Kinh te,Quan tri Kinh doanh,128,128,3.36,Gioi,58,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000864,Vo Tuyet Lam,2002-02-27,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.67,Kha,67,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000865,Le Khanh Mai,2002-10-04,Du lich,Quan tri Khach san,124,124,2.79,Kha,51,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000866,Tran Thanh Nam,2002-11-17,Truyen thong,Truyen thong Da phuong tien,126,126,3.71,Xuat sac,87,Dat,Dat,Dat,0,1,Khong du dieu kien,Dang trong thoi gian ky luat cap Truong
+201A000867,Pham Hoang Yen,2002-09-23,Cong nghe Thong tin,An toan Thong tin,132,132,3.84,Xuat sac,57,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000868,Do Gia Thinh,2002-04-27,Cong nghe Thong tin,Cong nghe Thong tin,132,132,2.46,Trung binh,56,Dat,Dat,Dat,1,0,Khong du dieu kien,Con no hoc phi / Chi phi thuat
+201A000869,Ly Quoc Mai,2002-12-08,Du lich,Quan tri Khach san,117,124,2.35,Trung binh,65,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 7 tin chi tich luy
+201A000870,Truong Viet Yen,2002-07-03,Kinh te,Ke toan,128,128,3.82,Xuat sac,76,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000871,Ly Gia Yen,2002-03-05,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.36,Trung binh,63,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000872,Pham Hoang Quang,2002-02-04,Ngoai ngu,Ngon ngu Anh,125,125,2.63,Kha,69,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000873,Vu Tuyet Nhi,2002-11-07,Kinh te,Marketing,128,128,3.06,Kha,72,Dat,Dat,Chua dat,0,0,Khong du dieu kien,Thieu chung chi GDQP-AN/GDDT
+201A000874,Ly Gia Cuong,2002-12-17,Truyen thong,Quan he Cong chuong,126,126,2.36,Trung binh,95,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000875,Dinh Gia Dung,2002-03-03,Ngoai ngu,Ngon ngu Trung Quoc,122,125,3.64,Xuat sac,57,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 3 tin chi tich luy
+201A000876,Tran Huu Linh,2002-06-04,Du lich,Quan tri Khach san,124,124,3.11,Kha,79,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000877,Ly Duc Lam,2002-03-25,Kinh te,Luat Kinh te,128,128,3.04,Kha,70,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000878,Vu Tan Linh,2002-07-28,Ngoai ngu,Ngon ngu Nhat,125,125,3.89,Xuat sac,52,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000879,Bui Hoang Mai,2002-11-10,Du lich,Quan tri Dich vu Du lich,124,124,2.66,Kha,79,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000880,Vu Huu Cuong,2002-09-29,Du lich,Quan tri Khach san,124,124,3.56,Gioi,53,Dat,Dat,Chua dat,0,0,Khong du dieu kien,Thieu chung chi GDQP-AN/GDDT
+201A000881,Truong Truc Yen,2002-03-21,Ngoai ngu,Ngon ngu Nhat,125,125,1.96,Yeu,61,Dat,Dat,Dat,0,0,Khong du dieu kien,GPA tich luy duoi 2.00 (Yeu)
+201A000882,Truong Viet Thao,2002-08-22,Truyen thong,Quan he Cong chuong,126,126,3.34,Gioi,65,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000883,Do Kim Bich,2002-04-27,Cong nghe Thong tin,Cong nghe Thong tin,122,132,2.58,Kha,83,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 10 tin chi tich luy
+201A000884,Le Tuyet Khoa,2002-08-05,Ngoai ngu,Ngon ngu Anh,125,125,2.15,Trung binh,95,Dat,Dat,Chua dat,0,0,Khong du dieu kien,Thieu chung chi GDQP-AN/GDDT
+201A000885,Bui Khanh Vy,2002-04-27,Kinh te,Logistics va Quan ly Chuoi cung ung,116,128,3.12,Kha,96,Dat,Dat,Chua dat,0,0,Khong du dieu kien,Thieu 12 tin chi tich luy | Thieu chung chi GDQP-AN/GDDT
+201A000886,Dinh Hoang Dung,2002-04-20,Truyen thong,Quan he Cong chuong,126,126,3.38,Gioi,92,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000887,Le Ngoc Giang,2002-09-14,Ngoai ngu,Ngon ngu Anh,125,125,2.07,Trung binh,63,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000888,Vu Tuyet Nam,2002-02-02,Cong nghe Thong tin,Khoa hoc Du lieu,132,132,3.7,Xuat sac,90,Dat,Dat,Chua dat,0,0,Khong du dieu kien,Thieu chung chi GDQP-AN/GDDT
+201A000889,Tran Kim Yen,2002-02-13,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.57,Kha,96,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000890,Pham Khanh Linh,2002-12-31,Cong nghe Thong tin,Cong nghe Thong tin,132,132,3.1,Kha,55,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000891,Dang Van Hang,2002-11-11,Du lich,Quan tri Khach san,124,124,2.3,Trung binh,68,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000892,Duong Nhat Thinh,2002-10-01,Cong nghe Thong tin,Ky thuat Phan mem,132,132,2.2,Trung binh,60,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000893,Tran Tan Lam,2002-06-14,Ngoai ngu,Ngon ngu Anh,125,125,3.52,Gioi,50,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000894,Cao Tan Nam,2002-01-05,Du lich,Quan tri Dich vu Du lich,124,124,3.35,Gioi,54,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000895,Ngo Khanh Vy,2002-02-27,Du lich,Quan tri Dich vu Du lich,124,124,3.18,Kha,79,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000896,Vo Nhat Lam,2002-08-30,Cong nghe Thong tin,An toan Thong tin,132,132,2.33,Trung binh,95,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000897,Ngo Gia Em,2002-04-02,Ngoai ngu,Ngon ngu Nhat,125,125,2.46,Trung binh,97,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000898,Ly Truc Nhi,2002-01-23,Du lich,Quan tri Dich vu Du lich,116,124,3.38,Gioi,52,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 8 tin chi tich luy | Chua dat chuan dau ra Ngoai ngu
+201A000899,Ngo Tan Bich,2002-09-05,Truyen thong,Truyen thong Da phuong tien,126,126,3.81,Xuat sac,57,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000900,Pham Minh Mai,2002-04-18,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.89,Kha,67,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000901,Trinh Kim An,2002-10-08,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.01,Trung binh,70,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000902,Tran Viet Phong,2002-07-20,Du lich,Quan tri Dich vu Du lich,124,124,3.21,Gioi,69,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000903,Vu Ngoc Thao,2002-05-22,Kinh te,Tai chinh Ngan hang,125,128,2.07,Trung binh,77,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 3 tin chi tich luy
+201A000904,Vu Tuyet Thinh,2002-03-02,Cong nghe Thong tin,Khoa hoc Du lieu,132,132,2.11,Trung binh,53,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000905,Truong Truc Bich,2002-10-22,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.71,Xuat sac,89,Dat,Dat,Chua dat,0,0,Khong du dieu kien,Thieu chung chi GDQP-AN/GDDT
+201A000906,Cao Viet Giang,2002-03-21,Du lich,Quan tri Khach san,115,124,2.57,Kha,55,Dat,Dat,Chua dat,0,0,Khong du dieu kien,Thieu 9 tin chi tich luy | Thieu chung chi GDQP-AN/GDDT
+201A000907,Dinh Van Linh,2002-09-23,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.39,Trung binh,53,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000908,Mai Van Mai,2002-05-03,Cong nghe Thong tin,Cong nghe Thong tin,132,132,3.06,Kha,70,Chua dat,Dat,Chua dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu | Thieu chung chi GDQP-AN/GDDT
+201A000909,Cao Gia Lam,2002-07-29,Kinh te,Marketing,128,128,2.03,Trung binh,62,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000910,Vu Van Giang,2002-12-19,Kinh te,Luat Kinh te,128,128,2.84,Kha,96,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000911,Nguyen Ngoc An,2002-10-31,Du lich,Quan tri Khach san,124,124,2.15,Trung binh,98,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Tin hoc
+201A000912,Mai Quoc Lam,2002-10-19,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.41,Trung binh,93,Dat,Dat,Chua dat,0,0,Khong du dieu kien,Thieu chung chi GDQP-AN/GDDT
+201A000913,Huynh Kim Quang,2002-10-20,Ngoai ngu,Ngon ngu Anh,125,125,3.28,Gioi,62,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000914,Le Phuong Phong,2002-12-19,Du lich,Quan tri Dich vu Du lich,124,124,3.33,Gioi,54,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000915,Truong Hoang An,2002-01-16,Kinh te,Marketing,128,128,2.59,Kha,69,Dat,Dat,Chua dat,0,0,Khong du dieu kien,Thieu chung chi GDQP-AN/GDDT
+201A000916,Dang Thanh Lam,2002-12-30,Ngoai ngu,Ngon ngu Trung Quoc,125,125,2.76,Kha,65,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000917,Do Thi Lam,2002-08-04,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,1.87,Yeu,60,Dat,Dat,Dat,0,0,Khong du dieu kien,GPA tich luy duoi 2.00 (Yeu)
+201A000918,Hoang Van Vy,2002-12-29,Kinh te,Logistics va Quan ly Chuoi cung ung,128,128,3.58,Gioi,74,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000919,Mai Viet Thao,2002-10-21,Truyen thong,Truyen thong Da phuong tien,126,126,1.88,Yeu,52,Dat,Dat,Dat,0,0,Khong du dieu kien,GPA tich luy duoi 2.00 (Yeu)
+201A000920,Duong Nhat Khoa,2002-07-21,Ngoai ngu,Ngon ngu Trung Quoc,124,125,2.84,Kha,59,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 1 tin chi tich luy
+201A000921,Trinh Viet An,2002-03-22,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.31,Gioi,72,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000922,Truong Quoc Quan,2002-06-18,Du lich,Quan tri Dich vu Du lich,124,124,3.42,Gioi,71,Dat,Dat,Dat,1,0,Khong du dieu kien,Con no hoc phi / Chi phi thuat
+201A000923,Phan Ngoc Cuong,2002-05-21,Kinh te,Quan tri Kinh doanh,128,128,1.97,Yeu,50,Dat,Dat,Dat,0,0,Khong du dieu kien,GPA tich luy duoi 2.00 (Yeu)
+201A000924,Huynh Tuyet Vy,2002-08-10,Du lich,Quan tri Khach san,124,124,3.27,Gioi,79,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000925,Vu Phuong Dung,2002-09-08,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,1.95,Yeu,90,Dat,Dat,Dat,0,0,Khong du dieu kien,GPA tich luy duoi 2.00 (Yeu)
+201A000926,Cao Huu Thao,2002-02-14,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.87,Xuat sac,73,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000927,Ly Kim Vy,2002-07-09,Kinh te,Quan tri Kinh doanh,128,128,2.31,Trung binh,70,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000928,Vu Thi Giang,2002-01-13,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.26,Gioi,71,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000929,Truong Thi Nam,2002-04-07,Du lich,Quan tri Khach san,124,124,3.41,Gioi,81,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000930,Cao Quoc Bich,2002-12-06,Ngoai ngu,Ngon ngu Trung Quoc,125,125,1.89,Yeu,68,Dat,Chua dat,Dat,0,0,Khong du dieu kien,GPA tich luy duoi 2.00 (Yeu) | Chua dat chuan dau ra Tin hoc
+201A000931,Vu Minh An,2002-08-13,Ngoai ngu,Ngon ngu Anh,125,125,3.31,Gioi,71,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000932,Huynh Phuong Lam,2002-04-25,Du lich,Quan tri Khach san,124,124,2.58,Kha,57,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000933,Trinh Thi Thao,2002-02-09,Kinh te,Tai chinh Ngan hang,128,128,3.89,Xuat sac,91,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000934,Dinh Minh Nhi,2002-01-08,Du lich,Quan tri Dich vu Du lich,120,124,2.62,Kha,61,Dat,Chua dat,Dat,0,0,Khong du dieu kien,Thieu 4 tin chi tich luy | Chua dat chuan dau ra Tin hoc
+201A000935,Hoang Gia Cuong,2002-10-31,Du lich,Quan tri Khach san,121,124,2.8,Kha,81,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 3 tin chi tich luy
+201A000936,Pham Khanh Yen,2002-01-15,Kinh te,Ke toan,116,128,2.96,Kha,58,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 12 tin chi tich luy
+201A000937,Huynh Truc Hang,2002-06-18,Kinh te,Marketing,128,128,3.74,Xuat sac,82,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000938,Dang Kim Khoa,2002-07-12,Kinh te,Marketing,128,128,3.31,Gioi,58,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000939,Le Nhat Dung,2002-09-18,Kinh te,Luat Kinh te,128,128,3.73,Xuat sac,73,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000940,Pham Tuyet Thao,2002-08-25,Ngoai ngu,Ngon ngu Nhat,125,125,3.26,Gioi,64,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000941,Pham Minh Thinh,2002-06-15,Kinh te,Quan tri Kinh doanh,128,128,1.94,Yeu,50,Chua dat,Dat,Dat,0,0,Khong du dieu kien,GPA tich luy duoi 2.00 (Yeu) | Chua dat chuan dau ra Ngoai ngu
+201A000942,Mai Ngoc Quan,2002-06-08,Truyen thong,Quan he Cong chuong,126,126,2.21,Trung binh,96,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000943,Huynh Phuong Dung,2002-05-24,Truyen thong,Quan he Cong chuong,126,126,2.81,Kha,71,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000944,Nguyen Duc Yen,2002-05-27,Ngoai ngu,Ngon ngu Nhat,125,125,2.13,Trung binh,95,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000945,Do Van Hang,2002-01-26,Ngoai ngu,Ngon ngu Trung Quoc,125,125,2.67,Kha,86,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000946,Hoang Duc Hang,2002-04-09,Ngoai ngu,Ngon ngu Trung Quoc,125,125,3.33,Gioi,63,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000947,Ly Quoc Lam,2002-05-24,Ngoai ngu,Ngon ngu Anh,125,125,3.85,Xuat sac,57,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000948,Dang Thanh Quang,2002-03-29,Ky thuat Cong nghe,Cong nghe Ky thuat O to,133,135,3.13,Kha,51,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 2 tin chi tich luy
+201A000949,Trinh Tan Dung,2002-09-22,Truyen thong,Truyen thong Da phuong tien,126,126,2.73,Kha,63,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000950,Ngo Gia Cuong,2002-05-22,Cong nghe Thong tin,Ky thuat Phan mem,132,132,3.02,Kha,67,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000951,Cao Gia Khoa,2002-02-18,Truyen thong,Truyen thong Da phuong tien,126,126,3.91,Xuat sac,88,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000952,Cao Phuong Thinh,2002-06-15,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.39,Trung binh,62,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000953,Huynh Truc Nhi,2002-03-02,Kinh te,Marketing,128,128,2.09,Trung binh,97,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000954,Huynh Tan Thinh,2002-02-14,Truyen thong,Truyen thong Da phuong tien,126,126,3.82,Xuat sac,72,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000955,Phan Huu Quang,2002-05-27,Truyen thong,Quan he Cong chuong,126,126,2.17,Trung binh,56,Dat,Dat,Dat,1,0,Khong du dieu kien,Con no hoc phi / Chi phi thuat
+201A000956,Dang Hoang Dung,2002-03-09,Kinh te,Quan tri Kinh doanh,121,128,3.0,Kha,78,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 7 tin chi tich luy
+201A000957,Cao Gia Hang,2002-11-16,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.8,Kha,71,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000958,Bui Phuong Nam,2002-12-30,Cong nghe Thong tin,Ky thuat Phan mem,124,132,2.62,Kha,55,Dat,Dat,Chua dat,0,0,Khong du dieu kien,Thieu 8 tin chi tich luy | Thieu chung chi GDQP-AN/GDDT
+201A000959,Pham Gia Dung,2002-08-25,Kinh te,Marketing,128,128,2.22,Trung binh,66,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000960,Pham Gia Thinh,2002-12-01,Ky thuat Cong nghe,Cong nghe Ky thuat O to,128,135,2.75,Kha,80,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 7 tin chi tich luy
+201A000961,Vu Hoang Bich,2002-08-21,Ngoai ngu,Ngon ngu Anh,125,125,2.45,Trung binh,58,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000962,Vu Duc Nhi,2002-09-28,Kinh te,Ke toan,122,128,3.33,Gioi,57,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 6 tin chi tich luy
+201A000963,Dinh Khanh Nhi,2002-04-29,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.46,Gioi,55,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000964,Huynh Truc Cuong,2002-04-05,Ngoai ngu,Ngon ngu Anh,125,125,2.23,Trung binh,83,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000965,Dinh Phuong Thinh,2002-09-06,Ngoai ngu,Ngon ngu Anh,125,125,3.07,Kha,80,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000966,Hoang Nhat Thao,2002-06-07,Truyen thong,Quan he Cong chuong,126,126,2.46,Trung binh,76,Dat,Dat,Dat,1,0,Khong du dieu kien,Con no hoc phi / Chi phi thuat
+201A000967,Pham Quoc Khoa,2002-01-19,Ngoai ngu,Ngon ngu Nhat,125,125,2.15,Trung binh,95,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000968,Vu Khanh Thinh,2002-03-03,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.73,Xuat sac,65,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000969,Ngo Thanh Dung,2002-08-21,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.43,Trung binh,55,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000970,Pham Khanh Yen,2002-12-30,Kinh te,Quan tri Kinh doanh,128,128,2.56,Kha,92,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000971,Vu Minh An,2002-02-01,Truyen thong,Truyen thong Da phuong tien,126,126,3.52,Gioi,87,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000972,Do Hoang Hang,2002-07-04,Truyen thong,Quan he Cong chuong,126,126,3.76,Xuat sac,84,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000973,Truong Van Cuong,2002-03-07,Ngoai ngu,Ngon ngu Nhat,125,125,3.41,Gioi,64,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000974,Ly Thanh Thinh,2002-05-22,Du lich,Quan tri Dich vu Du lich,118,124,3.26,Gioi,89,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 6 tin chi tich luy
+201A000975,Nguyen Huu Vy,2002-04-11,Kinh te,Tai chinh Ngan hang,128,128,3.94,Xuat sac,52,Dat,Dat,Chua dat,0,0,Khong du dieu kien,Thieu chung chi GDQP-AN/GDDT
+201A000976,Dang Truc Quang,2002-07-13,Cong nghe Thong tin,Cong nghe Thong tin,132,132,3.62,Xuat sac,82,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000977,Pham Phuong Nhi,2002-11-02,Ngoai ngu,Ngon ngu Trung Quoc,125,125,2.67,Kha,77,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000978,Do Thi Em,2002-10-25,Ngoai ngu,Ngon ngu Nhat,125,125,2.59,Kha,57,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000979,Nguyen Hoang Thao,2002-11-30,Truyen thong,Quan he Cong chuong,126,126,2.58,Kha,58,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000980,Vu Kim Thao,2002-04-21,Truyen thong,Truyen thong Da phuong tien,118,126,2.66,Kha,81,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 8 tin chi tich luy | Chua dat chuan dau ra Ngoai ngu
+201A000981,Ly Khanh Phong,2002-05-27,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.41,Gioi,60,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Gioi
+201A000982,Bui Hoang Phong,2002-06-14,Ngoai ngu,Ngon ngu Anh,125,125,3.24,Gioi,59,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000983,Vu Ngoc Giang,2002-03-12,Cong nghe Thong tin,An toan Thong tin,132,132,3.14,Kha,94,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000984,Tran Khanh Bich,2002-11-04,Truyen thong,Truyen thong Da phuong tien,126,126,3.04,Kha,55,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000985,Pham Truc Quan,2002-05-04,Kinh te,Logistics va Quan ly Chuoi cung ung,128,128,2.1,Trung binh,85,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000986,Le Khanh Cuong,2002-12-19,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.46,Trung binh,96,Chua dat,Dat,Chua dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu | Thieu chung chi GDQP-AN/GDDT
+201A000987,Bui Van Mai,2002-01-26,Du lich,Quan tri Khach san,124,124,2.48,Trung binh,84,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000988,Hoang Phuong Phong,2002-06-27,Ngoai ngu,Ngon ngu Trung Quoc,125,125,3.9,Xuat sac,57,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000989,Le Thi Cuong,2002-04-13,Cong nghe Thong tin,Ky thuat Phan mem,129,132,2.79,Kha,92,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 3 tin chi tich luy
+201A000990,Bui Ngoc Phong,2002-01-18,Truyen thong,Truyen thong Da phuong tien,126,126,3.15,Kha,80,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000991,Ngo Minh Nam,2002-04-27,Kinh te,Marketing,128,128,2.63,Kha,75,Chua dat,Dat,Dat,0,0,Khong du dieu kien,Chua dat chuan dau ra Ngoai ngu
+201A000992,Nguyen Phuong Khoa,2002-02-12,Ngoai ngu,Ngon ngu Nhat,125,125,3.66,Xuat sac,50,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000993,Trinh Tuyet Linh,2002-05-13,Truyen thong,Quan he Cong chuong,126,126,2.03,Trung binh,54,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000994,Do Van Em,2002-10-17,Kinh te,Luat Kinh te,125,128,2.14,Trung binh,60,Dat,Dat,Dat,0,0,Khong du dieu kien,Thieu 3 tin chi tich luy
+201A000995,Truong Duc Dung,2002-07-25,Cong nghe Thong tin,Ky thuat Phan mem,132,132,2.03,Trung binh,87,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000996,Trinh Huu Hang,2002-01-10,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,3.86,Xuat sac,97,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Xuat sac
+201A000997,Ngo Duc Nam,2002-07-22,Ngoai ngu,Ngon ngu Anh,125,125,2.66,Kha,96,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A000998,Vo Tuyet Cuong,2002-03-31,Ky thuat Cong nghe,Cong nghe Ky thuat O to,135,135,2.44,Trung binh,65,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh
+201A000999,Ly Minh Dung,2002-05-27,Du lich,Quan tri Khach san,124,124,3.09,Kha,51,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Kha
+201A001000,Pham Tuyet Quang,2002-04-30,Du lich,Quan tri Dich vu Du lich,124,124,2.26,Trung binh,73,Dat,Dat,Dat,0,0,Du dieu kien,Du dieu kien tot nghiep hang Trung binh

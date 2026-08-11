@@ -1,0 +1,151 @@
+﻿MaBenhNhan,HoTen,GioiTinh,Tuoi,NgayKham,Khoa,BacSiPhuTrach,ChanDoan,NhietDo,HuyetApTamThu,HuyetApTamTruong,NhipTim,ChiPhi_VND,TrangThai,BaoHiemYTe
+BN100001,Hoàng Việt Tùng,Nam,5,2025-05-10,Nhi,Đặng Anh Bình,Thiếu máu,38.3,141,84,96,150000,Đang điều trị,Không
+BN100002,Đỗ Hải Diệp,Nữ,74,2025-05-21,Tai Mũi Họng,Huỳnh Hải Quyên,Đau nửa đầu,38.3,126,67,61,350000,Chuyển viện,Không
+BN100003,Võ Đức Tùng,Nam,28,2025-10-20,Sản phụ khoa,Đặng Anh Bình,Viêm họng,36.5,104,88,71,3500000,Đã xuất viện,Không
+BN100004,Lê Bảo Trang,Nữ,38,2025-11-04,Tim mạch,Huỳnh Hải My,Dị ứng thời tiết,39.2,117,83,92,500000,Đã xuất viện,Có
+BN100005,Vũ Xuân An,Nam,47,2026-01-13,Sản phụ khoa,Trần Minh Yến,Sốt xuất huyết,36.5,106,64,79,2000000,Chuyển viện,Không
+BN100006,Lê Thu Mai,Nữ,83,2025-03-17,Sản phụ khoa,Võ Ngọc Nhi,Đau lưng mãn tính,37.8,111,95,100,350000,Đang điều trị,Không
+BN100007,Phạm Công Đạt,Nam,39,2025-06-18,Tim mạch,Hồ Hải Ngân,Viêm khớp,38.5,139,93,78,250000,Tái khám,Có
+BN100008,Hoàng Hồng Yến,Nữ,69,2025-04-06,Tim mạch,Bùi Ngọc Diệp,Viêm xoang,36.5,138,96,62,150000,Đã xuất viện,Có
+BN100009,Phan Thanh Nhi,Nữ,80,2025-02-01,Sản phụ khoa,Đỗ Bảo Hạnh,Đau lưng mãn tính,37.9,133,90,75,2000000,Tái khám,Không
+BN100010,Trần Minh Tùng,Nam,54,2026-05-11,Sản phụ khoa,Đặng Anh Bình,Đau nửa đầu,38.1,135,80,106,1200000,Chuyển viện,Có
+BN100011,Phạm Minh Huyền,Nữ,60,2025-05-06,Da liễu,Võ Ngọc Nhi,Đái tháo đường type 2,36.5,101,78,84,2000000,Đang điều trị,Có
+BN100012,Bùi Diễm Hạnh,Nữ,64,2026-06-12,Sản phụ khoa,Võ Ngọc Nhi,Viêm khớp,37.1,97,65,85,3500000,Đang điều trị,Có
+BN100013,Trần Thị Linh,Nữ,64,2026-04-27,Da liễu,Ngô Việt Hải,Cảm cúm,39.0,150,68,76,1200000,Chuyển viện,Không
+BN100014,Hồ Văn Phát,Nam,72,2025-07-19,Tai Mũi Họng,Ngô Việt Hải,Viêm dạ dày,36.3,159,88,108,750000,Đã xuất viện,Có
+BN100015,Hồ Anh Nam,Nam,72,2026-01-10,Tim mạch,Đặng Anh Bình,Viêm xoang,37.8,159,62,62,150000,Đang điều trị,Không
+BN100016,Dương Thu Yến,Nữ,66,2025-05-24,Tai Mũi Họng,Đỗ Bảo Hạnh,Viêm xoang,37.1,145,99,107,750000,Tái khám,Không
+BN100017,Lý Thị My,Nữ,43,2025-04-23,Chấn thương chỉnh hình,Bùi Ngọc Diệp,Viêm dạ dày,38.8,98,98,90,750000,Đang điều trị,Có
+BN100018,Huỳnh Bảo Yến,Nữ,49,2025-06-01,Tiêu hóa,Đặng Quốc Bình,Viêm xoang,39.3,109,72,61,3500000,Tái khám,Không
+BN100019,Ngô Quốc Sơn,Nam,65,2026-04-28,Nội tổng quát,Huỳnh Hải My,Tăng huyết áp,37.8,136,90,93,2000000,Tái khám,Có
+BN100020,Bùi Bảo My,Nữ,83,2025-09-28,Sản phụ khoa,Đặng Anh Bình,Đái tháo đường type 2,37.0,133,74,79,750000,Đang điều trị,Không
+BN100021,Lý Minh Trang,Nữ,36,2025-10-22,Nhi,Bùi Ngọc Diệp,Đau lưng mãn tính,37.9,145,82,109,350000,Tái khám,Có
+BN100022,Lê Minh Phương,Nữ,84,2025-09-20,Sản phụ khoa,Đặng Anh Bình,Đái tháo đường type 2,38.9,129,95,104,750000,Đang điều trị,Có
+BN100023,Vũ Văn Kiên,Nam,29,2025-08-27,Nội tổng quát,Trần Anh Minh,Rối loạn tiêu hóa,37.2,155,66,103,350000,Đã xuất viện,Có
+BN100024,Lý Hải Hoa,Nữ,37,2025-11-25,Da liễu,Đặng Hồng Phương,Cảm cúm,39.2,106,96,74,150000,Đang điều trị,Không
+BN100025,Trần Thành Việt,Nam,24,2025-10-24,Nội tổng quát,Đặng Quốc Bình,Viêm dạ dày,38.0,108,81,78,3500000,Chuyển viện,Có
+BN100026,Võ Diễm Giang,Nữ,43,2025-06-16,Sản phụ khoa,Đặng Hồng Phương,Viêm dạ dày,38.5,96,81,110,750000,Đang điều trị,Có
+BN100027,Ngô Bảo Mai,Nữ,12,2026-02-15,Nhi,Lý Hồng Chi,Tăng huyết áp,37.7,126,60,76,2000000,Đang điều trị,Không
+BN100028,Bùi Hồng Vy,Nữ,74,2025-01-12,Da liễu,Đặng Hồng Phương,Đau nửa đầu,38.4,102,67,89,750000,Đang điều trị,Không
+BN100029,Phạm Hồng My,Nữ,79,2025-08-15,Tiêu hóa,Lý Hồng Chi,Viêm phế quản,36.5,142,86,104,3500000,Đang điều trị,Có
+BN100030,Dương Công Phong,Nam,10,2025-04-25,Nội tổng quát,Võ Thị Diệp,Sốt xuất huyết,39.2,120,96,94,350000,Đang điều trị,Không
+BN100031,Phạm Diễm Vy,Nữ,63,2025-04-04,Sản phụ khoa,Trần Minh Yến,Cảm cúm,37.6,160,86,89,150000,Chuyển viện,Không
+BN100032,Hồ Đức An,Nam,28,2025-03-16,Nội tổng quát,Huỳnh Hải Quyên,Đau nửa đầu,38.5,102,64,90,150000,Tái khám,Không
+BN100033,Hoàng Thành Phong,Nam,49,2026-04-05,Chấn thương chỉnh hình,Huỳnh Hải Quyên,Viêm họng,38.4,112,82,67,350000,Chuyển viện,Có
+BN100034,Nguyễn Văn Minh,Nam,60,2026-07-12,Chấn thương chỉnh hình,Ngô Việt Hải,Rối loạn tiêu hóa,38.9,126,89,82,350000,Tái khám,Có
+BN100035,Trần Thành Trung,Nam,3,2025-09-04,Tiêu hóa,Trần Anh Minh,Viêm họng,38.1,152,98,103,150000,Đang điều trị,Có
+BN100036,Dương Diễm Trang,Nữ,28,2025-02-27,Tim mạch,Ngô Việt Hải,Viêm dạ dày,36.8,135,96,98,1200000,Đang điều trị,Không
+BN100037,Vũ Thành Minh,Nam,36,2025-03-04,Tim mạch,Đặng Hồng Phương,Đau lưng mãn tính,37.5,158,63,82,2000000,Tái khám,Không
+BN100038,Hoàng Hồng Ngân,Nữ,24,2026-07-05,Sản phụ khoa,Đặng Anh Bình,Rối loạn lo âu,36.8,113,89,63,2000000,Chuyển viện,Có
+BN100039,Vũ Hồng Hoa,Nữ,43,2025-03-22,Sản phụ khoa,Võ Thị Diệp,Đau nửa đầu,36.3,119,63,77,2000000,Đã xuất viện,Có
+BN100040,Phan Xuân Hùng,Nam,43,2025-11-07,Nội tổng quát,Đặng Anh Bình,Viêm khớp,36.7,110,90,75,500000,Chuyển viện,Có
+BN100041,Đặng Kim Phương,Nữ,69,2026-01-03,Da liễu,Võ Ngọc My,Đau nửa đầu,37.8,158,89,66,3500000,Tái khám,Có
+BN100042,Bùi Kim Chi,Nữ,73,2025-08-15,Tim mạch,Đặng Quốc Bình,Viêm dạ dày,37.9,148,78,69,500000,Tái khám,Có
+BN100043,Vũ Hải Trang,Nữ,84,2025-12-12,Da liễu,Trần Minh Yến,Rối loạn lo âu,37.7,157,89,70,1200000,Đang điều trị,Có
+BN100044,Huỳnh Bảo Chi,Nữ,68,2025-02-04,Nhi,Võ Thị Diệp,Đau lưng mãn tính,36.2,95,86,68,500000,Đã xuất viện,Có
+BN100045,Phan Công Tùng,Nam,48,2025-03-03,Sản phụ khoa,Đặng Hồng Phương,Viêm phế quản,36.1,147,60,61,750000,Tái khám,Có
+BN100046,Huỳnh Ngọc Giang,Nữ,68,2025-06-02,Tiêu hóa,Đặng Anh Bình,Viêm xoang,37.8,140,77,110,2000000,Đã xuất viện,Không
+BN100047,Dương Thanh Huyền,Nữ,29,2025-11-04,Nhi,Đặng Hồng Phương,Rối loạn lo âu,38.3,99,65,85,2000000,Chuyển viện,Không
+BN100048,Nguyễn Minh Cường,Nam,64,2026-03-21,Tai Mũi Họng,Bùi Ngọc Diệp,Rối loạn lo âu,39.4,100,74,73,3500000,Tái khám,Có
+BN100049,Võ Công Phát,Nam,85,2025-02-03,Tim mạch,Đỗ Bảo Hạnh,Rối loạn lo âu,37.1,121,97,69,2000000,Đã xuất viện,Không
+BN100050,Vũ Việt Quân,Nam,70,2025-12-06,Chấn thương chỉnh hình,Trần Minh Yến,Dị ứng thời tiết,36.5,105,92,107,1200000,Đã xuất viện,Có
+BN100051,Vũ Ngọc Mai,Nữ,78,2026-02-11,Tai Mũi Họng,Đặng Quốc Bình,Đau lưng mãn tính,37.0,152,91,74,1200000,Chuyển viện,Không
+BN100052,Hồ Hữu Trung,Nam,38,2025-09-10,Nhi,Trần Anh Minh,Viêm dạ dày,36.5,114,84,80,1200000,Đã xuất viện,Có
+BN100053,Đặng Xuân Phong,Nam,35,2025-04-15,Tim mạch,Trần Anh Minh,Tăng huyết áp,37.5,160,86,66,150000,Đã xuất viện,Không
+BN100054,Bùi Thành An,Nam,38,2026-02-28,Chấn thương chỉnh hình,Trần Minh Yến,Viêm họng,38.5,126,96,93,350000,Chuyển viện,Có
+BN100055,Võ Đức Long,Nam,64,2025-05-30,Nhi,Lý Hồng Chi,Rối loạn tiêu hóa,37.0,133,90,110,250000,Tái khám,Không
+BN100056,Lý Việt Trung,Nam,26,2026-04-14,Nhi,Lý Hồng Chi,Viêm dạ dày,36.0,145,81,99,2000000,Tái khám,Không
+BN100057,Ngô Thanh Hà,Nữ,39,2025-11-25,Tiêu hóa,Võ Ngọc Nhi,Đau nửa đầu,36.6,145,80,78,3500000,Đang điều trị,Không
+BN100058,Võ Kim My,Nữ,15,2025-07-24,Tim mạch,Đặng Hồng Phương,Thiếu máu,37.9,154,73,88,750000,Đã xuất viện,Không
+BN100059,Hoàng Hồng Huyền,Nữ,33,2025-06-07,Chấn thương chỉnh hình,Trần Minh Yến,Rối loạn tiêu hóa,36.3,156,97,85,2000000,Đã xuất viện,Không
+BN100060,Phạm Quốc Phong,Nam,22,2025-02-15,Chấn thương chỉnh hình,Trần Minh Yến,Đau nửa đầu,39.4,150,66,60,250000,Tái khám,Có
+BN100061,Dương Anh Quân,Nam,60,2026-05-28,Tim mạch,Hồ Hải Ngân,Cảm cúm,37.7,132,86,65,250000,Đang điều trị,Không
+BN100062,Bùi Hải Hoa,Nữ,67,2026-05-10,Tai Mũi Họng,Võ Ngọc Nhi,Viêm họng,37.5,152,80,64,750000,Đã xuất viện,Có
+BN100063,Bùi Hữu Hải,Nam,32,2026-06-13,Tim mạch,Ngô Việt Hải,Tăng huyết áp,37.2,149,89,74,2000000,Đang điều trị,Có
+BN100064,Hồ Thị Yến,Nữ,26,2026-04-06,Chấn thương chỉnh hình,Huỳnh Hải Quyên,Cảm cúm,38.5,121,77,108,250000,Đã xuất viện,Có
+BN100065,Bùi Diễm Phương,Nữ,15,2025-09-26,Sản phụ khoa,Ngô Việt Hải,Đau lưng mãn tính,37.1,144,99,85,250000,Tái khám,Không
+BN100066,Huỳnh Hồng Yến,Nữ,76,2025-03-28,Tim mạch,Hồ Hải Ngân,Viêm họng,36.8,109,71,83,350000,Chuyển viện,Không
+BN100067,Hồ Thành Hải,Nam,63,2026-07-05,Tim mạch,Ngô Việt Hải,Tăng huyết áp,37.7,112,71,80,3500000,Đã xuất viện,Không
+BN100068,Lý Minh Hùng,Nam,50,2026-06-02,Sản phụ khoa,Huỳnh Hải Quyên,Đau lưng mãn tính,37.7,151,91,70,250000,Đã xuất viện,Có
+BN100069,Trần Hồng Huyền,Nữ,69,2025-10-23,Tim mạch,Trần Minh Yến,Viêm phế quản,38.0,158,95,92,250000,Đã xuất viện,Không
+BN100070,Trần Hải Trang,Nữ,28,2026-03-12,Nhi,Huỳnh Hải My,Rối loạn lo âu,38.3,126,79,62,3500000,Tái khám,Không
+BN100071,Dương Hữu Khang,Nam,27,2025-12-26,Chấn thương chỉnh hình,Lý Hồng Chi,Viêm xoang,36.5,121,73,63,1200000,Tái khám,Có
+BN100072,Đặng Hồng Vy,Nữ,35,2026-06-11,Nhi,Lý Hồng Chi,Thiếu máu,38.7,102,77,101,350000,Đang điều trị,Có
+BN100073,Bùi Quốc Quân,Nam,63,2025-05-26,Da liễu,Đặng Hồng Phương,Rối loạn tiêu hóa,37.3,104,100,110,250000,Chuyển viện,Không
+BN100074,Dương Hải Mai,Nữ,75,2025-01-03,Nhi,Huỳnh Hải My,Viêm phế quản,38.2,140,64,110,2000000,Đang điều trị,Không
+BN100075,Lý Đức Nam,Nam,37,2025-12-12,Tim mạch,Bùi Ngọc Diệp,Rối loạn lo âu,37.7,138,63,62,250000,Chuyển viện,Có
+BN100076,Huỳnh Xuân Tùng,Nam,1,2026-03-15,Tiêu hóa,Huỳnh Hải My,Viêm khớp,36.5,133,70,77,250000,Tái khám,Không
+BN100077,Đỗ Minh Bình,Nam,51,2025-11-09,Tiêu hóa,Huỳnh Hải Quyên,Đau lưng mãn tính,36.3,107,60,73,3500000,Đã xuất viện,Có
+BN100078,Dương Văn An,Nam,44,2025-05-04,Chấn thương chỉnh hình,Huỳnh Hải My,Tăng huyết áp,37.7,124,84,65,250000,Đã xuất viện,Không
+BN100079,Đặng Thu Ngân,Nữ,18,2025-05-27,Nhi,Ngô Việt Hải,Viêm xoang,36.0,116,88,82,500000,Đang điều trị,Không
+BN100080,Phan Ngọc Giang,Nữ,18,2025-05-07,Chấn thương chỉnh hình,Hồ Hải Ngân,Rối loạn tiêu hóa,37.1,112,75,77,250000,Đang điều trị,Không
+BN100081,Đặng Quốc Kiên,Nam,78,2026-06-06,Tiêu hóa,Huỳnh Hải My,Rối loạn tiêu hóa,37.0,101,75,91,2000000,Đã xuất viện,Có
+BN100082,Lê Bảo Anh,Nữ,47,2025-11-21,Tim mạch,Huỳnh Hải Quyên,Rối loạn lo âu,38.9,148,83,94,350000,Chuyển viện,Có
+BN100083,Lê Văn Long,Nam,28,2025-02-10,Nội tổng quát,Trần Minh Yến,Rối loạn tiêu hóa,37.8,159,86,87,2000000,Đã xuất viện,Có
+BN100084,Lê Hồng Diệp,Nữ,66,2025-07-28,Tim mạch,Ngô Việt Hải,Đau nửa đầu,37.4,103,79,104,2000000,Đang điều trị,Có
+BN100085,Lê Thành Dũng,Nam,59,2025-02-26,Da liễu,Đặng Hồng Phương,Dị ứng thời tiết,38.3,117,67,60,350000,Đã xuất viện,Có
+BN100086,Đỗ Bảo Thảo,Nữ,34,2025-06-20,Tai Mũi Họng,Lý Hồng Chi,Dị ứng thời tiết,38.7,129,67,109,150000,Tái khám,Không
+BN100087,Lê Hồng Vy,Nữ,81,2025-03-20,Sản phụ khoa,Võ Ngọc Nhi,Sốt xuất huyết,37.3,158,96,70,1200000,Đang điều trị,Không
+BN100088,Phạm Quốc Kiên,Nam,1,2025-02-15,Nội tổng quát,Đặng Anh Bình,Cảm cúm,37.7,144,69,71,150000,Chuyển viện,Có
+BN100089,Vũ Kim Mai,Nữ,35,2025-03-21,Tai Mũi Họng,Trần Anh Minh,Sốt xuất huyết,38.4,101,71,74,150000,Chuyển viện,Có
+BN100090,Đặng Hồng Mai,Nữ,12,2026-04-13,Nội tổng quát,Hồ Hải Ngân,Đái tháo đường type 2,37.0,133,99,75,3500000,Tái khám,Không
+BN100091,Vũ Minh An,Nam,53,2025-01-25,Tiêu hóa,Ngô Việt Hải,Đau nửa đầu,38.2,96,81,60,2000000,Tái khám,Có
+BN100092,Vũ Thành Việt,Nam,8,2025-05-26,Da liễu,Trần Anh Minh,Cảm cúm,39.2,147,83,89,250000,Đã xuất viện,Có
+BN100093,Lê Thanh Vy,Nữ,8,2026-03-22,Tim mạch,Đặng Anh Bình,Viêm dạ dày,36.9,135,85,104,1200000,Tái khám,Không
+BN100094,Vũ Ngọc Hoa,Nữ,18,2025-04-22,Tim mạch,Trần Anh Minh,Tăng huyết áp,37.6,135,86,67,1200000,Đang điều trị,Không
+BN100095,Dương Hồng Giang,Nữ,12,2025-06-11,Da liễu,Võ Thị Diệp,Dị ứng thời tiết,38.4,100,73,80,350000,Đã xuất viện,Có
+BN100096,Hồ Bảo Chi,Nữ,39,2025-09-24,Tim mạch,Đặng Quốc Bình,Rối loạn tiêu hóa,39.0,126,66,89,250000,Đang điều trị,Có
+BN100097,Trần Quốc Đạt,Nam,26,2026-02-15,Tai Mũi Họng,Đặng Hồng Phương,Đau lưng mãn tính,39.3,105,97,97,750000,Đã xuất viện,Có
+BN100098,Phan Xuân Đạt,Nam,12,2025-12-06,Nhi,Đặng Quốc Bình,Viêm phế quản,36.2,150,85,91,150000,Chuyển viện,Không
+BN100099,Đỗ Quốc Hải,Nam,36,2025-10-14,Sản phụ khoa,Đỗ Bảo Hạnh,Tăng huyết áp,36.1,126,78,91,2000000,Chuyển viện,Có
+BN100100,Võ Thành Đạt,Nam,54,2025-07-24,Tiêu hóa,Đặng Hồng Phương,Thiếu máu,37.9,97,84,110,1200000,Chuyển viện,Không
+BN100101,Bùi Kim Lan,Nữ,24,2025-01-27,Tai Mũi Họng,Bùi Ngọc Diệp,Đái tháo đường type 2,36.1,130,63,90,1200000,Đang điều trị,Có
+BN100102,Vũ Quốc Long,Nam,69,2025-02-27,Tiêu hóa,Bùi Ngọc Diệp,Rối loạn lo âu,39.4,144,82,71,350000,Đang điều trị,Không
+BN100103,Nguyễn Minh Vy,Nữ,73,2025-05-26,Tiêu hóa,Võ Thị Diệp,Thiếu máu,39.1,158,94,79,350000,Chuyển viện,Có
+BN100104,Trần Quốc Trung,Nam,29,2025-01-21,Sản phụ khoa,Đặng Quốc Bình,Đau nửa đầu,39.2,120,68,81,350000,Tái khám,Có
+BN100105,Hoàng Việt Đạt,Nam,15,2026-06-23,Tai Mũi Họng,Trần Anh Minh,Đau nửa đầu,38.5,145,97,66,1200000,Tái khám,Không
+BN100106,Huỳnh Thành Việt,Nam,84,2025-11-21,Tim mạch,Huỳnh Hải My,Sốt xuất huyết,38.4,140,74,102,350000,Chuyển viện,Không
+BN100107,Hoàng Thu Anh,Nữ,74,2026-02-05,Nội tổng quát,Lý Hồng Chi,Viêm xoang,37.1,123,100,96,250000,Chuyển viện,Có
+BN100108,Lê Diễm My,Nữ,41,2025-06-21,Nhi,Võ Thị Diệp,Dị ứng thời tiết,38.3,137,88,60,750000,Đang điều trị,Có
+BN100109,Đỗ Đức Dũng,Nam,1,2025-02-19,Chấn thương chỉnh hình,Võ Ngọc Nhi,Dị ứng thời tiết,37.5,116,86,91,2000000,Tái khám,Không
+BN100110,Lý Việt Khang,Nam,21,2026-04-08,Nhi,Trần Minh Yến,Rối loạn lo âu,36.1,97,80,76,250000,Đã xuất viện,Không
+BN100111,Hồ Minh Cường,Nam,71,2025-04-06,Tai Mũi Họng,Bùi Ngọc Diệp,Viêm xoang,39.1,98,87,101,350000,Chuyển viện,Có
+BN100112,Phạm Anh Hùng,Nam,25,2026-02-24,Da liễu,Đặng Hồng Phương,Viêm dạ dày,37.0,107,63,85,3500000,Đang điều trị,Có
+BN100113,Nguyễn Kim Diệp,Nữ,38,2026-05-07,Tiêu hóa,Trần Anh Minh,Cảm cúm,36.7,132,65,90,250000,Tái khám,Không
+BN100114,Lý Hồng Diệp,Nữ,83,2026-07-12,Chấn thương chỉnh hình,Lý Hồng Chi,Đau nửa đầu,39.1,142,71,88,150000,Tái khám,Không
+BN100115,Võ Diễm Lan,Nữ,73,2025-03-05,Tim mạch,Trần Minh Yến,Dị ứng thời tiết,38.3,105,82,94,2000000,Đang điều trị,Có
+BN100116,Ngô Bảo Quyên,Nữ,74,2025-08-30,Sản phụ khoa,Võ Ngọc My,Viêm họng,37.4,99,92,96,350000,Đã xuất viện,Không
+BN100117,Huỳnh Quốc Hùng,Nam,17,2025-02-13,Chấn thương chỉnh hình,Trần Anh Minh,Đau lưng mãn tính,37.5,113,98,76,1200000,Đã xuất viện,Có
+BN100118,Hồ Bảo Mai,Nữ,36,2026-06-17,Sản phụ khoa,Đỗ Bảo Hạnh,Rối loạn lo âu,36.0,148,67,86,350000,Đang điều trị,Có
+BN100119,Phạm Đức Duy,Nam,45,2026-02-25,Da liễu,Huỳnh Hải Quyên,Đau lưng mãn tính,37.7,155,62,71,750000,Chuyển viện,Có
+BN100120,Trần Kim Mai,Nữ,31,2025-02-20,Sản phụ khoa,Đỗ Bảo Hạnh,Viêm dạ dày,39.1,97,81,110,750000,Tái khám,Không
+BN100121,Phạm Diễm Hà,Nữ,39,2026-03-30,Tai Mũi Họng,Võ Ngọc My,Dị ứng thời tiết,37.5,106,72,88,500000,Chuyển viện,Không
+BN100122,Trần Bảo Hạnh,Nữ,9,2025-11-15,Chấn thương chỉnh hình,Lý Hồng Chi,Thiếu máu,39.0,98,71,72,500000,Đã xuất viện,Có
+BN100123,Dương Văn Phong,Nam,26,2025-10-08,Tai Mũi Họng,Võ Thị Diệp,Viêm phế quản,37.8,110,61,75,1200000,Chuyển viện,Không
+BN100124,Lý Việt Duy,Nam,45,2025-12-19,Tim mạch,Võ Thị Diệp,Viêm khớp,36.9,106,78,61,2000000,Đã xuất viện,Có
+BN100125,Vũ Quốc Hùng,Nam,35,2026-02-24,Nội tổng quát,Võ Thị Diệp,Thiếu máu,39.4,96,90,68,350000,Đã xuất viện,Có
+BN100126,Đặng Hồng Nhi,Nữ,49,2025-12-24,Sản phụ khoa,Võ Ngọc My,Đái tháo đường type 2,37.6,145,97,66,150000,Tái khám,Không
+BN100127,Phạm Hải Diệp,Nữ,44,2025-10-11,Tai Mũi Họng,Võ Thị Diệp,Viêm dạ dày,36.9,133,72,69,500000,Đã xuất viện,Không
+BN100128,Hoàng Thị Quyên,Nữ,38,2025-09-23,Chấn thương chỉnh hình,Huỳnh Hải Quyên,Rối loạn tiêu hóa,38.6,119,81,106,500000,Chuyển viện,Không
+BN100129,Huỳnh Bảo Hạnh,Nữ,38,2025-04-10,Sản phụ khoa,Lý Hồng Chi,Dị ứng thời tiết,36.9,118,81,101,250000,Đang điều trị,Không
+BN100130,Đặng Thành Nam,Nam,48,2025-09-24,Da liễu,Võ Ngọc Nhi,Rối loạn lo âu,36.4,101,100,97,250000,Chuyển viện,Có
+BN100131,Hồ Công Minh,Nam,53,2025-02-25,Tim mạch,Lý Hồng Chi,Đái tháo đường type 2,37.2,153,69,80,350000,Đã xuất viện,Không
+BN100132,Huỳnh Minh Chi,Nữ,1,2026-04-08,Da liễu,Đặng Anh Bình,Thiếu máu,38.7,115,91,110,250000,Đang điều trị,Không
+BN100133,Hồ Kim Quyên,Nữ,50,2025-01-05,Nội tổng quát,Ngô Việt Hải,Đái tháo đường type 2,38.6,96,80,108,500000,Đã xuất viện,Có
+BN100134,Vũ Anh Minh,Nam,17,2025-04-16,Chấn thương chỉnh hình,Ngô Việt Hải,Viêm xoang,37.1,103,62,79,750000,Chuyển viện,Không
+BN100135,Hoàng Minh Quyên,Nữ,46,2025-07-12,Tim mạch,Đỗ Bảo Hạnh,Viêm khớp,38.8,97,74,74,350000,Đang điều trị,Có
+BN100136,Phạm Anh Bình,Nam,49,2025-09-19,Nội tổng quát,Bùi Ngọc Diệp,Cảm cúm,38.3,97,63,104,250000,Chuyển viện,Không
+BN100137,Phạm Bảo Lan,Nữ,61,2025-06-06,Tiêu hóa,Huỳnh Hải My,Đau lưng mãn tính,38.2,133,86,102,250000,Tái khám,Có
+BN100138,Phạm Bảo Yến,Nữ,16,2025-10-17,Nhi,Trần Minh Yến,Viêm họng,37.7,120,76,93,500000,Tái khám,Không
+BN100139,Huỳnh Thị Trang,Nữ,64,2025-08-01,Sản phụ khoa,Hồ Hải Ngân,Đái tháo đường type 2,36.0,106,67,96,3500000,Đang điều trị,Có
+BN100140,Phạm Đức Khang,Nam,59,2025-10-31,Da liễu,Võ Ngọc Nhi,Cảm cúm,36.3,117,62,78,1200000,Tái khám,Không
+BN100141,Phạm Văn An,Nam,18,2025-06-24,Tai Mũi Họng,Hồ Hải Ngân,Viêm khớp,37.5,129,65,83,1200000,Đang điều trị,Có
+BN100142,Hồ Hải Lan,Nữ,50,2026-05-05,Chấn thương chỉnh hình,Đặng Hồng Phương,Viêm khớp,38.8,109,68,104,150000,Đang điều trị,Có
+BN100143,Lý Thanh Phương,Nữ,24,2026-01-24,Tai Mũi Họng,Bùi Ngọc Diệp,Cảm cúm,39.0,111,90,91,250000,Chuyển viện,Không
+BN100144,Lê Đức Nam,Nam,2,2026-06-22,Tiêu hóa,Đặng Hồng Phương,Rối loạn lo âu,37.2,107,87,102,500000,Chuyển viện,Không
+BN100145,Hoàng Bảo Yến,Nữ,7,2025-01-12,Tim mạch,Ngô Việt Hải,Rối loạn lo âu,37.6,158,70,64,3500000,Tái khám,Có
+BN100146,Võ Thị Thảo,Nữ,29,2026-01-23,Chấn thương chỉnh hình,Võ Thị Diệp,Đái tháo đường type 2,36.3,151,96,88,250000,Chuyển viện,Không
+BN100147,Phạm Hải Anh,Nữ,14,2026-02-18,Chấn thương chỉnh hình,Đặng Quốc Bình,Sốt xuất huyết,37.9,106,98,99,750000,Đang điều trị,Không
+BN100148,Đỗ Thị Huyền,Nữ,59,2025-12-06,Sản phụ khoa,Huỳnh Hải My,Đau lưng mãn tính,37.3,152,67,66,500000,Đã xuất viện,Không
+BN100149,Đặng Bảo Thảo,Nữ,48,2025-04-19,Nội tổng quát,Đỗ Bảo Hạnh,Tăng huyết áp,37.7,147,66,76,500000,Đang điều trị,Có
+BN100150,Phan Hải Hoa,Nữ,44,2025-04-21,Chấn thương chỉnh hình,Đặng Quốc Bình,Viêm khớp,38.2,110,88,89,350000,Chuyển viện,Có

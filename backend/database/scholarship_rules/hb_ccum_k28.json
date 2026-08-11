@@ -1,0 +1,62 @@
+{
+  "rule_set_code": "HB_CCUM_K28",
+  "rule_set_name": "Học bổng Chắp cánh ước mơ - Năm học 2025 – 2026",
+  "version": "1.0",
+  "major": null,
+  "cohort": "K28",
+  "program": null,
+  "effective_date": "2025-10-24",
+  "scholarship_type": "academic",
+  "rules": [
+    {
+      "code": "gpa_grade_12_excellent",
+      "name": "Kết quả học tập lớp 12 đạt loại Giỏi",
+      "field_name": "gpa",
+      "operator": "equal",
+      "required_value": "Giỏi",
+      "accepted_values": [],
+      "failure_message": "Kết quả học tập lớp 12 chưa đạt loại Giỏi.",
+      "recommendation": "Học bổng yêu cầu kết quả học tập lớp 12 đạt loại Giỏi.",
+      "is_required": true,
+      "source": {
+        "document_name": "thong_bao_hoc_bong_vhu_2025_2026.pdf",
+        "page_number": 1,
+        "chunk_id": "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1",
+        "evidence_text": "Kết quả học tập lớp 12 đạt loại Giỏi.",
+        "category": "hoc_bong"
+      },
+      "confidence": 0.9
+    },
+    {
+      "code": "financial_difficulty_requirement",
+      "name": "Yêu cầu hoàn cảnh khó khăn",
+      "field_name": "financial_difficulty",
+      "operator": "in",
+      "required_value": null,
+      "accepted_values": [
+        "hộ nghèo",
+        "hộ cận nghèo",
+        "khó khăn"
+      ],
+      "failure_message": "Sinh viên không thuộc diện hộ nghèo, cận nghèo hoặc có xác nhận khó khăn của địa phương.",
+      "recommendation": "Cần cung cấp giấy xác nhận hộ nghèo, cận nghèo hoặc xác nhận khó khăn của địa phương.",
+      "is_required": true,
+      "source": {
+        "document_name": "thong_bao_hoc_bong_vhu_2025_2026.pdf",
+        "page_number": 1,
+        "chunk_id": "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1",
+        "evidence_text": "Thuộc diện hộ nghèo/cận nghèo hoặc có xác nhận khó khăn của địa phương.",
+        "category": "hoc_bong"
+      },
+      "confidence": 0.95
+    }
+  ],
+  "source_documents": [
+    "thong_bao_hoc_bong_vhu_2025_2026.pdf"
+  ],
+  "extraction_notes": [
+    "Học bổng dành cho tân sinh viên K28 đạt kết quả học tập lớp 12 loại Giỏi và có hoàn cảnh khó khăn.",
+    "Bộ luật được sinh bởi provider: gemini, model: gemini-3.5-flash."
+  ],
+  "generated_by": "rag_rule_extractor:gemini"
+}
