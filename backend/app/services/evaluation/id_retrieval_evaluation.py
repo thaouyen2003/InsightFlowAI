@@ -9,7 +9,7 @@ from app.services.rag.retriever import (
 
 class IDRetrievalEvaluation:
     """
-    Đánh giá chất lượng Retrieval bằng chunk_id.
+    Đánh giá chất lượng retrieval bằng exact chunk-ID matching.
 
     Metrics:
     - Precision@K
@@ -17,9 +17,9 @@ class IDRetrievalEvaluation:
     - Hit@1
     - Hit@3
     - Hit@5
-    - MRR
+    - Mean Reciprocal Rank (MRR)
 
-    Hỗ trợ ba cấu hình:
+    Retrieval configurations:
 
     1. baseline
        Semantic vector retrieval thuần túy.
@@ -36,18 +36,57 @@ class IDRetrievalEvaluation:
        + lexical overlap
        + phrase boost
        + reranking.
+
+    Output:
+    - Aggregate metrics.
+    - Domain-level metrics.
+    - Per-query metrics.
+    - Retrieved chunk details.
+    - JSON result file cho từng retrieval mode.
     """
+
+    VALID_MODES = {
+        "baseline",
+        "semantic_lexical",
+        "optimized",
+    }
 
     def __init__(self) -> None:
         self.retriever = KnowledgeRetriever()
 
-        evaluation_dir = Path(
-            __file__
-        ).resolve().parent
+        self.evaluation_dir = (
+            Path(__file__)
+            .resolve()
+            .parent
+        )
+
+        # =====================================================
+        # BENCHMARK FILE
+        #
+        # Hiện giữ nguyên ground_truth_candidates.json
+        # để không thay đổi benchmark đang chạy.
+        #
+        # Sau khi kiểm tra schema với ground_truth_50.json,
+        # có thể chuyển sang ground_truth_50.json.
+        # =====================================================
 
         self.test_file = (
-            evaluation_dir
+            self.evaluation_dir
             / "ground_truth_candidates.json"
+        )
+
+        # =====================================================
+        # OUTPUT DIRECTORY
+        # =====================================================
+
+        self.results_dir = (
+            self.evaluation_dir
+            / "results"
+        )
+
+        self.results_dir.mkdir(
+            parents=True,
+            exist_ok=True,
         )
 
     # =========================================================
@@ -58,7 +97,7 @@ class IDRetrievalEvaluation:
         self,
     ) -> list[dict[str, Any]]:
         """
-        Đọc bộ test case.
+        Đọc benchmark dataset.
 
         Hỗ trợ hai format:
 
@@ -85,7 +124,7 @@ class IDRetrievalEvaluation:
 
         data = json.loads(
             self.test_file.read_text(
-                encoding="utf-8"
+                encoding="utf-8",
             )
         )
 
@@ -95,7 +134,7 @@ class IDRetrievalEvaluation:
         elif isinstance(data, dict):
             test_cases = data.get(
                 "test_cases",
-                []
+                [],
             )
 
         else:
@@ -126,21 +165,13 @@ class IDRetrievalEvaluation:
         mode: str = "optimized",
     ):
         """
-        Thực hiện retrieval theo ba cấu hình.
-
-        baseline:
-            Semantic vector retrieval thuần túy.
-
-        semantic_lexical:
-            Semantic Top-20
-            + lexical reranking
-            không phrase boost.
-
-        optimized:
-            Semantic Top-20
-            + lexical reranking
-            + phrase boost.
+        Thực hiện retrieval theo retrieval mode.
         """
+
+        if mode not in self.VALID_MODES:
+            raise ValueError(
+                f"Retrieval mode không hợp lệ: {mode}"
+            )
 
         # =====================================================
         # PRIMARY RETRIEVAL
@@ -165,7 +196,7 @@ class IDRetrievalEvaluation:
                 )
             )
 
-        elif mode == "optimized":
+        else:
             retrieved_items = (
                 self.retriever.retrieve_optimized(
                     query=question,
@@ -175,17 +206,11 @@ class IDRetrievalEvaluation:
                 )
             )
 
-        else:
-            raise ValueError(
-                f"Retrieval mode không hợp lệ: "
-                f"{mode}"
-            )
-
         # =====================================================
         # FALLBACK
         #
-        # Nếu filter category không có kết quả,
-        # tìm lại trên toàn bộ Knowledge Base.
+        # Nếu category filter không có kết quả,
+        # retrieval lại trên toàn bộ knowledge base.
         # =====================================================
 
         if (
@@ -211,7 +236,7 @@ class IDRetrievalEvaluation:
                     )
                 )
 
-            elif mode == "optimized":
+            else:
                 retrieved_items = (
                     self.retriever.retrieve_optimized(
                         query=question,
@@ -232,9 +257,10 @@ class IDRetrievalEvaluation:
         test_case: dict[str, Any],
         top_k: int = 5,
         mode: str = "optimized",
+        question_index: int | None = None,
     ) -> dict[str, Any]:
         """
-        Đánh giá một test case.
+        Đánh giá một câu hỏi benchmark.
         """
 
         question = str(
@@ -252,6 +278,20 @@ class IDRetrievalEvaluation:
         category = test_case.get(
             "category"
         )
+
+        # =====================================================
+        # QUESTION ID
+        # =====================================================
+
+        question_id = (
+            test_case.get("id")
+            or test_case.get("question_id")
+            or question_index
+        )
+
+        # =====================================================
+        # GROUND TRUTH
+        # =====================================================
 
         raw_reference_ids = (
             test_case.get(
@@ -314,7 +354,7 @@ class IDRetrievalEvaluation:
         # PRECISION@K
         # =====================================================
 
-        precision = (
+        precision_at_k = (
             relevant_count
             / len(retrieved_chunk_ids)
             if retrieved_chunk_ids
@@ -325,7 +365,7 @@ class IDRetrievalEvaluation:
         # RECALL@K
         # =====================================================
 
-        recall = (
+        recall_at_k = (
             relevant_count
             / len(reference_chunk_ids)
             if reference_chunk_ids
@@ -336,47 +376,24 @@ class IDRetrievalEvaluation:
         # HIT@K
         # =====================================================
 
-        hit_at_k = (
-            1.0
-            if relevant_count > 0
-            else 0.0
-        )
-
-        hit_at_1 = (
-            1.0
-            if any(
-                chunk_id
-                in reference_chunk_ids
-                for chunk_id
-                in retrieved_chunk_ids[:1]
+        def compute_hit(k: int) -> float:
+            return (
+                1.0
+                if any(
+                    chunk_id
+                    in reference_chunk_ids
+                    for chunk_id
+                    in retrieved_chunk_ids[:k]
+                )
+                else 0.0
             )
-            else 0.0
-        )
 
-        hit_at_3 = (
-            1.0
-            if any(
-                chunk_id
-                in reference_chunk_ids
-                for chunk_id
-                in retrieved_chunk_ids[:3]
-            )
-            else 0.0
-        )
-
-        hit_at_5 = (
-            1.0
-            if any(
-                chunk_id
-                in reference_chunk_ids
-                for chunk_id
-                in retrieved_chunk_ids[:5]
-            )
-            else 0.0
-        )
+        hit_at_1 = compute_hit(1)
+        hit_at_3 = compute_hit(3)
+        hit_at_5 = compute_hit(5)
 
         # =====================================================
-        # MRR
+        # FIRST RELEVANT RANK + RECIPROCAL RANK
         # =====================================================
 
         first_relevant_rank: int | None = None
@@ -423,41 +440,63 @@ class IDRetrievalEvaluation:
             )
         ]
 
+        # =====================================================
+        # PER-QUERY RESULT
+        # =====================================================
+
         return {
+            "question_id":
+                question_id,
+
             "question":
                 question,
+
             "category":
                 category,
+
             "retrieval_mode":
                 mode,
+
             "top_k":
                 top_k,
+
             "reference_chunk_ids":
-                list(
+                sorted(
                     reference_chunk_ids
                 ),
+
             "retrieved_chunk_ids":
                 retrieved_chunk_ids,
-            "relevant_retrieved":
-                list(
+
+            "relevant_retrieved_ids":
+                sorted(
                     relevant_retrieved
                 ),
-            "precision":
-                precision,
-            "recall":
-                recall,
-            "hit_at_k":
-                hit_at_k,
+
+            "relevant_count":
+                relevant_count,
+
+            "precision_at_5":
+                precision_at_k,
+
+            "recall_at_5":
+                recall_at_k,
+
             "hit_at_1":
                 hit_at_1,
+
             "hit_at_3":
                 hit_at_3,
+
             "hit_at_5":
                 hit_at_5,
-            "mrr":
-                reciprocal_rank,
+
             "first_relevant_rank":
                 first_relevant_rank,
+
+            "reciprocal_rank":
+                reciprocal_rank,
+
             "retrieved_details":
                 retrieved_details,
         }
@@ -481,18 +520,10 @@ class IDRetrievalEvaluation:
                 "top_k phải lớn hơn 0."
             )
 
-        valid_modes = {
-            "baseline",
-            "semantic_lexical",
-            "optimized",
-        }
-
-        if mode not in valid_modes:
+        if mode not in self.VALID_MODES:
             raise ValueError(
-                "mode phải là "
-                "'baseline', "
-                "'semantic_lexical' "
-                "hoặc 'optimized'."
+                "mode phải là một trong: "
+                f"{sorted(self.VALID_MODES)}"
             )
 
         test_cases = (
@@ -545,6 +576,7 @@ class IDRetrievalEvaluation:
                         test_case=test_case,
                         top_k=top_k,
                         mode=mode,
+                        question_index=index,
                     )
                 )
 
@@ -555,6 +587,8 @@ class IDRetrievalEvaluation:
             except ValueError as error:
                 skipped_cases.append(
                     {
+                        "question_id":
+                            index,
                         "question":
                             question,
                         "reason":
@@ -577,30 +611,40 @@ class IDRetrievalEvaluation:
             return {
                 "retrieval_mode":
                     mode,
+
+                "top_k":
+                    top_k,
+
                 "total_cases":
                     len(test_cases),
+
                 "evaluated_cases":
                     0,
+
                 "skipped_cases":
                     len(skipped_cases),
-                "precision":
-                    0.0,
-                "recall":
-                    0.0,
-                "hit_at_k":
-                    0.0,
-                "hit_at_1":
-                    0.0,
-                "hit_at_3":
-                    0.0,
-                "hit_at_5":
-                    0.0,
-                "mrr":
-                    0.0,
+
+                "metrics": {
+                    "precision_at_5":
+                        0.0,
+                    "recall_at_5":
+                        0.0,
+                    "hit_at_1":
+                        0.0,
+                    "hit_at_3":
+                        0.0,
+                    "hit_at_5":
+                        0.0,
+                    "mrr":
+                        0.0,
+                },
+
                 "category_summary":
                     {},
-                "results":
+
+                "per_query":
                     [],
+
                 "skipped":
                     skipped_cases,
             }
@@ -615,7 +659,7 @@ class IDRetrievalEvaluation:
 
         mean_precision = (
             sum(
-                item["precision"]
+                item["precision_at_5"]
                 for item in results
             )
             / evaluated_count
@@ -623,15 +667,7 @@ class IDRetrievalEvaluation:
 
         mean_recall = (
             sum(
-                item["recall"]
-                for item in results
-            )
-            / evaluated_count
-        )
-
-        mean_hit_at_k = (
-            sum(
-                item["hit_at_k"]
+                item["recall_at_5"]
                 for item in results
             )
             / evaluated_count
@@ -663,7 +699,7 @@ class IDRetrievalEvaluation:
 
         mean_mrr = (
             sum(
-                item["mrr"]
+                item["reciprocal_rank"]
                 for item in results
             )
             / evaluated_count
@@ -684,13 +720,10 @@ class IDRetrievalEvaluation:
                 or "unknown"
             )
 
-            if (
-                category
-                not in category_stats
-            ):
-                category_stats[
-                    category
-                ] = []
+            category_stats.setdefault(
+                category,
+                [],
+            )
 
             category_stats[
                 category
@@ -717,39 +750,45 @@ class IDRetrievalEvaluation:
             ] = {
                 "count":
                     count,
-                "precision":
+
+                "precision_at_5":
                     sum(
-                        item["precision"]
+                        item["precision_at_5"]
                         for item in items
                     )
                     / count,
-                "recall":
+
+                "recall_at_5":
                     sum(
-                        item["recall"]
+                        item["recall_at_5"]
                         for item in items
                     )
                     / count,
+
                 "hit_at_1":
                     sum(
                         item["hit_at_1"]
                         for item in items
                     )
                     / count,
+
                 "hit_at_3":
                     sum(
                         item["hit_at_3"]
                         for item in items
                     )
                     / count,
+
                 "hit_at_5":
                     sum(
                         item["hit_at_5"]
                         for item in items
                     )
                     / count,
+
                 "mrr":
                     sum(
-                        item["mrr"]
+                        item["reciprocal_rank"]
                         for item in items
                     )
                     / count,
@@ -762,33 +801,88 @@ class IDRetrievalEvaluation:
         return {
             "retrieval_mode":
                 mode,
+
+            "top_k":
+                top_k,
+
+            "benchmark_file":
+                self.test_file.name,
+
             "total_cases":
                 len(test_cases),
+
             "evaluated_cases":
                 evaluated_count,
+
             "skipped_cases":
                 len(skipped_cases),
-            "precision":
-                mean_precision,
-            "recall":
-                mean_recall,
-            "hit_at_k":
-                mean_hit_at_k,
-            "hit_at_1":
-                mean_hit_at_1,
-            "hit_at_3":
-                mean_hit_at_3,
-            "hit_at_5":
-                mean_hit_at_5,
-            "mrr":
-                mean_mrr,
+
+            "metrics": {
+                "precision_at_5":
+                    mean_precision,
+
+                "recall_at_5":
+                    mean_recall,
+
+                "hit_at_1":
+                    mean_hit_at_1,
+
+                "hit_at_3":
+                    mean_hit_at_3,
+
+                "hit_at_5":
+                    mean_hit_at_5,
+
+                "mrr":
+                    mean_mrr,
+            },
+
             "category_summary":
                 category_summary,
-            "results":
+
+            "per_query":
                 results,
+
             "skipped":
                 skipped_cases,
         }
+
+    # =========================================================
+    # SAVE RESULT
+    # =========================================================
+
+    def save_result(
+        self,
+        result: dict[str, Any],
+    ) -> Path:
+        """
+        Lưu kết quả evaluation ra JSON.
+
+        Mỗi retrieval mode có một file riêng.
+        """
+
+        mode = str(
+            result.get(
+                "retrieval_mode",
+                "unknown",
+            )
+        )
+
+        output_file = (
+            self.results_dir
+            / f"{mode}_results.json"
+        )
+
+        output_file.write_text(
+            json.dumps(
+                result,
+                ensure_ascii=False,
+                indent=2,
+            ),
+            encoding="utf-8",
+        )
+
+        return output_file
 
 
 # =============================================================
@@ -800,8 +894,13 @@ def print_evaluation_summary(
     result: dict[str, Any],
 ) -> None:
     """
-    In kết quả benchmark dễ đọc.
+    In summary của benchmark.
     """
+
+    metrics = result.get(
+        "metrics",
+        {},
+    )
 
     print(
         "\n=== ID RETRIEVAL EVALUATION ==="
@@ -811,6 +910,14 @@ def print_evaluation_summary(
         "Retrieval mode:",
         result.get(
             "retrieval_mode",
+            "unknown",
+        ),
+    )
+
+    print(
+        "Benchmark:",
+        result.get(
+            "benchmark_file",
             "unknown",
         ),
     )
@@ -832,32 +939,32 @@ def print_evaluation_summary(
 
     print(
         "Precision@5:",
-        f'{result["precision"] * 100:.2f}%',
+        f'{metrics.get("precision_at_5", 0.0) * 100:.2f}%',
     )
 
     print(
         "Recall@5:",
-        f'{result["recall"] * 100:.2f}%',
+        f'{metrics.get("recall_at_5", 0.0) * 100:.2f}%',
     )
 
     print(
         "Hit@1:",
-        f'{result["hit_at_1"] * 100:.2f}%',
+        f'{metrics.get("hit_at_1", 0.0) * 100:.2f}%',
     )
 
     print(
         "Hit@3:",
-        f'{result["hit_at_3"] * 100:.2f}%',
+        f'{metrics.get("hit_at_3", 0.0) * 100:.2f}%',
     )
 
     print(
         "Hit@5:",
-        f'{result["hit_at_5"] * 100:.2f}%',
+        f'{metrics.get("hit_at_5", 0.0) * 100:.2f}%',
     )
 
     print(
         "MRR:",
-        f'{result["mrr"]:.4f}',
+        f'{metrics.get("mrr", 0.0):.4f}',
     )
 
     # =========================================================
@@ -884,12 +991,12 @@ def print_evaluation_summary(
 
         print(
             "Precision@5:",
-            f'{stats["precision"] * 100:.2f}%',
+            f'{stats["precision_at_5"] * 100:.2f}%',
         )
 
         print(
             "Recall@5:",
-            f'{stats["recall"] * 100:.2f}%',
+            f'{stats["recall_at_5"] * 100:.2f}%',
         )
 
         print(
@@ -922,7 +1029,7 @@ def print_evaluation_summary(
 
     failed = [
         item
-        for item in result["results"]
+        for item in result["per_query"]
         if item["hit_at_5"] == 0
     ]
 
@@ -934,7 +1041,12 @@ def print_evaluation_summary(
     else:
         for item in failed:
             print(
-                "\nQuestion:",
+                "\nQuestion ID:",
+                item["question_id"],
+            )
+
+            print(
+                "Question:",
                 item["question"],
             )
 
@@ -974,7 +1086,7 @@ def print_evaluation_summary(
 
     low_rank_cases = [
         item
-        for item in result["results"]
+        for item in result["per_query"]
         if (
             item[
                 "first_relevant_rank"
@@ -1004,7 +1116,12 @@ def print_evaluation_summary(
     else:
         for item in low_rank_cases:
             print(
-                "\nQuestion:",
+                "\nQuestion ID:",
+                item["question_id"],
+            )
+
+            print(
+                "Question:",
                 item["question"],
             )
 
@@ -1028,8 +1145,13 @@ def print_evaluation_summary(
             )
 
             print(
-                "Recall:",
-                f'{item["recall"] * 100:.2f}%',
+                "Recall@5:",
+                f'{item["recall_at_5"] * 100:.2f}%',
+            )
+
+            print(
+                "Reciprocal rank:",
+                f'{item["reciprocal_rank"]:.4f}',
             )
 
             print(
@@ -1068,6 +1190,58 @@ def print_evaluation_summary(
 
 
 # =============================================================
+# RUN ONE EXPERIMENT
+# =============================================================
+
+
+def run_experiment(
+    service: IDRetrievalEvaluation,
+    mode: str,
+    title: str,
+    top_k: int = 5,
+) -> dict[str, Any]:
+    """
+    Chạy một retrieval configuration,
+    in summary và lưu JSON.
+    """
+
+    print(
+        "\n"
+        "========================================"
+    )
+
+    print(
+        title
+    )
+
+    print(
+        "========================================"
+    )
+
+    result = service.evaluate(
+        top_k=top_k,
+        mode=mode,
+    )
+
+    print_evaluation_summary(
+        result
+    )
+
+    output_file = (
+        service.save_result(
+            result
+        )
+    )
+
+    print(
+        "\nSaved result:",
+        output_file,
+    )
+
+    return result
+
+
+# =============================================================
 # RUN EXPERIMENTS
 # =============================================================
 
@@ -1082,29 +1256,14 @@ if __name__ == "__main__":
     # SEMANTIC-ONLY BASELINE
     # =========================================================
 
-    print(
-        "\n"
-        "========================================"
-    )
-
-    print(
-        "EXPERIMENT 1: "
-        "SEMANTIC-ONLY BASELINE"
-    )
-
-    print(
-        "========================================"
-    )
-
-    baseline_result = (
-        service.evaluate(
-            top_k=5,
-            mode="baseline",
-        )
-    )
-
-    print_evaluation_summary(
-        baseline_result
+    run_experiment(
+        service=service,
+        mode="baseline",
+        title=(
+            "EXPERIMENT 1: "
+            "SEMANTIC-ONLY BASELINE"
+        ),
+        top_k=5,
     )
 
     # =========================================================
@@ -1112,29 +1271,14 @@ if __name__ == "__main__":
     # SEMANTIC + LEXICAL
     # =========================================================
 
-    print(
-        "\n"
-        "========================================"
-    )
-
-    print(
-        "EXPERIMENT 2: "
-        "SEMANTIC + LEXICAL"
-    )
-
-    print(
-        "========================================"
-    )
-
-    semantic_lexical_result = (
-        service.evaluate(
-            top_k=5,
-            mode="semantic_lexical",
-        )
-    )
-
-    print_evaluation_summary(
-        semantic_lexical_result
+    run_experiment(
+        service=service,
+        mode="semantic_lexical",
+        title=(
+            "EXPERIMENT 2: "
+            "SEMANTIC + LEXICAL"
+        ),
+        top_k=5,
     )
 
     # =========================================================
@@ -1142,26 +1286,13 @@ if __name__ == "__main__":
     # SEMANTIC + LEXICAL + PHRASE BOOST
     # =========================================================
 
-    print(
-        "\n"
-        "========================================"
-    )
-
-    print(
-        "EXPERIMENT 3: "
-        "SEMANTIC + LEXICAL + PHRASE BOOST"
-    )
-
-    print(
-        "========================================"
-    )
-    optimized_result = (
-        service.evaluate(
-            top_k=5,
-            mode="optimized",
-        )
-    )
-
-    print_evaluation_summary(
-        optimized_result
+    run_experiment(
+        service=service,
+        mode="optimized",
+        title=(
+            "EXPERIMENT 3: "
+            "SEMANTIC + LEXICAL "
+            "+ PHRASE BOOST"
+        ),
+        top_k=5,
     )
