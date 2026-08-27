@@ -1,0 +1,382 @@
+    [
+    {
+        "question": "Sinh viên cần CPA tối thiểu bao nhiêu để được xét tốt nghiệp?",
+        "category": "tot_nghiep",
+        "reference": "Sinh viên cần đạt CPA tối thiểu 2.00 trên thang điểm 4.00.",
+        "reference_chunk_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+        ]
+    },
+    {
+        "question": "Sinh viên cần đáp ứng chuẩn ngoại ngữ nào để được xét tốt nghiệp?",
+        "category": "tot_nghiep",
+        "reference": "Sinh viên cần có chứng chỉ ngoại ngữ đạt chuẩn đầu ra theo quy định của Nhà trường áp dụng cho từng khóa/ngành đào tạo, như TOEIC, IELTS, VSTEP hoặc tương đương.",
+        "reference_chunk_ids": [
+            "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+        ]
+    },
+    {
+        "question": "Khi nào hạng tốt nghiệp bị giảm một hạng?",
+        "category": "tot_nghiep",
+        "reference": "Hạng tốt nghiệp của sinh viên đạt loại Xuất sắc hoặc Giỏi sẽ bị giảm một hạng nếu bị kỷ luật từ mức cảnh cáo trở lên trong toàn khóa học hoặc số tín chỉ học lại vượt quá 5% tổng số tín chỉ của chương trình.",
+        "reference_chunk_ids": [
+            "quy_dinh_tot_nghiep_pdf_page_2_chunk_1"
+        ]
+    },
+    {
+        "question": "Điều kiện xét học bổng của sinh viên là gì?",
+        "category": "hoc_bong",
+        "reference": "Điều kiện xét học bổng phụ thuộc vào từng loại học bổng. Ví dụ, học bổng Khuyến khích học tập dành cho sinh viên có thành tích học tập Xuất sắc và xếp loại Giỏi trong năm học; các học bổng khác có thể yêu cầu hoàn cảnh khó khăn, thành tích đầu vào, quan hệ với cán bộ nhà trường hoặc hoạt động phong trào.",
+        "reference_chunk_ids": [
+            "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2"
+        ]
+    },
+    {
+        "question": "Sinh viên có thành tích học tập như thế nào thì được xét Học bổng Khuyến khích học tập?",
+        "category": "hoc_bong",
+        "reference": "Học bổng Khuyến khích học tập dành cho sinh viên có thành tích học tập Xuất sắc và xếp loại Giỏi trong năm học.",
+        "reference_chunk_ids": [
+            "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2"
+        ]
+    },
+    {
+        "question": "Học bổng Chắp cánh ước mơ dành cho đối tượng nào?",
+        "category": "hoc_bong",
+        "reference": "Học bổng Chắp cánh ước mơ dành cho tân sinh viên K28 có kết quả học tập lớp 12 loại Giỏi, thuộc diện hộ nghèo/cận nghèo hoặc có xác nhận hoàn cảnh khó khăn và có ý chí vươn lên trong học tập.",
+        "reference_chunk_ids": [
+            "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1"
+        ]
+    },
+    {
+        "question": "Khi nào sinh viên bị cảnh báo học vụ?",
+        "category": "hoc_vu",
+        "reference": "Sinh viên bị cảnh báo học vụ khi không đáp ứng các tiêu chí học tập tối thiểu theo quy định, ví dụ GPA học kỳ thấp hơn 1.60/4.00, số tín chỉ đạt trong học kỳ thấp hơn 12 tín chỉ hoặc CPA thấp hơn 2.00/4.00.",
+        "reference_chunk_ids": [
+            "canh_bao_hoc_vu_pdf_page_1_chunk_2"
+        ]
+    },
+    {
+        "question": "Sinh viên bị cảnh báo học vụ có bị giới hạn tín chỉ không?",
+        "category": "hoc_vu",
+        "reference": "Có. Trong học kỳ tiếp theo, sinh viên bị cảnh báo học vụ chỉ được đăng ký tối đa 14 tín chỉ.",
+        "reference_chunk_ids": [
+            "canh_bao_hoc_vu_pdf_page_2_chunk_1"
+        ]
+    },
+    {
+        "question": "Chương trình đào tạo quy định số tín chỉ như thế nào?",
+        "category": "dao_tao",
+        "reference": "Tín chỉ được sử dụng để tính khối lượng học tập của sinh viên. Một tín chỉ tương ứng với 15 tiết lý thuyết, 15 tiết bài tập tại lớp, 30 tiết thực hành, thí nghiệm hoặc thảo luận, 60 giờ trải nghiệm hoặc thực tập, hoặc 45 giờ làm bài tập lớn, đồ án hay khóa luận tốt nghiệp tùy loại hoạt động học tập.",
+        "reference_chunk_ids": [
+            "979_2022_pdf_page_4_chunk_4"
+        ]
+    },
+    {
+       "question": "Sinh viên cần hoàn thành những học phần nào trong chương trình đào tạo?",
+        "category": "dao_tao",
+        "reference": "Sinh viên phải hoàn thành các học phần theo chương trình đào tạo, bao gồm các học phần chuyên môn, thực tập và đồ án tốt nghiệp; đồng thời hoàn thành các yêu cầu về Giáo dục quốc phòng, Giáo dục thể chất, kỹ năng mềm, ngoại ngữ và tin học chuẩn đầu ra theo quy định.",
+        "reference_chunk_ids": [
+            "CTDT_KhoaHocMayTinh_2020_pdf_page_4_chunk_1"
+        ]
+    },
+    {
+        "id": 11,
+        "question": "Sinh viên cần đáp ứng yêu cầu gì về tín chỉ để được xét tốt nghiệp?",
+        "category": "tot_nghiep",
+        "top_k": 5,
+        "reference_chunk_ids": [
+            "quy_dinh_tot_nghiep_pdf_page_1_chunk_1"
+        ]
+    },
+    {
+        "id": 12,
+        "question": "Điểm trung bình tích lũy tối thiểu để sinh viên đủ điều kiện tốt nghiệp là bao nhiêu?",
+        "category": "tot_nghiep",
+        "top_k": 5,
+        "reference_chunk_ids": [
+            "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+        ]
+    },
+    {
+        "id": 13,
+        "question": "Sinh viên chưa đạt chuẩn ngoại ngữ có được xét tốt nghiệp không?",
+        "category": "tot_nghiep",
+        "top_k": 5,
+        "reference_chunk_ids": [
+            "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+        ]
+    },
+    {
+        "id": 14,
+        "question": "Sinh viên cần đáp ứng điều kiện gì về tin học để được công nhận tốt nghiệp?",
+        "category": "tot_nghiep",
+        "top_k": 5,
+        "reference_chunk_ids": [
+            "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+        ]
+    },
+    {
+        "id": 15,
+        "question": "Sinh viên chưa hoàn thành Giáo dục Quốc phòng - An ninh có được xét tốt nghiệp không?",
+        "category": "tot_nghiep",
+        "top_k": 5,
+        "reference_chunk_ids": [
+            "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+        ]
+    },
+    {
+        "id": 16,
+        "question": "Sinh viên chưa hoàn thành Giáo dục thể chất có đủ điều kiện tốt nghiệp không?",
+        "category": "tot_nghiep",
+        "top_k": 5,
+        "reference_chunk_ids": []
+    },
+    {
+        "id": 17,
+        "question": "Sinh viên còn nghĩa vụ tài chính với nhà trường có được xét công nhận tốt nghiệp không?",
+        "category": "tot_nghiep",
+        "top_k": 5,
+        "reference_chunk_ids": []
+    },
+    {
+        "id": 18,
+        "question": "Trong những trường hợp nào hạng tốt nghiệp của sinh viên bị giảm một hạng?",
+        "category": "tot_nghiep",
+        "top_k": 5,
+        "reference_chunk_ids": []
+    },
+    {
+        "id": 19,
+        "question": "Sinh viên có CPA 1.95 trên thang điểm 4 nhưng đã hoàn thành đủ tín chỉ có đủ điều kiện tốt nghiệp không?",
+        "category": "tot_nghiep",
+        "top_k": 5,
+        "reference_chunk_ids": []
+    },
+    {
+        "id": 20,
+        "question": "Sinh viên đã hoàn thành đủ tín chỉ và đạt CPA yêu cầu nhưng chưa đạt chuẩn ngoại ngữ có được công nhận tốt nghiệp không?",
+        "category": "tot_nghiep",
+        "top_k": 5,
+        "reference_chunk_ids": []
+    },
+
+    {
+        "id": 21,
+        "question": "Điều kiện về kết quả học tập để sinh viên được xét học bổng là gì?",
+        "category": "hoc_bong",
+        "top_k": 5,
+        "reference_chunk_ids": []
+    },
+    {
+        "id": 22,
+        "question": "Điểm rèn luyện của sinh viên có được sử dụng khi xét học bổng không?",
+        "category": "hoc_bong",
+        "top_k": 5,
+        "reference_chunk_ids": []
+    },
+    {
+        "id": 23,
+        "question": "Sinh viên đang bị kỷ luật có được xét cấp học bổng không?",
+        "category": "hoc_bong",
+        "top_k": 5,
+        "reference_chunk_ids": []
+    },
+    {
+        "id": 24,
+        "question": "Sinh viên có học phần không đạt có ảnh hưởng đến việc xét học bổng không?",
+        "category": "hoc_bong",
+        "top_k": 5,
+        "reference_chunk_ids": []
+    },
+    {
+        "id": 25,
+        "question": "Việc đăng ký học phần đúng thời hạn có phải là điều kiện để được xét học bổng không?",
+        "category": "hoc_bong",
+        "top_k": 5,
+        "reference_chunk_ids": []
+    },
+    {
+        "id": 26,
+        "question": "Sinh viên có kết quả học tập tốt nhưng điểm rèn luyện không đạt yêu cầu có được nhận học bổng không?",
+        "category": "hoc_bong",
+        "top_k": 5,
+        "reference_chunk_ids": []
+    },
+    {
+        "id": 27,
+        "question": "Sinh viên có điểm rèn luyện tốt nhưng kết quả học tập không đạt tiêu chuẩn có được xét học bổng không?",
+        "category": "hoc_bong",
+        "top_k": 5,
+        "reference_chunk_ids": []
+    },
+    {
+        "id": 28,
+        "question": "Các tiêu chí nào được sử dụng để xác định sinh viên đủ điều kiện nhận học bổng?",
+        "category": "hoc_bong",
+        "top_k": 5,
+        "reference_chunk_ids": []
+    },
+    {
+        "id": 29,
+        "question": "Sinh viên vi phạm quy định của nhà trường trong học kỳ xét học bổng có bị loại khỏi danh sách xét không?",
+        "category": "hoc_bong",
+        "top_k": 5,
+        "reference_chunk_ids": []
+    },
+    {
+        "id": 30,
+        "question": "Nếu hai sinh viên có kết quả học tập tương đương thì những tiêu chí nào khác có thể ảnh hưởng đến việc xét học bổng?",
+        "category": "hoc_bong",
+        "top_k": 5,
+        "reference_chunk_ids": []
+    },
+
+    {
+        "id": 31,
+        "question": "Trong những trường hợp nào sinh viên bị cảnh báo học vụ?",
+        "category": "hoc_vu",
+        "top_k": 5,
+        "reference_chunk_ids": []
+    },
+    {
+        "id": 32,
+        "question": "Điểm trung bình tích lũy thấp có thể khiến sinh viên bị cảnh báo học vụ như thế nào?",
+        "category": "hoc_vu",
+        "top_k": 5,
+        "reference_chunk_ids": []
+    },
+    {
+        "id": 33,
+        "question": "Sinh viên bị cảnh báo học vụ có bị giới hạn số tín chỉ được đăng ký trong học kỳ tiếp theo không?",
+        "category": "hoc_vu",
+        "top_k": 5,
+        "reference_chunk_ids": []
+    },
+    {
+        "id": 34,
+        "question": "Sinh viên đang bị cảnh báo học vụ được phép đăng ký tối đa bao nhiêu tín chỉ?",
+        "category": "hoc_vu",
+        "top_k": 5,
+        "reference_chunk_ids": []
+    },
+    {
+        "id": 35,
+        "question": "Số tín chỉ tích lũy không đạt yêu cầu có phải là nguyên nhân dẫn đến cảnh báo học vụ không?",
+        "category": "hoc_vu",
+        "top_k": 5,
+        "reference_chunk_ids": []
+    },
+    {
+        "id": 36,
+        "question": "Điểm rèn luyện thấp có thể ảnh hưởng đến tình trạng học vụ của sinh viên không?",
+        "category": "hoc_vu",
+        "top_k": 5,
+        "reference_chunk_ids": []
+    },
+    {
+        "id": 37,
+        "question": "Sinh viên bị cảnh báo học vụ hai lần liên tiếp có thể chịu hậu quả gì?",
+        "category": "hoc_vu",
+        "top_k": 5,
+        "reference_chunk_ids": []
+    },
+    {
+        "id": 38,
+        "question": "Sinh viên bị cảnh báo học vụ nhiều lần trong toàn khóa có thể bị xử lý như thế nào?",
+        "category": "hoc_vu",
+        "top_k": 5,
+        "reference_chunk_ids": []
+    },
+    {
+        "id": 39,
+        "question": "Sinh viên có CPA 1.82 trên thang điểm 4 có nguy cơ bị cảnh báo học vụ không?",
+        "category": "hoc_vu",
+        "top_k": 5,
+        "reference_chunk_ids": []
+    },
+    {
+        "id": 40,
+        "question": "Sinh viên vừa có CPA thấp vừa tích lũy không đủ số tín chỉ yêu cầu có nguy cơ bị cảnh báo học vụ không?",
+        "category": "hoc_vu",
+        "top_k": 5,
+        "reference_chunk_ids": []
+    },
+
+    {
+        "id": 41,
+        "question": "Chương trình đào tạo quy định tổng số tín chỉ sinh viên phải hoàn thành như thế nào?",
+        "category": "dao_tao",
+        "top_k": 5,
+        "reference_chunk_ids": []
+    },
+    {
+        "id": 42,
+        "question": "Sinh viên phải hoàn thành những nhóm học phần nào trong chương trình đào tạo?",
+        "category": "dao_tao",
+        "top_k": 5,
+        "reference_chunk_ids": []
+    },
+    {
+        "id": 43,
+        "question": "Học phần bắt buộc và học phần tự chọn khác nhau như thế nào trong chương trình đào tạo?",
+        "category": "dao_tao",
+        "top_k": 5,
+        "reference_chunk_ids": []
+    },
+    {
+        "id": 44,
+        "question": "Sinh viên có bắt buộc phải hoàn thành toàn bộ các học phần bắt buộc của chương trình đào tạo không?",
+        "category": "dao_tao",
+        "top_k": 5,
+        "reference_chunk_ids": []
+    },
+    {
+        "id": 45,
+        "question": "Các học phần tự chọn được quy định như thế nào trong chương trình đào tạo?",
+        "category": "dao_tao",
+        "top_k": 5,
+        "reference_chunk_ids": []
+    },
+    {
+        "id": 46,
+        "question": "Chương trình đào tạo có quy định các học phần tiên quyết hoặc học trước không?",
+        "category": "dao_tao",
+        "top_k": 5,
+        "reference_chunk_ids": []
+    },
+    {
+        "id": 47,
+        "question": "Sinh viên có thể hoàn thành chương trình nếu còn thiếu một học phần bắt buộc không?",
+        "category": "dao_tao",
+        "top_k": 5,
+        "reference_chunk_ids": []
+    },
+    {
+        "id": 48,
+        "question": "Khối lượng kiến thức trong chương trình đào tạo được tổ chức thành những nhóm nào?",
+        "category": "dao_tao",
+        "top_k": 5,
+        "reference_chunk_ids": []
+    },
+    {
+        "id": 49,
+        "question": "Một sinh viên đã tích lũy đủ tổng số tín chỉ nhưng còn thiếu học phần bắt buộc có được xem là đã hoàn thành chương trình đào tạo không?",
+        "category": "dao_tao",
+        "top_k": 5,
+        "reference_chunk_ids": []
+    },
+    {
+        "id": 50,
+        "question": "Để hoàn thành chương trình đào tạo, sinh viên cần đáp ứng đồng thời những yêu cầu nào về tín chỉ và học phần?",
+        "category": "dao_tao",
+        "top_k": 5,
+        "reference_chunk_ids": []
+    }
+]
+
+
+
+
+
+
+

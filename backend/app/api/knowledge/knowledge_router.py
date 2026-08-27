@@ -546,3 +546,54 @@ def ask_knowledge(
                 f"{error}"
             ),
         ) from error
+
+
+@router.get("/evaluation")
+def get_rag_evaluation() -> dict:
+    """
+    Trả về kết quả benchmark RAG Retrieval.
+    """
+
+    try:
+        backend_dir = Path(
+            __file__
+        ).resolve().parents[3]
+
+        result_path = (
+            backend_dir
+            / "tests"
+            / "rag_benchmark_results.json"
+        )
+
+        if not result_path.exists():
+            raise HTTPException(
+                status_code=404,
+                detail=(
+                    "Chưa có kết quả benchmark. "
+                    "Hãy chạy rag_benchmark.py trước."
+                ),
+            )
+
+        with open(
+            result_path,
+            "r",
+            encoding="utf-8",
+        ) as file:
+            data = json.load(file)
+
+        return {
+            "success": True,
+            "evaluation": data,
+        }
+
+    except HTTPException:
+        raise
+
+    except Exception as error:
+        raise HTTPException(
+            status_code=500,
+            detail=(
+                "Không thể đọc kết quả "
+                f"RAG Evaluation: {error}"
+            ),
+        ) from error

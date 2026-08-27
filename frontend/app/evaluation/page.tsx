@@ -22,6 +22,15 @@ import type {
 } from "@/types/scholarship";
 
 import {
+    getRAGEvaluation,
+} from "@/services/knowledgeEvaluationApi";
+
+import type {
+    RAGEvaluation,
+} from "@/services/knowledgeEvaluationApi";
+
+
+import {
     Bar,
     BarChart,
     CartesianGrid,
@@ -109,27 +118,27 @@ function resolveEvaluationType(
 
     if (
         normalizedCategory ===
-            "tot_nghiep" ||
+        "tot_nghiep" ||
         normalizedCategory ===
-            "graduation"
+        "graduation"
     ) {
         return "graduation";
     }
 
     if (
         normalizedCategory ===
-            "hoc_bong" ||
+        "hoc_bong" ||
         normalizedCategory ===
-            "scholarship"
+        "scholarship"
     ) {
         return "scholarship";
     }
 
     if (
         normalizedCategory ===
-            "tuyen_sinh" ||
+        "tuyen_sinh" ||
         normalizedCategory ===
-            "admission"
+        "admission"
     ) {
         return "admission";
     }
@@ -265,6 +274,25 @@ function FailedConditionTooltip({
 }
 
 
+function formatKnowledgeCategory(
+    category: string,
+): string {
+    const labels: Record<
+        string,
+        string
+    > = {
+        tot_nghiep: "Tốt nghiệp",
+        hoc_bong: "Học bổng",
+        hoc_vu: "Học vụ",
+        dao_tao: "Đào tạo",
+    };
+
+    return (
+        labels[category] ??
+        category
+    );
+}
+
 export default function EvaluationPage() {
     const [
         uploadedFilename,
@@ -310,6 +338,23 @@ export default function EvaluationPage() {
     ] = useState("");
 
     const [
+        ragEvaluation,
+        setRagEvaluation,
+    ] = useState<RAGEvaluation | null>(
+        null,
+    );
+
+    const [
+        ragLoading,
+        setRagLoading,
+    ] = useState(true);
+
+    const [
+        ragError,
+        setRagError,
+    ] = useState("");
+
+    const [
         currentPage,
         setCurrentPage,
     ] = useState(1);
@@ -332,17 +377,43 @@ export default function EvaluationPage() {
 
     const activeResult =
         evaluationType ===
-        "graduation"
+            "graduation"
             ? graduationResult
             : evaluationType ===
-              "scholarship"
-            ? scholarshipResult
-            : null;
+                "scholarship"
+                ? scholarshipResult
+                : null;
 
     const isEvaluationCompatible =
         detectedEvaluationType === null ||
         detectedEvaluationType ===
-            evaluationType;
+        evaluationType;
+
+
+    useEffect(() => {
+        async function loadRAGEvaluation() {
+            try {
+                setRagLoading(true);
+                setRagError("");
+
+                const data =
+                    await getRAGEvaluation();
+
+                setRagEvaluation(data);
+            } catch (requestError: unknown) {
+                const message =
+                    requestError instanceof Error
+                        ? requestError.message
+                        : "Không thể tải RAG Evaluation.";
+
+                setRagError(message);
+            } finally {
+                setRagLoading(false);
+            }
+        }
+
+        loadRAGEvaluation();
+    }, []);
 
 
     useEffect(() => {
@@ -391,9 +462,8 @@ export default function EvaluationPage() {
         if (!isEvaluationCompatible) {
             setError(
                 "Dataset hiện tại được nhận diện " +
-                `thuộc lĩnh vực ${
-                    detectedTab?.label ??
-                    "khác"
+                `thuộc lĩnh vực ${detectedTab?.label ??
+                "khác"
                 }. ` +
                 "Vui lòng chọn đúng tab để xem phân tích.",
             );
@@ -465,97 +535,126 @@ export default function EvaluationPage() {
     const totalPages =
         activeResult
             ? Math.max(
-                  1,
-                  Math.ceil(
-                      activeResult
-                          .students
-                          .length /
-                          rowsPerPage,
-                  ),
-              )
+                1,
+                Math.ceil(
+                    activeResult
+                        .students
+                        .length /
+                    rowsPerPage,
+                ),
+            )
             : 0;
 
 
     const paginatedStudents =
         activeResult
             ? activeResult
-                  .students
-                  .slice(
-                      (
-                          currentPage -
-                          1
-                      ) *
-                          rowsPerPage,
-                      currentPage *
-                          rowsPerPage,
-                  )
+                .students
+                .slice(
+                    (
+                        currentPage -
+                        1
+                    ) *
+                    rowsPerPage,
+                    currentPage *
+                    rowsPerPage,
+                )
             : [];
 
 
     const pieData =
         activeResult
             ? [
-                  {
-                      name:
-                          "Đủ điều kiện",
-                      value:
-                          activeResult
-                              .summary
-                              .eligible_count,
-                  },
-                  {
-                      name:
-                          "Chưa đủ điều kiện",
-                      value:
-                          activeResult
-                              .summary
-                              .not_eligible_count,
-                  },
-                  {
-                      name:
-                          "Thiếu dữ liệu",
-                      value:
-                          activeResult
-                              .summary
-                              .insufficient_data_count,
-                  },
-              ]
+                {
+                    name:
+                        "Đủ điều kiện",
+                    value:
+                        activeResult
+                            .summary
+                            .eligible_count,
+                },
+                {
+                    name:
+                        "Chưa đủ điều kiện",
+                    value:
+                        activeResult
+                            .summary
+                            .not_eligible_count,
+                },
+                {
+                    name:
+                        "Thiếu dữ liệu",
+                    value:
+                        activeResult
+                            .summary
+                            .insufficient_data_count,
+                },
+            ]
             : [];
 
 
     const failedConditionData =
         activeResult
             ? activeResult
-                  .summary
-                  .top_failed_conditions
-                  .map(
-                      (item) => ({
-                          condition:
-                              shortenCondition(
-                                  item.condition,
-                              ),
+                .summary
+                .top_failed_conditions
+                .map(
+                    (item) => ({
+                        condition:
+                            shortenCondition(
+                                item.condition,
+                            ),
 
-                          fullCondition:
-                              item.condition,
+                        fullCondition:
+                            item.condition,
 
-                          count:
-                              item.student_count,
+                        count:
+                            item.student_count,
 
-                          rate:
-                              item.rate,
-                      }),
-                  )
+                        rate:
+                            item.rate,
+                    }),
+                )
             : [];
 
 
     const evaluateButtonLabel =
         evaluationType ===
-        "graduation"
+            "graduation"
             ? "Phân tích tốt nghiệp"
             : evaluationType ===
-              "scholarship"
-            ? "Phân tích học bổng"
-            : "Tuyển sinh sẽ được bổ sung";
+                "scholarship"
+                ? "Phân tích học bổng"
+                : "Tuyển sinh sẽ được bổ sung";
+
+
+    const ragMetrics =
+        ragEvaluation?.metrics;
+
+    const ragHitData =
+        ragMetrics
+            ? [
+                {
+                    name: "Hit@1",
+                    value:
+                        ragMetrics.hit_at_1 *
+                        100,
+                },
+                {
+                    name: "Hit@3",
+                    value:
+                        ragMetrics.hit_at_3 *
+                        100,
+                },
+                {
+                    name: "Hit@5",
+                    value:
+                        ragMetrics.hit_at_5 *
+                        100,
+                },
+            ]
+            : [];
+
 
 
     return (
@@ -667,10 +766,9 @@ export default function EvaluationPage() {
                                                 py-4
                                                 text-left
                                                 transition
-                                                ${
-                                                    isActive
-                                                        ? "bg-white shadow-sm ring-2 ring-blue-500"
-                                                        : "hover:bg-white/70"
+                                                ${isActive
+                                                    ? "bg-white shadow-sm ring-2 ring-blue-500"
+                                                    : "hover:bg-white/70"
                                                 }
                                             `}
                                         >
@@ -685,10 +783,9 @@ export default function EvaluationPage() {
                                                 <span
                                                     className={`
                                                         font-semibold
-                                                        ${
-                                                            isActive
-                                                                ? "text-blue-700"
-                                                                : "text-slate-700"
+                                                        ${isActive
+                                                            ? "text-blue-700"
+                                                            : "text-slate-700"
                                                         }
                                                     `}
                                                 >
@@ -848,8 +945,8 @@ export default function EvaluationPage() {
 
                         {evaluationType ===
                             "admission" && (
-                            <div
-                                className="
+                                <div
+                                    className="
                                     mt-4
                                     rounded-xl
                                     border
@@ -857,19 +954,19 @@ export default function EvaluationPage() {
                                     bg-blue-50
                                     p-4
                                 "
-                            >
-                                <p
-                                    className="
+                                >
+                                    <p
+                                        className="
                                         text-sm
                                         text-blue-700
                                     "
-                                >
-                                    Module tuyển sinh
-                                    đang được chuẩn bị
-                                    cho Sprint tiếp theo.
-                                </p>
-                            </div>
-                        )}
+                                    >
+                                        Module tuyển sinh
+                                        đang được chuẩn bị
+                                        cho Sprint tiếp theo.
+                                    </p>
+                                </div>
+                            )}
 
 
                         <button
@@ -882,7 +979,7 @@ export default function EvaluationPage() {
                                 !uploadedFilename ||
                                 !isEvaluationCompatible ||
                                 evaluationType ===
-                                    "admission"
+                                "admission"
                             }
                             className="
                                 mt-5
@@ -941,6 +1038,893 @@ export default function EvaluationPage() {
                 </section>
 
 
+                //////
+
+                <section
+                    className="
+                        mt-8
+                        rounded-3xl
+                        bg-white
+                        p-8
+                        shadow-sm
+                    "
+                >
+                    <div
+                        className="
+                            flex
+                            flex-col
+                            gap-4
+                            lg:flex-row
+                            lg:items-start
+                            lg:justify-between
+                        "
+                    >
+                        <div>
+                            <p
+                                className="
+                                    text-sm
+                                    font-semibold
+                                    uppercase
+                                    tracking-wider
+                                    text-violet-600
+                                "
+                            >
+                                RAG EVALUATION
+                            </p>
+
+                            <h2
+                                className="
+                                    mt-2
+                                    text-2xl
+                                    font-bold
+                                    text-slate-900
+                                "
+                            >
+                                Đánh giá khả năng truy xuất tri thức
+                            </h2>
+
+                            <p
+                                className="
+                                    mt-2
+                                    max-w-3xl
+                                    text-sm
+                                    leading-6
+                                    text-slate-500
+                                "
+                            >
+                                Benchmark Semantic Retrieval trên bộ
+                                Ground Truth nhằm đánh giá khả năng
+                                tìm đúng đoạn tri thức và thứ hạng
+                                kết quả trong Knowledge Base.
+                            </p>
+                        </div>
+
+                        {ragEvaluation && (
+                            <div
+                                className="
+                                    rounded-xl
+                                    bg-violet-50
+                                    px-4
+                                    py-3
+                                    text-sm
+                                    text-violet-700
+                                "
+                            >
+                                <span className="font-semibold">
+                                    {
+                                        ragEvaluation
+                                            .evaluated_queries
+                                    }
+                                </span>{" "}
+                                Ground Truth Queries
+                            </div>
+                        )}
+                    </div>
+
+
+                    {ragLoading && (
+                        <div
+                            className="
+                                mt-8
+                                rounded-2xl
+                                bg-slate-50
+                                p-8
+                                text-center
+                            "
+                        >
+                            <p
+                                className="
+                                    text-sm
+                                    text-slate-500
+                                "
+                            >
+                                Đang tải kết quả RAG Evaluation...
+                            </p>
+                        </div>
+                    )}
+
+
+                    {ragError && (
+                        <div
+                            className="
+                                mt-8
+                                rounded-2xl
+                                border
+                                border-red-200
+                                bg-red-50
+                                p-5
+                            "
+                        >
+                            <p
+                                className="
+                                    text-sm
+                                    font-semibold
+                                    text-red-700
+                                "
+                            >
+                                Không thể tải RAG Evaluation
+                            </p>
+
+                            <p
+                                className="
+                                    mt-1
+                                    text-sm
+                                    text-red-600
+                                "
+                            >
+                                {ragError}
+                            </p>
+                        </div>
+                    )}
+
+
+                    {ragEvaluation &&
+                        ragMetrics && (
+                            <>
+                                <div
+                                    className="
+                                    mt-8
+                                    grid
+                                    gap-4
+                                    sm:grid-cols-2
+                                    lg:grid-cols-3
+                                    xl:grid-cols-6
+                                "
+                                >
+                                    <div
+                                        className="
+                                        rounded-2xl
+                                        border
+                                        border-slate-200
+                                        p-5
+                                    "
+                                    >
+                                        <p
+                                            className="
+                                            text-sm
+                                            text-slate-500
+                                        "
+                                        >
+                                            Precision@5
+                                        </p>
+
+                                        <p
+                                            className="
+                                            mt-2
+                                            text-3xl
+                                            font-bold
+                                            text-slate-900
+                                        "
+                                        >
+                                            {(
+                                                ragMetrics
+                                                    .precision_at_5 *
+                                                100
+                                            ).toFixed(0)}
+                                            %
+                                        </p>
+
+                                        <p
+                                            className="
+                                            mt-2
+                                            text-xs
+                                            text-slate-400
+                                        "
+                                        >
+                                            Relevant chunks trong Top-5
+                                        </p>
+                                    </div>
+
+
+                                    <div
+                                        className="
+                                        rounded-2xl
+                                        border
+                                        border-emerald-200
+                                        bg-emerald-50
+                                        p-5
+                                    "
+                                    >
+                                        <p
+                                            className="
+                                            text-sm
+                                            text-emerald-700
+                                        "
+                                        >
+                                            Recall@5
+                                        </p>
+
+                                        <p
+                                            className="
+                                            mt-2
+                                            text-3xl
+                                            font-bold
+                                            text-emerald-700
+                                        "
+                                        >
+                                            {(
+                                                ragMetrics
+                                                    .recall_at_5 *
+                                                100
+                                            ).toFixed(0)}
+                                            %
+                                        </p>
+
+                                        <p
+                                            className="
+                                            mt-2
+                                            text-xs
+                                            text-emerald-600
+                                        "
+                                        >
+                                            Ground Truth được tìm thấy
+                                        </p>
+                                    </div>
+
+
+                                    <div
+                                        className="
+                                        rounded-2xl
+                                        border
+                                        border-blue-200
+                                        bg-blue-50
+                                        p-5
+                                    "
+                                    >
+                                        <p
+                                            className="
+                                            text-sm
+                                            text-blue-700
+                                        "
+                                        >
+                                            Hit@1
+                                        </p>
+
+                                        <p
+                                            className="
+                                            mt-2
+                                            text-3xl
+                                            font-bold
+                                            text-blue-700
+                                        "
+                                        >
+                                            {(
+                                                ragMetrics.hit_at_1 *
+                                                100
+                                            ).toFixed(0)}
+                                            %
+                                        </p>
+
+                                        <p
+                                            className="
+                                            mt-2
+                                            text-xs
+                                            text-blue-600
+                                        "
+                                        >
+                                            Đúng ngay Rank 1
+                                        </p>
+                                    </div>
+
+
+                                    <div
+                                        className="
+                                        rounded-2xl
+                                        border
+                                        border-indigo-200
+                                        bg-indigo-50
+                                        p-5
+                                    "
+                                    >
+                                        <p
+                                            className="
+                                            text-sm
+                                            text-indigo-700
+                                        "
+                                        >
+                                            Hit@3
+                                        </p>
+
+                                        <p
+                                            className="
+                                            mt-2
+                                            text-3xl
+                                            font-bold
+                                            text-indigo-700
+                                        "
+                                        >
+                                            {(
+                                                ragMetrics.hit_at_3 *
+                                                100
+                                            ).toFixed(0)}
+                                            %
+                                        </p>
+
+                                        <p
+                                            className="
+                                            mt-2
+                                            text-xs
+                                            text-indigo-600
+                                        "
+                                        >
+                                            Đúng trong Top-3
+                                        </p>
+                                    </div>
+
+
+                                    <div
+                                        className="
+                                        rounded-2xl
+                                        border
+                                        border-violet-200
+                                        bg-violet-50
+                                        p-5
+                                    "
+                                    >
+                                        <p
+                                            className="
+                                            text-sm
+                                            text-violet-700
+                                        "
+                                        >
+                                            Hit@5
+                                        </p>
+
+                                        <p
+                                            className="
+                                            mt-2
+                                            text-3xl
+                                            font-bold
+                                            text-violet-700
+                                        "
+                                        >
+                                            {(
+                                                ragMetrics.hit_at_5 *
+                                                100
+                                            ).toFixed(0)}
+                                            %
+                                        </p>
+
+                                        <p
+                                            className="
+                                            mt-2
+                                            text-xs
+                                            text-violet-600
+                                        "
+                                        >
+                                            Đúng trong Top-5
+                                        </p>
+                                    </div>
+
+
+                                    <div
+                                        className="
+                                        rounded-2xl
+                                        border
+                                        border-amber-200
+                                        bg-amber-50
+                                        p-5
+                                    "
+                                    >
+                                        <p
+                                            className="
+                                            text-sm
+                                            text-amber-700
+                                        "
+                                        >
+                                            MRR
+                                        </p>
+
+                                        <p
+                                            className="
+                                            mt-2
+                                            text-3xl
+                                            font-bold
+                                            text-amber-700
+                                        "
+                                        >
+                                            {
+                                                ragMetrics
+                                                    .mrr
+                                                    .toFixed(4)
+                                            }
+                                        </p>
+
+                                        <p
+                                            className="
+                                            mt-2
+                                            text-xs
+                                            text-amber-600
+                                        "
+                                        >
+                                            Mean Reciprocal Rank
+                                        </p>
+                                    </div>
+                                </div>
+
+
+                                <div
+                                    className="
+                                    mt-8
+                                    grid
+                                    grid-cols-1
+                                    gap-6
+                                    xl:grid-cols-2
+                                "
+                                >
+                                    <div
+                                        className="
+                                        rounded-2xl
+                                        border
+                                        border-slate-200
+                                        p-6
+                                    "
+                                    >
+                                        <h3
+                                            className="
+                                            text-lg
+                                            font-bold
+                                            text-slate-900
+                                        "
+                                        >
+                                            Hit Rate theo Top-K
+                                        </h3>
+
+                                        <p
+                                            className="
+                                            mt-1
+                                            text-sm
+                                            text-slate-500
+                                        "
+                                        >
+                                            Tỷ lệ truy vấn tìm đúng
+                                            Ground Truth trong các vị trí
+                                            xếp hạng khác nhau.
+                                        </p>
+
+                                        <div
+                                            className="
+                                            mt-6
+                                            h-[320px]
+                                        "
+                                        >
+                                            <ResponsiveContainer
+                                                width="100%"
+                                                height="100%"
+                                            >
+                                                <BarChart
+                                                    data={ragHitData}
+                                                >
+                                                    <CartesianGrid
+                                                        strokeDasharray="3 3"
+                                                        stroke="#e2e8f0"
+                                                    />
+
+                                                    <XAxis
+                                                        dataKey="name"
+                                                        tick={{
+                                                            fill: "#64748b",
+                                                            fontSize: 12,
+                                                        }}
+                                                    />
+
+                                                    <YAxis
+                                                        domain={[
+                                                            0,
+                                                            100,
+                                                        ]}
+                                                        tick={{
+                                                            fill: "#64748b",
+                                                            fontSize: 12,
+                                                        }}
+                                                        tickFormatter={(
+                                                            value,
+                                                        ) =>
+                                                            `${value}%`
+                                                        }
+                                                    />
+
+                                                    <Tooltip
+                                                        formatter={(
+                                                            value,
+                                                        ) => [
+                                                                `${Number(
+                                                                    value,
+                                                                ).toFixed(
+                                                                    0,
+                                                                )}%`,
+                                                                "Hit Rate",
+                                                            ]}
+                                                    />
+
+                                                    <Bar
+                                                        dataKey="value"
+                                                        name="Hit Rate"
+                                                        fill="#6366f1"
+                                                        radius={[
+                                                            8,
+                                                            8,
+                                                            0,
+                                                            0,
+                                                        ]}
+                                                    />
+                                                </BarChart>
+                                            </ResponsiveContainer>
+                                        </div>
+                                    </div>
+
+
+                                    <div
+                                        className="
+                                        rounded-2xl
+                                        border
+                                        border-slate-200
+                                        bg-slate-50
+                                        p-6
+                                    "
+                                    >
+                                        <h3
+                                            className="
+                                            text-lg
+                                            font-bold
+                                            text-slate-900
+                                        "
+                                        >
+                                            Nhận xét kết quả
+                                        </h3>
+
+                                        <div
+                                            className="
+                                            mt-5
+                                            space-y-4
+                                        "
+                                        >
+                                            <div
+                                                className="
+                                                rounded-xl
+                                                bg-white
+                                                p-4
+                                            "
+                                            >
+                                                <p
+                                                    className="
+                                                    text-2xl
+                                                    font-bold
+                                                    text-blue-700
+                                                "
+                                                >
+                                                    {Math.round(
+                                                        ragMetrics.hit_at_1 *
+                                                        ragEvaluation.evaluated_queries
+                                                    )}{" "}
+                                                    / {ragEvaluation.evaluated_queries}
+                                                </p>
+
+                                                <p
+                                                    className="
+                                                    mt-1
+                                                    text-sm
+                                                    text-slate-600
+                                                "
+                                                >
+                                                    câu hỏi tìm đúng
+                                                    đoạn tri thức ngay
+                                                    tại Rank 1.
+                                                </p>
+                                            </div>
+
+                                            <div
+                                                className="
+                                                rounded-xl
+                                                bg-white
+                                                p-4
+                                            "
+                                            >
+                                                <p
+                                                    className="
+                                                    text-2xl
+                                                    font-bold
+                                                    text-emerald-700
+                                                "
+                                                >
+                                                    {Math.round(
+                                                        ragMetrics.hit_at_3 *
+                                                        ragEvaluation.evaluated_queries
+                                                    )}{" "}
+                                                    / {ragEvaluation.evaluated_queries}
+                                                </p>
+
+                                                <p
+                                                    className="
+                                                    mt-1
+                                                    text-sm
+                                                    text-slate-600
+                                                "
+                                                >
+                                                    câu hỏi tìm được
+                                                    Ground Truth trong
+                                                    Top-3.
+                                                </p>
+                                            </div>
+
+                                            <div
+                                                className="
+                                                rounded-xl
+                                                bg-white
+                                                p-4
+                                            "
+                                            >
+                                                <p
+                                                    className="
+                                                    text-2xl
+                                                    font-bold
+                                                    text-violet-700
+                                                "
+                                                >
+                                                    {
+                                                        ragMetrics
+                                                            .mrr
+                                                            .toFixed(4)
+                                                    }
+                                                </p>
+
+                                                <p
+                                                    className="
+                                                    mt-1
+                                                    text-sm
+                                                    text-slate-600
+                                                "
+                                                >
+                                                    MRR cho thấy relevant
+                                                    chunks thường được
+                                                    xếp ở vị trí rất cao.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div className="mt-8">
+                                    <div
+                                        className="
+                                        flex
+                                        items-center
+                                        justify-between
+                                    "
+                                    >
+                                        <div>
+                                            <h3
+                                                className="
+                                                text-lg
+                                                font-bold
+                                                text-slate-900
+                                            "
+                                            >
+                                                Ground Truth Benchmark
+                                            </h3>
+
+                                            <p
+                                                className="
+                                                mt-1
+                                                text-sm
+                                                text-slate-500
+                                            "
+                                            >
+                                                Thứ hạng của đoạn tri
+                                                thức đúng cho từng câu hỏi.
+                                            </p>
+                                        </div>
+                                    </div>
+
+
+                                    <div
+                                        className="
+                                        mt-4
+                                        overflow-hidden
+                                        rounded-2xl
+                                        border
+                                        border-slate-200
+                                    "
+                                    >
+                                        <div className="overflow-x-auto">
+                                            <table
+                                                className="
+                                                min-w-full
+                                                divide-y
+                                                divide-slate-200
+                                            "
+                                            >
+                                                <thead className="bg-slate-50">
+                                                    <tr>
+                                                        <th className="px-5 py-4 text-left text-xs font-semibold uppercase text-slate-500">
+                                                            ID
+                                                        </th>
+
+                                                        <th className="px-5 py-4 text-left text-xs font-semibold uppercase text-slate-500">
+                                                            Câu hỏi
+                                                        </th>
+
+                                                        <th className="px-5 py-4 text-left text-xs font-semibold uppercase text-slate-500">
+                                                            Danh mục
+                                                        </th>
+
+                                                        <th className="px-5 py-4 text-left text-xs font-semibold uppercase text-slate-500">
+                                                            Rank
+                                                        </th>
+
+                                                        <th className="px-5 py-4 text-left text-xs font-semibold uppercase text-slate-500">
+                                                            Hit@1
+                                                        </th>
+
+                                                        <th className="px-5 py-4 text-left text-xs font-semibold uppercase text-slate-500">
+                                                            Hit@3
+                                                        </th>
+
+                                                        <th className="px-5 py-4 text-left text-xs font-semibold uppercase text-slate-500">
+                                                            RR
+                                                        </th>
+                                                    </tr>
+                                                </thead>
+
+                                                <tbody
+                                                    className="
+                                                    divide-y
+                                                    divide-slate-100
+                                                    bg-white
+                                                "
+                                                >
+                                                    {ragEvaluation
+                                                        .results
+                                                        .map(
+                                                            (
+                                                                item,
+                                                            ) => (
+                                                                <tr
+                                                                    key={
+                                                                        item.id
+                                                                    }
+                                                                >
+                                                                    <td
+                                                                        className="
+                                                                        px-5
+                                                                        py-4
+                                                                        text-sm
+                                                                        font-semibold
+                                                                        text-slate-900
+                                                                    "
+                                                                    >
+                                                                        Q
+                                                                        {String(
+                                                                            item.id,
+                                                                        ).padStart(
+                                                                            2,
+                                                                            "0",
+                                                                        )}
+                                                                    </td>
+
+                                                                    <td
+                                                                        className="
+                                                                        max-w-xl
+                                                                        px-5
+                                                                        py-4
+                                                                        text-sm
+                                                                        text-slate-700
+                                                                    "
+                                                                    >
+                                                                        {
+                                                                            item.question
+                                                                        }
+                                                                    </td>
+
+                                                                    <td
+                                                                        className="
+                                                                        px-5
+                                                                        py-4
+                                                                        text-sm
+                                                                        text-slate-500
+                                                                    "
+                                                                    >
+                                                                        {
+                                                                            item.category
+                                                                        }
+                                                                    </td>
+
+                                                                    <td
+                                                                        className="
+                                                                        px-5
+                                                                        py-4
+                                                                    "
+                                                                    >
+                                                                        <span
+                                                                            className={`
+                                                                            inline-flex
+                                                                            min-w-10
+                                                                            justify-center
+                                                                            rounded-full
+                                                                            px-3
+                                                                            py-1
+                                                                            text-xs
+                                                                            font-bold
+                                                                            ${item.rank ===
+                                                                                    1
+                                                                                    ? "bg-emerald-50 text-emerald-700"
+                                                                                    : "bg-amber-50 text-amber-700"
+                                                                                }
+                                                                        `}
+                                                                        >
+                                                                            {item.rank
+                                                                                ? `Rank ${item.rank}`
+                                                                                : "—"}
+
+                                                                        </span>
+                                                                    </td>
+
+                                                                    <td className="px-5 py-4 text-sm">
+                                                                        {
+                                                                            item.hit_at_1
+                                                                                ? "✅"
+                                                                                : "—"
+                                                                        }
+                                                                    </td>
+
+                                                                    <td className="px-5 py-4 text-sm">
+                                                                        {
+                                                                            item.hit_at_3
+                                                                                ? "✅"
+                                                                                : "—"
+                                                                        }
+                                                                    </td>
+
+                                                                    <td
+                                                                        className="
+                                                                        px-5
+                                                                        py-4
+                                                                        text-sm
+                                                                        font-medium
+                                                                        text-slate-700
+                                                                    "
+                                                                    >
+                                                                        {
+                                                                            item.rr
+                                                                                .toFixed(
+                                                                                    4,
+                                                                                )
+                                                                        }
+                                                                    </td>
+                                                                </tr>
+                                                            ),
+                                                        )}
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </>
+                        )}
+                </section>
+
+
                 {activeResult && (
                     <section
                         className="
@@ -960,7 +1944,7 @@ export default function EvaluationPage() {
                                 "
                             >
                                 {evaluationType ===
-                                "graduation"
+                                    "graduation"
                                     ? (
                                         "Phân tích " +
                                         "tốt nghiệp " +
@@ -1268,8 +2252,8 @@ export default function EvaluationPage() {
                                                             }
                                                             fill={
                                                                 CHART_COLORS[
-                                                                    index %
-                                                                        CHART_COLORS.length
+                                                                index %
+                                                                CHART_COLORS.length
                                                                 ]
                                                             }
                                                         />
@@ -1318,7 +2302,7 @@ export default function EvaluationPage() {
 
                                 {failedConditionData
                                     .length >
-                                0 ? (
+                                    0 ? (
                                     <div
                                         className="mt-6"
                                         style={{
@@ -1327,7 +2311,7 @@ export default function EvaluationPage() {
                                                     360,
                                                     failedConditionData
                                                         .length *
-                                                        64,
+                                                    64,
                                                 ),
                                         }}
                                     >
@@ -1455,43 +2439,43 @@ export default function EvaluationPage() {
                             .top_failed_conditions
                             .length >
                             0 && (
-                            <div className="mt-8">
-                                <h3
-                                    className="
+                                <div className="mt-8">
+                                    <h3
+                                        className="
                                         text-lg
                                         font-bold
                                         text-slate-900
                                     "
-                                >
-                                    Các điều kiện không
-                                    đạt phổ biến
-                                </h3>
+                                    >
+                                        Các điều kiện không
+                                        đạt phổ biến
+                                    </h3>
 
-                                <div
-                                    className="
+                                    <div
+                                        className="
                                         mt-4
                                         space-y-3
                                     "
-                                >
-                                    {activeResult
-                                        .summary
-                                        .top_failed_conditions
-                                        .map(
-                                            (
-                                                item,
-                                                index,
-                                            ) => (
-                                                <div
-                                                    key={`${item.condition}-${index}`}
-                                                    className="
+                                    >
+                                        {activeResult
+                                            .summary
+                                            .top_failed_conditions
+                                            .map(
+                                                (
+                                                    item,
+                                                    index,
+                                                ) => (
+                                                    <div
+                                                        key={`${item.condition}-${index}`}
+                                                        className="
                                                         rounded-xl
                                                         border
                                                         border-slate-200
                                                         p-4
                                                     "
-                                                >
-                                                    <div
-                                                        className="
+                                                    >
+                                                        <div
+                                                            className="
                                                             flex
                                                             flex-col
                                                             gap-2
@@ -1499,61 +2483,61 @@ export default function EvaluationPage() {
                                                             sm:items-center
                                                             sm:justify-between
                                                         "
-                                                    >
-                                                        <p
-                                                            className="
+                                                        >
+                                                            <p
+                                                                className="
                                                                 text-sm
                                                                 font-medium
                                                                 text-slate-800
                                                             "
-                                                        >
-                                                            {
-                                                                item.condition
-                                                            }
-                                                        </p>
+                                                            >
+                                                                {
+                                                                    item.condition
+                                                                }
+                                                            </p>
 
-                                                        <div
-                                                            className="
+                                                            <div
+                                                                className="
                                                                 flex
                                                                 items-center
                                                                 gap-3
                                                                 text-sm
                                                             "
-                                                        >
-                                                            <span
-                                                                className="
+                                                            >
+                                                                <span
+                                                                    className="
                                                                     font-semibold
                                                                     text-slate-900
                                                                 "
-                                                            >
-                                                                {
-                                                                    item.student_count
-                                                                }{" "}
-                                                                sinh viên
-                                                            </span>
+                                                                >
+                                                                    {
+                                                                        item.student_count
+                                                                    }{" "}
+                                                                    sinh viên
+                                                                </span>
 
-                                                            <span
-                                                                className="
+                                                                <span
+                                                                    className="
                                                                     rounded-full
                                                                     bg-slate-100
                                                                     px-3
                                                                     py-1
                                                                     text-slate-600
                                                                 "
-                                                            >
-                                                                {
-                                                                    item.rate
-                                                                }
-                                                                %
-                                                            </span>
+                                                                >
+                                                                    {
+                                                                        item.rate
+                                                                    }
+                                                                    %
+                                                                </span>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                            ),
-                                        )}
+                                                ),
+                                            )}
+                                    </div>
                                 </div>
-                            </div>
-                        )}
+                            )}
 
 
                         <div className="mt-8">
@@ -1704,21 +2688,21 @@ export default function EvaluationPage() {
                                                 ) => {
                                                     const statusLabel =
                                                         student.status ===
-                                                        "eligible"
+                                                            "eligible"
                                                             ? "Đủ điều kiện"
                                                             : student.status ===
-                                                              "not_eligible"
-                                                            ? "Chưa đủ điều kiện"
-                                                            : "Thiếu dữ liệu";
+                                                                "not_eligible"
+                                                                ? "Chưa đủ điều kiện"
+                                                                : "Thiếu dữ liệu";
 
                                                     const statusClassName =
                                                         student.status ===
-                                                        "eligible"
+                                                            "eligible"
                                                             ? "bg-emerald-50 text-emerald-700"
                                                             : student.status ===
-                                                              "not_eligible"
-                                                            ? "bg-red-50 text-red-700"
-                                                            : "bg-amber-50 text-amber-700";
+                                                                "not_eligible"
+                                                                ? "bg-red-50 text-red-700"
+                                                                : "bg-amber-50 text-amber-700";
 
                                                     return (
                                                         <tr
@@ -1803,8 +2787,8 @@ export default function EvaluationPage() {
                                     .students
                                     .length >
                                     rowsPerPage && (
-                                    <div
-                                        className="
+                                        <div
+                                            className="
                                             flex
                                             items-center
                                             justify-between
@@ -1814,26 +2798,26 @@ export default function EvaluationPage() {
                                             px-5
                                             py-4
                                         "
-                                    >
-                                        <button
-                                            type="button"
-                                            onClick={() =>
-                                                setCurrentPage(
-                                                    (
-                                                        page,
-                                                    ) =>
-                                                        Math.max(
-                                                            1,
-                                                            page -
+                                        >
+                                            <button
+                                                type="button"
+                                                onClick={() =>
+                                                    setCurrentPage(
+                                                        (
+                                                            page,
+                                                        ) =>
+                                                            Math.max(
                                                                 1,
-                                                        ),
-                                                )
-                                            }
-                                            disabled={
-                                                currentPage ===
-                                                1
-                                            }
-                                            className="
+                                                                page -
+                                                                1,
+                                                            ),
+                                                    )
+                                                }
+                                                disabled={
+                                                    currentPage ===
+                                                    1
+                                                }
+                                                className="
                                                 rounded-lg
                                                 border
                                                 border-slate-300
@@ -1848,45 +2832,45 @@ export default function EvaluationPage() {
                                                 disabled:cursor-not-allowed
                                                 disabled:opacity-40
                                             "
-                                        >
-                                            ← Trước
-                                        </button>
+                                            >
+                                                ← Trước
+                                            </button>
 
-                                        <p
-                                            className="
+                                            <p
+                                                className="
                                                 text-sm
                                                 text-slate-500
                                             "
-                                        >
-                                            Trang{" "}
-                                            {
-                                                currentPage
-                                            }{" "}
-                                            /{" "}
-                                            {
-                                                totalPages
-                                            }
-                                        </p>
+                                            >
+                                                Trang{" "}
+                                                {
+                                                    currentPage
+                                                }{" "}
+                                                /{" "}
+                                                {
+                                                    totalPages
+                                                }
+                                            </p>
 
-                                        <button
-                                            type="button"
-                                            onClick={() =>
-                                                setCurrentPage(
-                                                    (
-                                                        page,
-                                                    ) =>
-                                                        Math.min(
-                                                            totalPages,
-                                                            page +
+                                            <button
+                                                type="button"
+                                                onClick={() =>
+                                                    setCurrentPage(
+                                                        (
+                                                            page,
+                                                        ) =>
+                                                            Math.min(
+                                                                totalPages,
+                                                                page +
                                                                 1,
-                                                        ),
-                                                )
-                                            }
-                                            disabled={
-                                                currentPage ===
-                                                totalPages
-                                            }
-                                            className="
+                                                            ),
+                                                    )
+                                                }
+                                                disabled={
+                                                    currentPage ===
+                                                    totalPages
+                                                }
+                                                className="
                                                 rounded-lg
                                                 border
                                                 border-slate-300
@@ -1901,11 +2885,11 @@ export default function EvaluationPage() {
                                                 disabled:cursor-not-allowed
                                                 disabled:opacity-40
                                             "
-                                        >
-                                            Sau →
-                                        </button>
-                                    </div>
-                                )}
+                                            >
+                                                Sau →
+                                            </button>
+                                        </div>
+                                    )}
                             </div>
                         </div>
 
@@ -1914,8 +2898,8 @@ export default function EvaluationPage() {
                             .warnings
                             .length >
                             0 && (
-                            <div
-                                className="
+                                <div
+                                    className="
                                     mt-8
                                     rounded-2xl
                                     border
@@ -1923,46 +2907,46 @@ export default function EvaluationPage() {
                                     bg-amber-50
                                     p-5
                                 "
-                            >
-                                <h3
-                                    className="
+                                >
+                                    <h3
+                                        className="
                                         font-bold
                                         text-amber-800
                                     "
-                                >
-                                    Cảnh báo
-                                </h3>
+                                    >
+                                        Cảnh báo
+                                    </h3>
 
-                                <div
-                                    className="
+                                    <div
+                                        className="
                                         mt-3
                                         space-y-2
                                     "
-                                >
-                                    {activeResult
-                                        .warnings
-                                        .map(
-                                            (
-                                                warning,
-                                                index,
-                                            ) => (
-                                                <p
-                                                    key={`${warning}-${index}`}
-                                                    className="
+                                    >
+                                        {activeResult
+                                            .warnings
+                                            .map(
+                                                (
+                                                    warning,
+                                                    index,
+                                                ) => (
+                                                    <p
+                                                        key={`${warning}-${index}`}
+                                                        className="
                                                         text-sm
                                                         text-amber-700
                                                     "
-                                                >
-                                                    •{" "}
-                                                    {
-                                                        warning
-                                                    }
-                                                </p>
-                                            ),
-                                        )}
+                                                    >
+                                                        •{" "}
+                                                        {
+                                                            warning
+                                                        }
+                                                    </p>
+                                                ),
+                                            )}
+                                    </div>
                                 </div>
-                            </div>
-                        )}
+                            )}
                     </section>
                 )}
             </div>

@@ -1,0 +1,10 @@
+[
+  {
+    "question": "Sinh viên cần CPA tối thiểu bao nhiêu để được xét tốt nghiệp?",
+    "category": "tot_nghiep",
+    "reference": "Sinh viên cần đạt CPA tối thiểu 2.00 trên thang điểm 4.00 để đáp ứng điều kiện xét tốt nghiệp.",
+    "reference_contexts": [
+      "Điểm trung bình tích lũy (CPA): Đạt điểm trung bình tích lũy toàn khóa học từ 2.00 / 4.00 trở lên."
+    ]
+  }
+]

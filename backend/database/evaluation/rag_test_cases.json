@@ -1,0 +1,83 @@
+    [
+    {
+        "question": "Sinh viên cần CPA tối thiểu bao nhiêu để được xét tốt nghiệp?",
+        "category": "tot_nghiep",
+        "reference": "Sinh viên cần đạt CPA tối thiểu 2.00 trên thang điểm 4.00.",
+        "reference_chunk_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+        ]
+    },
+    {
+        "question": "Sinh viên cần đáp ứng chuẩn ngoại ngữ nào để được xét tốt nghiệp?",
+        "category": "tot_nghiep",
+        "reference": "Sinh viên cần có chứng chỉ ngoại ngữ đạt chuẩn đầu ra theo quy định của Nhà trường áp dụng cho từng khóa/ngành đào tạo, như TOEIC, IELTS, VSTEP hoặc tương đương.",
+        "reference_chunk_ids": [
+            "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+        ]
+    },
+    {
+        "question": "Khi nào hạng tốt nghiệp bị giảm một hạng?",
+        "category": "tot_nghiep",
+        "reference": "Hạng tốt nghiệp của sinh viên đạt loại Xuất sắc hoặc Giỏi sẽ bị giảm một hạng nếu bị kỷ luật từ mức cảnh cáo trở lên trong toàn khóa học hoặc số tín chỉ học lại vượt quá 5% tổng số tín chỉ của chương trình.",
+        "reference_chunk_ids": [
+            "quy_dinh_tot_nghiep_pdf_page_2_chunk_1"
+        ]
+    },
+    {
+        "question": "Điều kiện xét học bổng của sinh viên là gì?",
+        "category": "hoc_bong",
+        "reference": "Điều kiện xét học bổng phụ thuộc vào từng loại học bổng. Ví dụ, học bổng Khuyến khích học tập dành cho sinh viên có thành tích học tập Xuất sắc và xếp loại Giỏi trong năm học; các học bổng khác có thể yêu cầu hoàn cảnh khó khăn, thành tích đầu vào, quan hệ với cán bộ nhà trường hoặc hoạt động phong trào.",
+        "reference_chunk_ids": [
+            "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2"
+        ]
+    },
+    {
+        "question": "Sinh viên có thành tích học tập như thế nào thì được xét Học bổng Khuyến khích học tập?",
+        "category": "hoc_bong",
+        "reference": "Học bổng Khuyến khích học tập dành cho sinh viên có thành tích học tập Xuất sắc và xếp loại Giỏi trong năm học.",
+        "reference_chunk_ids": [
+            "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2"
+        ]
+    },
+    {
+        "question": "Học bổng Chắp cánh ước mơ dành cho đối tượng nào?",
+        "category": "hoc_bong",
+        "reference": "Học bổng Chắp cánh ước mơ dành cho tân sinh viên K28 có kết quả học tập lớp 12 loại Giỏi, thuộc diện hộ nghèo/cận nghèo hoặc có xác nhận hoàn cảnh khó khăn và có ý chí vươn lên trong học tập.",
+        "reference_chunk_ids": [
+            "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1"
+        ]
+    },
+    {
+        "question": "Khi nào sinh viên bị cảnh báo học vụ?",
+        "category": "hoc_vu",
+        "reference": "Sinh viên bị cảnh báo học vụ khi không đáp ứng các tiêu chí học tập tối thiểu theo quy định, ví dụ GPA học kỳ thấp hơn 1.60/4.00, số tín chỉ đạt trong học kỳ thấp hơn 12 tín chỉ hoặc CPA thấp hơn 2.00/4.00.",
+        "reference_chunk_ids": [
+            "canh_bao_hoc_vu_pdf_page_1_chunk_2"
+        ]
+    },
+    {
+        "question": "Sinh viên bị cảnh báo học vụ có bị giới hạn tín chỉ không?",
+        "category": "hoc_vu",
+        "reference": "Có. Trong học kỳ tiếp theo, sinh viên bị cảnh báo học vụ chỉ được đăng ký tối đa 14 tín chỉ.",
+        "reference_chunk_ids": [
+            "canh_bao_hoc_vu_pdf_page_2_chunk_1"
+        ]
+    },
+    {
+        "question": "Chương trình đào tạo quy định số tín chỉ như thế nào?",
+        "category": "dao_tao",
+        "reference": "Tín chỉ được sử dụng để tính khối lượng học tập của sinh viên. Một tín chỉ tương ứng với 15 tiết lý thuyết, 15 tiết bài tập tại lớp, 30 tiết thực hành, thí nghiệm hoặc thảo luận, 60 giờ trải nghiệm hoặc thực tập, hoặc 45 giờ làm bài tập lớn, đồ án hay khóa luận tốt nghiệp tùy loại hoạt động học tập.",
+        "reference_chunk_ids": [
+            "979_2022_pdf_page_4_chunk_4"
+        ]
+    },
+    {
+       "question": "Sinh viên cần hoàn thành những học phần nào trong chương trình đào tạo?",
+        "category": "dao_tao",
+        "reference": "Sinh viên phải hoàn thành các học phần theo chương trình đào tạo, bao gồm các học phần chuyên môn, thực tập và đồ án tốt nghiệp; đồng thời hoàn thành các yêu cầu về Giáo dục quốc phòng, Giáo dục thể chất, kỹ năng mềm, ngoại ngữ và tin học chuẩn đầu ra theo quy định.",
+        "reference_chunk_ids": [
+            "CTDT_KhoaHocMayTinh_2020_pdf_page_4_chunk_1"
+        ]
+    }
+    ]
+   

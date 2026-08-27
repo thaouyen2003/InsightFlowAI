@@ -1,0 +1,461 @@
+[
+  {
+    "id": 1,
+    "question": "Sinh viên cần CPA tối thiểu bao nhiêu để được xét tốt nghiệp?",
+    "category": "tot_nghiep",
+    "top_k": 5,
+    "reference_chunk_ids": [
+      "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Sinh viên cần đáp ứng chuẩn ngoại ngữ nào để được xét tốt nghiệp?",
+    "category": "tot_nghiep",
+    "top_k": 5,
+    "reference_chunk_ids": [
+      "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Khi nào hạng tốt nghiệp bị giảm một hạng?",
+    "category": "tot_nghiep",
+    "top_k": 5,
+    "reference_chunk_ids": [
+      "quy_dinh_tot_nghiep_pdf_page_2_chunk_1"
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Điều kiện xét học bổng của sinh viên là gì?",
+    "category": "hoc_bong",
+    "top_k": 5,
+    "reference_chunk_ids": [
+      "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2"
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Sinh viên có thành tích học tập như thế nào thì được xét Học bổng Khuyến khích học tập?",
+    "category": "hoc_bong",
+    "top_k": 5,
+    "reference_chunk_ids": [
+      "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2"
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Học bổng Chắp cánh ước mơ dành cho đối tượng nào?",
+    "category": "hoc_bong",
+    "top_k": 5,
+    "reference_chunk_ids": [
+      "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1"
+    ]
+  },
+  {
+    "id": 7,
+    "question": "Khi nào sinh viên bị cảnh báo học vụ?",
+    "category": "hoc_vu",
+    "top_k": 5,
+    "reference_chunk_ids": [
+      "canh_bao_hoc_vu_pdf_page_1_chunk_2"
+    ]
+  },
+  {
+    "id": 8,
+    "question": "Sinh viên bị cảnh báo học vụ có bị giới hạn tín chỉ không?",
+    "category": "hoc_vu",
+    "top_k": 5,
+    "reference_chunk_ids": [
+      "canh_bao_hoc_vu_pdf_page_2_chunk_1"
+    ]
+  },
+  {
+    "id": 9,
+    "question": "Chương trình đào tạo quy định số tín chỉ như thế nào?",
+    "category": "dao_tao",
+    "top_k": 5,
+    "reference_chunk_ids": [
+      "979_2022_pdf_page_4_chunk_4"
+    ]
+  },
+  {
+    "id": 10,
+    "question": "Sinh viên cần hoàn thành những học phần nào trong chương trình đào tạo?",
+    "category": "dao_tao",
+    "top_k": 5,
+    "reference_chunk_ids": [
+      "CTDT_KhoaHocMayTinh_2020_pdf_page_4_chunk_1"
+    ]
+  },
+  {
+    "id": 11,
+    "question": "Sinh viên cần đáp ứng yêu cầu gì về tín chỉ để được xét tốt nghiệp?",
+    "category": "tot_nghiep",
+    "top_k": 5,
+    "reference_chunk_ids": [
+      "quy_dinh_tot_nghiep_pdf_page_1_chunk_1"
+    ]
+  },
+  {
+    "id": 12,
+    "question": "Điểm trung bình tích lũy tối thiểu để sinh viên đủ điều kiện tốt nghiệp là bao nhiêu?",
+    "category": "tot_nghiep",
+    "top_k": 5,
+    "reference_chunk_ids": [
+      "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+    ]
+  },
+  {
+    "id": 13,
+    "question": "Sinh viên chưa đạt chuẩn ngoại ngữ có được xét tốt nghiệp không?",
+    "category": "tot_nghiep",
+    "top_k": 5,
+    "reference_chunk_ids": [
+      "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+    ]
+  },
+  {
+    "id": 14,
+    "question": "Sinh viên cần đáp ứng điều kiện gì về tin học để được công nhận tốt nghiệp?",
+    "category": "tot_nghiep",
+    "top_k": 5,
+    "reference_chunk_ids": [
+      "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+    ]
+  },
+  {
+    "id": 15,
+    "question": "Sinh viên chưa hoàn thành Giáo dục Quốc phòng - An ninh có được xét tốt nghiệp không?",
+    "category": "tot_nghiep",
+    "top_k": 5,
+    "reference_chunk_ids": [
+      "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+    ]
+  },
+  {
+    "id": 16,
+    "question": "Sinh viên chưa hoàn thành Giáo dục thể chất có đủ điều kiện tốt nghiệp không?",
+    "category": "tot_nghiep",
+    "top_k": 5,
+    "reference_chunk_ids": [
+      "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+    ]
+  },
+  {
+    "id": 17,
+    "question": "Sinh viên còn nghĩa vụ tài chính với nhà trường có được xét công nhận tốt nghiệp không?",
+    "category": "tot_nghiep",
+    "top_k": 5,
+    "reference_chunk_ids": [
+      "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+    ]
+  },
+  {
+    "id": 18,
+    "question": "Trong những trường hợp nào hạng tốt nghiệp của sinh viên bị giảm một hạng?",
+    "category": "tot_nghiep",
+    "top_k": 5,
+    "reference_chunk_ids": [
+      "quy_dinh_tot_nghiep_pdf_page_2_chunk_1"
+    ]
+  },
+  {
+    "id": 19,
+    "question": "Sinh viên có CPA 1.95 trên thang điểm 4 nhưng đã hoàn thành đủ tín chỉ có đủ điều kiện tốt nghiệp không?",
+    "category": "tot_nghiep",
+    "top_k": 5,
+    "reference_chunk_ids": [
+      "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+    ]
+  },
+  {
+    "id": 20,
+    "question": "Sinh viên đã hoàn thành đủ tín chỉ và đạt CPA yêu cầu nhưng chưa đạt chuẩn ngoại ngữ có được công nhận tốt nghiệp không?",
+    "category": "tot_nghiep",
+    "top_k": 5,
+    "reference_chunk_ids": [
+      "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+    ]
+  },
+
+  {
+    "id": 21,
+    "question": "Sinh viên cần có thành tích học tập như thế nào để được xét Học bổng Khuyến khích học tập?",
+    "category": "hoc_bong",
+    "top_k": 5,
+    "reference_chunk_ids": [
+      "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2"
+    ]
+  },
+  {
+    "id": 22,
+    "question": "Học bổng Chắp cánh ước mơ năm học 2025 - 2026 dành cho đối tượng nào?",
+    "category": "hoc_bong",
+    "top_k": 5,
+    "reference_chunk_ids": [
+      "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1"
+    ]
+  },
+  {
+    "id": 23,
+    "question": "Học bổng Đồng hành cùng Hùng Hậu dành cho những sinh viên nào?",
+    "category": "hoc_bong",
+    "top_k": 5,
+    "reference_chunk_ids": [
+      "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2"
+    ]
+  },
+  {
+    "id": 24,
+    "question": "Học bổng sinh viên Bình Định dành cho đối tượng nào?",
+    "category": "hoc_bong",
+    "top_k": 5,
+    "reference_chunk_ids": [
+      "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2"
+    ]
+  },
+  {
+    "id": 25,
+    "question": "Học bổng cán bộ Đoàn - Hội dành cho những sinh viên nào?",
+    "category": "hoc_bong",
+    "top_k": 5,
+    "reference_chunk_ids": [
+      "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_3"
+    ]
+  },
+  {
+    "id": 26,
+    "question": "Học bổng Chắp cánh ước mơ năm học 2025 - 2026 hỗ trợ bao nhiêu phần trăm học phí?",
+    "category": "hoc_bong",
+    "top_k": 5,
+    "reference_chunk_ids": [
+      "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1"
+    ]
+  },
+  {
+    "id": 27,
+    "question": "Thời hạn tiếp nhận hồ sơ xét học bổng năm học 2025 - 2026 là đến ngày nào?",
+    "category": "hoc_bong",
+    "top_k": 5,
+    "reference_chunk_ids": [
+      "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1"
+    ]
+  },
+  {
+    "id": 28,
+    "question": "Đơn vị nào tiếp nhận hồ sơ xét học bổng năm học 2025 - 2026?",
+    "category": "hoc_bong",
+    "top_k": 5,
+    "reference_chunk_ids": [
+      "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1"
+    ]
+  },
+  {
+    "id": 29,
+    "question": "Tân sinh viên K28 cần có kết quả học tập lớp 12 như thế nào để xét Học bổng Chắp cánh ước mơ?",
+    "category": "hoc_bong",
+    "top_k": 5,
+    "reference_chunk_ids": [
+      "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1"
+    ]
+  },
+  {
+    "id": 30,
+    "question": "Học bổng Khuyến khích học tập dành cho sinh viên có thành tích học tập ở mức nào?",
+    "category": "hoc_bong",
+    "top_k": 5,
+    "reference_chunk_ids": [
+      "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2"
+    ]
+  },
+
+  
+
+
+
+  {
+    "id": 31,
+    "question": "Trong những trường hợp nào sinh viên bị cảnh báo học vụ?",
+    "category": "hoc_vu",
+    "top_k": 5,
+    "reference_chunk_ids": [
+      "canh_bao_hoc_vu_pdf_page_1_chunk_2"
+    ]
+  },
+  {
+    "id": 32,
+    "question": "Điểm trung bình tích lũy thấp có thể khiến sinh viên bị cảnh báo học vụ như thế nào?",
+    "category": "hoc_vu",
+    "top_k": 5,
+    "reference_chunk_ids": [
+      "canh_bao_hoc_vu_pdf_page_1_chunk_2"
+    ]
+  },
+  {
+    "id": 33,
+    "question": "Sinh viên bị cảnh báo học vụ có bị giới hạn số tín chỉ được đăng ký trong học kỳ tiếp theo không?",
+    "category": "hoc_vu",
+    "top_k": 5,
+    "reference_chunk_ids": [
+      "canh_bao_hoc_vu_pdf_page_2_chunk_1"
+    ]
+  },
+  {
+    "id": 34,
+    "question": "Sinh viên đang bị cảnh báo học vụ được phép đăng ký tối đa bao nhiêu tín chỉ?",
+    "category": "hoc_vu",
+    "top_k": 5,
+    "reference_chunk_ids": [
+      "canh_bao_hoc_vu_pdf_page_2_chunk_1"
+    ]
+  },
+  {
+    "id": 35,
+    "question": "Số tín chỉ đạt trong học kỳ không đạt mức tối thiểu có thể dẫn đến cảnh báo học vụ không?",
+    "category": "hoc_vu",
+    "top_k": 5,
+    "reference_chunk_ids": [
+      "canh_bao_hoc_vu_pdf_page_1_chunk_2"
+    ]
+  },
+  {
+    "id": 36,
+    "question": "Điểm rèn luyện được sử dụng như một tiêu chí đánh giá tình trạng học vụ của sinh viên không?",
+    "category": "hoc_vu",
+    "top_k": 5,
+    "reference_chunk_ids": [
+      "canh_bao_hoc_vu_pdf_page_1_chunk_2"
+    ]
+  },
+  {
+    "id": 37,
+    "question": "Sinh viên bị cảnh báo học vụ hai lần liên tiếp có thể chịu hậu quả gì?",
+    "category": "hoc_vu",
+    "top_k": 5,
+    "reference_chunk_ids": [
+      "canh_bao_hoc_vu_pdf_page_2_chunk_1"
+    ]
+  },
+  {
+    "id": 38,
+    "question": "Sinh viên bị cảnh báo học vụ ba lần trong toàn khóa có thể bị xử lý như thế nào?",
+    "category": "hoc_vu",
+    "top_k": 5,
+    "reference_chunk_ids": [
+      "canh_bao_hoc_vu_pdf_page_2_chunk_1"
+    ]
+  },
+  {
+    "id": 39,
+    "question": "Sinh viên có CPA 1.82 trên thang điểm 4 có đạt mức CPA tối thiểu 2.00 theo thông báo cảnh báo học vụ không?",
+    "category": "hoc_vu",
+    "top_k": 5,
+    "reference_chunk_ids": [
+      "canh_bao_hoc_vu_pdf_page_1_chunk_2"
+    ]
+  },
+  {
+    "id": 40,
+    "question": "Sinh viên vừa có CPA thấp vừa có số tín chỉ đạt trong học kỳ dưới mức tối thiểu có nguy cơ bị cảnh báo học vụ không?",
+    "category": "hoc_vu",
+    "top_k": 5,
+    "reference_chunk_ids": [
+      "canh_bao_hoc_vu_pdf_page_1_chunk_2"
+    ]
+  },
+  {
+    "id": 41,
+    "question": "Chương trình đào tạo được xây dựng theo đơn vị nào và được cấu trúc từ những thành phần nào?",
+    "category": "dao_tao",
+    "top_k": 5,
+    "reference_chunk_ids": [
+      "979_2022_pdf_page_2_chunk_3"
+    ]
+  },
+  {
+    "id": 42,
+    "question": "Chương trình đào tạo gồm những khối kiến thức chính nào?",
+    "category": "dao_tao",
+    "top_k": 5,
+    "reference_chunk_ids": [
+      "979_2022_pdf_page_2_chunk_4",
+      "979_2022_pdf_page_3_chunk_2"
+    ]
+  },
+  {
+    "id": 43,
+    "question": "Học phần bắt buộc và học phần tự chọn khác nhau như thế nào?",
+    "category": "dao_tao",
+    "top_k": 5,
+    "reference_chunk_ids": [
+      "979_2022_pdf_page_4_chunk_1",
+      "979_2022_pdf_page_4_chunk_2"
+    ]
+  },
+  {
+    "id": 44,
+    "question": "Học phần bắt buộc được quy định như thế nào trong chương trình đào tạo?",
+    "category": "dao_tao",
+    "top_k": 5,
+    "reference_chunk_ids": [
+      "979_2022_pdf_page_4_chunk_1"
+    ]
+  },
+  {
+    "id": 45,
+    "question": "Học phần tự chọn được quy định như thế nào trong chương trình đào tạo?",
+    "category": "dao_tao",
+    "top_k": 5,
+    "reference_chunk_ids": [
+      "979_2022_pdf_page_4_chunk_2"
+    ]
+  },
+  {
+    "id": 46,
+    "question": "Học phần tiên quyết và học phần học trước được quy định như thế nào?",
+    "category": "dao_tao",
+    "top_k": 5,
+    "reference_chunk_ids": [
+      "979_2022_pdf_page_4_chunk_2",
+      "979_2022_pdf_page_4_chunk_3"
+    ]
+  },
+  {
+    "id": 47,
+    "question": "Sinh viên không đạt một học phần bắt buộc phải xử lý như thế nào?",
+    "category": "dao_tao",
+    "top_k": 5,
+    "reference_chunk_ids": [
+      "979_2022_pdf_page_7_chunk_3"
+    ]
+  },
+  {
+    "id": 48,
+    "question": "Mỗi khối kiến thức trong chương trình đào tạo được cấu trúc thành những phần nào?",
+    "category": "dao_tao",
+    "top_k": 5,
+    "reference_chunk_ids": [
+      "979_2022_pdf_page_3_chunk_2"
+    ]
+  },
+  {
+    "id": 49,
+    "question": "Học phần trong chương trình đào tạo thường có khối lượng bao nhiêu tín chỉ?",
+    "category": "dao_tao",
+    "top_k": 5,
+    "reference_chunk_ids": [
+      "979_2022_pdf_page_3_chunk_4"
+    ]
+  },
+  {
+    "id": 50,
+    "question": "Đề cương chi tiết học phần phải thể hiện những điều kiện học tập nào?",
+    "category": "dao_tao",
+    "top_k": 5,
+    "reference_chunk_ids": [
+      "979_2022_pdf_page_4_chunk_3"
+    ]
+  }
+]

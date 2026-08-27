@@ -1,0 +1,202 @@
+{
+  "top_k": 5,
+  "evaluated_queries": 10,
+  "metrics": {
+    "precision_at_5": 0.19999999999999998,
+    "recall_at_5": 1.0,
+    "hit_at_1": 0.8,
+    "hit_at_3": 1.0,
+    "hit_at_5": 1.0,
+    "mrr": 0.8833333333333332
+  },
+  "results": [
+    {
+      "id": 1,
+      "question": "Sinh viên cần CPA tối thiểu bao nhiêu để được xét tốt nghiệp?",
+      "category": "tot_nghiep",
+      "rank": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "rr": 1.0,
+      "retrieved_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_3",
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_1",
+        "quy_dinh_tot_nghiep_pdf_page_2_chunk_1",
+        "quy_dinh_tot_nghiep_pdf_page_2_chunk_2"
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Sinh viên cần đáp ứng chuẩn ngoại ngữ nào để được xét tốt nghiệp?",
+      "category": "tot_nghiep",
+      "rank": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "rr": 1.0,
+      "retrieved_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+        "quy_dinh_tot_nghiep_pdf_page_2_chunk_1",
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_1",
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_3",
+        "quy_dinh_tot_nghiep_pdf_page_2_chunk_2"
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Khi nào hạng tốt nghiệp bị giảm một hạng?",
+      "category": "tot_nghiep",
+      "rank": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "rr": 1.0,
+      "retrieved_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_2_chunk_1",
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_3",
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_1",
+        "quy_dinh_tot_nghiep_pdf_page_2_chunk_2"
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Điều kiện xét học bổng của sinh viên là gì?",
+      "category": "hoc_bong",
+      "rank": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "rr": 1.0,
+      "retrieved_ids": [
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2",
+        "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1",
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_1",
+        "chinh_sach_hoc_bong_vhu_pdf_page_2_chunk_1",
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_3"
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Sinh viên có thành tích học tập như thế nào thì được xét Học bổng Khuyến khích học tập?",
+      "category": "hoc_bong",
+      "rank": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "rr": 1.0,
+      "retrieved_ids": [
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2",
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_1",
+        "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1",
+        "Chu_o_ng_tri_nh_ho_c_ta__p_suo__t_đo__i_da_nh_cho_Cu__u_sinh_vie_n_Va_n_Hie__n_pdf_page_1_chunk_1",
+        "chinh_sach_hoc_bong_vhu_pdf_page_2_chunk_1"
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Học bổng Chắp cánh ước mơ dành cho đối tượng nào?",
+      "category": "hoc_bong",
+      "rank": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "rr": 1.0,
+      "retrieved_ids": [
+        "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1",
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_1",
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2",
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_3",
+        "Chu_o_ng_tri_nh_ho_c_ta__p_suo__t_đo__i_da_nh_cho_Cu__u_sinh_vie_n_Va_n_Hie__n_pdf_page_1_chunk_1"
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Khi nào sinh viên bị cảnh báo học vụ?",
+      "category": "hoc_vu",
+      "rank": 2,
+      "precision": 0.2,
+      "recall": 1.0,
+      "hit_at_1": 0.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "rr": 0.5,
+      "retrieved_ids": [
+        "canh_bao_hoc_vu_pdf_page_2_chunk_1",
+        "canh_bao_hoc_vu_pdf_page_1_chunk_2",
+        "canh_bao_hoc_vu_pdf_page_1_chunk_1",
+        "canh_bao_hoc_vu_pdf_page_2_chunk_2"
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Sinh viên bị cảnh báo học vụ có bị giới hạn tín chỉ không?",
+      "category": "hoc_vu",
+      "rank": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "rr": 1.0,
+      "retrieved_ids": [
+        "canh_bao_hoc_vu_pdf_page_2_chunk_1",
+        "canh_bao_hoc_vu_pdf_page_1_chunk_2",
+        "canh_bao_hoc_vu_pdf_page_1_chunk_1",
+        "canh_bao_hoc_vu_pdf_page_2_chunk_2"
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Chương trình đào tạo quy định số tín chỉ như thế nào?",
+      "category": "dao_tao",
+      "rank": 3,
+      "precision": 0.2,
+      "recall": 1.0,
+      "hit_at_1": 0.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "rr": 0.3333333333333333,
+      "retrieved_ids": [
+        "979_2022_pdf_page_2_chunk_3",
+        "979_2022_pdf_page_4_chunk_5",
+        "979_2022_pdf_page_4_chunk_4",
+        "1132MYH24_02_pdf_page_2_chunk_3",
+        "979_2022_pdf_page_3_chunk_4"
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Sinh viên cần hoàn thành những học phần nào trong chương trình đào tạo?",
+      "category": "dao_tao",
+      "rank": 1,
+      "precision": 0.2,
+      "recall": 1.0,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "rr": 1.0,
+      "retrieved_ids": [
+        "CTDT_KhoaHocMayTinh_2020_pdf_page_4_chunk_1",
+        "CTDT_KhoaHocMayTinh_2020_pdf_page_3_chunk_1",
+        "CTDT_KhoaHocMayTinh_2020_pdf_page_2_chunk_1",
+        "CTDT_KhoaHocMayTinh_2020_pdf_page_1_chunk_3",
+        "CTDT_TruyenThongDaPhuongTien_2021_pdf_page_3_chunk_1"
+      ]
+    }
+  ]
+}
