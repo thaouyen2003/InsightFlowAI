@@ -1,0 +1,112 @@
+[
+  {
+    "configuration_a": "semantic",
+    "configuration_b": "bm25",
+    "n_queries": 50,
+    "changed_queries": 12,
+    "mean_rr_a": 0.8833333333333333,
+    "mean_rr_b": 0.8083333333333332,
+    "wilcoxon_statistic": 501.0,
+    "p_value": 0.1631005774104246,
+    "significant_at_0_05": false
+  },
+  {
+    "configuration_a": "semantic",
+    "configuration_b": "hybrid_rrf",
+    "n_queries": 50,
+    "changed_queries": 7,
+    "mean_rr_a": 0.8833333333333333,
+    "mean_rr_b": 0.8573333333333334,
+    "wilcoxon_statistic": 568.0,
+    "p_value": 0.4656464045776706,
+    "significant_at_0_05": false
+  },
+  {
+    "configuration_a": "semantic",
+    "configuration_b": "semantic_lexical",
+    "n_queries": 50,
+    "changed_queries": 2,
+    "mean_rr_a": 0.8833333333333333,
+    "mean_rr_b": 0.88,
+    "wilcoxon_statistic": 637.0,
+    "p_value": 0.9956545054038674,
+    "significant_at_0_05": false
+  },
+  {
+    "configuration_a": "semantic",
+    "configuration_b": "optimized",
+    "n_queries": 50,
+    "changed_queries": 3,
+    "mean_rr_a": 0.8833333333333333,
+    "mean_rr_b": 0.885,
+    "wilcoxon_statistic": 614.0,
+    "p_value": 0.7996027335318013,
+    "significant_at_0_05": false
+  },
+  {
+    "configuration_a": "bm25",
+    "configuration_b": "hybrid_rrf",
+    "n_queries": 50,
+    "changed_queries": 9,
+    "mean_rr_a": 0.8083333333333332,
+    "mean_rr_b": 0.8573333333333334,
+    "wilcoxon_statistic": 478.0,
+    "p_value": 0.09799329991470909,
+    "significant_at_0_05": false
+  },
+  {
+    "configuration_a": "bm25",
+    "configuration_b": "semantic_lexical",
+    "n_queries": 50,
+    "changed_queries": 13,
+    "mean_rr_a": 0.8083333333333332,
+    "mean_rr_b": 0.88,
+    "wilcoxon_statistic": 518.5,
+    "p_value": 0.226029084185988,
+    "significant_at_0_05": false
+  },
+  {
+    "configuration_a": "bm25",
+    "configuration_b": "optimized",
+    "n_queries": 50,
+    "changed_queries": 14,
+    "mean_rr_a": 0.8083333333333332,
+    "mean_rr_b": 0.885,
+    "wilcoxon_statistic": 500.0,
+    "p_value": 0.1636579496295335,
+    "significant_at_0_05": false
+  },
+  {
+    "configuration_a": "hybrid_rrf",
+    "configuration_b": "semantic_lexical",
+    "n_queries": 50,
+    "changed_queries": 8,
+    "mean_rr_a": 0.8573333333333334,
+    "mean_rr_b": 0.88,
+    "wilcoxon_statistic": 589.5,
+    "p_value": 0.6165031671724516,
+    "significant_at_0_05": false
+  },
+  {
+    "configuration_a": "hybrid_rrf",
+    "configuration_b": "optimized",
+    "n_queries": 50,
+    "changed_queries": 9,
+    "mean_rr_a": 0.8573333333333334,
+    "mean_rr_b": 0.885,
+    "wilcoxon_statistic": 568.5,
+    "p_value": 0.47415362822444973,
+    "significant_at_0_05": false
+  },
+  {
+    "configuration_a": "semantic_lexical",
+    "configuration_b": "optimized",
+    "n_queries": 50,
+    "changed_queries": 1,
+    "mean_rr_a": 0.88,
+    "mean_rr_b": 0.885,
+    "wilcoxon_statistic": 612.5,
+    "p_value": 0.7835304977741095,
+    "significant_at_0_05": false
+  }
+]

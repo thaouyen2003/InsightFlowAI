@@ -1,0 +1,415 @@
+{
+  "collection": "vhu_knowledge",
+  "total_documents": 14,
+  "total_pages": 57,
+  "total_chunks": 169,
+  "chunk_length_characters": {
+    "mean": 702.1656804733727,
+    "median": 797,
+    "min": 160,
+    "max": 800,
+    "std": 165.79850466036743
+  },
+  "chunk_length_words": {
+    "mean": 158.28402366863907,
+    "median": 173,
+    "min": 33,
+    "max": 221,
+    "std": 40.34894885558878
+  },
+  "chunks_per_document": {
+    "mean": 12.071428571428571,
+    "median": 7.5,
+    "min": 1,
+    "max": 73
+  },
+  "structural_heuristics": {
+    "table_like": {
+      "count": 47,
+      "percentage": 27.810650887573964,
+      "chunk_ids": [
+        "1132MYH24_02_pdf_page_2_chunk_3",
+        "CTDT_DieuDuong_2023_pdf_page_1_chunk_1",
+        "CTDT_DieuDuong_2023_pdf_page_1_chunk_2",
+        "CTDT_DieuDuong_2023_pdf_page_2_chunk_1",
+        "CTDT_DieuDuong_2023_pdf_page_2_chunk_2",
+        "CTDT_DieuDuong_2023_pdf_page_2_chunk_3",
+        "CTDT_DieuDuong_2023_pdf_page_3_chunk_1",
+        "CTDT_DieuDuong_2023_pdf_page_3_chunk_2",
+        "CTDT_KhoaHocMayTinh_2020_pdf_page_1_chunk_1",
+        "CTDT_KhoaHocMayTinh_2020_pdf_page_1_chunk_2",
+        "CTDT_KhoaHocMayTinh_2020_pdf_page_1_chunk_3",
+        "CTDT_KhoaHocMayTinh_2020_pdf_page_2_chunk_1",
+        "CTDT_KhoaHocMayTinh_2020_pdf_page_2_chunk_2",
+        "CTDT_KhoaHocMayTinh_2020_pdf_page_2_chunk_3",
+        "CTDT_KhoaHocMayTinh_2020_pdf_page_3_chunk_1",
+        "CTDT_KhoaHocMayTinh_2020_pdf_page_3_chunk_2",
+        "CTDT_KhoaHocMayTinh_2020_pdf_page_3_chunk_3",
+        "CTDT_KhoaHocMayTinh_2020_pdf_page_4_chunk_1",
+        "CTDT_ThietKeDoHoa_2020_pdf_page_1_chunk_1",
+        "CTDT_ThietKeDoHoa_2020_pdf_page_1_chunk_2",
+        "CTDT_ThietKeDoHoa_2020_pdf_page_1_chunk_3",
+        "CTDT_ThietKeDoHoa_2020_pdf_page_2_chunk_1",
+        "CTDT_ThietKeDoHoa_2020_pdf_page_2_chunk_2",
+        "CTDT_ThietKeDoHoa_2020_pdf_page_2_chunk_3",
+        "CTDT_ThietKeDoHoa_2020_pdf_page_3_chunk_1",
+        "CTDT_TiengTrungBienPhienDich_2020_pdf_page_1_chunk_1",
+        "CTDT_TiengTrungBienPhienDich_2020_pdf_page_1_chunk_2",
+        "CTDT_TiengTrungBienPhienDich_2020_pdf_page_1_chunk_3",
+        "CTDT_TiengTrungBienPhienDich_2020_pdf_page_2_chunk_1",
+        "CTDT_TiengTrungBienPhienDich_2020_pdf_page_2_chunk_2",
+        "CTDT_TiengTrungBienPhienDich_2020_pdf_page_2_chunk_3",
+        "CTDT_TiengTrungBienPhienDich_2020_pdf_page_3_chunk_1",
+        "CTDT_TruyenThongDaPhuongTien_2021_pdf_page_1_chunk_1",
+        "CTDT_TruyenThongDaPhuongTien_2021_pdf_page_1_chunk_2",
+        "CTDT_TruyenThongDaPhuongTien_2021_pdf_page_1_chunk_3",
+        "CTDT_TruyenThongDaPhuongTien_2021_pdf_page_2_chunk_1",
+        "CTDT_TruyenThongDaPhuongTien_2021_pdf_page_2_chunk_2",
+        "CTDT_TruyenThongDaPhuongTien_2021_pdf_page_2_chunk_3",
+        "CTDT_TruyenThongDaPhuongTien_2021_pdf_page_3_chunk_1",
+        "Khung_Chuong_trinh_dao_tao_ThS_CNTT_pdf_page_1_chunk_1",
+        "Khung_Chuong_trinh_dao_tao_ThS_CNTT_pdf_page_1_chunk_2",
+        "Khung_Chuong_trinh_dao_tao_ThS_CNTT_pdf_page_1_chunk_3",
+        "Khung_Chuong_trinh_dao_tao_ThS_CNTT_pdf_page_2_chunk_1",
+        "Khung_Chuong_trinh_dao_tao_ThS_CNTT_pdf_page_2_chunk_2",
+        "Khung_Chuong_trinh_dao_tao_ThS_CNTT_pdf_page_2_chunk_3",
+        "Khung_Chuong_trinh_dao_tao_ThS_CNTT_pdf_page_3_chunk_1",
+        "Khung_Chuong_trinh_dao_tao_ThS_CNTT_pdf_page_3_chunk_2"
+      ]
+    },
+    "list_like": {
+      "count": 0,
+      "percentage": 0.0,
+      "chunk_ids": []
+    },
+    "numeric_heavy": {
+      "count": 44,
+      "percentage": 26.035502958579883,
+      "chunk_ids": [
+        "1132MYH24_02_pdf_page_2_chunk_3",
+        "1132MYH24_02_pdf_page_3_chunk_1",
+        "979_2022_pdf_page_9_chunk_4",
+        "CTDT_DieuDuong_2023_pdf_page_1_chunk_1",
+        "CTDT_DieuDuong_2023_pdf_page_1_chunk_2",
+        "CTDT_DieuDuong_2023_pdf_page_2_chunk_1",
+        "CTDT_DieuDuong_2023_pdf_page_2_chunk_2",
+        "CTDT_DieuDuong_2023_pdf_page_2_chunk_3",
+        "CTDT_DieuDuong_2023_pdf_page_3_chunk_1",
+        "CTDT_DieuDuong_2023_pdf_page_3_chunk_2",
+        "CTDT_KhoaHocMayTinh_2020_pdf_page_1_chunk_1",
+        "CTDT_KhoaHocMayTinh_2020_pdf_page_1_chunk_2",
+        "CTDT_KhoaHocMayTinh_2020_pdf_page_2_chunk_1",
+        "CTDT_KhoaHocMayTinh_2020_pdf_page_2_chunk_2",
+        "CTDT_KhoaHocMayTinh_2020_pdf_page_2_chunk_3",
+        "CTDT_KhoaHocMayTinh_2020_pdf_page_3_chunk_1",
+        "CTDT_KhoaHocMayTinh_2020_pdf_page_3_chunk_2",
+        "CTDT_KhoaHocMayTinh_2020_pdf_page_3_chunk_3",
+        "CTDT_KhoaHocMayTinh_2020_pdf_page_4_chunk_1",
+        "CTDT_ThietKeDoHoa_2020_pdf_page_1_chunk_1",
+        "CTDT_ThietKeDoHoa_2020_pdf_page_1_chunk_2",
+        "CTDT_ThietKeDoHoa_2020_pdf_page_2_chunk_1",
+        "CTDT_ThietKeDoHoa_2020_pdf_page_2_chunk_2",
+        "CTDT_ThietKeDoHoa_2020_pdf_page_2_chunk_3",
+        "CTDT_ThietKeDoHoa_2020_pdf_page_3_chunk_1",
+        "CTDT_TiengTrungBienPhienDich_2020_pdf_page_1_chunk_1",
+        "CTDT_TiengTrungBienPhienDich_2020_pdf_page_1_chunk_2",
+        "CTDT_TiengTrungBienPhienDich_2020_pdf_page_2_chunk_1",
+        "CTDT_TiengTrungBienPhienDich_2020_pdf_page_2_chunk_2",
+        "CTDT_TiengTrungBienPhienDich_2020_pdf_page_2_chunk_3",
+        "CTDT_TruyenThongDaPhuongTien_2021_pdf_page_1_chunk_1",
+        "CTDT_TruyenThongDaPhuongTien_2021_pdf_page_1_chunk_2",
+        "CTDT_TruyenThongDaPhuongTien_2021_pdf_page_1_chunk_3",
+        "CTDT_TruyenThongDaPhuongTien_2021_pdf_page_2_chunk_1",
+        "CTDT_TruyenThongDaPhuongTien_2021_pdf_page_2_chunk_2",
+        "CTDT_TruyenThongDaPhuongTien_2021_pdf_page_2_chunk_3",
+        "Khung_Chuong_trinh_dao_tao_ThS_CNTT_pdf_page_1_chunk_1",
+        "Khung_Chuong_trinh_dao_tao_ThS_CNTT_pdf_page_1_chunk_2",
+        "Khung_Chuong_trinh_dao_tao_ThS_CNTT_pdf_page_1_chunk_3",
+        "Khung_Chuong_trinh_dao_tao_ThS_CNTT_pdf_page_2_chunk_1",
+        "Khung_Chuong_trinh_dao_tao_ThS_CNTT_pdf_page_2_chunk_2",
+        "Khung_Chuong_trinh_dao_tao_ThS_CNTT_pdf_page_2_chunk_3",
+        "Khung_Chuong_trinh_dao_tao_ThS_CNTT_pdf_page_3_chunk_1",
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_3"
+      ]
+    },
+    "course_code_heavy": {
+      "count": 41,
+      "percentage": 24.2603550295858,
+      "chunk_ids": [
+        "CTDT_DieuDuong_2023_pdf_page_1_chunk_1",
+        "CTDT_DieuDuong_2023_pdf_page_1_chunk_2",
+        "CTDT_DieuDuong_2023_pdf_page_2_chunk_1",
+        "CTDT_DieuDuong_2023_pdf_page_2_chunk_2",
+        "CTDT_DieuDuong_2023_pdf_page_2_chunk_3",
+        "CTDT_DieuDuong_2023_pdf_page_3_chunk_1",
+        "CTDT_DieuDuong_2023_pdf_page_3_chunk_2",
+        "CTDT_KhoaHocMayTinh_2020_pdf_page_1_chunk_1",
+        "CTDT_KhoaHocMayTinh_2020_pdf_page_1_chunk_2",
+        "CTDT_KhoaHocMayTinh_2020_pdf_page_2_chunk_1",
+        "CTDT_KhoaHocMayTinh_2020_pdf_page_2_chunk_2",
+        "CTDT_KhoaHocMayTinh_2020_pdf_page_2_chunk_3",
+        "CTDT_KhoaHocMayTinh_2020_pdf_page_3_chunk_1",
+        "CTDT_KhoaHocMayTinh_2020_pdf_page_3_chunk_2",
+        "CTDT_KhoaHocMayTinh_2020_pdf_page_3_chunk_3",
+        "CTDT_KhoaHocMayTinh_2020_pdf_page_4_chunk_1",
+        "CTDT_ThietKeDoHoa_2020_pdf_page_1_chunk_1",
+        "CTDT_ThietKeDoHoa_2020_pdf_page_1_chunk_2",
+        "CTDT_ThietKeDoHoa_2020_pdf_page_2_chunk_1",
+        "CTDT_ThietKeDoHoa_2020_pdf_page_2_chunk_2",
+        "CTDT_ThietKeDoHoa_2020_pdf_page_2_chunk_3",
+        "CTDT_ThietKeDoHoa_2020_pdf_page_3_chunk_1",
+        "CTDT_TiengTrungBienPhienDich_2020_pdf_page_1_chunk_1",
+        "CTDT_TiengTrungBienPhienDich_2020_pdf_page_1_chunk_2",
+        "CTDT_TiengTrungBienPhienDich_2020_pdf_page_2_chunk_1",
+        "CTDT_TiengTrungBienPhienDich_2020_pdf_page_2_chunk_2",
+        "CTDT_TiengTrungBienPhienDich_2020_pdf_page_2_chunk_3",
+        "CTDT_TruyenThongDaPhuongTien_2021_pdf_page_1_chunk_1",
+        "CTDT_TruyenThongDaPhuongTien_2021_pdf_page_1_chunk_2",
+        "CTDT_TruyenThongDaPhuongTien_2021_pdf_page_1_chunk_3",
+        "CTDT_TruyenThongDaPhuongTien_2021_pdf_page_2_chunk_1",
+        "CTDT_TruyenThongDaPhuongTien_2021_pdf_page_2_chunk_2",
+        "CTDT_TruyenThongDaPhuongTien_2021_pdf_page_2_chunk_3",
+        "Khung_Chuong_trinh_dao_tao_ThS_CNTT_pdf_page_1_chunk_1",
+        "Khung_Chuong_trinh_dao_tao_ThS_CNTT_pdf_page_1_chunk_2",
+        "Khung_Chuong_trinh_dao_tao_ThS_CNTT_pdf_page_1_chunk_3",
+        "Khung_Chuong_trinh_dao_tao_ThS_CNTT_pdf_page_2_chunk_1",
+        "Khung_Chuong_trinh_dao_tao_ThS_CNTT_pdf_page_2_chunk_2",
+        "Khung_Chuong_trinh_dao_tao_ThS_CNTT_pdf_page_2_chunk_3",
+        "Khung_Chuong_trinh_dao_tao_ThS_CNTT_pdf_page_3_chunk_1",
+        "Khung_Chuong_trinh_dao_tao_ThS_CNTT_pdf_page_3_chunk_2"
+      ]
+    }
+  },
+  "category_summary": {
+    "dao_tao": {
+      "documents": 9,
+      "pages": 47,
+      "chunks": 148,
+      "chunk_percentage": 87.57396449704143
+    },
+    "hoc_bong": {
+      "documents": 3,
+      "pages": 6,
+      "chunks": 12,
+      "chunk_percentage": 7.100591715976331
+    },
+    "hoc_vu": {
+      "documents": 1,
+      "pages": 2,
+      "chunks": 4,
+      "chunk_percentage": 2.366863905325444
+    },
+    "tot_nghiep": {
+      "documents": 1,
+      "pages": 2,
+      "chunks": 5,
+      "chunk_percentage": 2.9585798816568047
+    }
+  },
+  "document_summary": [
+    {
+      "source": "1132MYH24_02.pdf",
+      "categories": [
+        "dao_tao"
+      ],
+      "pages": 4,
+      "chunks": 12,
+      "mean_chunk_chars": 684
+    },
+    {
+      "source": "979.2022.pdf",
+      "categories": [
+        "dao_tao"
+      ],
+      "pages": 18,
+      "chunks": 73,
+      "mean_chunk_chars": 719.3561643835617
+    },
+    {
+      "source": "CTDT_DieuDuong 2023.pdf",
+      "categories": [
+        "dao_tao"
+      ],
+      "pages": 3,
+      "chunks": 9,
+      "mean_chunk_chars": 725.3333333333334
+    },
+    {
+      "source": "CTDT_KhoaHocMayTinh 2020.pdf",
+      "categories": [
+        "dao_tao"
+      ],
+      "pages": 4,
+      "chunks": 11,
+      "mean_chunk_chars": 704.3636363636364
+    },
+    {
+      "source": "CTDT_ThietKeDoHoa 2020.pdf",
+      "categories": [
+        "dao_tao"
+      ],
+      "pages": 3,
+      "chunks": 8,
+      "mean_chunk_chars": 663.125
+    },
+    {
+      "source": "CTDT_TiengTrungBienPhienDich 2020.pdf",
+      "categories": [
+        "dao_tao"
+      ],
+      "pages": 3,
+      "chunks": 7,
+      "mean_chunk_chars": 689.8571428571429
+    },
+    {
+      "source": "CTDT_TruyenThongDaPhuongTien 2021.pdf",
+      "categories": [
+        "dao_tao"
+      ],
+      "pages": 3,
+      "chunks": 7,
+      "mean_chunk_chars": 741.2857142857143
+    },
+    {
+      "source": "Chương trình học tập suốt đời dành cho Cựu sinh viên Văn Hiến.pdf",
+      "categories": [
+        "hoc_bong"
+      ],
+      "pages": 3,
+      "chunks": 7,
+      "mean_chunk_chars": 679.2857142857143
+    },
+    {
+      "source": "Khung Chuong trinh dao tao ThS-CNTT.pdf",
+      "categories": [
+        "dao_tao"
+      ],
+      "pages": 3,
+      "chunks": 8,
+      "mean_chunk_chars": 737.5
+    },
+    {
+      "source": "VHU.QuyTrinhToChucKeHoachDaoTao_web (update_mau don).pdf",
+      "categories": [
+        "dao_tao"
+      ],
+      "pages": 6,
+      "chunks": 13,
+      "mean_chunk_chars": 698.5384615384615
+    },
+    {
+      "source": "canh_bao_hoc_vu.pdf",
+      "categories": [
+        "hoc_vu"
+      ],
+      "pages": 2,
+      "chunks": 4,
+      "mean_chunk_chars": 629.5
+    },
+    {
+      "source": "chinh_sach_hoc_bong_vhu.pdf",
+      "categories": [
+        "hoc_bong"
+      ],
+      "pages": 2,
+      "chunks": 4,
+      "mean_chunk_chars": 546.75
+    },
+    {
+      "source": "quy_dinh_tot_nghiep.pdf",
+      "categories": [
+        "tot_nghiep"
+      ],
+      "pages": 2,
+      "chunks": 5,
+      "mean_chunk_chars": 621.2
+    },
+    {
+      "source": "thong_bao_hoc_bong_vhu_2025_2026.pdf",
+      "categories": [
+        "hoc_bong"
+      ],
+      "pages": 1,
+      "chunks": 1,
+      "mean_chunk_chars": 799
+    }
+  ],
+  "structural_by_category": {
+    "dao_tao": {
+      "chunks": 148,
+      "table_like": {
+        "count": 47,
+        "percentage": 31.756756756756754
+      },
+      "list_like": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "numeric_heavy": {
+        "count": 43,
+        "percentage": 29.054054054054053
+      },
+      "course_code_heavy": {
+        "count": 41,
+        "percentage": 27.7027027027027
+      }
+    },
+    "hoc_bong": {
+      "chunks": 12,
+      "table_like": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "list_like": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "numeric_heavy": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "course_code_heavy": {
+        "count": 0,
+        "percentage": 0.0
+      }
+    },
+    "hoc_vu": {
+      "chunks": 4,
+      "table_like": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "list_like": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "numeric_heavy": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "course_code_heavy": {
+        "count": 0,
+        "percentage": 0.0
+      }
+    },
+    "tot_nghiep": {
+      "chunks": 5,
+      "table_like": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "list_like": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "numeric_heavy": {
+        "count": 1,
+        "percentage": 20.0
+      },
+      "course_code_heavy": {
+        "count": 0,
+        "percentage": 0.0
+      }
+    }
+  }
+}

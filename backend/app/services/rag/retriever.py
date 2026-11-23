@@ -108,10 +108,9 @@ class KnowledgeRetriever:
         1. Semantic retrieval lấy candidate_k candidates.
         2. Tính lexical similarity.
         3. Kết hợp semantic rank và lexical score.
-        4. Rerank.
-        5. Trả về top_k tốt nhất.
-
-        Dùng cho Experiment 2.
+        4. Áp dụng domain-specific phrase boost.
+        5. Rerank.
+        6. Trả về top_k tốt nhất.
         """
 
         clean_query = query.strip()
@@ -432,6 +431,9 @@ class KnowledgeRetriever:
             metadata=metadata,
         )
 
+    # =========================================================
+    # SEMANTIC + LEXICAL RETRIEVAL
+    # =========================================================
 
     def retrieve_semantic_lexical(
         self,
@@ -439,16 +441,24 @@ class KnowledgeRetriever:
         top_k: int = 5,
         category: str | None = None,
         candidate_k: int = 20,
+        semantic_weight: float = 0.40,
+        lexical_weight: float = 0.45,
     ) -> list[RetrievedKnowledge]:
         """
-        Ablation Retrieval.
+        Semantic + Lexical Retrieval.
 
         Quy trình:
         1. Semantic retrieval lấy candidate_k candidates.
-        2. Tính lexical similarity.
-        3. Kết hợp semantic rank + lexical score.
-        4. Không dùng phrase boost.
-        5. Rerank và trả về top_k.
+        2. Semantic score được tính bằng reciprocal rank:
+           1 / semantic_rank.
+        3. Lexical score được tính bằng normalized
+           query-token overlap.
+        4. Kết hợp hai score theo trọng số được truyền vào.
+        5. Không sử dụng phrase boost.
+        6. Rerank và trả về top_k.
+
+        semantic_weight và lexical_weight có thể thay đổi
+        để phục vụ weight sensitivity analysis.
         """
 
         clean_query = query.strip()
@@ -471,6 +481,24 @@ class KnowledgeRetriever:
         if candidate_k < top_k:
             candidate_k = top_k
 
+        if semantic_weight < 0:
+            raise ValueError(
+                "semantic_weight không được âm."
+            )
+
+        if lexical_weight < 0:
+            raise ValueError(
+                "lexical_weight không được âm."
+            )
+
+        if (
+            semantic_weight == 0
+            and lexical_weight == 0
+        ):
+            raise ValueError(
+                "Ít nhất một retrieval weight phải lớn hơn 0."
+            )
+
         search_results = (
             self.vector_store.search(
                 query=clean_query,
@@ -487,7 +515,14 @@ class KnowledgeRetriever:
         if not candidates:
             return []
 
-        reranked_items = []
+        reranked_items: list[
+            tuple[
+                float,
+                float,
+                int,
+                RetrievedKnowledge,
+            ]
+        ] = []
 
         for semantic_rank, item in enumerate(
             candidates,
@@ -503,8 +538,8 @@ class KnowledgeRetriever:
             )
 
             combined_score = (
-                0.40 * semantic_score
-                + 0.45 * lexical_score
+                semantic_weight * semantic_score
+                + lexical_weight * lexical_score
             )
 
             reranked_items.append(

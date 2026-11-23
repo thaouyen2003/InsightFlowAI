@@ -1,17 +1,17 @@
 {
   "retrieval_mode": "semantic_lexical",
   "top_k": 5,
-  "benchmark_file": "ground_truth_candidates.json",
+  "benchmark_file": "ground_truth_evidence_final.json",
   "total_cases": 50,
   "evaluated_cases": 50,
   "skipped_cases": 0,
   "metrics": {
     "precision_at_5": 0.21600000000000003,
-    "recall_at_5": 0.96,
+    "recall_at_5": 0.97,
     "hit_at_1": 0.8,
-    "hit_at_3": 0.96,
-    "hit_at_5": 0.96,
-    "mrr": 0.88
+    "hit_at_3": 0.98,
+    "hit_at_5": 0.98,
+    "mrr": 0.89
   },
   "category_summary": {
     "tot_nghiep": {
@@ -44,11 +44,11 @@
     "dao_tao": {
       "count": 12,
       "precision_at_5": 0.21666666666666667,
-      "recall_at_5": 0.8333333333333334,
+      "recall_at_5": 0.875,
       "hit_at_1": 0.5833333333333334,
-      "hit_at_3": 0.8333333333333334,
-      "hit_at_5": 0.8333333333333334,
-      "mrr": 0.7083333333333334
+      "hit_at_3": 0.9166666666666666,
+      "hit_at_5": 0.9166666666666666,
+      "mrr": 0.75
     }
   },
   "per_query": [
@@ -60,6 +60,14 @@
       "top_k": 5,
       "reference_chunk_ids": [
         "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+      ],
+      "relevant_chunk_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+      ],
+      "relevance_groups": [
+        [
+          "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+        ]
       ],
       "retrieved_chunk_ids": [
         "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
@@ -141,6 +149,14 @@
       "reference_chunk_ids": [
         "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
       ],
+      "relevant_chunk_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+      ],
+      "relevance_groups": [
+        [
+          "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+        ]
+      ],
       "retrieved_chunk_ids": [
         "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
         "quy_dinh_tot_nghiep_pdf_page_2_chunk_1",
@@ -220,6 +236,14 @@
       "top_k": 5,
       "reference_chunk_ids": [
         "quy_dinh_tot_nghiep_pdf_page_2_chunk_1"
+      ],
+      "relevant_chunk_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_2_chunk_1"
+      ],
+      "relevance_groups": [
+        [
+          "quy_dinh_tot_nghiep_pdf_page_2_chunk_1"
+        ]
       ],
       "retrieved_chunk_ids": [
         "quy_dinh_tot_nghiep_pdf_page_2_chunk_1",
@@ -301,6 +325,14 @@
       "reference_chunk_ids": [
         "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2"
       ],
+      "relevant_chunk_ids": [
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2"
+      ],
+      "relevance_groups": [
+        [
+          "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2"
+        ]
+      ],
       "retrieved_chunk_ids": [
         "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2",
         "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_1",
@@ -380,6 +412,14 @@
       "top_k": 5,
       "reference_chunk_ids": [
         "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2"
+      ],
+      "relevant_chunk_ids": [
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2"
+      ],
+      "relevance_groups": [
+        [
+          "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2"
+        ]
       ],
       "retrieved_chunk_ids": [
         "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2",
@@ -461,6 +501,14 @@
       "reference_chunk_ids": [
         "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1"
       ],
+      "relevant_chunk_ids": [
+        "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1"
+      ],
+      "relevance_groups": [
+        [
+          "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1"
+        ]
+      ],
       "retrieved_chunk_ids": [
         "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1",
         "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_1",
@@ -541,6 +589,14 @@
       "reference_chunk_ids": [
         "canh_bao_hoc_vu_pdf_page_1_chunk_2"
       ],
+      "relevant_chunk_ids": [
+        "canh_bao_hoc_vu_pdf_page_1_chunk_2"
+      ],
+      "relevance_groups": [
+        [
+          "canh_bao_hoc_vu_pdf_page_1_chunk_2"
+        ]
+      ],
       "retrieved_chunk_ids": [
         "canh_bao_hoc_vu_pdf_page_2_chunk_1",
         "canh_bao_hoc_vu_pdf_page_1_chunk_2",
@@ -610,6 +666,14 @@
       "reference_chunk_ids": [
         "canh_bao_hoc_vu_pdf_page_2_chunk_1"
       ],
+      "relevant_chunk_ids": [
+        "canh_bao_hoc_vu_pdf_page_2_chunk_1"
+      ],
+      "relevance_groups": [
+        [
+          "canh_bao_hoc_vu_pdf_page_2_chunk_1"
+        ]
+      ],
       "retrieved_chunk_ids": [
         "canh_bao_hoc_vu_pdf_page_2_chunk_1",
         "canh_bao_hoc_vu_pdf_page_1_chunk_2",
@@ -678,6 +742,14 @@
       "top_k": 5,
       "reference_chunk_ids": [
         "979_2022_pdf_page_4_chunk_4"
+      ],
+      "relevant_chunk_ids": [
+        "979_2022_pdf_page_4_chunk_4"
+      ],
+      "relevance_groups": [
+        [
+          "979_2022_pdf_page_4_chunk_4"
+        ]
       ],
       "retrieved_chunk_ids": [
         "979_2022_pdf_page_2_chunk_3",
@@ -759,6 +831,14 @@
       "reference_chunk_ids": [
         "CTDT_KhoaHocMayTinh_2020_pdf_page_4_chunk_1"
       ],
+      "relevant_chunk_ids": [
+        "CTDT_KhoaHocMayTinh_2020_pdf_page_4_chunk_1"
+      ],
+      "relevance_groups": [
+        [
+          "CTDT_KhoaHocMayTinh_2020_pdf_page_4_chunk_1"
+        ]
+      ],
       "retrieved_chunk_ids": [
         "CTDT_KhoaHocMayTinh_2020_pdf_page_4_chunk_1",
         "CTDT_KhoaHocMayTinh_2020_pdf_page_1_chunk_3",
@@ -838,6 +918,14 @@
       "top_k": 5,
       "reference_chunk_ids": [
         "quy_dinh_tot_nghiep_pdf_page_1_chunk_1"
+      ],
+      "relevant_chunk_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_1"
+      ],
+      "relevance_groups": [
+        [
+          "quy_dinh_tot_nghiep_pdf_page_1_chunk_1"
+        ]
       ],
       "retrieved_chunk_ids": [
         "quy_dinh_tot_nghiep_pdf_page_1_chunk_1",
@@ -919,6 +1007,14 @@
       "reference_chunk_ids": [
         "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
       ],
+      "relevant_chunk_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+      ],
+      "relevance_groups": [
+        [
+          "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+        ]
+      ],
       "retrieved_chunk_ids": [
         "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
         "quy_dinh_tot_nghiep_pdf_page_1_chunk_3",
@@ -998,6 +1094,14 @@
       "top_k": 5,
       "reference_chunk_ids": [
         "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+      ],
+      "relevant_chunk_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+      ],
+      "relevance_groups": [
+        [
+          "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+        ]
       ],
       "retrieved_chunk_ids": [
         "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
@@ -1079,6 +1183,14 @@
       "reference_chunk_ids": [
         "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
       ],
+      "relevant_chunk_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+      ],
+      "relevance_groups": [
+        [
+          "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+        ]
+      ],
       "retrieved_chunk_ids": [
         "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
         "quy_dinh_tot_nghiep_pdf_page_2_chunk_1",
@@ -1158,6 +1270,14 @@
       "top_k": 5,
       "reference_chunk_ids": [
         "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+      ],
+      "relevant_chunk_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+      ],
+      "relevance_groups": [
+        [
+          "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+        ]
       ],
       "retrieved_chunk_ids": [
         "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
@@ -1239,6 +1359,14 @@
       "reference_chunk_ids": [
         "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
       ],
+      "relevant_chunk_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+      ],
+      "relevance_groups": [
+        [
+          "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+        ]
+      ],
       "retrieved_chunk_ids": [
         "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
         "quy_dinh_tot_nghiep_pdf_page_1_chunk_1",
@@ -1318,6 +1446,14 @@
       "top_k": 5,
       "reference_chunk_ids": [
         "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+      ],
+      "relevant_chunk_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+      ],
+      "relevance_groups": [
+        [
+          "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+        ]
       ],
       "retrieved_chunk_ids": [
         "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
@@ -1399,6 +1535,14 @@
       "reference_chunk_ids": [
         "quy_dinh_tot_nghiep_pdf_page_2_chunk_1"
       ],
+      "relevant_chunk_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_2_chunk_1"
+      ],
+      "relevance_groups": [
+        [
+          "quy_dinh_tot_nghiep_pdf_page_2_chunk_1"
+        ]
+      ],
       "retrieved_chunk_ids": [
         "quy_dinh_tot_nghiep_pdf_page_2_chunk_1",
         "quy_dinh_tot_nghiep_pdf_page_1_chunk_3",
@@ -1478,6 +1622,14 @@
       "top_k": 5,
       "reference_chunk_ids": [
         "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+      ],
+      "relevant_chunk_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+      ],
+      "relevance_groups": [
+        [
+          "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+        ]
       ],
       "retrieved_chunk_ids": [
         "quy_dinh_tot_nghiep_pdf_page_1_chunk_3",
@@ -1559,6 +1711,14 @@
       "reference_chunk_ids": [
         "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
       ],
+      "relevant_chunk_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+      ],
+      "relevance_groups": [
+        [
+          "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+        ]
+      ],
       "retrieved_chunk_ids": [
         "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
         "quy_dinh_tot_nghiep_pdf_page_1_chunk_1",
@@ -1638,6 +1798,14 @@
       "top_k": 5,
       "reference_chunk_ids": [
         "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2"
+      ],
+      "relevant_chunk_ids": [
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2"
+      ],
+      "relevance_groups": [
+        [
+          "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2"
+        ]
       ],
       "retrieved_chunk_ids": [
         "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2",
@@ -1719,6 +1887,14 @@
       "reference_chunk_ids": [
         "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1"
       ],
+      "relevant_chunk_ids": [
+        "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1"
+      ],
+      "relevance_groups": [
+        [
+          "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1"
+        ]
+      ],
       "retrieved_chunk_ids": [
         "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1",
         "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_1",
@@ -1798,6 +1974,14 @@
       "top_k": 5,
       "reference_chunk_ids": [
         "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2"
+      ],
+      "relevant_chunk_ids": [
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2"
+      ],
+      "relevance_groups": [
+        [
+          "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2"
+        ]
       ],
       "retrieved_chunk_ids": [
         "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2",
@@ -1879,6 +2063,14 @@
       "reference_chunk_ids": [
         "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2"
       ],
+      "relevant_chunk_ids": [
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2"
+      ],
+      "relevance_groups": [
+        [
+          "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2"
+        ]
+      ],
       "retrieved_chunk_ids": [
         "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2",
         "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_1",
@@ -1958,6 +2150,14 @@
       "top_k": 5,
       "reference_chunk_ids": [
         "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_3"
+      ],
+      "relevant_chunk_ids": [
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_3"
+      ],
+      "relevance_groups": [
+        [
+          "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_3"
+        ]
       ],
       "retrieved_chunk_ids": [
         "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_3",
@@ -2039,6 +2239,14 @@
       "reference_chunk_ids": [
         "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1"
       ],
+      "relevant_chunk_ids": [
+        "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1"
+      ],
+      "relevance_groups": [
+        [
+          "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1"
+        ]
+      ],
       "retrieved_chunk_ids": [
         "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1",
         "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_1",
@@ -2118,6 +2326,14 @@
       "top_k": 5,
       "reference_chunk_ids": [
         "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1"
+      ],
+      "relevant_chunk_ids": [
+        "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1"
+      ],
+      "relevance_groups": [
+        [
+          "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1"
+        ]
       ],
       "retrieved_chunk_ids": [
         "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1",
@@ -2199,6 +2415,14 @@
       "reference_chunk_ids": [
         "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1"
       ],
+      "relevant_chunk_ids": [
+        "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1"
+      ],
+      "relevance_groups": [
+        [
+          "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1"
+        ]
+      ],
       "retrieved_chunk_ids": [
         "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1",
         "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_1",
@@ -2278,6 +2502,14 @@
       "top_k": 5,
       "reference_chunk_ids": [
         "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1"
+      ],
+      "relevant_chunk_ids": [
+        "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1"
+      ],
+      "relevance_groups": [
+        [
+          "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1"
+        ]
       ],
       "retrieved_chunk_ids": [
         "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1",
@@ -2359,6 +2591,14 @@
       "reference_chunk_ids": [
         "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2"
       ],
+      "relevant_chunk_ids": [
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2"
+      ],
+      "relevance_groups": [
+        [
+          "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2"
+        ]
+      ],
       "retrieved_chunk_ids": [
         "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2",
         "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_1",
@@ -2439,6 +2679,14 @@
       "reference_chunk_ids": [
         "canh_bao_hoc_vu_pdf_page_1_chunk_2"
       ],
+      "relevant_chunk_ids": [
+        "canh_bao_hoc_vu_pdf_page_1_chunk_2"
+      ],
+      "relevance_groups": [
+        [
+          "canh_bao_hoc_vu_pdf_page_1_chunk_2"
+        ]
+      ],
       "retrieved_chunk_ids": [
         "canh_bao_hoc_vu_pdf_page_2_chunk_1",
         "canh_bao_hoc_vu_pdf_page_1_chunk_2",
@@ -2507,6 +2755,14 @@
       "top_k": 5,
       "reference_chunk_ids": [
         "canh_bao_hoc_vu_pdf_page_1_chunk_2"
+      ],
+      "relevant_chunk_ids": [
+        "canh_bao_hoc_vu_pdf_page_1_chunk_2"
+      ],
+      "relevance_groups": [
+        [
+          "canh_bao_hoc_vu_pdf_page_1_chunk_2"
+        ]
       ],
       "retrieved_chunk_ids": [
         "canh_bao_hoc_vu_pdf_page_2_chunk_1",
@@ -2577,6 +2833,14 @@
       "reference_chunk_ids": [
         "canh_bao_hoc_vu_pdf_page_2_chunk_1"
       ],
+      "relevant_chunk_ids": [
+        "canh_bao_hoc_vu_pdf_page_2_chunk_1"
+      ],
+      "relevance_groups": [
+        [
+          "canh_bao_hoc_vu_pdf_page_2_chunk_1"
+        ]
+      ],
       "retrieved_chunk_ids": [
         "canh_bao_hoc_vu_pdf_page_2_chunk_1",
         "canh_bao_hoc_vu_pdf_page_1_chunk_2",
@@ -2645,6 +2909,14 @@
       "top_k": 5,
       "reference_chunk_ids": [
         "canh_bao_hoc_vu_pdf_page_2_chunk_1"
+      ],
+      "relevant_chunk_ids": [
+        "canh_bao_hoc_vu_pdf_page_2_chunk_1"
+      ],
+      "relevance_groups": [
+        [
+          "canh_bao_hoc_vu_pdf_page_2_chunk_1"
+        ]
       ],
       "retrieved_chunk_ids": [
         "canh_bao_hoc_vu_pdf_page_2_chunk_1",
@@ -2715,6 +2987,14 @@
       "reference_chunk_ids": [
         "canh_bao_hoc_vu_pdf_page_1_chunk_2"
       ],
+      "relevant_chunk_ids": [
+        "canh_bao_hoc_vu_pdf_page_1_chunk_2"
+      ],
+      "relevance_groups": [
+        [
+          "canh_bao_hoc_vu_pdf_page_1_chunk_2"
+        ]
+      ],
       "retrieved_chunk_ids": [
         "canh_bao_hoc_vu_pdf_page_2_chunk_1",
         "canh_bao_hoc_vu_pdf_page_1_chunk_2",
@@ -2783,6 +3063,14 @@
       "top_k": 5,
       "reference_chunk_ids": [
         "canh_bao_hoc_vu_pdf_page_1_chunk_2"
+      ],
+      "relevant_chunk_ids": [
+        "canh_bao_hoc_vu_pdf_page_1_chunk_2"
+      ],
+      "relevance_groups": [
+        [
+          "canh_bao_hoc_vu_pdf_page_1_chunk_2"
+        ]
       ],
       "retrieved_chunk_ids": [
         "canh_bao_hoc_vu_pdf_page_1_chunk_2",
@@ -2853,6 +3141,14 @@
       "reference_chunk_ids": [
         "canh_bao_hoc_vu_pdf_page_2_chunk_1"
       ],
+      "relevant_chunk_ids": [
+        "canh_bao_hoc_vu_pdf_page_2_chunk_1"
+      ],
+      "relevance_groups": [
+        [
+          "canh_bao_hoc_vu_pdf_page_2_chunk_1"
+        ]
+      ],
       "retrieved_chunk_ids": [
         "canh_bao_hoc_vu_pdf_page_2_chunk_1",
         "canh_bao_hoc_vu_pdf_page_1_chunk_2",
@@ -2921,6 +3217,14 @@
       "top_k": 5,
       "reference_chunk_ids": [
         "canh_bao_hoc_vu_pdf_page_2_chunk_1"
+      ],
+      "relevant_chunk_ids": [
+        "canh_bao_hoc_vu_pdf_page_2_chunk_1"
+      ],
+      "relevance_groups": [
+        [
+          "canh_bao_hoc_vu_pdf_page_2_chunk_1"
+        ]
       ],
       "retrieved_chunk_ids": [
         "canh_bao_hoc_vu_pdf_page_2_chunk_1",
@@ -2991,6 +3295,14 @@
       "reference_chunk_ids": [
         "canh_bao_hoc_vu_pdf_page_1_chunk_2"
       ],
+      "relevant_chunk_ids": [
+        "canh_bao_hoc_vu_pdf_page_1_chunk_2"
+      ],
+      "relevance_groups": [
+        [
+          "canh_bao_hoc_vu_pdf_page_1_chunk_2"
+        ]
+      ],
       "retrieved_chunk_ids": [
         "canh_bao_hoc_vu_pdf_page_1_chunk_2",
         "canh_bao_hoc_vu_pdf_page_2_chunk_1",
@@ -3060,6 +3372,14 @@
       "reference_chunk_ids": [
         "canh_bao_hoc_vu_pdf_page_1_chunk_2"
       ],
+      "relevant_chunk_ids": [
+        "canh_bao_hoc_vu_pdf_page_1_chunk_2"
+      ],
+      "relevance_groups": [
+        [
+          "canh_bao_hoc_vu_pdf_page_1_chunk_2"
+        ]
+      ],
       "retrieved_chunk_ids": [
         "canh_bao_hoc_vu_pdf_page_1_chunk_2",
         "canh_bao_hoc_vu_pdf_page_2_chunk_1",
@@ -3128,6 +3448,14 @@
       "top_k": 5,
       "reference_chunk_ids": [
         "979_2022_pdf_page_2_chunk_3"
+      ],
+      "relevant_chunk_ids": [
+        "979_2022_pdf_page_2_chunk_3"
+      ],
+      "relevance_groups": [
+        [
+          "979_2022_pdf_page_2_chunk_3"
+        ]
       ],
       "retrieved_chunk_ids": [
         "979_2022_pdf_page_2_chunk_3",
@@ -3207,7 +3535,20 @@
       "retrieval_mode": "semantic_lexical",
       "top_k": 5,
       "reference_chunk_ids": [
-        "979_2022_pdf_page_2_chunk_4"
+        "979_2022_pdf_page_2_chunk_4",
+        "979_2022_pdf_page_3_chunk_2"
+      ],
+      "relevant_chunk_ids": [
+        "979_2022_pdf_page_2_chunk_4",
+        "979_2022_pdf_page_3_chunk_2"
+      ],
+      "relevance_groups": [
+        [
+          "979_2022_pdf_page_2_chunk_4"
+        ],
+        [
+          "979_2022_pdf_page_3_chunk_2"
+        ]
       ],
       "retrieved_chunk_ids": [
         "979_2022_pdf_page_3_chunk_1",
@@ -3216,15 +3557,17 @@
         "979_2022_pdf_page_2_chunk_3",
         "Khung_Chuong_trinh_dao_tao_ThS_CNTT_pdf_page_2_chunk_1"
       ],
-      "relevant_retrieved_ids": [],
-      "relevant_count": 0,
-      "precision_at_5": 0.0,
-      "recall_at_5": 0.0,
+      "relevant_retrieved_ids": [
+        "979_2022_pdf_page_3_chunk_2"
+      ],
+      "relevant_count": 1,
+      "precision_at_5": 0.2,
+      "recall_at_5": 0.5,
       "hit_at_1": 0.0,
-      "hit_at_3": 0.0,
-      "hit_at_5": 0.0,
-      "first_relevant_rank": null,
-      "reciprocal_rank": 0.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "first_relevant_rank": 2,
+      "reciprocal_rank": 0.5,
       "retrieved_details": [
         {
           "rank": 1,
@@ -3243,7 +3586,7 @@
           "page": 3,
           "category": "dao_tao",
           "distance": 0.48061370849609375,
-          "is_relevant": false,
+          "is_relevant": true,
           "content_preview": "sinh viên những kiến thức và kỹ năng nghề nghiệp cơ bản cần thiết. - Mỗi khối kiến thức đều được cấu trúc bởi hai phần: phần bắt buộc và phần tự chọn. 5. CTĐT phải được định kỳ bổ sung, điều chỉnh ít nhất 2 năm/ lần trên cơ sở tham khảo các chương tr"
         },
         {
@@ -3287,6 +3630,18 @@
       "reference_chunk_ids": [
         "979_2022_pdf_page_4_chunk_1",
         "979_2022_pdf_page_4_chunk_2"
+      ],
+      "relevant_chunk_ids": [
+        "979_2022_pdf_page_4_chunk_1",
+        "979_2022_pdf_page_4_chunk_2"
+      ],
+      "relevance_groups": [
+        [
+          "979_2022_pdf_page_4_chunk_1"
+        ],
+        [
+          "979_2022_pdf_page_4_chunk_2"
+        ]
       ],
       "retrieved_chunk_ids": [
         "979_2022_pdf_page_4_chunk_2",
@@ -3369,6 +3724,14 @@
       "reference_chunk_ids": [
         "979_2022_pdf_page_4_chunk_1"
       ],
+      "relevant_chunk_ids": [
+        "979_2022_pdf_page_4_chunk_1"
+      ],
+      "relevance_groups": [
+        [
+          "979_2022_pdf_page_4_chunk_1"
+        ]
+      ],
       "retrieved_chunk_ids": [
         "979_2022_pdf_page_4_chunk_3",
         "979_2022_pdf_page_4_chunk_2",
@@ -3446,6 +3809,14 @@
       "top_k": 5,
       "reference_chunk_ids": [
         "979_2022_pdf_page_4_chunk_2"
+      ],
+      "relevant_chunk_ids": [
+        "979_2022_pdf_page_4_chunk_2"
+      ],
+      "relevance_groups": [
+        [
+          "979_2022_pdf_page_4_chunk_2"
+        ]
       ],
       "retrieved_chunk_ids": [
         "979_2022_pdf_page_4_chunk_2",
@@ -3528,6 +3899,18 @@
         "979_2022_pdf_page_4_chunk_2",
         "979_2022_pdf_page_4_chunk_3"
       ],
+      "relevant_chunk_ids": [
+        "979_2022_pdf_page_4_chunk_2",
+        "979_2022_pdf_page_4_chunk_3"
+      ],
+      "relevance_groups": [
+        [
+          "979_2022_pdf_page_4_chunk_2"
+        ],
+        [
+          "979_2022_pdf_page_4_chunk_3"
+        ]
+      ],
       "retrieved_chunk_ids": [
         "979_2022_pdf_page_4_chunk_3",
         "979_2022_pdf_page_4_chunk_2",
@@ -3607,8 +3990,17 @@
       "retrieval_mode": "semantic_lexical",
       "top_k": 5,
       "reference_chunk_ids": [
+        "979_2022_pdf_page_7_chunk_3"
+      ],
+      "relevant_chunk_ids": [
         "979_2022_pdf_page_7_chunk_3",
         "979_2022_pdf_page_7_chunk_4"
+      ],
+      "relevance_groups": [
+        [
+          "979_2022_pdf_page_7_chunk_3",
+          "979_2022_pdf_page_7_chunk_4"
+        ]
       ],
       "retrieved_chunk_ids": [
         "979_2022_pdf_page_7_chunk_4",
@@ -3621,8 +4013,8 @@
         "979_2022_pdf_page_7_chunk_3",
         "979_2022_pdf_page_7_chunk_4"
       ],
-      "relevant_count": 2,
-      "precision_at_5": 0.4,
+      "relevant_count": 1,
+      "precision_at_5": 0.2,
       "recall_at_5": 1.0,
       "hit_at_1": 1.0,
       "hit_at_3": 1.0,
@@ -3690,6 +4082,14 @@
       "top_k": 5,
       "reference_chunk_ids": [
         "979_2022_pdf_page_3_chunk_2"
+      ],
+      "relevant_chunk_ids": [
+        "979_2022_pdf_page_3_chunk_2"
+      ],
+      "relevance_groups": [
+        [
+          "979_2022_pdf_page_3_chunk_2"
+        ]
       ],
       "retrieved_chunk_ids": [
         "979_2022_pdf_page_2_chunk_4",
@@ -3771,6 +4171,14 @@
       "reference_chunk_ids": [
         "979_2022_pdf_page_3_chunk_4"
       ],
+      "relevant_chunk_ids": [
+        "979_2022_pdf_page_3_chunk_4"
+      ],
+      "relevance_groups": [
+        [
+          "979_2022_pdf_page_3_chunk_4"
+        ]
+      ],
       "retrieved_chunk_ids": [
         "979_2022_pdf_page_4_chunk_4",
         "979_2022_pdf_page_3_chunk_4",
@@ -3850,6 +4258,14 @@
       "top_k": 5,
       "reference_chunk_ids": [
         "979_2022_pdf_page_4_chunk_3"
+      ],
+      "relevant_chunk_ids": [
+        "979_2022_pdf_page_4_chunk_3"
+      ],
+      "relevance_groups": [
+        [
+          "979_2022_pdf_page_4_chunk_3"
+        ]
       ],
       "retrieved_chunk_ids": [
         "979_2022_pdf_page_4_chunk_3",

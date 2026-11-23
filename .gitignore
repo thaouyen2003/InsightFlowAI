@@ -27,3 +27,27 @@ frontend/app/upload 2/
 
 # Chroma runtime database
 backend/database/chroma/
+# Environment
+.env
+.env.*
+!.env.example
+
+# Dependencies
+.venv/
+venv/
+node_modules/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Local vector database
+backend/database/chroma/
+*.sqlite3
+
+# Python cache
+__pycache__/
+*.pyc

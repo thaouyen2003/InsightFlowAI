@@ -1,0 +1,1577 @@
+{
+  "config": "chunk_1200_200",
+  "collection_name": "vhu_knowledge_chunk_1200_200",
+  "collection_chunks": 118,
+  "collection_non_empty": true,
+  "cases": [
+    {
+      "id": 1,
+      "question": "Sinh viên cần CPA tối thiểu bao nhiêu để được xét tốt nghiệp?",
+      "category": "tot_nghiep",
+      "mapped_references": [
+        {
+          "original_chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 1,
+          "evidence_preview": "theo quy định của Chương trình đào tạo. Điểm trung bình tích lũy (CPA): Đạt điểm trung bình tích lũy toàn khóa học từ 2.00 / 4.00 trở lên. Chuẩn đầu ra Ngoại ngữ: Có chứng chỉ Ngoại ngữ đạt chuẩn đầu ra theo quy định của Nhà trường áp dụng cho từng khóa/ngành đào tạo (TOEIC, IELTS, VSTEP hoặc tương đương). Chuẩn đầu ra Tin học: Có chứng chỉ Ứng dụng CNTT (Cơ bản/Nâng cao) hoặc chứng chỉ Quốc tế (M",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_1",
+              "source": "quy_dinh_tot_nghiep.pdf",
+              "page": 1,
+              "overlap_score": 0.8494623655913979,
+              "content_preview": "TRƯỜNG ĐẠI HỌC VĂN HIẾN PHÒNG QUẢN LÝ ĐÀO TẠO Số: ..... /QĐ-ĐHVH-ĐẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc TP . Hồ Chí Minh, ngày ..... tháng ..... năm 2026 QUY ĐỊNH XÉT TỐT NGHIỆP ĐẠI HỌC CHÍNH QUY (Ban hành kèm theo Quyết định của Hiệu trưởng Trường Đại học Văn Hiến) ĐIỀU 1. ĐIỀU KIỆN XÉT CÔNG NHẬN TỐT NGHIỆP Sinh viên được Trường Đại học Văn Hiến xét và công nhận tốt ng"
+            },
+            {
+              "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+              "source": "quy_dinh_tot_nghiep.pdf",
+              "page": 1,
+              "overlap_score": 0.7526881720430108,
+              "content_preview": "CNTT (Cơ bản/Nâng cao) hoặc chứng chỉ Quốc tế (MOS, IC3) theo quy định. Chứng chỉ Bắt buộc khác: Hoàn thành chương trình và đạt chứng chỉ Giáo dục Quốc phòng - An ninh (GDQP-AN) và Giáo dục Thể chất (GDTC). Tài chính & Nghĩa vụ: Hoàn thành đầy đủ học phí, các khoản phí phát sinh và các nghĩa vụ hồ sơ, tài sản đối với Nhà trường. ĐIỀU 2. PHÂN HẠNG TỐT NGHIỆP Hạng tốt nghiệp của sinh viên được xác đ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Sinh viên cần đáp ứng chuẩn ngoại ngữ nào để được xét tốt nghiệp?",
+      "category": "tot_nghiep",
+      "mapped_references": [
+        {
+          "original_chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 1,
+          "evidence_preview": "theo quy định của Chương trình đào tạo. Điểm trung bình tích lũy (CPA): Đạt điểm trung bình tích lũy toàn khóa học từ 2.00 / 4.00 trở lên. Chuẩn đầu ra Ngoại ngữ: Có chứng chỉ Ngoại ngữ đạt chuẩn đầu ra theo quy định của Nhà trường áp dụng cho từng khóa/ngành đào tạo (TOEIC, IELTS, VSTEP hoặc tương đương). Chuẩn đầu ra Tin học: Có chứng chỉ Ứng dụng CNTT (Cơ bản/Nâng cao) hoặc chứng chỉ Quốc tế (M",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_1",
+              "source": "quy_dinh_tot_nghiep.pdf",
+              "page": 1,
+              "overlap_score": 0.8494623655913979,
+              "content_preview": "TRƯỜNG ĐẠI HỌC VĂN HIẾN PHÒNG QUẢN LÝ ĐÀO TẠO Số: ..... /QĐ-ĐHVH-ĐẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc TP . Hồ Chí Minh, ngày ..... tháng ..... năm 2026 QUY ĐỊNH XÉT TỐT NGHIỆP ĐẠI HỌC CHÍNH QUY (Ban hành kèm theo Quyết định của Hiệu trưởng Trường Đại học Văn Hiến) ĐIỀU 1. ĐIỀU KIỆN XÉT CÔNG NHẬN TỐT NGHIỆP Sinh viên được Trường Đại học Văn Hiến xét và công nhận tốt ng"
+            },
+            {
+              "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+              "source": "quy_dinh_tot_nghiep.pdf",
+              "page": 1,
+              "overlap_score": 0.7526881720430108,
+              "content_preview": "CNTT (Cơ bản/Nâng cao) hoặc chứng chỉ Quốc tế (MOS, IC3) theo quy định. Chứng chỉ Bắt buộc khác: Hoàn thành chương trình và đạt chứng chỉ Giáo dục Quốc phòng - An ninh (GDQP-AN) và Giáo dục Thể chất (GDTC). Tài chính & Nghĩa vụ: Hoàn thành đầy đủ học phí, các khoản phí phát sinh và các nghĩa vụ hồ sơ, tài sản đối với Nhà trường. ĐIỀU 2. PHÂN HẠNG TỐT NGHIỆP Hạng tốt nghiệp của sinh viên được xác đ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Khi nào hạng tốt nghiệp bị giảm một hạng?",
+      "category": "tot_nghiep",
+      "mapped_references": [
+        {
+          "original_chunk_id": "quy_dinh_tot_nghiep_pdf_page_2_chunk_1",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 2,
+          "evidence_preview": "* LƯU Ý: Hạng tốt nghiệp của sinh viên có điểm trung bình tích lũy đạt loại Xuất sắc hoặc Giỏi sẽ bị giảm đi một hạng nếu thuộc một trong các trường hợp: Bị kỷ luật từ mức cảnh cáo trở lên trong toàn khóa học, hoặc số tín chỉ của các học phần phải học lại vượt quá 5% tổng số tín chỉ quy định cho toàn chương trình. ĐIỀU 3. QUY TRÌNH ĐĂNG KÝ & CẤP BẰNG Kiểm tra hồ sơ: Sinh viên chủ động rà soát điểm",
+          "candidate_count": 1,
+          "candidates": [
+            {
+              "chunk_id": "quy_dinh_tot_nghiep_pdf_page_2_chunk_1",
+              "source": "quy_dinh_tot_nghiep.pdf",
+              "page": 2,
+              "overlap_score": 1.0,
+              "content_preview": "* LƯU Ý: Hạng tốt nghiệp của sinh viên có điểm trung bình tích lũy đạt loại Xuất sắc hoặc Giỏi sẽ bị giảm đi một hạng nếu thuộc một trong các trường hợp: Bị kỷ luật từ mức cảnh cáo trở lên trong toàn khóa học, hoặc số tín chỉ của các học phần phải học lại vượt quá 5% tổng số tín chỉ quy định cho toàn chương trình. ĐIỀU 3. QUY TRÌNH ĐĂNG KÝ & CẤP BẰNG Kiểm tra hồ sơ: Sinh viên chủ động rà soát điểm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Điều kiện xét học bổng của sinh viên là gì?",
+      "category": "hoc_bong",
+      "mapped_references": [
+        {
+          "original_chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2",
+          "source": "chinh_sach_hoc_bong_vhu.pdf",
+          "page": 1,
+          "evidence_preview": "Dành tặng cho các bạn học sinh lớp 12 xếp loại giỏi trở lên đăng ký xét trúng tuyển vào trường Đại học Văn Hiến và vượt qua vòng phỏng vấn trực tiếp do nhà trường tổ chức. 2. Học bổng Đồng hành cùng Hùng Hậu Dành cho các bạn sinh viên có người thân là Giảng viên, Cán bộ nhân viên trường Đại học Văn Hiến, hoặc Cán bộ nhân viên của HungHau Holdings. 3. Học bổng Khuyến khích học tập Dành cho các bạn ",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_1",
+              "source": "chinh_sach_hoc_bong_vhu.pdf",
+              "page": 1,
+              "overlap_score": 0.7244897959183674,
+              "content_preview": "130 triệu đồng / suất 15% – 50% Học phí toàn khóa 2.000.000 – 4.000.000 VNĐ / suất 3.000.000 VNĐ / suất 2.000.000 VNĐ / suất Khen thưởng phong trào TRƯỜNG ĐẠI HỌC VĂN HIẾN CÁC CHÍNH SÁCH HỌC BỔNG HẤP DẪN Đồng hành và khuyến khích tinh thần học tập của Sinh viên Văn Hiến Thấu hiểu và mong muốn khuyến khích, thúc đẩy tinh thần học tập của các bạn sinh viên, ngoài việc luôn tạo điều kiện tốt nhất về "
+            },
+            {
+              "chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2",
+              "source": "chinh_sach_hoc_bong_vhu.pdf",
+              "page": 1,
+              "overlap_score": 0.6938775510204082,
+              "content_preview": "3. Học bổng Khuyến khích học tập Dành cho các bạn sinh viên có thành tích học tập Xuất sắc và xếp loại Giỏi trong năm học. 4. Học bổng sinh viên Bình Định Dành cho các bạn tân sinh viên quê quán ở Bình Định có điểm thi đầu vào loại giỏi và có hoàn cảnh khó khăn. 5. Học bổng Hoàng Như Mai Học bổng được thành lập theo ước nguyện cao cả của cố Giáo sư, Nhà giáo Nhân dân Hoàng Như Mai – một trong nhữn"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Sinh viên có thành tích học tập như thế nào thì được xét Học bổng Khuyến khích học tập?",
+      "category": "hoc_bong",
+      "mapped_references": [
+        {
+          "original_chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2",
+          "source": "chinh_sach_hoc_bong_vhu.pdf",
+          "page": 1,
+          "evidence_preview": "Dành tặng cho các bạn học sinh lớp 12 xếp loại giỏi trở lên đăng ký xét trúng tuyển vào trường Đại học Văn Hiến và vượt qua vòng phỏng vấn trực tiếp do nhà trường tổ chức. 2. Học bổng Đồng hành cùng Hùng Hậu Dành cho các bạn sinh viên có người thân là Giảng viên, Cán bộ nhân viên trường Đại học Văn Hiến, hoặc Cán bộ nhân viên của HungHau Holdings. 3. Học bổng Khuyến khích học tập Dành cho các bạn ",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_1",
+              "source": "chinh_sach_hoc_bong_vhu.pdf",
+              "page": 1,
+              "overlap_score": 0.7244897959183674,
+              "content_preview": "130 triệu đồng / suất 15% – 50% Học phí toàn khóa 2.000.000 – 4.000.000 VNĐ / suất 3.000.000 VNĐ / suất 2.000.000 VNĐ / suất Khen thưởng phong trào TRƯỜNG ĐẠI HỌC VĂN HIẾN CÁC CHÍNH SÁCH HỌC BỔNG HẤP DẪN Đồng hành và khuyến khích tinh thần học tập của Sinh viên Văn Hiến Thấu hiểu và mong muốn khuyến khích, thúc đẩy tinh thần học tập của các bạn sinh viên, ngoài việc luôn tạo điều kiện tốt nhất về "
+            },
+            {
+              "chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2",
+              "source": "chinh_sach_hoc_bong_vhu.pdf",
+              "page": 1,
+              "overlap_score": 0.6938775510204082,
+              "content_preview": "3. Học bổng Khuyến khích học tập Dành cho các bạn sinh viên có thành tích học tập Xuất sắc và xếp loại Giỏi trong năm học. 4. Học bổng sinh viên Bình Định Dành cho các bạn tân sinh viên quê quán ở Bình Định có điểm thi đầu vào loại giỏi và có hoàn cảnh khó khăn. 5. Học bổng Hoàng Như Mai Học bổng được thành lập theo ước nguyện cao cả của cố Giáo sư, Nhà giáo Nhân dân Hoàng Như Mai – một trong nhữn"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Học bổng Chắp cánh ước mơ dành cho đối tượng nào?",
+      "category": "hoc_bong",
+      "mapped_references": [
+        {
+          "original_chunk_id": "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1",
+          "source": "thong_bao_hoc_bong_vhu_2025_2026.pdf",
+          "page": 1,
+          "evidence_preview": "Có phỏng vấn TRƯỜNG ĐẠI HỌC VĂN HIẾN TRUNG TÂM CHĂM SÓC NGƯỜI HỌC THÔNG BÁO TIẾP NHẬN HỒ SƠ XÉT HỌC BỔNG Năm học 2025 – 2026 Đơn vị tiếp nhận: Trung tâm Chăm sóc Người học - Trường Đại học Văn Hiến Thời gian tiếp nhận:Từ ngày ra thông báo đến ngày 24 tháng 10 năm 2025 Địa điểm tiếp nhận:613 Âu Cơ, Phường Tân Phú, TP. Hồ Chí Minh THÔNG TIN CÁC LOẠI HỌC BỔNG 1. Học bổng Chắp cánh ước mơ 100% Học phí",
+          "candidate_count": 1,
+          "candidates": [
+            {
+              "chunk_id": "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1",
+              "source": "thong_bao_hoc_bong_vhu_2025_2026.pdf",
+              "page": 1,
+              "overlap_score": 1.0,
+              "content_preview": "Có phỏng vấn TRƯỜNG ĐẠI HỌC VĂN HIẾN TRUNG TÂM CHĂM SÓC NGƯỜI HỌC THÔNG BÁO TIẾP NHẬN HỒ SƠ XÉT HỌC BỔNG Năm học 2025 – 2026 Đơn vị tiếp nhận: Trung tâm Chăm sóc Người học - Trường Đại học Văn Hiến Thời gian tiếp nhận:Từ ngày ra thông báo đến ngày 24 tháng 10 năm 2025 Địa điểm tiếp nhận:613 Âu Cơ, Phường Tân Phú, TP. Hồ Chí Minh THÔNG TIN CÁC LOẠI HỌC BỔNG 1. Học bổng Chắp cánh ước mơ 100% Học phí"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Khi nào sinh viên bị cảnh báo học vụ?",
+      "category": "hoc_vu",
+      "mapped_references": [
+        {
+          "original_chunk_id": "canh_bao_hoc_vu_pdf_page_1_chunk_2",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 1,
+          "evidence_preview": "học: .................................. Căn cứ Quy chế Đào tạo đại học chính quy hiện hành của Trường Đại học Văn Hiến; Căn cứ kết quả học tập và rèn luyện của sinh viên tính đến hết Học kỳ I - Năm học 2025 - 2026; Phòng Quản lý Đào tạo trân trọng thông báo về việc sinh viên bị xử lý cảnh báo học vụ do chưa đáp ứng đủ các tiêu chí học tập tối thiểu theo quy định. MỨC ĐỘ XỬ LÝ: CẢNH BÁO HỌC VỤ LẦN ",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "chunk_id": "canh_bao_hoc_vu_pdf_page_1_chunk_1",
+              "source": "canh_bao_hoc_vu.pdf",
+              "page": 1,
+              "overlap_score": 0.8229166666666666,
+              "content_preview": "TRƯỜNG ĐẠI HỌC VĂN HIẾN PHÒNG QUẢN LÝ ĐÀO TẠO Số: ..... /TB-ĐHVH-ĐẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc TP . Hồ Chí Minh, ngày ..... tháng ..... năm 2026 THÔNG BÁO CẢNH BÁO HỌC VỤ V/v Cảnh báo kết quả học tập không đạt yêu cầu học kỳ Họ và tên sinh viên: .................................................................................Mã số sinh viên: ..................."
+            },
+            {
+              "chunk_id": "canh_bao_hoc_vu_pdf_page_1_chunk_2",
+              "source": "canh_bao_hoc_vu.pdf",
+              "page": 1,
+              "overlap_score": 0.625,
+              "content_preview": "theo quy định. MỨC ĐỘ XỬ LÝ: CẢNH BÁO HỌC VỤ LẦN 1 Kết quả học tập ghi nhận trên hệ thống: Tiêu chí đánh giá Chỉ số thực tế Mức tối thiểu quy địnhTình trạng Điểm trung bình học kỳ (GPA)1.15 / 4.00 1.60 / 4.00 Không đạt Số tín chỉ đạt trong học kỳ 08 tín chỉ 12 tín chỉ Không đạt Điểm trung bình tích lũy (CPA)1.82 / 4.00 2.00 / 4.00 Cần cải thiện Điểm rèn luyện học kỳ 65 / 100 (Khá) 50 / 100 Đạt Tra"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Sinh viên bị cảnh báo học vụ có bị giới hạn tín chỉ không?",
+      "category": "hoc_vu",
+      "mapped_references": [
+        {
+          "original_chunk_id": "canh_bao_hoc_vu_pdf_page_2_chunk_1",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 2,
+          "evidence_preview": "⚠️ HƯỚNG DẪN XỬ LÝ VÀ NGHĨA VỤ CỦA SINH VIÊN Đăng ký tư vấn học vụ: Sinh viên phải liên hệ Cố vấn học tập (Giảng viên chủ nhiệm) hoặc Trung tâm Chăm sóc Người học để lập kế hoạch cải thiện kết quả học tập trước ngày 15/05/2026. Giới hạn số tín chỉ đăng ký: Trong học kỳ tiếp theo, sinh viên bị cảnh báo học vụ chỉ được đăng ký tối đa 14 tín chỉ. Đăng ký học cải thiện/học lại: Ưu tiên đăng ký học lại",
+          "candidate_count": 1,
+          "candidates": [
+            {
+              "chunk_id": "canh_bao_hoc_vu_pdf_page_2_chunk_1",
+              "source": "canh_bao_hoc_vu.pdf",
+              "page": 2,
+              "overlap_score": 1.0,
+              "content_preview": "⚠️ HƯỚNG DẪN XỬ LÝ VÀ NGHĨA VỤ CỦA SINH VIÊN Đăng ký tư vấn học vụ: Sinh viên phải liên hệ Cố vấn học tập (Giảng viên chủ nhiệm) hoặc Trung tâm Chăm sóc Người học để lập kế hoạch cải thiện kết quả học tập trước ngày 15/05/2026. Giới hạn số tín chỉ đăng ký: Trong học kỳ tiếp theo, sinh viên bị cảnh báo học vụ chỉ được đăng ký tối đa 14 tín chỉ. Đăng ký học cải thiện/học lại: Ưu tiên đăng ký học lại"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Chương trình đào tạo quy định số tín chỉ như thế nào?",
+      "category": "dao_tao",
+      "mapped_references": [
+        {
+          "original_chunk_id": "979_2022_pdf_page_4_chunk_4",
+          "source": "979.2022.pdf",
+          "page": 4,
+          "evidence_preview": "thí nghiệm, thực hành, thực tập phục vụ học phần và hướng dẫn sinh viên tự học. Đề cương chi tiết học phần được phê duyệt và công bố cùng với chương trình, đồng thời đăng tải trên website của khoa/trường. Nội dung đề cương chi tiết được giảng viên thông báo tới sinh viên trong buổi học đầu tiên của học phần. 3. Tín chỉ được sử dụng để tính khối lượng học tập của sinh viên. Một tín chỉ được quy địn",
+          "candidate_count": 3,
+          "candidates": [
+            {
+              "chunk_id": "979_2022_pdf_page_4_chunk_3",
+              "source": "979.2022.pdf",
+              "page": 4,
+              "overlap_score": 0.970873786407767,
+              "content_preview": "dẫn sinh viên tự học. Đề cương chi tiết học phần được phê duyệt và công bố cùng với chương trình, đồng thời đăng tải trên website của khoa/trường. Nội dung đề cương chi tiết được giảng viên thông báo tới sinh viên trong buổi học đầu tiên của học phần. 3. Tín chỉ được sử dụng để tính khối lượng học tập của sinh viên. Một tín chỉ được quy định bằng 15 tiết học lý thuyết; 15 tiết làm bài tập tại lớp;"
+            },
+            {
+              "chunk_id": "979_2022_pdf_page_4_chunk_2",
+              "source": "979.2022.pdf",
+              "page": 4,
+              "overlap_score": 0.5728155339805825,
+              "content_preview": "được sử dụng khi một học phần đã có trong chương trình nhưng không còn tổ chức giảng dạy, được thay thế bằng một học phần khác. Các học phần thay thế do khoa đề xuất để bổ sung cho chương trình trong quá trình thực hiện và được Hiệu trưởng thông qua. - Học phần tiên quyết: là học phần mà sinh viên phải đạt mới được đăng ký học phần tiếp theo. - Học phần học trước: là học phần mà sinh viên hoàn thà"
+            },
+            {
+              "chunk_id": "979_2022_pdf_page_4_chunk_1",
+              "source": "979.2022.pdf",
+              "page": 4,
+              "overlap_score": 0.5436893203883495,
+              "content_preview": "3 b) Hoạt động giảng dạy của một học phần bao gồm một hay kết hợp một số hình thức sau: giảng dạy lý thuyết (trực tiếp, trực tuyến, kết hợp trực tiếp và trực tuyến) ; hướng dẫn thực hành, bài tập, bài tập lớn - tổ chức theo lớp hay theo từng nhóm; giảng dạy thí nghiệm, thực hành tại phòng thí nghiệm, xưởng; hướng dẫn trải nghiệm thực tế, thực tập, thực tập tốt nghiệp tại các cơ sở bên ngoài; hướng"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Sinh viên cần hoàn thành những học phần nào trong chương trình đào tạo?",
+      "category": "dao_tao",
+      "mapped_references": [
+        {
+          "original_chunk_id": "CTDT_KhoaHocMayTinh_2020_pdf_page_4_chunk_1",
+          "source": "CTDT_KhoaHocMayTinh 2020.pdf",
+          "page": 4,
+          "evidence_preview": "Tổng LT TH/ TN TT ĐA MH KL TN STT Mã HP Tên học phần Số tín chỉ Mã HP học trước 17 0 0 5 0 12 1 INT520 Thực tập tốt nghiệp Công nghệ phần mềm 5 5 2 INT521 Đồ án tốt nghiệp Công nghệ phần mềm 12 12 1 INT522 Thực tập tốt nghiệp Hệ thống thông tin 5 5 2 INT523 Đồ án tốt nghiệp Hệ thống thông tin 12 12 1 DEE104 Giáo dục quốc phòng 2 PHT101 Giáo dục thể chất 1 1 1 3 PHT102 Giáo dục thể chất 2 1 1 4 PHT",
+          "candidate_count": 1,
+          "candidates": [
+            {
+              "chunk_id": "CTDT_KhoaHocMayTinh_2020_pdf_page_4_chunk_1",
+              "source": "CTDT_KhoaHocMayTinh 2020.pdf",
+              "page": 4,
+              "overlap_score": 1.0,
+              "content_preview": "Tổng LT TH/ TN TT ĐA MH KL TN STT Mã HP Tên học phần Số tín chỉ Mã HP học trước 17 0 0 5 0 12 1 INT520 Thực tập tốt nghiệp Công nghệ phần mềm 5 5 2 INT521 Đồ án tốt nghiệp Công nghệ phần mềm 12 12 1 INT522 Thực tập tốt nghiệp Hệ thống thông tin 5 5 2 INT523 Đồ án tốt nghiệp Hệ thống thông tin 12 12 1 DEE104 Giáo dục quốc phòng 2 PHT101 Giáo dục thể chất 1 1 1 3 PHT102 Giáo dục thể chất 2 1 1 4 PHT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "Sinh viên cần đáp ứng yêu cầu gì về tín chỉ để được xét tốt nghiệp?",
+      "category": "tot_nghiep",
+      "mapped_references": [
+        {
+          "original_chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_1",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 1,
+          "evidence_preview": "TRƯỜNG ĐẠI HỌC VĂN HIẾN PHÒNG QUẢN LÝ ĐÀO TẠO Số: ..... /QĐ-ĐHVH-ĐẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc TP . Hồ Chí Minh, ngày ..... tháng ..... năm 2026 QUY ĐỊNH XÉT TỐT NGHIỆP ĐẠI HỌC CHÍNH QUY (Ban hành kèm theo Quyết định của Hiệu trưởng Trường Đại học Văn Hiến) ĐIỀU 1. ĐIỀU KIỆN XÉT CÔNG NHẬN TỐT NGHIỆP Sinh viên được Trường Đại học Văn Hiến xét và công nhận tốt ng",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_1",
+              "source": "quy_dinh_tot_nghiep.pdf",
+              "page": 1,
+              "overlap_score": 1.0,
+              "content_preview": "TRƯỜNG ĐẠI HỌC VĂN HIẾN PHÒNG QUẢN LÝ ĐÀO TẠO Số: ..... /QĐ-ĐHVH-ĐẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc TP . Hồ Chí Minh, ngày ..... tháng ..... năm 2026 QUY ĐỊNH XÉT TỐT NGHIỆP ĐẠI HỌC CHÍNH QUY (Ban hành kèm theo Quyết định của Hiệu trưởng Trường Đại học Văn Hiến) ĐIỀU 1. ĐIỀU KIỆN XÉT CÔNG NHẬN TỐT NGHIỆP Sinh viên được Trường Đại học Văn Hiến xét và công nhận tốt ng"
+            },
+            {
+              "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+              "source": "quy_dinh_tot_nghiep.pdf",
+              "page": 1,
+              "overlap_score": 0.3300970873786408,
+              "content_preview": "CNTT (Cơ bản/Nâng cao) hoặc chứng chỉ Quốc tế (MOS, IC3) theo quy định. Chứng chỉ Bắt buộc khác: Hoàn thành chương trình và đạt chứng chỉ Giáo dục Quốc phòng - An ninh (GDQP-AN) và Giáo dục Thể chất (GDTC). Tài chính & Nghĩa vụ: Hoàn thành đầy đủ học phí, các khoản phí phát sinh và các nghĩa vụ hồ sơ, tài sản đối với Nhà trường. ĐIỀU 2. PHÂN HẠNG TỐT NGHIỆP Hạng tốt nghiệp của sinh viên được xác đ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "Điểm trung bình tích lũy tối thiểu để sinh viên đủ điều kiện tốt nghiệp là bao nhiêu?",
+      "category": "tot_nghiep",
+      "mapped_references": [
+        {
+          "original_chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 1,
+          "evidence_preview": "theo quy định của Chương trình đào tạo. Điểm trung bình tích lũy (CPA): Đạt điểm trung bình tích lũy toàn khóa học từ 2.00 / 4.00 trở lên. Chuẩn đầu ra Ngoại ngữ: Có chứng chỉ Ngoại ngữ đạt chuẩn đầu ra theo quy định của Nhà trường áp dụng cho từng khóa/ngành đào tạo (TOEIC, IELTS, VSTEP hoặc tương đương). Chuẩn đầu ra Tin học: Có chứng chỉ Ứng dụng CNTT (Cơ bản/Nâng cao) hoặc chứng chỉ Quốc tế (M",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_1",
+              "source": "quy_dinh_tot_nghiep.pdf",
+              "page": 1,
+              "overlap_score": 0.8494623655913979,
+              "content_preview": "TRƯỜNG ĐẠI HỌC VĂN HIẾN PHÒNG QUẢN LÝ ĐÀO TẠO Số: ..... /QĐ-ĐHVH-ĐẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc TP . Hồ Chí Minh, ngày ..... tháng ..... năm 2026 QUY ĐỊNH XÉT TỐT NGHIỆP ĐẠI HỌC CHÍNH QUY (Ban hành kèm theo Quyết định của Hiệu trưởng Trường Đại học Văn Hiến) ĐIỀU 1. ĐIỀU KIỆN XÉT CÔNG NHẬN TỐT NGHIỆP Sinh viên được Trường Đại học Văn Hiến xét và công nhận tốt ng"
+            },
+            {
+              "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+              "source": "quy_dinh_tot_nghiep.pdf",
+              "page": 1,
+              "overlap_score": 0.7526881720430108,
+              "content_preview": "CNTT (Cơ bản/Nâng cao) hoặc chứng chỉ Quốc tế (MOS, IC3) theo quy định. Chứng chỉ Bắt buộc khác: Hoàn thành chương trình và đạt chứng chỉ Giáo dục Quốc phòng - An ninh (GDQP-AN) và Giáo dục Thể chất (GDTC). Tài chính & Nghĩa vụ: Hoàn thành đầy đủ học phí, các khoản phí phát sinh và các nghĩa vụ hồ sơ, tài sản đối với Nhà trường. ĐIỀU 2. PHÂN HẠNG TỐT NGHIỆP Hạng tốt nghiệp của sinh viên được xác đ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "Sinh viên chưa đạt chuẩn ngoại ngữ có được xét tốt nghiệp không?",
+      "category": "tot_nghiep",
+      "mapped_references": [
+        {
+          "original_chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 1,
+          "evidence_preview": "theo quy định của Chương trình đào tạo. Điểm trung bình tích lũy (CPA): Đạt điểm trung bình tích lũy toàn khóa học từ 2.00 / 4.00 trở lên. Chuẩn đầu ra Ngoại ngữ: Có chứng chỉ Ngoại ngữ đạt chuẩn đầu ra theo quy định của Nhà trường áp dụng cho từng khóa/ngành đào tạo (TOEIC, IELTS, VSTEP hoặc tương đương). Chuẩn đầu ra Tin học: Có chứng chỉ Ứng dụng CNTT (Cơ bản/Nâng cao) hoặc chứng chỉ Quốc tế (M",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_1",
+              "source": "quy_dinh_tot_nghiep.pdf",
+              "page": 1,
+              "overlap_score": 0.8494623655913979,
+              "content_preview": "TRƯỜNG ĐẠI HỌC VĂN HIẾN PHÒNG QUẢN LÝ ĐÀO TẠO Số: ..... /QĐ-ĐHVH-ĐẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc TP . Hồ Chí Minh, ngày ..... tháng ..... năm 2026 QUY ĐỊNH XÉT TỐT NGHIỆP ĐẠI HỌC CHÍNH QUY (Ban hành kèm theo Quyết định của Hiệu trưởng Trường Đại học Văn Hiến) ĐIỀU 1. ĐIỀU KIỆN XÉT CÔNG NHẬN TỐT NGHIỆP Sinh viên được Trường Đại học Văn Hiến xét và công nhận tốt ng"
+            },
+            {
+              "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+              "source": "quy_dinh_tot_nghiep.pdf",
+              "page": 1,
+              "overlap_score": 0.7526881720430108,
+              "content_preview": "CNTT (Cơ bản/Nâng cao) hoặc chứng chỉ Quốc tế (MOS, IC3) theo quy định. Chứng chỉ Bắt buộc khác: Hoàn thành chương trình và đạt chứng chỉ Giáo dục Quốc phòng - An ninh (GDQP-AN) và Giáo dục Thể chất (GDTC). Tài chính & Nghĩa vụ: Hoàn thành đầy đủ học phí, các khoản phí phát sinh và các nghĩa vụ hồ sơ, tài sản đối với Nhà trường. ĐIỀU 2. PHÂN HẠNG TỐT NGHIỆP Hạng tốt nghiệp của sinh viên được xác đ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "Sinh viên cần đáp ứng điều kiện gì về tin học để được công nhận tốt nghiệp?",
+      "category": "tot_nghiep",
+      "mapped_references": [
+        {
+          "original_chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 1,
+          "evidence_preview": "theo quy định của Chương trình đào tạo. Điểm trung bình tích lũy (CPA): Đạt điểm trung bình tích lũy toàn khóa học từ 2.00 / 4.00 trở lên. Chuẩn đầu ra Ngoại ngữ: Có chứng chỉ Ngoại ngữ đạt chuẩn đầu ra theo quy định của Nhà trường áp dụng cho từng khóa/ngành đào tạo (TOEIC, IELTS, VSTEP hoặc tương đương). Chuẩn đầu ra Tin học: Có chứng chỉ Ứng dụng CNTT (Cơ bản/Nâng cao) hoặc chứng chỉ Quốc tế (M",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_1",
+              "source": "quy_dinh_tot_nghiep.pdf",
+              "page": 1,
+              "overlap_score": 0.8494623655913979,
+              "content_preview": "TRƯỜNG ĐẠI HỌC VĂN HIẾN PHÒNG QUẢN LÝ ĐÀO TẠO Số: ..... /QĐ-ĐHVH-ĐẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc TP . Hồ Chí Minh, ngày ..... tháng ..... năm 2026 QUY ĐỊNH XÉT TỐT NGHIỆP ĐẠI HỌC CHÍNH QUY (Ban hành kèm theo Quyết định của Hiệu trưởng Trường Đại học Văn Hiến) ĐIỀU 1. ĐIỀU KIỆN XÉT CÔNG NHẬN TỐT NGHIỆP Sinh viên được Trường Đại học Văn Hiến xét và công nhận tốt ng"
+            },
+            {
+              "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+              "source": "quy_dinh_tot_nghiep.pdf",
+              "page": 1,
+              "overlap_score": 0.7526881720430108,
+              "content_preview": "CNTT (Cơ bản/Nâng cao) hoặc chứng chỉ Quốc tế (MOS, IC3) theo quy định. Chứng chỉ Bắt buộc khác: Hoàn thành chương trình và đạt chứng chỉ Giáo dục Quốc phòng - An ninh (GDQP-AN) và Giáo dục Thể chất (GDTC). Tài chính & Nghĩa vụ: Hoàn thành đầy đủ học phí, các khoản phí phát sinh và các nghĩa vụ hồ sơ, tài sản đối với Nhà trường. ĐIỀU 2. PHÂN HẠNG TỐT NGHIỆP Hạng tốt nghiệp của sinh viên được xác đ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "Sinh viên chưa hoàn thành Giáo dục Quốc phòng - An ninh có được xét tốt nghiệp không?",
+      "category": "tot_nghiep",
+      "mapped_references": [
+        {
+          "original_chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 1,
+          "evidence_preview": "theo quy định của Chương trình đào tạo. Điểm trung bình tích lũy (CPA): Đạt điểm trung bình tích lũy toàn khóa học từ 2.00 / 4.00 trở lên. Chuẩn đầu ra Ngoại ngữ: Có chứng chỉ Ngoại ngữ đạt chuẩn đầu ra theo quy định của Nhà trường áp dụng cho từng khóa/ngành đào tạo (TOEIC, IELTS, VSTEP hoặc tương đương). Chuẩn đầu ra Tin học: Có chứng chỉ Ứng dụng CNTT (Cơ bản/Nâng cao) hoặc chứng chỉ Quốc tế (M",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_1",
+              "source": "quy_dinh_tot_nghiep.pdf",
+              "page": 1,
+              "overlap_score": 0.8494623655913979,
+              "content_preview": "TRƯỜNG ĐẠI HỌC VĂN HIẾN PHÒNG QUẢN LÝ ĐÀO TẠO Số: ..... /QĐ-ĐHVH-ĐẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc TP . Hồ Chí Minh, ngày ..... tháng ..... năm 2026 QUY ĐỊNH XÉT TỐT NGHIỆP ĐẠI HỌC CHÍNH QUY (Ban hành kèm theo Quyết định của Hiệu trưởng Trường Đại học Văn Hiến) ĐIỀU 1. ĐIỀU KIỆN XÉT CÔNG NHẬN TỐT NGHIỆP Sinh viên được Trường Đại học Văn Hiến xét và công nhận tốt ng"
+            },
+            {
+              "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+              "source": "quy_dinh_tot_nghiep.pdf",
+              "page": 1,
+              "overlap_score": 0.7526881720430108,
+              "content_preview": "CNTT (Cơ bản/Nâng cao) hoặc chứng chỉ Quốc tế (MOS, IC3) theo quy định. Chứng chỉ Bắt buộc khác: Hoàn thành chương trình và đạt chứng chỉ Giáo dục Quốc phòng - An ninh (GDQP-AN) và Giáo dục Thể chất (GDTC). Tài chính & Nghĩa vụ: Hoàn thành đầy đủ học phí, các khoản phí phát sinh và các nghĩa vụ hồ sơ, tài sản đối với Nhà trường. ĐIỀU 2. PHÂN HẠNG TỐT NGHIỆP Hạng tốt nghiệp của sinh viên được xác đ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "Sinh viên chưa hoàn thành Giáo dục thể chất có đủ điều kiện tốt nghiệp không?",
+      "category": "tot_nghiep",
+      "mapped_references": [
+        {
+          "original_chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 1,
+          "evidence_preview": "theo quy định của Chương trình đào tạo. Điểm trung bình tích lũy (CPA): Đạt điểm trung bình tích lũy toàn khóa học từ 2.00 / 4.00 trở lên. Chuẩn đầu ra Ngoại ngữ: Có chứng chỉ Ngoại ngữ đạt chuẩn đầu ra theo quy định của Nhà trường áp dụng cho từng khóa/ngành đào tạo (TOEIC, IELTS, VSTEP hoặc tương đương). Chuẩn đầu ra Tin học: Có chứng chỉ Ứng dụng CNTT (Cơ bản/Nâng cao) hoặc chứng chỉ Quốc tế (M",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_1",
+              "source": "quy_dinh_tot_nghiep.pdf",
+              "page": 1,
+              "overlap_score": 0.8494623655913979,
+              "content_preview": "TRƯỜNG ĐẠI HỌC VĂN HIẾN PHÒNG QUẢN LÝ ĐÀO TẠO Số: ..... /QĐ-ĐHVH-ĐẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc TP . Hồ Chí Minh, ngày ..... tháng ..... năm 2026 QUY ĐỊNH XÉT TỐT NGHIỆP ĐẠI HỌC CHÍNH QUY (Ban hành kèm theo Quyết định của Hiệu trưởng Trường Đại học Văn Hiến) ĐIỀU 1. ĐIỀU KIỆN XÉT CÔNG NHẬN TỐT NGHIỆP Sinh viên được Trường Đại học Văn Hiến xét và công nhận tốt ng"
+            },
+            {
+              "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+              "source": "quy_dinh_tot_nghiep.pdf",
+              "page": 1,
+              "overlap_score": 0.7526881720430108,
+              "content_preview": "CNTT (Cơ bản/Nâng cao) hoặc chứng chỉ Quốc tế (MOS, IC3) theo quy định. Chứng chỉ Bắt buộc khác: Hoàn thành chương trình và đạt chứng chỉ Giáo dục Quốc phòng - An ninh (GDQP-AN) và Giáo dục Thể chất (GDTC). Tài chính & Nghĩa vụ: Hoàn thành đầy đủ học phí, các khoản phí phát sinh và các nghĩa vụ hồ sơ, tài sản đối với Nhà trường. ĐIỀU 2. PHÂN HẠNG TỐT NGHIỆP Hạng tốt nghiệp của sinh viên được xác đ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "Sinh viên còn nghĩa vụ tài chính với nhà trường có được xét công nhận tốt nghiệp không?",
+      "category": "tot_nghiep",
+      "mapped_references": [
+        {
+          "original_chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 1,
+          "evidence_preview": "theo quy định của Chương trình đào tạo. Điểm trung bình tích lũy (CPA): Đạt điểm trung bình tích lũy toàn khóa học từ 2.00 / 4.00 trở lên. Chuẩn đầu ra Ngoại ngữ: Có chứng chỉ Ngoại ngữ đạt chuẩn đầu ra theo quy định của Nhà trường áp dụng cho từng khóa/ngành đào tạo (TOEIC, IELTS, VSTEP hoặc tương đương). Chuẩn đầu ra Tin học: Có chứng chỉ Ứng dụng CNTT (Cơ bản/Nâng cao) hoặc chứng chỉ Quốc tế (M",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_1",
+              "source": "quy_dinh_tot_nghiep.pdf",
+              "page": 1,
+              "overlap_score": 0.8494623655913979,
+              "content_preview": "TRƯỜNG ĐẠI HỌC VĂN HIẾN PHÒNG QUẢN LÝ ĐÀO TẠO Số: ..... /QĐ-ĐHVH-ĐẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc TP . Hồ Chí Minh, ngày ..... tháng ..... năm 2026 QUY ĐỊNH XÉT TỐT NGHIỆP ĐẠI HỌC CHÍNH QUY (Ban hành kèm theo Quyết định của Hiệu trưởng Trường Đại học Văn Hiến) ĐIỀU 1. ĐIỀU KIỆN XÉT CÔNG NHẬN TỐT NGHIỆP Sinh viên được Trường Đại học Văn Hiến xét và công nhận tốt ng"
+            },
+            {
+              "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+              "source": "quy_dinh_tot_nghiep.pdf",
+              "page": 1,
+              "overlap_score": 0.7526881720430108,
+              "content_preview": "CNTT (Cơ bản/Nâng cao) hoặc chứng chỉ Quốc tế (MOS, IC3) theo quy định. Chứng chỉ Bắt buộc khác: Hoàn thành chương trình và đạt chứng chỉ Giáo dục Quốc phòng - An ninh (GDQP-AN) và Giáo dục Thể chất (GDTC). Tài chính & Nghĩa vụ: Hoàn thành đầy đủ học phí, các khoản phí phát sinh và các nghĩa vụ hồ sơ, tài sản đối với Nhà trường. ĐIỀU 2. PHÂN HẠNG TỐT NGHIỆP Hạng tốt nghiệp của sinh viên được xác đ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "Trong những trường hợp nào hạng tốt nghiệp của sinh viên bị giảm một hạng?",
+      "category": "tot_nghiep",
+      "mapped_references": [
+        {
+          "original_chunk_id": "quy_dinh_tot_nghiep_pdf_page_2_chunk_1",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 2,
+          "evidence_preview": "* LƯU Ý: Hạng tốt nghiệp của sinh viên có điểm trung bình tích lũy đạt loại Xuất sắc hoặc Giỏi sẽ bị giảm đi một hạng nếu thuộc một trong các trường hợp: Bị kỷ luật từ mức cảnh cáo trở lên trong toàn khóa học, hoặc số tín chỉ của các học phần phải học lại vượt quá 5% tổng số tín chỉ quy định cho toàn chương trình. ĐIỀU 3. QUY TRÌNH ĐĂNG KÝ & CẤP BẰNG Kiểm tra hồ sơ: Sinh viên chủ động rà soát điểm",
+          "candidate_count": 1,
+          "candidates": [
+            {
+              "chunk_id": "quy_dinh_tot_nghiep_pdf_page_2_chunk_1",
+              "source": "quy_dinh_tot_nghiep.pdf",
+              "page": 2,
+              "overlap_score": 1.0,
+              "content_preview": "* LƯU Ý: Hạng tốt nghiệp của sinh viên có điểm trung bình tích lũy đạt loại Xuất sắc hoặc Giỏi sẽ bị giảm đi một hạng nếu thuộc một trong các trường hợp: Bị kỷ luật từ mức cảnh cáo trở lên trong toàn khóa học, hoặc số tín chỉ của các học phần phải học lại vượt quá 5% tổng số tín chỉ quy định cho toàn chương trình. ĐIỀU 3. QUY TRÌNH ĐĂNG KÝ & CẤP BẰNG Kiểm tra hồ sơ: Sinh viên chủ động rà soát điểm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "Sinh viên có CPA 1.95 trên thang điểm 4 nhưng đã hoàn thành đủ tín chỉ có đủ điều kiện tốt nghiệp không?",
+      "category": "tot_nghiep",
+      "mapped_references": [
+        {
+          "original_chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 1,
+          "evidence_preview": "theo quy định của Chương trình đào tạo. Điểm trung bình tích lũy (CPA): Đạt điểm trung bình tích lũy toàn khóa học từ 2.00 / 4.00 trở lên. Chuẩn đầu ra Ngoại ngữ: Có chứng chỉ Ngoại ngữ đạt chuẩn đầu ra theo quy định của Nhà trường áp dụng cho từng khóa/ngành đào tạo (TOEIC, IELTS, VSTEP hoặc tương đương). Chuẩn đầu ra Tin học: Có chứng chỉ Ứng dụng CNTT (Cơ bản/Nâng cao) hoặc chứng chỉ Quốc tế (M",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_1",
+              "source": "quy_dinh_tot_nghiep.pdf",
+              "page": 1,
+              "overlap_score": 0.8494623655913979,
+              "content_preview": "TRƯỜNG ĐẠI HỌC VĂN HIẾN PHÒNG QUẢN LÝ ĐÀO TẠO Số: ..... /QĐ-ĐHVH-ĐẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc TP . Hồ Chí Minh, ngày ..... tháng ..... năm 2026 QUY ĐỊNH XÉT TỐT NGHIỆP ĐẠI HỌC CHÍNH QUY (Ban hành kèm theo Quyết định của Hiệu trưởng Trường Đại học Văn Hiến) ĐIỀU 1. ĐIỀU KIỆN XÉT CÔNG NHẬN TỐT NGHIỆP Sinh viên được Trường Đại học Văn Hiến xét và công nhận tốt ng"
+            },
+            {
+              "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+              "source": "quy_dinh_tot_nghiep.pdf",
+              "page": 1,
+              "overlap_score": 0.7526881720430108,
+              "content_preview": "CNTT (Cơ bản/Nâng cao) hoặc chứng chỉ Quốc tế (MOS, IC3) theo quy định. Chứng chỉ Bắt buộc khác: Hoàn thành chương trình và đạt chứng chỉ Giáo dục Quốc phòng - An ninh (GDQP-AN) và Giáo dục Thể chất (GDTC). Tài chính & Nghĩa vụ: Hoàn thành đầy đủ học phí, các khoản phí phát sinh và các nghĩa vụ hồ sơ, tài sản đối với Nhà trường. ĐIỀU 2. PHÂN HẠNG TỐT NGHIỆP Hạng tốt nghiệp của sinh viên được xác đ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "Sinh viên đã hoàn thành đủ tín chỉ và đạt CPA yêu cầu nhưng chưa đạt chuẩn ngoại ngữ có được công nhận tốt nghiệp không?",
+      "category": "tot_nghiep",
+      "mapped_references": [
+        {
+          "original_chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 1,
+          "evidence_preview": "theo quy định của Chương trình đào tạo. Điểm trung bình tích lũy (CPA): Đạt điểm trung bình tích lũy toàn khóa học từ 2.00 / 4.00 trở lên. Chuẩn đầu ra Ngoại ngữ: Có chứng chỉ Ngoại ngữ đạt chuẩn đầu ra theo quy định của Nhà trường áp dụng cho từng khóa/ngành đào tạo (TOEIC, IELTS, VSTEP hoặc tương đương). Chuẩn đầu ra Tin học: Có chứng chỉ Ứng dụng CNTT (Cơ bản/Nâng cao) hoặc chứng chỉ Quốc tế (M",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_1",
+              "source": "quy_dinh_tot_nghiep.pdf",
+              "page": 1,
+              "overlap_score": 0.8494623655913979,
+              "content_preview": "TRƯỜNG ĐẠI HỌC VĂN HIẾN PHÒNG QUẢN LÝ ĐÀO TẠO Số: ..... /QĐ-ĐHVH-ĐẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc TP . Hồ Chí Minh, ngày ..... tháng ..... năm 2026 QUY ĐỊNH XÉT TỐT NGHIỆP ĐẠI HỌC CHÍNH QUY (Ban hành kèm theo Quyết định của Hiệu trưởng Trường Đại học Văn Hiến) ĐIỀU 1. ĐIỀU KIỆN XÉT CÔNG NHẬN TỐT NGHIỆP Sinh viên được Trường Đại học Văn Hiến xét và công nhận tốt ng"
+            },
+            {
+              "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+              "source": "quy_dinh_tot_nghiep.pdf",
+              "page": 1,
+              "overlap_score": 0.7526881720430108,
+              "content_preview": "CNTT (Cơ bản/Nâng cao) hoặc chứng chỉ Quốc tế (MOS, IC3) theo quy định. Chứng chỉ Bắt buộc khác: Hoàn thành chương trình và đạt chứng chỉ Giáo dục Quốc phòng - An ninh (GDQP-AN) và Giáo dục Thể chất (GDTC). Tài chính & Nghĩa vụ: Hoàn thành đầy đủ học phí, các khoản phí phát sinh và các nghĩa vụ hồ sơ, tài sản đối với Nhà trường. ĐIỀU 2. PHÂN HẠNG TỐT NGHIỆP Hạng tốt nghiệp của sinh viên được xác đ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "question": "Sinh viên cần có thành tích học tập như thế nào để được xét Học bổng Khuyến khích học tập?",
+      "category": "hoc_bong",
+      "mapped_references": [
+        {
+          "original_chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2",
+          "source": "chinh_sach_hoc_bong_vhu.pdf",
+          "page": 1,
+          "evidence_preview": "Dành tặng cho các bạn học sinh lớp 12 xếp loại giỏi trở lên đăng ký xét trúng tuyển vào trường Đại học Văn Hiến và vượt qua vòng phỏng vấn trực tiếp do nhà trường tổ chức. 2. Học bổng Đồng hành cùng Hùng Hậu Dành cho các bạn sinh viên có người thân là Giảng viên, Cán bộ nhân viên trường Đại học Văn Hiến, hoặc Cán bộ nhân viên của HungHau Holdings. 3. Học bổng Khuyến khích học tập Dành cho các bạn ",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_1",
+              "source": "chinh_sach_hoc_bong_vhu.pdf",
+              "page": 1,
+              "overlap_score": 0.7244897959183674,
+              "content_preview": "130 triệu đồng / suất 15% – 50% Học phí toàn khóa 2.000.000 – 4.000.000 VNĐ / suất 3.000.000 VNĐ / suất 2.000.000 VNĐ / suất Khen thưởng phong trào TRƯỜNG ĐẠI HỌC VĂN HIẾN CÁC CHÍNH SÁCH HỌC BỔNG HẤP DẪN Đồng hành và khuyến khích tinh thần học tập của Sinh viên Văn Hiến Thấu hiểu và mong muốn khuyến khích, thúc đẩy tinh thần học tập của các bạn sinh viên, ngoài việc luôn tạo điều kiện tốt nhất về "
+            },
+            {
+              "chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2",
+              "source": "chinh_sach_hoc_bong_vhu.pdf",
+              "page": 1,
+              "overlap_score": 0.6938775510204082,
+              "content_preview": "3. Học bổng Khuyến khích học tập Dành cho các bạn sinh viên có thành tích học tập Xuất sắc và xếp loại Giỏi trong năm học. 4. Học bổng sinh viên Bình Định Dành cho các bạn tân sinh viên quê quán ở Bình Định có điểm thi đầu vào loại giỏi và có hoàn cảnh khó khăn. 5. Học bổng Hoàng Như Mai Học bổng được thành lập theo ước nguyện cao cả của cố Giáo sư, Nhà giáo Nhân dân Hoàng Như Mai – một trong nhữn"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "question": "Học bổng Chắp cánh ước mơ năm học 2025 - 2026 dành cho đối tượng nào?",
+      "category": "hoc_bong",
+      "mapped_references": [
+        {
+          "original_chunk_id": "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1",
+          "source": "thong_bao_hoc_bong_vhu_2025_2026.pdf",
+          "page": 1,
+          "evidence_preview": "Có phỏng vấn TRƯỜNG ĐẠI HỌC VĂN HIẾN TRUNG TÂM CHĂM SÓC NGƯỜI HỌC THÔNG BÁO TIẾP NHẬN HỒ SƠ XÉT HỌC BỔNG Năm học 2025 – 2026 Đơn vị tiếp nhận: Trung tâm Chăm sóc Người học - Trường Đại học Văn Hiến Thời gian tiếp nhận:Từ ngày ra thông báo đến ngày 24 tháng 10 năm 2025 Địa điểm tiếp nhận:613 Âu Cơ, Phường Tân Phú, TP. Hồ Chí Minh THÔNG TIN CÁC LOẠI HỌC BỔNG 1. Học bổng Chắp cánh ước mơ 100% Học phí",
+          "candidate_count": 1,
+          "candidates": [
+            {
+              "chunk_id": "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1",
+              "source": "thong_bao_hoc_bong_vhu_2025_2026.pdf",
+              "page": 1,
+              "overlap_score": 1.0,
+              "content_preview": "Có phỏng vấn TRƯỜNG ĐẠI HỌC VĂN HIẾN TRUNG TÂM CHĂM SÓC NGƯỜI HỌC THÔNG BÁO TIẾP NHẬN HỒ SƠ XÉT HỌC BỔNG Năm học 2025 – 2026 Đơn vị tiếp nhận: Trung tâm Chăm sóc Người học - Trường Đại học Văn Hiến Thời gian tiếp nhận:Từ ngày ra thông báo đến ngày 24 tháng 10 năm 2025 Địa điểm tiếp nhận:613 Âu Cơ, Phường Tân Phú, TP. Hồ Chí Minh THÔNG TIN CÁC LOẠI HỌC BỔNG 1. Học bổng Chắp cánh ước mơ 100% Học phí"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "question": "Học bổng Đồng hành cùng Hùng Hậu dành cho những sinh viên nào?",
+      "category": "hoc_bong",
+      "mapped_references": [
+        {
+          "original_chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2",
+          "source": "chinh_sach_hoc_bong_vhu.pdf",
+          "page": 1,
+          "evidence_preview": "Dành tặng cho các bạn học sinh lớp 12 xếp loại giỏi trở lên đăng ký xét trúng tuyển vào trường Đại học Văn Hiến và vượt qua vòng phỏng vấn trực tiếp do nhà trường tổ chức. 2. Học bổng Đồng hành cùng Hùng Hậu Dành cho các bạn sinh viên có người thân là Giảng viên, Cán bộ nhân viên trường Đại học Văn Hiến, hoặc Cán bộ nhân viên của HungHau Holdings. 3. Học bổng Khuyến khích học tập Dành cho các bạn ",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_1",
+              "source": "chinh_sach_hoc_bong_vhu.pdf",
+              "page": 1,
+              "overlap_score": 0.7244897959183674,
+              "content_preview": "130 triệu đồng / suất 15% – 50% Học phí toàn khóa 2.000.000 – 4.000.000 VNĐ / suất 3.000.000 VNĐ / suất 2.000.000 VNĐ / suất Khen thưởng phong trào TRƯỜNG ĐẠI HỌC VĂN HIẾN CÁC CHÍNH SÁCH HỌC BỔNG HẤP DẪN Đồng hành và khuyến khích tinh thần học tập của Sinh viên Văn Hiến Thấu hiểu và mong muốn khuyến khích, thúc đẩy tinh thần học tập của các bạn sinh viên, ngoài việc luôn tạo điều kiện tốt nhất về "
+            },
+            {
+              "chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2",
+              "source": "chinh_sach_hoc_bong_vhu.pdf",
+              "page": 1,
+              "overlap_score": 0.6938775510204082,
+              "content_preview": "3. Học bổng Khuyến khích học tập Dành cho các bạn sinh viên có thành tích học tập Xuất sắc và xếp loại Giỏi trong năm học. 4. Học bổng sinh viên Bình Định Dành cho các bạn tân sinh viên quê quán ở Bình Định có điểm thi đầu vào loại giỏi và có hoàn cảnh khó khăn. 5. Học bổng Hoàng Như Mai Học bổng được thành lập theo ước nguyện cao cả của cố Giáo sư, Nhà giáo Nhân dân Hoàng Như Mai – một trong nhữn"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "question": "Học bổng sinh viên Bình Định dành cho đối tượng nào?",
+      "category": "hoc_bong",
+      "mapped_references": [
+        {
+          "original_chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2",
+          "source": "chinh_sach_hoc_bong_vhu.pdf",
+          "page": 1,
+          "evidence_preview": "Dành tặng cho các bạn học sinh lớp 12 xếp loại giỏi trở lên đăng ký xét trúng tuyển vào trường Đại học Văn Hiến và vượt qua vòng phỏng vấn trực tiếp do nhà trường tổ chức. 2. Học bổng Đồng hành cùng Hùng Hậu Dành cho các bạn sinh viên có người thân là Giảng viên, Cán bộ nhân viên trường Đại học Văn Hiến, hoặc Cán bộ nhân viên của HungHau Holdings. 3. Học bổng Khuyến khích học tập Dành cho các bạn ",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_1",
+              "source": "chinh_sach_hoc_bong_vhu.pdf",
+              "page": 1,
+              "overlap_score": 0.7244897959183674,
+              "content_preview": "130 triệu đồng / suất 15% – 50% Học phí toàn khóa 2.000.000 – 4.000.000 VNĐ / suất 3.000.000 VNĐ / suất 2.000.000 VNĐ / suất Khen thưởng phong trào TRƯỜNG ĐẠI HỌC VĂN HIẾN CÁC CHÍNH SÁCH HỌC BỔNG HẤP DẪN Đồng hành và khuyến khích tinh thần học tập của Sinh viên Văn Hiến Thấu hiểu và mong muốn khuyến khích, thúc đẩy tinh thần học tập của các bạn sinh viên, ngoài việc luôn tạo điều kiện tốt nhất về "
+            },
+            {
+              "chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2",
+              "source": "chinh_sach_hoc_bong_vhu.pdf",
+              "page": 1,
+              "overlap_score": 0.6938775510204082,
+              "content_preview": "3. Học bổng Khuyến khích học tập Dành cho các bạn sinh viên có thành tích học tập Xuất sắc và xếp loại Giỏi trong năm học. 4. Học bổng sinh viên Bình Định Dành cho các bạn tân sinh viên quê quán ở Bình Định có điểm thi đầu vào loại giỏi và có hoàn cảnh khó khăn. 5. Học bổng Hoàng Như Mai Học bổng được thành lập theo ước nguyện cao cả của cố Giáo sư, Nhà giáo Nhân dân Hoàng Như Mai – một trong nhữn"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "question": "Học bổng cán bộ Đoàn - Hội dành cho những sinh viên nào?",
+      "category": "hoc_bong",
+      "mapped_references": [
+        {
+          "original_chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_3",
+          "source": "chinh_sach_hoc_bong_vhu.pdf",
+          "page": 1,
+          "evidence_preview": "được thành lập theo ước nguyện cao cả của cố Giáo sư, Nhà giáo Nhân dân Hoàng Như Mai – một trong những người tham gia sáng lập và là Hiệu trưởng danh dự của trường Đại học Văn Hiến vào năm 1997. 6. Học bổng cán bộ Đoàn – Hội Dành cho các bạn sinh viên tham gia tích cực các phong trào cũng như tham gia các hoạt động thiện nguyện của Trường Đại học Văn Hiến. Trường Đại học Văn Hiến - Chính Sách Học",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2",
+              "source": "chinh_sach_hoc_bong_vhu.pdf",
+              "page": 1,
+              "overlap_score": 1.0,
+              "content_preview": "3. Học bổng Khuyến khích học tập Dành cho các bạn sinh viên có thành tích học tập Xuất sắc và xếp loại Giỏi trong năm học. 4. Học bổng sinh viên Bình Định Dành cho các bạn tân sinh viên quê quán ở Bình Định có điểm thi đầu vào loại giỏi và có hoàn cảnh khó khăn. 5. Học bổng Hoàng Như Mai Học bổng được thành lập theo ước nguyện cao cả của cố Giáo sư, Nhà giáo Nhân dân Hoàng Như Mai – một trong nhữn"
+            },
+            {
+              "chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_1",
+              "source": "chinh_sach_hoc_bong_vhu.pdf",
+              "page": 1,
+              "overlap_score": 0.5081967213114754,
+              "content_preview": "130 triệu đồng / suất 15% – 50% Học phí toàn khóa 2.000.000 – 4.000.000 VNĐ / suất 3.000.000 VNĐ / suất 2.000.000 VNĐ / suất Khen thưởng phong trào TRƯỜNG ĐẠI HỌC VĂN HIẾN CÁC CHÍNH SÁCH HỌC BỔNG HẤP DẪN Đồng hành và khuyến khích tinh thần học tập của Sinh viên Văn Hiến Thấu hiểu và mong muốn khuyến khích, thúc đẩy tinh thần học tập của các bạn sinh viên, ngoài việc luôn tạo điều kiện tốt nhất về "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "question": "Học bổng Chắp cánh ước mơ năm học 2025 - 2026 hỗ trợ bao nhiêu phần trăm học phí?",
+      "category": "hoc_bong",
+      "mapped_references": [
+        {
+          "original_chunk_id": "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1",
+          "source": "thong_bao_hoc_bong_vhu_2025_2026.pdf",
+          "page": 1,
+          "evidence_preview": "Có phỏng vấn TRƯỜNG ĐẠI HỌC VĂN HIẾN TRUNG TÂM CHĂM SÓC NGƯỜI HỌC THÔNG BÁO TIẾP NHẬN HỒ SƠ XÉT HỌC BỔNG Năm học 2025 – 2026 Đơn vị tiếp nhận: Trung tâm Chăm sóc Người học - Trường Đại học Văn Hiến Thời gian tiếp nhận:Từ ngày ra thông báo đến ngày 24 tháng 10 năm 2025 Địa điểm tiếp nhận:613 Âu Cơ, Phường Tân Phú, TP. Hồ Chí Minh THÔNG TIN CÁC LOẠI HỌC BỔNG 1. Học bổng Chắp cánh ước mơ 100% Học phí",
+          "candidate_count": 1,
+          "candidates": [
+            {
+              "chunk_id": "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1",
+              "source": "thong_bao_hoc_bong_vhu_2025_2026.pdf",
+              "page": 1,
+              "overlap_score": 1.0,
+              "content_preview": "Có phỏng vấn TRƯỜNG ĐẠI HỌC VĂN HIẾN TRUNG TÂM CHĂM SÓC NGƯỜI HỌC THÔNG BÁO TIẾP NHẬN HỒ SƠ XÉT HỌC BỔNG Năm học 2025 – 2026 Đơn vị tiếp nhận: Trung tâm Chăm sóc Người học - Trường Đại học Văn Hiến Thời gian tiếp nhận:Từ ngày ra thông báo đến ngày 24 tháng 10 năm 2025 Địa điểm tiếp nhận:613 Âu Cơ, Phường Tân Phú, TP. Hồ Chí Minh THÔNG TIN CÁC LOẠI HỌC BỔNG 1. Học bổng Chắp cánh ước mơ 100% Học phí"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "question": "Thời hạn tiếp nhận hồ sơ xét học bổng năm học 2025 - 2026 là đến ngày nào?",
+      "category": "hoc_bong",
+      "mapped_references": [
+        {
+          "original_chunk_id": "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1",
+          "source": "thong_bao_hoc_bong_vhu_2025_2026.pdf",
+          "page": 1,
+          "evidence_preview": "Có phỏng vấn TRƯỜNG ĐẠI HỌC VĂN HIẾN TRUNG TÂM CHĂM SÓC NGƯỜI HỌC THÔNG BÁO TIẾP NHẬN HỒ SƠ XÉT HỌC BỔNG Năm học 2025 – 2026 Đơn vị tiếp nhận: Trung tâm Chăm sóc Người học - Trường Đại học Văn Hiến Thời gian tiếp nhận:Từ ngày ra thông báo đến ngày 24 tháng 10 năm 2025 Địa điểm tiếp nhận:613 Âu Cơ, Phường Tân Phú, TP. Hồ Chí Minh THÔNG TIN CÁC LOẠI HỌC BỔNG 1. Học bổng Chắp cánh ước mơ 100% Học phí",
+          "candidate_count": 1,
+          "candidates": [
+            {
+              "chunk_id": "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1",
+              "source": "thong_bao_hoc_bong_vhu_2025_2026.pdf",
+              "page": 1,
+              "overlap_score": 1.0,
+              "content_preview": "Có phỏng vấn TRƯỜNG ĐẠI HỌC VĂN HIẾN TRUNG TÂM CHĂM SÓC NGƯỜI HỌC THÔNG BÁO TIẾP NHẬN HỒ SƠ XÉT HỌC BỔNG Năm học 2025 – 2026 Đơn vị tiếp nhận: Trung tâm Chăm sóc Người học - Trường Đại học Văn Hiến Thời gian tiếp nhận:Từ ngày ra thông báo đến ngày 24 tháng 10 năm 2025 Địa điểm tiếp nhận:613 Âu Cơ, Phường Tân Phú, TP. Hồ Chí Minh THÔNG TIN CÁC LOẠI HỌC BỔNG 1. Học bổng Chắp cánh ước mơ 100% Học phí"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "question": "Đơn vị nào tiếp nhận hồ sơ xét học bổng năm học 2025 - 2026?",
+      "category": "hoc_bong",
+      "mapped_references": [
+        {
+          "original_chunk_id": "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1",
+          "source": "thong_bao_hoc_bong_vhu_2025_2026.pdf",
+          "page": 1,
+          "evidence_preview": "Có phỏng vấn TRƯỜNG ĐẠI HỌC VĂN HIẾN TRUNG TÂM CHĂM SÓC NGƯỜI HỌC THÔNG BÁO TIẾP NHẬN HỒ SƠ XÉT HỌC BỔNG Năm học 2025 – 2026 Đơn vị tiếp nhận: Trung tâm Chăm sóc Người học - Trường Đại học Văn Hiến Thời gian tiếp nhận:Từ ngày ra thông báo đến ngày 24 tháng 10 năm 2025 Địa điểm tiếp nhận:613 Âu Cơ, Phường Tân Phú, TP. Hồ Chí Minh THÔNG TIN CÁC LOẠI HỌC BỔNG 1. Học bổng Chắp cánh ước mơ 100% Học phí",
+          "candidate_count": 1,
+          "candidates": [
+            {
+              "chunk_id": "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1",
+              "source": "thong_bao_hoc_bong_vhu_2025_2026.pdf",
+              "page": 1,
+              "overlap_score": 1.0,
+              "content_preview": "Có phỏng vấn TRƯỜNG ĐẠI HỌC VĂN HIẾN TRUNG TÂM CHĂM SÓC NGƯỜI HỌC THÔNG BÁO TIẾP NHẬN HỒ SƠ XÉT HỌC BỔNG Năm học 2025 – 2026 Đơn vị tiếp nhận: Trung tâm Chăm sóc Người học - Trường Đại học Văn Hiến Thời gian tiếp nhận:Từ ngày ra thông báo đến ngày 24 tháng 10 năm 2025 Địa điểm tiếp nhận:613 Âu Cơ, Phường Tân Phú, TP. Hồ Chí Minh THÔNG TIN CÁC LOẠI HỌC BỔNG 1. Học bổng Chắp cánh ước mơ 100% Học phí"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "question": "Tân sinh viên K28 cần có kết quả học tập lớp 12 như thế nào để xét Học bổng Chắp cánh ước mơ?",
+      "category": "hoc_bong",
+      "mapped_references": [
+        {
+          "original_chunk_id": "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1",
+          "source": "thong_bao_hoc_bong_vhu_2025_2026.pdf",
+          "page": 1,
+          "evidence_preview": "Có phỏng vấn TRƯỜNG ĐẠI HỌC VĂN HIẾN TRUNG TÂM CHĂM SÓC NGƯỜI HỌC THÔNG BÁO TIẾP NHẬN HỒ SƠ XÉT HỌC BỔNG Năm học 2025 – 2026 Đơn vị tiếp nhận: Trung tâm Chăm sóc Người học - Trường Đại học Văn Hiến Thời gian tiếp nhận:Từ ngày ra thông báo đến ngày 24 tháng 10 năm 2025 Địa điểm tiếp nhận:613 Âu Cơ, Phường Tân Phú, TP. Hồ Chí Minh THÔNG TIN CÁC LOẠI HỌC BỔNG 1. Học bổng Chắp cánh ước mơ 100% Học phí",
+          "candidate_count": 1,
+          "candidates": [
+            {
+              "chunk_id": "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1",
+              "source": "thong_bao_hoc_bong_vhu_2025_2026.pdf",
+              "page": 1,
+              "overlap_score": 1.0,
+              "content_preview": "Có phỏng vấn TRƯỜNG ĐẠI HỌC VĂN HIẾN TRUNG TÂM CHĂM SÓC NGƯỜI HỌC THÔNG BÁO TIẾP NHẬN HỒ SƠ XÉT HỌC BỔNG Năm học 2025 – 2026 Đơn vị tiếp nhận: Trung tâm Chăm sóc Người học - Trường Đại học Văn Hiến Thời gian tiếp nhận:Từ ngày ra thông báo đến ngày 24 tháng 10 năm 2025 Địa điểm tiếp nhận:613 Âu Cơ, Phường Tân Phú, TP. Hồ Chí Minh THÔNG TIN CÁC LOẠI HỌC BỔNG 1. Học bổng Chắp cánh ước mơ 100% Học phí"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "question": "Học bổng Khuyến khích học tập dành cho sinh viên có thành tích học tập ở mức nào?",
+      "category": "hoc_bong",
+      "mapped_references": [
+        {
+          "original_chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2",
+          "source": "chinh_sach_hoc_bong_vhu.pdf",
+          "page": 1,
+          "evidence_preview": "Dành tặng cho các bạn học sinh lớp 12 xếp loại giỏi trở lên đăng ký xét trúng tuyển vào trường Đại học Văn Hiến và vượt qua vòng phỏng vấn trực tiếp do nhà trường tổ chức. 2. Học bổng Đồng hành cùng Hùng Hậu Dành cho các bạn sinh viên có người thân là Giảng viên, Cán bộ nhân viên trường Đại học Văn Hiến, hoặc Cán bộ nhân viên của HungHau Holdings. 3. Học bổng Khuyến khích học tập Dành cho các bạn ",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_1",
+              "source": "chinh_sach_hoc_bong_vhu.pdf",
+              "page": 1,
+              "overlap_score": 0.7244897959183674,
+              "content_preview": "130 triệu đồng / suất 15% – 50% Học phí toàn khóa 2.000.000 – 4.000.000 VNĐ / suất 3.000.000 VNĐ / suất 2.000.000 VNĐ / suất Khen thưởng phong trào TRƯỜNG ĐẠI HỌC VĂN HIẾN CÁC CHÍNH SÁCH HỌC BỔNG HẤP DẪN Đồng hành và khuyến khích tinh thần học tập của Sinh viên Văn Hiến Thấu hiểu và mong muốn khuyến khích, thúc đẩy tinh thần học tập của các bạn sinh viên, ngoài việc luôn tạo điều kiện tốt nhất về "
+            },
+            {
+              "chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2",
+              "source": "chinh_sach_hoc_bong_vhu.pdf",
+              "page": 1,
+              "overlap_score": 0.6938775510204082,
+              "content_preview": "3. Học bổng Khuyến khích học tập Dành cho các bạn sinh viên có thành tích học tập Xuất sắc và xếp loại Giỏi trong năm học. 4. Học bổng sinh viên Bình Định Dành cho các bạn tân sinh viên quê quán ở Bình Định có điểm thi đầu vào loại giỏi và có hoàn cảnh khó khăn. 5. Học bổng Hoàng Như Mai Học bổng được thành lập theo ước nguyện cao cả của cố Giáo sư, Nhà giáo Nhân dân Hoàng Như Mai – một trong nhữn"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "question": "Trong những trường hợp nào sinh viên bị cảnh báo học vụ?",
+      "category": "hoc_vu",
+      "mapped_references": [
+        {
+          "original_chunk_id": "canh_bao_hoc_vu_pdf_page_1_chunk_2",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 1,
+          "evidence_preview": "học: .................................. Căn cứ Quy chế Đào tạo đại học chính quy hiện hành của Trường Đại học Văn Hiến; Căn cứ kết quả học tập và rèn luyện của sinh viên tính đến hết Học kỳ I - Năm học 2025 - 2026; Phòng Quản lý Đào tạo trân trọng thông báo về việc sinh viên bị xử lý cảnh báo học vụ do chưa đáp ứng đủ các tiêu chí học tập tối thiểu theo quy định. MỨC ĐỘ XỬ LÝ: CẢNH BÁO HỌC VỤ LẦN ",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "chunk_id": "canh_bao_hoc_vu_pdf_page_1_chunk_1",
+              "source": "canh_bao_hoc_vu.pdf",
+              "page": 1,
+              "overlap_score": 0.8229166666666666,
+              "content_preview": "TRƯỜNG ĐẠI HỌC VĂN HIẾN PHÒNG QUẢN LÝ ĐÀO TẠO Số: ..... /TB-ĐHVH-ĐẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc TP . Hồ Chí Minh, ngày ..... tháng ..... năm 2026 THÔNG BÁO CẢNH BÁO HỌC VỤ V/v Cảnh báo kết quả học tập không đạt yêu cầu học kỳ Họ và tên sinh viên: .................................................................................Mã số sinh viên: ..................."
+            },
+            {
+              "chunk_id": "canh_bao_hoc_vu_pdf_page_1_chunk_2",
+              "source": "canh_bao_hoc_vu.pdf",
+              "page": 1,
+              "overlap_score": 0.625,
+              "content_preview": "theo quy định. MỨC ĐỘ XỬ LÝ: CẢNH BÁO HỌC VỤ LẦN 1 Kết quả học tập ghi nhận trên hệ thống: Tiêu chí đánh giá Chỉ số thực tế Mức tối thiểu quy địnhTình trạng Điểm trung bình học kỳ (GPA)1.15 / 4.00 1.60 / 4.00 Không đạt Số tín chỉ đạt trong học kỳ 08 tín chỉ 12 tín chỉ Không đạt Điểm trung bình tích lũy (CPA)1.82 / 4.00 2.00 / 4.00 Cần cải thiện Điểm rèn luyện học kỳ 65 / 100 (Khá) 50 / 100 Đạt Tra"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "question": "Điểm trung bình tích lũy thấp có thể khiến sinh viên bị cảnh báo học vụ như thế nào?",
+      "category": "hoc_vu",
+      "mapped_references": [
+        {
+          "original_chunk_id": "canh_bao_hoc_vu_pdf_page_1_chunk_2",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 1,
+          "evidence_preview": "học: .................................. Căn cứ Quy chế Đào tạo đại học chính quy hiện hành của Trường Đại học Văn Hiến; Căn cứ kết quả học tập và rèn luyện của sinh viên tính đến hết Học kỳ I - Năm học 2025 - 2026; Phòng Quản lý Đào tạo trân trọng thông báo về việc sinh viên bị xử lý cảnh báo học vụ do chưa đáp ứng đủ các tiêu chí học tập tối thiểu theo quy định. MỨC ĐỘ XỬ LÝ: CẢNH BÁO HỌC VỤ LẦN ",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "chunk_id": "canh_bao_hoc_vu_pdf_page_1_chunk_1",
+              "source": "canh_bao_hoc_vu.pdf",
+              "page": 1,
+              "overlap_score": 0.8229166666666666,
+              "content_preview": "TRƯỜNG ĐẠI HỌC VĂN HIẾN PHÒNG QUẢN LÝ ĐÀO TẠO Số: ..... /TB-ĐHVH-ĐẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc TP . Hồ Chí Minh, ngày ..... tháng ..... năm 2026 THÔNG BÁO CẢNH BÁO HỌC VỤ V/v Cảnh báo kết quả học tập không đạt yêu cầu học kỳ Họ và tên sinh viên: .................................................................................Mã số sinh viên: ..................."
+            },
+            {
+              "chunk_id": "canh_bao_hoc_vu_pdf_page_1_chunk_2",
+              "source": "canh_bao_hoc_vu.pdf",
+              "page": 1,
+              "overlap_score": 0.625,
+              "content_preview": "theo quy định. MỨC ĐỘ XỬ LÝ: CẢNH BÁO HỌC VỤ LẦN 1 Kết quả học tập ghi nhận trên hệ thống: Tiêu chí đánh giá Chỉ số thực tế Mức tối thiểu quy địnhTình trạng Điểm trung bình học kỳ (GPA)1.15 / 4.00 1.60 / 4.00 Không đạt Số tín chỉ đạt trong học kỳ 08 tín chỉ 12 tín chỉ Không đạt Điểm trung bình tích lũy (CPA)1.82 / 4.00 2.00 / 4.00 Cần cải thiện Điểm rèn luyện học kỳ 65 / 100 (Khá) 50 / 100 Đạt Tra"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "question": "Sinh viên bị cảnh báo học vụ có bị giới hạn số tín chỉ được đăng ký trong học kỳ tiếp theo không?",
+      "category": "hoc_vu",
+      "mapped_references": [
+        {
+          "original_chunk_id": "canh_bao_hoc_vu_pdf_page_2_chunk_1",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 2,
+          "evidence_preview": "⚠️ HƯỚNG DẪN XỬ LÝ VÀ NGHĨA VỤ CỦA SINH VIÊN Đăng ký tư vấn học vụ: Sinh viên phải liên hệ Cố vấn học tập (Giảng viên chủ nhiệm) hoặc Trung tâm Chăm sóc Người học để lập kế hoạch cải thiện kết quả học tập trước ngày 15/05/2026. Giới hạn số tín chỉ đăng ký: Trong học kỳ tiếp theo, sinh viên bị cảnh báo học vụ chỉ được đăng ký tối đa 14 tín chỉ. Đăng ký học cải thiện/học lại: Ưu tiên đăng ký học lại",
+          "candidate_count": 1,
+          "candidates": [
+            {
+              "chunk_id": "canh_bao_hoc_vu_pdf_page_2_chunk_1",
+              "source": "canh_bao_hoc_vu.pdf",
+              "page": 2,
+              "overlap_score": 1.0,
+              "content_preview": "⚠️ HƯỚNG DẪN XỬ LÝ VÀ NGHĨA VỤ CỦA SINH VIÊN Đăng ký tư vấn học vụ: Sinh viên phải liên hệ Cố vấn học tập (Giảng viên chủ nhiệm) hoặc Trung tâm Chăm sóc Người học để lập kế hoạch cải thiện kết quả học tập trước ngày 15/05/2026. Giới hạn số tín chỉ đăng ký: Trong học kỳ tiếp theo, sinh viên bị cảnh báo học vụ chỉ được đăng ký tối đa 14 tín chỉ. Đăng ký học cải thiện/học lại: Ưu tiên đăng ký học lại"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "question": "Sinh viên đang bị cảnh báo học vụ được phép đăng ký tối đa bao nhiêu tín chỉ?",
+      "category": "hoc_vu",
+      "mapped_references": [
+        {
+          "original_chunk_id": "canh_bao_hoc_vu_pdf_page_2_chunk_1",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 2,
+          "evidence_preview": "⚠️ HƯỚNG DẪN XỬ LÝ VÀ NGHĨA VỤ CỦA SINH VIÊN Đăng ký tư vấn học vụ: Sinh viên phải liên hệ Cố vấn học tập (Giảng viên chủ nhiệm) hoặc Trung tâm Chăm sóc Người học để lập kế hoạch cải thiện kết quả học tập trước ngày 15/05/2026. Giới hạn số tín chỉ đăng ký: Trong học kỳ tiếp theo, sinh viên bị cảnh báo học vụ chỉ được đăng ký tối đa 14 tín chỉ. Đăng ký học cải thiện/học lại: Ưu tiên đăng ký học lại",
+          "candidate_count": 1,
+          "candidates": [
+            {
+              "chunk_id": "canh_bao_hoc_vu_pdf_page_2_chunk_1",
+              "source": "canh_bao_hoc_vu.pdf",
+              "page": 2,
+              "overlap_score": 1.0,
+              "content_preview": "⚠️ HƯỚNG DẪN XỬ LÝ VÀ NGHĨA VỤ CỦA SINH VIÊN Đăng ký tư vấn học vụ: Sinh viên phải liên hệ Cố vấn học tập (Giảng viên chủ nhiệm) hoặc Trung tâm Chăm sóc Người học để lập kế hoạch cải thiện kết quả học tập trước ngày 15/05/2026. Giới hạn số tín chỉ đăng ký: Trong học kỳ tiếp theo, sinh viên bị cảnh báo học vụ chỉ được đăng ký tối đa 14 tín chỉ. Đăng ký học cải thiện/học lại: Ưu tiên đăng ký học lại"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "question": "Số tín chỉ đạt trong học kỳ không đạt mức tối thiểu có thể dẫn đến cảnh báo học vụ không?",
+      "category": "hoc_vu",
+      "mapped_references": [
+        {
+          "original_chunk_id": "canh_bao_hoc_vu_pdf_page_1_chunk_2",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 1,
+          "evidence_preview": "học: .................................. Căn cứ Quy chế Đào tạo đại học chính quy hiện hành của Trường Đại học Văn Hiến; Căn cứ kết quả học tập và rèn luyện của sinh viên tính đến hết Học kỳ I - Năm học 2025 - 2026; Phòng Quản lý Đào tạo trân trọng thông báo về việc sinh viên bị xử lý cảnh báo học vụ do chưa đáp ứng đủ các tiêu chí học tập tối thiểu theo quy định. MỨC ĐỘ XỬ LÝ: CẢNH BÁO HỌC VỤ LẦN ",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "chunk_id": "canh_bao_hoc_vu_pdf_page_1_chunk_1",
+              "source": "canh_bao_hoc_vu.pdf",
+              "page": 1,
+              "overlap_score": 0.8229166666666666,
+              "content_preview": "TRƯỜNG ĐẠI HỌC VĂN HIẾN PHÒNG QUẢN LÝ ĐÀO TẠO Số: ..... /TB-ĐHVH-ĐẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc TP . Hồ Chí Minh, ngày ..... tháng ..... năm 2026 THÔNG BÁO CẢNH BÁO HỌC VỤ V/v Cảnh báo kết quả học tập không đạt yêu cầu học kỳ Họ và tên sinh viên: .................................................................................Mã số sinh viên: ..................."
+            },
+            {
+              "chunk_id": "canh_bao_hoc_vu_pdf_page_1_chunk_2",
+              "source": "canh_bao_hoc_vu.pdf",
+              "page": 1,
+              "overlap_score": 0.625,
+              "content_preview": "theo quy định. MỨC ĐỘ XỬ LÝ: CẢNH BÁO HỌC VỤ LẦN 1 Kết quả học tập ghi nhận trên hệ thống: Tiêu chí đánh giá Chỉ số thực tế Mức tối thiểu quy địnhTình trạng Điểm trung bình học kỳ (GPA)1.15 / 4.00 1.60 / 4.00 Không đạt Số tín chỉ đạt trong học kỳ 08 tín chỉ 12 tín chỉ Không đạt Điểm trung bình tích lũy (CPA)1.82 / 4.00 2.00 / 4.00 Cần cải thiện Điểm rèn luyện học kỳ 65 / 100 (Khá) 50 / 100 Đạt Tra"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "question": "Điểm rèn luyện được sử dụng như một tiêu chí đánh giá tình trạng học vụ của sinh viên không?",
+      "category": "hoc_vu",
+      "mapped_references": [
+        {
+          "original_chunk_id": "canh_bao_hoc_vu_pdf_page_1_chunk_2",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 1,
+          "evidence_preview": "học: .................................. Căn cứ Quy chế Đào tạo đại học chính quy hiện hành của Trường Đại học Văn Hiến; Căn cứ kết quả học tập và rèn luyện của sinh viên tính đến hết Học kỳ I - Năm học 2025 - 2026; Phòng Quản lý Đào tạo trân trọng thông báo về việc sinh viên bị xử lý cảnh báo học vụ do chưa đáp ứng đủ các tiêu chí học tập tối thiểu theo quy định. MỨC ĐỘ XỬ LÝ: CẢNH BÁO HỌC VỤ LẦN ",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "chunk_id": "canh_bao_hoc_vu_pdf_page_1_chunk_1",
+              "source": "canh_bao_hoc_vu.pdf",
+              "page": 1,
+              "overlap_score": 0.8229166666666666,
+              "content_preview": "TRƯỜNG ĐẠI HỌC VĂN HIẾN PHÒNG QUẢN LÝ ĐÀO TẠO Số: ..... /TB-ĐHVH-ĐẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc TP . Hồ Chí Minh, ngày ..... tháng ..... năm 2026 THÔNG BÁO CẢNH BÁO HỌC VỤ V/v Cảnh báo kết quả học tập không đạt yêu cầu học kỳ Họ và tên sinh viên: .................................................................................Mã số sinh viên: ..................."
+            },
+            {
+              "chunk_id": "canh_bao_hoc_vu_pdf_page_1_chunk_2",
+              "source": "canh_bao_hoc_vu.pdf",
+              "page": 1,
+              "overlap_score": 0.625,
+              "content_preview": "theo quy định. MỨC ĐỘ XỬ LÝ: CẢNH BÁO HỌC VỤ LẦN 1 Kết quả học tập ghi nhận trên hệ thống: Tiêu chí đánh giá Chỉ số thực tế Mức tối thiểu quy địnhTình trạng Điểm trung bình học kỳ (GPA)1.15 / 4.00 1.60 / 4.00 Không đạt Số tín chỉ đạt trong học kỳ 08 tín chỉ 12 tín chỉ Không đạt Điểm trung bình tích lũy (CPA)1.82 / 4.00 2.00 / 4.00 Cần cải thiện Điểm rèn luyện học kỳ 65 / 100 (Khá) 50 / 100 Đạt Tra"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "question": "Sinh viên bị cảnh báo học vụ hai lần liên tiếp có thể chịu hậu quả gì?",
+      "category": "hoc_vu",
+      "mapped_references": [
+        {
+          "original_chunk_id": "canh_bao_hoc_vu_pdf_page_2_chunk_1",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 2,
+          "evidence_preview": "⚠️ HƯỚNG DẪN XỬ LÝ VÀ NGHĨA VỤ CỦA SINH VIÊN Đăng ký tư vấn học vụ: Sinh viên phải liên hệ Cố vấn học tập (Giảng viên chủ nhiệm) hoặc Trung tâm Chăm sóc Người học để lập kế hoạch cải thiện kết quả học tập trước ngày 15/05/2026. Giới hạn số tín chỉ đăng ký: Trong học kỳ tiếp theo, sinh viên bị cảnh báo học vụ chỉ được đăng ký tối đa 14 tín chỉ. Đăng ký học cải thiện/học lại: Ưu tiên đăng ký học lại",
+          "candidate_count": 1,
+          "candidates": [
+            {
+              "chunk_id": "canh_bao_hoc_vu_pdf_page_2_chunk_1",
+              "source": "canh_bao_hoc_vu.pdf",
+              "page": 2,
+              "overlap_score": 1.0,
+              "content_preview": "⚠️ HƯỚNG DẪN XỬ LÝ VÀ NGHĨA VỤ CỦA SINH VIÊN Đăng ký tư vấn học vụ: Sinh viên phải liên hệ Cố vấn học tập (Giảng viên chủ nhiệm) hoặc Trung tâm Chăm sóc Người học để lập kế hoạch cải thiện kết quả học tập trước ngày 15/05/2026. Giới hạn số tín chỉ đăng ký: Trong học kỳ tiếp theo, sinh viên bị cảnh báo học vụ chỉ được đăng ký tối đa 14 tín chỉ. Đăng ký học cải thiện/học lại: Ưu tiên đăng ký học lại"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "question": "Sinh viên bị cảnh báo học vụ ba lần trong toàn khóa có thể bị xử lý như thế nào?",
+      "category": "hoc_vu",
+      "mapped_references": [
+        {
+          "original_chunk_id": "canh_bao_hoc_vu_pdf_page_2_chunk_1",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 2,
+          "evidence_preview": "⚠️ HƯỚNG DẪN XỬ LÝ VÀ NGHĨA VỤ CỦA SINH VIÊN Đăng ký tư vấn học vụ: Sinh viên phải liên hệ Cố vấn học tập (Giảng viên chủ nhiệm) hoặc Trung tâm Chăm sóc Người học để lập kế hoạch cải thiện kết quả học tập trước ngày 15/05/2026. Giới hạn số tín chỉ đăng ký: Trong học kỳ tiếp theo, sinh viên bị cảnh báo học vụ chỉ được đăng ký tối đa 14 tín chỉ. Đăng ký học cải thiện/học lại: Ưu tiên đăng ký học lại",
+          "candidate_count": 1,
+          "candidates": [
+            {
+              "chunk_id": "canh_bao_hoc_vu_pdf_page_2_chunk_1",
+              "source": "canh_bao_hoc_vu.pdf",
+              "page": 2,
+              "overlap_score": 1.0,
+              "content_preview": "⚠️ HƯỚNG DẪN XỬ LÝ VÀ NGHĨA VỤ CỦA SINH VIÊN Đăng ký tư vấn học vụ: Sinh viên phải liên hệ Cố vấn học tập (Giảng viên chủ nhiệm) hoặc Trung tâm Chăm sóc Người học để lập kế hoạch cải thiện kết quả học tập trước ngày 15/05/2026. Giới hạn số tín chỉ đăng ký: Trong học kỳ tiếp theo, sinh viên bị cảnh báo học vụ chỉ được đăng ký tối đa 14 tín chỉ. Đăng ký học cải thiện/học lại: Ưu tiên đăng ký học lại"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "question": "Sinh viên có CPA 1.82 trên thang điểm 4 có đạt mức CPA tối thiểu 2.00 theo thông báo cảnh báo học vụ không?",
+      "category": "hoc_vu",
+      "mapped_references": [
+        {
+          "original_chunk_id": "canh_bao_hoc_vu_pdf_page_1_chunk_2",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 1,
+          "evidence_preview": "học: .................................. Căn cứ Quy chế Đào tạo đại học chính quy hiện hành của Trường Đại học Văn Hiến; Căn cứ kết quả học tập và rèn luyện của sinh viên tính đến hết Học kỳ I - Năm học 2025 - 2026; Phòng Quản lý Đào tạo trân trọng thông báo về việc sinh viên bị xử lý cảnh báo học vụ do chưa đáp ứng đủ các tiêu chí học tập tối thiểu theo quy định. MỨC ĐỘ XỬ LÝ: CẢNH BÁO HỌC VỤ LẦN ",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "chunk_id": "canh_bao_hoc_vu_pdf_page_1_chunk_1",
+              "source": "canh_bao_hoc_vu.pdf",
+              "page": 1,
+              "overlap_score": 0.8229166666666666,
+              "content_preview": "TRƯỜNG ĐẠI HỌC VĂN HIẾN PHÒNG QUẢN LÝ ĐÀO TẠO Số: ..... /TB-ĐHVH-ĐẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc TP . Hồ Chí Minh, ngày ..... tháng ..... năm 2026 THÔNG BÁO CẢNH BÁO HỌC VỤ V/v Cảnh báo kết quả học tập không đạt yêu cầu học kỳ Họ và tên sinh viên: .................................................................................Mã số sinh viên: ..................."
+            },
+            {
+              "chunk_id": "canh_bao_hoc_vu_pdf_page_1_chunk_2",
+              "source": "canh_bao_hoc_vu.pdf",
+              "page": 1,
+              "overlap_score": 0.625,
+              "content_preview": "theo quy định. MỨC ĐỘ XỬ LÝ: CẢNH BÁO HỌC VỤ LẦN 1 Kết quả học tập ghi nhận trên hệ thống: Tiêu chí đánh giá Chỉ số thực tế Mức tối thiểu quy địnhTình trạng Điểm trung bình học kỳ (GPA)1.15 / 4.00 1.60 / 4.00 Không đạt Số tín chỉ đạt trong học kỳ 08 tín chỉ 12 tín chỉ Không đạt Điểm trung bình tích lũy (CPA)1.82 / 4.00 2.00 / 4.00 Cần cải thiện Điểm rèn luyện học kỳ 65 / 100 (Khá) 50 / 100 Đạt Tra"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "question": "Sinh viên vừa có CPA thấp vừa có số tín chỉ đạt trong học kỳ dưới mức tối thiểu có nguy cơ bị cảnh báo học vụ không?",
+      "category": "hoc_vu",
+      "mapped_references": [
+        {
+          "original_chunk_id": "canh_bao_hoc_vu_pdf_page_1_chunk_2",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 1,
+          "evidence_preview": "học: .................................. Căn cứ Quy chế Đào tạo đại học chính quy hiện hành của Trường Đại học Văn Hiến; Căn cứ kết quả học tập và rèn luyện của sinh viên tính đến hết Học kỳ I - Năm học 2025 - 2026; Phòng Quản lý Đào tạo trân trọng thông báo về việc sinh viên bị xử lý cảnh báo học vụ do chưa đáp ứng đủ các tiêu chí học tập tối thiểu theo quy định. MỨC ĐỘ XỬ LÝ: CẢNH BÁO HỌC VỤ LẦN ",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "chunk_id": "canh_bao_hoc_vu_pdf_page_1_chunk_1",
+              "source": "canh_bao_hoc_vu.pdf",
+              "page": 1,
+              "overlap_score": 0.8229166666666666,
+              "content_preview": "TRƯỜNG ĐẠI HỌC VĂN HIẾN PHÒNG QUẢN LÝ ĐÀO TẠO Số: ..... /TB-ĐHVH-ĐẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc TP . Hồ Chí Minh, ngày ..... tháng ..... năm 2026 THÔNG BÁO CẢNH BÁO HỌC VỤ V/v Cảnh báo kết quả học tập không đạt yêu cầu học kỳ Họ và tên sinh viên: .................................................................................Mã số sinh viên: ..................."
+            },
+            {
+              "chunk_id": "canh_bao_hoc_vu_pdf_page_1_chunk_2",
+              "source": "canh_bao_hoc_vu.pdf",
+              "page": 1,
+              "overlap_score": 0.625,
+              "content_preview": "theo quy định. MỨC ĐỘ XỬ LÝ: CẢNH BÁO HỌC VỤ LẦN 1 Kết quả học tập ghi nhận trên hệ thống: Tiêu chí đánh giá Chỉ số thực tế Mức tối thiểu quy địnhTình trạng Điểm trung bình học kỳ (GPA)1.15 / 4.00 1.60 / 4.00 Không đạt Số tín chỉ đạt trong học kỳ 08 tín chỉ 12 tín chỉ Không đạt Điểm trung bình tích lũy (CPA)1.82 / 4.00 2.00 / 4.00 Cần cải thiện Điểm rèn luyện học kỳ 65 / 100 (Khá) 50 / 100 Đạt Tra"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "question": "Chương trình đào tạo được xây dựng theo đơn vị nào và được cấu trúc từ những thành phần nào?",
+      "category": "dao_tao",
+      "mapped_references": [
+        {
+          "original_chunk_id": "979_2022_pdf_page_2_chunk_3",
+          "source": "979.2022.pdf",
+          "page": 2,
+          "evidence_preview": "căn cứ để Trường xây dựng và ban hành các văn bản liên quan đến tổ chức và quản lý đào tạo trình độ đại học theo phương thức tín chỉ. Điều 2. Chương trình đào tạo và thời gian học tập 1. Chương trình đào tạo được xây dựng theo đơn vị tín chỉ, cấu trúc từ các học phần, trong đó phải có học phần bắt buộc và đáp ứng chuẩn CTĐT theo quy định hiện hành của Bộ Giáo dục và Đào tạo. Trong trường hợp đào t",
+          "candidate_count": 3,
+          "candidates": [
+            {
+              "chunk_id": "979_2022_pdf_page_2_chunk_2",
+              "source": "979.2022.pdf",
+              "page": 2,
+              "overlap_score": 1.0,
+              "content_preview": "Văn Hiến. Các CTĐT do cơ sở giáo dục nước ngoài cấp bằng bao gồm cả các chương trình liên kết đào tạo được áp dụng quy chế này hoặc quy định của cơ sở đào tạo cấp bằng theo thỏa thuận liên kết, hợp tác giữa Trường và đơn vị đối tác nhưng không trái với những quy định của quy chế này. 3. Quy chế này là căn cứ để Trường xây dựng và ban hành các văn bản liên quan đến tổ chức và quản lý đào tạo trình "
+            },
+            {
+              "chunk_id": "979_2022_pdf_page_2_chunk_1",
+              "source": "979.2022.pdf",
+              "page": 2,
+              "overlap_score": 0.5408163265306123,
+              "content_preview": "1 BỘ GIÁO DỤC VÀ ĐÀO TẠO CỘNG HÒA XÃ HỘI VÀ CHỦ NGHĨA VIỆT NAM TRƯỜNG ĐẠI HỌC VĂN HIẾN Độc lập - Tự do - Hạnh phúc QUY CHẾ Đào tạo trình độ đại học theo phương thức tín chỉ của Trường Đại học Văn Hiến (Ban hành kèm theo Quyết định số 979/2022/VHU/QĐ ngày 27 tháng 09 năm 2022 của Hiệu trưởng Trường Đại học Văn Hiến) Chương I NHỮNG QUY ĐỊNH CHUNG Điều 1. Phạm vi điều chỉnh và đối tượng áp dụng 1. Qu"
+            },
+            {
+              "chunk_id": "979_2022_pdf_page_2_chunk_3",
+              "source": "979.2022.pdf",
+              "page": 2,
+              "overlap_score": 0.5306122448979592,
+              "content_preview": "độ khác hoặc ngành khác, khối lượng học tập thực tế được xác định trên cơ sở công nhận hoặc chuyển đổi tín chỉ đã tích lũy và miễn trừ học phần trong CTĐT đã học. 3. CTĐT phải được công khai đối với người học trước khi tuyển sinh và khi bắt đầu khóa học; những thay đổi, điều chỉnh liên quan đến CTĐT được thực hiện theo quy định hiện hành và công bố trước khi áp dụng, không gây bất lợi cho sinh viê"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "question": "Chương trình đào tạo gồm những khối kiến thức chính nào?",
+      "category": "dao_tao",
+      "mapped_references": [
+        {
+          "original_chunk_id": "979_2022_pdf_page_2_chunk_4",
+          "source": "979.2022.pdf",
+          "page": 2,
+          "evidence_preview": "học khác nhau. Đối với người đã tốt nghiệp trình độ khác hoặc ngành khác, khối lượng học tập thực tế được xác định trên cơ sở công nhận hoặc chuyển đổi tín chỉ đã tích lũy và miễn trừ học phần trong CTĐT đã học. 3. CTĐT phải được công khai đối với người học trước khi tuyển sinh và khi bắt đầu khóa học; những thay đổi, điều chỉnh liên quan đến CTĐT được thực hiện theo quy định hiện hành và công bố ",
+          "candidate_count": 3,
+          "candidates": [
+            {
+              "chunk_id": "979_2022_pdf_page_2_chunk_3",
+              "source": "979.2022.pdf",
+              "page": 2,
+              "overlap_score": 0.963855421686747,
+              "content_preview": "độ khác hoặc ngành khác, khối lượng học tập thực tế được xác định trên cơ sở công nhận hoặc chuyển đổi tín chỉ đã tích lũy và miễn trừ học phần trong CTĐT đã học. 3. CTĐT phải được công khai đối với người học trước khi tuyển sinh và khi bắt đầu khóa học; những thay đổi, điều chỉnh liên quan đến CTĐT được thực hiện theo quy định hiện hành và công bố trước khi áp dụng, không gây bất lợi cho sinh viê"
+            },
+            {
+              "chunk_id": "979_2022_pdf_page_2_chunk_2",
+              "source": "979.2022.pdf",
+              "page": 2,
+              "overlap_score": 0.7590361445783133,
+              "content_preview": "Văn Hiến. Các CTĐT do cơ sở giáo dục nước ngoài cấp bằng bao gồm cả các chương trình liên kết đào tạo được áp dụng quy chế này hoặc quy định của cơ sở đào tạo cấp bằng theo thỏa thuận liên kết, hợp tác giữa Trường và đơn vị đối tác nhưng không trái với những quy định của quy chế này. 3. Quy chế này là căn cứ để Trường xây dựng và ban hành các văn bản liên quan đến tổ chức và quản lý đào tạo trình "
+            },
+            {
+              "chunk_id": "979_2022_pdf_page_2_chunk_1",
+              "source": "979.2022.pdf",
+              "page": 2,
+              "overlap_score": 0.4457831325301205,
+              "content_preview": "1 BỘ GIÁO DỤC VÀ ĐÀO TẠO CỘNG HÒA XÃ HỘI VÀ CHỦ NGHĨA VIỆT NAM TRƯỜNG ĐẠI HỌC VĂN HIẾN Độc lập - Tự do - Hạnh phúc QUY CHẾ Đào tạo trình độ đại học theo phương thức tín chỉ của Trường Đại học Văn Hiến (Ban hành kèm theo Quyết định số 979/2022/VHU/QĐ ngày 27 tháng 09 năm 2022 của Hiệu trưởng Trường Đại học Văn Hiến) Chương I NHỮNG QUY ĐỊNH CHUNG Điều 1. Phạm vi điều chỉnh và đối tượng áp dụng 1. Qu"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "question": "Học phần bắt buộc và học phần tự chọn khác nhau như thế nào?",
+      "category": "dao_tao",
+      "mapped_references": [
+        {
+          "original_chunk_id": "979_2022_pdf_page_4_chunk_1",
+          "source": "979.2022.pdf",
+          "page": 4,
+          "evidence_preview": "3 b) Hoạt động giảng dạy của một học phần bao gồm một hay kết hợp một số hình thức sau: giảng dạy lý thuyết (trực tiếp, trực tuyến, kết hợp trực tiếp và trực tuyến) ; hướng dẫn thực hành, bài tập, bài tập lớn - tổ chức theo lớp hay theo từng nhóm; giảng dạy thí nghiệm, thực hành tại phòng thí nghiệm, xưởng; hướng dẫn trải nghiệm thực tế, thực tập, thực tập tốt nghiệp tại các cơ sở bên ngoài; hướng",
+          "candidate_count": 3,
+          "candidates": [
+            {
+              "chunk_id": "979_2022_pdf_page_4_chunk_1",
+              "source": "979.2022.pdf",
+              "page": 4,
+              "overlap_score": 1.0,
+              "content_preview": "3 b) Hoạt động giảng dạy của một học phần bao gồm một hay kết hợp một số hình thức sau: giảng dạy lý thuyết (trực tiếp, trực tuyến, kết hợp trực tiếp và trực tuyến) ; hướng dẫn thực hành, bài tập, bài tập lớn - tổ chức theo lớp hay theo từng nhóm; giảng dạy thí nghiệm, thực hành tại phòng thí nghiệm, xưởng; hướng dẫn trải nghiệm thực tế, thực tập, thực tập tốt nghiệp tại các cơ sở bên ngoài; hướng"
+            },
+            {
+              "chunk_id": "979_2022_pdf_page_4_chunk_3",
+              "source": "979.2022.pdf",
+              "page": 4,
+              "overlap_score": 0.5287356321839081,
+              "content_preview": "dẫn sinh viên tự học. Đề cương chi tiết học phần được phê duyệt và công bố cùng với chương trình, đồng thời đăng tải trên website của khoa/trường. Nội dung đề cương chi tiết được giảng viên thông báo tới sinh viên trong buổi học đầu tiên của học phần. 3. Tín chỉ được sử dụng để tính khối lượng học tập của sinh viên. Một tín chỉ được quy định bằng 15 tiết học lý thuyết; 15 tiết làm bài tập tại lớp;"
+            },
+            {
+              "chunk_id": "979_2022_pdf_page_4_chunk_2",
+              "source": "979.2022.pdf",
+              "page": 4,
+              "overlap_score": 0.4367816091954023,
+              "content_preview": "được sử dụng khi một học phần đã có trong chương trình nhưng không còn tổ chức giảng dạy, được thay thế bằng một học phần khác. Các học phần thay thế do khoa đề xuất để bổ sung cho chương trình trong quá trình thực hiện và được Hiệu trưởng thông qua. - Học phần tiên quyết: là học phần mà sinh viên phải đạt mới được đăng ký học phần tiếp theo. - Học phần học trước: là học phần mà sinh viên hoàn thà"
+            }
+          ]
+        },
+        {
+          "original_chunk_id": "979_2022_pdf_page_4_chunk_2",
+          "source": "979.2022.pdf",
+          "page": 4,
+          "evidence_preview": "- Học phần tự chọn: là học phần chứa đựng những nội dung kiến thức cần thiết, sinh viên được tự chọn theo hướng dẫn của trường nhằm đa dạng hóa hướng chuyên môn hoặc tự chọn tùy ý để tích lũy đủ số học phần và số tín chỉ quy định cho mỗi CTĐT: d) Ngoài việc phân loại là bắt buộc hoặc tự chọn, các học phần có các khái niệm như sau: - Học phần thay thế: được sử dụng khi một học phần đã có trong chươ",
+          "candidate_count": 3,
+          "candidates": [
+            {
+              "chunk_id": "979_2022_pdf_page_4_chunk_1",
+              "source": "979.2022.pdf",
+              "page": 4,
+              "overlap_score": 0.84,
+              "content_preview": "3 b) Hoạt động giảng dạy của một học phần bao gồm một hay kết hợp một số hình thức sau: giảng dạy lý thuyết (trực tiếp, trực tuyến, kết hợp trực tiếp và trực tuyến) ; hướng dẫn thực hành, bài tập, bài tập lớn - tổ chức theo lớp hay theo từng nhóm; giảng dạy thí nghiệm, thực hành tại phòng thí nghiệm, xưởng; hướng dẫn trải nghiệm thực tế, thực tập, thực tập tốt nghiệp tại các cơ sở bên ngoài; hướng"
+            },
+            {
+              "chunk_id": "979_2022_pdf_page_4_chunk_2",
+              "source": "979.2022.pdf",
+              "page": 4,
+              "overlap_score": 0.72,
+              "content_preview": "được sử dụng khi một học phần đã có trong chương trình nhưng không còn tổ chức giảng dạy, được thay thế bằng một học phần khác. Các học phần thay thế do khoa đề xuất để bổ sung cho chương trình trong quá trình thực hiện và được Hiệu trưởng thông qua. - Học phần tiên quyết: là học phần mà sinh viên phải đạt mới được đăng ký học phần tiếp theo. - Học phần học trước: là học phần mà sinh viên hoàn thà"
+            },
+            {
+              "chunk_id": "979_2022_pdf_page_4_chunk_3",
+              "source": "979.2022.pdf",
+              "page": 4,
+              "overlap_score": 0.43,
+              "content_preview": "dẫn sinh viên tự học. Đề cương chi tiết học phần được phê duyệt và công bố cùng với chương trình, đồng thời đăng tải trên website của khoa/trường. Nội dung đề cương chi tiết được giảng viên thông báo tới sinh viên trong buổi học đầu tiên của học phần. 3. Tín chỉ được sử dụng để tính khối lượng học tập của sinh viên. Một tín chỉ được quy định bằng 15 tiết học lý thuyết; 15 tiết làm bài tập tại lớp;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "question": "Học phần bắt buộc được quy định như thế nào trong chương trình đào tạo?",
+      "category": "dao_tao",
+      "mapped_references": [
+        {
+          "original_chunk_id": "979_2022_pdf_page_4_chunk_1",
+          "source": "979.2022.pdf",
+          "page": 4,
+          "evidence_preview": "3 b) Hoạt động giảng dạy của một học phần bao gồm một hay kết hợp một số hình thức sau: giảng dạy lý thuyết (trực tiếp, trực tuyến, kết hợp trực tiếp và trực tuyến) ; hướng dẫn thực hành, bài tập, bài tập lớn - tổ chức theo lớp hay theo từng nhóm; giảng dạy thí nghiệm, thực hành tại phòng thí nghiệm, xưởng; hướng dẫn trải nghiệm thực tế, thực tập, thực tập tốt nghiệp tại các cơ sở bên ngoài; hướng",
+          "candidate_count": 3,
+          "candidates": [
+            {
+              "chunk_id": "979_2022_pdf_page_4_chunk_1",
+              "source": "979.2022.pdf",
+              "page": 4,
+              "overlap_score": 1.0,
+              "content_preview": "3 b) Hoạt động giảng dạy của một học phần bao gồm một hay kết hợp một số hình thức sau: giảng dạy lý thuyết (trực tiếp, trực tuyến, kết hợp trực tiếp và trực tuyến) ; hướng dẫn thực hành, bài tập, bài tập lớn - tổ chức theo lớp hay theo từng nhóm; giảng dạy thí nghiệm, thực hành tại phòng thí nghiệm, xưởng; hướng dẫn trải nghiệm thực tế, thực tập, thực tập tốt nghiệp tại các cơ sở bên ngoài; hướng"
+            },
+            {
+              "chunk_id": "979_2022_pdf_page_4_chunk_3",
+              "source": "979.2022.pdf",
+              "page": 4,
+              "overlap_score": 0.5287356321839081,
+              "content_preview": "dẫn sinh viên tự học. Đề cương chi tiết học phần được phê duyệt và công bố cùng với chương trình, đồng thời đăng tải trên website của khoa/trường. Nội dung đề cương chi tiết được giảng viên thông báo tới sinh viên trong buổi học đầu tiên của học phần. 3. Tín chỉ được sử dụng để tính khối lượng học tập của sinh viên. Một tín chỉ được quy định bằng 15 tiết học lý thuyết; 15 tiết làm bài tập tại lớp;"
+            },
+            {
+              "chunk_id": "979_2022_pdf_page_4_chunk_2",
+              "source": "979.2022.pdf",
+              "page": 4,
+              "overlap_score": 0.4367816091954023,
+              "content_preview": "được sử dụng khi một học phần đã có trong chương trình nhưng không còn tổ chức giảng dạy, được thay thế bằng một học phần khác. Các học phần thay thế do khoa đề xuất để bổ sung cho chương trình trong quá trình thực hiện và được Hiệu trưởng thông qua. - Học phần tiên quyết: là học phần mà sinh viên phải đạt mới được đăng ký học phần tiếp theo. - Học phần học trước: là học phần mà sinh viên hoàn thà"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "question": "Học phần tự chọn được quy định như thế nào trong chương trình đào tạo?",
+      "category": "dao_tao",
+      "mapped_references": [
+        {
+          "original_chunk_id": "979_2022_pdf_page_4_chunk_2",
+          "source": "979.2022.pdf",
+          "page": 4,
+          "evidence_preview": "- Học phần tự chọn: là học phần chứa đựng những nội dung kiến thức cần thiết, sinh viên được tự chọn theo hướng dẫn của trường nhằm đa dạng hóa hướng chuyên môn hoặc tự chọn tùy ý để tích lũy đủ số học phần và số tín chỉ quy định cho mỗi CTĐT: d) Ngoài việc phân loại là bắt buộc hoặc tự chọn, các học phần có các khái niệm như sau: - Học phần thay thế: được sử dụng khi một học phần đã có trong chươ",
+          "candidate_count": 3,
+          "candidates": [
+            {
+              "chunk_id": "979_2022_pdf_page_4_chunk_1",
+              "source": "979.2022.pdf",
+              "page": 4,
+              "overlap_score": 0.84,
+              "content_preview": "3 b) Hoạt động giảng dạy của một học phần bao gồm một hay kết hợp một số hình thức sau: giảng dạy lý thuyết (trực tiếp, trực tuyến, kết hợp trực tiếp và trực tuyến) ; hướng dẫn thực hành, bài tập, bài tập lớn - tổ chức theo lớp hay theo từng nhóm; giảng dạy thí nghiệm, thực hành tại phòng thí nghiệm, xưởng; hướng dẫn trải nghiệm thực tế, thực tập, thực tập tốt nghiệp tại các cơ sở bên ngoài; hướng"
+            },
+            {
+              "chunk_id": "979_2022_pdf_page_4_chunk_2",
+              "source": "979.2022.pdf",
+              "page": 4,
+              "overlap_score": 0.72,
+              "content_preview": "được sử dụng khi một học phần đã có trong chương trình nhưng không còn tổ chức giảng dạy, được thay thế bằng một học phần khác. Các học phần thay thế do khoa đề xuất để bổ sung cho chương trình trong quá trình thực hiện và được Hiệu trưởng thông qua. - Học phần tiên quyết: là học phần mà sinh viên phải đạt mới được đăng ký học phần tiếp theo. - Học phần học trước: là học phần mà sinh viên hoàn thà"
+            },
+            {
+              "chunk_id": "979_2022_pdf_page_4_chunk_3",
+              "source": "979.2022.pdf",
+              "page": 4,
+              "overlap_score": 0.43,
+              "content_preview": "dẫn sinh viên tự học. Đề cương chi tiết học phần được phê duyệt và công bố cùng với chương trình, đồng thời đăng tải trên website của khoa/trường. Nội dung đề cương chi tiết được giảng viên thông báo tới sinh viên trong buổi học đầu tiên của học phần. 3. Tín chỉ được sử dụng để tính khối lượng học tập của sinh viên. Một tín chỉ được quy định bằng 15 tiết học lý thuyết; 15 tiết làm bài tập tại lớp;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "question": "Học phần tiên quyết và học phần học trước được quy định như thế nào?",
+      "category": "dao_tao",
+      "mapped_references": [
+        {
+          "original_chunk_id": "979_2022_pdf_page_4_chunk_2",
+          "source": "979.2022.pdf",
+          "page": 4,
+          "evidence_preview": "- Học phần tự chọn: là học phần chứa đựng những nội dung kiến thức cần thiết, sinh viên được tự chọn theo hướng dẫn của trường nhằm đa dạng hóa hướng chuyên môn hoặc tự chọn tùy ý để tích lũy đủ số học phần và số tín chỉ quy định cho mỗi CTĐT: d) Ngoài việc phân loại là bắt buộc hoặc tự chọn, các học phần có các khái niệm như sau: - Học phần thay thế: được sử dụng khi một học phần đã có trong chươ",
+          "candidate_count": 3,
+          "candidates": [
+            {
+              "chunk_id": "979_2022_pdf_page_4_chunk_1",
+              "source": "979.2022.pdf",
+              "page": 4,
+              "overlap_score": 0.84,
+              "content_preview": "3 b) Hoạt động giảng dạy của một học phần bao gồm một hay kết hợp một số hình thức sau: giảng dạy lý thuyết (trực tiếp, trực tuyến, kết hợp trực tiếp và trực tuyến) ; hướng dẫn thực hành, bài tập, bài tập lớn - tổ chức theo lớp hay theo từng nhóm; giảng dạy thí nghiệm, thực hành tại phòng thí nghiệm, xưởng; hướng dẫn trải nghiệm thực tế, thực tập, thực tập tốt nghiệp tại các cơ sở bên ngoài; hướng"
+            },
+            {
+              "chunk_id": "979_2022_pdf_page_4_chunk_2",
+              "source": "979.2022.pdf",
+              "page": 4,
+              "overlap_score": 0.72,
+              "content_preview": "được sử dụng khi một học phần đã có trong chương trình nhưng không còn tổ chức giảng dạy, được thay thế bằng một học phần khác. Các học phần thay thế do khoa đề xuất để bổ sung cho chương trình trong quá trình thực hiện và được Hiệu trưởng thông qua. - Học phần tiên quyết: là học phần mà sinh viên phải đạt mới được đăng ký học phần tiếp theo. - Học phần học trước: là học phần mà sinh viên hoàn thà"
+            },
+            {
+              "chunk_id": "979_2022_pdf_page_4_chunk_3",
+              "source": "979.2022.pdf",
+              "page": 4,
+              "overlap_score": 0.43,
+              "content_preview": "dẫn sinh viên tự học. Đề cương chi tiết học phần được phê duyệt và công bố cùng với chương trình, đồng thời đăng tải trên website của khoa/trường. Nội dung đề cương chi tiết được giảng viên thông báo tới sinh viên trong buổi học đầu tiên của học phần. 3. Tín chỉ được sử dụng để tính khối lượng học tập của sinh viên. Một tín chỉ được quy định bằng 15 tiết học lý thuyết; 15 tiết làm bài tập tại lớp;"
+            }
+          ]
+        },
+        {
+          "original_chunk_id": "979_2022_pdf_page_4_chunk_3",
+          "source": "979.2022.pdf",
+          "page": 4,
+          "evidence_preview": "viên phải đạt mới được đăng ký học phần tiếp theo. - Học phần học trước: là học phần mà sinh viên hoàn thành quá trình học tập (không cần phải đạt học phần) trước khi đăng ký học phần tiếp theo. - Học phần song hành: hai học phần được gọi là song hành khi sinh viên đăng ký học phần này thì bắt buộc phải đăng ký học phần kia. 2. Mỗi học phần đều phải có đề cương chi tiết học phần, trong đó thể hiện",
+          "candidate_count": 3,
+          "candidates": [
+            {
+              "chunk_id": "979_2022_pdf_page_4_chunk_2",
+              "source": "979.2022.pdf",
+              "page": 4,
+              "overlap_score": 1.0,
+              "content_preview": "được sử dụng khi một học phần đã có trong chương trình nhưng không còn tổ chức giảng dạy, được thay thế bằng một học phần khác. Các học phần thay thế do khoa đề xuất để bổ sung cho chương trình trong quá trình thực hiện và được Hiệu trưởng thông qua. - Học phần tiên quyết: là học phần mà sinh viên phải đạt mới được đăng ký học phần tiếp theo. - Học phần học trước: là học phần mà sinh viên hoàn thà"
+            },
+            {
+              "chunk_id": "979_2022_pdf_page_4_chunk_3",
+              "source": "979.2022.pdf",
+              "page": 4,
+              "overlap_score": 0.4725274725274725,
+              "content_preview": "dẫn sinh viên tự học. Đề cương chi tiết học phần được phê duyệt và công bố cùng với chương trình, đồng thời đăng tải trên website của khoa/trường. Nội dung đề cương chi tiết được giảng viên thông báo tới sinh viên trong buổi học đầu tiên của học phần. 3. Tín chỉ được sử dụng để tính khối lượng học tập của sinh viên. Một tín chỉ được quy định bằng 15 tiết học lý thuyết; 15 tiết làm bài tập tại lớp;"
+            },
+            {
+              "chunk_id": "979_2022_pdf_page_4_chunk_1",
+              "source": "979.2022.pdf",
+              "page": 4,
+              "overlap_score": 0.43956043956043955,
+              "content_preview": "3 b) Hoạt động giảng dạy của một học phần bao gồm một hay kết hợp một số hình thức sau: giảng dạy lý thuyết (trực tiếp, trực tuyến, kết hợp trực tiếp và trực tuyến) ; hướng dẫn thực hành, bài tập, bài tập lớn - tổ chức theo lớp hay theo từng nhóm; giảng dạy thí nghiệm, thực hành tại phòng thí nghiệm, xưởng; hướng dẫn trải nghiệm thực tế, thực tập, thực tập tốt nghiệp tại các cơ sở bên ngoài; hướng"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "question": "Sinh viên không đạt một học phần bắt buộc phải xử lý như thế nào?",
+      "category": "dao_tao",
+      "mapped_references": [
+        {
+          "original_chunk_id": "979_2022_pdf_page_7_chunk_3",
+          "source": "979.2022.pdf",
+          "page": 7,
+          "evidence_preview": "nghị được Khoa/Viện đồng ý. Điều 9. Hủy học phần và rút bớt học phần đã đăng ký 1. Sinh viên được phép hủy học phần đã đăng ký chậm nhất là trước khi học kỳ bắt đầu 1 tuần. Sau thời hạn cho phép hủy học phần, sinh viên phải đóng học phí cho những học phần đã đăng ký. 2. Trong 2 tuần đầu của học kỳ, nếu muốn rút bớt học phần trong khối lượng học tập đã đăng ký, sinh viên phải có đơn nộp cho Trường ",
+          "candidate_count": 3,
+          "candidates": [
+            {
+              "chunk_id": "979_2022_pdf_page_7_chunk_2",
+              "source": "979.2022.pdf",
+              "page": 7,
+              "overlap_score": 1.0,
+              "content_preview": "quá 25 tín chỉ. d) Số tín chỉ tối thiểu không áp dụng đối với sinh viên có số tín chỉ cần hoàn thành CTĐT ít hơn số tín chỉ tối thiểu quy định tại điểm a, b khoản này. 5. Trường hợp muốn đăng ký vượt quá số tín chỉ tối đa hoặc dưới số tín chỉ tối thiểu trong một học kỳ, sinh viên phải có đơn đề nghị được Khoa/Viện đồng ý. Điều 9. Hủy học phần và rút bớt học phần đã đăng ký 1. Sinh viên được phép h"
+            },
+            {
+              "chunk_id": "979_2022_pdf_page_7_chunk_1",
+              "source": "979.2022.pdf",
+              "page": 7,
+              "overlap_score": 0.52,
+              "content_preview": "6 2. Sinh viên phải đăng ký lớp của các học phần dự định sẽ học trong học kỳ, gồm: những học phần mới, một số học phần chưa đạt (để học lại), một số học phần đã đạt (để cải thiện điểm) căn cứ danh sách học phần được mở và điều kiện đăng ký của mỗi học phần. 3. Sinh viên chỉ được đăng ký học phần thực tập tốt nghiệp, đồ án/ khóa luận tốt nghiệp sau khi sinh viên đã đạt điều kiện theo quy định của C"
+            },
+            {
+              "chunk_id": "979_2022_pdf_page_7_chunk_3",
+              "source": "979.2022.pdf",
+              "page": 7,
+              "overlap_score": 0.4,
+              "content_preview": "lại: a) Sinh viên không đạt một học phần bắt buộc phải đăng ký học lại học phần đó hoặc học phần tương đương theo quy định trong CTĐT hoặc học phần thay thế nếu học phần đó không còn được giảng dạy. b) Sinh viên không đạt một học phần tự chọn phải học lại học phần đó hoặc có thể chọn một học phần tự chọn khác theo quy định trong CTĐT. c) Điểm lần học cuối là điểm chính thức của học phần và chỉ đượ"
+            }
+          ]
+        },
+        {
+          "original_chunk_id": "979_2022_pdf_page_7_chunk_4",
+          "source": "979.2022.pdf",
+          "page": 7,
+          "evidence_preview": "Quy chế này. Điều 10. Học lại, học cải thiện điểm 1. Học lại: a) Sinh viên không đạt một học phần bắt buộc phải đăng ký học lại học phần đó hoặc học phần tương đương theo quy định trong CTĐT hoặc học phần thay thế nếu học phần đó không còn được giảng dạy. b) Sinh viên không đạt một học phần tự chọn phải học lại học phần đó hoặc có thể chọn một học phần tự chọn khác theo quy định trong CTĐT. c) Điể",
+          "candidate_count": 3,
+          "candidates": [
+            {
+              "chunk_id": "979_2022_pdf_page_7_chunk_3",
+              "source": "979.2022.pdf",
+              "page": 7,
+              "overlap_score": 0.9322033898305084,
+              "content_preview": "lại: a) Sinh viên không đạt một học phần bắt buộc phải đăng ký học lại học phần đó hoặc học phần tương đương theo quy định trong CTĐT hoặc học phần thay thế nếu học phần đó không còn được giảng dạy. b) Sinh viên không đạt một học phần tự chọn phải học lại học phần đó hoặc có thể chọn một học phần tự chọn khác theo quy định trong CTĐT. c) Điểm lần học cuối là điểm chính thức của học phần và chỉ đượ"
+            },
+            {
+              "chunk_id": "979_2022_pdf_page_7_chunk_2",
+              "source": "979.2022.pdf",
+              "page": 7,
+              "overlap_score": 0.7796610169491526,
+              "content_preview": "quá 25 tín chỉ. d) Số tín chỉ tối thiểu không áp dụng đối với sinh viên có số tín chỉ cần hoàn thành CTĐT ít hơn số tín chỉ tối thiểu quy định tại điểm a, b khoản này. 5. Trường hợp muốn đăng ký vượt quá số tín chỉ tối đa hoặc dưới số tín chỉ tối thiểu trong một học kỳ, sinh viên phải có đơn đề nghị được Khoa/Viện đồng ý. Điều 9. Hủy học phần và rút bớt học phần đã đăng ký 1. Sinh viên được phép h"
+            },
+            {
+              "chunk_id": "979_2022_pdf_page_7_chunk_1",
+              "source": "979.2022.pdf",
+              "page": 7,
+              "overlap_score": 0.576271186440678,
+              "content_preview": "6 2. Sinh viên phải đăng ký lớp của các học phần dự định sẽ học trong học kỳ, gồm: những học phần mới, một số học phần chưa đạt (để học lại), một số học phần đã đạt (để cải thiện điểm) căn cứ danh sách học phần được mở và điều kiện đăng ký của mỗi học phần. 3. Sinh viên chỉ được đăng ký học phần thực tập tốt nghiệp, đồ án/ khóa luận tốt nghiệp sau khi sinh viên đã đạt điều kiện theo quy định của C"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "question": "Mỗi khối kiến thức trong chương trình đào tạo được cấu trúc thành những phần nào?",
+      "category": "dao_tao",
+      "mapped_references": [
+        {
+          "original_chunk_id": "979_2022_pdf_page_3_chunk_2",
+          "source": "979.2022.pdf",
+          "page": 3,
+          "evidence_preview": "sinh viên những kiến thức và kỹ năng nghề nghiệp cơ bản cần thiết. - Mỗi khối kiến thức đều được cấu trúc bởi hai phần: phần bắt buộc và phần tự chọn. 5. CTĐT phải được định kỳ bổ sung, điều chỉnh ít nhất 2 năm/ lần trên cơ sở tham khảo các chương trình tiên tiến trong nước và quốc tế, các ý kiến phản hồi từ các nhà tuyển dụng lao động, người tốt nghiệp, các tổ chức giáo dục và các tổ chức khác nh",
+          "candidate_count": 3,
+          "candidates": [
+            {
+              "chunk_id": "979_2022_pdf_page_3_chunk_1",
+              "source": "979.2022.pdf",
+              "page": 3,
+              "overlap_score": 0.9051724137931034,
+              "content_preview": "2 bản về tự nhiên, kinh tế, văn hóa, xã hội; hình thành cho sinh viên năng lực thẩm mỹ, trách nhiệm xã hội, khả năng thích ứng với môi trường giáo dục đại học và đa văn hóa; có đạo đức, nhận thức trách nhiệm công dân; có năng lực tham gia xây dựng và bảo vệ đất nước, trong đó có các học phần bắt buộc theo quy định của Bộ Giáo dục và Đào tạo. Giáo dục đại cương cũng giúp sinh viên có các kỹ năng số"
+            },
+            {
+              "chunk_id": "979_2022_pdf_page_3_chunk_2",
+              "source": "979.2022.pdf",
+              "page": 3,
+              "overlap_score": 0.6724137931034483,
+              "content_preview": "nghiệp, các tổ chức giáo dục và các tổ chức khác nhằm đáp ứng nhu cầu nguồn nhân lực phát triển kinh tế - xã hội của địa p hương hoặc cả nước. 6. CTĐT cung cấp kế hoạch học tập chuẩn toàn khóa để định hướng cho sinh viên. Thời gian theo kế hoạch học tập chuẩn toàn khóa đối với hình thức đào tạo chính quy là 8 học kỳ, được tổ chức giảng dạy trong 3-4 năm. 7. Thời gian tối đa để sinh viên hoàn thành"
+            },
+            {
+              "chunk_id": "979_2022_pdf_page_3_chunk_3",
+              "source": "979.2022.pdf",
+              "page": 3,
+              "overlap_score": 0.45689655172413796,
+              "content_preview": "gia hạn thêm thời gian đào tạo cho sinh viên nhưng không vượt quá hai lần thời gian kế hoạch học tập chuẩn toàn khóa tương ứng với mỗi CTĐT. Điều 3. Học phần, đề cương chi tiết học phần và tín chỉ 1. Học phần: a) Học phần là một tập hợp hoạt động giảng dạy và học tập được thiết kế nhằm thực hiện một số mục tiêu học tập cụ thể, trang bị cho người học những kiến thức, kỹ năng trong CTĐT. Học phần có"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "question": "Học phần trong chương trình đào tạo thường có khối lượng bao nhiêu tín chỉ?",
+      "category": "dao_tao",
+      "mapped_references": [
+        {
+          "original_chunk_id": "979_2022_pdf_page_3_chunk_4",
+          "source": "979.2022.pdf",
+          "page": 3,
+          "evidence_preview": "trường hợp cụ thể, Hiệu trưởng có thể xem xét và gia hạn thêm thời gian đào tạo cho sinh viên nhưng không vượt quá hai lần thời gian kế hoạch học tập chuẩn toàn khóa tương ứng với mỗi CTĐT. Điều 3. Học phần, đề cương chi tiết học phần và tín chỉ 1. Học phần: a) Học phần là một tập hợp hoạt động giảng dạy và học tập được thiết kế nhằm thực hiện một số mục tiêu học tập cụ thể, trang bị cho người học",
+          "candidate_count": 3,
+          "candidates": [
+            {
+              "chunk_id": "979_2022_pdf_page_3_chunk_3",
+              "source": "979.2022.pdf",
+              "page": 3,
+              "overlap_score": 0.9722222222222222,
+              "content_preview": "gia hạn thêm thời gian đào tạo cho sinh viên nhưng không vượt quá hai lần thời gian kế hoạch học tập chuẩn toàn khóa tương ứng với mỗi CTĐT. Điều 3. Học phần, đề cương chi tiết học phần và tín chỉ 1. Học phần: a) Học phần là một tập hợp hoạt động giảng dạy và học tập được thiết kế nhằm thực hiện một số mục tiêu học tập cụ thể, trang bị cho người học những kiến thức, kỹ năng trong CTĐT. Học phần có"
+            },
+            {
+              "chunk_id": "979_2022_pdf_page_3_chunk_2",
+              "source": "979.2022.pdf",
+              "page": 3,
+              "overlap_score": 0.6203703703703703,
+              "content_preview": "nghiệp, các tổ chức giáo dục và các tổ chức khác nhằm đáp ứng nhu cầu nguồn nhân lực phát triển kinh tế - xã hội của địa p hương hoặc cả nước. 6. CTĐT cung cấp kế hoạch học tập chuẩn toàn khóa để định hướng cho sinh viên. Thời gian theo kế hoạch học tập chuẩn toàn khóa đối với hình thức đào tạo chính quy là 8 học kỳ, được tổ chức giảng dạy trong 3-4 năm. 7. Thời gian tối đa để sinh viên hoàn thành"
+            },
+            {
+              "chunk_id": "979_2022_pdf_page_3_chunk_1",
+              "source": "979.2022.pdf",
+              "page": 3,
+              "overlap_score": 0.4722222222222222,
+              "content_preview": "2 bản về tự nhiên, kinh tế, văn hóa, xã hội; hình thành cho sinh viên năng lực thẩm mỹ, trách nhiệm xã hội, khả năng thích ứng với môi trường giáo dục đại học và đa văn hóa; có đạo đức, nhận thức trách nhiệm công dân; có năng lực tham gia xây dựng và bảo vệ đất nước, trong đó có các học phần bắt buộc theo quy định của Bộ Giáo dục và Đào tạo. Giáo dục đại cương cũng giúp sinh viên có các kỹ năng số"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "question": "Đề cương chi tiết học phần phải thể hiện những điều kiện học tập nào?",
+      "category": "dao_tao",
+      "mapped_references": [
+        {
+          "original_chunk_id": "979_2022_pdf_page_4_chunk_3",
+          "source": "979.2022.pdf",
+          "page": 4,
+          "evidence_preview": "viên phải đạt mới được đăng ký học phần tiếp theo. - Học phần học trước: là học phần mà sinh viên hoàn thành quá trình học tập (không cần phải đạt học phần) trước khi đăng ký học phần tiếp theo. - Học phần song hành: hai học phần được gọi là song hành khi sinh viên đăng ký học phần này thì bắt buộc phải đăng ký học phần kia. 2. Mỗi học phần đều phải có đề cương chi tiết học phần, trong đó thể hiện",
+          "candidate_count": 3,
+          "candidates": [
+            {
+              "chunk_id": "979_2022_pdf_page_4_chunk_2",
+              "source": "979.2022.pdf",
+              "page": 4,
+              "overlap_score": 1.0,
+              "content_preview": "được sử dụng khi một học phần đã có trong chương trình nhưng không còn tổ chức giảng dạy, được thay thế bằng một học phần khác. Các học phần thay thế do khoa đề xuất để bổ sung cho chương trình trong quá trình thực hiện và được Hiệu trưởng thông qua. - Học phần tiên quyết: là học phần mà sinh viên phải đạt mới được đăng ký học phần tiếp theo. - Học phần học trước: là học phần mà sinh viên hoàn thà"
+            },
+            {
+              "chunk_id": "979_2022_pdf_page_4_chunk_3",
+              "source": "979.2022.pdf",
+              "page": 4,
+              "overlap_score": 0.4725274725274725,
+              "content_preview": "dẫn sinh viên tự học. Đề cương chi tiết học phần được phê duyệt và công bố cùng với chương trình, đồng thời đăng tải trên website của khoa/trường. Nội dung đề cương chi tiết được giảng viên thông báo tới sinh viên trong buổi học đầu tiên của học phần. 3. Tín chỉ được sử dụng để tính khối lượng học tập của sinh viên. Một tín chỉ được quy định bằng 15 tiết học lý thuyết; 15 tiết làm bài tập tại lớp;"
+            },
+            {
+              "chunk_id": "979_2022_pdf_page_4_chunk_1",
+              "source": "979.2022.pdf",
+              "page": 4,
+              "overlap_score": 0.43956043956043955,
+              "content_preview": "3 b) Hoạt động giảng dạy của một học phần bao gồm một hay kết hợp một số hình thức sau: giảng dạy lý thuyết (trực tiếp, trực tuyến, kết hợp trực tiếp và trực tuyến) ; hướng dẫn thực hành, bài tập, bài tập lớn - tổ chức theo lớp hay theo từng nhóm; giảng dạy thí nghiệm, thực hành tại phòng thí nghiệm, xưởng; hướng dẫn trải nghiệm thực tế, thực tập, thực tập tốt nghiệp tại các cơ sở bên ngoài; hướng"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

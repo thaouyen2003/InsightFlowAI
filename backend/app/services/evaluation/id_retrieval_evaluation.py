@@ -2,10 +2,15 @@ import json
 from pathlib import Path
 from typing import Any
 
+from app.services.rag.bm25_retriever import (
+    BM25Retriever,
+)
 from app.services.rag.retriever import (
     KnowledgeRetriever,
 )
-
+from app.services.rag.hybrid_retriever import (
+    HybridRetriever,
+)
 
 class IDRetrievalEvaluation:
     """
@@ -24,13 +29,16 @@ class IDRetrievalEvaluation:
     1. baseline
        Semantic vector retrieval thuần túy.
 
-    2. semantic_lexical
+    2. bm25
+       BM25 lexical retrieval baseline.
+
+    3. semantic_lexical
        Semantic retrieval Top-20
        + semantic rank score
        + lexical overlap
        + reranking.
 
-    3. optimized
+    4. optimized
        Semantic retrieval Top-20
        + semantic rank score
        + lexical overlap
@@ -47,12 +55,40 @@ class IDRetrievalEvaluation:
 
     VALID_MODES = {
         "baseline",
+        "bm25",
+        "hybrid_rrf",
         "semantic_lexical",
         "optimized",
+        "weight_60_40",
+        "weight_50_50",
+        "weight_40_60",
     }
 
     def __init__(self) -> None:
+        # =====================================================
+        # RETRIEVERS
+        # =====================================================
+
         self.retriever = KnowledgeRetriever()
+
+        self.bm25_retriever = BM25Retriever(
+            vector_store=self.retriever.vector_store
+        )
+
+        self.hybrid_retriever = (
+            HybridRetriever(
+                dense_retriever=
+                    self.retriever,
+
+                bm25_retriever=
+                    self.bm25_retriever,
+
+                rrf_k=60,
+            )
+        )
+        # =====================================================
+        # PATHS
+        # =====================================================
 
         self.evaluation_dir = (
             Path(__file__)
@@ -63,16 +99,14 @@ class IDRetrievalEvaluation:
         # =====================================================
         # BENCHMARK FILE
         #
-        # Hiện giữ nguyên ground_truth_candidates.json
-        # để không thay đổi benchmark đang chạy.
-        #
-        # Sau khi kiểm tra schema với ground_truth_50.json,
-        # có thể chuyển sang ground_truth_50.json.
+        # Tạm thời giữ benchmark hiện tại để đảm bảo
+        # kết quả mới có thể so sánh trực tiếp với
+        # các experiment trước.
         # =====================================================
 
         self.test_file = (
             self.evaluation_dir
-            / "ground_truth_candidates.json"
+            / "ground_truth_evidence_final.json"
         )
 
         # =====================================================
@@ -166,11 +200,16 @@ class IDRetrievalEvaluation:
     ):
         """
         Thực hiện retrieval theo retrieval mode.
+
+        Nếu category filter không trả về kết quả,
+        hệ thống fallback và retrieval lại trên
+        toàn bộ knowledge base.
         """
 
         if mode not in self.VALID_MODES:
             raise ValueError(
-                f"Retrieval mode không hợp lệ: {mode}"
+                f"Retrieval mode không hợp lệ: "
+                f"{mode}"
             )
 
         # =====================================================
@@ -186,6 +225,24 @@ class IDRetrievalEvaluation:
                 )
             )
 
+        elif mode == "bm25":
+            retrieved_items = (
+                self.bm25_retriever.retrieve(
+                    query=question,
+                    top_k=top_k,
+                    category=category,
+                )
+            )
+        elif mode == "hybrid_rrf":
+            retrieved_items = (
+                self.hybrid_retriever.retrieve(
+                    query=question,
+                    top_k=top_k,
+                    candidate_k=20,
+                    category=category,
+                )
+            )
+
         elif mode == "semantic_lexical":
             retrieved_items = (
                 self.retriever.retrieve_semantic_lexical(
@@ -196,7 +253,33 @@ class IDRetrievalEvaluation:
                 )
             )
 
-        else:
+        elif mode in {
+            "weight_60_40",
+            "weight_50_50",
+            "weight_40_60",
+        }:
+            weight_configs = {
+                "weight_60_40": (0.60, 0.40),
+                "weight_50_50": (0.50, 0.50),
+                "weight_40_60": (0.40, 0.60),
+            }
+
+            semantic_weight, lexical_weight = (
+                weight_configs[mode]
+            )
+
+            retrieved_items = (
+                self.retriever.retrieve_semantic_lexical(
+                    query=question,
+                    top_k=top_k,
+                    candidate_k=20,
+                    category=category,
+                    semantic_weight=semantic_weight,
+                    lexical_weight=lexical_weight,
+                )
+            )
+
+        elif mode == "optimized":
             retrieved_items = (
                 self.retriever.retrieve_optimized(
                     query=question,
@@ -204,6 +287,12 @@ class IDRetrievalEvaluation:
                     candidate_k=20,
                     category=category,
                 )
+            )
+
+        else:
+            raise ValueError(
+                f"Retrieval mode không hợp lệ: "
+                f"{mode}"
             )
 
         # =====================================================
@@ -226,6 +315,25 @@ class IDRetrievalEvaluation:
                     )
                 )
 
+            elif mode == "bm25":
+                retrieved_items = (
+                    self.bm25_retriever.retrieve(
+                        query=question,
+                        top_k=top_k,
+                        category=None,
+                    )
+                )
+
+            elif mode == "hybrid_rrf":
+                retrieved_items = (
+                    self.hybrid_retriever.retrieve(
+                        query=question,
+                        top_k=top_k,
+                        candidate_k=20,
+                        category=None,
+                    )
+                )
+
             elif mode == "semantic_lexical":
                 retrieved_items = (
                     self.retriever.retrieve_semantic_lexical(
@@ -235,8 +343,34 @@ class IDRetrievalEvaluation:
                         category=None,
                     )
                 )
+            elif mode in {
+                "weight_60_40",
+                "weight_50_50",
+                "weight_40_60",
+            }:
+                weight_configs = {
+                    "weight_60_40": (0.60, 0.40),
+                    "weight_50_50": (0.50, 0.50),
+                    "weight_40_60": (0.40, 0.60),
+                }
 
-            else:
+                semantic_weight, lexical_weight = (
+                    weight_configs[mode]
+                )
+
+                retrieved_items = (
+                    self.retriever.retrieve_semantic_lexical(
+                        query=question,
+                        top_k=top_k,
+                        candidate_k=20,
+                        category=None,
+                        semantic_weight=semantic_weight,
+                        lexical_weight=lexical_weight,
+                    )
+                )
+
+
+            elif mode == "optimized":
                 retrieved_items = (
                     self.retriever.retrieve_optimized(
                         query=question,
@@ -291,6 +425,14 @@ class IDRetrievalEvaluation:
 
         # =====================================================
         # GROUND TRUTH
+        #
+        # reference_chunk_ids:
+        #   Ground-truth gốc để truy vết.
+        #
+        # relevance_groups:
+        #   Mỗi group là một evidence requirement.
+        #   Các chunk trong cùng group được xem là
+        #   các passage thay thế tương đương.
         # =====================================================
 
         raw_reference_ids = (
@@ -309,17 +451,72 @@ class IDRetrievalEvaluation:
                 "phải là danh sách."
             )
 
-        reference_chunk_ids = {
+        original_reference_chunk_ids = {
             str(chunk_id).strip()
             for chunk_id in raw_reference_ids
             if str(chunk_id).strip()
         }
 
-        if not reference_chunk_ids:
+        if not original_reference_chunk_ids:
             raise ValueError(
                 "Test case chưa có "
                 "reference_chunk_ids."
             )
+
+        raw_groups = test_case.get(
+            "relevance_groups"
+        )
+
+        # Fallback cho benchmark cũ:
+        # mỗi reference là một evidence group riêng.
+        if raw_groups is None:
+            raw_groups = [
+                [chunk_id]
+                for chunk_id
+                in original_reference_chunk_ids
+            ]
+
+        if not isinstance(
+            raw_groups,
+            list,
+        ):
+            raise ValueError(
+                "relevance_groups "
+                "phải là danh sách."
+            )
+
+        relevance_groups: list[set[str]] = []
+
+        for raw_group in raw_groups:
+            if not isinstance(
+                raw_group,
+                list,
+            ):
+                raise ValueError(
+                    "Mỗi relevance group "
+                    "phải là một danh sách."
+                )
+
+            group = {
+                str(chunk_id).strip()
+                for chunk_id in raw_group
+                if str(chunk_id).strip()
+            }
+
+            if group:
+                relevance_groups.append(
+                    group
+                )
+
+        if not relevance_groups:
+            raise ValueError(
+                "Test case chưa có "
+                "relevance evidence."
+            )
+
+        relevant_chunk_ids = set().union(
+            *relevance_groups
+        )
 
         # =====================================================
         # RETRIEVE
@@ -341,14 +538,19 @@ class IDRetrievalEvaluation:
             retrieved_chunk_ids
         )
 
+
         relevant_retrieved = (
             retrieved_set
-            & reference_chunk_ids
+            & relevant_chunk_ids
         )
 
-        relevant_count = len(
-            relevant_retrieved
+        hit_groups = sum(
+            1
+            for group in relevance_groups
+            if retrieved_set & group
         )
+
+        relevant_count = hit_groups
 
         # =====================================================
         # PRECISION@K
@@ -366,12 +568,14 @@ class IDRetrievalEvaluation:
         # =====================================================
 
         recall_at_k = (
-            relevant_count
-            / len(reference_chunk_ids)
-            if reference_chunk_ids
+            hit_groups
+            / len(relevance_groups)
+            if relevance_groups
             else 0.0
         )
 
+
+        
         # =====================================================
         # HIT@K
         # =====================================================
@@ -381,7 +585,7 @@ class IDRetrievalEvaluation:
                 1.0
                 if any(
                     chunk_id
-                    in reference_chunk_ids
+                    in relevant_chunk_ids
                     for chunk_id
                     in retrieved_chunk_ids[:k]
                 )
@@ -404,7 +608,7 @@ class IDRetrievalEvaluation:
         ):
             if (
                 chunk_id
-                in reference_chunk_ids
+                in relevant_chunk_ids
             ):
                 first_relevant_rank = rank
                 break
@@ -419,26 +623,98 @@ class IDRetrievalEvaluation:
         # RETRIEVED DETAILS
         # =====================================================
 
-        retrieved_details = [
-            {
-                "rank": index,
-                "chunk_id": item.chunk_id,
-                "source": item.source,
-                "page": item.page,
-                "category": item.category,
-                "distance": item.distance,
-                "is_relevant": (
+        retrieved_details = []
+
+        for index, item in enumerate(
+            retrieved_items,
+            start=1,
+        ):
+            detail = {
+                "rank":
+                    index,
+
+                "chunk_id":
+                    item.chunk_id,
+
+                "source":
+                    item.source,
+
+                "page":
+                    item.page,
+
+                "category":
+                    item.category,
+
+                "distance":
+                    item.distance,
+
+                "is_relevant":
                     item.chunk_id
-                    in reference_chunk_ids
-                ),
+                    in relevant_chunk_ids,
+
                 "content_preview":
                     item.content[:250],
             }
-            for index, item in enumerate(
-                retrieved_items,
-                start=1,
+
+            # =================================================
+            # OPTIONAL BM25 SCORE
+            # =================================================
+
+            bm25_score = (
+                item.metadata.get(
+                    "bm25_score"
+                )
+                if item.metadata
+                else None
             )
-        ]
+
+            if bm25_score is not None:
+                detail[
+                    "bm25_score"
+                ] = bm25_score
+
+            retrieved_details.append(
+                detail
+            )
+
+            rrf_score = (
+                item.metadata.get(
+                    "rrf_score"
+                )
+                if item.metadata
+                else None
+            )
+
+            if rrf_score is not None:
+                detail[
+                    "rrf_score"
+                ] = rrf_score
+
+            dense_rank = (
+                item.metadata.get(
+                    "dense_rank"
+                )
+                if item.metadata
+                else None
+            )
+
+            if dense_rank is not None:
+                detail[
+                    "dense_rank"
+                ] = dense_rank
+
+            bm25_rank = (
+                item.metadata.get(
+                    "bm25_rank"
+                )
+                if item.metadata
+                else None
+            )
+
+            if bm25_rank is not None:
+                detail[
+                    "bm25_rank"
+                ] = bm25_rank
 
         # =====================================================
         # PER-QUERY RESULT
@@ -462,8 +738,19 @@ class IDRetrievalEvaluation:
 
             "reference_chunk_ids":
                 sorted(
-                    reference_chunk_ids
+                    original_reference_chunk_ids
                 ),
+
+            "relevant_chunk_ids":
+                sorted(
+                    relevant_chunk_ids
+                ),
+
+            "relevance_groups":
+                [
+                    sorted(group)
+                    for group in relevance_groups
+                ],
 
             "retrieved_chunk_ids":
                 retrieved_chunk_ids,
@@ -589,8 +876,10 @@ class IDRetrievalEvaluation:
                     {
                         "question_id":
                             index,
+
                         "question":
                             question,
+
                         "reason":
                             str(error),
                     }
@@ -615,6 +904,9 @@ class IDRetrievalEvaluation:
                 "top_k":
                     top_k,
 
+                "benchmark_file":
+                    self.test_file.name,
+
                 "total_cases":
                     len(test_cases),
 
@@ -627,14 +919,19 @@ class IDRetrievalEvaluation:
                 "metrics": {
                     "precision_at_5":
                         0.0,
+
                     "recall_at_5":
                         0.0,
+
                     "hit_at_1":
                         0.0,
+
                     "hit_at_3":
                         0.0,
+
                     "hit_at_5":
                         0.0,
+
                     "mrr":
                         0.0,
                 },
@@ -1176,10 +1473,31 @@ def print_evaluation_summary(
                     f'{marker}'
                 )
 
-                print(
-                    "    Distance:",
-                    detail["distance"],
-                )
+                if (
+                    detail.get(
+                        "bm25_score"
+                    )
+                    is not None
+                ):
+                    print(
+                        "    BM25 score:",
+                        detail[
+                            "bm25_score"
+                        ],
+                    )
+
+                if (
+                    detail.get(
+                        "distance"
+                    )
+                    is not None
+                ):
+                    print(
+                        "    Distance:",
+                        detail[
+                            "distance"
+                        ],
+                    )
 
                 print(
                     "    Preview:",
@@ -1268,6 +1586,21 @@ if __name__ == "__main__":
 
     # =========================================================
     # EXPERIMENT 2
+    # BM25 BASELINE
+    # =========================================================
+
+    run_experiment(
+        service=service,
+        mode="bm25",
+        title=(
+            "EXPERIMENT 2: "
+            "BM25 BASELINE"
+        ),
+        top_k=5,
+    )
+
+    # =========================================================
+    # EXPERIMENT 3
     # SEMANTIC + LEXICAL
     # =========================================================
 
@@ -1275,14 +1608,14 @@ if __name__ == "__main__":
         service=service,
         mode="semantic_lexical",
         title=(
-            "EXPERIMENT 2: "
+            "EXPERIMENT 3: "
             "SEMANTIC + LEXICAL"
         ),
         top_k=5,
     )
 
     # =========================================================
-    # EXPERIMENT 3
+    # EXPERIMENT 4
     # SEMANTIC + LEXICAL + PHRASE BOOST
     # =========================================================
 
@@ -1290,9 +1623,19 @@ if __name__ == "__main__":
         service=service,
         mode="optimized",
         title=(
-            "EXPERIMENT 3: "
+            "EXPERIMENT 4: "
             "SEMANTIC + LEXICAL "
             "+ PHRASE BOOST"
+        ),
+        top_k=5,
+    )
+
+    run_experiment(
+        service=service,
+        mode="hybrid_rrf",
+        title=(
+            "EXPERIMENT 3: "
+            "HYBRID DENSE + BM25 (RRF)"
         ),
         top_k=5,
     )

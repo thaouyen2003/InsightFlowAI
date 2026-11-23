@@ -1,0 +1,3928 @@
+{
+  "retrieval_mode": "weight_40_60",
+  "top_k": 5,
+  "benchmark_file": "ground_truth_50.json",
+  "total_cases": 50,
+  "evaluated_cases": 50,
+  "skipped_cases": 0,
+  "metrics": {
+    "precision_at_5": 0.21600000000000003,
+    "recall_at_5": 0.97,
+    "hit_at_1": 0.8,
+    "hit_at_3": 0.98,
+    "hit_at_5": 0.98,
+    "mrr": 0.89
+  },
+  "category_summary": {
+    "tot_nghiep": {
+      "count": 13,
+      "precision_at_5": 0.2,
+      "recall_at_5": 1.0,
+      "hit_at_1": 0.9230769230769231,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "mrr": 0.9615384615384616
+    },
+    "hoc_bong": {
+      "count": 13,
+      "precision_at_5": 0.2,
+      "recall_at_5": 1.0,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "mrr": 1.0
+    },
+    "hoc_vu": {
+      "count": 12,
+      "precision_at_5": 0.25,
+      "recall_at_5": 1.0,
+      "hit_at_1": 0.6666666666666666,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "mrr": 0.8333333333333334
+    },
+    "dao_tao": {
+      "count": 12,
+      "precision_at_5": 0.21666666666666667,
+      "recall_at_5": 0.875,
+      "hit_at_1": 0.5833333333333334,
+      "hit_at_3": 0.9166666666666666,
+      "hit_at_5": 0.9166666666666666,
+      "mrr": 0.75
+    }
+  },
+  "per_query": [
+    {
+      "question_id": 1,
+      "question": "Sinh viên cần CPA tối thiểu bao nhiêu để được xét tốt nghiệp?",
+      "category": "tot_nghiep",
+      "retrieval_mode": "weight_40_60",
+      "top_k": 5,
+      "reference_chunk_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+      ],
+      "retrieved_chunk_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_1",
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_3",
+        "quy_dinh_tot_nghiep_pdf_page_2_chunk_1",
+        "quy_dinh_tot_nghiep_pdf_page_2_chunk_2"
+      ],
+      "relevant_retrieved_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+      ],
+      "relevant_count": 1,
+      "precision_at_5": 0.2,
+      "recall_at_5": 1.0,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_details": [
+        {
+          "rank": 1,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 1,
+          "category": "tot_nghiep",
+          "distance": 0.38625866174697876,
+          "is_relevant": true,
+          "content_preview": "theo quy định của Chương trình đào tạo. Điểm trung bình tích lũy (CPA): Đạt điểm trung bình tích lũy toàn khóa học từ 2.00 / 4.00 trở lên. Chuẩn đầu ra Ngoại ngữ: Có chứng chỉ Ngoại ngữ đạt chuẩn đầu ra theo quy định của Nhà trường áp dụng cho từng k"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_1",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 1,
+          "category": "tot_nghiep",
+          "distance": 0.4604540467262268,
+          "is_relevant": false,
+          "content_preview": "TRƯỜNG ĐẠI HỌC VĂN HIẾN PHÒNG QUẢN LÝ ĐÀO TẠO Số: ..... /QĐ-ĐHVH-ĐẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc TP . Hồ Chí Minh, ngày ..... tháng ..... năm 2026 QUY ĐỊNH XÉT TỐT NGHIỆP ĐẠI HỌC CHÍNH QUY (Ban hành kèm theo Quyết đ"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_3",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 1,
+          "category": "tot_nghiep",
+          "distance": 0.4181720018386841,
+          "is_relevant": false,
+          "content_preview": "hồ sơ, tài sản đối với Nhà trường. ĐIỀU 2. PHÂN HẠNG TỐT NGHIỆP Hạng tốt nghiệp của sinh viên được xác định theo Điểm trung bình tích lũy (CPA) toàn khóa như sau: Hạng Tốt Nghiệp Thang Điểm 4 Thang Điểm 10 Xuất sắc 3.60 – 4.00 9.0 – 10.0 Giỏi 3.20 – "
+        },
+        {
+          "rank": 4,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_2_chunk_1",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 2,
+          "category": "tot_nghiep",
+          "distance": 0.5716162323951721,
+          "is_relevant": false,
+          "content_preview": "* LƯU Ý: Hạng tốt nghiệp của sinh viên có điểm trung bình tích lũy đạt loại Xuất sắc hoặc Giỏi sẽ bị giảm đi một hạng nếu thuộc một trong các trường hợp: Bị kỷ luật từ mức cảnh cáo trở lên trong toàn khóa học, hoặc số tín chỉ của các học phần phải họ"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_2_chunk_2",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 2,
+          "category": "tot_nghiep",
+          "distance": 0.6823697090148926,
+          "is_relevant": false,
+          "content_preview": "& Phụ lục bằng: Bằng tốt nghiệp đại học và Phụ lục văn bằng được cấp 01 lần chính thức sau khi có Quyết định công nhận tốt nghiệp của Hiệu trưởng. NƠI NHẬN - Các Khoa/Viện đào tạo; - Phòng Quản lý Đào tạo; - Sinh viên toàn trường; - Lưu: VT, P .QLĐT."
+        }
+      ]
+    },
+    {
+      "question_id": 2,
+      "question": "Sinh viên cần đáp ứng chuẩn ngoại ngữ nào để được xét tốt nghiệp?",
+      "category": "tot_nghiep",
+      "retrieval_mode": "weight_40_60",
+      "top_k": 5,
+      "reference_chunk_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+      ],
+      "retrieved_chunk_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+        "quy_dinh_tot_nghiep_pdf_page_2_chunk_1",
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_1",
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_3",
+        "quy_dinh_tot_nghiep_pdf_page_2_chunk_2"
+      ],
+      "relevant_retrieved_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+      ],
+      "relevant_count": 1,
+      "precision_at_5": 0.2,
+      "recall_at_5": 1.0,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_details": [
+        {
+          "rank": 1,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 1,
+          "category": "tot_nghiep",
+          "distance": 0.48979586362838745,
+          "is_relevant": true,
+          "content_preview": "theo quy định của Chương trình đào tạo. Điểm trung bình tích lũy (CPA): Đạt điểm trung bình tích lũy toàn khóa học từ 2.00 / 4.00 trở lên. Chuẩn đầu ra Ngoại ngữ: Có chứng chỉ Ngoại ngữ đạt chuẩn đầu ra theo quy định của Nhà trường áp dụng cho từng k"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_2_chunk_1",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 2,
+          "category": "tot_nghiep",
+          "distance": 0.554610013961792,
+          "is_relevant": false,
+          "content_preview": "* LƯU Ý: Hạng tốt nghiệp của sinh viên có điểm trung bình tích lũy đạt loại Xuất sắc hoặc Giỏi sẽ bị giảm đi một hạng nếu thuộc một trong các trường hợp: Bị kỷ luật từ mức cảnh cáo trở lên trong toàn khóa học, hoặc số tín chỉ của các học phần phải họ"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_1",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 1,
+          "category": "tot_nghiep",
+          "distance": 0.5796294212341309,
+          "is_relevant": false,
+          "content_preview": "TRƯỜNG ĐẠI HỌC VĂN HIẾN PHÒNG QUẢN LÝ ĐÀO TẠO Số: ..... /QĐ-ĐHVH-ĐẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc TP . Hồ Chí Minh, ngày ..... tháng ..... năm 2026 QUY ĐỊNH XÉT TỐT NGHIỆP ĐẠI HỌC CHÍNH QUY (Ban hành kèm theo Quyết đ"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_3",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 1,
+          "category": "tot_nghiep",
+          "distance": 0.6338517665863037,
+          "is_relevant": false,
+          "content_preview": "hồ sơ, tài sản đối với Nhà trường. ĐIỀU 2. PHÂN HẠNG TỐT NGHIỆP Hạng tốt nghiệp của sinh viên được xác định theo Điểm trung bình tích lũy (CPA) toàn khóa như sau: Hạng Tốt Nghiệp Thang Điểm 4 Thang Điểm 10 Xuất sắc 3.60 – 4.00 9.0 – 10.0 Giỏi 3.20 – "
+        },
+        {
+          "rank": 5,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_2_chunk_2",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 2,
+          "category": "tot_nghiep",
+          "distance": 0.6658045053482056,
+          "is_relevant": false,
+          "content_preview": "& Phụ lục bằng: Bằng tốt nghiệp đại học và Phụ lục văn bằng được cấp 01 lần chính thức sau khi có Quyết định công nhận tốt nghiệp của Hiệu trưởng. NƠI NHẬN - Các Khoa/Viện đào tạo; - Phòng Quản lý Đào tạo; - Sinh viên toàn trường; - Lưu: VT, P .QLĐT."
+        }
+      ]
+    },
+    {
+      "question_id": 3,
+      "question": "Khi nào hạng tốt nghiệp bị giảm một hạng?",
+      "category": "tot_nghiep",
+      "retrieval_mode": "weight_40_60",
+      "top_k": 5,
+      "reference_chunk_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_2_chunk_1"
+      ],
+      "retrieved_chunk_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_2_chunk_1",
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_3",
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_1",
+        "quy_dinh_tot_nghiep_pdf_page_2_chunk_2"
+      ],
+      "relevant_retrieved_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_2_chunk_1"
+      ],
+      "relevant_count": 1,
+      "precision_at_5": 0.2,
+      "recall_at_5": 1.0,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_details": [
+        {
+          "rank": 1,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_2_chunk_1",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 2,
+          "category": "tot_nghiep",
+          "distance": 0.4629666209220886,
+          "is_relevant": true,
+          "content_preview": "* LƯU Ý: Hạng tốt nghiệp của sinh viên có điểm trung bình tích lũy đạt loại Xuất sắc hoặc Giỏi sẽ bị giảm đi một hạng nếu thuộc một trong các trường hợp: Bị kỷ luật từ mức cảnh cáo trở lên trong toàn khóa học, hoặc số tín chỉ của các học phần phải họ"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_3",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 1,
+          "category": "tot_nghiep",
+          "distance": 0.5229471921920776,
+          "is_relevant": false,
+          "content_preview": "hồ sơ, tài sản đối với Nhà trường. ĐIỀU 2. PHÂN HẠNG TỐT NGHIỆP Hạng tốt nghiệp của sinh viên được xác định theo Điểm trung bình tích lũy (CPA) toàn khóa như sau: Hạng Tốt Nghiệp Thang Điểm 4 Thang Điểm 10 Xuất sắc 3.60 – 4.00 9.0 – 10.0 Giỏi 3.20 – "
+        },
+        {
+          "rank": 3,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 1,
+          "category": "tot_nghiep",
+          "distance": 0.589451789855957,
+          "is_relevant": false,
+          "content_preview": "theo quy định của Chương trình đào tạo. Điểm trung bình tích lũy (CPA): Đạt điểm trung bình tích lũy toàn khóa học từ 2.00 / 4.00 trở lên. Chuẩn đầu ra Ngoại ngữ: Có chứng chỉ Ngoại ngữ đạt chuẩn đầu ra theo quy định của Nhà trường áp dụng cho từng k"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_1",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 1,
+          "category": "tot_nghiep",
+          "distance": 0.6140791773796082,
+          "is_relevant": false,
+          "content_preview": "TRƯỜNG ĐẠI HỌC VĂN HIẾN PHÒNG QUẢN LÝ ĐÀO TẠO Số: ..... /QĐ-ĐHVH-ĐẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc TP . Hồ Chí Minh, ngày ..... tháng ..... năm 2026 QUY ĐỊNH XÉT TỐT NGHIỆP ĐẠI HỌC CHÍNH QUY (Ban hành kèm theo Quyết đ"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_2_chunk_2",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 2,
+          "category": "tot_nghiep",
+          "distance": 0.6412211656570435,
+          "is_relevant": false,
+          "content_preview": "& Phụ lục bằng: Bằng tốt nghiệp đại học và Phụ lục văn bằng được cấp 01 lần chính thức sau khi có Quyết định công nhận tốt nghiệp của Hiệu trưởng. NƠI NHẬN - Các Khoa/Viện đào tạo; - Phòng Quản lý Đào tạo; - Sinh viên toàn trường; - Lưu: VT, P .QLĐT."
+        }
+      ]
+    },
+    {
+      "question_id": 4,
+      "question": "Điều kiện xét học bổng của sinh viên là gì?",
+      "category": "hoc_bong",
+      "retrieval_mode": "weight_40_60",
+      "top_k": 5,
+      "reference_chunk_ids": [
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2"
+      ],
+      "retrieved_chunk_ids": [
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2",
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_1",
+        "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1",
+        "Chu_o_ng_tri_nh_ho_c_ta__p_suo__t_đo__i_da_nh_cho_Cu__u_sinh_vie_n_Va_n_Hie__n_pdf_page_1_chunk_2",
+        "Chu_o_ng_tri_nh_ho_c_ta__p_suo__t_đo__i_da_nh_cho_Cu__u_sinh_vie_n_Va_n_Hie__n_pdf_page_1_chunk_3"
+      ],
+      "relevant_retrieved_ids": [
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2"
+      ],
+      "relevant_count": 1,
+      "precision_at_5": 0.2,
+      "recall_at_5": 1.0,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_details": [
+        {
+          "rank": 1,
+          "chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2",
+          "source": "chinh_sach_hoc_bong_vhu.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.4813828468322754,
+          "is_relevant": true,
+          "content_preview": "Dành tặng cho các bạn học sinh lớp 12 xếp loại giỏi trở lên đăng ký xét trúng tuyển vào trường Đại học Văn Hiến và vượt qua vòng phỏng vấn trực tiếp do nhà trường tổ chức. 2. Học bổng Đồng hành cùng Hùng Hậu Dành cho các bạn sinh viên có người thân l"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_1",
+          "source": "chinh_sach_hoc_bong_vhu.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.5083824396133423,
+          "is_relevant": false,
+          "content_preview": "130 triệu đồng / suất 15% – 50% Học phí toàn khóa 2.000.000 – 4.000.000 VNĐ / suất 3.000.000 VNĐ / suất 2.000.000 VNĐ / suất Khen thưởng phong trào TRƯỜNG ĐẠI HỌC VĂN HIẾN CÁC CHÍNH SÁCH HỌC BỔNG HẤP DẪN Đồng hành và khuyến khích tinh thần học tập củ"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1",
+          "source": "thong_bao_hoc_bong_vhu_2025_2026.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.4822031259536743,
+          "is_relevant": false,
+          "content_preview": "Có phỏng vấn TRƯỜNG ĐẠI HỌC VĂN HIẾN TRUNG TÂM CHĂM SÓC NGƯỜI HỌC THÔNG BÁO TIẾP NHẬN HỒ SƠ XÉT HỌC BỔNG Năm học 2025 – 2026 Đơn vị tiếp nhận: Trung tâm Chăm sóc Người học - Trường Đại học Văn Hiến Thời gian tiếp nhận:Từ ngày ra thông báo đến ngày 24"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "Chu_o_ng_tri_nh_ho_c_ta__p_suo__t_đo__i_da_nh_cho_Cu__u_sinh_vie_n_Va_n_Hie__n_pdf_page_1_chunk_2",
+          "source": "Chương trình học tập suốt đời dành cho Cựu sinh viên Văn Hiến.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.6817823648452759,
+          "is_relevant": false,
+          "content_preview": "khóa khi theo học chương trình Thạc sĩ, đồng thời được đặt cách tham gia các sự kiện của trường tổ chức mà không cần vé vào cổng. Hình ảnh: Ông Trần Thanh Hương Tổng giám đốc Công ty CP Giáo dục Hùng Hậu – Phó chủ tịch HĐQT Trường Đại học Văn Hiến tr"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "Chu_o_ng_tri_nh_ho_c_ta__p_suo__t_đo__i_da_nh_cho_Cu__u_sinh_vie_n_Va_n_Hie__n_pdf_page_1_chunk_3",
+          "source": "Chương trình học tập suốt đời dành cho Cựu sinh viên Văn Hiến.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.6328612565994263,
+          "is_relevant": false,
+          "content_preview": "thân/bạn bè mang theo thẻ HEDUer - Học tập suốt đời khi đến đăng ký xét tuyển nhập học tại các hệ đào tạo của trường Đại học Văn Hiến từ Cao đẳng, Đại học, Liên thông, Văn bằng 2, Thạc sĩ, Tiến sĩ sẽ được áp dụng các chương trình ưu đãi học phí. 2. Q"
+        }
+      ]
+    },
+    {
+      "question_id": 5,
+      "question": "Sinh viên có thành tích học tập như thế nào thì được xét Học bổng Khuyến khích học tập?",
+      "category": "hoc_bong",
+      "retrieval_mode": "weight_40_60",
+      "top_k": 5,
+      "reference_chunk_ids": [
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2"
+      ],
+      "retrieved_chunk_ids": [
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2",
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_1",
+        "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1",
+        "chinh_sach_hoc_bong_vhu_pdf_page_2_chunk_1",
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_3"
+      ],
+      "relevant_retrieved_ids": [
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2"
+      ],
+      "relevant_count": 1,
+      "precision_at_5": 0.2,
+      "recall_at_5": 1.0,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_details": [
+        {
+          "rank": 1,
+          "chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2",
+          "source": "chinh_sach_hoc_bong_vhu.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.5447534322738647,
+          "is_relevant": true,
+          "content_preview": "Dành tặng cho các bạn học sinh lớp 12 xếp loại giỏi trở lên đăng ký xét trúng tuyển vào trường Đại học Văn Hiến và vượt qua vòng phỏng vấn trực tiếp do nhà trường tổ chức. 2. Học bổng Đồng hành cùng Hùng Hậu Dành cho các bạn sinh viên có người thân l"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_1",
+          "source": "chinh_sach_hoc_bong_vhu.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.5659348368644714,
+          "is_relevant": false,
+          "content_preview": "130 triệu đồng / suất 15% – 50% Học phí toàn khóa 2.000.000 – 4.000.000 VNĐ / suất 3.000.000 VNĐ / suất 2.000.000 VNĐ / suất Khen thưởng phong trào TRƯỜNG ĐẠI HỌC VĂN HIẾN CÁC CHÍNH SÁCH HỌC BỔNG HẤP DẪN Đồng hành và khuyến khích tinh thần học tập củ"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1",
+          "source": "thong_bao_hoc_bong_vhu_2025_2026.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.5827866792678833,
+          "is_relevant": false,
+          "content_preview": "Có phỏng vấn TRƯỜNG ĐẠI HỌC VĂN HIẾN TRUNG TÂM CHĂM SÓC NGƯỜI HỌC THÔNG BÁO TIẾP NHẬN HỒ SƠ XÉT HỌC BỔNG Năm học 2025 – 2026 Đơn vị tiếp nhận: Trung tâm Chăm sóc Người học - Trường Đại học Văn Hiến Thời gian tiếp nhận:Từ ngày ra thông báo đến ngày 24"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_2_chunk_1",
+          "source": "chinh_sach_hoc_bong_vhu.pdf",
+          "page": 2,
+          "category": "hoc_bong",
+          "distance": 0.666750431060791,
+          "is_relevant": false,
+          "content_preview": "🌟 Môi trường học tập năng động: Hơn 30 CLB, Đội, Nhóm đang chờ đón bạn trải nghiệm khi trở thành sinh viên Văn Hiến! Trường Đại học Văn Hiến - Chính Sách Học Bổng Trang 2 / 2"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_3",
+          "source": "chinh_sach_hoc_bong_vhu.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.6672986745834351,
+          "is_relevant": false,
+          "content_preview": "được thành lập theo ước nguyện cao cả của cố Giáo sư, Nhà giáo Nhân dân Hoàng Như Mai – một trong những người tham gia sáng lập và là Hiệu trưởng danh dự của trường Đại học Văn Hiến vào năm 1997. 6. Học bổng cán bộ Đoàn – Hội Dành cho các bạn sinh vi"
+        }
+      ]
+    },
+    {
+      "question_id": 6,
+      "question": "Học bổng Chắp cánh ước mơ dành cho đối tượng nào?",
+      "category": "hoc_bong",
+      "retrieval_mode": "weight_40_60",
+      "top_k": 5,
+      "reference_chunk_ids": [
+        "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1"
+      ],
+      "retrieved_chunk_ids": [
+        "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1",
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_1",
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2",
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_3",
+        "Chu_o_ng_tri_nh_ho_c_ta__p_suo__t_đo__i_da_nh_cho_Cu__u_sinh_vie_n_Va_n_Hie__n_pdf_page_2_chunk_1"
+      ],
+      "relevant_retrieved_ids": [
+        "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1"
+      ],
+      "relevant_count": 1,
+      "precision_at_5": 0.2,
+      "recall_at_5": 1.0,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_details": [
+        {
+          "rank": 1,
+          "chunk_id": "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1",
+          "source": "thong_bao_hoc_bong_vhu_2025_2026.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.4656310975551605,
+          "is_relevant": true,
+          "content_preview": "Có phỏng vấn TRƯỜNG ĐẠI HỌC VĂN HIẾN TRUNG TÂM CHĂM SÓC NGƯỜI HỌC THÔNG BÁO TIẾP NHẬN HỒ SƠ XÉT HỌC BỔNG Năm học 2025 – 2026 Đơn vị tiếp nhận: Trung tâm Chăm sóc Người học - Trường Đại học Văn Hiến Thời gian tiếp nhận:Từ ngày ra thông báo đến ngày 24"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_1",
+          "source": "chinh_sach_hoc_bong_vhu.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.5329134464263916,
+          "is_relevant": false,
+          "content_preview": "130 triệu đồng / suất 15% – 50% Học phí toàn khóa 2.000.000 – 4.000.000 VNĐ / suất 3.000.000 VNĐ / suất 2.000.000 VNĐ / suất Khen thưởng phong trào TRƯỜNG ĐẠI HỌC VĂN HIẾN CÁC CHÍNH SÁCH HỌC BỔNG HẤP DẪN Đồng hành và khuyến khích tinh thần học tập củ"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2",
+          "source": "chinh_sach_hoc_bong_vhu.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.6407483220100403,
+          "is_relevant": false,
+          "content_preview": "Dành tặng cho các bạn học sinh lớp 12 xếp loại giỏi trở lên đăng ký xét trúng tuyển vào trường Đại học Văn Hiến và vượt qua vòng phỏng vấn trực tiếp do nhà trường tổ chức. 2. Học bổng Đồng hành cùng Hùng Hậu Dành cho các bạn sinh viên có người thân l"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_3",
+          "source": "chinh_sach_hoc_bong_vhu.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.6593538522720337,
+          "is_relevant": false,
+          "content_preview": "được thành lập theo ước nguyện cao cả của cố Giáo sư, Nhà giáo Nhân dân Hoàng Như Mai – một trong những người tham gia sáng lập và là Hiệu trưởng danh dự của trường Đại học Văn Hiến vào năm 1997. 6. Học bổng cán bộ Đoàn – Hội Dành cho các bạn sinh vi"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "Chu_o_ng_tri_nh_ho_c_ta__p_suo__t_đo__i_da_nh_cho_Cu__u_sinh_vie_n_Va_n_Hie__n_pdf_page_2_chunk_1",
+          "source": "Chương trình học tập suốt đời dành cho Cựu sinh viên Văn Hiến.pdf",
+          "page": 2,
+          "category": "hoc_bong",
+          "distance": 0.6848294734954834,
+          "is_relevant": false,
+          "content_preview": "⦁ Được tham dự tất cả các sự kiện diễn ra tại trường Đại học Văn Hiến mà không cần vé vào cổng; ⦁ Được cập nhật, bổ sung và thụ hưởng quyền lợi phù hợp với các chương trình ưu đãi dành cho thẻ tại thời điểm thực hiện giao dịch; ⦁ Được hưởng các quyền"
+        }
+      ]
+    },
+    {
+      "question_id": 7,
+      "question": "Khi nào sinh viên bị cảnh báo học vụ?",
+      "category": "hoc_vu",
+      "retrieval_mode": "weight_40_60",
+      "top_k": 5,
+      "reference_chunk_ids": [
+        "canh_bao_hoc_vu_pdf_page_1_chunk_2"
+      ],
+      "retrieved_chunk_ids": [
+        "canh_bao_hoc_vu_pdf_page_2_chunk_1",
+        "canh_bao_hoc_vu_pdf_page_1_chunk_2",
+        "canh_bao_hoc_vu_pdf_page_1_chunk_1",
+        "canh_bao_hoc_vu_pdf_page_2_chunk_2"
+      ],
+      "relevant_retrieved_ids": [
+        "canh_bao_hoc_vu_pdf_page_1_chunk_2"
+      ],
+      "relevant_count": 1,
+      "precision_at_5": 0.25,
+      "recall_at_5": 1.0,
+      "hit_at_1": 0.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "first_relevant_rank": 2,
+      "reciprocal_rank": 0.5,
+      "retrieved_details": [
+        {
+          "rank": 1,
+          "chunk_id": "canh_bao_hoc_vu_pdf_page_2_chunk_1",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 2,
+          "category": "hoc_vu",
+          "distance": 0.36767950654029846,
+          "is_relevant": false,
+          "content_preview": "⚠️ HƯỚNG DẪN XỬ LÝ VÀ NGHĨA VỤ CỦA SINH VIÊN Đăng ký tư vấn học vụ: Sinh viên phải liên hệ Cố vấn học tập (Giảng viên chủ nhiệm) hoặc Trung tâm Chăm sóc Người học để lập kế hoạch cải thiện kết quả học tập trước ngày 15/05/2026. Giới hạn số tín chỉ đă"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "canh_bao_hoc_vu_pdf_page_1_chunk_2",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 1,
+          "category": "hoc_vu",
+          "distance": 0.4217117428779602,
+          "is_relevant": true,
+          "content_preview": "học: .................................. Căn cứ Quy chế Đào tạo đại học chính quy hiện hành của Trường Đại học Văn Hiến; Căn cứ kết quả học tập và rèn luyện của sinh viên tính đến hết Học kỳ I - Năm học 2025 - 2026; Phòng Quản lý Đào tạo trân trọng th"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "canh_bao_hoc_vu_pdf_page_1_chunk_1",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 1,
+          "category": "hoc_vu",
+          "distance": 0.46319305896759033,
+          "is_relevant": false,
+          "content_preview": "TRƯỜNG ĐẠI HỌC VĂN HIẾN PHÒNG QUẢN LÝ ĐÀO TẠO Số: ..... /TB-ĐHVH-ĐẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc TP . Hồ Chí Minh, ngày ..... tháng ..... năm 2026 THÔNG BÁO CẢNH BÁO HỌC VỤ V/v Cảnh báo kết quả học tập không đạt yêu"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "canh_bao_hoc_vu_pdf_page_2_chunk_2",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 2,
+          "category": "hoc_vu",
+          "distance": 0.649712860584259,
+          "is_relevant": false,
+          "content_preview": "học tập (để phối hợp); - Lưu: VT, P .QLĐT. TL. HIỆU TRƯỞNG TRƯỞNG PHÒNG QUẢN LÝ ĐÀO TẠO (Ký, ghi rõ họ tên và đóng dấu) PGS. TS. NGUYỄN VĂN A • • • • Trang 2 / 2"
+        }
+      ]
+    },
+    {
+      "question_id": 8,
+      "question": "Sinh viên bị cảnh báo học vụ có bị giới hạn tín chỉ không?",
+      "category": "hoc_vu",
+      "retrieval_mode": "weight_40_60",
+      "top_k": 5,
+      "reference_chunk_ids": [
+        "canh_bao_hoc_vu_pdf_page_2_chunk_1"
+      ],
+      "retrieved_chunk_ids": [
+        "canh_bao_hoc_vu_pdf_page_2_chunk_1",
+        "canh_bao_hoc_vu_pdf_page_1_chunk_2",
+        "canh_bao_hoc_vu_pdf_page_1_chunk_1",
+        "canh_bao_hoc_vu_pdf_page_2_chunk_2"
+      ],
+      "relevant_retrieved_ids": [
+        "canh_bao_hoc_vu_pdf_page_2_chunk_1"
+      ],
+      "relevant_count": 1,
+      "precision_at_5": 0.25,
+      "recall_at_5": 1.0,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_details": [
+        {
+          "rank": 1,
+          "chunk_id": "canh_bao_hoc_vu_pdf_page_2_chunk_1",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 2,
+          "category": "hoc_vu",
+          "distance": 0.3781225383281708,
+          "is_relevant": true,
+          "content_preview": "⚠️ HƯỚNG DẪN XỬ LÝ VÀ NGHĨA VỤ CỦA SINH VIÊN Đăng ký tư vấn học vụ: Sinh viên phải liên hệ Cố vấn học tập (Giảng viên chủ nhiệm) hoặc Trung tâm Chăm sóc Người học để lập kế hoạch cải thiện kết quả học tập trước ngày 15/05/2026. Giới hạn số tín chỉ đă"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "canh_bao_hoc_vu_pdf_page_1_chunk_2",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 1,
+          "category": "hoc_vu",
+          "distance": 0.48224443197250366,
+          "is_relevant": false,
+          "content_preview": "học: .................................. Căn cứ Quy chế Đào tạo đại học chính quy hiện hành của Trường Đại học Văn Hiến; Căn cứ kết quả học tập và rèn luyện của sinh viên tính đến hết Học kỳ I - Năm học 2025 - 2026; Phòng Quản lý Đào tạo trân trọng th"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "canh_bao_hoc_vu_pdf_page_1_chunk_1",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 1,
+          "category": "hoc_vu",
+          "distance": 0.5393875241279602,
+          "is_relevant": false,
+          "content_preview": "TRƯỜNG ĐẠI HỌC VĂN HIẾN PHÒNG QUẢN LÝ ĐÀO TẠO Số: ..... /TB-ĐHVH-ĐẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc TP . Hồ Chí Minh, ngày ..... tháng ..... năm 2026 THÔNG BÁO CẢNH BÁO HỌC VỤ V/v Cảnh báo kết quả học tập không đạt yêu"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "canh_bao_hoc_vu_pdf_page_2_chunk_2",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 2,
+          "category": "hoc_vu",
+          "distance": 0.6917862296104431,
+          "is_relevant": false,
+          "content_preview": "học tập (để phối hợp); - Lưu: VT, P .QLĐT. TL. HIỆU TRƯỞNG TRƯỞNG PHÒNG QUẢN LÝ ĐÀO TẠO (Ký, ghi rõ họ tên và đóng dấu) PGS. TS. NGUYỄN VĂN A • • • • Trang 2 / 2"
+        }
+      ]
+    },
+    {
+      "question_id": 9,
+      "question": "Chương trình đào tạo quy định số tín chỉ như thế nào?",
+      "category": "dao_tao",
+      "retrieval_mode": "weight_40_60",
+      "top_k": 5,
+      "reference_chunk_ids": [
+        "979_2022_pdf_page_4_chunk_4"
+      ],
+      "retrieved_chunk_ids": [
+        "979_2022_pdf_page_2_chunk_3",
+        "979_2022_pdf_page_4_chunk_4",
+        "979_2022_pdf_page_2_chunk_1",
+        "1132MYH24_02_pdf_page_2_chunk_2",
+        "1132MYH24_02_pdf_page_2_chunk_3"
+      ],
+      "relevant_retrieved_ids": [
+        "979_2022_pdf_page_4_chunk_4"
+      ],
+      "relevant_count": 1,
+      "precision_at_5": 0.2,
+      "recall_at_5": 1.0,
+      "hit_at_1": 0.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "first_relevant_rank": 2,
+      "reciprocal_rank": 0.5,
+      "retrieved_details": [
+        {
+          "rank": 1,
+          "chunk_id": "979_2022_pdf_page_2_chunk_3",
+          "source": "979.2022.pdf",
+          "page": 2,
+          "category": "dao_tao",
+          "distance": 0.40107062458992004,
+          "is_relevant": false,
+          "content_preview": "căn cứ để Trường xây dựng và ban hành các văn bản liên quan đến tổ chức và quản lý đào tạo trình độ đại học theo phương thức tín chỉ. Điều 2. Chương trình đào tạo và thời gian học tập 1. Chương trình đào tạo được xây dựng theo đơn vị tín chỉ, cấu trú"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "979_2022_pdf_page_4_chunk_4",
+          "source": "979.2022.pdf",
+          "page": 4,
+          "category": "dao_tao",
+          "distance": 0.44207999110221863,
+          "is_relevant": true,
+          "content_preview": "thí nghiệm, thực hành, thực tập phục vụ học phần và hướng dẫn sinh viên tự học. Đề cương chi tiết học phần được phê duyệt và công bố cùng với chương trình, đồng thời đăng tải trên website của khoa/trường. Nội dung đề cương chi tiết được giảng viên th"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "979_2022_pdf_page_2_chunk_1",
+          "source": "979.2022.pdf",
+          "page": 2,
+          "category": "dao_tao",
+          "distance": 0.5288417935371399,
+          "is_relevant": false,
+          "content_preview": "1 BỘ GIÁO DỤC VÀ ĐÀO TẠO CỘNG HÒA XÃ HỘI VÀ CHỦ NGHĨA VIỆT NAM TRƯỜNG ĐẠI HỌC VĂN HIẾN Độc lập - Tự do - Hạnh phúc QUY CHẾ Đào tạo trình độ đại học theo phương thức tín chỉ của Trường Đại học Văn Hiến (Ban hành kèm theo Quyết định số 979/2022/VHU/QĐ "
+        },
+        {
+          "rank": 4,
+          "chunk_id": "1132MYH24_02_pdf_page_2_chunk_2",
+          "source": "1132MYH24_02.pdf",
+          "page": 2,
+          "category": "dao_tao",
+          "distance": 0.5212623476982117,
+          "is_relevant": false,
+          "content_preview": "từ một cơ sở đào tạo khác trong nước hoặc ngoài nước . Hình thức là chuyển đổi tín chỉ tương đương những học phần trong chương trình đào tạo trình độ đại học cho sinh viên liên thông tại Trường Đại học Văn Hiến (sau đây gọi tắt là Trường). 2. Quy địn"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "1132MYH24_02_pdf_page_2_chunk_3",
+          "source": "1132MYH24_02.pdf",
+          "page": 2,
+          "category": "dao_tao",
+          "distance": 0.468644917011261,
+          "is_relevant": false,
+          "content_preview": "được công nhận, chuyển đổi so với khối lượng học tập của CTĐT đang theo học tại Trường thực hiện theo quy chế đào tạo hiện hành. 4. Quy đổi khối lượng học tập: mô đun, đơn vị học trình (ĐVHT) và tín chỉ. Stt Đơn vị tính Quy đổi số tín chỉ Ghi chú 1. "
+        }
+      ]
+    },
+    {
+      "question_id": 10,
+      "question": "Sinh viên cần hoàn thành những học phần nào trong chương trình đào tạo?",
+      "category": "dao_tao",
+      "retrieval_mode": "weight_40_60",
+      "top_k": 5,
+      "reference_chunk_ids": [
+        "CTDT_KhoaHocMayTinh_2020_pdf_page_4_chunk_1"
+      ],
+      "retrieved_chunk_ids": [
+        "CTDT_KhoaHocMayTinh_2020_pdf_page_4_chunk_1",
+        "CTDT_KhoaHocMayTinh_2020_pdf_page_1_chunk_3",
+        "979_2022_pdf_page_4_chunk_3",
+        "CTDT_TiengTrungBienPhienDich_2020_pdf_page_1_chunk_3",
+        "Khung_Chuong_trinh_dao_tao_ThS_CNTT_pdf_page_2_chunk_1"
+      ],
+      "relevant_retrieved_ids": [
+        "CTDT_KhoaHocMayTinh_2020_pdf_page_4_chunk_1"
+      ],
+      "relevant_count": 1,
+      "precision_at_5": 0.2,
+      "recall_at_5": 1.0,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_details": [
+        {
+          "rank": 1,
+          "chunk_id": "CTDT_KhoaHocMayTinh_2020_pdf_page_4_chunk_1",
+          "source": "CTDT_KhoaHocMayTinh 2020.pdf",
+          "page": 4,
+          "category": "dao_tao",
+          "distance": 0.4419839382171631,
+          "is_relevant": true,
+          "content_preview": "Tổng LT TH/ TN TT ĐA MH KL TN STT Mã HP Tên học phần Số tín chỉ Mã HP học trước 17 0 0 5 0 12 1 INT520 Thực tập tốt nghiệp Công nghệ phần mềm 5 5 2 INT521 Đồ án tốt nghiệp Công nghệ phần mềm 12 12 1 INT522 Thực tập tốt nghiệp Hệ thống thông tin 5 5 2"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "CTDT_KhoaHocMayTinh_2020_pdf_page_1_chunk_3",
+          "source": "CTDT_KhoaHocMayTinh 2020.pdf",
+          "page": 1,
+          "category": "dao_tao",
+          "distance": 0.4489516317844391,
+          "is_relevant": false,
+          "content_preview": "về khoa học tự nhiên, môi trường I.4. Các học phần về kinh tế, quản lý và quản trị đại cương I.5. Các học phần về khoa học xã hội, nhân văn và đa văn hóa I.6. Các học phần về tố chất cá nhân chung Phần tự chọn 3 3 3 I. GIÁO DỤC ĐẠI CƯƠNG NỘI DUNG CHƯ"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "979_2022_pdf_page_4_chunk_3",
+          "source": "979.2022.pdf",
+          "page": 4,
+          "category": "dao_tao",
+          "distance": 0.49007341265678406,
+          "is_relevant": false,
+          "content_preview": "viên phải đạt mới được đăng ký học phần tiếp theo. - Học phần học trước: là học phần mà sinh viên hoàn thành quá trình học tập (không cần phải đạt học phần) trước khi đăng ký học phần tiếp theo. - Học phần song hành: hai học phần được gọi là song hàn"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "CTDT_TiengTrungBienPhienDich_2020_pdf_page_1_chunk_3",
+          "source": "CTDT_TiengTrungBienPhienDich 2020.pdf",
+          "page": 1,
+          "category": "dao_tao",
+          "distance": 0.4634197950363159,
+          "is_relevant": false,
+          "content_preview": "luật I.2. Các học phần về ứng dụng CNTT và sử dụng ngoại ngữ I.3. Các học phần về khoa học tự nhiên, môi trường I.4. Các học phần về kinh tế, quản lý và quản trị đại cương I.5. Các học phần về khoa học xã hội, nhân văn và đa văn hóa NỘI DUNG CHƯƠNG T"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "Khung_Chuong_trinh_dao_tao_ThS_CNTT_pdf_page_2_chunk_1",
+          "source": "Khung Chuong trinh dao tao ThS-CNTT.pdf",
+          "page": 2,
+          "category": "dao_tao",
+          "distance": 0.46587619185447693,
+          "is_relevant": false,
+          "content_preview": "2 Stt Mã học phần Tên học phần Khối lượng tín chỉ Số tín chỉ LT TH/ TT Phần thực tập tốt nghiệp 5 0 5 1 INT741 Thực tập chuyên đề (Internship) (*) 2 0 2 2 INT742 Thực tập tốt nghiệp (Graduation internship) (**) 3 0 3 Học phần tốt nghiệp 9 0 9 1 "
+        }
+      ]
+    },
+    {
+      "question_id": 11,
+      "question": "Sinh viên cần đáp ứng yêu cầu gì về tín chỉ để được xét tốt nghiệp?",
+      "category": "tot_nghiep",
+      "retrieval_mode": "weight_40_60",
+      "top_k": 5,
+      "reference_chunk_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_1"
+      ],
+      "retrieved_chunk_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_1",
+        "quy_dinh_tot_nghiep_pdf_page_2_chunk_1",
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_3",
+        "quy_dinh_tot_nghiep_pdf_page_2_chunk_2"
+      ],
+      "relevant_retrieved_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_1"
+      ],
+      "relevant_count": 1,
+      "precision_at_5": 0.2,
+      "recall_at_5": 1.0,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_details": [
+        {
+          "rank": 1,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_1",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 1,
+          "category": "tot_nghiep",
+          "distance": 0.5024157762527466,
+          "is_relevant": true,
+          "content_preview": "TRƯỜNG ĐẠI HỌC VĂN HIẾN PHÒNG QUẢN LÝ ĐÀO TẠO Số: ..... /QĐ-ĐHVH-ĐẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc TP . Hồ Chí Minh, ngày ..... tháng ..... năm 2026 QUY ĐỊNH XÉT TỐT NGHIỆP ĐẠI HỌC CHÍNH QUY (Ban hành kèm theo Quyết đ"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_2_chunk_1",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 2,
+          "category": "tot_nghiep",
+          "distance": 0.5121474862098694,
+          "is_relevant": false,
+          "content_preview": "* LƯU Ý: Hạng tốt nghiệp của sinh viên có điểm trung bình tích lũy đạt loại Xuất sắc hoặc Giỏi sẽ bị giảm đi một hạng nếu thuộc một trong các trường hợp: Bị kỷ luật từ mức cảnh cáo trở lên trong toàn khóa học, hoặc số tín chỉ của các học phần phải họ"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 1,
+          "category": "tot_nghiep",
+          "distance": 0.5258139371871948,
+          "is_relevant": false,
+          "content_preview": "theo quy định của Chương trình đào tạo. Điểm trung bình tích lũy (CPA): Đạt điểm trung bình tích lũy toàn khóa học từ 2.00 / 4.00 trở lên. Chuẩn đầu ra Ngoại ngữ: Có chứng chỉ Ngoại ngữ đạt chuẩn đầu ra theo quy định của Nhà trường áp dụng cho từng k"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_3",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 1,
+          "category": "tot_nghiep",
+          "distance": 0.610846757888794,
+          "is_relevant": false,
+          "content_preview": "hồ sơ, tài sản đối với Nhà trường. ĐIỀU 2. PHÂN HẠNG TỐT NGHIỆP Hạng tốt nghiệp của sinh viên được xác định theo Điểm trung bình tích lũy (CPA) toàn khóa như sau: Hạng Tốt Nghiệp Thang Điểm 4 Thang Điểm 10 Xuất sắc 3.60 – 4.00 9.0 – 10.0 Giỏi 3.20 – "
+        },
+        {
+          "rank": 5,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_2_chunk_2",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 2,
+          "category": "tot_nghiep",
+          "distance": 0.6618852615356445,
+          "is_relevant": false,
+          "content_preview": "& Phụ lục bằng: Bằng tốt nghiệp đại học và Phụ lục văn bằng được cấp 01 lần chính thức sau khi có Quyết định công nhận tốt nghiệp của Hiệu trưởng. NƠI NHẬN - Các Khoa/Viện đào tạo; - Phòng Quản lý Đào tạo; - Sinh viên toàn trường; - Lưu: VT, P .QLĐT."
+        }
+      ]
+    },
+    {
+      "question_id": 12,
+      "question": "Điểm trung bình tích lũy tối thiểu để sinh viên đủ điều kiện tốt nghiệp là bao nhiêu?",
+      "category": "tot_nghiep",
+      "retrieval_mode": "weight_40_60",
+      "top_k": 5,
+      "reference_chunk_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+      ],
+      "retrieved_chunk_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_1",
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_3",
+        "quy_dinh_tot_nghiep_pdf_page_2_chunk_1",
+        "quy_dinh_tot_nghiep_pdf_page_2_chunk_2"
+      ],
+      "relevant_retrieved_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+      ],
+      "relevant_count": 1,
+      "precision_at_5": 0.2,
+      "recall_at_5": 1.0,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_details": [
+        {
+          "rank": 1,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 1,
+          "category": "tot_nghiep",
+          "distance": 0.45214173197746277,
+          "is_relevant": true,
+          "content_preview": "theo quy định của Chương trình đào tạo. Điểm trung bình tích lũy (CPA): Đạt điểm trung bình tích lũy toàn khóa học từ 2.00 / 4.00 trở lên. Chuẩn đầu ra Ngoại ngữ: Có chứng chỉ Ngoại ngữ đạt chuẩn đầu ra theo quy định của Nhà trường áp dụng cho từng k"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_1",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 1,
+          "category": "tot_nghiep",
+          "distance": 0.5055879354476929,
+          "is_relevant": false,
+          "content_preview": "TRƯỜNG ĐẠI HỌC VĂN HIẾN PHÒNG QUẢN LÝ ĐÀO TẠO Số: ..... /QĐ-ĐHVH-ĐẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc TP . Hồ Chí Minh, ngày ..... tháng ..... năm 2026 QUY ĐỊNH XÉT TỐT NGHIỆP ĐẠI HỌC CHÍNH QUY (Ban hành kèm theo Quyết đ"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_3",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 1,
+          "category": "tot_nghiep",
+          "distance": 0.4966244101524353,
+          "is_relevant": false,
+          "content_preview": "hồ sơ, tài sản đối với Nhà trường. ĐIỀU 2. PHÂN HẠNG TỐT NGHIỆP Hạng tốt nghiệp của sinh viên được xác định theo Điểm trung bình tích lũy (CPA) toàn khóa như sau: Hạng Tốt Nghiệp Thang Điểm 4 Thang Điểm 10 Xuất sắc 3.60 – 4.00 9.0 – 10.0 Giỏi 3.20 – "
+        },
+        {
+          "rank": 4,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_2_chunk_1",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 2,
+          "category": "tot_nghiep",
+          "distance": 0.5432432293891907,
+          "is_relevant": false,
+          "content_preview": "* LƯU Ý: Hạng tốt nghiệp của sinh viên có điểm trung bình tích lũy đạt loại Xuất sắc hoặc Giỏi sẽ bị giảm đi một hạng nếu thuộc một trong các trường hợp: Bị kỷ luật từ mức cảnh cáo trở lên trong toàn khóa học, hoặc số tín chỉ của các học phần phải họ"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_2_chunk_2",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 2,
+          "category": "tot_nghiep",
+          "distance": 0.6867082118988037,
+          "is_relevant": false,
+          "content_preview": "& Phụ lục bằng: Bằng tốt nghiệp đại học và Phụ lục văn bằng được cấp 01 lần chính thức sau khi có Quyết định công nhận tốt nghiệp của Hiệu trưởng. NƠI NHẬN - Các Khoa/Viện đào tạo; - Phòng Quản lý Đào tạo; - Sinh viên toàn trường; - Lưu: VT, P .QLĐT."
+        }
+      ]
+    },
+    {
+      "question_id": 13,
+      "question": "Sinh viên chưa đạt chuẩn ngoại ngữ có được xét tốt nghiệp không?",
+      "category": "tot_nghiep",
+      "retrieval_mode": "weight_40_60",
+      "top_k": 5,
+      "reference_chunk_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+      ],
+      "retrieved_chunk_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+        "quy_dinh_tot_nghiep_pdf_page_2_chunk_1",
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_1",
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_3",
+        "quy_dinh_tot_nghiep_pdf_page_2_chunk_2"
+      ],
+      "relevant_retrieved_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+      ],
+      "relevant_count": 1,
+      "precision_at_5": 0.2,
+      "recall_at_5": 1.0,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_details": [
+        {
+          "rank": 1,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 1,
+          "category": "tot_nghiep",
+          "distance": 0.5042992234230042,
+          "is_relevant": true,
+          "content_preview": "theo quy định của Chương trình đào tạo. Điểm trung bình tích lũy (CPA): Đạt điểm trung bình tích lũy toàn khóa học từ 2.00 / 4.00 trở lên. Chuẩn đầu ra Ngoại ngữ: Có chứng chỉ Ngoại ngữ đạt chuẩn đầu ra theo quy định của Nhà trường áp dụng cho từng k"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_2_chunk_1",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 2,
+          "category": "tot_nghiep",
+          "distance": 0.5198057889938354,
+          "is_relevant": false,
+          "content_preview": "* LƯU Ý: Hạng tốt nghiệp của sinh viên có điểm trung bình tích lũy đạt loại Xuất sắc hoặc Giỏi sẽ bị giảm đi một hạng nếu thuộc một trong các trường hợp: Bị kỷ luật từ mức cảnh cáo trở lên trong toàn khóa học, hoặc số tín chỉ của các học phần phải họ"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_1",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 1,
+          "category": "tot_nghiep",
+          "distance": 0.5648696422576904,
+          "is_relevant": false,
+          "content_preview": "TRƯỜNG ĐẠI HỌC VĂN HIẾN PHÒNG QUẢN LÝ ĐÀO TẠO Số: ..... /QĐ-ĐHVH-ĐẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc TP . Hồ Chí Minh, ngày ..... tháng ..... năm 2026 QUY ĐỊNH XÉT TỐT NGHIỆP ĐẠI HỌC CHÍNH QUY (Ban hành kèm theo Quyết đ"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_3",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 1,
+          "category": "tot_nghiep",
+          "distance": 0.6310873031616211,
+          "is_relevant": false,
+          "content_preview": "hồ sơ, tài sản đối với Nhà trường. ĐIỀU 2. PHÂN HẠNG TỐT NGHIỆP Hạng tốt nghiệp của sinh viên được xác định theo Điểm trung bình tích lũy (CPA) toàn khóa như sau: Hạng Tốt Nghiệp Thang Điểm 4 Thang Điểm 10 Xuất sắc 3.60 – 4.00 9.0 – 10.0 Giỏi 3.20 – "
+        },
+        {
+          "rank": 5,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_2_chunk_2",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 2,
+          "category": "tot_nghiep",
+          "distance": 0.6351760625839233,
+          "is_relevant": false,
+          "content_preview": "& Phụ lục bằng: Bằng tốt nghiệp đại học và Phụ lục văn bằng được cấp 01 lần chính thức sau khi có Quyết định công nhận tốt nghiệp của Hiệu trưởng. NƠI NHẬN - Các Khoa/Viện đào tạo; - Phòng Quản lý Đào tạo; - Sinh viên toàn trường; - Lưu: VT, P .QLĐT."
+        }
+      ]
+    },
+    {
+      "question_id": 14,
+      "question": "Sinh viên cần đáp ứng điều kiện gì về tin học để được công nhận tốt nghiệp?",
+      "category": "tot_nghiep",
+      "retrieval_mode": "weight_40_60",
+      "top_k": 5,
+      "reference_chunk_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+      ],
+      "retrieved_chunk_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+        "quy_dinh_tot_nghiep_pdf_page_2_chunk_1",
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_1",
+        "quy_dinh_tot_nghiep_pdf_page_2_chunk_2",
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_3"
+      ],
+      "relevant_retrieved_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+      ],
+      "relevant_count": 1,
+      "precision_at_5": 0.2,
+      "recall_at_5": 1.0,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_details": [
+        {
+          "rank": 1,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 1,
+          "category": "tot_nghiep",
+          "distance": 0.5107246041297913,
+          "is_relevant": true,
+          "content_preview": "theo quy định của Chương trình đào tạo. Điểm trung bình tích lũy (CPA): Đạt điểm trung bình tích lũy toàn khóa học từ 2.00 / 4.00 trở lên. Chuẩn đầu ra Ngoại ngữ: Có chứng chỉ Ngoại ngữ đạt chuẩn đầu ra theo quy định của Nhà trường áp dụng cho từng k"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_2_chunk_1",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 2,
+          "category": "tot_nghiep",
+          "distance": 0.5717311501502991,
+          "is_relevant": false,
+          "content_preview": "* LƯU Ý: Hạng tốt nghiệp của sinh viên có điểm trung bình tích lũy đạt loại Xuất sắc hoặc Giỏi sẽ bị giảm đi một hạng nếu thuộc một trong các trường hợp: Bị kỷ luật từ mức cảnh cáo trở lên trong toàn khóa học, hoặc số tín chỉ của các học phần phải họ"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_1",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 1,
+          "category": "tot_nghiep",
+          "distance": 0.5967972874641418,
+          "is_relevant": false,
+          "content_preview": "TRƯỜNG ĐẠI HỌC VĂN HIẾN PHÒNG QUẢN LÝ ĐÀO TẠO Số: ..... /QĐ-ĐHVH-ĐẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc TP . Hồ Chí Minh, ngày ..... tháng ..... năm 2026 QUY ĐỊNH XÉT TỐT NGHIỆP ĐẠI HỌC CHÍNH QUY (Ban hành kèm theo Quyết đ"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_2_chunk_2",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 2,
+          "category": "tot_nghiep",
+          "distance": 0.6364650130271912,
+          "is_relevant": false,
+          "content_preview": "& Phụ lục bằng: Bằng tốt nghiệp đại học và Phụ lục văn bằng được cấp 01 lần chính thức sau khi có Quyết định công nhận tốt nghiệp của Hiệu trưởng. NƠI NHẬN - Các Khoa/Viện đào tạo; - Phòng Quản lý Đào tạo; - Sinh viên toàn trường; - Lưu: VT, P .QLĐT."
+        },
+        {
+          "rank": 5,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_3",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 1,
+          "category": "tot_nghiep",
+          "distance": 0.6422790884971619,
+          "is_relevant": false,
+          "content_preview": "hồ sơ, tài sản đối với Nhà trường. ĐIỀU 2. PHÂN HẠNG TỐT NGHIỆP Hạng tốt nghiệp của sinh viên được xác định theo Điểm trung bình tích lũy (CPA) toàn khóa như sau: Hạng Tốt Nghiệp Thang Điểm 4 Thang Điểm 10 Xuất sắc 3.60 – 4.00 9.0 – 10.0 Giỏi 3.20 – "
+        }
+      ]
+    },
+    {
+      "question_id": 15,
+      "question": "Sinh viên chưa hoàn thành Giáo dục Quốc phòng - An ninh có được xét tốt nghiệp không?",
+      "category": "tot_nghiep",
+      "retrieval_mode": "weight_40_60",
+      "top_k": 5,
+      "reference_chunk_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+      ],
+      "retrieved_chunk_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+        "quy_dinh_tot_nghiep_pdf_page_2_chunk_1",
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_1",
+        "quy_dinh_tot_nghiep_pdf_page_2_chunk_2",
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_3"
+      ],
+      "relevant_retrieved_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+      ],
+      "relevant_count": 1,
+      "precision_at_5": 0.2,
+      "recall_at_5": 1.0,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_details": [
+        {
+          "rank": 1,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 1,
+          "category": "tot_nghiep",
+          "distance": 0.5445480346679688,
+          "is_relevant": true,
+          "content_preview": "theo quy định của Chương trình đào tạo. Điểm trung bình tích lũy (CPA): Đạt điểm trung bình tích lũy toàn khóa học từ 2.00 / 4.00 trở lên. Chuẩn đầu ra Ngoại ngữ: Có chứng chỉ Ngoại ngữ đạt chuẩn đầu ra theo quy định của Nhà trường áp dụng cho từng k"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_2_chunk_1",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 2,
+          "category": "tot_nghiep",
+          "distance": 0.6085014343261719,
+          "is_relevant": false,
+          "content_preview": "* LƯU Ý: Hạng tốt nghiệp của sinh viên có điểm trung bình tích lũy đạt loại Xuất sắc hoặc Giỏi sẽ bị giảm đi một hạng nếu thuộc một trong các trường hợp: Bị kỷ luật từ mức cảnh cáo trở lên trong toàn khóa học, hoặc số tín chỉ của các học phần phải họ"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_1",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 1,
+          "category": "tot_nghiep",
+          "distance": 0.6416668891906738,
+          "is_relevant": false,
+          "content_preview": "TRƯỜNG ĐẠI HỌC VĂN HIẾN PHÒNG QUẢN LÝ ĐÀO TẠO Số: ..... /QĐ-ĐHVH-ĐẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc TP . Hồ Chí Minh, ngày ..... tháng ..... năm 2026 QUY ĐỊNH XÉT TỐT NGHIỆP ĐẠI HỌC CHÍNH QUY (Ban hành kèm theo Quyết đ"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_2_chunk_2",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 2,
+          "category": "tot_nghiep",
+          "distance": 0.6857103109359741,
+          "is_relevant": false,
+          "content_preview": "& Phụ lục bằng: Bằng tốt nghiệp đại học và Phụ lục văn bằng được cấp 01 lần chính thức sau khi có Quyết định công nhận tốt nghiệp của Hiệu trưởng. NƠI NHẬN - Các Khoa/Viện đào tạo; - Phòng Quản lý Đào tạo; - Sinh viên toàn trường; - Lưu: VT, P .QLĐT."
+        },
+        {
+          "rank": 5,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_3",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 1,
+          "category": "tot_nghiep",
+          "distance": 0.687386155128479,
+          "is_relevant": false,
+          "content_preview": "hồ sơ, tài sản đối với Nhà trường. ĐIỀU 2. PHÂN HẠNG TỐT NGHIỆP Hạng tốt nghiệp của sinh viên được xác định theo Điểm trung bình tích lũy (CPA) toàn khóa như sau: Hạng Tốt Nghiệp Thang Điểm 4 Thang Điểm 10 Xuất sắc 3.60 – 4.00 9.0 – 10.0 Giỏi 3.20 – "
+        }
+      ]
+    },
+    {
+      "question_id": 16,
+      "question": "Sinh viên chưa hoàn thành Giáo dục thể chất có đủ điều kiện tốt nghiệp không?",
+      "category": "tot_nghiep",
+      "retrieval_mode": "weight_40_60",
+      "top_k": 5,
+      "reference_chunk_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+      ],
+      "retrieved_chunk_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_1",
+        "quy_dinh_tot_nghiep_pdf_page_2_chunk_1",
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_3",
+        "quy_dinh_tot_nghiep_pdf_page_2_chunk_2"
+      ],
+      "relevant_retrieved_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+      ],
+      "relevant_count": 1,
+      "precision_at_5": 0.2,
+      "recall_at_5": 1.0,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_details": [
+        {
+          "rank": 1,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 1,
+          "category": "tot_nghiep",
+          "distance": 0.5742034912109375,
+          "is_relevant": true,
+          "content_preview": "theo quy định của Chương trình đào tạo. Điểm trung bình tích lũy (CPA): Đạt điểm trung bình tích lũy toàn khóa học từ 2.00 / 4.00 trở lên. Chuẩn đầu ra Ngoại ngữ: Có chứng chỉ Ngoại ngữ đạt chuẩn đầu ra theo quy định của Nhà trường áp dụng cho từng k"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_1",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 1,
+          "category": "tot_nghiep",
+          "distance": 0.6502746343612671,
+          "is_relevant": false,
+          "content_preview": "TRƯỜNG ĐẠI HỌC VĂN HIẾN PHÒNG QUẢN LÝ ĐÀO TẠO Số: ..... /QĐ-ĐHVH-ĐẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc TP . Hồ Chí Minh, ngày ..... tháng ..... năm 2026 QUY ĐỊNH XÉT TỐT NGHIỆP ĐẠI HỌC CHÍNH QUY (Ban hành kèm theo Quyết đ"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_2_chunk_1",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 2,
+          "category": "tot_nghiep",
+          "distance": 0.628600001335144,
+          "is_relevant": false,
+          "content_preview": "* LƯU Ý: Hạng tốt nghiệp của sinh viên có điểm trung bình tích lũy đạt loại Xuất sắc hoặc Giỏi sẽ bị giảm đi một hạng nếu thuộc một trong các trường hợp: Bị kỷ luật từ mức cảnh cáo trở lên trong toàn khóa học, hoặc số tín chỉ của các học phần phải họ"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_3",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 1,
+          "category": "tot_nghiep",
+          "distance": 0.7113103270530701,
+          "is_relevant": false,
+          "content_preview": "hồ sơ, tài sản đối với Nhà trường. ĐIỀU 2. PHÂN HẠNG TỐT NGHIỆP Hạng tốt nghiệp của sinh viên được xác định theo Điểm trung bình tích lũy (CPA) toàn khóa như sau: Hạng Tốt Nghiệp Thang Điểm 4 Thang Điểm 10 Xuất sắc 3.60 – 4.00 9.0 – 10.0 Giỏi 3.20 – "
+        },
+        {
+          "rank": 5,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_2_chunk_2",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 2,
+          "category": "tot_nghiep",
+          "distance": 0.7175528407096863,
+          "is_relevant": false,
+          "content_preview": "& Phụ lục bằng: Bằng tốt nghiệp đại học và Phụ lục văn bằng được cấp 01 lần chính thức sau khi có Quyết định công nhận tốt nghiệp của Hiệu trưởng. NƠI NHẬN - Các Khoa/Viện đào tạo; - Phòng Quản lý Đào tạo; - Sinh viên toàn trường; - Lưu: VT, P .QLĐT."
+        }
+      ]
+    },
+    {
+      "question_id": 17,
+      "question": "Sinh viên còn nghĩa vụ tài chính với nhà trường có được xét công nhận tốt nghiệp không?",
+      "category": "tot_nghiep",
+      "retrieval_mode": "weight_40_60",
+      "top_k": 5,
+      "reference_chunk_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+      ],
+      "retrieved_chunk_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_1",
+        "quy_dinh_tot_nghiep_pdf_page_2_chunk_1",
+        "quy_dinh_tot_nghiep_pdf_page_2_chunk_2",
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_3"
+      ],
+      "relevant_retrieved_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+      ],
+      "relevant_count": 1,
+      "precision_at_5": 0.2,
+      "recall_at_5": 1.0,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_details": [
+        {
+          "rank": 1,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 1,
+          "category": "tot_nghiep",
+          "distance": 0.6107883453369141,
+          "is_relevant": true,
+          "content_preview": "theo quy định của Chương trình đào tạo. Điểm trung bình tích lũy (CPA): Đạt điểm trung bình tích lũy toàn khóa học từ 2.00 / 4.00 trở lên. Chuẩn đầu ra Ngoại ngữ: Có chứng chỉ Ngoại ngữ đạt chuẩn đầu ra theo quy định của Nhà trường áp dụng cho từng k"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_1",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 1,
+          "category": "tot_nghiep",
+          "distance": 0.6111431121826172,
+          "is_relevant": false,
+          "content_preview": "TRƯỜNG ĐẠI HỌC VĂN HIẾN PHÒNG QUẢN LÝ ĐÀO TẠO Số: ..... /QĐ-ĐHVH-ĐẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc TP . Hồ Chí Minh, ngày ..... tháng ..... năm 2026 QUY ĐỊNH XÉT TỐT NGHIỆP ĐẠI HỌC CHÍNH QUY (Ban hành kèm theo Quyết đ"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_2_chunk_1",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 2,
+          "category": "tot_nghiep",
+          "distance": 0.6128225922584534,
+          "is_relevant": false,
+          "content_preview": "* LƯU Ý: Hạng tốt nghiệp của sinh viên có điểm trung bình tích lũy đạt loại Xuất sắc hoặc Giỏi sẽ bị giảm đi một hạng nếu thuộc một trong các trường hợp: Bị kỷ luật từ mức cảnh cáo trở lên trong toàn khóa học, hoặc số tín chỉ của các học phần phải họ"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_2_chunk_2",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 2,
+          "category": "tot_nghiep",
+          "distance": 0.6331896185874939,
+          "is_relevant": false,
+          "content_preview": "& Phụ lục bằng: Bằng tốt nghiệp đại học và Phụ lục văn bằng được cấp 01 lần chính thức sau khi có Quyết định công nhận tốt nghiệp của Hiệu trưởng. NƠI NHẬN - Các Khoa/Viện đào tạo; - Phòng Quản lý Đào tạo; - Sinh viên toàn trường; - Lưu: VT, P .QLĐT."
+        },
+        {
+          "rank": 5,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_3",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 1,
+          "category": "tot_nghiep",
+          "distance": 0.6667753458023071,
+          "is_relevant": false,
+          "content_preview": "hồ sơ, tài sản đối với Nhà trường. ĐIỀU 2. PHÂN HẠNG TỐT NGHIỆP Hạng tốt nghiệp của sinh viên được xác định theo Điểm trung bình tích lũy (CPA) toàn khóa như sau: Hạng Tốt Nghiệp Thang Điểm 4 Thang Điểm 10 Xuất sắc 3.60 – 4.00 9.0 – 10.0 Giỏi 3.20 – "
+        }
+      ]
+    },
+    {
+      "question_id": 18,
+      "question": "Trong những trường hợp nào hạng tốt nghiệp của sinh viên bị giảm một hạng?",
+      "category": "tot_nghiep",
+      "retrieval_mode": "weight_40_60",
+      "top_k": 5,
+      "reference_chunk_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_2_chunk_1"
+      ],
+      "retrieved_chunk_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_2_chunk_1",
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_3",
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_1",
+        "quy_dinh_tot_nghiep_pdf_page_2_chunk_2"
+      ],
+      "relevant_retrieved_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_2_chunk_1"
+      ],
+      "relevant_count": 1,
+      "precision_at_5": 0.2,
+      "recall_at_5": 1.0,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_details": [
+        {
+          "rank": 1,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_2_chunk_1",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 2,
+          "category": "tot_nghiep",
+          "distance": 0.4549911916255951,
+          "is_relevant": true,
+          "content_preview": "* LƯU Ý: Hạng tốt nghiệp của sinh viên có điểm trung bình tích lũy đạt loại Xuất sắc hoặc Giỏi sẽ bị giảm đi một hạng nếu thuộc một trong các trường hợp: Bị kỷ luật từ mức cảnh cáo trở lên trong toàn khóa học, hoặc số tín chỉ của các học phần phải họ"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_3",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 1,
+          "category": "tot_nghiep",
+          "distance": 0.5355736017227173,
+          "is_relevant": false,
+          "content_preview": "hồ sơ, tài sản đối với Nhà trường. ĐIỀU 2. PHÂN HẠNG TỐT NGHIỆP Hạng tốt nghiệp của sinh viên được xác định theo Điểm trung bình tích lũy (CPA) toàn khóa như sau: Hạng Tốt Nghiệp Thang Điểm 4 Thang Điểm 10 Xuất sắc 3.60 – 4.00 9.0 – 10.0 Giỏi 3.20 – "
+        },
+        {
+          "rank": 3,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 1,
+          "category": "tot_nghiep",
+          "distance": 0.6018381118774414,
+          "is_relevant": false,
+          "content_preview": "theo quy định của Chương trình đào tạo. Điểm trung bình tích lũy (CPA): Đạt điểm trung bình tích lũy toàn khóa học từ 2.00 / 4.00 trở lên. Chuẩn đầu ra Ngoại ngữ: Có chứng chỉ Ngoại ngữ đạt chuẩn đầu ra theo quy định của Nhà trường áp dụng cho từng k"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_1",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 1,
+          "category": "tot_nghiep",
+          "distance": 0.6207857131958008,
+          "is_relevant": false,
+          "content_preview": "TRƯỜNG ĐẠI HỌC VĂN HIẾN PHÒNG QUẢN LÝ ĐÀO TẠO Số: ..... /QĐ-ĐHVH-ĐẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc TP . Hồ Chí Minh, ngày ..... tháng ..... năm 2026 QUY ĐỊNH XÉT TỐT NGHIỆP ĐẠI HỌC CHÍNH QUY (Ban hành kèm theo Quyết đ"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_2_chunk_2",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 2,
+          "category": "tot_nghiep",
+          "distance": 0.6630109548568726,
+          "is_relevant": false,
+          "content_preview": "& Phụ lục bằng: Bằng tốt nghiệp đại học và Phụ lục văn bằng được cấp 01 lần chính thức sau khi có Quyết định công nhận tốt nghiệp của Hiệu trưởng. NƠI NHẬN - Các Khoa/Viện đào tạo; - Phòng Quản lý Đào tạo; - Sinh viên toàn trường; - Lưu: VT, P .QLĐT."
+        }
+      ]
+    },
+    {
+      "question_id": 19,
+      "question": "Sinh viên có CPA 1.95 trên thang điểm 4 nhưng đã hoàn thành đủ tín chỉ có đủ điều kiện tốt nghiệp không?",
+      "category": "tot_nghiep",
+      "retrieval_mode": "weight_40_60",
+      "top_k": 5,
+      "reference_chunk_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+      ],
+      "retrieved_chunk_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_3",
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_1",
+        "quy_dinh_tot_nghiep_pdf_page_2_chunk_1",
+        "quy_dinh_tot_nghiep_pdf_page_2_chunk_2"
+      ],
+      "relevant_retrieved_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+      ],
+      "relevant_count": 1,
+      "precision_at_5": 0.2,
+      "recall_at_5": 1.0,
+      "hit_at_1": 0.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "first_relevant_rank": 2,
+      "reciprocal_rank": 0.5,
+      "retrieved_details": [
+        {
+          "rank": 1,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_3",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 1,
+          "category": "tot_nghiep",
+          "distance": 0.47958269715309143,
+          "is_relevant": false,
+          "content_preview": "hồ sơ, tài sản đối với Nhà trường. ĐIỀU 2. PHÂN HẠNG TỐT NGHIỆP Hạng tốt nghiệp của sinh viên được xác định theo Điểm trung bình tích lũy (CPA) toàn khóa như sau: Hạng Tốt Nghiệp Thang Điểm 4 Thang Điểm 10 Xuất sắc 3.60 – 4.00 9.0 – 10.0 Giỏi 3.20 – "
+        },
+        {
+          "rank": 2,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 1,
+          "category": "tot_nghiep",
+          "distance": 0.50113445520401,
+          "is_relevant": true,
+          "content_preview": "theo quy định của Chương trình đào tạo. Điểm trung bình tích lũy (CPA): Đạt điểm trung bình tích lũy toàn khóa học từ 2.00 / 4.00 trở lên. Chuẩn đầu ra Ngoại ngữ: Có chứng chỉ Ngoại ngữ đạt chuẩn đầu ra theo quy định của Nhà trường áp dụng cho từng k"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_1",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 1,
+          "category": "tot_nghiep",
+          "distance": 0.5598505139350891,
+          "is_relevant": false,
+          "content_preview": "TRƯỜNG ĐẠI HỌC VĂN HIẾN PHÒNG QUẢN LÝ ĐÀO TẠO Số: ..... /QĐ-ĐHVH-ĐẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc TP . Hồ Chí Minh, ngày ..... tháng ..... năm 2026 QUY ĐỊNH XÉT TỐT NGHIỆP ĐẠI HỌC CHÍNH QUY (Ban hành kèm theo Quyết đ"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_2_chunk_1",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 2,
+          "category": "tot_nghiep",
+          "distance": 0.6378477811813354,
+          "is_relevant": false,
+          "content_preview": "* LƯU Ý: Hạng tốt nghiệp của sinh viên có điểm trung bình tích lũy đạt loại Xuất sắc hoặc Giỏi sẽ bị giảm đi một hạng nếu thuộc một trong các trường hợp: Bị kỷ luật từ mức cảnh cáo trở lên trong toàn khóa học, hoặc số tín chỉ của các học phần phải họ"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_2_chunk_2",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 2,
+          "category": "tot_nghiep",
+          "distance": 0.7628636360168457,
+          "is_relevant": false,
+          "content_preview": "& Phụ lục bằng: Bằng tốt nghiệp đại học và Phụ lục văn bằng được cấp 01 lần chính thức sau khi có Quyết định công nhận tốt nghiệp của Hiệu trưởng. NƠI NHẬN - Các Khoa/Viện đào tạo; - Phòng Quản lý Đào tạo; - Sinh viên toàn trường; - Lưu: VT, P .QLĐT."
+        }
+      ]
+    },
+    {
+      "question_id": 20,
+      "question": "Sinh viên đã hoàn thành đủ tín chỉ và đạt CPA yêu cầu nhưng chưa đạt chuẩn ngoại ngữ có được công nhận tốt nghiệp không?",
+      "category": "tot_nghiep",
+      "retrieval_mode": "weight_40_60",
+      "top_k": 5,
+      "reference_chunk_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+      ],
+      "retrieved_chunk_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_1",
+        "quy_dinh_tot_nghiep_pdf_page_2_chunk_1",
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_3",
+        "quy_dinh_tot_nghiep_pdf_page_2_chunk_2"
+      ],
+      "relevant_retrieved_ids": [
+        "quy_dinh_tot_nghiep_pdf_page_1_chunk_2"
+      ],
+      "relevant_count": 1,
+      "precision_at_5": 0.2,
+      "recall_at_5": 1.0,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_details": [
+        {
+          "rank": 1,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_2",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 1,
+          "category": "tot_nghiep",
+          "distance": 0.44644126296043396,
+          "is_relevant": true,
+          "content_preview": "theo quy định của Chương trình đào tạo. Điểm trung bình tích lũy (CPA): Đạt điểm trung bình tích lũy toàn khóa học từ 2.00 / 4.00 trở lên. Chuẩn đầu ra Ngoại ngữ: Có chứng chỉ Ngoại ngữ đạt chuẩn đầu ra theo quy định của Nhà trường áp dụng cho từng k"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_1",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 1,
+          "category": "tot_nghiep",
+          "distance": 0.5452088117599487,
+          "is_relevant": false,
+          "content_preview": "TRƯỜNG ĐẠI HỌC VĂN HIẾN PHÒNG QUẢN LÝ ĐÀO TẠO Số: ..... /QĐ-ĐHVH-ĐẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc TP . Hồ Chí Minh, ngày ..... tháng ..... năm 2026 QUY ĐỊNH XÉT TỐT NGHIỆP ĐẠI HỌC CHÍNH QUY (Ban hành kèm theo Quyết đ"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_2_chunk_1",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 2,
+          "category": "tot_nghiep",
+          "distance": 0.5771837830543518,
+          "is_relevant": false,
+          "content_preview": "* LƯU Ý: Hạng tốt nghiệp của sinh viên có điểm trung bình tích lũy đạt loại Xuất sắc hoặc Giỏi sẽ bị giảm đi một hạng nếu thuộc một trong các trường hợp: Bị kỷ luật từ mức cảnh cáo trở lên trong toàn khóa học, hoặc số tín chỉ của các học phần phải họ"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_1_chunk_3",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 1,
+          "category": "tot_nghiep",
+          "distance": 0.5652576684951782,
+          "is_relevant": false,
+          "content_preview": "hồ sơ, tài sản đối với Nhà trường. ĐIỀU 2. PHÂN HẠNG TỐT NGHIỆP Hạng tốt nghiệp của sinh viên được xác định theo Điểm trung bình tích lũy (CPA) toàn khóa như sau: Hạng Tốt Nghiệp Thang Điểm 4 Thang Điểm 10 Xuất sắc 3.60 – 4.00 9.0 – 10.0 Giỏi 3.20 – "
+        },
+        {
+          "rank": 5,
+          "chunk_id": "quy_dinh_tot_nghiep_pdf_page_2_chunk_2",
+          "source": "quy_dinh_tot_nghiep.pdf",
+          "page": 2,
+          "category": "tot_nghiep",
+          "distance": 0.6792585849761963,
+          "is_relevant": false,
+          "content_preview": "& Phụ lục bằng: Bằng tốt nghiệp đại học và Phụ lục văn bằng được cấp 01 lần chính thức sau khi có Quyết định công nhận tốt nghiệp của Hiệu trưởng. NƠI NHẬN - Các Khoa/Viện đào tạo; - Phòng Quản lý Đào tạo; - Sinh viên toàn trường; - Lưu: VT, P .QLĐT."
+        }
+      ]
+    },
+    {
+      "question_id": 21,
+      "question": "Sinh viên cần có thành tích học tập như thế nào để được xét Học bổng Khuyến khích học tập?",
+      "category": "hoc_bong",
+      "retrieval_mode": "weight_40_60",
+      "top_k": 5,
+      "reference_chunk_ids": [
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2"
+      ],
+      "retrieved_chunk_ids": [
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2",
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_1",
+        "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1",
+        "chinh_sach_hoc_bong_vhu_pdf_page_2_chunk_1",
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_3"
+      ],
+      "relevant_retrieved_ids": [
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2"
+      ],
+      "relevant_count": 1,
+      "precision_at_5": 0.2,
+      "recall_at_5": 1.0,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_details": [
+        {
+          "rank": 1,
+          "chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2",
+          "source": "chinh_sach_hoc_bong_vhu.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.5606971383094788,
+          "is_relevant": true,
+          "content_preview": "Dành tặng cho các bạn học sinh lớp 12 xếp loại giỏi trở lên đăng ký xét trúng tuyển vào trường Đại học Văn Hiến và vượt qua vòng phỏng vấn trực tiếp do nhà trường tổ chức. 2. Học bổng Đồng hành cùng Hùng Hậu Dành cho các bạn sinh viên có người thân l"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_1",
+          "source": "chinh_sach_hoc_bong_vhu.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.573386549949646,
+          "is_relevant": false,
+          "content_preview": "130 triệu đồng / suất 15% – 50% Học phí toàn khóa 2.000.000 – 4.000.000 VNĐ / suất 3.000.000 VNĐ / suất 2.000.000 VNĐ / suất Khen thưởng phong trào TRƯỜNG ĐẠI HỌC VĂN HIẾN CÁC CHÍNH SÁCH HỌC BỔNG HẤP DẪN Đồng hành và khuyến khích tinh thần học tập củ"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1",
+          "source": "thong_bao_hoc_bong_vhu_2025_2026.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.5881153345108032,
+          "is_relevant": false,
+          "content_preview": "Có phỏng vấn TRƯỜNG ĐẠI HỌC VĂN HIẾN TRUNG TÂM CHĂM SÓC NGƯỜI HỌC THÔNG BÁO TIẾP NHẬN HỒ SƠ XÉT HỌC BỔNG Năm học 2025 – 2026 Đơn vị tiếp nhận: Trung tâm Chăm sóc Người học - Trường Đại học Văn Hiến Thời gian tiếp nhận:Từ ngày ra thông báo đến ngày 24"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_2_chunk_1",
+          "source": "chinh_sach_hoc_bong_vhu.pdf",
+          "page": 2,
+          "category": "hoc_bong",
+          "distance": 0.6729608774185181,
+          "is_relevant": false,
+          "content_preview": "🌟 Môi trường học tập năng động: Hơn 30 CLB, Đội, Nhóm đang chờ đón bạn trải nghiệm khi trở thành sinh viên Văn Hiến! Trường Đại học Văn Hiến - Chính Sách Học Bổng Trang 2 / 2"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_3",
+          "source": "chinh_sach_hoc_bong_vhu.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.6752435564994812,
+          "is_relevant": false,
+          "content_preview": "được thành lập theo ước nguyện cao cả của cố Giáo sư, Nhà giáo Nhân dân Hoàng Như Mai – một trong những người tham gia sáng lập và là Hiệu trưởng danh dự của trường Đại học Văn Hiến vào năm 1997. 6. Học bổng cán bộ Đoàn – Hội Dành cho các bạn sinh vi"
+        }
+      ]
+    },
+    {
+      "question_id": 22,
+      "question": "Học bổng Chắp cánh ước mơ năm học 2025 - 2026 dành cho đối tượng nào?",
+      "category": "hoc_bong",
+      "retrieval_mode": "weight_40_60",
+      "top_k": 5,
+      "reference_chunk_ids": [
+        "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1"
+      ],
+      "retrieved_chunk_ids": [
+        "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1",
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_1",
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2",
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_3",
+        "Chu_o_ng_tri_nh_ho_c_ta__p_suo__t_đo__i_da_nh_cho_Cu__u_sinh_vie_n_Va_n_Hie__n_pdf_page_2_chunk_1"
+      ],
+      "relevant_retrieved_ids": [
+        "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1"
+      ],
+      "relevant_count": 1,
+      "precision_at_5": 0.2,
+      "recall_at_5": 1.0,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_details": [
+        {
+          "rank": 1,
+          "chunk_id": "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1",
+          "source": "thong_bao_hoc_bong_vhu_2025_2026.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.4567684531211853,
+          "is_relevant": true,
+          "content_preview": "Có phỏng vấn TRƯỜNG ĐẠI HỌC VĂN HIẾN TRUNG TÂM CHĂM SÓC NGƯỜI HỌC THÔNG BÁO TIẾP NHẬN HỒ SƠ XÉT HỌC BỔNG Năm học 2025 – 2026 Đơn vị tiếp nhận: Trung tâm Chăm sóc Người học - Trường Đại học Văn Hiến Thời gian tiếp nhận:Từ ngày ra thông báo đến ngày 24"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_1",
+          "source": "chinh_sach_hoc_bong_vhu.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.5815314054489136,
+          "is_relevant": false,
+          "content_preview": "130 triệu đồng / suất 15% – 50% Học phí toàn khóa 2.000.000 – 4.000.000 VNĐ / suất 3.000.000 VNĐ / suất 2.000.000 VNĐ / suất Khen thưởng phong trào TRƯỜNG ĐẠI HỌC VĂN HIẾN CÁC CHÍNH SÁCH HỌC BỔNG HẤP DẪN Đồng hành và khuyến khích tinh thần học tập củ"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2",
+          "source": "chinh_sach_hoc_bong_vhu.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.687808632850647,
+          "is_relevant": false,
+          "content_preview": "Dành tặng cho các bạn học sinh lớp 12 xếp loại giỏi trở lên đăng ký xét trúng tuyển vào trường Đại học Văn Hiến và vượt qua vòng phỏng vấn trực tiếp do nhà trường tổ chức. 2. Học bổng Đồng hành cùng Hùng Hậu Dành cho các bạn sinh viên có người thân l"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_3",
+          "source": "chinh_sach_hoc_bong_vhu.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.7121443152427673,
+          "is_relevant": false,
+          "content_preview": "được thành lập theo ước nguyện cao cả của cố Giáo sư, Nhà giáo Nhân dân Hoàng Như Mai – một trong những người tham gia sáng lập và là Hiệu trưởng danh dự của trường Đại học Văn Hiến vào năm 1997. 6. Học bổng cán bộ Đoàn – Hội Dành cho các bạn sinh vi"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "Chu_o_ng_tri_nh_ho_c_ta__p_suo__t_đo__i_da_nh_cho_Cu__u_sinh_vie_n_Va_n_Hie__n_pdf_page_2_chunk_1",
+          "source": "Chương trình học tập suốt đời dành cho Cựu sinh viên Văn Hiến.pdf",
+          "page": 2,
+          "category": "hoc_bong",
+          "distance": 0.737437903881073,
+          "is_relevant": false,
+          "content_preview": "⦁ Được tham dự tất cả các sự kiện diễn ra tại trường Đại học Văn Hiến mà không cần vé vào cổng; ⦁ Được cập nhật, bổ sung và thụ hưởng quyền lợi phù hợp với các chương trình ưu đãi dành cho thẻ tại thời điểm thực hiện giao dịch; ⦁ Được hưởng các quyền"
+        }
+      ]
+    },
+    {
+      "question_id": 23,
+      "question": "Học bổng Đồng hành cùng Hùng Hậu dành cho những sinh viên nào?",
+      "category": "hoc_bong",
+      "retrieval_mode": "weight_40_60",
+      "top_k": 5,
+      "reference_chunk_ids": [
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2"
+      ],
+      "retrieved_chunk_ids": [
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2",
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_1",
+        "Chu_o_ng_tri_nh_ho_c_ta__p_suo__t_đo__i_da_nh_cho_Cu__u_sinh_vie_n_Va_n_Hie__n_pdf_page_1_chunk_2",
+        "Chu_o_ng_tri_nh_ho_c_ta__p_suo__t_đo__i_da_nh_cho_Cu__u_sinh_vie_n_Va_n_Hie__n_pdf_page_2_chunk_2",
+        "Chu_o_ng_tri_nh_ho_c_ta__p_suo__t_đo__i_da_nh_cho_Cu__u_sinh_vie_n_Va_n_Hie__n_pdf_page_2_chunk_1"
+      ],
+      "relevant_retrieved_ids": [
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2"
+      ],
+      "relevant_count": 1,
+      "precision_at_5": 0.2,
+      "recall_at_5": 1.0,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_details": [
+        {
+          "rank": 1,
+          "chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2",
+          "source": "chinh_sach_hoc_bong_vhu.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.45763835310935974,
+          "is_relevant": true,
+          "content_preview": "Dành tặng cho các bạn học sinh lớp 12 xếp loại giỏi trở lên đăng ký xét trúng tuyển vào trường Đại học Văn Hiến và vượt qua vòng phỏng vấn trực tiếp do nhà trường tổ chức. 2. Học bổng Đồng hành cùng Hùng Hậu Dành cho các bạn sinh viên có người thân l"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_1",
+          "source": "chinh_sach_hoc_bong_vhu.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.596786379814148,
+          "is_relevant": false,
+          "content_preview": "130 triệu đồng / suất 15% – 50% Học phí toàn khóa 2.000.000 – 4.000.000 VNĐ / suất 3.000.000 VNĐ / suất 2.000.000 VNĐ / suất Khen thưởng phong trào TRƯỜNG ĐẠI HỌC VĂN HIẾN CÁC CHÍNH SÁCH HỌC BỔNG HẤP DẪN Đồng hành và khuyến khích tinh thần học tập củ"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "Chu_o_ng_tri_nh_ho_c_ta__p_suo__t_đo__i_da_nh_cho_Cu__u_sinh_vie_n_Va_n_Hie__n_pdf_page_1_chunk_2",
+          "source": "Chương trình học tập suốt đời dành cho Cựu sinh viên Văn Hiến.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.6201066374778748,
+          "is_relevant": false,
+          "content_preview": "khóa khi theo học chương trình Thạc sĩ, đồng thời được đặt cách tham gia các sự kiện của trường tổ chức mà không cần vé vào cổng. Hình ảnh: Ông Trần Thanh Hương Tổng giám đốc Công ty CP Giáo dục Hùng Hậu – Phó chủ tịch HĐQT Trường Đại học Văn Hiến tr"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "Chu_o_ng_tri_nh_ho_c_ta__p_suo__t_đo__i_da_nh_cho_Cu__u_sinh_vie_n_Va_n_Hie__n_pdf_page_2_chunk_2",
+          "source": "Chương trình học tập suốt đời dành cho Cựu sinh viên Văn Hiến.pdf",
+          "page": 2,
+          "category": "hoc_bong",
+          "distance": 0.6222207546234131,
+          "is_relevant": false,
+          "content_preview": "phí toàn khóa theo từng độ tuổi. 2 Đồng hành cùng HEDU Hỗ trợ 20% học phí toàn khóa Anh/ chị/ em/ con (ruột) và vợ/ chồng của Sinh viên, Học viên, Cựu người học các trường thành viên thuộc HEDU (trường Đại học Văn Hiến; Cao đẳng KT – CN Vạn Xuân; Tru"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "Chu_o_ng_tri_nh_ho_c_ta__p_suo__t_đo__i_da_nh_cho_Cu__u_sinh_vie_n_Va_n_Hie__n_pdf_page_2_chunk_1",
+          "source": "Chương trình học tập suốt đời dành cho Cựu sinh viên Văn Hiến.pdf",
+          "page": 2,
+          "category": "hoc_bong",
+          "distance": 0.6705324053764343,
+          "is_relevant": false,
+          "content_preview": "⦁ Được tham dự tất cả các sự kiện diễn ra tại trường Đại học Văn Hiến mà không cần vé vào cổng; ⦁ Được cập nhật, bổ sung và thụ hưởng quyền lợi phù hợp với các chương trình ưu đãi dành cho thẻ tại thời điểm thực hiện giao dịch; ⦁ Được hưởng các quyền"
+        }
+      ]
+    },
+    {
+      "question_id": 24,
+      "question": "Học bổng sinh viên Bình Định dành cho đối tượng nào?",
+      "category": "hoc_bong",
+      "retrieval_mode": "weight_40_60",
+      "top_k": 5,
+      "reference_chunk_ids": [
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2"
+      ],
+      "retrieved_chunk_ids": [
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2",
+        "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1",
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_1",
+        "Chu_o_ng_tri_nh_ho_c_ta__p_suo__t_đo__i_da_nh_cho_Cu__u_sinh_vie_n_Va_n_Hie__n_pdf_page_2_chunk_1",
+        "Chu_o_ng_tri_nh_ho_c_ta__p_suo__t_đo__i_da_nh_cho_Cu__u_sinh_vie_n_Va_n_Hie__n_pdf_page_1_chunk_2"
+      ],
+      "relevant_retrieved_ids": [
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2"
+      ],
+      "relevant_count": 1,
+      "precision_at_5": 0.2,
+      "recall_at_5": 1.0,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_details": [
+        {
+          "rank": 1,
+          "chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2",
+          "source": "chinh_sach_hoc_bong_vhu.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.5041286945343018,
+          "is_relevant": true,
+          "content_preview": "Dành tặng cho các bạn học sinh lớp 12 xếp loại giỏi trở lên đăng ký xét trúng tuyển vào trường Đại học Văn Hiến và vượt qua vòng phỏng vấn trực tiếp do nhà trường tổ chức. 2. Học bổng Đồng hành cùng Hùng Hậu Dành cho các bạn sinh viên có người thân l"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1",
+          "source": "thong_bao_hoc_bong_vhu_2025_2026.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.6198939085006714,
+          "is_relevant": false,
+          "content_preview": "Có phỏng vấn TRƯỜNG ĐẠI HỌC VĂN HIẾN TRUNG TÂM CHĂM SÓC NGƯỜI HỌC THÔNG BÁO TIẾP NHẬN HỒ SƠ XÉT HỌC BỔNG Năm học 2025 – 2026 Đơn vị tiếp nhận: Trung tâm Chăm sóc Người học - Trường Đại học Văn Hiến Thời gian tiếp nhận:Từ ngày ra thông báo đến ngày 24"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_1",
+          "source": "chinh_sach_hoc_bong_vhu.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.5932049751281738,
+          "is_relevant": false,
+          "content_preview": "130 triệu đồng / suất 15% – 50% Học phí toàn khóa 2.000.000 – 4.000.000 VNĐ / suất 3.000.000 VNĐ / suất 2.000.000 VNĐ / suất Khen thưởng phong trào TRƯỜNG ĐẠI HỌC VĂN HIẾN CÁC CHÍNH SÁCH HỌC BỔNG HẤP DẪN Đồng hành và khuyến khích tinh thần học tập củ"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "Chu_o_ng_tri_nh_ho_c_ta__p_suo__t_đo__i_da_nh_cho_Cu__u_sinh_vie_n_Va_n_Hie__n_pdf_page_2_chunk_1",
+          "source": "Chương trình học tập suốt đời dành cho Cựu sinh viên Văn Hiến.pdf",
+          "page": 2,
+          "category": "hoc_bong",
+          "distance": 0.6600179076194763,
+          "is_relevant": false,
+          "content_preview": "⦁ Được tham dự tất cả các sự kiện diễn ra tại trường Đại học Văn Hiến mà không cần vé vào cổng; ⦁ Được cập nhật, bổ sung và thụ hưởng quyền lợi phù hợp với các chương trình ưu đãi dành cho thẻ tại thời điểm thực hiện giao dịch; ⦁ Được hưởng các quyền"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "Chu_o_ng_tri_nh_ho_c_ta__p_suo__t_đo__i_da_nh_cho_Cu__u_sinh_vie_n_Va_n_Hie__n_pdf_page_1_chunk_2",
+          "source": "Chương trình học tập suốt đời dành cho Cựu sinh viên Văn Hiến.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.6772102117538452,
+          "is_relevant": false,
+          "content_preview": "khóa khi theo học chương trình Thạc sĩ, đồng thời được đặt cách tham gia các sự kiện của trường tổ chức mà không cần vé vào cổng. Hình ảnh: Ông Trần Thanh Hương Tổng giám đốc Công ty CP Giáo dục Hùng Hậu – Phó chủ tịch HĐQT Trường Đại học Văn Hiến tr"
+        }
+      ]
+    },
+    {
+      "question_id": 25,
+      "question": "Học bổng cán bộ Đoàn - Hội dành cho những sinh viên nào?",
+      "category": "hoc_bong",
+      "retrieval_mode": "weight_40_60",
+      "top_k": 5,
+      "reference_chunk_ids": [
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_3"
+      ],
+      "retrieved_chunk_ids": [
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_3",
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2",
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_1",
+        "Chu_o_ng_tri_nh_ho_c_ta__p_suo__t_đo__i_da_nh_cho_Cu__u_sinh_vie_n_Va_n_Hie__n_pdf_page_1_chunk_1",
+        "Chu_o_ng_tri_nh_ho_c_ta__p_suo__t_đo__i_da_nh_cho_Cu__u_sinh_vie_n_Va_n_Hie__n_pdf_page_2_chunk_1"
+      ],
+      "relevant_retrieved_ids": [
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_3"
+      ],
+      "relevant_count": 1,
+      "precision_at_5": 0.2,
+      "recall_at_5": 1.0,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_details": [
+        {
+          "rank": 1,
+          "chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_3",
+          "source": "chinh_sach_hoc_bong_vhu.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.5282481908798218,
+          "is_relevant": true,
+          "content_preview": "được thành lập theo ước nguyện cao cả của cố Giáo sư, Nhà giáo Nhân dân Hoàng Như Mai – một trong những người tham gia sáng lập và là Hiệu trưởng danh dự của trường Đại học Văn Hiến vào năm 1997. 6. Học bổng cán bộ Đoàn – Hội Dành cho các bạn sinh vi"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2",
+          "source": "chinh_sach_hoc_bong_vhu.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.5967670679092407,
+          "is_relevant": false,
+          "content_preview": "Dành tặng cho các bạn học sinh lớp 12 xếp loại giỏi trở lên đăng ký xét trúng tuyển vào trường Đại học Văn Hiến và vượt qua vòng phỏng vấn trực tiếp do nhà trường tổ chức. 2. Học bổng Đồng hành cùng Hùng Hậu Dành cho các bạn sinh viên có người thân l"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_1",
+          "source": "chinh_sach_hoc_bong_vhu.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.6080125570297241,
+          "is_relevant": false,
+          "content_preview": "130 triệu đồng / suất 15% – 50% Học phí toàn khóa 2.000.000 – 4.000.000 VNĐ / suất 3.000.000 VNĐ / suất 2.000.000 VNĐ / suất Khen thưởng phong trào TRƯỜNG ĐẠI HỌC VĂN HIẾN CÁC CHÍNH SÁCH HỌC BỔNG HẤP DẪN Đồng hành và khuyến khích tinh thần học tập củ"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "Chu_o_ng_tri_nh_ho_c_ta__p_suo__t_đo__i_da_nh_cho_Cu__u_sinh_vie_n_Va_n_Hie__n_pdf_page_1_chunk_1",
+          "source": "Chương trình học tập suốt đời dành cho Cựu sinh viên Văn Hiến.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.6353989243507385,
+          "is_relevant": false,
+          "content_preview": "22 THÁNG 11 N Ă M 2019 IN BÀI VI Ế T XU Ấ T PDF ; ;  TRANG CH Ủ Đ H V Ă N HI Ế N (HTTPS://VHU.EDU.VN/)  (HTTPS://WWW.FACEBOOK.COM (HTTPS://WWW.YOUTUBE.COM/USER/D Ch ươ ng trình h ọ c t ậ p su ố t đ ờ i dành cho C ự u sinh viên V ă n Hi ế n Trang"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "Chu_o_ng_tri_nh_ho_c_ta__p_suo__t_đo__i_da_nh_cho_Cu__u_sinh_vie_n_Va_n_Hie__n_pdf_page_2_chunk_1",
+          "source": "Chương trình học tập suốt đời dành cho Cựu sinh viên Văn Hiến.pdf",
+          "page": 2,
+          "category": "hoc_bong",
+          "distance": 0.6660916209220886,
+          "is_relevant": false,
+          "content_preview": "⦁ Được tham dự tất cả các sự kiện diễn ra tại trường Đại học Văn Hiến mà không cần vé vào cổng; ⦁ Được cập nhật, bổ sung và thụ hưởng quyền lợi phù hợp với các chương trình ưu đãi dành cho thẻ tại thời điểm thực hiện giao dịch; ⦁ Được hưởng các quyền"
+        }
+      ]
+    },
+    {
+      "question_id": 26,
+      "question": "Học bổng Chắp cánh ước mơ năm học 2025 - 2026 hỗ trợ bao nhiêu phần trăm học phí?",
+      "category": "hoc_bong",
+      "retrieval_mode": "weight_40_60",
+      "top_k": 5,
+      "reference_chunk_ids": [
+        "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1"
+      ],
+      "retrieved_chunk_ids": [
+        "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1",
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_1",
+        "Chu_o_ng_tri_nh_ho_c_ta__p_suo__t_đo__i_da_nh_cho_Cu__u_sinh_vie_n_Va_n_Hie__n_pdf_page_2_chunk_2",
+        "Chu_o_ng_tri_nh_ho_c_ta__p_suo__t_đo__i_da_nh_cho_Cu__u_sinh_vie_n_Va_n_Hie__n_pdf_page_1_chunk_1",
+        "Chu_o_ng_tri_nh_ho_c_ta__p_suo__t_đo__i_da_nh_cho_Cu__u_sinh_vie_n_Va_n_Hie__n_pdf_page_2_chunk_1"
+      ],
+      "relevant_retrieved_ids": [
+        "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1"
+      ],
+      "relevant_count": 1,
+      "precision_at_5": 0.2,
+      "recall_at_5": 1.0,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_details": [
+        {
+          "rank": 1,
+          "chunk_id": "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1",
+          "source": "thong_bao_hoc_bong_vhu_2025_2026.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.4939824342727661,
+          "is_relevant": true,
+          "content_preview": "Có phỏng vấn TRƯỜNG ĐẠI HỌC VĂN HIẾN TRUNG TÂM CHĂM SÓC NGƯỜI HỌC THÔNG BÁO TIẾP NHẬN HỒ SƠ XÉT HỌC BỔNG Năm học 2025 – 2026 Đơn vị tiếp nhận: Trung tâm Chăm sóc Người học - Trường Đại học Văn Hiến Thời gian tiếp nhận:Từ ngày ra thông báo đến ngày 24"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_1",
+          "source": "chinh_sach_hoc_bong_vhu.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.5562795400619507,
+          "is_relevant": false,
+          "content_preview": "130 triệu đồng / suất 15% – 50% Học phí toàn khóa 2.000.000 – 4.000.000 VNĐ / suất 3.000.000 VNĐ / suất 2.000.000 VNĐ / suất Khen thưởng phong trào TRƯỜNG ĐẠI HỌC VĂN HIẾN CÁC CHÍNH SÁCH HỌC BỔNG HẤP DẪN Đồng hành và khuyến khích tinh thần học tập củ"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "Chu_o_ng_tri_nh_ho_c_ta__p_suo__t_đo__i_da_nh_cho_Cu__u_sinh_vie_n_Va_n_Hie__n_pdf_page_2_chunk_2",
+          "source": "Chương trình học tập suốt đời dành cho Cựu sinh viên Văn Hiến.pdf",
+          "page": 2,
+          "category": "hoc_bong",
+          "distance": 0.6580337285995483,
+          "is_relevant": false,
+          "content_preview": "phí toàn khóa theo từng độ tuổi. 2 Đồng hành cùng HEDU Hỗ trợ 20% học phí toàn khóa Anh/ chị/ em/ con (ruột) và vợ/ chồng của Sinh viên, Học viên, Cựu người học các trường thành viên thuộc HEDU (trường Đại học Văn Hiến; Cao đẳng KT – CN Vạn Xuân; Tru"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "Chu_o_ng_tri_nh_ho_c_ta__p_suo__t_đo__i_da_nh_cho_Cu__u_sinh_vie_n_Va_n_Hie__n_pdf_page_1_chunk_1",
+          "source": "Chương trình học tập suốt đời dành cho Cựu sinh viên Văn Hiến.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.6910797357559204,
+          "is_relevant": false,
+          "content_preview": "22 THÁNG 11 N Ă M 2019 IN BÀI VI Ế T XU Ấ T PDF ; ;  TRANG CH Ủ Đ H V Ă N HI Ế N (HTTPS://VHU.EDU.VN/)  (HTTPS://WWW.FACEBOOK.COM (HTTPS://WWW.YOUTUBE.COM/USER/D Ch ươ ng trình h ọ c t ậ p su ố t đ ờ i dành cho C ự u sinh viên V ă n Hi ế n Trang"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "Chu_o_ng_tri_nh_ho_c_ta__p_suo__t_đo__i_da_nh_cho_Cu__u_sinh_vie_n_Va_n_Hie__n_pdf_page_2_chunk_1",
+          "source": "Chương trình học tập suốt đời dành cho Cựu sinh viên Văn Hiến.pdf",
+          "page": 2,
+          "category": "hoc_bong",
+          "distance": 0.7031880617141724,
+          "is_relevant": false,
+          "content_preview": "⦁ Được tham dự tất cả các sự kiện diễn ra tại trường Đại học Văn Hiến mà không cần vé vào cổng; ⦁ Được cập nhật, bổ sung và thụ hưởng quyền lợi phù hợp với các chương trình ưu đãi dành cho thẻ tại thời điểm thực hiện giao dịch; ⦁ Được hưởng các quyền"
+        }
+      ]
+    },
+    {
+      "question_id": 27,
+      "question": "Thời hạn tiếp nhận hồ sơ xét học bổng năm học 2025 - 2026 là đến ngày nào?",
+      "category": "hoc_bong",
+      "retrieval_mode": "weight_40_60",
+      "top_k": 5,
+      "reference_chunk_ids": [
+        "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1"
+      ],
+      "retrieved_chunk_ids": [
+        "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1",
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_1",
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2",
+        "Chu_o_ng_tri_nh_ho_c_ta__p_suo__t_đo__i_da_nh_cho_Cu__u_sinh_vie_n_Va_n_Hie__n_pdf_page_1_chunk_2",
+        "Chu_o_ng_tri_nh_ho_c_ta__p_suo__t_đo__i_da_nh_cho_Cu__u_sinh_vie_n_Va_n_Hie__n_pdf_page_1_chunk_1"
+      ],
+      "relevant_retrieved_ids": [
+        "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1"
+      ],
+      "relevant_count": 1,
+      "precision_at_5": 0.2,
+      "recall_at_5": 1.0,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_details": [
+        {
+          "rank": 1,
+          "chunk_id": "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1",
+          "source": "thong_bao_hoc_bong_vhu_2025_2026.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.4620780944824219,
+          "is_relevant": true,
+          "content_preview": "Có phỏng vấn TRƯỜNG ĐẠI HỌC VĂN HIẾN TRUNG TÂM CHĂM SÓC NGƯỜI HỌC THÔNG BÁO TIẾP NHẬN HỒ SƠ XÉT HỌC BỔNG Năm học 2025 – 2026 Đơn vị tiếp nhận: Trung tâm Chăm sóc Người học - Trường Đại học Văn Hiến Thời gian tiếp nhận:Từ ngày ra thông báo đến ngày 24"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_1",
+          "source": "chinh_sach_hoc_bong_vhu.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.6267093420028687,
+          "is_relevant": false,
+          "content_preview": "130 triệu đồng / suất 15% – 50% Học phí toàn khóa 2.000.000 – 4.000.000 VNĐ / suất 3.000.000 VNĐ / suất 2.000.000 VNĐ / suất Khen thưởng phong trào TRƯỜNG ĐẠI HỌC VĂN HIẾN CÁC CHÍNH SÁCH HỌC BỔNG HẤP DẪN Đồng hành và khuyến khích tinh thần học tập củ"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2",
+          "source": "chinh_sach_hoc_bong_vhu.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.658551037311554,
+          "is_relevant": false,
+          "content_preview": "Dành tặng cho các bạn học sinh lớp 12 xếp loại giỏi trở lên đăng ký xét trúng tuyển vào trường Đại học Văn Hiến và vượt qua vòng phỏng vấn trực tiếp do nhà trường tổ chức. 2. Học bổng Đồng hành cùng Hùng Hậu Dành cho các bạn sinh viên có người thân l"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "Chu_o_ng_tri_nh_ho_c_ta__p_suo__t_đo__i_da_nh_cho_Cu__u_sinh_vie_n_Va_n_Hie__n_pdf_page_1_chunk_2",
+          "source": "Chương trình học tập suốt đời dành cho Cựu sinh viên Văn Hiến.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.7730048894882202,
+          "is_relevant": false,
+          "content_preview": "khóa khi theo học chương trình Thạc sĩ, đồng thời được đặt cách tham gia các sự kiện của trường tổ chức mà không cần vé vào cổng. Hình ảnh: Ông Trần Thanh Hương Tổng giám đốc Công ty CP Giáo dục Hùng Hậu – Phó chủ tịch HĐQT Trường Đại học Văn Hiến tr"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "Chu_o_ng_tri_nh_ho_c_ta__p_suo__t_đo__i_da_nh_cho_Cu__u_sinh_vie_n_Va_n_Hie__n_pdf_page_1_chunk_1",
+          "source": "Chương trình học tập suốt đời dành cho Cựu sinh viên Văn Hiến.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.6895083785057068,
+          "is_relevant": false,
+          "content_preview": "22 THÁNG 11 N Ă M 2019 IN BÀI VI Ế T XU Ấ T PDF ; ;  TRANG CH Ủ Đ H V Ă N HI Ế N (HTTPS://VHU.EDU.VN/)  (HTTPS://WWW.FACEBOOK.COM (HTTPS://WWW.YOUTUBE.COM/USER/D Ch ươ ng trình h ọ c t ậ p su ố t đ ờ i dành cho C ự u sinh viên V ă n Hi ế n Trang"
+        }
+      ]
+    },
+    {
+      "question_id": 28,
+      "question": "Đơn vị nào tiếp nhận hồ sơ xét học bổng năm học 2025 - 2026?",
+      "category": "hoc_bong",
+      "retrieval_mode": "weight_40_60",
+      "top_k": 5,
+      "reference_chunk_ids": [
+        "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1"
+      ],
+      "retrieved_chunk_ids": [
+        "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1",
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_1",
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2",
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_3",
+        "Chu_o_ng_tri_nh_ho_c_ta__p_suo__t_đo__i_da_nh_cho_Cu__u_sinh_vie_n_Va_n_Hie__n_pdf_page_1_chunk_2"
+      ],
+      "relevant_retrieved_ids": [
+        "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1"
+      ],
+      "relevant_count": 1,
+      "precision_at_5": 0.2,
+      "recall_at_5": 1.0,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_details": [
+        {
+          "rank": 1,
+          "chunk_id": "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1",
+          "source": "thong_bao_hoc_bong_vhu_2025_2026.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.4596831500530243,
+          "is_relevant": true,
+          "content_preview": "Có phỏng vấn TRƯỜNG ĐẠI HỌC VĂN HIẾN TRUNG TÂM CHĂM SÓC NGƯỜI HỌC THÔNG BÁO TIẾP NHẬN HỒ SƠ XÉT HỌC BỔNG Năm học 2025 – 2026 Đơn vị tiếp nhận: Trung tâm Chăm sóc Người học - Trường Đại học Văn Hiến Thời gian tiếp nhận:Từ ngày ra thông báo đến ngày 24"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_1",
+          "source": "chinh_sach_hoc_bong_vhu.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.6275793313980103,
+          "is_relevant": false,
+          "content_preview": "130 triệu đồng / suất 15% – 50% Học phí toàn khóa 2.000.000 – 4.000.000 VNĐ / suất 3.000.000 VNĐ / suất 2.000.000 VNĐ / suất Khen thưởng phong trào TRƯỜNG ĐẠI HỌC VĂN HIẾN CÁC CHÍNH SÁCH HỌC BỔNG HẤP DẪN Đồng hành và khuyến khích tinh thần học tập củ"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2",
+          "source": "chinh_sach_hoc_bong_vhu.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.6481953859329224,
+          "is_relevant": false,
+          "content_preview": "Dành tặng cho các bạn học sinh lớp 12 xếp loại giỏi trở lên đăng ký xét trúng tuyển vào trường Đại học Văn Hiến và vượt qua vòng phỏng vấn trực tiếp do nhà trường tổ chức. 2. Học bổng Đồng hành cùng Hùng Hậu Dành cho các bạn sinh viên có người thân l"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_3",
+          "source": "chinh_sach_hoc_bong_vhu.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.7041436433792114,
+          "is_relevant": false,
+          "content_preview": "được thành lập theo ước nguyện cao cả của cố Giáo sư, Nhà giáo Nhân dân Hoàng Như Mai – một trong những người tham gia sáng lập và là Hiệu trưởng danh dự của trường Đại học Văn Hiến vào năm 1997. 6. Học bổng cán bộ Đoàn – Hội Dành cho các bạn sinh vi"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "Chu_o_ng_tri_nh_ho_c_ta__p_suo__t_đo__i_da_nh_cho_Cu__u_sinh_vie_n_Va_n_Hie__n_pdf_page_1_chunk_2",
+          "source": "Chương trình học tập suốt đời dành cho Cựu sinh viên Văn Hiến.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.7707140445709229,
+          "is_relevant": false,
+          "content_preview": "khóa khi theo học chương trình Thạc sĩ, đồng thời được đặt cách tham gia các sự kiện của trường tổ chức mà không cần vé vào cổng. Hình ảnh: Ông Trần Thanh Hương Tổng giám đốc Công ty CP Giáo dục Hùng Hậu – Phó chủ tịch HĐQT Trường Đại học Văn Hiến tr"
+        }
+      ]
+    },
+    {
+      "question_id": 29,
+      "question": "Tân sinh viên K28 cần có kết quả học tập lớp 12 như thế nào để xét Học bổng Chắp cánh ước mơ?",
+      "category": "hoc_bong",
+      "retrieval_mode": "weight_40_60",
+      "top_k": 5,
+      "reference_chunk_ids": [
+        "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1"
+      ],
+      "retrieved_chunk_ids": [
+        "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1",
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_1",
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2",
+        "Chu_o_ng_tri_nh_ho_c_ta__p_suo__t_đo__i_da_nh_cho_Cu__u_sinh_vie_n_Va_n_Hie__n_pdf_page_1_chunk_3",
+        "Chu_o_ng_tri_nh_ho_c_ta__p_suo__t_đo__i_da_nh_cho_Cu__u_sinh_vie_n_Va_n_Hie__n_pdf_page_1_chunk_2"
+      ],
+      "relevant_retrieved_ids": [
+        "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1"
+      ],
+      "relevant_count": 1,
+      "precision_at_5": 0.2,
+      "recall_at_5": 1.0,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_details": [
+        {
+          "rank": 1,
+          "chunk_id": "thong_bao_hoc_bong_vhu_2025_2026_pdf_page_1_chunk_1",
+          "source": "thong_bao_hoc_bong_vhu_2025_2026.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.45966893434524536,
+          "is_relevant": true,
+          "content_preview": "Có phỏng vấn TRƯỜNG ĐẠI HỌC VĂN HIẾN TRUNG TÂM CHĂM SÓC NGƯỜI HỌC THÔNG BÁO TIẾP NHẬN HỒ SƠ XÉT HỌC BỔNG Năm học 2025 – 2026 Đơn vị tiếp nhận: Trung tâm Chăm sóc Người học - Trường Đại học Văn Hiến Thời gian tiếp nhận:Từ ngày ra thông báo đến ngày 24"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_1",
+          "source": "chinh_sach_hoc_bong_vhu.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.5641785860061646,
+          "is_relevant": false,
+          "content_preview": "130 triệu đồng / suất 15% – 50% Học phí toàn khóa 2.000.000 – 4.000.000 VNĐ / suất 3.000.000 VNĐ / suất 2.000.000 VNĐ / suất Khen thưởng phong trào TRƯỜNG ĐẠI HỌC VĂN HIẾN CÁC CHÍNH SÁCH HỌC BỔNG HẤP DẪN Đồng hành và khuyến khích tinh thần học tập củ"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2",
+          "source": "chinh_sach_hoc_bong_vhu.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.6148779392242432,
+          "is_relevant": false,
+          "content_preview": "Dành tặng cho các bạn học sinh lớp 12 xếp loại giỏi trở lên đăng ký xét trúng tuyển vào trường Đại học Văn Hiến và vượt qua vòng phỏng vấn trực tiếp do nhà trường tổ chức. 2. Học bổng Đồng hành cùng Hùng Hậu Dành cho các bạn sinh viên có người thân l"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "Chu_o_ng_tri_nh_ho_c_ta__p_suo__t_đo__i_da_nh_cho_Cu__u_sinh_vie_n_Va_n_Hie__n_pdf_page_1_chunk_3",
+          "source": "Chương trình học tập suốt đời dành cho Cựu sinh viên Văn Hiến.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.7011128067970276,
+          "is_relevant": false,
+          "content_preview": "thân/bạn bè mang theo thẻ HEDUer - Học tập suốt đời khi đến đăng ký xét tuyển nhập học tại các hệ đào tạo của trường Đại học Văn Hiến từ Cao đẳng, Đại học, Liên thông, Văn bằng 2, Thạc sĩ, Tiến sĩ sẽ được áp dụng các chương trình ưu đãi học phí. 2. Q"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "Chu_o_ng_tri_nh_ho_c_ta__p_suo__t_đo__i_da_nh_cho_Cu__u_sinh_vie_n_Va_n_Hie__n_pdf_page_1_chunk_2",
+          "source": "Chương trình học tập suốt đời dành cho Cựu sinh viên Văn Hiến.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.7400599718093872,
+          "is_relevant": false,
+          "content_preview": "khóa khi theo học chương trình Thạc sĩ, đồng thời được đặt cách tham gia các sự kiện của trường tổ chức mà không cần vé vào cổng. Hình ảnh: Ông Trần Thanh Hương Tổng giám đốc Công ty CP Giáo dục Hùng Hậu – Phó chủ tịch HĐQT Trường Đại học Văn Hiến tr"
+        }
+      ]
+    },
+    {
+      "question_id": 30,
+      "question": "Học bổng Khuyến khích học tập dành cho sinh viên có thành tích học tập ở mức nào?",
+      "category": "hoc_bong",
+      "retrieval_mode": "weight_40_60",
+      "top_k": 5,
+      "reference_chunk_ids": [
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2"
+      ],
+      "retrieved_chunk_ids": [
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2",
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_1",
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_3",
+        "Chu_o_ng_tri_nh_ho_c_ta__p_suo__t_đo__i_da_nh_cho_Cu__u_sinh_vie_n_Va_n_Hie__n_pdf_page_2_chunk_2",
+        "chinh_sach_hoc_bong_vhu_pdf_page_2_chunk_1"
+      ],
+      "relevant_retrieved_ids": [
+        "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2"
+      ],
+      "relevant_count": 1,
+      "precision_at_5": 0.2,
+      "recall_at_5": 1.0,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_details": [
+        {
+          "rank": 1,
+          "chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_2",
+          "source": "chinh_sach_hoc_bong_vhu.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.5656027793884277,
+          "is_relevant": true,
+          "content_preview": "Dành tặng cho các bạn học sinh lớp 12 xếp loại giỏi trở lên đăng ký xét trúng tuyển vào trường Đại học Văn Hiến và vượt qua vòng phỏng vấn trực tiếp do nhà trường tổ chức. 2. Học bổng Đồng hành cùng Hùng Hậu Dành cho các bạn sinh viên có người thân l"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_1",
+          "source": "chinh_sach_hoc_bong_vhu.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.5714332461357117,
+          "is_relevant": false,
+          "content_preview": "130 triệu đồng / suất 15% – 50% Học phí toàn khóa 2.000.000 – 4.000.000 VNĐ / suất 3.000.000 VNĐ / suất 2.000.000 VNĐ / suất Khen thưởng phong trào TRƯỜNG ĐẠI HỌC VĂN HIẾN CÁC CHÍNH SÁCH HỌC BỔNG HẤP DẪN Đồng hành và khuyến khích tinh thần học tập củ"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_1_chunk_3",
+          "source": "chinh_sach_hoc_bong_vhu.pdf",
+          "page": 1,
+          "category": "hoc_bong",
+          "distance": 0.6822488307952881,
+          "is_relevant": false,
+          "content_preview": "được thành lập theo ước nguyện cao cả của cố Giáo sư, Nhà giáo Nhân dân Hoàng Như Mai – một trong những người tham gia sáng lập và là Hiệu trưởng danh dự của trường Đại học Văn Hiến vào năm 1997. 6. Học bổng cán bộ Đoàn – Hội Dành cho các bạn sinh vi"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "Chu_o_ng_tri_nh_ho_c_ta__p_suo__t_đo__i_da_nh_cho_Cu__u_sinh_vie_n_Va_n_Hie__n_pdf_page_2_chunk_2",
+          "source": "Chương trình học tập suốt đời dành cho Cựu sinh viên Văn Hiến.pdf",
+          "page": 2,
+          "category": "hoc_bong",
+          "distance": 0.6690342426300049,
+          "is_relevant": false,
+          "content_preview": "phí toàn khóa theo từng độ tuổi. 2 Đồng hành cùng HEDU Hỗ trợ 20% học phí toàn khóa Anh/ chị/ em/ con (ruột) và vợ/ chồng của Sinh viên, Học viên, Cựu người học các trường thành viên thuộc HEDU (trường Đại học Văn Hiến; Cao đẳng KT – CN Vạn Xuân; Tru"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "chinh_sach_hoc_bong_vhu_pdf_page_2_chunk_1",
+          "source": "chinh_sach_hoc_bong_vhu.pdf",
+          "page": 2,
+          "category": "hoc_bong",
+          "distance": 0.6793880462646484,
+          "is_relevant": false,
+          "content_preview": "🌟 Môi trường học tập năng động: Hơn 30 CLB, Đội, Nhóm đang chờ đón bạn trải nghiệm khi trở thành sinh viên Văn Hiến! Trường Đại học Văn Hiến - Chính Sách Học Bổng Trang 2 / 2"
+        }
+      ]
+    },
+    {
+      "question_id": 31,
+      "question": "Trong những trường hợp nào sinh viên bị cảnh báo học vụ?",
+      "category": "hoc_vu",
+      "retrieval_mode": "weight_40_60",
+      "top_k": 5,
+      "reference_chunk_ids": [
+        "canh_bao_hoc_vu_pdf_page_1_chunk_2"
+      ],
+      "retrieved_chunk_ids": [
+        "canh_bao_hoc_vu_pdf_page_2_chunk_1",
+        "canh_bao_hoc_vu_pdf_page_1_chunk_2",
+        "canh_bao_hoc_vu_pdf_page_1_chunk_1",
+        "canh_bao_hoc_vu_pdf_page_2_chunk_2"
+      ],
+      "relevant_retrieved_ids": [
+        "canh_bao_hoc_vu_pdf_page_1_chunk_2"
+      ],
+      "relevant_count": 1,
+      "precision_at_5": 0.25,
+      "recall_at_5": 1.0,
+      "hit_at_1": 0.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "first_relevant_rank": 2,
+      "reciprocal_rank": 0.5,
+      "retrieved_details": [
+        {
+          "rank": 1,
+          "chunk_id": "canh_bao_hoc_vu_pdf_page_2_chunk_1",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 2,
+          "category": "hoc_vu",
+          "distance": 0.38439705967903137,
+          "is_relevant": false,
+          "content_preview": "⚠️ HƯỚNG DẪN XỬ LÝ VÀ NGHĨA VỤ CỦA SINH VIÊN Đăng ký tư vấn học vụ: Sinh viên phải liên hệ Cố vấn học tập (Giảng viên chủ nhiệm) hoặc Trung tâm Chăm sóc Người học để lập kế hoạch cải thiện kết quả học tập trước ngày 15/05/2026. Giới hạn số tín chỉ đă"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "canh_bao_hoc_vu_pdf_page_1_chunk_2",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 1,
+          "category": "hoc_vu",
+          "distance": 0.4399045705795288,
+          "is_relevant": true,
+          "content_preview": "học: .................................. Căn cứ Quy chế Đào tạo đại học chính quy hiện hành của Trường Đại học Văn Hiến; Căn cứ kết quả học tập và rèn luyện của sinh viên tính đến hết Học kỳ I - Năm học 2025 - 2026; Phòng Quản lý Đào tạo trân trọng th"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "canh_bao_hoc_vu_pdf_page_1_chunk_1",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 1,
+          "category": "hoc_vu",
+          "distance": 0.47812461853027344,
+          "is_relevant": false,
+          "content_preview": "TRƯỜNG ĐẠI HỌC VĂN HIẾN PHÒNG QUẢN LÝ ĐÀO TẠO Số: ..... /TB-ĐHVH-ĐẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc TP . Hồ Chí Minh, ngày ..... tháng ..... năm 2026 THÔNG BÁO CẢNH BÁO HỌC VỤ V/v Cảnh báo kết quả học tập không đạt yêu"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "canh_bao_hoc_vu_pdf_page_2_chunk_2",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 2,
+          "category": "hoc_vu",
+          "distance": 0.6671108603477478,
+          "is_relevant": false,
+          "content_preview": "học tập (để phối hợp); - Lưu: VT, P .QLĐT. TL. HIỆU TRƯỞNG TRƯỞNG PHÒNG QUẢN LÝ ĐÀO TẠO (Ký, ghi rõ họ tên và đóng dấu) PGS. TS. NGUYỄN VĂN A • • • • Trang 2 / 2"
+        }
+      ]
+    },
+    {
+      "question_id": 32,
+      "question": "Điểm trung bình tích lũy thấp có thể khiến sinh viên bị cảnh báo học vụ như thế nào?",
+      "category": "hoc_vu",
+      "retrieval_mode": "weight_40_60",
+      "top_k": 5,
+      "reference_chunk_ids": [
+        "canh_bao_hoc_vu_pdf_page_1_chunk_2"
+      ],
+      "retrieved_chunk_ids": [
+        "canh_bao_hoc_vu_pdf_page_2_chunk_1",
+        "canh_bao_hoc_vu_pdf_page_1_chunk_2",
+        "canh_bao_hoc_vu_pdf_page_1_chunk_1",
+        "canh_bao_hoc_vu_pdf_page_2_chunk_2"
+      ],
+      "relevant_retrieved_ids": [
+        "canh_bao_hoc_vu_pdf_page_1_chunk_2"
+      ],
+      "relevant_count": 1,
+      "precision_at_5": 0.25,
+      "recall_at_5": 1.0,
+      "hit_at_1": 0.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "first_relevant_rank": 2,
+      "reciprocal_rank": 0.5,
+      "retrieved_details": [
+        {
+          "rank": 1,
+          "chunk_id": "canh_bao_hoc_vu_pdf_page_2_chunk_1",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 2,
+          "category": "hoc_vu",
+          "distance": 0.42217838764190674,
+          "is_relevant": false,
+          "content_preview": "⚠️ HƯỚNG DẪN XỬ LÝ VÀ NGHĨA VỤ CỦA SINH VIÊN Đăng ký tư vấn học vụ: Sinh viên phải liên hệ Cố vấn học tập (Giảng viên chủ nhiệm) hoặc Trung tâm Chăm sóc Người học để lập kế hoạch cải thiện kết quả học tập trước ngày 15/05/2026. Giới hạn số tín chỉ đă"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "canh_bao_hoc_vu_pdf_page_1_chunk_2",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 1,
+          "category": "hoc_vu",
+          "distance": 0.4413962960243225,
+          "is_relevant": true,
+          "content_preview": "học: .................................. Căn cứ Quy chế Đào tạo đại học chính quy hiện hành của Trường Đại học Văn Hiến; Căn cứ kết quả học tập và rèn luyện của sinh viên tính đến hết Học kỳ I - Năm học 2025 - 2026; Phòng Quản lý Đào tạo trân trọng th"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "canh_bao_hoc_vu_pdf_page_1_chunk_1",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 1,
+          "category": "hoc_vu",
+          "distance": 0.5502018928527832,
+          "is_relevant": false,
+          "content_preview": "TRƯỜNG ĐẠI HỌC VĂN HIẾN PHÒNG QUẢN LÝ ĐÀO TẠO Số: ..... /TB-ĐHVH-ĐẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc TP . Hồ Chí Minh, ngày ..... tháng ..... năm 2026 THÔNG BÁO CẢNH BÁO HỌC VỤ V/v Cảnh báo kết quả học tập không đạt yêu"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "canh_bao_hoc_vu_pdf_page_2_chunk_2",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 2,
+          "category": "hoc_vu",
+          "distance": 0.6994888782501221,
+          "is_relevant": false,
+          "content_preview": "học tập (để phối hợp); - Lưu: VT, P .QLĐT. TL. HIỆU TRƯỞNG TRƯỞNG PHÒNG QUẢN LÝ ĐÀO TẠO (Ký, ghi rõ họ tên và đóng dấu) PGS. TS. NGUYỄN VĂN A • • • • Trang 2 / 2"
+        }
+      ]
+    },
+    {
+      "question_id": 33,
+      "question": "Sinh viên bị cảnh báo học vụ có bị giới hạn số tín chỉ được đăng ký trong học kỳ tiếp theo không?",
+      "category": "hoc_vu",
+      "retrieval_mode": "weight_40_60",
+      "top_k": 5,
+      "reference_chunk_ids": [
+        "canh_bao_hoc_vu_pdf_page_2_chunk_1"
+      ],
+      "retrieved_chunk_ids": [
+        "canh_bao_hoc_vu_pdf_page_2_chunk_1",
+        "canh_bao_hoc_vu_pdf_page_1_chunk_2",
+        "canh_bao_hoc_vu_pdf_page_1_chunk_1",
+        "canh_bao_hoc_vu_pdf_page_2_chunk_2"
+      ],
+      "relevant_retrieved_ids": [
+        "canh_bao_hoc_vu_pdf_page_2_chunk_1"
+      ],
+      "relevant_count": 1,
+      "precision_at_5": 0.25,
+      "recall_at_5": 1.0,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_details": [
+        {
+          "rank": 1,
+          "chunk_id": "canh_bao_hoc_vu_pdf_page_2_chunk_1",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 2,
+          "category": "hoc_vu",
+          "distance": 0.3893786668777466,
+          "is_relevant": true,
+          "content_preview": "⚠️ HƯỚNG DẪN XỬ LÝ VÀ NGHĨA VỤ CỦA SINH VIÊN Đăng ký tư vấn học vụ: Sinh viên phải liên hệ Cố vấn học tập (Giảng viên chủ nhiệm) hoặc Trung tâm Chăm sóc Người học để lập kế hoạch cải thiện kết quả học tập trước ngày 15/05/2026. Giới hạn số tín chỉ đă"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "canh_bao_hoc_vu_pdf_page_1_chunk_2",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 1,
+          "category": "hoc_vu",
+          "distance": 0.5105841159820557,
+          "is_relevant": false,
+          "content_preview": "học: .................................. Căn cứ Quy chế Đào tạo đại học chính quy hiện hành của Trường Đại học Văn Hiến; Căn cứ kết quả học tập và rèn luyện của sinh viên tính đến hết Học kỳ I - Năm học 2025 - 2026; Phòng Quản lý Đào tạo trân trọng th"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "canh_bao_hoc_vu_pdf_page_1_chunk_1",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 1,
+          "category": "hoc_vu",
+          "distance": 0.576778769493103,
+          "is_relevant": false,
+          "content_preview": "TRƯỜNG ĐẠI HỌC VĂN HIẾN PHÒNG QUẢN LÝ ĐÀO TẠO Số: ..... /TB-ĐHVH-ĐẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc TP . Hồ Chí Minh, ngày ..... tháng ..... năm 2026 THÔNG BÁO CẢNH BÁO HỌC VỤ V/v Cảnh báo kết quả học tập không đạt yêu"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "canh_bao_hoc_vu_pdf_page_2_chunk_2",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 2,
+          "category": "hoc_vu",
+          "distance": 0.7247430086135864,
+          "is_relevant": false,
+          "content_preview": "học tập (để phối hợp); - Lưu: VT, P .QLĐT. TL. HIỆU TRƯỞNG TRƯỞNG PHÒNG QUẢN LÝ ĐÀO TẠO (Ký, ghi rõ họ tên và đóng dấu) PGS. TS. NGUYỄN VĂN A • • • • Trang 2 / 2"
+        }
+      ]
+    },
+    {
+      "question_id": 34,
+      "question": "Sinh viên đang bị cảnh báo học vụ được phép đăng ký tối đa bao nhiêu tín chỉ?",
+      "category": "hoc_vu",
+      "retrieval_mode": "weight_40_60",
+      "top_k": 5,
+      "reference_chunk_ids": [
+        "canh_bao_hoc_vu_pdf_page_2_chunk_1"
+      ],
+      "retrieved_chunk_ids": [
+        "canh_bao_hoc_vu_pdf_page_2_chunk_1",
+        "canh_bao_hoc_vu_pdf_page_1_chunk_2",
+        "canh_bao_hoc_vu_pdf_page_1_chunk_1",
+        "canh_bao_hoc_vu_pdf_page_2_chunk_2"
+      ],
+      "relevant_retrieved_ids": [
+        "canh_bao_hoc_vu_pdf_page_2_chunk_1"
+      ],
+      "relevant_count": 1,
+      "precision_at_5": 0.25,
+      "recall_at_5": 1.0,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_details": [
+        {
+          "rank": 1,
+          "chunk_id": "canh_bao_hoc_vu_pdf_page_2_chunk_1",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 2,
+          "category": "hoc_vu",
+          "distance": 0.3976033926010132,
+          "is_relevant": true,
+          "content_preview": "⚠️ HƯỚNG DẪN XỬ LÝ VÀ NGHĨA VỤ CỦA SINH VIÊN Đăng ký tư vấn học vụ: Sinh viên phải liên hệ Cố vấn học tập (Giảng viên chủ nhiệm) hoặc Trung tâm Chăm sóc Người học để lập kế hoạch cải thiện kết quả học tập trước ngày 15/05/2026. Giới hạn số tín chỉ đă"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "canh_bao_hoc_vu_pdf_page_1_chunk_2",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 1,
+          "category": "hoc_vu",
+          "distance": 0.5317997932434082,
+          "is_relevant": false,
+          "content_preview": "học: .................................. Căn cứ Quy chế Đào tạo đại học chính quy hiện hành của Trường Đại học Văn Hiến; Căn cứ kết quả học tập và rèn luyện của sinh viên tính đến hết Học kỳ I - Năm học 2025 - 2026; Phòng Quản lý Đào tạo trân trọng th"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "canh_bao_hoc_vu_pdf_page_1_chunk_1",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 1,
+          "category": "hoc_vu",
+          "distance": 0.5773465633392334,
+          "is_relevant": false,
+          "content_preview": "TRƯỜNG ĐẠI HỌC VĂN HIẾN PHÒNG QUẢN LÝ ĐÀO TẠO Số: ..... /TB-ĐHVH-ĐẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc TP . Hồ Chí Minh, ngày ..... tháng ..... năm 2026 THÔNG BÁO CẢNH BÁO HỌC VỤ V/v Cảnh báo kết quả học tập không đạt yêu"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "canh_bao_hoc_vu_pdf_page_2_chunk_2",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 2,
+          "category": "hoc_vu",
+          "distance": 0.7090355753898621,
+          "is_relevant": false,
+          "content_preview": "học tập (để phối hợp); - Lưu: VT, P .QLĐT. TL. HIỆU TRƯỞNG TRƯỞNG PHÒNG QUẢN LÝ ĐÀO TẠO (Ký, ghi rõ họ tên và đóng dấu) PGS. TS. NGUYỄN VĂN A • • • • Trang 2 / 2"
+        }
+      ]
+    },
+    {
+      "question_id": 35,
+      "question": "Số tín chỉ đạt trong học kỳ không đạt mức tối thiểu có thể dẫn đến cảnh báo học vụ không?",
+      "category": "hoc_vu",
+      "retrieval_mode": "weight_40_60",
+      "top_k": 5,
+      "reference_chunk_ids": [
+        "canh_bao_hoc_vu_pdf_page_1_chunk_2"
+      ],
+      "retrieved_chunk_ids": [
+        "canh_bao_hoc_vu_pdf_page_2_chunk_1",
+        "canh_bao_hoc_vu_pdf_page_1_chunk_2",
+        "canh_bao_hoc_vu_pdf_page_1_chunk_1",
+        "canh_bao_hoc_vu_pdf_page_2_chunk_2"
+      ],
+      "relevant_retrieved_ids": [
+        "canh_bao_hoc_vu_pdf_page_1_chunk_2"
+      ],
+      "relevant_count": 1,
+      "precision_at_5": 0.25,
+      "recall_at_5": 1.0,
+      "hit_at_1": 0.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "first_relevant_rank": 2,
+      "reciprocal_rank": 0.5,
+      "retrieved_details": [
+        {
+          "rank": 1,
+          "chunk_id": "canh_bao_hoc_vu_pdf_page_2_chunk_1",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 2,
+          "category": "hoc_vu",
+          "distance": 0.43255099654197693,
+          "is_relevant": false,
+          "content_preview": "⚠️ HƯỚNG DẪN XỬ LÝ VÀ NGHĨA VỤ CỦA SINH VIÊN Đăng ký tư vấn học vụ: Sinh viên phải liên hệ Cố vấn học tập (Giảng viên chủ nhiệm) hoặc Trung tâm Chăm sóc Người học để lập kế hoạch cải thiện kết quả học tập trước ngày 15/05/2026. Giới hạn số tín chỉ đă"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "canh_bao_hoc_vu_pdf_page_1_chunk_2",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 1,
+          "category": "hoc_vu",
+          "distance": 0.43741410970687866,
+          "is_relevant": true,
+          "content_preview": "học: .................................. Căn cứ Quy chế Đào tạo đại học chính quy hiện hành của Trường Đại học Văn Hiến; Căn cứ kết quả học tập và rèn luyện của sinh viên tính đến hết Học kỳ I - Năm học 2025 - 2026; Phòng Quản lý Đào tạo trân trọng th"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "canh_bao_hoc_vu_pdf_page_1_chunk_1",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 1,
+          "category": "hoc_vu",
+          "distance": 0.5329573154449463,
+          "is_relevant": false,
+          "content_preview": "TRƯỜNG ĐẠI HỌC VĂN HIẾN PHÒNG QUẢN LÝ ĐÀO TẠO Số: ..... /TB-ĐHVH-ĐẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc TP . Hồ Chí Minh, ngày ..... tháng ..... năm 2026 THÔNG BÁO CẢNH BÁO HỌC VỤ V/v Cảnh báo kết quả học tập không đạt yêu"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "canh_bao_hoc_vu_pdf_page_2_chunk_2",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 2,
+          "category": "hoc_vu",
+          "distance": 0.7062069773674011,
+          "is_relevant": false,
+          "content_preview": "học tập (để phối hợp); - Lưu: VT, P .QLĐT. TL. HIỆU TRƯỞNG TRƯỞNG PHÒNG QUẢN LÝ ĐÀO TẠO (Ký, ghi rõ họ tên và đóng dấu) PGS. TS. NGUYỄN VĂN A • • • • Trang 2 / 2"
+        }
+      ]
+    },
+    {
+      "question_id": 36,
+      "question": "Điểm rèn luyện được sử dụng như một tiêu chí đánh giá tình trạng học vụ của sinh viên không?",
+      "category": "hoc_vu",
+      "retrieval_mode": "weight_40_60",
+      "top_k": 5,
+      "reference_chunk_ids": [
+        "canh_bao_hoc_vu_pdf_page_1_chunk_2"
+      ],
+      "retrieved_chunk_ids": [
+        "canh_bao_hoc_vu_pdf_page_1_chunk_2",
+        "canh_bao_hoc_vu_pdf_page_1_chunk_1",
+        "canh_bao_hoc_vu_pdf_page_2_chunk_1",
+        "canh_bao_hoc_vu_pdf_page_2_chunk_2"
+      ],
+      "relevant_retrieved_ids": [
+        "canh_bao_hoc_vu_pdf_page_1_chunk_2"
+      ],
+      "relevant_count": 1,
+      "precision_at_5": 0.25,
+      "recall_at_5": 1.0,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_details": [
+        {
+          "rank": 1,
+          "chunk_id": "canh_bao_hoc_vu_pdf_page_1_chunk_2",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 1,
+          "category": "hoc_vu",
+          "distance": 0.5391334295272827,
+          "is_relevant": true,
+          "content_preview": "học: .................................. Căn cứ Quy chế Đào tạo đại học chính quy hiện hành của Trường Đại học Văn Hiến; Căn cứ kết quả học tập và rèn luyện của sinh viên tính đến hết Học kỳ I - Năm học 2025 - 2026; Phòng Quản lý Đào tạo trân trọng th"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "canh_bao_hoc_vu_pdf_page_1_chunk_1",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 1,
+          "category": "hoc_vu",
+          "distance": 0.663121223449707,
+          "is_relevant": false,
+          "content_preview": "TRƯỜNG ĐẠI HỌC VĂN HIẾN PHÒNG QUẢN LÝ ĐÀO TẠO Số: ..... /TB-ĐHVH-ĐẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc TP . Hồ Chí Minh, ngày ..... tháng ..... năm 2026 THÔNG BÁO CẢNH BÁO HỌC VỤ V/v Cảnh báo kết quả học tập không đạt yêu"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "canh_bao_hoc_vu_pdf_page_2_chunk_1",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 2,
+          "category": "hoc_vu",
+          "distance": 0.5874930620193481,
+          "is_relevant": false,
+          "content_preview": "⚠️ HƯỚNG DẪN XỬ LÝ VÀ NGHĨA VỤ CỦA SINH VIÊN Đăng ký tư vấn học vụ: Sinh viên phải liên hệ Cố vấn học tập (Giảng viên chủ nhiệm) hoặc Trung tâm Chăm sóc Người học để lập kế hoạch cải thiện kết quả học tập trước ngày 15/05/2026. Giới hạn số tín chỉ đă"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "canh_bao_hoc_vu_pdf_page_2_chunk_2",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 2,
+          "category": "hoc_vu",
+          "distance": 0.7084903717041016,
+          "is_relevant": false,
+          "content_preview": "học tập (để phối hợp); - Lưu: VT, P .QLĐT. TL. HIỆU TRƯỞNG TRƯỞNG PHÒNG QUẢN LÝ ĐÀO TẠO (Ký, ghi rõ họ tên và đóng dấu) PGS. TS. NGUYỄN VĂN A • • • • Trang 2 / 2"
+        }
+      ]
+    },
+    {
+      "question_id": 37,
+      "question": "Sinh viên bị cảnh báo học vụ hai lần liên tiếp có thể chịu hậu quả gì?",
+      "category": "hoc_vu",
+      "retrieval_mode": "weight_40_60",
+      "top_k": 5,
+      "reference_chunk_ids": [
+        "canh_bao_hoc_vu_pdf_page_2_chunk_1"
+      ],
+      "retrieved_chunk_ids": [
+        "canh_bao_hoc_vu_pdf_page_2_chunk_1",
+        "canh_bao_hoc_vu_pdf_page_1_chunk_2",
+        "canh_bao_hoc_vu_pdf_page_1_chunk_1",
+        "canh_bao_hoc_vu_pdf_page_2_chunk_2"
+      ],
+      "relevant_retrieved_ids": [
+        "canh_bao_hoc_vu_pdf_page_2_chunk_1"
+      ],
+      "relevant_count": 1,
+      "precision_at_5": 0.25,
+      "recall_at_5": 1.0,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_details": [
+        {
+          "rank": 1,
+          "chunk_id": "canh_bao_hoc_vu_pdf_page_2_chunk_1",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 2,
+          "category": "hoc_vu",
+          "distance": 0.394610732793808,
+          "is_relevant": true,
+          "content_preview": "⚠️ HƯỚNG DẪN XỬ LÝ VÀ NGHĨA VỤ CỦA SINH VIÊN Đăng ký tư vấn học vụ: Sinh viên phải liên hệ Cố vấn học tập (Giảng viên chủ nhiệm) hoặc Trung tâm Chăm sóc Người học để lập kế hoạch cải thiện kết quả học tập trước ngày 15/05/2026. Giới hạn số tín chỉ đă"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "canh_bao_hoc_vu_pdf_page_1_chunk_2",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 1,
+          "category": "hoc_vu",
+          "distance": 0.4754472076892853,
+          "is_relevant": false,
+          "content_preview": "học: .................................. Căn cứ Quy chế Đào tạo đại học chính quy hiện hành của Trường Đại học Văn Hiến; Căn cứ kết quả học tập và rèn luyện của sinh viên tính đến hết Học kỳ I - Năm học 2025 - 2026; Phòng Quản lý Đào tạo trân trọng th"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "canh_bao_hoc_vu_pdf_page_1_chunk_1",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 1,
+          "category": "hoc_vu",
+          "distance": 0.5328470468521118,
+          "is_relevant": false,
+          "content_preview": "TRƯỜNG ĐẠI HỌC VĂN HIẾN PHÒNG QUẢN LÝ ĐÀO TẠO Số: ..... /TB-ĐHVH-ĐẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc TP . Hồ Chí Minh, ngày ..... tháng ..... năm 2026 THÔNG BÁO CẢNH BÁO HỌC VỤ V/v Cảnh báo kết quả học tập không đạt yêu"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "canh_bao_hoc_vu_pdf_page_2_chunk_2",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 2,
+          "category": "hoc_vu",
+          "distance": 0.6582412123680115,
+          "is_relevant": false,
+          "content_preview": "học tập (để phối hợp); - Lưu: VT, P .QLĐT. TL. HIỆU TRƯỞNG TRƯỞNG PHÒNG QUẢN LÝ ĐÀO TẠO (Ký, ghi rõ họ tên và đóng dấu) PGS. TS. NGUYỄN VĂN A • • • • Trang 2 / 2"
+        }
+      ]
+    },
+    {
+      "question_id": 38,
+      "question": "Sinh viên bị cảnh báo học vụ ba lần trong toàn khóa có thể bị xử lý như thế nào?",
+      "category": "hoc_vu",
+      "retrieval_mode": "weight_40_60",
+      "top_k": 5,
+      "reference_chunk_ids": [
+        "canh_bao_hoc_vu_pdf_page_2_chunk_1"
+      ],
+      "retrieved_chunk_ids": [
+        "canh_bao_hoc_vu_pdf_page_2_chunk_1",
+        "canh_bao_hoc_vu_pdf_page_1_chunk_2",
+        "canh_bao_hoc_vu_pdf_page_1_chunk_1",
+        "canh_bao_hoc_vu_pdf_page_2_chunk_2"
+      ],
+      "relevant_retrieved_ids": [
+        "canh_bao_hoc_vu_pdf_page_2_chunk_1"
+      ],
+      "relevant_count": 1,
+      "precision_at_5": 0.25,
+      "recall_at_5": 1.0,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_details": [
+        {
+          "rank": 1,
+          "chunk_id": "canh_bao_hoc_vu_pdf_page_2_chunk_1",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 2,
+          "category": "hoc_vu",
+          "distance": 0.4025607109069824,
+          "is_relevant": true,
+          "content_preview": "⚠️ HƯỚNG DẪN XỬ LÝ VÀ NGHĨA VỤ CỦA SINH VIÊN Đăng ký tư vấn học vụ: Sinh viên phải liên hệ Cố vấn học tập (Giảng viên chủ nhiệm) hoặc Trung tâm Chăm sóc Người học để lập kế hoạch cải thiện kết quả học tập trước ngày 15/05/2026. Giới hạn số tín chỉ đă"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "canh_bao_hoc_vu_pdf_page_1_chunk_2",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 1,
+          "category": "hoc_vu",
+          "distance": 0.5111978054046631,
+          "is_relevant": false,
+          "content_preview": "học: .................................. Căn cứ Quy chế Đào tạo đại học chính quy hiện hành của Trường Đại học Văn Hiến; Căn cứ kết quả học tập và rèn luyện của sinh viên tính đến hết Học kỳ I - Năm học 2025 - 2026; Phòng Quản lý Đào tạo trân trọng th"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "canh_bao_hoc_vu_pdf_page_1_chunk_1",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 1,
+          "category": "hoc_vu",
+          "distance": 0.5566423535346985,
+          "is_relevant": false,
+          "content_preview": "TRƯỜNG ĐẠI HỌC VĂN HIẾN PHÒNG QUẢN LÝ ĐÀO TẠO Số: ..... /TB-ĐHVH-ĐẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc TP . Hồ Chí Minh, ngày ..... tháng ..... năm 2026 THÔNG BÁO CẢNH BÁO HỌC VỤ V/v Cảnh báo kết quả học tập không đạt yêu"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "canh_bao_hoc_vu_pdf_page_2_chunk_2",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 2,
+          "category": "hoc_vu",
+          "distance": 0.6893869638442993,
+          "is_relevant": false,
+          "content_preview": "học tập (để phối hợp); - Lưu: VT, P .QLĐT. TL. HIỆU TRƯỞNG TRƯỞNG PHÒNG QUẢN LÝ ĐÀO TẠO (Ký, ghi rõ họ tên và đóng dấu) PGS. TS. NGUYỄN VĂN A • • • • Trang 2 / 2"
+        }
+      ]
+    },
+    {
+      "question_id": 39,
+      "question": "Sinh viên có CPA 1.82 trên thang điểm 4 có đạt mức CPA tối thiểu 2.00 theo thông báo cảnh báo học vụ không?",
+      "category": "hoc_vu",
+      "retrieval_mode": "weight_40_60",
+      "top_k": 5,
+      "reference_chunk_ids": [
+        "canh_bao_hoc_vu_pdf_page_1_chunk_2"
+      ],
+      "retrieved_chunk_ids": [
+        "canh_bao_hoc_vu_pdf_page_1_chunk_2",
+        "canh_bao_hoc_vu_pdf_page_2_chunk_1",
+        "canh_bao_hoc_vu_pdf_page_1_chunk_1",
+        "canh_bao_hoc_vu_pdf_page_2_chunk_2"
+      ],
+      "relevant_retrieved_ids": [
+        "canh_bao_hoc_vu_pdf_page_1_chunk_2"
+      ],
+      "relevant_count": 1,
+      "precision_at_5": 0.25,
+      "recall_at_5": 1.0,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_details": [
+        {
+          "rank": 1,
+          "chunk_id": "canh_bao_hoc_vu_pdf_page_1_chunk_2",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 1,
+          "category": "hoc_vu",
+          "distance": 0.46713411808013916,
+          "is_relevant": true,
+          "content_preview": "học: .................................. Căn cứ Quy chế Đào tạo đại học chính quy hiện hành của Trường Đại học Văn Hiến; Căn cứ kết quả học tập và rèn luyện của sinh viên tính đến hết Học kỳ I - Năm học 2025 - 2026; Phòng Quản lý Đào tạo trân trọng th"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "canh_bao_hoc_vu_pdf_page_2_chunk_1",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 2,
+          "category": "hoc_vu",
+          "distance": 0.5629217624664307,
+          "is_relevant": false,
+          "content_preview": "⚠️ HƯỚNG DẪN XỬ LÝ VÀ NGHĨA VỤ CỦA SINH VIÊN Đăng ký tư vấn học vụ: Sinh viên phải liên hệ Cố vấn học tập (Giảng viên chủ nhiệm) hoặc Trung tâm Chăm sóc Người học để lập kế hoạch cải thiện kết quả học tập trước ngày 15/05/2026. Giới hạn số tín chỉ đă"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "canh_bao_hoc_vu_pdf_page_1_chunk_1",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 1,
+          "category": "hoc_vu",
+          "distance": 0.6149029731750488,
+          "is_relevant": false,
+          "content_preview": "TRƯỜNG ĐẠI HỌC VĂN HIẾN PHÒNG QUẢN LÝ ĐÀO TẠO Số: ..... /TB-ĐHVH-ĐẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc TP . Hồ Chí Minh, ngày ..... tháng ..... năm 2026 THÔNG BÁO CẢNH BÁO HỌC VỤ V/v Cảnh báo kết quả học tập không đạt yêu"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "canh_bao_hoc_vu_pdf_page_2_chunk_2",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 2,
+          "category": "hoc_vu",
+          "distance": 0.7432292103767395,
+          "is_relevant": false,
+          "content_preview": "học tập (để phối hợp); - Lưu: VT, P .QLĐT. TL. HIỆU TRƯỞNG TRƯỞNG PHÒNG QUẢN LÝ ĐÀO TẠO (Ký, ghi rõ họ tên và đóng dấu) PGS. TS. NGUYỄN VĂN A • • • • Trang 2 / 2"
+        }
+      ]
+    },
+    {
+      "question_id": 40,
+      "question": "Sinh viên vừa có CPA thấp vừa có số tín chỉ đạt trong học kỳ dưới mức tối thiểu có nguy cơ bị cảnh báo học vụ không?",
+      "category": "hoc_vu",
+      "retrieval_mode": "weight_40_60",
+      "top_k": 5,
+      "reference_chunk_ids": [
+        "canh_bao_hoc_vu_pdf_page_1_chunk_2"
+      ],
+      "retrieved_chunk_ids": [
+        "canh_bao_hoc_vu_pdf_page_1_chunk_2",
+        "canh_bao_hoc_vu_pdf_page_2_chunk_1",
+        "canh_bao_hoc_vu_pdf_page_1_chunk_1",
+        "canh_bao_hoc_vu_pdf_page_2_chunk_2"
+      ],
+      "relevant_retrieved_ids": [
+        "canh_bao_hoc_vu_pdf_page_1_chunk_2"
+      ],
+      "relevant_count": 1,
+      "precision_at_5": 0.25,
+      "recall_at_5": 1.0,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_details": [
+        {
+          "rank": 1,
+          "chunk_id": "canh_bao_hoc_vu_pdf_page_1_chunk_2",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 1,
+          "category": "hoc_vu",
+          "distance": 0.43410933017730713,
+          "is_relevant": true,
+          "content_preview": "học: .................................. Căn cứ Quy chế Đào tạo đại học chính quy hiện hành của Trường Đại học Văn Hiến; Căn cứ kết quả học tập và rèn luyện của sinh viên tính đến hết Học kỳ I - Năm học 2025 - 2026; Phòng Quản lý Đào tạo trân trọng th"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "canh_bao_hoc_vu_pdf_page_2_chunk_1",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 2,
+          "category": "hoc_vu",
+          "distance": 0.4732837677001953,
+          "is_relevant": false,
+          "content_preview": "⚠️ HƯỚNG DẪN XỬ LÝ VÀ NGHĨA VỤ CỦA SINH VIÊN Đăng ký tư vấn học vụ: Sinh viên phải liên hệ Cố vấn học tập (Giảng viên chủ nhiệm) hoặc Trung tâm Chăm sóc Người học để lập kế hoạch cải thiện kết quả học tập trước ngày 15/05/2026. Giới hạn số tín chỉ đă"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "canh_bao_hoc_vu_pdf_page_1_chunk_1",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 1,
+          "category": "hoc_vu",
+          "distance": 0.5626491904258728,
+          "is_relevant": false,
+          "content_preview": "TRƯỜNG ĐẠI HỌC VĂN HIẾN PHÒNG QUẢN LÝ ĐÀO TẠO Số: ..... /TB-ĐHVH-ĐẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc TP . Hồ Chí Minh, ngày ..... tháng ..... năm 2026 THÔNG BÁO CẢNH BÁO HỌC VỤ V/v Cảnh báo kết quả học tập không đạt yêu"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "canh_bao_hoc_vu_pdf_page_2_chunk_2",
+          "source": "canh_bao_hoc_vu.pdf",
+          "page": 2,
+          "category": "hoc_vu",
+          "distance": 0.7153209447860718,
+          "is_relevant": false,
+          "content_preview": "học tập (để phối hợp); - Lưu: VT, P .QLĐT. TL. HIỆU TRƯỞNG TRƯỞNG PHÒNG QUẢN LÝ ĐÀO TẠO (Ký, ghi rõ họ tên và đóng dấu) PGS. TS. NGUYỄN VĂN A • • • • Trang 2 / 2"
+        }
+      ]
+    },
+    {
+      "question_id": 41,
+      "question": "Chương trình đào tạo được xây dựng theo đơn vị nào và được cấu trúc từ những thành phần nào?",
+      "category": "dao_tao",
+      "retrieval_mode": "weight_40_60",
+      "top_k": 5,
+      "reference_chunk_ids": [
+        "979_2022_pdf_page_2_chunk_3"
+      ],
+      "retrieved_chunk_ids": [
+        "979_2022_pdf_page_2_chunk_3",
+        "979_2022_pdf_page_5_chunk_1",
+        "979_2022_pdf_page_3_chunk_2",
+        "979_2022_pdf_page_5_chunk_3",
+        "979_2022_pdf_page_2_chunk_4"
+      ],
+      "relevant_retrieved_ids": [
+        "979_2022_pdf_page_2_chunk_3"
+      ],
+      "relevant_count": 1,
+      "precision_at_5": 0.2,
+      "recall_at_5": 1.0,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_details": [
+        {
+          "rank": 1,
+          "chunk_id": "979_2022_pdf_page_2_chunk_3",
+          "source": "979.2022.pdf",
+          "page": 2,
+          "category": "dao_tao",
+          "distance": 0.46340247988700867,
+          "is_relevant": true,
+          "content_preview": "căn cứ để Trường xây dựng và ban hành các văn bản liên quan đến tổ chức và quản lý đào tạo trình độ đại học theo phương thức tín chỉ. Điều 2. Chương trình đào tạo và thời gian học tập 1. Chương trình đào tạo được xây dựng theo đơn vị tín chỉ, cấu trú"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "979_2022_pdf_page_5_chunk_1",
+          "source": "979.2022.pdf",
+          "page": 5,
+          "category": "dao_tao",
+          "distance": 0.5435510277748108,
+          "is_relevant": false,
+          "content_preview": "4 đào tạo theo lớp học phần, cho phép sinh viên tích lũy tín chỉ của từng học phần và thực hiện CTĐT theo kế hoạch học tập của cá nhân, phù hợp vớ i kế hoạch giảng dạy của Trường. Điều 5. Hình thức đào tạo 1. Đào tạo chính quy: a) Các hoạt động giảng"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "979_2022_pdf_page_3_chunk_2",
+          "source": "979.2022.pdf",
+          "page": 3,
+          "category": "dao_tao",
+          "distance": 0.5507179498672485,
+          "is_relevant": false,
+          "content_preview": "sinh viên những kiến thức và kỹ năng nghề nghiệp cơ bản cần thiết. - Mỗi khối kiến thức đều được cấu trúc bởi hai phần: phần bắt buộc và phần tự chọn. 5. CTĐT phải được định kỳ bổ sung, điều chỉnh ít nhất 2 năm/ lần trên cơ sở tham khảo các chương tr"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "979_2022_pdf_page_5_chunk_3",
+          "source": "979.2022.pdf",
+          "page": 5,
+          "category": "dao_tao",
+          "distance": 0.5702778100967407,
+          "is_relevant": false,
+          "content_preview": "sinh viên hoàn thành một chương trình cụ thể. Tùy thuộc vào CTĐT, khóa học được quy định như sau: - Đào tạo trình độ đại học được thực hiện từ bốn năm học tùy theo ngành nghề; - Đào tạo liên thông, văn bằng 2: thực hiện từ một năm rưỡi đến ba năm học"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "979_2022_pdf_page_2_chunk_4",
+          "source": "979.2022.pdf",
+          "page": 2,
+          "category": "dao_tao",
+          "distance": 0.544397234916687,
+          "is_relevant": false,
+          "content_preview": "học khác nhau. Đối với người đã tốt nghiệp trình độ khác hoặc ngành khác, khối lượng học tập thực tế được xác định trên cơ sở công nhận hoặc chuyển đổi tín chỉ đã tích lũy và miễn trừ học phần trong CTĐT đã học. 3. CTĐT phải được công khai đối với ng"
+        }
+      ]
+    },
+    {
+      "question_id": 42,
+      "question": "Chương trình đào tạo gồm những khối kiến thức chính nào?",
+      "category": "dao_tao",
+      "retrieval_mode": "weight_40_60",
+      "top_k": 5,
+      "reference_chunk_ids": [
+        "979_2022_pdf_page_2_chunk_4",
+        "979_2022_pdf_page_3_chunk_2"
+      ],
+      "retrieved_chunk_ids": [
+        "979_2022_pdf_page_3_chunk_1",
+        "979_2022_pdf_page_3_chunk_2",
+        "979_2022_pdf_page_2_chunk_3",
+        "Khung_Chuong_trinh_dao_tao_ThS_CNTT_pdf_page_1_chunk_1",
+        "Khung_Chuong_trinh_dao_tao_ThS_CNTT_pdf_page_2_chunk_1"
+      ],
+      "relevant_retrieved_ids": [
+        "979_2022_pdf_page_3_chunk_2"
+      ],
+      "relevant_count": 1,
+      "precision_at_5": 0.2,
+      "recall_at_5": 0.5,
+      "hit_at_1": 0.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "first_relevant_rank": 2,
+      "reciprocal_rank": 0.5,
+      "retrieved_details": [
+        {
+          "rank": 1,
+          "chunk_id": "979_2022_pdf_page_3_chunk_1",
+          "source": "979.2022.pdf",
+          "page": 3,
+          "category": "dao_tao",
+          "distance": 0.4779694080352783,
+          "is_relevant": false,
+          "content_preview": "2 bản về tự nhiên, kinh tế, văn hóa, xã hội; hình thành cho sinh viên năng lực thẩm mỹ, trách nhiệm xã hội, khả năng thích ứng với môi trường giáo dục đại học và đa văn hóa; có đạo đức, nhận thức trách nhiệm công dân; có năng lực tham gia xây dựng và"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "979_2022_pdf_page_3_chunk_2",
+          "source": "979.2022.pdf",
+          "page": 3,
+          "category": "dao_tao",
+          "distance": 0.48061370849609375,
+          "is_relevant": true,
+          "content_preview": "sinh viên những kiến thức và kỹ năng nghề nghiệp cơ bản cần thiết. - Mỗi khối kiến thức đều được cấu trúc bởi hai phần: phần bắt buộc và phần tự chọn. 5. CTĐT phải được định kỳ bổ sung, điều chỉnh ít nhất 2 năm/ lần trên cơ sở tham khảo các chương tr"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "979_2022_pdf_page_2_chunk_3",
+          "source": "979.2022.pdf",
+          "page": 2,
+          "category": "dao_tao",
+          "distance": 0.5332937240600586,
+          "is_relevant": false,
+          "content_preview": "căn cứ để Trường xây dựng và ban hành các văn bản liên quan đến tổ chức và quản lý đào tạo trình độ đại học theo phương thức tín chỉ. Điều 2. Chương trình đào tạo và thời gian học tập 1. Chương trình đào tạo được xây dựng theo đơn vị tín chỉ, cấu trú"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "Khung_Chuong_trinh_dao_tao_ThS_CNTT_pdf_page_1_chunk_1",
+          "source": "Khung Chuong trinh dao tao ThS-CNTT.pdf",
+          "page": 1,
+          "category": "dao_tao",
+          "distance": 0.5127192735671997,
+          "is_relevant": false,
+          "content_preview": "1 BỘ GIÁO DỤC VÀ ĐÀO TẠO TRƯỜNG ĐẠI HỌC VĂN HIẾN CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc CHƯƠNG TRÌNH ĐÀO TẠO TRÌNH ĐỘ THẠC SĨ NGÀNH CÔNG NGHỆ THÔNG TIN (Ban hành theo Quyết định số 214/MYH25/VHU/QĐ ngày 20 tháng 12 năm 2024 c"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "Khung_Chuong_trinh_dao_tao_ThS_CNTT_pdf_page_2_chunk_1",
+          "source": "Khung Chuong trinh dao tao ThS-CNTT.pdf",
+          "page": 2,
+          "category": "dao_tao",
+          "distance": 0.5233940482139587,
+          "is_relevant": false,
+          "content_preview": "2 Stt Mã học phần Tên học phần Khối lượng tín chỉ Số tín chỉ LT TH/ TT Phần thực tập tốt nghiệp 5 0 5 1 INT741 Thực tập chuyên đề (Internship) (*) 2 0 2 2 INT742 Thực tập tốt nghiệp (Graduation internship) (**) 3 0 3 Học phần tốt nghiệp 9 0 9 1 "
+        }
+      ]
+    },
+    {
+      "question_id": 43,
+      "question": "Học phần bắt buộc và học phần tự chọn khác nhau như thế nào?",
+      "category": "dao_tao",
+      "retrieval_mode": "weight_40_60",
+      "top_k": 5,
+      "reference_chunk_ids": [
+        "979_2022_pdf_page_4_chunk_1",
+        "979_2022_pdf_page_4_chunk_2"
+      ],
+      "retrieved_chunk_ids": [
+        "979_2022_pdf_page_4_chunk_2",
+        "979_2022_pdf_page_4_chunk_1",
+        "CTDT_ThietKeDoHoa_2020_pdf_page_1_chunk_3",
+        "CTDT_KhoaHocMayTinh_2020_pdf_page_1_chunk_2",
+        "979_2022_pdf_page_4_chunk_3"
+      ],
+      "relevant_retrieved_ids": [
+        "979_2022_pdf_page_4_chunk_1",
+        "979_2022_pdf_page_4_chunk_2"
+      ],
+      "relevant_count": 2,
+      "precision_at_5": 0.4,
+      "recall_at_5": 1.0,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_details": [
+        {
+          "rank": 1,
+          "chunk_id": "979_2022_pdf_page_4_chunk_2",
+          "source": "979.2022.pdf",
+          "page": 4,
+          "category": "dao_tao",
+          "distance": 0.3766685426235199,
+          "is_relevant": true,
+          "content_preview": "- Học phần tự chọn: là học phần chứa đựng những nội dung kiến thức cần thiết, sinh viên được tự chọn theo hướng dẫn của trường nhằm đa dạng hóa hướng chuyên môn hoặc tự chọn tùy ý để tích lũy đủ số học phần và số tín chỉ quy định cho mỗi CTĐT: d) Ngo"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "979_2022_pdf_page_4_chunk_1",
+          "source": "979.2022.pdf",
+          "page": 4,
+          "category": "dao_tao",
+          "distance": 0.4476369619369507,
+          "is_relevant": true,
+          "content_preview": "3 b) Hoạt động giảng dạy của một học phần bao gồm một hay kết hợp một số hình thức sau: giảng dạy lý thuyết (trực tiếp, trực tuyến, kết hợp trực tiếp và trực tuyến) ; hướng dẫn thực hành, bài tập, bài tập lớn - tổ chức theo lớp hay theo từng nhóm; gi"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "CTDT_ThietKeDoHoa_2020_pdf_page_1_chunk_3",
+          "source": "CTDT_ThietKeDoHoa 2020.pdf",
+          "page": 1,
+          "category": "dao_tao",
+          "distance": 0.49624183773994446,
+          "is_relevant": false,
+          "content_preview": "tín chỉ Phần bắt buộc I.1. Các học phần về lý luận chính trị và pháp luật I.2. Các học phần về ứng dụng CNTT và sử dụng ngoại ngữ I.3. Các học phần về khoa học tự nhiên, môi trường I.5. Các học phần về khoa học xã hội, nhân văn và đa văn hóa STT Mã H"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "CTDT_KhoaHocMayTinh_2020_pdf_page_1_chunk_2",
+          "source": "CTDT_KhoaHocMayTinh 2020.pdf",
+          "page": 1,
+          "category": "dao_tao",
+          "distance": 0.5612674951553345,
+          "is_relevant": false,
+          "content_preview": "Phương pháp học đại học 3 3 15 15 0 0 0 0 (Chọn 1 trong 2 học phần) 1 ENG201 Tiếng Anh giao tiếp 1 3 2 SKL202 Kỹ năng hành chính văn phòng 3 (Chọn 1 trong 2 học phần) 1 ENG202 Tiếng Anh giao tiếp 2 3 ENG201 2 VIE201 Kỹ năng sử dụng tiếng Việt 3 (Chọn"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "979_2022_pdf_page_4_chunk_3",
+          "source": "979.2022.pdf",
+          "page": 4,
+          "category": "dao_tao",
+          "distance": 0.5192874670028687,
+          "is_relevant": false,
+          "content_preview": "viên phải đạt mới được đăng ký học phần tiếp theo. - Học phần học trước: là học phần mà sinh viên hoàn thành quá trình học tập (không cần phải đạt học phần) trước khi đăng ký học phần tiếp theo. - Học phần song hành: hai học phần được gọi là song hàn"
+        }
+      ]
+    },
+    {
+      "question_id": 44,
+      "question": "Học phần bắt buộc được quy định như thế nào trong chương trình đào tạo?",
+      "category": "dao_tao",
+      "retrieval_mode": "weight_40_60",
+      "top_k": 5,
+      "reference_chunk_ids": [
+        "979_2022_pdf_page_4_chunk_1"
+      ],
+      "retrieved_chunk_ids": [
+        "979_2022_pdf_page_4_chunk_3",
+        "979_2022_pdf_page_2_chunk_3",
+        "979_2022_pdf_page_4_chunk_2",
+        "979_2022_pdf_page_3_chunk_2",
+        "CTDT_TiengTrungBienPhienDich_2020_pdf_page_1_chunk_3"
+      ],
+      "relevant_retrieved_ids": [],
+      "relevant_count": 0,
+      "precision_at_5": 0.0,
+      "recall_at_5": 0.0,
+      "hit_at_1": 0.0,
+      "hit_at_3": 0.0,
+      "hit_at_5": 0.0,
+      "first_relevant_rank": null,
+      "reciprocal_rank": 0.0,
+      "retrieved_details": [
+        {
+          "rank": 1,
+          "chunk_id": "979_2022_pdf_page_4_chunk_3",
+          "source": "979.2022.pdf",
+          "page": 4,
+          "category": "dao_tao",
+          "distance": 0.4747692346572876,
+          "is_relevant": false,
+          "content_preview": "viên phải đạt mới được đăng ký học phần tiếp theo. - Học phần học trước: là học phần mà sinh viên hoàn thành quá trình học tập (không cần phải đạt học phần) trước khi đăng ký học phần tiếp theo. - Học phần song hành: hai học phần được gọi là song hàn"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "979_2022_pdf_page_2_chunk_3",
+          "source": "979.2022.pdf",
+          "page": 2,
+          "category": "dao_tao",
+          "distance": 0.4905411899089813,
+          "is_relevant": false,
+          "content_preview": "căn cứ để Trường xây dựng và ban hành các văn bản liên quan đến tổ chức và quản lý đào tạo trình độ đại học theo phương thức tín chỉ. Điều 2. Chương trình đào tạo và thời gian học tập 1. Chương trình đào tạo được xây dựng theo đơn vị tín chỉ, cấu trú"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "979_2022_pdf_page_4_chunk_2",
+          "source": "979.2022.pdf",
+          "page": 4,
+          "category": "dao_tao",
+          "distance": 0.4765923023223877,
+          "is_relevant": false,
+          "content_preview": "- Học phần tự chọn: là học phần chứa đựng những nội dung kiến thức cần thiết, sinh viên được tự chọn theo hướng dẫn của trường nhằm đa dạng hóa hướng chuyên môn hoặc tự chọn tùy ý để tích lũy đủ số học phần và số tín chỉ quy định cho mỗi CTĐT: d) Ngo"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "979_2022_pdf_page_3_chunk_2",
+          "source": "979.2022.pdf",
+          "page": 3,
+          "category": "dao_tao",
+          "distance": 0.5310094356536865,
+          "is_relevant": false,
+          "content_preview": "sinh viên những kiến thức và kỹ năng nghề nghiệp cơ bản cần thiết. - Mỗi khối kiến thức đều được cấu trúc bởi hai phần: phần bắt buộc và phần tự chọn. 5. CTĐT phải được định kỳ bổ sung, điều chỉnh ít nhất 2 năm/ lần trên cơ sở tham khảo các chương tr"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "CTDT_TiengTrungBienPhienDich_2020_pdf_page_1_chunk_3",
+          "source": "CTDT_TiengTrungBienPhienDich 2020.pdf",
+          "page": 1,
+          "category": "dao_tao",
+          "distance": 0.4831153452396393,
+          "is_relevant": false,
+          "content_preview": "luật I.2. Các học phần về ứng dụng CNTT và sử dụng ngoại ngữ I.3. Các học phần về khoa học tự nhiên, môi trường I.4. Các học phần về kinh tế, quản lý và quản trị đại cương I.5. Các học phần về khoa học xã hội, nhân văn và đa văn hóa NỘI DUNG CHƯƠNG T"
+        }
+      ]
+    },
+    {
+      "question_id": 45,
+      "question": "Học phần tự chọn được quy định như thế nào trong chương trình đào tạo?",
+      "category": "dao_tao",
+      "retrieval_mode": "weight_40_60",
+      "top_k": 5,
+      "reference_chunk_ids": [
+        "979_2022_pdf_page_4_chunk_2"
+      ],
+      "retrieved_chunk_ids": [
+        "979_2022_pdf_page_4_chunk_2",
+        "CTDT_KhoaHocMayTinh_2020_pdf_page_1_chunk_3",
+        "979_2022_pdf_page_3_chunk_2",
+        "979_2022_pdf_page_4_chunk_4",
+        "979_2022_pdf_page_2_chunk_3"
+      ],
+      "relevant_retrieved_ids": [
+        "979_2022_pdf_page_4_chunk_2"
+      ],
+      "relevant_count": 1,
+      "precision_at_5": 0.2,
+      "recall_at_5": 1.0,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_details": [
+        {
+          "rank": 1,
+          "chunk_id": "979_2022_pdf_page_4_chunk_2",
+          "source": "979.2022.pdf",
+          "page": 4,
+          "category": "dao_tao",
+          "distance": 0.39103585481643677,
+          "is_relevant": true,
+          "content_preview": "- Học phần tự chọn: là học phần chứa đựng những nội dung kiến thức cần thiết, sinh viên được tự chọn theo hướng dẫn của trường nhằm đa dạng hóa hướng chuyên môn hoặc tự chọn tùy ý để tích lũy đủ số học phần và số tín chỉ quy định cho mỗi CTĐT: d) Ngo"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "CTDT_KhoaHocMayTinh_2020_pdf_page_1_chunk_3",
+          "source": "CTDT_KhoaHocMayTinh 2020.pdf",
+          "page": 1,
+          "category": "dao_tao",
+          "distance": 0.49949362874031067,
+          "is_relevant": false,
+          "content_preview": "về khoa học tự nhiên, môi trường I.4. Các học phần về kinh tế, quản lý và quản trị đại cương I.5. Các học phần về khoa học xã hội, nhân văn và đa văn hóa I.6. Các học phần về tố chất cá nhân chung Phần tự chọn 3 3 3 I. GIÁO DỤC ĐẠI CƯƠNG NỘI DUNG CHƯ"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "979_2022_pdf_page_3_chunk_2",
+          "source": "979.2022.pdf",
+          "page": 3,
+          "category": "dao_tao",
+          "distance": 0.5597003698348999,
+          "is_relevant": false,
+          "content_preview": "sinh viên những kiến thức và kỹ năng nghề nghiệp cơ bản cần thiết. - Mỗi khối kiến thức đều được cấu trúc bởi hai phần: phần bắt buộc và phần tự chọn. 5. CTĐT phải được định kỳ bổ sung, điều chỉnh ít nhất 2 năm/ lần trên cơ sở tham khảo các chương tr"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "979_2022_pdf_page_4_chunk_4",
+          "source": "979.2022.pdf",
+          "page": 4,
+          "category": "dao_tao",
+          "distance": 0.546044111251831,
+          "is_relevant": false,
+          "content_preview": "thí nghiệm, thực hành, thực tập phục vụ học phần và hướng dẫn sinh viên tự học. Đề cương chi tiết học phần được phê duyệt và công bố cùng với chương trình, đồng thời đăng tải trên website của khoa/trường. Nội dung đề cương chi tiết được giảng viên th"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "979_2022_pdf_page_2_chunk_3",
+          "source": "979.2022.pdf",
+          "page": 2,
+          "category": "dao_tao",
+          "distance": 0.5217792987823486,
+          "is_relevant": false,
+          "content_preview": "căn cứ để Trường xây dựng và ban hành các văn bản liên quan đến tổ chức và quản lý đào tạo trình độ đại học theo phương thức tín chỉ. Điều 2. Chương trình đào tạo và thời gian học tập 1. Chương trình đào tạo được xây dựng theo đơn vị tín chỉ, cấu trú"
+        }
+      ]
+    },
+    {
+      "question_id": 46,
+      "question": "Học phần tiên quyết và học phần học trước được quy định như thế nào?",
+      "category": "dao_tao",
+      "retrieval_mode": "weight_40_60",
+      "top_k": 5,
+      "reference_chunk_ids": [
+        "979_2022_pdf_page_4_chunk_2",
+        "979_2022_pdf_page_4_chunk_3"
+      ],
+      "retrieved_chunk_ids": [
+        "979_2022_pdf_page_4_chunk_3",
+        "979_2022_pdf_page_4_chunk_2",
+        "979_2022_pdf_page_6_chunk_4",
+        "CTDT_TiengTrungBienPhienDich_2020_pdf_page_3_chunk_1",
+        "CTDT_KhoaHocMayTinh_2020_pdf_page_4_chunk_1"
+      ],
+      "relevant_retrieved_ids": [
+        "979_2022_pdf_page_4_chunk_2",
+        "979_2022_pdf_page_4_chunk_3"
+      ],
+      "relevant_count": 2,
+      "precision_at_5": 0.4,
+      "recall_at_5": 1.0,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_details": [
+        {
+          "rank": 1,
+          "chunk_id": "979_2022_pdf_page_4_chunk_3",
+          "source": "979.2022.pdf",
+          "page": 4,
+          "category": "dao_tao",
+          "distance": 0.3823997676372528,
+          "is_relevant": true,
+          "content_preview": "viên phải đạt mới được đăng ký học phần tiếp theo. - Học phần học trước: là học phần mà sinh viên hoàn thành quá trình học tập (không cần phải đạt học phần) trước khi đăng ký học phần tiếp theo. - Học phần song hành: hai học phần được gọi là song hàn"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "979_2022_pdf_page_4_chunk_2",
+          "source": "979.2022.pdf",
+          "page": 4,
+          "category": "dao_tao",
+          "distance": 0.43014538288116455,
+          "is_relevant": true,
+          "content_preview": "- Học phần tự chọn: là học phần chứa đựng những nội dung kiến thức cần thiết, sinh viên được tự chọn theo hướng dẫn của trường nhằm đa dạng hóa hướng chuyên môn hoặc tự chọn tùy ý để tích lũy đủ số học phần và số tín chỉ quy định cho mỗi CTĐT: d) Ngo"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "979_2022_pdf_page_6_chunk_4",
+          "source": "979.2022.pdf",
+          "page": 6,
+          "category": "dao_tao",
+          "distance": 0.5663724541664124,
+          "is_relevant": false,
+          "content_preview": "các quy định hiện hành. c) Các học phần thí nghiệm, thực hành được mở với số lượng sinh viên phù hợp với cơ sở vật chất thực tế của Trường và khả năng đáp ứng của đơn vị tiếp nhận sinh viên. Điều 8. Tổ chức đăng ký khối lượng học tập 1. Học kỳ đầu ti"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "CTDT_TiengTrungBienPhienDich_2020_pdf_page_3_chunk_1",
+          "source": "CTDT_TiengTrungBienPhienDich 2020.pdf",
+          "page": 3,
+          "category": "dao_tao",
+          "distance": 0.5428561568260193,
+          "is_relevant": false,
+          "content_preview": "Tổng LT TH/ TN TT ĐA MH KL TN Mã HP học trướcTên học phầnSTT Mã HP Số tín chỉ 4 PHT103 Giáo dục thể chất 3 1 1 5 Kỹ năng mềm 6 Ngoại ngữ chuẩn đầu ra 7 Tin học chuẩn đầu ra * Giáo dục thể chất: Sinh viên học tập theo kế hoạch của Nhà trường. * Giáo d"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "CTDT_KhoaHocMayTinh_2020_pdf_page_4_chunk_1",
+          "source": "CTDT_KhoaHocMayTinh 2020.pdf",
+          "page": 4,
+          "category": "dao_tao",
+          "distance": 0.5813885927200317,
+          "is_relevant": false,
+          "content_preview": "Tổng LT TH/ TN TT ĐA MH KL TN STT Mã HP Tên học phần Số tín chỉ Mã HP học trước 17 0 0 5 0 12 1 INT520 Thực tập tốt nghiệp Công nghệ phần mềm 5 5 2 INT521 Đồ án tốt nghiệp Công nghệ phần mềm 12 12 1 INT522 Thực tập tốt nghiệp Hệ thống thông tin 5 5 2"
+        }
+      ]
+    },
+    {
+      "question_id": 47,
+      "question": "Sinh viên không đạt một học phần bắt buộc phải xử lý như thế nào?",
+      "category": "dao_tao",
+      "retrieval_mode": "weight_40_60",
+      "top_k": 5,
+      "reference_chunk_ids": [
+        "979_2022_pdf_page_7_chunk_3"
+      ],
+      "retrieved_chunk_ids": [
+        "979_2022_pdf_page_7_chunk_4",
+        "979_2022_pdf_page_7_chunk_3",
+        "979_2022_pdf_page_4_chunk_2",
+        "979_2022_pdf_page_4_chunk_3",
+        "979_2022_pdf_page_9_chunk_3"
+      ],
+      "relevant_retrieved_ids": [
+        "979_2022_pdf_page_7_chunk_3"
+      ],
+      "relevant_count": 1,
+      "precision_at_5": 0.2,
+      "recall_at_5": 1.0,
+      "hit_at_1": 0.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "first_relevant_rank": 2,
+      "reciprocal_rank": 0.5,
+      "retrieved_details": [
+        {
+          "rank": 1,
+          "chunk_id": "979_2022_pdf_page_7_chunk_4",
+          "source": "979.2022.pdf",
+          "page": 7,
+          "category": "dao_tao",
+          "distance": 0.45243898034095764,
+          "is_relevant": false,
+          "content_preview": "Quy chế này. Điều 10. Học lại, học cải thiện điểm 1. Học lại: a) Sinh viên không đạt một học phần bắt buộc phải đăng ký học lại học phần đó hoặc học phần tương đương theo quy định trong CTĐT hoặc học phần thay thế nếu học phần đó không còn được giảng"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "979_2022_pdf_page_7_chunk_3",
+          "source": "979.2022.pdf",
+          "page": 7,
+          "category": "dao_tao",
+          "distance": 0.45852628350257874,
+          "is_relevant": true,
+          "content_preview": "nghị được Khoa/Viện đồng ý. Điều 9. Hủy học phần và rút bớt học phần đã đăng ký 1. Sinh viên được phép hủy học phần đã đăng ký chậm nhất là trước khi học kỳ bắt đầu 1 tuần. Sau thời hạn cho phép hủy học phần, sinh viên phải đóng học phí cho những học"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "979_2022_pdf_page_4_chunk_2",
+          "source": "979.2022.pdf",
+          "page": 4,
+          "category": "dao_tao",
+          "distance": 0.5534857511520386,
+          "is_relevant": false,
+          "content_preview": "- Học phần tự chọn: là học phần chứa đựng những nội dung kiến thức cần thiết, sinh viên được tự chọn theo hướng dẫn của trường nhằm đa dạng hóa hướng chuyên môn hoặc tự chọn tùy ý để tích lũy đủ số học phần và số tín chỉ quy định cho mỗi CTĐT: d) Ngo"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "979_2022_pdf_page_4_chunk_3",
+          "source": "979.2022.pdf",
+          "page": 4,
+          "category": "dao_tao",
+          "distance": 0.5748900175094604,
+          "is_relevant": false,
+          "content_preview": "viên phải đạt mới được đăng ký học phần tiếp theo. - Học phần học trước: là học phần mà sinh viên hoàn thành quá trình học tập (không cần phải đạt học phần) trước khi đăng ký học phần tiếp theo. - Học phần song hành: hai học phần được gọi là song hàn"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "979_2022_pdf_page_9_chunk_3",
+          "source": "979.2022.pdf",
+          "page": 9,
+          "category": "dao_tao",
+          "distance": 0.5577172040939331,
+          "is_relevant": false,
+          "content_preview": "gồm: a) Việc tổ chức thi, kiểm tra, bao gồm quy định về thời gian ôn thi và thời gian thi, việc làm đề thi, coi thi, chấm thi, phúc tra (nếu có), bảo quản bài thi, việc hoãn thi và miễn thi; b) Việc tổ chức đánh giá các học phần đồ án, khóa luận, thự"
+        }
+      ]
+    },
+    {
+      "question_id": 48,
+      "question": "Mỗi khối kiến thức trong chương trình đào tạo được cấu trúc thành những phần nào?",
+      "category": "dao_tao",
+      "retrieval_mode": "weight_40_60",
+      "top_k": 5,
+      "reference_chunk_ids": [
+        "979_2022_pdf_page_3_chunk_2"
+      ],
+      "retrieved_chunk_ids": [
+        "979_2022_pdf_page_3_chunk_2",
+        "979_2022_pdf_page_2_chunk_4",
+        "979_2022_pdf_page_3_chunk_1",
+        "979_2022_pdf_page_2_chunk_3",
+        "979_2022_pdf_page_3_chunk_4"
+      ],
+      "relevant_retrieved_ids": [
+        "979_2022_pdf_page_3_chunk_2"
+      ],
+      "relevant_count": 1,
+      "precision_at_5": 0.2,
+      "recall_at_5": 1.0,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_details": [
+        {
+          "rank": 1,
+          "chunk_id": "979_2022_pdf_page_3_chunk_2",
+          "source": "979.2022.pdf",
+          "page": 3,
+          "category": "dao_tao",
+          "distance": 0.46685609221458435,
+          "is_relevant": true,
+          "content_preview": "sinh viên những kiến thức và kỹ năng nghề nghiệp cơ bản cần thiết. - Mỗi khối kiến thức đều được cấu trúc bởi hai phần: phần bắt buộc và phần tự chọn. 5. CTĐT phải được định kỳ bổ sung, điều chỉnh ít nhất 2 năm/ lần trên cơ sở tham khảo các chương tr"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "979_2022_pdf_page_2_chunk_4",
+          "source": "979.2022.pdf",
+          "page": 2,
+          "category": "dao_tao",
+          "distance": 0.4558466672897339,
+          "is_relevant": false,
+          "content_preview": "học khác nhau. Đối với người đã tốt nghiệp trình độ khác hoặc ngành khác, khối lượng học tập thực tế được xác định trên cơ sở công nhận hoặc chuyển đổi tín chỉ đã tích lũy và miễn trừ học phần trong CTĐT đã học. 3. CTĐT phải được công khai đối với ng"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "979_2022_pdf_page_3_chunk_1",
+          "source": "979.2022.pdf",
+          "page": 3,
+          "category": "dao_tao",
+          "distance": 0.49455854296684265,
+          "is_relevant": false,
+          "content_preview": "2 bản về tự nhiên, kinh tế, văn hóa, xã hội; hình thành cho sinh viên năng lực thẩm mỹ, trách nhiệm xã hội, khả năng thích ứng với môi trường giáo dục đại học và đa văn hóa; có đạo đức, nhận thức trách nhiệm công dân; có năng lực tham gia xây dựng và"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "979_2022_pdf_page_2_chunk_3",
+          "source": "979.2022.pdf",
+          "page": 2,
+          "category": "dao_tao",
+          "distance": 0.5009575486183167,
+          "is_relevant": false,
+          "content_preview": "căn cứ để Trường xây dựng và ban hành các văn bản liên quan đến tổ chức và quản lý đào tạo trình độ đại học theo phương thức tín chỉ. Điều 2. Chương trình đào tạo và thời gian học tập 1. Chương trình đào tạo được xây dựng theo đơn vị tín chỉ, cấu trú"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "979_2022_pdf_page_3_chunk_4",
+          "source": "979.2022.pdf",
+          "page": 3,
+          "category": "dao_tao",
+          "distance": 0.5537824630737305,
+          "is_relevant": false,
+          "content_preview": "trường hợp cụ thể, Hiệu trưởng có thể xem xét và gia hạn thêm thời gian đào tạo cho sinh viên nhưng không vượt quá hai lần thời gian kế hoạch học tập chuẩn toàn khóa tương ứng với mỗi CTĐT. Điều 3. Học phần, đề cương chi tiết học phần và tín chỉ 1. H"
+        }
+      ]
+    },
+    {
+      "question_id": 49,
+      "question": "Học phần trong chương trình đào tạo thường có khối lượng bao nhiêu tín chỉ?",
+      "category": "dao_tao",
+      "retrieval_mode": "weight_40_60",
+      "top_k": 5,
+      "reference_chunk_ids": [
+        "979_2022_pdf_page_3_chunk_4"
+      ],
+      "retrieved_chunk_ids": [
+        "979_2022_pdf_page_4_chunk_4",
+        "979_2022_pdf_page_3_chunk_4",
+        "979_2022_pdf_page_2_chunk_3",
+        "979_2022_pdf_page_10_chunk_4",
+        "1132MYH24_02_pdf_page_2_chunk_2"
+      ],
+      "relevant_retrieved_ids": [
+        "979_2022_pdf_page_3_chunk_4"
+      ],
+      "relevant_count": 1,
+      "precision_at_5": 0.2,
+      "recall_at_5": 1.0,
+      "hit_at_1": 0.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "first_relevant_rank": 2,
+      "reciprocal_rank": 0.5,
+      "retrieved_details": [
+        {
+          "rank": 1,
+          "chunk_id": "979_2022_pdf_page_4_chunk_4",
+          "source": "979.2022.pdf",
+          "page": 4,
+          "category": "dao_tao",
+          "distance": 0.40267667174339294,
+          "is_relevant": false,
+          "content_preview": "thí nghiệm, thực hành, thực tập phục vụ học phần và hướng dẫn sinh viên tự học. Đề cương chi tiết học phần được phê duyệt và công bố cùng với chương trình, đồng thời đăng tải trên website của khoa/trường. Nội dung đề cương chi tiết được giảng viên th"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "979_2022_pdf_page_3_chunk_4",
+          "source": "979.2022.pdf",
+          "page": 3,
+          "category": "dao_tao",
+          "distance": 0.42103707790374756,
+          "is_relevant": true,
+          "content_preview": "trường hợp cụ thể, Hiệu trưởng có thể xem xét và gia hạn thêm thời gian đào tạo cho sinh viên nhưng không vượt quá hai lần thời gian kế hoạch học tập chuẩn toàn khóa tương ứng với mỗi CTĐT. Điều 3. Học phần, đề cương chi tiết học phần và tín chỉ 1. H"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "979_2022_pdf_page_2_chunk_3",
+          "source": "979.2022.pdf",
+          "page": 2,
+          "category": "dao_tao",
+          "distance": 0.44492632150650024,
+          "is_relevant": false,
+          "content_preview": "căn cứ để Trường xây dựng và ban hành các văn bản liên quan đến tổ chức và quản lý đào tạo trình độ đại học theo phương thức tín chỉ. Điều 2. Chương trình đào tạo và thời gian học tập 1. Chương trình đào tạo được xây dựng theo đơn vị tín chỉ, cấu trú"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "979_2022_pdf_page_10_chunk_4",
+          "source": "979.2022.pdf",
+          "page": 10,
+          "category": "dao_tao",
+          "distance": 0.4943082332611084,
+          "is_relevant": false,
+          "content_preview": "sở đào tạo khác được Trường xem xét công nhận, chuyển đổi sang tín chỉ của những học phần trong CTĐT đang theo học. - Trường xem xét công nhận, chuyển đổi tín chỉ trên cơ sở đối sánh chuẩn đầu ra, nội dung và khối lượng học tập, cách thức đánh giá họ"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "1132MYH24_02_pdf_page_2_chunk_2",
+          "source": "1132MYH24_02.pdf",
+          "page": 2,
+          "category": "dao_tao",
+          "distance": 0.5323750972747803,
+          "is_relevant": false,
+          "content_preview": "từ một cơ sở đào tạo khác trong nước hoặc ngoài nước . Hình thức là chuyển đổi tín chỉ tương đương những học phần trong chương trình đào tạo trình độ đại học cho sinh viên liên thông tại Trường Đại học Văn Hiến (sau đây gọi tắt là Trường). 2. Quy địn"
+        }
+      ]
+    },
+    {
+      "question_id": 50,
+      "question": "Đề cương chi tiết học phần phải thể hiện những điều kiện học tập nào?",
+      "category": "dao_tao",
+      "retrieval_mode": "weight_40_60",
+      "top_k": 5,
+      "reference_chunk_ids": [
+        "979_2022_pdf_page_4_chunk_3"
+      ],
+      "retrieved_chunk_ids": [
+        "979_2022_pdf_page_4_chunk_3",
+        "979_2022_pdf_page_4_chunk_4",
+        "979_2022_pdf_page_3_chunk_4",
+        "979_2022_pdf_page_2_chunk_4",
+        "979_2022_pdf_page_8_chunk_4"
+      ],
+      "relevant_retrieved_ids": [
+        "979_2022_pdf_page_4_chunk_3"
+      ],
+      "relevant_count": 1,
+      "precision_at_5": 0.2,
+      "recall_at_5": 1.0,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "first_relevant_rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_details": [
+        {
+          "rank": 1,
+          "chunk_id": "979_2022_pdf_page_4_chunk_3",
+          "source": "979.2022.pdf",
+          "page": 4,
+          "category": "dao_tao",
+          "distance": 0.39665496349334717,
+          "is_relevant": true,
+          "content_preview": "viên phải đạt mới được đăng ký học phần tiếp theo. - Học phần học trước: là học phần mà sinh viên hoàn thành quá trình học tập (không cần phải đạt học phần) trước khi đăng ký học phần tiếp theo. - Học phần song hành: hai học phần được gọi là song hàn"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "979_2022_pdf_page_4_chunk_4",
+          "source": "979.2022.pdf",
+          "page": 4,
+          "category": "dao_tao",
+          "distance": 0.4570249915122986,
+          "is_relevant": false,
+          "content_preview": "thí nghiệm, thực hành, thực tập phục vụ học phần và hướng dẫn sinh viên tự học. Đề cương chi tiết học phần được phê duyệt và công bố cùng với chương trình, đồng thời đăng tải trên website của khoa/trường. Nội dung đề cương chi tiết được giảng viên th"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "979_2022_pdf_page_3_chunk_4",
+          "source": "979.2022.pdf",
+          "page": 3,
+          "category": "dao_tao",
+          "distance": 0.5255316495895386,
+          "is_relevant": false,
+          "content_preview": "trường hợp cụ thể, Hiệu trưởng có thể xem xét và gia hạn thêm thời gian đào tạo cho sinh viên nhưng không vượt quá hai lần thời gian kế hoạch học tập chuẩn toàn khóa tương ứng với mỗi CTĐT. Điều 3. Học phần, đề cương chi tiết học phần và tín chỉ 1. H"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "979_2022_pdf_page_2_chunk_4",
+          "source": "979.2022.pdf",
+          "page": 2,
+          "category": "dao_tao",
+          "distance": 0.5550001859664917,
+          "is_relevant": false,
+          "content_preview": "học khác nhau. Đối với người đã tốt nghiệp trình độ khác hoặc ngành khác, khối lượng học tập thực tế được xác định trên cơ sở công nhận hoặc chuyển đổi tín chỉ đã tích lũy và miễn trừ học phần trong CTĐT đã học. 3. CTĐT phải được công khai đối với ng"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "979_2022_pdf_page_8_chunk_4",
+          "source": "979.2022.pdf",
+          "page": 8,
+          "category": "dao_tao",
+          "distance": 0.5932778120040894,
+          "is_relevant": false,
+          "content_preview": "theo quy định hiện hành của Trường. 5. Việc lấy ý kiến phản hồi của người học về các điều kiện bảo đảm chất lượng, hiệu quả học tập đối với tất cả các lớp học của Trường và việc công khai ý kiến phản hồi của người học, bao gồm nội dung, mức độ, hình "
+        }
+      ]
+    }
+  ],
+  "skipped": []
+}
